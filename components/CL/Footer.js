@@ -56,7 +56,7 @@ export default function Footer() {
                 <h5>CONTACT US</h5>
                 <ul>
                     <li>
-                        <i class="fa fa-map-marker"></i> <span>Unit No. 629-634, 6th Floor, Vipul Trade Centre, Sohna Road, <br/>Gurgaon – 122018, Haryana (India)</span>
+                        <i class="fa fa-map-marker"></i> <span>BYLD Group: Plot 48, 2nd And 3rd Floor, Sector - 44, Opp. EPF Regional Office, Gurugram, Haryana - 122003</span>
                     </li>
                      <li>
                         <i class="fa fa-phone"></i> <a href='tel:1800 102 1345'><span>1800 102 1345</span></a>

@@ -81,7 +81,7 @@ export default function ExperientialLearning(){
                                     <div class="service-icon">
                                     <img src="/assets/img/icon/link.png" alt=""/>
                                     </div>
-                                    <h4 class="title mb-18">Jenson 8 (Virtual Reality Trainings)</h4>                                
+                                    <h4 class="title mb-18">Jenson8</h4>                                
                                 </div>
                                 </a>
                             </div> 

@@ -113,7 +113,7 @@ export default function OurLeadershipTeam(){
                                 <div className="team-content">
                                     <div className="team-info">
                                         <div className="name">
-                                            <a href="#">Amar Vijay Tandur</a>
+                                            <a href="#">Amarvijayy Taandur</a>
                                         </div>
                                         <span className="post">Chief Business Officer</span>
                                     </div>

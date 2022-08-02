@@ -1353,4 +1353,21 @@
 
 
 
+
+.mblock{ display: none;}
+@media (max-width:767px){
+  .lefttab{ display: block;}
+  .mresa{
+    padding: 0px;
+    border-bottom: 10px solid #2a6db5;
+  }
+  .dnone767px{ display: none;}
+  .mblock{ display:block;}
+}
+
+
+
+
+
+
    

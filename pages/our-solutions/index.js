@@ -26,9 +26,9 @@ export default function solution(){
                         <h4 className="countertoph2 text-center font30">Our Solutions</h4>
                         <div className="heading-border-line center-style"></div>
                         <p className='mtt-30'>
-                        We are dedicated to make a difference to people and their organizations. Our clients across industries trust BYLD to manage develop and align their talent needs in line with the business objectives and strategies – a responsibility we meet every day with enthusiasm, expertise, accountability, and passion.
+                        We are dedicated to make a difference to people and their organizations. Our clients across industries trust BYLD to manage, develop and align their talent needs in line with the business objectives and strategies – a responsibility we meet every day with enthusiasm, expertise, accountability, and passion.
                         </p>
-                        <p className='solutionp'>Our Mission is to make individuals, teams and organizations measurably more effective. Our Practice Areas include:</p>
+                        <p className='solutionp'>Our Mission is to make individuals, teams, and organizations measurably more effective. Our Practice Areas include:</p>
                     </div>
                     <div class="row service-wrap mr-0 ml-0">
                         <div class="col-sm-6 col-md-4 padding-0">

@@ -24,7 +24,7 @@ export default function Header() {
                                        </li>
                                        <li>
                                            <i className="flaticon-location"></i>
-                                           Unit No. 629-634, 6th Floor
+                                           BYLD Group: Plot 48, 2nd And 3rd Floor, Sector - 44
                                        </li>
                                    </ul>
                                 </div>
@@ -128,7 +128,7 @@ export default function Header() {
                                 </div>
                                 <div className="info-content">
                                     <h4 className="title">Address</h4>
-                                    <em>Unit No. 629-634, 6th Floor, Vipul Trade Centre, Sohna Road, Gurgaon – 122018, Haryana (India) </em>
+                                    <em>BYLD Group: Plot 48, 2nd And 3rd Floor, Sector - 44, Opp. EPF Regional Office, Gurugram, Haryana - 122003</em>
                                 </div>
                             </div>
                             <div className="address-list">

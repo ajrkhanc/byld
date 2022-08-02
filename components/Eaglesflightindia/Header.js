@@ -24,7 +24,7 @@ export default function Header() {
                                        </li>
                                        <li>
                                            <i className="flaticon-location"></i>
-                                           Plot 48, 2nd And 3rd Floor, Sector - 44,
+                                           Plot 48, 2nd And 3rd Floor, Sector - 44
                                        </li>
                                    </ul>
                                 </div>

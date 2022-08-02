@@ -35,7 +35,7 @@ export default function Header() {
                                        </li>
                                        <li>
                                            <i className="flaticon-location"></i>
-                                           Unit No. 629-634, 6th Floor
+                                           BYLD Group: 2nd and 3rd Floor, Plot No. 48, Sector - 44
                                        </li>
                                    </ul>
                                 </div>
@@ -44,11 +44,11 @@ export default function Header() {
                                 <div className="toolbar-sl-share">
                                     <ul>
                                          <li className="opening"> <em><i className="flaticon-clock"></i>Monday - Friday / 9AM - 6PM</em> </li>
-                                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                         <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                         <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                         <li><a href="#"><i className="fa fa-youtube"></i></a></li>
-                                         <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                         <li><a target="_blank" href="https://www.facebook.com/BYLDGroup"><i className="fa fa-facebook"></i></a></li>
+                                         <li><a target="_blank" href="https://www.linkedin.com/company/byld-group/"><i className="fa fa-linkedin"></i></a></li>
+                                         <li><a target="_blank" href="https://twitter.com/BYLDGroup"><i className="fa fa-twitter"></i></a></li>
+                                         <li><a target="_blank" href="https://www.youtube.com/channel/UC7kOBtc5uLtODiuTYvqgS4g"><i className="fa fa-youtube"></i></a></li>
+                                         <li><a target="_blank" href="https://www.instagram.com/byld_group/"><i className="fa fa-instagram"></i></a></li>
                                          
                                     </ul>
                                 </div>
@@ -100,7 +100,7 @@ export default function Header() {
                                                         <li className="last-item menu-item-has-children">
                                                             <a href="/our-solutions/assessments">Assessments</a>
                                                             <ul className="sub-menu">
-                                                                <li><a target="_blank" href="/everythingdisc">Everything DiSC (A Wiley Brand)</a> </li>
+                                                                <li><a target="_blank" href="/wiley">Everything DiSC (A Wiley Brand)</a> </li>
                                                                 <li><a href="/assessments/lumina-psychometric-assesments">Lumina Spark</a></li>
                                                                 <li><a href="/assessments/talentsmart-eq-assesments">TalentSmart EQ</a></li>
                                                                 <li><a href="/assessments/assessments-and-development-centers">Assessments and Development Centers</a></li>                                                                
@@ -217,7 +217,7 @@ export default function Header() {
                                 </div>
                                 <div className="info-content">
                                     <h4 className="title">Address</h4>
-                                    <em>Unit No. 629-634, 6th Floor, Vipul Trade Centre, Sohna Road, Gurgaon – 122018, Haryana (India) </em>
+                                    <em>BYLD Group: 2nd and 3rd Floor, Plot No. 48, Sector - 44, Opp. EPF Regional Office Gurugram, Haryana - 122003</em>
                                 </div>
                             </div>
                             <div className="address-list">

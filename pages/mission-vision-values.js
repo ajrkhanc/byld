@@ -33,7 +33,7 @@ export default function MissionVisionValues(){
                       </div>
                       <div className="services-text">
                               <h3 className="title">MISSION</h3>
-                              <p>Our MISSION is enabling individuals and organizations to achieve <strong>EXCELLENCE</strong> through innovative and integrated solutions. </p>
+                              <p>Our MISSION is to enable individuals and organizations to achieve <strong>EXCELLENCE</strong> through innovative and integrated solutions. </p>
                           </div>
                       </div>
                       <div className="msicon">
@@ -42,7 +42,7 @@ export default function MissionVisionValues(){
                       </div>
                       <div className="services-text">
                               <h3 className="title">VISION</h3>
-                              <p>Our VISION is to be the most preferred and comprehensive provider of personal, professional, and organizational effectiveness solutions. </p>
+                              <p>Our VISION is to become the most preferred and comprehensive provider of personal, professional, and organizational effectiveness solutions. </p>
                           </div>
                       </div>
                   </div>
@@ -93,7 +93,7 @@ export default function MissionVisionValues(){
                           <img src="/assets/img/icon/customer-centricity.png"/>
                           <h3>Customer centricity</h3>
                           <div className="heading-border-line center-style"></div>
-                          <p>We will strive to exceed expectations of internal and external customers in every moment of truth with them. We will actively encourage new ideas from one and all.</p>
+                          <p>We will strive to exceed the expectations of internal and external customers in every moment of truth with them. We will actively encourage new ideas from one and all.</p>
                        </div>
                     </div>
                     <div className='col-sm-4'>
@@ -101,7 +101,7 @@ export default function MissionVisionValues(){
                           <img src="/assets/img/icon/agile.png"/>
                           <h3>Agility</h3>
                           <div className="heading-border-line center-style"></div>
-                          <p>We will be flexible in our thoughts and agile in our actions in every situation which has direct/indirect impact on business.</p>
+                          <p>We will be flexible in our thoughts and agile in our actions in every situation, which has a direct/indirect impact on business.</p>
                       </div>
                     </div>
                     <div className='col-sm-4'>
@@ -125,7 +125,7 @@ export default function MissionVisionValues(){
                           <img src="/assets/img/icon/entrepreneurship.png"/>
                           <h3>Entrepreneurship</h3>
                           <div className="heading-border-line center-style"></div>
-                          <p>We will relentlessly pursue new opportunities on a day-to-day basis, to add value to our business. We will work smarter and strive to achieve more with fewer resources.</p>
+                          <p>We will relentlessly pursue new opportunities on a day-to-day basis to add value to our business. We will work smarter and strive to achieve more with fewer resources.</p>
                       </div>
                     </div>
                     <div className='col-sm-4'></div>

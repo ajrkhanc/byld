@@ -30,15 +30,15 @@ export default function Home() {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToShow: 1,
+              slidesToScroll: 1,
               initialSlide: 2
             }
           },
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 2
             }
           }
@@ -91,7 +91,7 @@ export default function Home() {
           </Head>
 
 
-<div className="rs-services style8 homeslbgsl pt-100 pb-100 md-pt-70 md-pb-70">
+<div className="rs-services style8 homeslbgsl pt-100 pb-100 md-pt-70 md-pb-70 dnone767px">
    <div className="container-full">
       <div className="row y-middle">
          <div className="col-lg-5">
@@ -100,12 +100,33 @@ export default function Home() {
                <h2 className="sliderh2">BYLD Group</h2>
                <p className="sliderp">Founded in 1998, backed by 1000+ years of accumulated professional
 experience, and having served 5,00,000+ individuals around the globe, we are
-dedicated towards enabling individuals and organizations to achieve
+dedicated to enabling individuals and organizations to achieve
 EXCELLENCE.</p>
             </div>
          </div>
          <div className="col-lg-7 pl-30 md-pl-15">            
          </div>
+      </div>
+   </div>
+</div>
+
+<div className="rs-services style8 mblock">
+   <div className="container-full">
+      <div className="row y-middle">
+      <div className="col-lg-7 pl-30 md-pl-15">
+            <img src="/assets/img/banner/tabbanner-mobile.jpg" alt="ba"/>
+         </div>
+
+         <div className="col-lg-5">
+            <div className="sec-title3 pll-30 ptt-20 pbb-10">
+                <h3 className="sliderh3">WELCOME TO</h3>
+               <h2 className="sliderh2">BYLD Group</h2>
+               <p className="sliderp">Founded in 1998, backed by 1000+ years of accumulated professional
+experience, and having served 5,00,000+ individuals around the globe, we are
+dedicated to enabling individuals and organizations to achieve
+EXCELLENCE.</p>
+            </div>
+         </div>         
       </div>
    </div>
 </div>
@@ -121,7 +142,7 @@ EXCELLENCE.</p>
             <div className="heading-border-line center-style"></div>
          </div>
          </div>
-         <div className='col-sm-4'>        
+         <div className='col-sm-4 mresa'>        
          <TabList className="lefttab">
             <Tab><i className='fa fa-folder-o'></i> Experiential Learning</Tab>
             <Tab><i className='fa fa-users'></i> Leadership & Performance</Tab>
@@ -158,7 +179,7 @@ EXCELLENCE.</p>
                   <h4 className="solutionh"><a href="#">Leadership and Talent Development</a></h4>
                   <div className="heading-border-line left-style"></div>
                   <p className='ptt-20 mbb-5'>Ever since the COVID 19 pandemic has hit the world, leaders across the globe have been striving hard to maintain peace within their teams while improving their productivity. Give your leaders the right skills, support, and methods that successful leaders around the world are using.</p>
-                  <p className='mbb-5'>We bring you a plethora of world-renowned, training brands that have been at the top list of 500 fortune companies. These include:</p>
+                  <p className='mbb-5'>We bring you a plethora of world-renowned training brands that are at the top list of Fortune 500 companies. These include:</p>
                </div>
                <div className='row'>
                   <div className='col-sm-12'>
@@ -181,7 +202,7 @@ EXCELLENCE.</p>
                <div className='sec-title3'>
                   <h4 className="solutionh"><a href="#">Assessments</a></h4>
                   <div className="heading-border-line left-style"></div>
-                  <p className='ptt-20 mbb-5'>A company is as strong as its people. Organizations of all sizes prefer psychometric assessments for hiring and managing people, and fostering the right culture across all the levels of an organizational hierarchy. Explore our best-in-class assessment brands that have been revolutionizing people development across the globe:</p>
+                  <p className='ptt-20 mbb-5'>A company is as strong as its people. Organizations of all sizes prefer psychometric assessments for hiring and managing people and fostering the right culture across all the levels of an organizational hierarchy. Explore our best-in-class assessment brands that have been revolutionizing people development across the globe:</p>
                </div>
                <div className=''>
                   <div>
@@ -242,7 +263,7 @@ EXCELLENCE.</p>
             <div className='sec-title3'>
                   <h4 className="solutionh"><a href="#">Coaching</a></h4>
                   <div className="heading-border-line left-style"></div>
-                  <p className='ptt-20 mbb-5'>Managing the complexities of VUCA business environment, disengaged employees, lowering morale and elevating ROI expectations has never been so challenging the way it has become now. To deal with these complexities and frequently changing business environment, organizations today need to invest in coaching and development of their leaders, that helps them navigate successfully through these tough times. Our time-tested approach and renowned brands have been creating successful coaches and leaders around the world. Our key partnerships include:</p>
+                  <p className='ptt-20 mbb-5'>Managing the complexities of the VUCA business environment, disengaged employees, lowering morale and elevating ROI expectations has never been so challenging the way it has become now. To deal with these complexities and the frequently changing business environment, organizations today need to invest in coaching and development of their leaders, which helps them navigate successfully through these tough times. Our time-tested approach and renowned brands have been creating successful coaches and leaders around the world. Our key partnerships include:</p>
                </div>
                <div className=''>
                   <div>
@@ -331,7 +352,7 @@ EXCELLENCE.</p>
                         <div className="counter-icon-right">
                             <img src="/assets/img/icon/what-us-make1.png" alt="Counter"/>
                          </div>
-                         <p className="title">Globally/Nationally researched and benchmarked, culturally neutral and customizable products and services.</p>
+                         <p className="title">Globally/Nationally researched and benchmarked, culturally neutral, and customizable products and services.</p>
                      </div>                    
                   </div>
                </div>
@@ -341,7 +362,7 @@ EXCELLENCE.</p>
                         <div className="counter-icon-right">
                             <img src="/assets/img/icon/what-us-make1.png" alt="Counter"/>
                          </div>
-                         <p className="title">Solutions across organizational hierarchies from the board room to front-end staff.</p>
+                         <p className="title">Solutions across organizational hierarchies ‘ranging’ from the board room to front-end staff.</p>
                      </div>                    
                   </div>
                </div>
