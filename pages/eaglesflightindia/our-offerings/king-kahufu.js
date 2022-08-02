@@ -17,7 +17,7 @@ export default function KingKahufu(){
             <div className="container-full">
                 <div className="row y-middle">
                     <div className="col-lg-12">
-                        <img className="img100" src="/efassets/img/banner/museum-caper-banner.jpg"/>
+                        <img className="img100" src="/efassets/img/banner/ef-king-kahafu.jpg"/>
                     </div>
                 </div>
             </div>
@@ -48,8 +48,7 @@ export default function KingKahufu(){
             <div className="container">
                 <div className="row rs-vertical-middle">
                     <div className="col-lg-6 md-pt-50">
-                        <div className="">
-                        
+                        <div className="">                        
                         </div>
                     </div>
                     <div className="col-lg-6 pr-0">

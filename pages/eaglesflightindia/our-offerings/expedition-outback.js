@@ -17,7 +17,7 @@ export default function ExpeditionOutback(){
             <div className="container-full">
                 <div className="row y-middle">
                     <div className="col-lg-12">
-                        <img className="img100" src="/efassets/img/banner/museum-caper-banner.jpg"/>
+                        <img className="img100" src="/efassets/img/banner/ef-expedition-outback.jpg"/>
                     </div>
                 </div>
             </div>
