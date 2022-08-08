@@ -12,22 +12,22 @@ export default function Footer() {
                 <h5>QUICK LINKS</h5>
                 <ul>
                     <li>
-                        <a href="#"> Home</a>
+                        <a href="/cruciallifechangingskills"> Home</a>
                     </li>
                     <li>
-                        <a href="#"> Blog</a>
+                        <a href="/cruciallifechangingskills/blog"> Blog</a>
                     </li>
                     <li>
-                        <a href="#"> Books</a>
+                        <a href="/cruciallifechangingskills/books"> Books</a>
                     </li>
                     <li>
-                        <a href="#"> Cancellation and Refund Policy</a>
+                        <a href="/cruciallifechangingskills/cancellation-and-refund-policy"> Cancellation and Refund Policy</a>
                     </li>
                     <li>
-                        <a href='#'>Privacy Policy</a>
+                        <a href='/cruciallifechangingskills/privacy-policy'>Privacy Policy</a>
                     </li>
                     <li>
-                        <a href='#'>Terms and Conditions</a>
+                        <a href='/cruciallifechangingskills/terms-and-conditions'>Terms and Conditions</a>
                     </li>
                 </ul>
             </div>
@@ -36,19 +36,22 @@ export default function Footer() {
                 <h5>OUR SOLUTIONS</h5>
                 <ul>
                     <li>
-                        <a href=""> Browse Courses</a>
+                        <a href="/cruciallifechangingskills/browse-courses"> Browse Courses</a>
                     </li>
                     <li>
-                        <a href=""> Crucial Conversations for Mastering Dialogue</a>
+                        <a href="/cruciallifechangingskills/crucial-conversations-for-mastering-dialogue"> Crucial Conversations for Mastering Dialogue</a>
                     </li>
                     <li>
-                        <a href=""> Crucial Conversations for Accountability</a>
+                        <a href="/cruciallifechangingskills/crucial-conversations-for-accountability"> Crucial Conversations for Accountability</a>
                     </li>
                     <li>
-                        <a href=""> The Power of Habit</a>
+                        <a href="/cruciallifechangingskills/the-power-of-habit"> The Power of Habit</a>
                     </li>
                     <li>
-                        <a href=""> Influencer</a>
+                        <a href="/cruciallifechangingskills/influencer"> Influencer</a>
+                    </li>
+                    <li>
+                        <a href='/cruciallifechangingskills/getting-things-done'>Getting Things Done</a>
                     </li>
                 </ul>
             </div>
@@ -56,7 +59,7 @@ export default function Footer() {
                 <h5>CONTACT US</h5>
                 <ul>
                     <li>
-                        <i class="fa fa-map-marker"></i> <span>BYLD Group: Plot 48, 2nd And 3rd Floor, Sector - 44, Opp. EPF Regional Office, Gurugram, Haryana - 122003</span>
+                        <i class="fa fa-map-marker"></i> <span>BYLD Group, Plot No. 48, Sector - 44, Opp. EPF Regional Office, Gurugram - 122003, Haryana, India</span>
                     </li>
                      <li>
                         <i class="fa fa-phone"></i> <a href='tel:1800 102 1345'><span>1800 102 1345</span></a>
@@ -70,16 +73,19 @@ export default function Footer() {
                 <h5>SOCIAL LINKS</h5>
                 <ul>
                     <li>
-                        <a href=""> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/Cruciallifechangingskills"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/crucial-life-changing-skills"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href=""> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCwpwP8sH7YBIFs4xJeID9uA"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href=""> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://twitter.com/crucial__skills"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/cruciallifechangingskills/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </li>
                 </ul>
                 <p>Subscribe to our monthly newsletter and learn how to handle the most crucial challenges of life and work.</p>

@@ -9,44 +9,29 @@ export default function Footer() {
             <div className="footer-top">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-md-12 col-sm-12 md-mb-10">
-                            <div className="footer-logo mb-40">
-                                <a href="/fivebehaviors"><img src="/5bassets/img/white-logo.png" alt=""/></a>
-                            </div>
-                              <div className="textwidget white-color pb-40"><p>We denounce with righteous indig nation in and dislike men who are so beguiled and to demo realized by the, so blinded by desire, that they cannot foresee.</p>
-                              </div>
-                              <ul className="footer-social md-mb-30">  
-                                  <li> 
-                                      <a href="https://www.facebook.com/AssessmentsandSignaturePrograms" target="_blank"><span><i className="fa fa-facebook"></i></span></a> 
-                                  </li>
-                                  <li> 
-                                      <a href="https://twitter.com/ByldAssessments" target="_blank"><span><i className="fa fa-twitter"></i></span></a> 
-                                  </li>
-
-                                  <li> 
-                                      <a href="https://www.linkedin.com/company/byld-assessments-signature-programs/" target="_blank"><span><i className="fa fa-linkedin"></i></span></a> 
-                                  </li>
-                                  <li> 
-                                      <a href="https://www.youtube.com/channel/UCKn4hSzswvSO6-IqAZC1JtA" target="_blank"><span><i className="fa fa-youtube"></i></span></a> 
-                                  </li>
-                                                                           
-                              </ul>
-                        </div>
-                        <div className="col-lg-3 col-md-12 col-sm-12 md-mb-10 pl-55 md-pl-15">
-                            <h3 className="footer-title">Important Links</h3>
+                        <div className="col-md-2 md-mb-10">
+                        <h3 className="footer-title">Important Links</h3>
                             <ul className="site-map">
                                 <li><a href="/fivebehaviors">Home</a></li>
+                                <li><a href="/fivebehaviors/blog">Blog</a></li>
                                 <li><a href="/fivebehaviors/contact-us">Contact Us</a></li>
-                                <li><a href="/fivebehaviors/the-five-behaviors-of-a-cohesive-team">The Five Behaviors™</a></li>
+                         
+                            </ul>                             
+                        </div>
+                        <div className="col-md-3 md-mb-10 pl-55 md-pl-15">
+                            <h3 className="footer-title">Our Solutions</h3>
+                            <ul className="site-map">                                
                                 <li><a href="/fivebehaviors/personal-development">Personal Development</a></li>
+                                <li><a href="/fivebehaviors/the-five-behaviors-of-a-cohesive-team">Team Development</a></li>
+                                <li><a href="/fivebehaviors/the-five-behaviors-for-virtual-teams">The Five Behaviors for Virtual Teams</a></li>
                             </ul>
                         </div>
-                        <div className="col-lg-3 col-md-12 col-sm-12 md-mb-10">
+                        <div className="col-md-4 md-mb-10">
                             <h3 className="footer-title">Contact Info</h3>
                             <ul className="address-widget">
                                 <li>
                                     <i className="flaticon-location"></i>
-                                    <div className="desc">BYLD Group: Plot 48, 2nd And 3rd Floor, Sector - 44, Opp. EPF Regional Office, Gurugram, Haryana - 122003</div>
+                                    <div className="desc">BYLD Group, Plot No. 48, Sector - 44, Opp. EPF Regional Office, Gurugram - 122003, Haryana, India</div>
                                 </li>
                                 <li>
                                     <i className="flaticon-call"></i>
@@ -68,8 +53,8 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-lg-3 col-md-12 col-sm-12">
-                            <h3 className="footer-title">Newsletter</h3>
+                        <div className="col-md-3">
+                            <h3 className="footer-title">Newsletter</h3>                            
                             <p className="widget-desc white-color">Stay up to update with our latest news and products.</p>
                             <p>
                                 <input type="email" name="EMAIL" placeholder="Your email address" required=""/>

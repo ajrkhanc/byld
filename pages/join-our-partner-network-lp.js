@@ -1,11 +1,44 @@
 import Head from 'next/head'
 
-export default function JoinOurPartnerNetworkLP(){    
+export default function JoinOurPartnerNetworkLP(){
+    
+    const registerUser = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/13/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                        window.location.href = "/thank-you"
+                     }, 3000);
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("fname=" + event.target.fname.value +
+            "&email=" + event.target.email.value +
+            "&phone=" + event.target.phone.value +
+            "&Occupation=" + event.target.occupation.value +
+            "&intrestedin=" + event.target.intrestedin.value +
+            "&wheredidyoucome=" + event.target.howdidyouknowaboutus.value )
+
+    }
 
     return(
         <>
           <Head>
-            <title>Join our Partner network LP Ab Testing - BYLD Group</title>
+            <title>Join our Partner network LP - BYLD Group</title>
             <meta name="description" content="Welcome to BYLD Group! Join the BYLD Group Partner network, and become our business partner to maximize your growth opportunities. We are the largest group in South Asia offering HR and business productivity solutions for individuals, teams and organizations. Served 300 of 500 Fortune companies. Founded in 1998, backed by 1000+ years of accumulated professional… Continue reading Join our Partner network LP Ab Testing"/> 
           </Head>
             <div className="rs-services">
@@ -40,7 +73,7 @@ export default function JoinOurPartnerNetworkLP(){
                             <div className="images-part parnernetworkheight">
                             <div className="bannerform">
                             <p>Fill in the form below with your interest to work as a sales/business consultant with us and will connect/call back at the earliest.</p>
-                            <form id="contact-form" className='clientcornner'>                                         
+                            <form id="contact-form" className='clientcornner' onSubmit={registerUser}>                                         
                                     <div className="row">
                                         <div className="col-lg-12 mb-12">
                                             <input type="text" name="fname" placeholder="First Name*" required />
@@ -70,6 +103,13 @@ export default function JoinOurPartnerNetworkLP(){
                                                 <option value="Others">Others</option>
                                             </select>
                                         </div>
+
+                                        <div className="col-lg-12 mb-12">
+                                            <select name="intrestedin" required>
+                                                <option value="">Pick up any Slot*</option>
+                                                <option value="Wednesday 24 August 2022 Time: 11:00 AM - 12:00 PM">Wednesday 24 August 2022 Time: 11:00 AM - 12:00 PM</option>
+                                            </select>
+                                        </div>
                                         
                                         <div className="col-lg-12 mb-12">
                                             <select name="howdidyouknowaboutus" required>
@@ -80,8 +120,9 @@ export default function JoinOurPartnerNetworkLP(){
                                         </div>
                                         
                                         <div className="col-lg-12 mb-12">
-                                        <input className="clientcornnerbtn" type="submit" value="Submit"/>
+                                        <input id="submitbuttonform" className="clientcornnerbtn" type="submit" value="Submit"/>
                                         </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>                                                                         
                             </form>                                  
                             </div>
@@ -122,46 +163,21 @@ export default function JoinOurPartnerNetworkLP(){
                     </div>
                     <div className='clearfix'></div>
 
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Wednesday, 25 May 2022</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>Time: 15:00 PM - 16:00 PM</h3>
-                                <a className="eventbtn" href='#'>REGISTER NOW</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Tuesday, 14 June 2022</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>Time: 15:00 PM - 16:00 PM</h3>
-                                <a className="eventbtn" href='#'>REGISTER NOW</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Wednesday, 29 June 2022</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>Time: 15:00 PM - 16:00 PM</h3>
-                                <a className="eventbtn" href='#'>REGISTER NOW</a>
-                            </div>
-                        </div>
-                    </div>
-
                     
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Wednesday, 24th August 2022</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Time: 11:00 AM - 12:00 PM</h3>
+                                <a className="eventbtn" href='#'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>

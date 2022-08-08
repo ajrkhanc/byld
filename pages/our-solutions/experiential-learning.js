@@ -43,7 +43,7 @@ export default function ExperientialLearning(){
                           </div>
                             <div className='row'>
                             <div class="col-sm-6">
-                                <a class="productbox" href="https://byldgroup.com/eaglesflightindia/">
+                                <a class="productbox" target="_blank" href="/eaglesflightindia">
                                 <div class="service-grid">
                                     <div class="service-icon">
                                     <img src="/assets/img/icon/link.png" alt=""/>

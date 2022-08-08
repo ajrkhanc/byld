@@ -40,7 +40,7 @@ export default function Blog(){
                                 </div>
                                 <h4 className="title mb-18 font20 contacticonh">Need support? Drop us an email</h4>
                                 <div className="desc mb-12">
-                                    <a href="mailto:assessments.info@byldgroup.com">assessments.info@byldgroup.com</a>
+                                    <a href="mailto:eaglesflightindia.info@byldgroup.com">eaglesflightindia.info@byldgroup.com</a>
                                 </div>
                                 
                             </div>
@@ -52,7 +52,7 @@ export default function Blog(){
                                 </div>
                                 <h4 className="title mb-18 font20 contacticonh">Reach out to us!</h4>
                                 <div className="desc mb-12">
-                                BYLD Group: Plot 48, 2nd And 3rd Floor, Sector - 44, Opp. EPF Regional Office, Gurugram, Haryana - 122003
+                                BYLD Group, Plot No. 48, Sector - 44, Opp. EPF Regional Office, Gurugram - 122003, Haryana, India
                                 </div>                                
                             </div>
                         </div>

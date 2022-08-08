@@ -6,12 +6,13 @@ export default function Sidebar() {
   return (
     <>
       <ul class="services-list">
-        <li><a href="/our-solutions/assessments">Assessments</a></li>
-        <li><a class="" href="/our-solutions/coaching">Coaching</a></li>
         <li><a href="/our-solutions/experiential-learning">Experiential Learning</a></li>
-        <li><a href="/our-solutions/leadership-and-talent-development">Leadership Development and Performance Enhancement</a></li>
-        <li><a href="/our-solutions/staffing">Staffing</a></li>
-    </ul>
+        <li><a href="/our-solutions/leadership-and-talent-development">Leadership & Performance</a></li>
+        <li><a href="/our-solutions/assessments">Assessments</a></li>
+        <li><a class="" href="#">BeSpoke</a></li>
+        <li><a href="/our-solutions/staffing">Staffing & Search</a></li>
+        <li><a class="" href="/our-solutions/coaching">Coaching</a></li>
+      </ul>
 
     <div class="services-addc ptt-40 pbb-30">
         <div class="rs-videos address-item mb-35">

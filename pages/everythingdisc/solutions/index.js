@@ -89,11 +89,11 @@ export default function PersonalDevelopment(){
                      <div class="front-content-part">
                         <div class="front-icon-part">
                            <div class="icon-part">
-                              <img src="edassets/img/icon/agile.png" alt=""/> 
+                              <img src="/edassets/img/icon/agile.png" alt=""/> 
                            </div>
                         </div>
                         <div class="front-title-part">
-                           <h3 class="title"><a href="/solutions/everything-disc-agile-eq">Agile EQ™</a></h3>
+                           <h3 class="title"><a href="/everythingdisc/solutions/everything-disc-agile-eq">Agile EQ™</a></h3>
                         </div>
                         <div class="front-desc-part">
                            <p>
@@ -105,7 +105,7 @@ export default function PersonalDevelopment(){
                   <div class="back-part">
                      <div class="back-front-content solutiontext">
                         <div class="back-title-part">
-                           <h3 class="back-title"><a href="/solutions/everything-disc-agile-eq">Participant Takeaways</a></h3>
+                           <h3 class="back-title"><a href="/everythingdisc/solutions/everything-disc-agile-eq">Participant Takeaways</a></h3>
                         </div>
                         <div class="text-left rs-estimate">
                         <ul className="estimate-info mtt-5">
@@ -115,7 +115,7 @@ export default function PersonalDevelopment(){
                         </ul>
                         </div>
                         <div class="back-btn-part">
-                           <a class="readon view-more" href="/solutions/everything-disc-agile-eq">View More</a>
+                           <a class="readon view-more" href="/everythingdisc/solutions/everything-disc-agile-eq">View More</a>
                         </div>
                      </div>
                   </div>
@@ -130,11 +130,11 @@ export default function PersonalDevelopment(){
                      <div class="front-content-part">
                         <div class="front-icon-part">
                            <div class="icon-part">
-                              <img src="edassets/img/icon/agile.png" alt=""/> 
+                              <img src="/edassets/img/icon/agile.png" alt=""/> 
                            </div>
                         </div>
                         <div class="front-title-part">
-                           <h3 class="title"><a href="/solutions/workplace">Workplace</a></h3>
+                           <h3 class="title"><a href="/everythingdisc/solutions/workplace">Workplace</a></h3>
                         </div>
                         <div class="front-desc-part">
                            <p>
@@ -146,7 +146,7 @@ export default function PersonalDevelopment(){
                   <div class="back-part">
                      <div class="back-front-content solutiontext">
                         <div class="back-title-part">
-                           <h3 class="back-title"><a href="/solutions/workplace">Participant Takeaways</a></h3>
+                           <h3 class="back-title"><a href="/everythingdisc/solutions/workplace">Participant Takeaways</a></h3>
                         </div>
                         <div class="text-left rs-estimate">
                         <ul className="estimate-info mtt-5">
@@ -156,7 +156,7 @@ export default function PersonalDevelopment(){
                         </ul>
                         </div>
                         <div class="back-btn-part">
-                           <a class="readon view-more" href="/solutions/workplace">View More</a>
+                           <a class="readon view-more" href="/everythingdisc/solutions/workplace">View More</a>
                         </div>
                      </div>
                   </div>
@@ -171,11 +171,11 @@ export default function PersonalDevelopment(){
                      <div class="front-content-part">
                         <div class="front-icon-part">
                            <div class="icon-part">
-                              <img src="edassets/img/icon/agile.png" alt=""/> 
+                              <img src="/edassets/img/icon/agile.png" alt=""/> 
                            </div>
                         </div>
                         <div class="front-title-part">
-                           <h3 class="title"><a href="/solutions/everything-disc-management">Management</a></h3>
+                           <h3 class="title"><a href="/everythingdisc/solutions/everything-disc-management">Management</a></h3>
                         </div>
                         <div class="front-desc-part">
                            <p>
@@ -187,7 +187,7 @@ export default function PersonalDevelopment(){
                   <div class="back-part">
                      <div class="back-front-content solutiontext">
                         <div class="back-title-part">
-                           <h3 class="back-title"><a href="/solutions/everything-disc-management">Participant Takeaways</a></h3>
+                           <h3 class="back-title"><a href="/everythingdisc/solutions/everything-disc-management">Participant Takeaways</a></h3>
                         </div>
                         <div class="text-left rs-estimate">
                         <ul className="estimate-info mtt-5">
@@ -197,7 +197,7 @@ export default function PersonalDevelopment(){
                         </ul>
                         </div>
                         <div class="back-btn-part">
-                           <a class="readon view-more" href="/solutions/everything-disc-management">View More</a>
+                           <a class="readon view-more" href="/everythingdisc/solutions/everything-disc-management">View More</a>
                         </div>
                      </div>
                   </div>
@@ -212,11 +212,11 @@ export default function PersonalDevelopment(){
                      <div class="front-content-part">
                         <div class="front-icon-part">
                            <div class="icon-part">
-                              <img src="edassets/img/icon/agile.png" alt=""/> 
+                              <img src="/edassets/img/icon/agile.png" alt=""/> 
                            </div>
                         </div>
                         <div class="front-title-part">
-                           <h3 class="title"><a href="/solutions/everything-disc-productive-conflict">Productive Conflict</a></h3>
+                           <h3 class="title"><a href="/everythingdisc/solutions/everything-disc-productive-conflict">Productive Conflict</a></h3>
                         </div>
                         <div class="front-desc-part">
                            <p>
@@ -228,7 +228,7 @@ export default function PersonalDevelopment(){
                   <div class="back-part">
                      <div class="back-front-content solutiontext">
                         <div class="back-title-part">
-                           <h3 class="back-title"><a href="/solutions/everything-disc-productive-conflict">Participant Takeaways</a></h3>
+                           <h3 class="back-title"><a href="/everythingdisc/solutions/everything-disc-productive-conflict">Participant Takeaways</a></h3>
                         </div>
                         <div class="text-left rs-estimate">
                         <ul className="estimate-info mtt-5">
@@ -238,7 +238,7 @@ export default function PersonalDevelopment(){
                         </ul>
                         </div>
                         <div class="back-btn-part">
-                           <a class="readon view-more" href="/solutions/everything-disc-productive-conflict">View More</a>
+                           <a class="readon view-more" href="/everythingdisc/solutions/everything-disc-productive-conflict">View More</a>
                         </div>
                      </div>
                   </div>
@@ -253,11 +253,11 @@ export default function PersonalDevelopment(){
                      <div class="front-content-part">
                         <div class="front-icon-part">
                            <div class="icon-part">
-                              <img src="edassets/img/icon/agile.png" alt=""/> 
+                              <img src="/edassets/img/icon/agile.png" alt=""/> 
                            </div>
                         </div>
                         <div class="front-title-part">
-                           <h3 class="title"><a href="/solutions/everything-disc-work-of-leaders">Work of Leaders</a></h3>
+                           <h3 class="title"><a href="/everythingdisc/solutions/everything-disc-work-of-leaders">Work of Leaders</a></h3>
                         </div>
                         <div class="front-desc-part">
                            <p>
@@ -269,7 +269,7 @@ export default function PersonalDevelopment(){
                   <div class="back-part">
                      <div class="back-front-content solutiontext">
                         <div class="back-title-part">
-                           <h3 class="back-title"><a href="/solutions/everything-disc-work-of-leaders">Participant Takeaways</a></h3>
+                           <h3 class="back-title"><a href="/everythingdisc/solutions/everything-disc-work-of-leaders">Participant Takeaways</a></h3>
                         </div>
                         <div class="text-left rs-estimate">
                         <ul className="estimate-info mtt-5">
@@ -279,7 +279,7 @@ export default function PersonalDevelopment(){
                         </ul>
                         </div>
                         <div class="back-btn-part">
-                           <a class="readon view-more" href="/solutions/everything-disc-work-of-leaders">View More</a>
+                           <a class="readon view-more" href="/everythingdisc/solutions/everything-disc-work-of-leaders">View More</a>
                         </div>
                      </div>
                   </div>
@@ -294,11 +294,11 @@ export default function PersonalDevelopment(){
                      <div class="front-content-part">
                         <div class="front-icon-part">
                            <div class="icon-part">
-                              <img src="edassets/img/icon/agile.png" alt=""/> 
+                              <img src="/edassets/img/icon/agile.png" alt=""/> 
                            </div>
                         </div>
                         <div class="front-title-part">
-                           <h3 class="title"><a href="/solutions/everything-disc-sales">Sales</a></h3>
+                           <h3 class="title"><a href="/everythingdisc/solutions/everything-disc-sales">Sales</a></h3>
                         </div>
                         <div class="front-desc-part">
                            <p>
@@ -310,7 +310,7 @@ export default function PersonalDevelopment(){
                   <div class="back-part">
                      <div class="back-front-content solutiontext">
                         <div class="back-title-part">
-                           <h3 class="back-title"><a href="/solutions/everything-disc-sales">Participant Takeaways</a></h3>
+                           <h3 class="back-title"><a href="/everythingdisc/solutions/everything-disc-sales">Participant Takeaways</a></h3>
                         </div>
                         <div class="text-left rs-estimate">
                         <ul className="estimate-info mtt-5">
@@ -320,7 +320,7 @@ export default function PersonalDevelopment(){
                         </ul>
                         </div>
                         <div class="back-btn-part">
-                           <a class="readon view-more" href="/solutions/everything-disc-sales">View More</a>
+                           <a class="readon view-more" href="/everythingdisc/solutions/everything-disc-sales">View More</a>
                         </div>
                      </div>
                   </div>
@@ -335,11 +335,11 @@ export default function PersonalDevelopment(){
                      <div class="front-content-part">
                         <div class="front-icon-part">
                            <div class="icon-part">
-                              <img src="edassets/img/icon/agile.png" alt=""/> 
+                              <img src="/edassets/img/icon/agile.png" alt=""/> 
                            </div>
                         </div>
                         <div class="front-title-part">
-                           <h3 class="title"><a href="/solutions/everything-disc-363-for-leaders">363 for Leaders</a></h3>
+                           <h3 class="title"><a href="/everythingdisc/solutions/everything-disc-363-for-leaders">363 for Leaders</a></h3>
                         </div>
                         <div class="front-desc-part">
                            <p>
@@ -351,7 +351,7 @@ export default function PersonalDevelopment(){
                   <div class="back-part">
                      <div class="back-front-content solutiontext">
                         <div class="back-title-part">
-                           <h3 class="back-title"><a href="/solutions/everything-disc-363-for-leaders">Participant Takeaways</a></h3>
+                           <h3 class="back-title"><a href="/everythingdisc/solutions/everything-disc-363-for-leaders">Participant Takeaways</a></h3>
                         </div>
                         <div class="text-left rs-estimate">
                         <ul className="estimate-info mtt-5">
@@ -361,7 +361,7 @@ export default function PersonalDevelopment(){
                         </ul>
                         </div>
                         <div class="back-btn-part">
-                           <a class="readon view-more" href="/solutions/everything-disc-363-for-leaders">View More</a>
+                           <a class="readon view-more" href="/everythingdisc/solutions/everything-disc-363-for-leaders">View More</a>
                         </div>
                      </div>
                   </div>
@@ -376,11 +376,11 @@ export default function PersonalDevelopment(){
                      <div class="front-content-part">
                         <div class="front-icon-part">
                            <div class="icon-part">
-                              <img src="edassets/img/icon/agile.png" alt=""/> 
+                              <img src="/edassets/img/icon/agile.png" alt=""/> 
                            </div>
                         </div>
                         <div class="front-title-part">
-                           <h3 class="title"><a href="/solutions/everything-disc-workplace-on-catalyst">DiSC Catalyst</a></h3>
+                           <h3 class="title"><a href="/everythingdisc/solutions/everything-disc-workplace-on-catalyst">DiSC Catalyst</a></h3>
                         </div>
                         <div class="front-desc-part">
                            <p>
@@ -392,7 +392,7 @@ export default function PersonalDevelopment(){
                   <div class="back-part">
                      <div class="back-front-content solutiontext">
                         <div class="back-title-part">
-                           <h3 class="back-title"><a href="/solutions/everything-disc-workplace-on-catalyst">Participant Takeaways</a></h3>
+                           <h3 class="back-title"><a href="/everythingdisc/solutions/everything-disc-workplace-on-catalyst">Participant Takeaways</a></h3>
                         </div>
                         <div class="text-left rs-estimate">
                         <ul className="estimate-info mtt-5">
@@ -402,7 +402,7 @@ export default function PersonalDevelopment(){
                         </ul>
                         </div>
                         <div class="back-btn-part">
-                           <a class="readon view-more" href="/solutions/everything-disc-workplace-on-catalyst">View More</a>
+                           <a class="readon view-more" href="/everythingdisc/solutions/everything-disc-workplace-on-catalyst">View More</a>
                         </div>
                      </div>
                   </div>

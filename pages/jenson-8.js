@@ -3,6 +3,40 @@ import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
 import React from "react";
 
 export default function Jenson8(){
+    const registerUser = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/12/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                        window.location.href = "/thank-you"
+                     }, 3000);
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("fname=" + event.target.fname.value +
+            "&lname=" + event.target.lname.value +
+            "&email=" + event.target.email.value +
+            "&phone=" + event.target.phone.value +
+            "&Companyname=" + event.target.organization.value +
+            "&wheredidyoucome=" + event.target.referredby.value +
+            "&QuestionsComments=" + event.target.QuestionsComments.value )
+
+    }
+
     const [modalOpen, setModalOpen] = React.useState(false);
 
     return(
@@ -378,7 +412,7 @@ export default function Jenson8(){
                          <div className='col-sm-2'></div>
                          <div className="col-sm-8">
                          <div className="bannerform tirianformshd">
-                            <form id="contact-form" className='clientcornner ptt-40 pbb-20'>                                         
+                            <form id="contact-form" className='clientcornner ptt-40 pbb-20' onSubmit={registerUser}>
                                     <div className="row">
                                       <div className='col-sm-12'>
                                         <p>
@@ -404,7 +438,7 @@ export default function Jenson8(){
                                        
                                         
                                         <div className="col-sm-6 mb-12">
-                                            <select name="referredby" required>
+                                            <select name="referredby">
                                                 <option value="">Referred By</option>
                                                 <option value="Email">Email</option>
                                                 <option value="Social Media">Social Media</option>
@@ -417,8 +451,9 @@ export default function Jenson8(){
                                             <textarea className="from-control" name="QuestionsComments" placeholder="Questions/Comments:"></textarea>
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                        <input className="clientcornnerbtn width150" type="submit" value="Get in Touch"/>
+                                        <input id="submitbuttonform" className="clientcornnerbtn width150" type="submit" value="Get in Touch"/>
                                         </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>                                                                         
                             </form>                                  
                             </div>

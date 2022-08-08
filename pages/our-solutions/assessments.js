@@ -42,7 +42,7 @@ export default function Assessments(){
 
                           <div className='row'>
                             <div class="col-sm-6">
-                                <a class="productbox" href="https://byldgroup.com/everythingdisc">
+                                <a class="productbox" target="_blank" href="/everythingdisc">
                                 <div class="service-grid">
                                     <div class="service-icon">
                                         <img src="/assets/img/icon/disc.png" alt=""/>

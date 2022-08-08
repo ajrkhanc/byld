@@ -981,7 +981,7 @@
             box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
             padding: 15px;
             min-height: 510px;
-            height: 510px;
+            
           }
           .alltextleft{
             text-align: left;
@@ -1347,6 +1347,17 @@
 }
 .innerboxthankyou h5{color: #f4812b;font-size: 18px;}
 /* End Thank You LP CSS */
+
+/* Blog Css */
+.blog-title a{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  overflow: hidden;
+  display: block;
+  color: #2a6db5 !important;
+}
+
 
 
 

@@ -20,7 +20,7 @@ export default function Header() {
 <div className="full-width-header">            
             <header id="rs-header" className="rs-header style2 header-transparent">                
                 <div className="topbar-area style1">
-                    <div className="container custom">
+                    <div className="container-fluid">
                         <div className="row y-middle">
                             <div className="col-lg-7">
                                 <div className="topbar-contact">
@@ -32,18 +32,14 @@ export default function Header() {
                                        <li>
                                            <i className="flaticon-call"></i>
                                            <a href="tel:1800-102-1345"> 1800-102-1345</a>
-                                       </li>
-                                       <li>
-                                           <i className="flaticon-location"></i>
-                                           BYLD Group: 2nd and 3rd Floor, Plot No. 48, Sector - 44
-                                       </li>
+                                       </li>                                       
                                    </ul>
                                 </div>
                             </div>
                             <div className="col-lg-5 text-right">
                                 <div className="toolbar-sl-share">
-                                    <ul>
-                                         <li className="opening"> <em><i className="flaticon-clock"></i>Monday - Friday / 9AM - 6PM</em> </li>
+                                    <ul className='ptt-10'>
+                                         <li className="opening"></li>
                                          <li><a target="_blank" href="https://www.facebook.com/BYLDGroup"><i className="fa fa-facebook"></i></a></li>
                                          <li><a target="_blank" href="https://www.linkedin.com/company/byld-group/"><i className="fa fa-linkedin"></i></a></li>
                                          <li><a target="_blank" href="https://twitter.com/BYLDGroup"><i className="fa fa-twitter"></i></a></li>
@@ -58,7 +54,7 @@ export default function Header() {
                 </div>
                
                 <div className="menu-area menu-sticky">
-                    <div className="container custom">
+                    <div className="container-fluid">
                         <div className="row-table">
                             <div className="col-cell header-logo">                                  
                                 <div className="logo-area">
@@ -91,7 +87,7 @@ export default function Header() {
                                                         <li className="last-item menu-item-has-children">
                                                             <a href="/our-solutions/leadership-and-talent-development">Leadership & Performance</a>
                                                             <ul className="sub-menu">
-                                                                <li><a href="/the-ken-blanchard-group-of-companies-blanchard-india">Blanchard India</a></li>
+                                                                <li><a target="_blank" href="https://blanchardinternational.co.in/">Blanchard India</a></li>
                                                                 <li><a href='/tirian'>Tirian</a></li>
                                                                 <li><a target="_blank" href="/cruciallifechangingskills/">Crucial Life Changing Skills</a></li>
                                                                 <li><a href="/leadership-and-performance/trapologist">Trapologist at Work™</a></li>
@@ -100,7 +96,7 @@ export default function Header() {
                                                         <li className="last-item menu-item-has-children">
                                                             <a href="/our-solutions/assessments">Assessments</a>
                                                             <ul className="sub-menu">
-                                                                <li><a target="_blank" href="/wiley">Everything DiSC (A Wiley Brand)</a> </li>
+                                                                <li><a target="_blank" href="/everythingdisc">Everything DiSC (A Wiley Brand)</a> </li>
                                                                 <li><a href="/assessments/lumina-psychometric-assesments">Lumina Spark</a></li>
                                                                 <li><a href="/assessments/talentsmart-eq-assesments">TalentSmart EQ</a></li>
                                                                 <li><a href="/assessments/assessments-and-development-centers">Assessments and Development Centers</a></li>                                                                
@@ -158,7 +154,6 @@ export default function Header() {
                                                     <a href="/press">MEDIA</a>
                                                     <ul className="sub-menu">
                                                         <li><a href="/press/topics/byld-group-in-news">BYLD Group in News</a></li>
-                                                        <li><a href="#">Press Release</a></li>
                                                         <li><a href="/events-gallery">Events</a></li>
                                                         <li><a href="/awards-accolades">Awards & Accolades</a></li>
                                                     </ul>
@@ -217,7 +212,7 @@ export default function Header() {
                                 </div>
                                 <div className="info-content">
                                     <h4 className="title">Address</h4>
-                                    <em>BYLD Group: 2nd and 3rd Floor, Plot No. 48, Sector - 44, Opp. EPF Regional Office Gurugram, Haryana - 122003</em>
+                                    <em>BYLD Group, Plot No. 48, Sector - 44, Opp. EPF Regional Office, Gurugram - 122003, Haryana, India</em>
                                 </div>
                             </div>
                             <div className="address-list">
@@ -268,26 +263,26 @@ export default function Header() {
                                                     <li className="last-item menu-item-has-children">
                                                             <a href="/our-solutions/experiential-learning">Experiential Learning</a>
                                                             <ul className="sub-menu">
-                                                                <li><a href="https://byldgroup.com/eaglesflightindia/">Eagle’s Flight™</a></li>
+                                                                <li><a target="_blank" href="/eaglesflightindia/">Eagle’s Flight™</a></li>
                                                                 <li><a href="/business-today-simulations">Business Today Simulations</a> </li>
                                                                 <li><a href="#">Gaminar</a></li>
-                                                                <li><a href="#">Jensen 8 (Virtual Reality Trainings)</a></li>
+                                                                <li><a href="/jenson-8">Jensen 8 (Virtual Reality Trainings)</a></li>
                                                             </ul>
                                                         </li>
 
                                                         <li className="last-item menu-item-has-children">
                                                             <a href="/our-solutions/leadership-and-talent-development">Leadership & Performance</a>
                                                             <ul className="sub-menu">
-                                                                <li><a href="/the-ken-blanchard-group-of-companies-blanchard-india">Blanchard India</a></li>
-                                                                <li><a href='#'>Tirian</a></li>
-                                                                <li><a href="https://byldgroup.com/cruciallifechangingskills/">Crucial Life Changing Skills</a></li>
+                                                                <li><a target="_blank" href="https://blanchardinternational.co.in/">Blanchard India</a></li>
+                                                                <li><a href='/tirian'>Tirian</a></li>
+                                                                <li><a target="_blank" href="/cruciallifechangingskills/">Crucial Life Changing Skills</a></li>
                                                                 <li><a href="/leadership-and-performance/trapologist">Trapologist at Work™</a></li>
                                                             </ul>
                                                         </li>
                                                         <li className="last-item menu-item-has-children">
                                                             <a href="/our-solutions/assessments">Assessments</a>
                                                             <ul className="sub-menu">
-                                                                <li><a href="https://byldgroup.com/everythingdisc">Everything DiSC (A Wiley Brand)</a> </li>
+                                                                <li><a target="_blank" href="/everythingdisc">Everything DiSC (A Wiley Brand)</a> </li>
                                                                 <li><a href="/assessments/lumina-psychometric-assesments">Lumina Spark</a></li>
                                                                 <li><a href="/assessments/talentsmart-eq-assesments">TalentSmart EQ</a></li>
                                                                 <li><a href="/assessments/assessments-and-development-centers">Assessments and Development Centers</a></li>                                                                
@@ -296,7 +291,7 @@ export default function Header() {
                                                         <li className="last-item menu-item-has-children">
                                                             <a href="#">BeSpoke</a>
                                                             <ul className="sub-menu">
-                                                                <li><a href="#">Persona Global</a> </li>
+                                                                <li><a href="/bespoke/persona-global">Persona Global</a> </li>
                                                                 <li><a href="#">SLI</a></li>
                                                                 <li><a href="#">Large Projects</a></li>
                                                             </ul>
@@ -305,7 +300,7 @@ export default function Header() {
                                                         <li className="last-item menu-item-has-children">
                                                             <a href="/our-solutions/staffing">Staffing & Search</a>
                                                             <ul className="sub-menu">
-                                                                <li><a href="https://yomamultinational.com/">YOMA Business Solutions</a> </li>
+                                                                <li><a target="_blank" href="https://yomamultinational.com/">YOMA Business Solutions</a> </li>
                                                                 <li><a href="#">YOMA Technologies</a></li>
                                                             </ul>
                                                         </li>
@@ -316,7 +311,7 @@ export default function Header() {
                                                                 <li><a href='#'>ICF Certification</a></li>
                                                                 <li><a href="/coaching/insideout-coaching">InsideOut™ Coaching</a></li>
                                                                 <li><a href='#'>Breakthrough</a></li>
-                                                                <li><a href='#'>Executive Coaching</a></li>
+                                                                <li><a href='/coaching/executive-coaching'>Executive Coaching</a></li>
                                                             </ul>
                                                         </li>
                                                     </ul>
@@ -345,16 +340,14 @@ export default function Header() {
                                                     <a href="/press">MEDIA</a>
                                                     <ul className="sub-menu">
                                                         <li><a href="/press/topics/byld-group-in-news">BYLD Group in News</a></li>
-                                                        <li><a href="#">Press Release</a></li>
-                                                        <li><a href="#">Events</a></li>
-                                                        <li><a href="#">Awards & Accolades</a></li>
+                                                        <li><a href="/events-gallery">Events</a></li>
+                                                        <li><a href="/awards-accolades">Awards & Accolades</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a href="/contact-us">CONTACT US</a>
                                                 </li>
-                                            </ul>
-                
+                                            </ul> 
                 </nav>
             
             </header>

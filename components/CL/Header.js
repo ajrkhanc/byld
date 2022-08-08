@@ -31,6 +31,7 @@ export default function Header() {
                                     <li><a href="/cruciallifechangingskills/crucial-conversations-for-accountability">Crucial Conversations for Accountability</a></li>
                                     <li><a href="/cruciallifechangingskills/the-power-of-habit">The Power of Habit</a></li>
                                     <li><a href="/cruciallifechangingskills/influencer">Influencer</a></li>
+                                    <li><a href="/cruciallifechangingskills/getting-things-done">Getting Things Done</a></li>
                                      {/* <li><a href="#">Dropdown menu</a>
                                       	<ul  class="list-unstyled">
                                           	<li><a href="#">Dropdown sub menu</a></li>

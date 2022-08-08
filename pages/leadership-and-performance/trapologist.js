@@ -4,6 +4,42 @@ import Slider from "react-slick";
 
 
 export default function Trapologist(){
+
+    const registerUser = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/20/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                        window.location.href = "/thank-you"
+                     }, 3000);
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("your-name=" + event.target.name.value +
+            "&your-email=" + event.target.email.value +
+            "&tel=" + event.target.phone.value +
+            "&companyname=" + event.target.Organization.value +
+            "&designation=" + event.target.designation.value +
+            "&pic-slot=" + event.target.anyslot.value +
+            "&reff=" + event.target.creferredby.value +
+            "&textarea-310=" + event.target.leadsquared_Notes.value +           
+            "&leadsquared-mx_Business_Entity=" + event.target.leadsquared_mx_Business_Entity.value )
+
+    }
  
     return(
         <>
@@ -26,7 +62,7 @@ export default function Trapologist(){
                         <div className="col-md-5 col-sm-12">
                             <div className="bannerform">
                             <h2 className="formtitle">Enquiry Form</h2>                                
-                            <form id="contact-form" className='clientcornner'>                                         
+                            <form id="contact-form" className='clientcornner' onSubmit={registerUser}>                                         
                                     <div className="row">
                                         <div className="col-sm-6 pppp8">
                                             <input type="text" name="name" placeholder="Enter Name*" required />
@@ -46,9 +82,8 @@ export default function Trapologist(){
                                         <div className="col-sm-6 pppp8">
                                             <select name="anyslot" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="May 27th, 2022 Trapologist at Work Workshop">May 27th, 2022 Trapologist at Work Workshop</option>
-                                                <option value="June 1st, 2022 Trapologist at Work Webinar">June 1st, 2022 Trapologist at Work Webinar</option>
-                                                <option value="June 24th, 2022 Trapologist at Work Workshop">June 24th, 2022 Trapologist at Work Workshop</option>
+                                                <option value="August 26th, 2022 Trapologist at Work Workshop">August 26th, 2022 Trapologist at Work Workshop</option>
+                                                <option value="September 7th, 2022 Trapologist at Work Webinar">September 7th, 2022 Trapologist at Work Webinar</option>
                                             </select>                                            
                                         </div>
                                         <div className="col-sm-12 pppp8">
@@ -63,11 +98,12 @@ export default function Trapologist(){
                                             <input type="text" name="leadsquared_mx_Business_Entity" placeholder="BYLD Group" value="BYLD Group" required />
                                         </div>
                                         <div className="col-lg-12 mb-12 pppp8">
-                                            <textarea className="from-control" name="leadsquared-Notes" placeholder="Let us know what you are looking for."></textarea>
+                                            <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                        <input className="clientcornnerbtn" type="submit" value="Submit"/>
+                                        <input id="submitbuttonform" className="clientcornnerbtn" type="submit" value="Submit"/>
                                         </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>                                                                         
                             </form>                                  
                             </div>

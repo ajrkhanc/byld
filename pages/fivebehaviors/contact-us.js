@@ -52,7 +52,7 @@ export default function Blog(){
                                 </div>
                                 <h4 className="title mb-18 font20 contacticonh">Reach out to us!</h4>
                                 <div className="desc mb-12">
-                                Unit No. 629-634, 6th Floor, Vipul Trade Centre, Sohna Road, Sector -48, Gurgaon – 122018, Haryana (India).
+                                BYLD Group, Plot No. 48, Sector - 44, Opp. EPF Regional Office, Gurugram - 122003, Haryana, India
                                 </div>                                
                             </div>
                         </div>

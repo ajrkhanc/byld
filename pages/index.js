@@ -90,12 +90,11 @@ export default function Home() {
             <meta name="description" content="Largest group in South Asia offering HR and business productivity solutions for individuals, teams and organizations. Served 300 of 500 Fortune companies."/> 
           </Head>
 
-
-<div className="rs-services style8 homeslbgsl pt-100 pb-100 md-pt-70 md-pb-70 dnone767px">
-   <div className="container-full">
+ <div className="rs-services style8 dnone767px">
+   <div className="container-fluid">
       <div className="row y-middle">
          <div className="col-lg-5">
-            <div className="sec-title3 pll-30 ptt-70 pbb-40">
+            <div className="sec-title3 ptt-70 pbb-40">
                 <h3 className="sliderh3">WELCOME TO</h3>
                <h2 className="sliderh2">BYLD Group</h2>
                <p className="sliderp">Founded in 1998, backed by 1000+ years of accumulated professional
@@ -104,7 +103,8 @@ dedicated to enabling individuals and organizations to achieve
 EXCELLENCE.</p>
             </div>
          </div>
-         <div className="col-lg-7 pl-30 md-pl-15">            
+         <div className="col-lg-7 pl-30 md-pl-15">
+         <img src="/assets/img/profasnalteam.jpg" alt="ba"/>
          </div>
       </div>
    </div>
@@ -162,10 +162,10 @@ EXCELLENCE.</p>
                <div className=''>
                   <div>
                      <ul className='solutionslist'>
-                        <li><a href="https://byldgroup.com/eaglesflightindia/"><i className='fa fa-angle-double-right'></i> Eagle's Flight</a></li>
+                        <li><a target="_blank" href="/eaglesflightindia/"><i className='fa fa-angle-double-right'></i> Eagle's Flight</a></li>
                         <li><a href="/business-today-simulations"><i className='fa fa-angle-double-right'></i> Business Today Simulations</a></li>
                         <li><a href="#"><i className='fa fa-angle-double-right'></i> Gaminar</a></li>
-                        <li><a href="#"><i className='fa fa-angle-double-right'></i> Jenson 8 (Virtual Reality Trainings)</a></li>
+                        <li><a href="/jenson-8"><i className='fa fa-angle-double-right'></i> Jenson 8 (Virtual Reality Trainings)</a></li>
                      </ul>
                      <div className="btn-part ptt-10 pbb-30">
                         <Link href="/our-solutions/experiential-learning"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
@@ -184,9 +184,9 @@ EXCELLENCE.</p>
                <div className='row'>
                   <div className='col-sm-12'>
                      <ul className='solutionslist'>
-                        <li><Link href="/the-ken-blanchard-group-of-companies-blanchard-india"><a><i className='fa fa-angle-double-right'></i> Blanchard India</a></Link></li>
-                        <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> Tirian</a></Link></li>
-                        <li><Link href="https://byldgroup.com/cruciallifechangingskills/"><a><i className='fa fa-angle-double-right'></i> Crucial Life Changing Skills</a></Link></li>
+                        <li><Link href="https://blanchardinternational.co.in/"><a target="_blank"><i className='fa fa-angle-double-right'></i> Blanchard India</a></Link></li>
+                        <li><Link href="/tirian"><a><i className='fa fa-angle-double-right'></i> Tirian</a></Link></li>
+                        <li><Link href="/cruciallifechangingskills/"><a target="_blank"><i className='fa fa-angle-double-right'></i> Crucial Life Changing Skills</a></Link></li>
                         <li><Link href="/leadership-and-performance/trapologist"><a><i className='fa fa-angle-double-right'></i> Trapologist at Work™</a></Link></li>
                      </ul>                    
                   </div>                  
@@ -207,10 +207,10 @@ EXCELLENCE.</p>
                <div className=''>
                   <div>
                      <ul className='solutionslist'>
-                        <li><Link href="/"><a><i className='fa fa-angle-double-right'></i> DiSC<sup>®</sup></a></Link></li>
-                        <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> Lumina Spark</a></Link></li>
-                        <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> TalentSmart EQ Assessments</a></Link></li>
-                        <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> Assessments and Development Centers</a></Link></li>
+                        <li><Link href="/everythingdisc"><a target="_blank"><i className='fa fa-angle-double-right'></i> DiSC<sup>®</sup></a></Link></li>
+                        <li><Link href="/assessments/lumina-psychometric-assesments"><a><i className='fa fa-angle-double-right'></i> Lumina Spark</a></Link></li>
+                        <li><Link href="/assessments/talentsmart-eq-assesments"><a><i className='fa fa-angle-double-right'></i> TalentSmart EQ Assessments</a></Link></li>
+                        <li><Link href="/assessments/assessments-and-development-centers"><a><i className='fa fa-angle-double-right'></i> Assessments and Development Centers</a></Link></li>
                      </ul>
                      <div className="btn-part ptt-10 pbb-30">
                         <Link href="/our-solutions/assessments"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
@@ -233,7 +233,7 @@ EXCELLENCE.</p>
                         <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> Large Projects</a></Link></li>
                      </ul>
                      <div className="btn-part ptt-10 pbb-30">
-                        <Link href="/our-solutions/staffing"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                        <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
                      </div>
                   </div>
                </div>
@@ -249,11 +249,11 @@ EXCELLENCE.</p>
                <div className=''>
                   <div>
                      <ul className='solutionslist'>
-                        <li><Link href="https://yomamultinational.com/"><a><i className='fa fa-angle-double-right'></i> YOMA Business Solutions</a></Link></li>
+                        <li><Link href="https://yomamultinational.com/"><a target="_blank"><i className='fa fa-angle-double-right'></i> YOMA Business Solutions</a></Link></li>
                         <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> YOMA Technologies</a></Link></li>
                      </ul>
                      <div className="btn-part ptt-10 pbb-30">
-                        <Link href="/our-solutions/coaching"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                        <Link href="/our-solutions/staffing"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
                      </div>
                   </div>
                </div>
@@ -271,10 +271,10 @@ EXCELLENCE.</p>
                         <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> ICF Certification</a></Link></li>
                         <li><Link href="/coaching/insideout-coaching"><a><i className='fa fa-angle-double-right'></i> InsideOut CoachingTM</a></Link></li>
                         <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> Breakthrough</a></Link></li>
-                        <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> Executive Coaching</a></Link></li>
+                        <li><Link href="/coaching/executive-coaching"><a><i className='fa fa-angle-double-right'></i> Executive Coaching</a></Link></li>
                      </ul>
                      <div className="btn-part ptt-10 pbb-30">
-                        <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                        <Link href="/our-solutions/coaching"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
                      </div>
                   </div>
                </div>

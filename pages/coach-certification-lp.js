@@ -1,6 +1,41 @@
 import Head from 'next/head'
 
-export default function CoachCertificationLP(){    
+export default function CoachCertificationLP(){
+    
+    const registerUser = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/8/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                        window.location.href = "/thank-you"
+                     }, 3000);
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("leadsquared-FirstName=" + event.target.name.value +
+            "&leadsquared-Mobile=" + event.target.phone.value +
+            "&leadsquared-EmailAddress=" + event.target.email.value +
+            "&leadsquared-Company=" + event.target.companyname.value +
+            "&leadsquared-JobTitle=" + event.target.designation.value +
+            "&wheredidyoucome=" + event.target.wheredidyoucome.value +
+            "&leadsquared-Notes=" + event.target.leadsquared_Notes.value +
+            "&leadsquared-mx_Business_Entity=" + event.target.leadsquared_mx_Business_Entity.value )
+
+    }
 
     return(
         <>
@@ -143,7 +178,7 @@ export default function CoachCertificationLP(){
                         <div className="col-md-6 icfborderleft">
                             <div className="bannerform">
                             <p>Fill in the form below and our consultants will contact you:</p>
-                            <form id="contact-form" className='clientcornner'>                                         
+                            <form id="contact-form" className='clientcornner' onSubmit={registerUser}>                                         
                                     <div className="row">
                                         <div className="col-lg-12 mb-12">
                                             <input type="text" name="name" placeholder="Name*" required />
@@ -172,11 +207,12 @@ export default function CoachCertificationLP(){
                                             <input type="text" name="leadsquared_mx_Business_Entity" placeholder="BYLD Group" value="BYLD Group" required />
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                            <textarea className="from-control" name="leadsquared-Notes" placeholder="Questions/Comments:"></textarea>
+                                            <textarea className="from-control" name="leadsquared_Notes" placeholder="Questions/Comments:"></textarea>
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                        <input className="clientcornnerbtn" type="submit" value="I’m Interested"/>
+                                        <input id="submitbuttonform" className="clientcornnerbtn" type="submit" value="I’m Interested"/>
                                         </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>                                                                         
                             </form>                                  
                             </div>

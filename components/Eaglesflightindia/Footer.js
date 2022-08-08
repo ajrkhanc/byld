@@ -15,21 +15,21 @@ export default function Footer() {
                                 <li><a href="/eaglesflightindia">Home</a></li>
                                 <li><a href="/eaglesflightindia/the-company">The Company</a></li>
                                 <li><a href="/eaglesflightindia/our-approach">Our Approach</a></li>
-                                <li><a href="/eaglesflightindia/blog">Blog</a></li>
+                                <li><a href="/eaglesflightindia/blogs">Blog</a></li>
                                 <li><a href="/eaglesflightindia/contact-us">Contact Us</a></li>                              
                             </ul>                              
                         </div>
                         <div className="col-md-3 md-mb-10 pl-55 md-pl-15">
                             <h3 className="footer-title">Our Offerings</h3>
                             <ul className="site-map">
-                                <li><a href="/wiley">Museum Caper</a></li>
-                                <li><a href="/wiley/contact-us">King Kahufu</a></li>
-                                <li><a href="/everythingdisc">Gold Of Desert Kings</a></li>
-                                <li><a href="/fivebehaviors">Council Of Marble Star</a></li>
-                                <li><a href="/wiley/listening-profile">Promises! Promises!</a></li>
-                                <li><a href="/wiley/listening-profile">Rattlesnake Canyon</a></li>
-                                <li><a href="/wiley/listening-profile">Expedition Outback</a></li>
-                                <li><a href="/wiley/listening-profile">Windjammer</a></li>
+                                <li><a href="/eaglesflightindia/our-offerings/museum-caper">Museum Caper</a></li>
+                                <li><a href="/eaglesflightindia/our-offerings/king-kahufu">King Kahufu</a></li>
+                                <li><a href="/eaglesflightindia/our-offerings/gold-of-the-desert-kings">Gold Of Desert Kings</a></li>
+                                <li><a href="/eaglesflightindia/our-offerings/council-of-the-marble-star">Council Of Marble Star</a></li>
+                                <li><a href="/eaglesflightindia/our-offerings/promises-promises">Promises! Promises!</a></li>
+                                <li><a href="/eaglesflightindia/our-offerings/rattlesnake-canyon">Rattlesnake Canyon</a></li>
+                                <li><a href="/eaglesflightindia/our-offerings/expedition-outback">Expedition Outback</a></li>
+                                <li><a href="/eaglesflightindia/our-offerings/windjammer">Windjammer</a></li>
                             </ul>
                         </div>
                         <div className="col-md-4 md-mb-10">
@@ -37,7 +37,7 @@ export default function Footer() {
                             <ul className="address-widget">
                                 <li>
                                     <i className="flaticon-location"></i>
-                                    <div className="desc">BYLD Group: 2nd and 3rd Floor, Plot No. 48, Sector – 44, Opp. EPF Regional Office, Gurugram, Haryana – 122003</div>
+                                    <div className="desc">BYLD Group, Plot No. 48, Sector - 44, Opp. EPF Regional Office, Gurugram - 122003, Haryana, India</div>
                                 </li>
                                 <li>
                                     <i className="flaticon-call"></i>

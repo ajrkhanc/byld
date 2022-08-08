@@ -22,17 +22,13 @@ export default function Header() {
                                            <i className="flaticon-call"></i>
                                            <a href="tel:1800-102-1345"> 1800-102-1345</a>
                                        </li>
-                                       <li>
-                                           <i className="flaticon-location"></i>
-                                           BYLD Group: Plot 48, 2nd And 3rd Floor, Sector - 44
-                                       </li>
+                                       
                                    </ul>
                                 </div>
                             </div>
                             <div className="col-lg-5 text-right">
                                 <div className="toolbar-sl-share">
-                                    <ul>
-                                         <li className="opening"> <em><i className="flaticon-clock"></i>Monday - Friday / 9AM - 6PM</em> </li>
+                                    <ul className='ptt-10'>                                         
                                          <li><a target="_blank" href="https://www.facebook.com/AssessmentsandSignaturePrograms"><i className="fa fa-facebook"></i></a></li>
                                          <li><a target="_blank" href="https://www.linkedin.com/company/byld-assessments-signature-programs/"><i className="fa fa-linkedin"></i></a></li>
                                          <li><a target="_blank" href="https://twitter.com/ByldAssessments"><i className="fa fa-twitter"></i></a></li>
@@ -133,7 +129,7 @@ export default function Header() {
                                 </div>
                                 <div className="info-content">
                                     <h4 className="title">Address</h4>
-                                    <em>BYLD Group: Plot 48, 2nd And 3rd Floor, Sector - 44, Opp. EPF Regional Office, Gurugram, Haryana - 122003</em>
+                                    <em>BYLD Group, Plot No. 48, Sector - 44, Opp. EPF Regional Office, Gurugram - 122003, Haryana, India</em>
                                 </div>
                             </div>
                             <div className="address-list">
@@ -154,14 +150,7 @@ export default function Header() {
                                   <em>1800-102-1345</em>
                                 </div>
                             </div>
-                        </div>
-                        <ul className="social">
-                            <li><a target="_blank" href="https://www.facebook.com/BYLDGroup"><i className="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/company/byld-group/"><i className="fa fa-linkedin"></i></a></li>
-                            <li><a target="_blank" href="https://twitter.com/BYLDGroup"><i className="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="https://www.youtube.com/channel/UC7kOBtc5uLtODiuTYvqgS4g"><i className="fa fa-youtube"></i></a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/byld_group/"><i className="fa fa-instagram"></i></a></li>
-                        </ul>
+                        </div>                        
                     </div>
                 </nav>
                
@@ -175,30 +164,30 @@ export default function Header() {
                         </a>
                     </div>
                     <ul className="nav-menu">
-                        <li>
-                            <a href="/everythingdisc">Home</a>
-                        </li>                       
-                        <li className="menu-item-has-children">
-                        <a href="/everythingdisc/solutions">Our Solutions</a>
-                        <ul className="sub-menu">
-                            <li><a href="/everythingdisc/solutions/everything-disc-agile-eq">Everything DiSC Agile EQ</a></li>
-                            <li><a href="/everythingdisc/solutions/everything-disc-sales">Everything DiSC Sales</a></li>
-                            <li><a href="/everythingdisc/solutions/everything-disc-363-for-leaders">Everything DiSC 363 for Leaders</a></li>
-                            <li><a href="/everythingdisc/solutions/everything-disc-productive-conflict">Everything DiSC Productive Conflict</a></li>
-                            <li><a href="/everythingdisc/solutions/workplace">Everything DiSC Workplace</a></li>
-                            <li><a href="/everythingdisc/solutions/everything-disc-work-of-leaders">Everything DiSC Work Of Leaders</a></li>
-                            <li><a href="/everythingdisc/solutions/everything-disc-management">Everything DiSC Management</a></li>
-                            <li><a href="/everythingdisc/solutions/everything-disc-workplace-on-catalyst">Everything DiSC Workplace on Catalyst</a></li>
-                        </ul>
-                        </li>
-                        <li>
-                            <a href="/everythingdisc/blog">Blog</a>
-                        </li>
-                        <li>
-                            <a href="/everythingdisc/contact-us">Contact Us</a>
-                        </li>
-                        
-                    </ul>                    
+                                                <li>
+                                                    <a href="/everythingdisc">Home</a>                                                    
+                                                </li>
+                                                
+                                                <li className="menu-item-has-children">
+                                                    <a href="/everythingdisc/solutions">Our Solutions</a>
+                                                    <ul className="sub-menu">
+                                                        <li><a href="/everythingdisc/solutions/everything-disc-agile-eq">Everything DiSC Agile EQ</a></li>
+                                                        <li><a href="/everythingdisc/solutions/everything-disc-sales">Everything DiSC Sales</a></li>
+                                                        <li><a href="/everythingdisc/solutions/everything-disc-363-for-leaders">Everything DiSC 363 for Leaders</a></li>
+                                                        <li><a href="/everythingdisc/solutions/everything-disc-productive-conflict">Everything DiSC Productive Conflict</a></li>
+                                                        <li><a href="/everythingdisc/solutions/workplace">Everything DiSC Workplace</a></li>
+                                                        <li><a href="/everythingdisc/solutions/everything-disc-work-of-leaders">Everything DiSC Work Of Leaders</a></li>
+                                                        <li><a href="/everythingdisc/solutions/everything-disc-management">Everything DiSC Management</a></li>
+                                                        <li><a href="/everythingdisc/solutions/everything-disc-workplace-on-catalyst">Everything DiSC Workplace on Catalyst</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="/everythingdisc/blog">Blog</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/everythingdisc/contact-us">Contact Us</a>
+                                                </li>
+                                            </ul>              
                 </nav>
             
             </header>

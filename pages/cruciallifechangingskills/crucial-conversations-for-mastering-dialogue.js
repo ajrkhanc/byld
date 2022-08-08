@@ -30,7 +30,7 @@ export default function CrucialConversationsforMasteringDialogue(){
                 <div class="row video-section course-video">
                     <div class="col-md-6 offset-md-3">
                         <div class="row video-area">
-                            <iframe width="768" height="432" src="https://www.youtube.com/embed/wYUNhYaBLOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="768" height="432" src="https://www.youtube.com/embed/KhnD9vH0j5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -184,8 +184,8 @@ export default function CrucialConversationsforMasteringDialogue(){
                             <div class="col-md-4">
                                 <div class="row feature-content text-center feature-box">
                                     <img className='imgmauto img70 pbb-30' src="/classets/img/icon-in-person.svg" />
-                                    <h4>On Demand</h4>
-                                    <p>Learn at your own pace online.</p>
+                                    <h4>In Person</h4>
+                                    <p>Attend a classroom course.</p>
                                 </div>
                             </div>
                         </div>

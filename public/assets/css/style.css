@@ -1170,8 +1170,8 @@ blockquote cite:before {
   margin: 0;
 }
 .container-fluid {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .container-fluid2 {
   padding-left: 15px;
@@ -1457,7 +1457,7 @@ blockquote cite:before {
   display: inline-block;
   color: #ffffff;
   font-size: 13px;
-  line-height: 50px;
+  line-height: 40px;
   font-weight: 500;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
   margin-right: 20px;
@@ -1502,12 +1502,20 @@ blockquote cite:before {
 .full-width-header .rs-header .topbar-area.style1 .toolbar-sl-share ul li {
   display: inline-block;
   font-size: 14px;
-  line-height: 50px;
+  line-height: 22px;
   margin-right: 12px;
 }
 .full-width-header .rs-header .topbar-area.style1 .toolbar-sl-share ul li a {
-  font-size: 14px;
-  color: #ffffff;
+  font-size: 16px;
+  color: #ffffff !important;
+  width: 28px;
+    height: 28px;
+    overflow: hidden;
+    display: block;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 26px;
 }
 .full-width-header .rs-header .topbar-area.style1 .toolbar-sl-share ul li a:hover {
   color: #2A6DB5;
@@ -6270,6 +6278,9 @@ body .search-modal .close:hover {
 .rs-blog.style1 .blog-wrap .blog-img img {
   border-radius: 0 0 0 70px;
 }
+.blog-img a img {
+  width: 100%;
+}
 .rs-blog.style1 .blog-wrap .blog-contant {
   padding: 44px 38px 40px;
 }
@@ -6533,6 +6544,10 @@ body .search-modal .close:hover {
 }
 .rs-inner-blog .widget-area .categories li:first-child {
   border-top: none;
+}
+.blog-details{
+  box-shadow: 0 0 30px 0 rgb(0 0 0 / 7%);
+    padding: 15px;
 }
 .rs-inner-blog .blog-details .blog-full .single-post-meta {
   display: flex;

@@ -44,7 +44,7 @@ export default function leadersShipAndTalentDevelopment(){
 
                           <div className='row'>
                             <div class="col-sm-6">
-                                <a class="productbox" href="/the-ken-blanchard-group-of-companies-blanchard-india">
+                                <a class="productbox" target="_blank" href="https://blanchardinternational.co.in/">
                                 <div class="service-grid">
                                     <div class="service-icon">
                                         <img src="/assets/img/icon/b1.png" alt=""/>
@@ -66,7 +66,7 @@ export default function leadersShipAndTalentDevelopment(){
                             </div>
 
                             <div class="col-sm-6">
-                                <a class="productbox" href="/cruciallifechangingskills/">
+                                <a class="productbox" target="_blank" href="/cruciallifechangingskills/">
                                 <div class="service-grid">
                                     <div class="service-icon">
                                     <img src="/assets/img/icon/b2.png" alt=""/>

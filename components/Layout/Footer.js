@@ -7,7 +7,7 @@ export default function Footer() {
     <>
     <footer id="rs-footer" className="rs-footer style1">
             <div className="footer-top">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                     <div className="col-md-2 col-sm-6 md-mb-10 pl-55 md-pl-15">
                             <h3 className="footer-title">QUICK LINKS</h3>
@@ -35,7 +35,7 @@ export default function Footer() {
                             <ul className="address-widget">
                                 <li>
                                     <i className="flaticon-location"></i>
-                                    <div className="desc">BYLD Group: Plot 48, 2nd And 3rd Floor, Sector - 44, Opp. EPF Regional Office, Gurugram, Haryana - 122003</div>
+                                    <div className="desc">BYLD Group, Plot No. 48, Sector - 44, Opp. EPF Regional Office, Gurugram - 122003, Haryana, India</div>
                                 </li>
                                 <li>
                                     <i className="flaticon-call"></i>
@@ -61,17 +61,20 @@ export default function Footer() {
                             <h3 className="footer-title">SOCIAL LINKS</h3>
                             <ul className="footer-social md-mb-30">  
                                   <li> 
-                                      <a href="#" target="_blank"><span><i className="fa fa-facebook"></i></span></a> 
+                                      <a href="https://www.facebook.com/BYLDGroup" target="_blank"><span><i className="fa fa-facebook"></i></span></a> 
                                   </li>
                                   <li> 
-                                      <a href="# " target="_blank"><span><i className="fa fa-twitter"></i></span></a> 
+                                  <a href="https://www.linkedin.com/company/byld-group/" target="_blank"><span><i className="fa fa-linkedin"></i></span></a>
                                   </li>
 
                                   <li> 
-                                      <a href="# " target="_blank"><span><i className="fa fa-pinterest-p"></i></span></a> 
+                                     <a href="https://twitter.com/BYLDGroup" target="_blank"><span><i className="fa fa-twitter"></i></span></a> 
                                   </li>
                                   <li> 
-                                      <a href="# " target="_blank"><span><i className="fa fa-instagram"></i></span></a> 
+                                     <a href="https://www.youtube.com/channel/UC7kOBtc5uLtODiuTYvqgS4g" target="_blank"><span><i className="fa fa-youtube"></i></span></a> 
+                                  </li>
+                                  <li> 
+                                      <a href="https://www.instagram.com/byld_group/" target="_blank"><span><i className="fa fa-instagram"></i></span></a> 
                                   </li>
                                                                            
                               </ul>
