@@ -3,6 +3,31 @@ import React from 'react'
 import Image from 'next/image'
 
 export default function Footer() {
+    const registerUser = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/22/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for your details. Check your inbox for more details.";
+
+                    document.getElementById("showlabel").style.display = "block";
+                    
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("your-email=" + event.target.email.value)
+
+    }
   return (
     <>
     <footer id="rs-footer" className="rs-footer style1">
@@ -79,10 +104,13 @@ export default function Footer() {
                                                                            
                               </ul>
                             <p className="widget-desc white-color mtt-25">Subscribe to our newsletter</p>
-                            <p className='mtt-5'>
-                                <input type="email" name="EMAIL" placeholder="Your email address" required=""/>
-                                <input type="submit" value="Subscribe Now"/>
-                            </p>
+                            <form className='mtt-5' onSubmit={registerUser}>
+                                <p>
+                                <input type="email" name="email" placeholder="Your email address" required=""/>
+                                <input id="submitbuttonform" type="submit" value="Subscribe Now"/>
+                                <p id="showlabel" style={{ display: "none" }}></p>
+                                </p>
+                            </form>
                         </div>
                     </div>
                 </div>

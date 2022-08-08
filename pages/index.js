@@ -3,9 +3,20 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Slider from "react-slick";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import  moment from 'moment';
 
+export async function getServerSideProps() {
+   const res = await fetch('https://byld-admins.herokuapp.com/api/posts')
+   const posts = await res.json()
 
-export default function Home() {
+   return {
+     props: {
+       posts    
+     },
+   }
+ }
+
+export default function Home({posts}) {
 
     var settings = {
         dots: true,
@@ -672,43 +683,30 @@ EXCELLENCE.</p>
                   </div>
                 </div>
                 <Slider {...settings1}>
+                {
+                                posts.slice(0, 3).map((getpost) => {
+                                return (
                 <div className="blog-wrap">
                      <div className="blog-img">
-                        <a href='#'><img src="/assets/img/blog1.jpg" alt=""/></a>
+                        <a href={`/${getpost.posturl}`}><img src={getpost.ImageURL} alt={getpost.ImageAlt} /></a>
                      </div>
                      <div className="blog-contant blogpading">
-                        <h4 className="title"><a href="#">Coaching and Mentoring Upscale Massive Organizational Development</a></h4>
-                        <div className="desc">Praesent eu dolor eu orci vehicula euismod Vivamus sed solli.</div>
-                        <div className="blog-meta d-none">
-                           <ul>
+                        <h4 className="title"><a href={`/${getpost.posturl}`}>{getpost.Title}</a></h4>                        
+                        <div className="blog-meta">
+                           <ul className='ajcssb'>
                                  <li>
-                                    <img className="avatar" src="/assets/images/blog/home-6/avatar.jpg" alt=""/>
-                                    <a href="#">Admin</a>
+                                    <i className='fa fa-user-o'></i><a href="#">{getpost.AuthorFullname}</a>
                                  </li>
-                                 <li><i className="fa fa-clock-o"></i>Nov 1, 2019</li>
+                                 <li><i className="fa fa-clock-o"></i> {moment(getpost.ModifiedDate).format('DD MMMM Y')}</li>
                            </ul>
                         </div>
                      </div>
                </div>
+                );
+               })
+               }
 
-               <div className="blog-wrap">
-                     <div className="blog-img">
-                        <a href='#'><img src="/assets/img/blog1.jpg" alt=""/></a>
-                     </div>
-                     <div className="blog-contant blogpading">
-                        <h4 className="title"><a href="#">Coaching and Mentoring Upscale Massive Organizational Development</a></h4>
-                        <div className="desc">Praesent eu dolor eu orci vehicula euismod Vivamus sed solli.</div>
-                        <div className="blog-meta d-none">
-                           <ul>
-                                 <li>
-                                    <img className="avatar" src="/assets/images/blog/home-6/avatar.jpg" alt=""/>
-                                    <a href="#">Admin</a>
-                                 </li>
-                                 <li><i className="fa fa-clock-o"></i>Nov 1, 2019</li>
-                           </ul>
-                        </div>
-                     </div>
-               </div>
+               
                </Slider>
             </div>
          </div>
