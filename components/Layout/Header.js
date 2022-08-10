@@ -72,14 +72,14 @@ export default function Header() {
                                                     <a href="/">HOME</a>                                                    
                                                 </li>
                                                 <li className="menu-item-has-children">
-                                                    <a href="/our-solutions">OUR SOLUTIONS</a>                                                        
+                                                    <a href="#">OUR SOLUTIONS</a>                                                        
                                                     <ul className="sub-menu">
                                                     <li className="last-item menu-item-has-children">
                                                             <a href="/our-solutions/experiential-learning">Experiential Learning</a>
                                                             <ul className="sub-menu">
                                                                 <li><a target="_blank" href="/eaglesflightindia/">Eagle’s Flight™</a></li>
                                                                 <li><a href="/business-today-simulations">Business Today Simulations</a> </li>
-                                                                <li><a href="#">Gaminar</a></li>
+                                                                <li className='d-none'><a href="#">Gaminar</a></li>
                                                                 <li><a href="/jenson-8">Jensen 8 (Virtual Reality Trainings)</a></li>
                                                             </ul>
                                                         </li>
@@ -99,15 +99,15 @@ export default function Header() {
                                                                 <li><a target="_blank" href="/everythingdisc">Everything DiSC (A Wiley Brand)</a> </li>
                                                                 <li><a href="/assessments/lumina-psychometric-assesments">Lumina Spark</a></li>
                                                                 <li><a href="/assessments/talentsmart-eq-assesments">TalentSmart EQ</a></li>
-                                                                <li><a href="/assessments/assessments-and-development-centers">Assessments and Development Centers</a></li>                                                                
+                                                                <li className='d-none'><a href="/assessments/assessments-and-development-centers">Assessments and Development Centers</a></li>                                                                
                                                             </ul>
                                                         </li>
                                                         <li className="last-item menu-item-has-children">
                                                             <a href="#">BeSpoke</a>
                                                             <ul className="sub-menu">
                                                                 <li><a href="/bespoke/persona-global">Persona Global</a> </li>
-                                                                <li><a href="#">SLI</a></li>
-                                                                <li><a href="#">Large Projects</a></li>
+                                                                <li className='d-none'><a href="#">SLI</a></li>
+                                                                <li className='d-none'><a href="#">Large Projects</a></li>
                                                             </ul>
                                                         </li>
                                                         
@@ -115,7 +115,7 @@ export default function Header() {
                                                             <a href="/our-solutions/staffing">Staffing & Search</a>
                                                             <ul className="sub-menu">
                                                                 <li><a target="_blank" href="https://yomamultinational.com/">YOMA Business Solutions</a> </li>
-                                                                <li><a href="#">YOMA Technologies</a></li>
+                                                                <li className='d-none'><a href="#">YOMA Technologies</a></li>
                                                             </ul>
                                                         </li>
 
@@ -124,7 +124,7 @@ export default function Header() {
                                                             <ul className="sub-menu">
                                                                 <li><a href='#'>ICF Certification</a></li>
                                                                 <li><a href="/coaching/insideout-coaching">InsideOut™ Coaching</a></li>
-                                                                <li><a href='#'>Breakthrough</a></li>
+                                                                <li className='d-none'><a href='#'>Breakthrough</a></li>
                                                                 <li><a href='/coaching/executive-coaching'>Executive Coaching</a></li>
                                                             </ul>
                                                         </li>
@@ -254,100 +254,100 @@ export default function Header() {
                         </a>
                     </div>
                     <ul className="nav-menu">
-                                                <li>
-                                                    <a href="/">HOME</a>                                                    
-                                                </li>
-                                                <li className="menu-item-has-children">
-                                                    <a href="/our-solutions">OUR SOLUTIONS</a>                                                        
-                                                    <ul className="sub-menu">
-                                                    <li className="last-item menu-item-has-children">
-                                                            <a href="/our-solutions/experiential-learning">Experiential Learning</a>
-                                                            <ul className="sub-menu">
-                                                                <li><a target="_blank" href="/eaglesflightindia/">Eagle’s Flight™</a></li>
-                                                                <li><a href="/business-today-simulations">Business Today Simulations</a> </li>
-                                                                <li><a href="#">Gaminar</a></li>
-                                                                <li><a href="/jenson-8">Jensen 8 (Virtual Reality Trainings)</a></li>
-                                                            </ul>
-                                                        </li>
+                        <li>
+                            <a href="/">HOME</a>                                                    
+                        </li>
+                        <li className="menu-item-has-children">
+                            <a href="#">OUR SOLUTIONS</a>                                                        
+                            <ul className="sub-menu">
+                            <li className="last-item menu-item-has-children">
+                                    <a href="/our-solutions/experiential-learning">Experiential Learning</a>
+                                    <ul className="sub-menu">
+                                        <li><a target="_blank" href="/eaglesflightindia/">Eagle’s Flight™</a></li>
+                                        <li><a href="/business-today-simulations">Business Today Simulations</a> </li>
+                                        <li className='d-none'><a href="#">Gaminar</a></li>
+                                        <li><a href="/jenson-8">Jensen 8 (Virtual Reality Trainings)</a></li>
+                                    </ul>
+                                </li>
 
-                                                        <li className="last-item menu-item-has-children">
-                                                            <a href="/our-solutions/leadership-and-talent-development">Leadership & Performance</a>
-                                                            <ul className="sub-menu">
-                                                                <li><a target="_blank" href="https://blanchardinternational.co.in/">Blanchard India</a></li>
-                                                                <li><a href='/tirian'>Tirian</a></li>
-                                                                <li><a target="_blank" href="/cruciallifechangingskills/">Crucial Life Changing Skills</a></li>
-                                                                <li><a href="/leadership-and-performance/trapologist">Trapologist at Work™</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li className="last-item menu-item-has-children">
-                                                            <a href="/our-solutions/assessments">Assessments</a>
-                                                            <ul className="sub-menu">
-                                                                <li><a target="_blank" href="/everythingdisc">Everything DiSC (A Wiley Brand)</a> </li>
-                                                                <li><a href="/assessments/lumina-psychometric-assesments">Lumina Spark</a></li>
-                                                                <li><a href="/assessments/talentsmart-eq-assesments">TalentSmart EQ</a></li>
-                                                                <li><a href="/assessments/assessments-and-development-centers">Assessments and Development Centers</a></li>                                                                
-                                                            </ul>
-                                                        </li>
-                                                        <li className="last-item menu-item-has-children">
-                                                            <a href="#">BeSpoke</a>
-                                                            <ul className="sub-menu">
-                                                                <li><a href="/bespoke/persona-global">Persona Global</a> </li>
-                                                                <li><a href="#">SLI</a></li>
-                                                                <li><a href="#">Large Projects</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        
-                                                        <li className="last-item menu-item-has-children">
-                                                            <a href="/our-solutions/staffing">Staffing & Search</a>
-                                                            <ul className="sub-menu">
-                                                                <li><a target="_blank" href="https://yomamultinational.com/">YOMA Business Solutions</a> </li>
-                                                                <li><a href="#">YOMA Technologies</a></li>
-                                                            </ul>
-                                                        </li>
+                                <li className="last-item menu-item-has-children">
+                                    <a href="/our-solutions/leadership-and-talent-development">Leadership & Performance</a>
+                                    <ul className="sub-menu">
+                                        <li><a target="_blank" href="https://blanchardinternational.co.in/">Blanchard India</a></li>
+                                        <li><a href='/tirian'>Tirian</a></li>
+                                        <li><a target="_blank" href="/cruciallifechangingskills/">Crucial Life Changing Skills</a></li>
+                                        <li><a href="/leadership-and-performance/trapologist">Trapologist at Work™</a></li>
+                                    </ul>
+                                </li>
+                                <li className="last-item menu-item-has-children">
+                                    <a href="/our-solutions/assessments">Assessments</a>
+                                    <ul className="sub-menu">
+                                        <li><a target="_blank" href="/everythingdisc">Everything DiSC (A Wiley Brand)</a> </li>
+                                        <li><a href="/assessments/lumina-psychometric-assesments">Lumina Spark</a></li>
+                                        <li><a href="/assessments/talentsmart-eq-assesments">TalentSmart EQ</a></li>
+                                        <li className='d-none'><a href="/assessments/assessments-and-development-centers">Assessments and Development Centers</a></li>                                                                
+                                    </ul>
+                                </li>
+                                <li className="last-item menu-item-has-children">
+                                    <a href="#">BeSpoke</a>
+                                    <ul className="sub-menu">
+                                        <li><a href="/bespoke/persona-global">Persona Global</a> </li>
+                                        <li className='d-none'><a href="#">SLI</a></li>
+                                        <li className='d-none'><a href="#">Large Projects</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li className="last-item menu-item-has-children">
+                                    <a href="/our-solutions/staffing">Staffing & Search</a>
+                                    <ul className="sub-menu">
+                                        <li><a target="_blank" href="https://yomamultinational.com/">YOMA Business Solutions</a> </li>
+                                        <li className='d-none'><a href="#">YOMA Technologies</a></li>
+                                    </ul>
+                                </li>
 
-                                                        <li className="last-item menu-item-has-children">
-                                                            <a href="/our-solutions/coaching">Coaching</a>
-                                                            <ul className="sub-menu">
-                                                                <li><a href='#'>ICF Certification</a></li>
-                                                                <li><a href="/coaching/insideout-coaching">InsideOut™ Coaching</a></li>
-                                                                <li><a href='#'>Breakthrough</a></li>
-                                                                <li><a href='/coaching/executive-coaching'>Executive Coaching</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li className="menu-item-has-children">
-                                                    <a href="/about-us">ABOUT US</a>
-                                                    <ul className="sub-menu">                                                        
-                                                        <li><a href="/mission-vision-values">Mission, Vision and Values</a></li>
-                                                        <li><a href="/our-leadership-team">Our Leadership Team</a></li>                                                        
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="/client-corner">CLIENT CORNER</a>
-                                                </li>
-                                                <li className="menu-item-has-children">
-                                                    <a href="#">EVENTS</a>
-                                                    <ul className="sub-menu">
-                                                        <li><a href="/webinars-and-program-experience">Webinars</a></li>
-                                                        <li><a href="/workshops">Workshops</a></li>                                                      
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="/blog">BLOG</a>
-                                                </li>
-                                                <li className="menu-item-has-children">
-                                                    <a href="/press">MEDIA</a>
-                                                    <ul className="sub-menu">
-                                                        <li><a href="/press/topics/byld-group-in-news">BYLD Group in News</a></li>
-                                                        <li><a href="/events-gallery">Events</a></li>
-                                                        <li><a href="/awards-accolades">Awards & Accolades</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="/contact-us">CONTACT US</a>
-                                                </li>
-                                            </ul> 
+                                <li className="last-item menu-item-has-children">
+                                    <a href="/our-solutions/coaching">Coaching</a>
+                                    <ul className="sub-menu">
+                                        <li><a href='#'>ICF Certification</a></li>
+                                        <li><a href="/coaching/insideout-coaching">InsideOut™ Coaching</a></li>
+                                        <li className='d-none'><a href='#'>Breakthrough</a></li>
+                                        <li><a href='/coaching/executive-coaching'>Executive Coaching</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="menu-item-has-children">
+                            <a href="/about-us">ABOUT US</a>
+                            <ul className="sub-menu">                                                        
+                                <li><a href="/mission-vision-values">Mission, Vision and Values</a></li>
+                                <li><a href="/our-leadership-team">Our Leadership Team</a></li>                                                        
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/client-corner">CLIENT CORNER</a>
+                        </li>
+                        <li className="menu-item-has-children">
+                            <a href="#">EVENTS</a>
+                            <ul className="sub-menu">
+                                <li><a href="/webinars-and-program-experience">Webinars</a></li>
+                                <li><a href="/workshops">Workshops</a></li>                                                      
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/blog">BLOG</a>
+                        </li>
+                        <li className="menu-item-has-children">
+                            <a href="/press">MEDIA</a>
+                            <ul className="sub-menu">
+                                <li><a href="/press/topics/byld-group-in-news">BYLD Group in News</a></li>
+                                <li><a href="/events-gallery">Events</a></li>
+                                <li><a href="/awards-accolades">Awards & Accolades</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/contact-us">CONTACT US</a>
+                        </li>
+                    </ul>
                 </nav>
             
             </header>

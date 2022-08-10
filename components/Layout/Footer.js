@@ -3,9 +3,9 @@ import React from 'react'
 import Image from 'next/image'
 
 export default function Footer() {
-    const registerUser = async event => {
+    const FooregisterUser = async event => {
         event.preventDefault()
-        document.getElementById("submitbuttonform").value = "Submitting form...."
+        document.getElementById("submitbuttonform1").value = "Submitting form...."
         const xhttp = new XMLHttpRequest();
         xhttp.onload = function () {
             console.log(this.responseText);
@@ -15,10 +15,12 @@ export default function Footer() {
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
                 if (xhttp.status == 200) {
-                    document.getElementById("showlabel").innerHTML = "Thank you for your details. Check your inbox for more details.";
+                    document.getElementById("showlabel1").innerHTML = "Thank you for your details. Check your inbox for more details.";
 
-                    document.getElementById("showlabel").style.display = "block";
-                    
+                    document.getElementById("showlabel1").style.display = "block";
+                    setTimeout(function () {
+                        document.getElementById("showlabel1").style.display = "none";
+                    }, 3000);
 
                 } else {
                     alert('There was a problem with the request.');
@@ -28,6 +30,7 @@ export default function Footer() {
         xhttp.send("your-email=" + event.target.email.value)
 
     }
+    
   return (
     <>
     <footer id="rs-footer" className="rs-footer style1">
@@ -104,11 +107,11 @@ export default function Footer() {
                                                                            
                               </ul>
                             <p className="widget-desc white-color mtt-25">Subscribe to our newsletter</p>
-                            <form className='mtt-5' onSubmit={registerUser}>
+                            <form className='mtt-5' onSubmit={FooregisterUser}>
                                 <p>
-                                <input type="email" name="email" placeholder="Your email address" required=""/>
-                                <input id="submitbuttonform" type="submit" value="Subscribe Now"/>
-                                <p id="showlabel" style={{ display: "none" }}></p>
+                                <input type="email" name="email" placeholder="Your email address" required/>
+                                <input id="submitbuttonform1" type="submit" value="Subscribe Now"/>
+                                <p id="showlabel1" style={{ display: "none" }}></p>
                                 </p>
                             </form>
                         </div>

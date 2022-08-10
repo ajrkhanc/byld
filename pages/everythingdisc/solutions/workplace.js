@@ -118,7 +118,7 @@ export default function Workplace(){
                                 </p>
 
                                 <div class="btn-part ptt-10 pbb-30">
-                                <a class="readon2" href="/contact-us">
+                                <a class="readon2" href="/everythingdisc/contact-us">
                                 Find a Partner
                                     <div class="btn-arrow"></div>
                                 </a>

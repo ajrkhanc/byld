@@ -40,7 +40,30 @@ export default function ContactUs(){
         <>
         <Head>
             <title>Contact Us - BYLD Group</title>
-            <meta name="description" content="Contact US Have a question? Call us now 1800-102-1345 +91-124-2666030 Need support? Drop us an email info@byldgroup.com Reach out to us! Unit No. 629-634, 6th Floor, Vipul Trade Centre, Sohna Road, Sector -48, Gurgaon – 122018, Haryana (India). GET IN TOUCH FILL THE FORM BELOW"/> 
+            <meta name="description" content="Contact US Have a question? Call us now 1800-102-1345 +91-124-2666030 Need support? Drop us an email info@byldgroup.com Reach out to us! Unit No. 629-634, 6th Floor, Vipul Trade Centre, Sohna Road, Sector -48, Gurgaon – 122018, Haryana (India). GET IN TOUCH FILL THE FORM BELOW"/>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              $(function() {
+               var overlay = $('<div id="overlay"></div>');
+               overlay.delay();
+               overlay.appendTo(document.body);
+               $('.popup').delay(5000).fadeIn();
+               $('.close').click(function() {
+                 $('.popup').hide();
+                 overlay.appendTo(document.body).remove();
+                 return false;
+               });
+               $('.x').click(function() {
+                 $('.popup').hide();
+                 overlay.appendTo(document.body).remove();
+                 return false;
+               });
+             });
+          `,
+            }}
+          />
         </Head>
         <div class="contactusbg">
         <div className='container'>
@@ -171,15 +194,14 @@ export default function ContactUs(){
                 </div>
             </div>
 
-            {/* <div className="container pbb-50 ptt-50">
-                <div className="row">
-                    <div className="col-sm-12">
-                      <div className="cmap">
-                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14037.642076595946!2d77.0416708!3d28.4068673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x784abf10032f4ea1!2sBYLD%20Group%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1650816695732!5m2!1sen!2sin" width="100%" height="370" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                      </div>
-                    </div>
+            <div class='popup wow fadeInUp delay-0-10s animated animateUP'>
+                <div class='cnt223 pa00'>
+                <a href='' class='close popupclose'>X</a>
+                <div className='popupinner'>
+                <a target="_blank" href="https://www.linkedin.com/company/byld-group/"><img src="/assets/img/linkedpopup.jpg"/></a>
                 </div>
-            </div> */}
+                </div>
+            </div>
         </>
     )
 }

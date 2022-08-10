@@ -53,7 +53,7 @@ export default function Staffing(){
                                 </a>
                             </div>
 
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 d-none">
                                 <a class="productbox" href="#">
                                 <div class="service-grid">
                                     <div class="service-icon">

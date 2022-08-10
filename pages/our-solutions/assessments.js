@@ -71,7 +71,7 @@ export default function Assessments(){
                                 </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 d-none">
                             <a class="productbox" href="/assessments/assessments-and-development-centers">
                                 <div class="service-grid">
                                     <div class="service-icon">

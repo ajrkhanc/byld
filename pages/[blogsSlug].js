@@ -75,32 +75,32 @@ const submitFeedback = async (event) => {
 };
 export default function singleblog({ posts, posts5, cats, postfeedback }) {
 
-    const registerUser = async event => {
+    const PopupRegisterd = async event => {
         event.preventDefault()
-        document.getElementById("submitbuttonform").value = "Submitting form...."
+        document.getElementById("submitbuttonformpopup").value = "Submitting form...."
         const xhttp = new XMLHttpRequest();
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/yomamultinational/wp-json/contact-form-7/v1/contact-forms/14/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/22/feedback');
         xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
                 if (xhttp.status == 200) {
-                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details.";
-
-                    document.getElementById("showlabel").style.display = "block";
-                    window.setTimeout(function() {
-                       window.location.href = "/thank-you-lp"
-                    }, 3000);
-
+                    document.getElementById("showlabel1popup").innerHTML = "Thank you for your details. Check your inbox for more details.";
+  
+                    document.getElementById("showlabel1popup").style.display = "block";
+                    setTimeout(function () {
+                    document.getElementById("popuphidec").style.display = "none";
+                }, 3000);
+  
                 } else {
                     alert('There was a problem with the request.');
                 }
             }
         };
         xhttp.send("your-email=" + event.target.fmail.value)
-
+  
     }
 
     return (
@@ -127,6 +127,30 @@ export default function singleblog({ posts, posts5, cats, postfeedback }) {
                 <meta property="og:description" content="" />
                 <meta property="og:image" name="image" content={posts.ImageURL} />
                 <meta property="og:url" content={posts.posturl} />
+
+                <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              $(function() {
+               var overlay = $('<div id="overlay"></div>');
+               overlay.delay();
+               overlay.appendTo(document.body);
+               $('.popup').delay(5000).fadeIn();
+               $('.close').click(function() {
+                 $('.popup').hide();
+                 overlay.appendTo(document.body).remove();
+                 return false;
+               });
+               $('.x').click(function() {
+                 $('.popup').hide();
+                 overlay.appendTo(document.body).remove();
+                 return false;
+               });
+             });
+          `,
+            }}
+          />
 
             </Head>
             
@@ -244,6 +268,39 @@ export default function singleblog({ posts, posts5, cats, postfeedback }) {
                     </div>
                 </div>
                 </div>
+
+                <div id="popuphidec" class='popup wow fadeInUp delay-0-2s animated animateUP'>
+            <div class='cnt223'>
+            <a href='' class='close popupclose'>X</a>
+               <div className='popupinner'>
+                  <div className='popupimg text-center'>
+                     <img src="/assets/img/popupimg.png"/>
+                     <h3>YOU CAN’T LEARN ANYTHING FROM A POP-UP.</h3>
+                     <p>But you can learn a lot from insightful matters by our experts by getting those delivered to your inbox every month.</p>
+                  </div>
+                  <div className='popupform'>
+                  <form id="contactForm" onSubmit={PopupRegisterd}>
+                        <div className="row clearfix justify-content-center">                              
+                              <div className="col-sm-12">
+                                 <div className="form-group mb-0">                                                                                            
+                                    <input type="email" id="EmailAddress" name="fmail" className="form-control popupsus" placeholder="Enter Your Email" required />
+                                 </div>
+                              </div>
+
+                              <div className="col-sm-12">
+                              <div className="form-group mb-0">
+                                 <input id="submitbuttonformpopup" type="submit" className="theme-btn btnwidth fullbtn" value="SEND ME INSIGHTS"/>
+                              </div>
+                              <div className="clearfix"></div>
+                              <p id="showlabel1popup" className="submitpopup" style={{ display: "none" }}></p>
+                        </div>
+                        
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
         </>
     )
 }

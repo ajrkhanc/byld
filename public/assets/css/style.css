@@ -2304,7 +2304,7 @@ blockquote cite:before {
   transform: translateY(-50%);
 }
 .full-width-header .mobile-navbar-menu .hash-has-sub span.submenu-button {
-  width: 100%;
+  width: 40px;
   cursor: pointer;
   top: 0;
   height: 50px;
@@ -6677,11 +6677,12 @@ body .search-modal .close:hover {
   margin-top: 45px;
 }
 .rs-testimonial.style2 .testi-wrap {
-  background: url(assets/images/testimonial/test-bg.jpg);
+  background: url(/assets/img/test-bg.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px 40px 60px 40px;
+  padding: 15px 10px 30px 15px;
+  min-height: 440px;
 }
 .rs-testimonial.style2 .testi-wrap .item-content span img {
   width: 48px;
@@ -6690,7 +6691,7 @@ body .search-modal .close:hover {
   color: #FFFFFF;
   font-size: 15px;
   font-weight: 500;
-  padding: 15px 0 10px;
+  padding: 15px 0 0px;
 }
 .rs-testimonial.style2 .testi-wrap .testi-content {
   display: flex;
@@ -8109,6 +8110,7 @@ body .search-modal .close:hover {
 .rs-footer.style1 {
   background: #121212;
   background-size: cover;
+  background-image: url(/assets/img/footer-bg-map.png);
 }
 .rs-footer.style1 .footer-top {
   padding: 92px 0 65px;

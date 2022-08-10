@@ -3,20 +3,39 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Slider from "react-slick";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import  moment from 'moment';
 
-export async function getServerSideProps() {
-   const res = await fetch('https://byld-admins.herokuapp.com/api/posts')
-   const posts = await res.json()
 
-   return {
-     props: {
-       posts    
-     },
-   }
- }
 
-export default function Home({posts}) {
+export default function Home() {
+
+   const PopupRegisterd = async event => {
+      event.preventDefault()
+      document.getElementById("submitbuttonformpopup").value = "Submitting form...."
+      const xhttp = new XMLHttpRequest();
+      xhttp.onload = function () {
+          console.log(this.responseText);
+      }
+      xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/22/feedback');
+      xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+      xhttp.onreadystatechange = function () {
+          if (xhttp.readyState == 4) {
+              if (xhttp.status == 200) {
+                  document.getElementById("showlabel1popup").innerHTML = "Thank you for your details. Check your inbox for more details.";
+
+                  document.getElementById("showlabel1popup").style.display = "block";
+                  setTimeout(function () {
+                     document.getElementById("popuphidec").style.display = "none";
+                 }, 3000);
+                  
+
+              } else {
+                  alert('There was a problem with the request.');
+              }
+          }
+      };
+      xhttp.send("your-email=" + event.target.fmail.value)
+
+  }
 
     var settings = {
         dots: true,
@@ -99,6 +118,29 @@ export default function Home({posts}) {
          <Head>
             <title>HR and Business Productivity Solutions | BYLD Group</title>
             <meta name="description" content="Largest group in South Asia offering HR and business productivity solutions for individuals, teams and organizations. Served 300 of 500 Fortune companies."/> 
+            <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              $(function() {
+               var overlay = $('<div id="overlay"></div>');
+               overlay.delay();
+               overlay.appendTo(document.body);
+               $('.popup').delay(5000).fadeIn();
+               $('.close').click(function() {
+                 $('.popup').hide();
+                 overlay.appendTo(document.body).remove();
+                 return false;
+               });
+               $('.x').click(function() {
+                 $('.popup').hide();
+                 overlay.appendTo(document.body).remove();
+                 return false;
+               });
+             });
+          `,
+            }}
+          />
           </Head>
 
  <div className="rs-services style8 dnone767px">
@@ -158,7 +200,7 @@ EXCELLENCE.</p>
             <Tab><i className='fa fa-folder-o'></i> Experiential Learning</Tab>
             <Tab><i className='fa fa-users'></i> Leadership & Performance</Tab>
             <Tab><i className='fa fa-newspaper-o'></i> Assessments</Tab>
-            <Tab><i className='fa fa-newspaper-o'></i> BeSpoke</Tab>
+            {/* <Tab><i className='fa fa-newspaper-o'></i> BeSpoke</Tab> */}
             <Tab><i className='fa fa-object-group'></i> Staffing & Search</Tab>
             <Tab><i className='fa fa-cogs'></i> Coaching</Tab>
          </TabList>
@@ -175,7 +217,7 @@ EXCELLENCE.</p>
                      <ul className='solutionslist'>
                         <li><a target="_blank" href="/eaglesflightindia/"><i className='fa fa-angle-double-right'></i> Eagle's Flight</a></li>
                         <li><a href="/business-today-simulations"><i className='fa fa-angle-double-right'></i> Business Today Simulations</a></li>
-                        <li><a href="#"><i className='fa fa-angle-double-right'></i> Gaminar</a></li>
+                        <li className='d-none'><a href="#"><i className='fa fa-angle-double-right'></i> Gaminar</a></li>
                         <li><a href="/jenson-8"><i className='fa fa-angle-double-right'></i> Jenson 8 (Virtual Reality Trainings)</a></li>
                      </ul>
                      <div className="btn-part ptt-10 pbb-30">
@@ -221,7 +263,7 @@ EXCELLENCE.</p>
                         <li><Link href="/everythingdisc"><a target="_blank"><i className='fa fa-angle-double-right'></i> DiSC<sup>®</sup></a></Link></li>
                         <li><Link href="/assessments/lumina-psychometric-assesments"><a><i className='fa fa-angle-double-right'></i> Lumina Spark</a></Link></li>
                         <li><Link href="/assessments/talentsmart-eq-assesments"><a><i className='fa fa-angle-double-right'></i> TalentSmart EQ Assessments</a></Link></li>
-                        <li><Link href="/assessments/assessments-and-development-centers"><a><i className='fa fa-angle-double-right'></i> Assessments and Development Centers</a></Link></li>
+                        <li className='d-none'><Link href="/assessments/assessments-and-development-centers"><a><i className='fa fa-angle-double-right'></i> Assessments and Development Centers</a></Link></li>
                      </ul>
                      <div className="btn-part ptt-10 pbb-30">
                         <Link href="/our-solutions/assessments"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
@@ -230,7 +272,7 @@ EXCELLENCE.</p>
                </div>
             </TabPanel>
 
-            <TabPanel className="tabdetails">
+            {/* <TabPanel className="tabdetails">
             <div className='sec-title3'>
                   <h4 className="solutionh"><a href="#">BeSpoke</a></h4>
                   <div className="heading-border-line left-style"></div>
@@ -248,7 +290,7 @@ EXCELLENCE.</p>
                      </div>
                   </div>
                </div>
-            </TabPanel>
+            </TabPanel> */}
 
             <TabPanel className="tabdetails">
             <div className='sec-title3'>
@@ -261,7 +303,7 @@ EXCELLENCE.</p>
                   <div>
                      <ul className='solutionslist'>
                         <li><Link href="https://yomamultinational.com/"><a target="_blank"><i className='fa fa-angle-double-right'></i> YOMA Business Solutions</a></Link></li>
-                        <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> YOMA Technologies</a></Link></li>
+                        <li className='d-none'><Link href="#"><a><i className='fa fa-angle-double-right'></i> YOMA Technologies</a></Link></li>
                      </ul>
                      <div className="btn-part ptt-10 pbb-30">
                         <Link href="/our-solutions/staffing"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
@@ -281,7 +323,7 @@ EXCELLENCE.</p>
                      <ul className='solutionslist'>
                         <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> ICF Certification</a></Link></li>
                         <li><Link href="/coaching/insideout-coaching"><a><i className='fa fa-angle-double-right'></i> InsideOut CoachingTM</a></Link></li>
-                        <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> Breakthrough</a></Link></li>
+                        <li className='d-none'><Link href="#"><a><i className='fa fa-angle-double-right'></i> Breakthrough</a></Link></li>
                         <li><Link href="/coaching/executive-coaching"><a><i className='fa fa-angle-double-right'></i> Executive Coaching</a></Link></li>
                      </ul>
                      <div className="btn-part ptt-10 pbb-30">
@@ -675,44 +717,115 @@ EXCELLENCE.</p>
             </div>
          </div>
          <div className='col-md-4'>         
-            <div className='row bgorwhite rs-blog style1 pbb-35'>
+            <div className='row rs-testimonial style2 bgorwhite rs-blog style1 pbb-15'>
                 <div className='col-sm-12'>
                   <div className='sec-title3 mbb-35'>
-                        <h4 className="countertoph2">OUR BLOGS</h4>
+                        <h4 className="countertoph2">CLIENTS SPEAK</h4>
                         <div className="heading-border-line left-style"></div>
                   </div>
                 </div>
                 <Slider {...settings1}>
-                {
-                                posts.slice(0, 3).map((getpost) => {
-                                return (
-                <div className="blog-wrap">
-                     <div className="blog-img">
-                        <a href={`/${getpost.posturl}`}><img src={getpost.ImageURL} alt={getpost.ImageAlt} /></a>
-                     </div>
-                     <div className="blog-contant blogpading">
-                        <h4 className="title"><a href={`/${getpost.posturl}`}>{getpost.Title}</a></h4>                        
-                        <div className="blog-meta">
-                           <ul className='ajcssb'>
-                                 <li>
-                                    <i className='fa fa-user-o'></i><a href="#">{getpost.AuthorFullname}</a>
-                                 </li>
-                                 <li><i className="fa fa-clock-o"></i> {moment(getpost.ModifiedDate).format('DD MMMM Y')}</li>
-                           </ul>
+                        <div class="testi-wrap">
+                            <div class="item-content">
+                                <span><img src="/assets/img/quote.png" alt="Testimonial"/></span>
+                                <p>
+                                The online program was complete with several videos, real life examples and activities / note taking facility post each leg of the module which helped reflect on the learnings and its application. While a classroom training is best suited for this kind of a learning, the online module was well designed and engaging keeping the current constraints in perspective
+                                </p>
+                            </div>
+                            <div class="testi-content">
+                                <div class="image-wrap">
+                                    <img src="/assets/img/av.png" alt="Testimonial"/>
+                                </div>
+                                <div class="testi-information">
+                                    <div class="testi-name">Namita Shah</div>
+                                    <span class="testi-title">(HSBC India)</span>
+                                    <div class="ratting-img">
+                                        <img src="/assets/img/ratting.png" alt="Testimonial"/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-               </div>
-                );
-               })
-               }
 
-               
+                        <div class="testi-wrap">
+                            <div class="item-content">
+                                <span><img src="/assets/img/quote.png" alt="Testimonial"/></span>
+                                <p>
+                                We engaged their services for facilitating a session on SLII<sup>®</sup> for our 26 employees, who were members of the regional and local country leadership team spread across APAC, in Nov 2019. The objective of the learning program being enabling the leaders to drive change in the organization and have constructive & difficult conversations with their teams, ensuring the organizational goals are at the focal point of discussions.
+                                </p>
+                            </div>
+                            <div class="testi-content">
+                                <div class="image-wrap">
+                                    <img src="/assets/img/av.png" alt="Testimonial"/>
+                                </div>
+                                <div class="testi-information">
+                                    <div class="testi-name">Rangkynsai Nongbet</div>
+                                    <span class="testi-title">(Ortho Clinical Diagnostics)</span>
+                                    <div class="ratting-img">
+                                        <img src="/assets/img/ratting.png" alt="Testimonial"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testi-wrap">
+                            <div class="item-content">
+                                <span><img src="/assets/img/quote.png" alt="Testimonial"/></span>
+                                <p>
+                                Thankful to the team at Crucial Life Changing Skills for conducting a power packed session on the topic of “Influencer” for our leaders at CK Birla Group. The simple (and powerful) 6 sources of influence model will guide us to to drive change in our personal and professional space!
+                                </p>
+                            </div>
+                            <div class="testi-content">
+                                <div class="image-wrap">
+                                    <img src="/assets/img/av.png" alt="Testimonial"/>
+                                </div>
+                                <div class="testi-information">
+                                    <div class="testi-name">Prerna S</div>
+                                    <span class="testi-title">(Birla Fertility and IVF)</span>
+                                    <div class="ratting-img">
+                                        <img src="/assets/img/ratting.png" alt="Testimonial"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                </Slider>
             </div>
          </div>
       </div>
    </div>
 </section>
+
+<div id='popuphidec' class='popup wow fadeInUp delay-0-2s animated animateUP'>
+            <div class='cnt223'>
+            <a href='' class='close popupclose'>X</a>
+               <div className='popupinner'>
+                  <div className='popupimg text-center'>
+                     <img src="/assets/img/popupimg.png"/>
+                     <h3>YOU CAN’T LEARN ANYTHING FROM A POP-UP.</h3>
+                     <p>But you can learn a lot from insightful matters by our experts by getting those delivered to your inbox every month.</p>
+                  </div>
+                  <div className='popupform'>
+                  <form id="contactForm" onSubmit={PopupRegisterd}>
+                        <div className="row clearfix justify-content-center">                              
+                              <div className="col-sm-12">
+                                 <div className="form-group mb-0">                                                                                            
+                                    <input type="email" id="EmailAddress" name="fmail" className="form-control popupsus" placeholder="Enter Your Email" required />
+                                 </div>
+                              </div>
+
+                              <div className="col-sm-12">
+                              <div className="form-group mb-0">
+                                 <input id="submitbuttonformpopup" type="submit" className="theme-btn btnwidth fullbtn" value="SEND ME INSIGHTS"/>
+                              </div>
+                              <div className="clearfix"></div>
+                              <p id="showlabel1popup" className="submitpopup" style={{ display: "none" }}></p>
+                        </div>
+                        
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
 
 
 

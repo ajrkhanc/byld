@@ -878,4 +878,43 @@
           background-size: cover;
         }
 
+
+        /* Ebooks form css */
+        .agree-label{margin-bottom: 5px; position: relative;}
+        #chb1{position: absolute; top: 7px; left: 0; width: 17px;}
+        .agree-label label{font-weight: 500; color: #000000; margin-left: 25px;}
+
+
+        /* Thank You Page */
+.innerboxthankyou{
+  border-top: 4px solid #2a6db5;
+  border-right: 4px solid #2a6db5;
+  border-left: 4px solid #2a6db5;
+  border-bottom: 4px solid #f4812b;
+  padding: 30px 15px 0px 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 10%);
+  text-align: center;
+}
+.innerboxthankyou i{
+background: #2A6DB5;
+  color: #fff;
+  font-size: 40px;
+  padding: 11px;
+  height: 48px;
+  width: 50px;
+  border-radius: 5px;
+  line-height: 28px;
+}
+.innerboxthankyou h4{
+color: #2A6DB5;
+font-size: 22px;
+font-weight: 600;
+padding-top: 11px;
+margin-bottom: 5px;
+}
+.innerboxthankyou h5{color: #f4812b;font-size: 18px;}
+/* End Thank You LP CSS */
+
    
