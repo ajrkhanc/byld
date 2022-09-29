@@ -4,6 +4,9 @@ import ED from '../components/ED/Layout';
 import FiveB from '../components/FiveB/Layout';
 import Wiley from '../components/Wiley/Layout';
 import Eaglesflightindia from '../components/Eaglesflightindia/Layout';
+import Hhf from '../components/Hhf/Layout';
+// import Hhf from '../components/Hhf/Layout';
+
 
 
 import Head from 'next/head'
@@ -33,6 +36,7 @@ export default function MyApp({ Component, pageProps, router }) {
       )
 
   }
+
 
   else if (router.pathname.startsWith('/fivebehaviors')) {
 
@@ -175,6 +179,167 @@ else if (router.pathname.startsWith('/wiley')) {
 
 }
 
+else if (router.pathname.startsWith('/eaglesflightindia/byomkesh-bakshi')) {
+  return(
+    <Hhf>
+      <Head>
+            <meta charset="utf-8" />           
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <link rel="icon" href="/efassets/favicon.png" />
+            <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon"/>
+            <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/style.css"/>
+
+            
+        </Head>
+      <Component {...pageProps} />
+    </Hhf>
+  )
+}
+
+else if (router.pathname.startsWith('/eaglesflightindia/feluda')) {
+  return(
+    <Hhf>
+      <Head>
+            <meta charset="utf-8" />           
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <link rel="icon" href="/efassets/favicon.png" />
+            <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon"/>
+            <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/style.css"/>
+
+            
+        </Head>
+      <Component {...pageProps} />
+    </Hhf>
+  )
+}
+
+else if (router.pathname.startsWith('/eaglesflightindia/jagga-jasoos')) {
+  return(
+    <Hhf>
+      <Head>
+            <meta charset="utf-8" />           
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <link rel="icon" href="/efassets/favicon.png" />
+            <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon"/>
+            <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/style.css"/>
+
+            
+        </Head>
+      <Component {...pageProps} />
+    </Hhf>
+  )
+}
+
+else if (router.pathname.startsWith('/eaglesflightindia/karamchand')) {
+  return(
+    <Hhf>
+      <Head>
+            <meta charset="utf-8" />           
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <link rel="icon" href="/efassets/favicon.png" />
+            <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon"/>
+            <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/style.css"/>
+
+            
+        </Head>
+      <Component {...pageProps} />
+    </Hhf>
+  )
+}
+
+else if (router.pathname.startsWith('/eaglesflightindia/kkw')) {
+  return(
+    <Hhf>
+      <Head>
+            <meta charset="utf-8" />           
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <link rel="icon" href="/efassets/favicon.png" />
+            <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon"/>
+            <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/style.css"/> 
+        </Head>
+      <Component {...pageProps} />
+    </Hhf>
+  )
+}
+
+else if (router.pathname.startsWith('/eaglesflightindia/ms-marple')) {
+  return(
+    <Hhf>
+      <Head>
+            <meta charset="utf-8" />           
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <link rel="icon" href="/efassets/favicon.png" />
+            <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon"/>
+            <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/style.css"/> 
+        </Head>
+      <Component {...pageProps} />
+    </Hhf>
+  )
+}
+
+else if (router.pathname.startsWith('/eaglesflightindia/museum-caper-4')) {
+  return(
+    <Hhf>
+      <Head>
+            <meta charset="utf-8" />           
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <link rel="icon" href="/efassets/favicon.png" />
+            <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon"/>
+            <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/style.css"/> 
+        </Head>
+      <Component {...pageProps} />
+    </Hhf>
+  )
+}
+
+else if (router.pathname.startsWith('/eaglesflightindia/museum-caper-5')) {
+  return(
+    <Hhf>
+      <Head>
+            <meta charset="utf-8" />           
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <link rel="icon" href="/efassets/favicon.png" />
+            <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon"/>
+            <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/style.css"/> 
+        </Head>
+      <Component {...pageProps} />
+    </Hhf>
+  )
+}
+
+else if (router.pathname.startsWith('/eaglesflightindia/mcw')) {
+  return(
+    <Hhf>
+      <Head>
+            <meta charset="utf-8" />           
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <link rel="icon" href="/efassets/favicon.png" />
+            <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon"/>
+            <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/style.css"/> 
+        </Head>
+      <Component {...pageProps} />
+    </Hhf>
+  )
+}
+
 else if (router.pathname.startsWith('/eaglesflightindia')) {
 
   return (
@@ -221,6 +386,8 @@ else if (router.pathname.startsWith('/eaglesflightindia')) {
   )
 
 }
+
+
 
 else {
 

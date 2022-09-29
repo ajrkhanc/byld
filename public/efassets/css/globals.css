@@ -950,3 +950,91 @@ margin-bottom: 5px;
 }
 .innerboxthankyou h5{color: #f4812b;font-size: 18px;}
 /* End Thank You LP CSS */
+
+/* Ebooks form css */
+.agree-label{margin-bottom: 5px; position: relative;}
+#chb1{position: absolute; top: 7px; left: 0; width: 17px;}
+.agree-label label{font-weight: 500; color: #000000; margin-left: 25px;}
+
+.themecoloforpdf{ background-color: #142C3B;}
+.mlogosize{ width: 100px;}
+.float-right{ float: right;}
+.mlist{
+  color: #fff;
+  padding-top: 15px;
+  overflow: hidden;
+  display: block;
+}
+.mauto img{ margin: auto;}
+.kh5{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.bottomimages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomimages a{ padding: 10px;}
+
+.mfooterc{
+  background-color: #373838 !important;
+  border-radius: 0px !important;
+}
+.mfooterc .footer-top{ padding-top: 50px !important;}
+.centerwhite{ text-align: center; color: #fff;}
+
+.jaggaclient{
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  padding-top: 12px;
+}
+
+.dfl{ display: inline-flex;}
+
+.mlist2 {
+  color: #000;    
+    overflow: hidden;
+    display: block;
+    border: 3px solid #2a6db5;
+    border-radius: 16px;
+    padding: 5px 20px;
+    margin-left: 22px;
+}
+.kingkufubg{
+  background: url(/efassets/img/kingkufu.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kingkufuli li a{
+  font-weight: 500;
+  text-transform: uppercase;
+  fill: #276052;
+  color: #276052;
+  background-color: #F9C65D;
+  border-style: solid;
+  border-width: 0px 2px 2px 0px;
+  border-color: #276052;
+  border-radius: 0px 0px 0px 0px;
+  padding: 8px 10px;
+  margin: 5px 0px;
+  overflow: hidden;
+  display: inline-block;
+  width: 170px;
+}
+
+.ffont45{
+  font-size: 45px !important;
+    margin-bottom: 28px;
+}
+
+.ffont28{
+  font-size: 28px !important;
+    margin-bottom: 28px;
+}

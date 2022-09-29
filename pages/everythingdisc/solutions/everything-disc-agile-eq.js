@@ -4,6 +4,43 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 export default function EverythingDiscAgileEQ(){
 
+    const EDAgileED = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/everythingdisc/wp-json/contact-form-7/v1/contact-forms/27/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 48 working hours.";
+  
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                       window.location.href = "/everythingdisc/thank-you"
+                    }, 3000);
+  
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("leadsquared-FirstName=" + event.target.name.value +
+            "&leadsquared-EmailAddress=" + event.target.email.value +
+            "&leadsquared-Mobile=" + event.target.phone.value +
+            "&leadsquared-mx_States=" + event.target.Location.value +          
+            "&leadsquared-Company=" + event.target.organization.value +
+            "&leadsquared-JobTitle=" + event.target.designation.value +
+            "&leadsquared-mx_Showed_Interest_in=" + event.target.slot.value +            
+            "&referredby=" + event.target.referredby.value +
+            "&leadsquared-Notes=" + event.target.leadsquared_Notes.value +          
+            "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value )
+  
+    }
+
 
     return(
         <>
@@ -54,7 +91,7 @@ export default function EverythingDiscAgileEQ(){
                                 <h4 className="countertoph2 text-left font24">Connect With Us</h4>
                                 <div className="heading-border-line left-style"></div>
                             </div>
-                            <form id="contact-form" className='clientcornner pbb-20'>                                         
+                            <form id="contact-form" className='clientcornner pbb-20' onSubmit={EDAgileED}>                                         
                                     <div className="row">
                                         <div className="col-sm-6 mb-12">
                                             <input type="text" name="name" placeholder="Enter Name*" required />
@@ -72,7 +109,7 @@ export default function EverythingDiscAgileEQ(){
                                             <input type="text" name="organization" placeholder="Organization*" required />
                                         </div>
                                         <div className="col-sm-6 mb-12">
-                                            <input type="text" name="designation" placeholder="Designation*" required />
+                                            <input type="text" name="designation" placeholder="Designation" />
                                         </div>
                                     
                                         <div className="col-sm-12 mb-12">
@@ -93,11 +130,15 @@ export default function EverythingDiscAgileEQ(){
                                             </select>
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                            <textarea className="from-control" name="leadsquared-Notes" placeholder="Let us know what you are looking for."></textarea>
+                                            <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
+                                        </div>
+                                        <div className="col-sm-12 mb-12 d-none">
+                                            <input type="text" name="Business_Entity" value="Everything DiSC"/>
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                        <input className="clientcornnerbtn" type="submit" value="Submit"/>
+                                        <input id="submitbuttonform" className="clientcornnerbtn" type="submit" value="Submit"/>
                                         </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>                                                                         
                             </form>                                  
                             </div>

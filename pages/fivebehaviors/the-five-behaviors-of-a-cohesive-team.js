@@ -5,6 +5,38 @@ import Slider from "react-slick";
 
 export default function teamDevelopment(){
 
+    const FiveBPersonalD = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/everythingdisc/wp-json/contact-form-7/v1/contact-forms/48/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 48 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                       window.location.href = "/fivebehaviors/thank-you"
+                    }, 3000);
+  
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("your-name=" + event.target.name.value +
+            "&your-email=" + event.target.email.value +
+            "&phone=" + event.target.phone.value +         
+            "&referredby=" + event.target.referredby.value +
+            "&your-message=" + event.target.leadsquared_Notes.value )
+  
+    }
+
 
     return(
         <>
@@ -23,13 +55,13 @@ export default function teamDevelopment(){
                     <div className="col-md-5 col-sm-12">
                         <div className="bannerform formshd">
                         <h2 className="formtitle">Connect With Us</h2>
-                        <form id="contact-form" className='clientcornner'>
+                        <form id="contactForm" className='clientcornner' onSubmit={FiveBPersonalD}>
                             <div className="row">
                                 <div className="col-lg-12 mb-12">
                                     <input type="text" name="name" placeholder="Enter Name*" required />
                                 </div>
                                 <div className="col-lg-12 mb-12">
-                                    <input type="email" name="name" placeholder="Enter Email*" required />
+                                    <input type="email" name="email" placeholder="Enter Email*" required />
                                 </div>
                                 <div className="col-lg-12 mb-12">
                                     <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
@@ -45,16 +77,14 @@ export default function teamDevelopment(){
                                     <option value="Reference">Reference</option>
                                     <option value="SMS">SMS</option>
                                     </select>
-                                </div>
-                                <div className="col-lg-12 mb-12 d-none">
-                                    <input type="text" name="leadsquared_mx_Business_Entity" placeholder="BYLD Group" value="BYLD Group" required />
+                                </div>                                
+                                <div className="col-lg-12 mb-12">
+                                    <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
                                 </div>
                                 <div className="col-lg-12 mb-12">
-                                    <textarea className="from-control" name="leadsquared-Notes" placeholder="Let us know what you are looking for."></textarea>
+                                <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Submit"/>
                                 </div>
-                                <div className="col-lg-12 mb-12">
-                                    <input className="clientcornnerbtn" type="submit" value="Submit"/>
-                                </div>
+                                <p id="showlabel" style={{ display: "none" }}></p>
                             </div>
                         </form>
                         </div>

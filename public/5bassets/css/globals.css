@@ -855,5 +855,10 @@ margin-bottom: 5px;
 .innerboxthankyou h5{color: #f4812b;font-size: 18px;}
 /* End Thank You LP CSS */
 
+/* Ebooks form css */
+.agree-label{margin-bottom: 5px; position: relative;}
+#chb1{position: absolute; top: 7px; left: 0; width: 17px;}
+.agree-label label{font-weight: 500; color: #000000; margin-left: 25px;}
+
 
    

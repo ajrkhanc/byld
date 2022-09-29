@@ -157,7 +157,7 @@ export default function FIveBWorkshop(){
                 <div className="row y-middle">
                     <div className="col-lg-7">
                         <div className="sec-title3 rs-estimate">
-                        <h4 className="countertoph2 text-left font34">Activate Your Team’s Potential</h4>
+                        <h4 className="countertoph2 text-left font34">Powerful Facilitation Experience</h4>
                         <ul className='estimate-info mtt-5'>
                             <li>Designed for in-person and virtual experiences</li>
                             <li>A one-day or three-day session that can be customized to fit specific goals or timeframe</li>

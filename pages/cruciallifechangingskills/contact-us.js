@@ -1,6 +1,43 @@
 import Head from 'next/head'
 
-export default function Blog(){
+export default function ContactUs(){
+
+    const ContactUsForm = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/6/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                        window.location.href = "/cruciallifechangingskills/thank-you"
+                     }, 3000);
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("leadsquared-FirstName=" + event.target.name.value +
+            "&leadsquared-EmailAddress=" + event.target.email.value +
+            "&leadsquared-Mobile=" + event.target.phone.value +
+            "&leadsquared-Company=" + event.target.organization.value +
+            "&leadsquared-JobTitle=" + event.target.designation.value +
+            "&leadsquared-mx_States=" + event.target.location.value +            
+            "&referredby=" + event.target.referredby.value +
+            "&leadsquared-Notes=" + event.target.message.value +
+            "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value )
+
+    }
+
     return(
         <>
         <Head>
@@ -14,26 +51,26 @@ export default function Blog(){
                         <h1>Tell us how we can help?</h1>
                         </div>
                      <div class="col-md-7 form-area contact-form">
-                                <form class="row">
+                                <form id='contactForm' class="row" onSubmit={ContactUsForm}>
                                     <div class="col-md-6 col-6">
-                                        <input type="text" class="form-control" placeholder="Your Name*"/> 
+                                        <input type="text" name='name' class="form-control" placeholder="Your Name*" required/> 
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <input type="email" class="form-control" placeholder="Your Email*"/> 
+                                        <input type="email" name='email' class="form-control" placeholder="Your Email*" required/> 
+                                    </div>
+                                    <div class="col-md-6 col-6">                                        
+                                        <input type="text" name="phone" class="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <input type="number" class="form-control" placeholder="Phone No.*"/> 
-                                    </div>
-                                    <div class="col-md-6 col-6">
-                                        <input type="text" class="form-control" placeholder="Organization*"/> 
+                                        <input type="text" name="organization" class="form-control" placeholder="Organization*" required/> 
                                     </div>
                                     <div class="col-md-12">
-                                        <input type="text" class="form-control" placeholder="Designation"/> 
+                                        <input type="text" name='designation' class="form-control" placeholder="Designation"/> 
                                     </div>
                                     <div class="col-md-6 col-6">
                                         <label>Location</label>
                                         <select name='location' required>
-                                        <option value="">—</option>
+                                        <option value="">Location</option>
                                         <option value="Andhra Pradesh">Andhra Pradesh</option>
                                         <option value="Arunachal Pradesh">Arunachal Pradesh</option>
                                         <option value="Assam">Assam</option>
@@ -87,13 +124,17 @@ export default function Blog(){
                                             <option value="Reference">Reference</option>
                                         </select>
                                     </div>
-                                    <div class="col-md-12">
-                                         
-                                       <textarea placeholder="Your Message" rows="5"></textarea> 
+                                    <div class="col-md-12">                                         
+                                       <textarea name='message' placeholder="Your Message" rows="5"></textarea> 
+                                    </div>
+
+                                    <div class="col-md-12 d-none">
+                                        <input type="text" name='Business_Entity' value="Crucial Life Changing Skills"/> 
                                     </div>
                                     <div class="col-md-12">
-                                       <button class="primary-btn submit">Submit</button> 
+                                       <button id="submitbuttonform" class="primary-btn submit">Submit</button> 
                                     </div>
+                                    <p id="showlabel" style={{ display: "none" }}></p>
                                 </form>
                             </div>
                     <div class="col-lg-5 contact-map">

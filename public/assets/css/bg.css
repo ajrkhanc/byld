@@ -11,8 +11,8 @@
 
   .countersetion {
     background: url(/assets/img/teams.jpg) !important;
-    background-position: center center !important;
+    /* background-position: center center !important; */
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-attachment: fixed !important;
+    /* background-attachment: fixed !important; */
   }

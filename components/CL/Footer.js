@@ -89,16 +89,18 @@ export default function Footer() {
                     </li>
                 </ul>
                 <p>Subscribe to our monthly newsletter and learn how to handle the most crucial challenges of life and work.</p>
-                <input type="text"/>
+                <form>
+                <input type="email"/>
                 <button>SUBSCRIBE</button>
+                </form>
             </div>
         </div>
     </div>        
 </footer>
 
         <section class="footer-copyright-text">
-            <div class="container-fluid">
-                <div class=" row">                
+            <div class="container-fluid text-center">
+                <div class="row">                
                     <div class="footer-copyright col-md-12">© 2022 BYLD Group. All Rights Reserved.</div>            
                 </div>           
             </div>

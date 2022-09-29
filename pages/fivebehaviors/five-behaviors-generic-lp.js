@@ -5,6 +5,40 @@ import Slider from "react-slick";
 
 export default function FIveBgenriclp(){
 
+    const FiveBgSubmit = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/everythingdisc/wp-json/contact-form-7/v1/contact-forms/42/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";                    
+                    document.getElementById("showlabel").style.display = "block";
+                    setTimeout(function() {
+                        window.location.href="/fivebehaviors/thank-you"
+                     }, 3000);
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("leadsquared-FirstName=" + event.target.name.value +
+            "&leadsquared-EmailAddress=" + event.target.email.value +
+            "&leadsquared-Mobile=" + event.target.phone.value +            
+            "&leadsquared-Company=" + event.target.Organization.value +
+            "&leadsquared-JobTitle=" + event.target.designation.value +
+            "&leadsquared-mx_Showed_Interest_in=" + event.target.intrestin.value +            
+            "&leadsquared-mx_Business_Entity=" + event.target.leadsquared_mx_Business_Entity.value )
+
+    }
+
     var settings = {
         dots: true,
         arrows: false,
@@ -65,7 +99,7 @@ export default function FIveBgenriclp(){
                         <div className="col-md-5 col-sm-12">
                             <div className="bannerform">                            
                             <p className='mbb-10'>Looking for quicker assistance? Fill in your details and get a call back within 24 working hours.</p>
-                            <form id="contact-form" className='clientcornner'>                                         
+                            <form id="contactForm" className='clientcornner' onSubmit={FiveBgSubmit}>                                         
                                     <div className="row">
                                         <div className="col-md-6 mb-12">
                                             <input type="text" name="name" placeholder="Your Name*" required />
@@ -94,12 +128,13 @@ export default function FIveBgenriclp(){
                                         </div>
                                         
                                         <div className="col-md-6 mb-12 d-none">
-                                            <input type="text" name="leadsquared_mx_Business_Entity" placeholder="The Five Behaviors" value="The Five Behaviors" required />
+                                            <input type="text" name="leadsquared_mx_Business_Entity" value="The Five Behaviors" required />
                                         </div>
                                        
                                         <div className="col-lg-12 mb-12">
-                                        <input className="clientcornnerbtn" type="submit" value="Submit"/>
+                                        <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Submit"/>
                                         </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>                                                                         
                             </form>                                  
                             </div>

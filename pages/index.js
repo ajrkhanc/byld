@@ -342,6 +342,99 @@ EXCELLENCE.</p>
 <section className='countersetion ptt-50 pbb-50'>
    <div className='container'>
       <div className='row'>
+         <div className='col-md-2'></div>
+         <div className='col-md-8'>
+           <div className='sec-title3 mbb-35'>
+                  <h4 className="countertoph text-center">WHY OUR CLIENTS TRUST US?</h4>
+                  <div className="heading-border-line left-center"></div>
+            </div>
+         
+            <div className='row'>
+               <div className='col-sm-6 counterarea'>
+                   <div className="counter-area">
+                     <div className="counter-list mb-20">                          
+                           <div className="counter-number">
+                              <span className="rs-count">500,000 +</span>
+                           </div>
+                           <p className="title">PEOPLE TRAINED</p>
+                     </div>                    
+                  </div>
+               </div>
+               <div className='col-sm-6 counterarea'>
+                   <div className="counter-area">
+                     <div className="counter-list mb-20">                          
+                           <div className="counter-number">
+                              <span className="rs-count">1,000 +</span>
+                           </div>
+                           <p className="title">YEARS OF ACCUMULATED CONSULTING EXPERIENCE</p>
+                     </div>                    
+                  </div>
+               </div>
+
+               <div className='col-sm-6 counterarea'>
+                   <div className="counter-area">
+                     <div className="counter-list mb-20">                          
+                           <div className="counter-number">
+                              <span className="rs-count">10 +</span>
+                           </div>
+                           <p className="title">GLOBAL PARTNERSHIPS</p>
+                     </div>                    
+                  </div>
+               </div>
+               <div className='col-sm-6 counterarea'>
+                   <div className="counter-area">
+                     <div className="counter-list mb-20">                          
+                           <div className="counter-number">
+                              <span className="rs-count">100,000 +</span>
+                           </div>
+                           <p className="title">ACCESS TO PROFILES</p>
+                     </div>                    
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         
+      </div>
+   </div>
+</section>
+
+<div className='container ptt-40'>
+   <div className='row'>
+   <div className='col-md-12'>
+         <div className='sec-title3 mbb-35'>
+                  <h4 className="countertoph2 text-center">WHAT MAKES US DIFFERENT?</h4>
+                  <div className="heading-border-line left-center"></div>
+            </div>
+            <div className='row'>
+               <div className='col-sm-6'>
+                 <div className="counter-right mbb-15">
+                     <div className="counter-list-right mb-20 homeboxp">                          
+                        <div className="counter-icon-right">
+                            <img src="/assets/img/icon/what-us-make1.png" alt="Counter"/>
+                         </div>
+                         <p className="title">Globally/Nationally researched and benchmarked, culturally neutral, and customizable products and services.</p>
+                     </div>                    
+                  </div>
+               </div>
+               <div className='col-sm-6'>
+                 <div className="counter-right">
+                     <div className="counter-list-right mb-20 homeboxp">                          
+                        <div className="counter-icon-right">
+                            <img src="/assets/img/icon/what-us-make1.png" alt="Counter"/>
+                         </div>
+                         <p className="title">Solutions across organizational hierarchies ‘ranging’ from the board room to front-end staff.</p>
+                     </div>                    
+                  </div>
+               </div>
+            </div>
+         </div>
+   </div>
+</div>
+
+<section className='countersetion ptt-50 pbb-50 d-none'>
+   <div className='container'>
+      <div className='row'>
          <div className='col-md-8'>
            <div className='sec-title3 mbb-35'>
                   <h4 className="countertoph">WHY OUR CLIENTS TRUST US?</h4>

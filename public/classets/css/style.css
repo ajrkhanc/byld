@@ -245,6 +245,19 @@ body a:hover{text-decoration: none;}
 .img100{width: 100% !important; max-width: 100% !important;}
 
 body img{width: 100%;}
+
+.y-middle {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
 /* =============================================
 Default settings
 ================================================ */
@@ -4286,6 +4299,234 @@ line-height: 31px;
 		padding-right: 40px;
 	}
 }
+
+/* Thank You Page */
+.innerboxthankyou{
+	border-top: 4px solid #2a6db5;
+	border-right: 4px solid #2a6db5;
+	border-left: 4px solid #2a6db5;
+	border-bottom: 4px solid #f4812b;
+	padding: 30px 15px 0px 15px;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 10%);
+	text-align: center;
+  }
+  .innerboxthankyou i{
+  background: #2A6DB5;
+	color: #fff;
+	font-size: 40px;
+	padding: 11px;
+	height: 48px;
+	width: 50px;
+	border-radius: 5px;
+	line-height: 28px;
+  }
+  .innerboxthankyou h4{
+  color: #2A6DB5;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 11px;
+  margin-bottom: 5px;
+  }
+  .innerboxthankyou h5{color: #f4812b;font-size: 18px;}
+  /* End Thank You LP CSS */
+
+  .formbtn{
+	background: #2b70b3 !important;
+    color: #fff !important;
+    border-radius: 30px;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-family: "HelveticaNeueLT Pro 57 Cn" !important;
+	max-width: 130px;
+    min-width: 130px;
+  }
+
+  .formbtn:hover{
+	background-color: #F4812B;
+  }
+
+  .genericlpbanner{
+	background-image: url(/classets/img/generic-lp-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+	padding: 60px 0px;
+  }
+  .genericlpbanner h1{
+	color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .genericp{
+	text-align: center;
+    color: #FFFFFF;
+    font-family: "helveticaneueltpro", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .genericp span{
+	font-size: 30px;
+    color: #326fb1;
+  }
+
+  .icfvideoborder{	
+    border: 10px solid #fff;
+    border-radius: 2px;
+  }
+
+  .formh3{
+	font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  .coursegtdcolor{background-color: #E65300;}
+  .pbb7{padding-bottom: 7px !important;}
+
+  .slick-arrow::before{
+	font-size: 26px !important;
+    line-height: 1 !important;
+    opacity: 1 !important;
+    color: #eb8123 !important;
+  }
+
+  .testmf{
+	font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .testmt{
+	font-weight: 600;
+    padding-bottom: 17px;
+  }
+  .ratingw{width: 120px; margin: auto;}
+  .testname{
+	font-size: 20px;
+    color: #326fb1;
+    margin-bottom: 0px;
+  }
+
+  .compname{
+	font-size: 17px;
+    color: #eb8123;
+    margin-bottom: 0px;
+  }
+
+  
+  .themss1{
+	border: 2px solid #EA2030;
+  }
+  .themss1 h5{
+	font-size: 20px;
+    color: #EA2030;
+  }
+  .themss1 .feature-right{ padding: 40px 0px;}
+
+  .themss2{
+	border: 2px solid #679BAE;
+  }
+  .themss2 h5{
+	font-size: 20px;
+    color: #679BAE;
+  }
+  .themss2 .feature-right{ padding: 40px 0px;}
+
+  .themss3{
+	border: 2px solid #62AB6C;
+  }
+  .themss3 h5{
+	font-size: 20px;
+    color: #62AB6C;
+  }
+  .themss3 .feature-right{ padding: 40px 0px;}
+
+  .feturelf{
+	display: inline-flex;
+	padding-top: 16px;
+  }
+  .feturelf .testmm{
+	text-align: left;
+    padding-left: 20px;
+
+  }
+
+  .innerb{
+	box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 10%);
+    min-height: 394px;
+	padding: 15px;
+  }
+
+  .testtt{
+	color: #2B70B3;
+	font-weight: 600;
+  }
+.testmm h4{
+	color: #2B70B3;
+}
+
+.testmm h5{
+	color: #eb8123;
+}
+
+.feturelf img{width: 65px;}
+
+.sllogo{ padding: 10px;}
+.sllogo img{border: 2px solid #eb8123; border-radius: 50%; padding: 10px;}
+.prlogo{
+	width: 50%;
+    margin-bottom: 30px;
+    background: #ffffffbf;
+    padding: 6px;
+    border-radius: 14px;
+}
+
+.pointl{ padding-left: 0px;}
+.pointl li{
+	display: inline-flex;
+    width: 100%;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.pointl li i{
+	color: #2B70B3;
+    font-size: 20px;
+    padding-top: 4px;
+    padding-right: 10px;
+}
+
+.videotitle{
+	color: #2B70B3;
+    font-size: 22px;
+}
+
+.formb{
+	border: 5px solid #2b70b3;
+}
+
+.testmbg{
+	background: #f2f2f2;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.phothemecolor{background-color: #679BAE !important;}
+
+/* Ebooks form css */
+.agree-label{display: inline-flex;}
+#chb1{width: 18px !important; margin-top: 7px;}
+.agree-label label{font-weight: 500; color: #000000; margin-left: 9px;}
+
+.elerningf{
+	font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 28px !important;
+}
+
+.ccinput input{width: 18px !important; margin-right: 7px;}
+
+
 
 
 

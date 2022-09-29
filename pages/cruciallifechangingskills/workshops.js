@@ -1,6 +1,44 @@
 import Head from 'next/head'
 
 export default function Workshops(){
+
+    const WorkshopsForm = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/14/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                        window.location.href = "/cruciallifechangingskills/thank-you"
+                    }, 3000);
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("leadsquared-FirstName=" + event.target.name.value +
+            "&leadsquared-EmailAddress=" + event.target.email.value +
+            "&leadsquared-Mobile=" + event.target.phone.value +
+            "&leadsquared-Company=" + event.target.organization.value +
+            "&leadsquared-JobTitle=" + event.target.designation.value +
+            "&leadsquared-mx_States=" + event.target.location.value +            
+            "&referredby=" + event.target.referredby.value +
+            "&leadsquared-mx_Showed_Interest_in=" + event.target.slot.value +
+            "&Notes=" + event.target.nots.value +
+            "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value )
+
+    }
+
     return(
         <>
         <Head>
@@ -70,31 +108,30 @@ export default function Workshops(){
                        </div>
                     </div>
                     <div class="col-md-12 form-area workshop-form">
-                                <form class="row">
+                                <form id="contactForm" class="row" onSubmit={WorkshopsForm}>
                                     <div class="col-lg-12 contact-title"> 
                         <h1>REGISTER NOW</h1>
                         <h6>OUR SUBJECT MATTER EXPERTS WILL CONNECT YOU WITHIN 24 WORKING HOURS TO SHARE PROGRAM DETAILS AND PRICING
                         </h6>
                      </div>
                                     <div class="col-md-6 col-6">
-                                        <input type="text" class="form-control" placeholder="Your Name*"/> 
+                                        <input type="text" name='name' placeholder="Your Name*"/> 
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <input type="email" class="form-control" placeholder="Your Email*"/> 
+                                        <input type="email" name='email' placeholder="Your Email*"/> 
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <input type="number" class="form-control" placeholder="Phone No.*"/> 
+                                    <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <input type="text" class="form-control" placeholder="Organization*"/> 
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input type="text" class="form-control" placeholder="Designation"/> 
+                                        <input type="text" name='organization' placeholder="Organization*"/> 
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <label>Location</label>
+                                        <input type="text" name='designation' placeholder="Designation"/> 
+                                    </div>
+                                    <div class="col-md-6 col-6">                                    
                                         <select name='location' required>
-                                        <option value="">—</option>
+                                        <option value="">Location</option>
                                         <option value="Andhra Pradesh">Andhra Pradesh</option>
                                         <option value="Arunachal Pradesh">Arunachal Pradesh</option>
                                         <option value="Assam">Assam</option>
@@ -139,22 +176,33 @@ export default function Workshops(){
                                         <option value="Others">Others</option>
                                         </select>
                                     </div>
-                                    <div class="col-md-6 col-6">
-                                        <label>Referred By</label>
+                                    <div class="col-md-6 col-6">                                        
+                                        <select name='slot' required>
+                                            <option value="">Pick any Slot*</option>
+                                            <option value="The Power of Habit- August 25th, 2022">The Power of Habit- August 25th, 2022</option>
+                                            <option value="Workshop- September 16th, 2022">Workshop- September 16th, 2022</option>
+                                            <option value="September 22nd to 23rd, 2022 – Workshop">September 22nd to 23rd, 2022 – Workshop</option>
+                                            <option value="September 29th to 30th, 2022 – Workshop">September 29th to 30th, 2022 – Workshop</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 col-6">                                        
                                         <select name='referredby' required>
-                                            <option value="">-Please select-</option>
+                                            <option value="">Referred by*</option>
                                             <option value="Social Media">Social Media</option>
                                             <option value="Google Search">Google Search</option>
                                             <option value="Reference">Reference</option>
                                         </select>
                                     </div>
-                                    <div class="col-md-12">
-                                         
-                                       <textarea placeholder="Your Message" rows="5"></textarea> 
+                                    <div class="col-md-12">                                         
+                                       <textarea name='nots' placeholder="Your Message" rows="5"></textarea> 
+                                    </div>
+                                    <div class="d-none">
+                                        <input type="text" name='Business_Entity' value="Crucial Life-Changing Skills"/> 
                                     </div>
                                     <div class="col-md-12">
-                                       <button class="primary-btn submit">Submit</button> 
+                                    <input id='submitbuttonform' class="formbtn" type="submit" value="Submit"/>
                                     </div>
+                                    <p id="showlabel" style={{ display: "none" }}></p>
                                 </form>
                             </div>
                 </div>

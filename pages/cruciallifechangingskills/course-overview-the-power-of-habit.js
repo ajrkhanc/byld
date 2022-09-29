@@ -1,10 +1,46 @@
 import Head from 'next/head'
 
 export default function Courseoverviewcrucialconversationsformasteringdialogue(){
+
+    const ContactUsForm = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/11/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    setTimeout(function() {
+                        window.open("/classets/pdf/course-overview-pdf-the-power-of-habit.pdf", "_blank")
+                     }, 3000);
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("yourname=" + event.target.name.value +
+            "&youremail=" + event.target.email.value +
+            "&phonenumber=" + event.target.phone.value +
+            "&companyname=" + event.target.organization.value +
+            "&designation=" + event.target.designation.value +
+            "&location=" + event.target.location.value +            
+            "&referredby=" + event.target.referredby.value +
+            "&Notes=" + event.target.message.value )
+
+    }
+
     return(
         <>
         <Head>
-            <title>Course Overview - Crucial Conversations for Mastering Dialogue - Crucial Life-Changing Skills</title>
+            <title>Course Overview - The Power of Habit - Crucial Life-Changing Skills</title>
             <meta name="description" content=""/> 
         </Head>
         <section class="about-section workshop-hero">
@@ -15,21 +51,21 @@ export default function Courseoverviewcrucialconversationsformasteringdialogue()
                      </div>
 
                      <div class="col-md-12 form-area workshop-form">
-                                <form class="row">                                     
+                     <form id='contactForm' class="row" onSubmit={ContactUsForm}>                                     
                                     <div class="col-md-6 col-6">
-                                        <input type="text" class="form-control" placeholder="Your Name*"/> 
+                                        <input type="text" name='name' class="form-control" placeholder="Your Name*"/> 
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <input type="email" class="form-control" placeholder="Your Email*"/> 
+                                        <input type="email" name='email' class="form-control" placeholder="Your Email*"/> 
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <input type="number" class="form-control" placeholder="Phone No.*"/> 
+                                    <input type="text" name="phone" class="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <input type="text" class="form-control" placeholder="Organization*"/> 
+                                        <input type="text" name='organization' class="form-control" placeholder="Organization*"/> 
                                     </div>
                                     <div class="col-md-12">
-                                        <input type="text" class="form-control" placeholder="Designation"/> 
+                                        <input type="text" name='designation' class="form-control" placeholder="Designation"/> 
                                     </div>
                                     <div class="col-md-6 col-6">
                                         <label>Location</label>
@@ -89,11 +125,12 @@ export default function Courseoverviewcrucialconversationsformasteringdialogue()
                                         </select>
                                     </div>
                                     <div class="col-md-12">                                         
-                                       <textarea placeholder="Your Message" rows="5"></textarea> 
+                                       <textarea name='message' placeholder="Your Message" rows="5"></textarea> 
                                     </div>
                                     <div class="col-md-12">
-                                       <button class="primary-btn submit">Submit</button> 
+                                        <input id='submitbuttonform' class="formbtn" type="submit" value="Submit"/>
                                     </div>
+                                    <p id="showlabel" style={{ display: "none" }}></p>
                                 </form>
                             </div>
                 </div>

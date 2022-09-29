@@ -22,7 +22,7 @@ export default function Footer() {
                             <h3 className="footer-title">Products and Services</h3>
                             <ul className="site-map">
                                 <li><a href="/everythingdisc/solutions/everything-disc-agile-eq">Everything DiSC<sup>®</sup> Agile EQ™</a></li>
-                                <li><a href="/everythingdisc/solutionsverything-disc-sales">Everything DiSC<sup>®</sup> Sales</a></li>
+                                <li><a href="/everythingdisc/solutions/everything-disc-sales">Everything DiSC<sup>®</sup> Sales</a></li>
                                 <li><a href="/everythingdisc/solutions/everything-disc-363-for-leaders">Everything DiSC<sup>®</sup> 363 for Leaders</a></li>
                                 <li><a href="/everythingdisc/solutions/everything-disc-productive-conflict">Everything DiSC<sup>®</sup> Productive Conflict</a></li>
                                 <li><a href="/everythingdisc/solutions/everything-disc-work-of-leaders">Everything DiSC<sup>®</sup> Work Of Leaders</a></li>

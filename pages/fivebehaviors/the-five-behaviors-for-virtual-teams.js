@@ -5,6 +5,41 @@ import Slider from "react-slick";
 
 export default function TheFiveBehaviorsForVirtualTeam(){
 
+    const TFBFVT = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/everythingdisc/wp-json/contact-form-7/v1/contact-forms/49/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 48 working hours.";
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                        window.location.href = "/fivebehaviors/thank-you"
+                     }, 3000);
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("leadsquared-FirstName=" + event.target.name.value +
+            "&leadsquared-EmailAddress=" + event.target.email.value +
+            "&leadsquared-Mobile=" + event.target.phone.value +
+            "&location=" + event.target.Location.value +
+            "&leadsquared-Company=" + event.target.organization.value +
+            "&leadsquared-JobTitle=" + event.target.designation.value +
+            "&referredby=" + event.target.referredby.value +            
+            "&your-message=" + event.target.leadsquared_Notes.value )
+
+    }
+
 
     return(
         <>
@@ -67,7 +102,7 @@ export default function TheFiveBehaviorsForVirtualTeam(){
                                 <h4 className="countertoph2 text-left font34">Reserve Your Seat</h4>
                                 <div className="heading-border-line center-style"></div>
                             </div>
-                            <form id="contact-form" className='clientcornner pbb-20'>                                         
+                            <form id="contactForm" className='clientcornner pbb-20' onSubmit={TFBFVT}>                                         
                                     <div className="row">
                                         <div className="col-sm-6 mb-12">
                                             <input type="text" name="name" placeholder="Enter Name*" required />
@@ -100,11 +135,12 @@ export default function TheFiveBehaviorsForVirtualTeam(){
                                             </select>
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                            <textarea className="from-control" name="leadsquared-Notes" placeholder="Let us know what you are looking for."></textarea>
+                                            <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                        <input className="clientcornnerbtn" type="submit" value="Submit"/>
+                                        <input id="submitbuttonform" className="clientcornnerbtn" type="submit" value="Submit"/>
                                         </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>                                                                         
                             </form>                                  
                             </div>

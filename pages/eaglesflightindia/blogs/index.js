@@ -17,6 +17,7 @@ export async function getServerSideProps() {
   }
 
 export default function Blog({posts, cats}){
+    
     return(
         <>
         <Head>

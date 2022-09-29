@@ -188,7 +188,7 @@
 
 .slick-dots li.slick-active button:before {
     opacity: 1 !important;
-    color: #2092cf !important;
+    color: #EB7B11 !important;
 }
 
 .slick-dots li button:before { font-size: 15px !important; opacity: 1 !important; color: #2092cf !important;}
@@ -916,5 +916,44 @@ margin-bottom: 5px;
 }
 .innerboxthankyou h5{color: #f4812b;font-size: 18px;}
 /* End Thank You LP CSS */
+
+.edgenericlpbanner {
+  background: url(/edassets/img/banner/gettyImages.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icfvideoborder{
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+.safedcolor{ color: #fff;}
+
+.edgenericlpbannermiddle{
+  background: url(/edassets/img/banner/edgenericlpmiddle.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.innerclorbg{
+    border: 3px solid #2092cf;
+    padding: 15px;
+}
+.innerclorbg li {color: #fff;}
+
+.borddd{
+  border-right: 1px solid;
+  border-color: #f5f5f5;
+  border-bottom: 2px solid #f5f5f5;
+  background: #ffffff;
+}
+.borddd .service-grid{ border-bottom: 0px !important;}
+.borddd a{ color: #000;}
+.pcdd{
+  margin-bottom: 0px;
+  padding-top: 15px;
+}
 
    

@@ -3,7 +3,40 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 
-export default function Home() {  
+export default function Home() {
+    
+    const HomeForm = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/5/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                        window.location.href = "/cruciallifechangingskills/thank-you"
+                     }, 3000);
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("your-name=" + event.target.name.value +
+            "&your-email=" + event.target.email.value +
+            "&PhoneNumber=" + event.target.phone.value +
+            "&your-subject=" + event.target.subject.value +
+            "&your-message=" + event.target.message.value )
+
+    }
+
   return (
     <>
 
@@ -200,30 +233,30 @@ export default function Home() {
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-md-7 form-area">
-                                <form class="row">
+                                <form id='contactForm' class="row" onSubmit={HomeForm}>
                                     <div class="col-md-6">
-                                        <input type="text" class="form-control" placeholder="Your Name*"/> 
+                                        <input type="text" name='name' class="form-control" placeholder="Your Name*" required/> 
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="email" class="form-control" placeholder="Your Email*"/> 
+                                        <input type="email" name="email" class="form-control" placeholder="Your Email*" required/> 
+                                    </div>
+                                    <div class="col-md-6">                                        
+                                        <input type="text" name="phone" class="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="number" class="form-control" placeholder="Phone No.*"/> 
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control" placeholder="Subject*"/> 
+                                        <input type="text" name='subject' class="form-control" placeholder="Subject*" required/> 
                                     </div>
                                     <div class="col-md-12">
-                                       <textarea placeholder="Your Message" rows="5"></textarea> 
+                                       <textarea name='message' placeholder="Your Message" rows="5"></textarea> 
                                     </div>
                                     <div class="col-md-12">
-                                       <button class="primary-btn submit">Submit</button> 
+                                       <button id="submitbuttonform" class="primary-btn submit" type='submit'>Submit</button> 
                                     </div>
+                                    <p id="showlabel" style={{ display: "none" }}></p>
                                 </form>
                             </div>
                             <div class="col-md-5 contact-image">
-                                <img src="/classets/img/contact-1.png"/>
-                                
+                                <img src="/classets/img/contact-1.png"/>                                
                             </div>
                         </div>
                     </div>
