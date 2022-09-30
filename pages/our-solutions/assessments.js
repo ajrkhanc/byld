@@ -24,13 +24,9 @@ export default function Assessments(){
                 <div class="container">                    
                     <div class="row">
 
-                    <div className='col-sm-4 leftsides'>
-                          <div className='rightsidebar'>
-                            <Sidebar></Sidebar>
-                          </div>
-                       </div>
+                   
 
-                       <div class="col-sm-8 rightsides">
+                       <div class="col-sm-12 rightsides">
                        <div className="sec-title3 mbb-35 text-left">
                             <h4 className="countertoph2 text-left font30">Assessments</h4>
                             <div className="heading-border-line left-style"></div>
@@ -41,7 +37,7 @@ export default function Assessments(){
                         </div>
 
                           <div className='row'>
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
                                 <a class="productbox" target="_blank" href="/everythingdisc">
                                 <div class="service-grid">
                                     <div class="service-icon">
@@ -51,7 +47,7 @@ export default function Assessments(){
                                 </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
                             <a class="productbox" href="/assessments/lumina-psychometric-assesments">
                                 <div class="service-grid">
                                     <div class="service-icon">
@@ -61,7 +57,7 @@ export default function Assessments(){
                                 </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
                             <a class="productbox" href="/assessments/talentsmart-eq-assesments">
                                 <div class="service-grid">
                                     <div class="service-icon">
@@ -87,6 +83,94 @@ export default function Assessments(){
                        
                        
                     </div>                     
+                </div>
+            </div>
+
+            <div class="rs-process style1 pt-100 pb-100 md-pt-70 md-pb-70">                
+                <div class="container">
+                    <div class="row y-middle">
+                    </div>
+                </div>
+                <div class="container custom2">
+                    <div class="process-effects-layer">
+                        <div class="row">
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                        <a className='hccs' href='/our-solutions/experiential-learning'>
+                                        <div class="number-image">
+                                            <span>Experiential Learning</span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 1 </span></div>                                             
+                                        </div>
+                                        </a>                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                    <a className='hccs' href='/our-solutions/leadership-and-talent-development'>
+                                        <div class="number-image">
+                                            <span>Leadership & Performance</span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 2 </span></div>                                            
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                    <a className='hccs' href='#'>
+                                        <div class="number-image">
+                                            <span>BeSpoke</span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 3 </span></div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                    <a className='hccs' href='/our-solutions/staffing'>
+                                        <div class="number-image">
+                                            <span>Staffing & Search</span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 4 </span></div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                    <a className='hccs' href='/our-solutions/coaching'>
+                                        <div class="number-image">
+                                            <span>Coaching</span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 5 </span></div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
             

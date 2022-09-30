@@ -342,11 +342,11 @@ EXCELLENCE.</p>
 <section className='countersetion ptt-50 pbb-50'>
    <div className='container'>
       <div className='row'>
-         <div className='col-md-2'></div>
+         
          <div className='col-md-8'>
            <div className='sec-title3 mbb-35'>
-                  <h4 className="countertoph text-center">WHY OUR CLIENTS TRUST US?</h4>
-                  <div className="heading-border-line left-center"></div>
+                  <h4 className="countertoph">WHY OUR CLIENTS TRUST US?</h4>
+                  <div className="heading-border-line left-style"></div>
             </div>
          
             <div className='row'>
@@ -394,12 +394,87 @@ EXCELLENCE.</p>
 
             </div>
          </div>
+
+         <div className='col-md-4'>         
+            <div className='row rs-testimonial style2 rs-blog style1 pbb-15'>
+                <div className='col-sm-12'>
+                  <div className='sec-title3 mbb-35'>
+                        <h4 className="countertoph2">CLIENTS SPEAK</h4>
+                        <div className="heading-border-line left-style"></div>
+                  </div>
+                </div>
+                <Slider {...settings1}>
+                        <div class="testi-wrap">
+                            <div class="item-content">
+                                <span><img src="/assets/img/quote.png" alt="Testimonial"/></span>
+                                <p>
+                                The online program was complete with several videos, real life examples and activities / note taking facility post each leg of the module which helped reflect on the learnings and its application. While a classroom training is best suited for this kind of a learning, the online module was well designed and engaging keeping the current constraints in perspective
+                                </p>
+                            </div>
+                            <div class="testi-content">
+                                <div class="image-wrap">
+                                    <img src="/assets/img/av.png" alt="Testimonial"/>
+                                </div>
+                                <div class="testi-information">
+                                    <div class="testi-name">Namita Shah</div>
+                                    <span class="testi-title">(HSBC India)</span>
+                                    <div class="ratting-img">
+                                        <img src="/assets/img/ratting.png" alt="Testimonial"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testi-wrap">
+                            <div class="item-content">
+                                <span><img src="/assets/img/quote.png" alt="Testimonial"/></span>
+                                <p>
+                                We engaged their services for facilitating a session on SLII<sup>®</sup> for our 26 employees, who were members of the regional and local country leadership team spread across APAC, in Nov 2019. The objective of the learning program being enabling the leaders to drive change in the organization and have constructive & difficult conversations with their teams, ensuring the organizational goals are at the focal point of discussions.
+                                </p>
+                            </div>
+                            <div class="testi-content">
+                                <div class="image-wrap">
+                                    <img src="/assets/img/av.png" alt="Testimonial"/>
+                                </div>
+                                <div class="testi-information">
+                                    <div class="testi-name">Rangkynsai Nongbet</div>
+                                    <span class="testi-title">(Ortho Clinical Diagnostics)</span>
+                                    <div class="ratting-img">
+                                        <img src="/assets/img/ratting.png" alt="Testimonial"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testi-wrap">
+                            <div class="item-content">
+                                <span><img src="/assets/img/quote.png" alt="Testimonial"/></span>
+                                <p>
+                                Thankful to the team at Crucial Life Changing Skills for conducting a power packed session on the topic of “Influencer” for our leaders at CK Birla Group. The simple (and powerful) 6 sources of influence model will guide us to to drive change in our personal and professional space!
+                                </p>
+                            </div>
+                            <div class="testi-content">
+                                <div class="image-wrap">
+                                    <img src="/assets/img/av.png" alt="Testimonial"/>
+                                </div>
+                                <div class="testi-information">
+                                    <div class="testi-name">Prerna S</div>
+                                    <span class="testi-title">(Birla Fertility and IVF)</span>
+                                    <div class="ratting-img">
+                                        <img src="/assets/img/ratting.png" alt="Testimonial"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+               </Slider>
+            </div>
+         </div>
          
       </div>
    </div>
 </section>
 
-<div className='container ptt-40'>
+<div className='container ptt-40 d-none'>
    <div className='row'>
    <div className='col-md-12'>
          <div className='sec-title3 mbb-35'>
@@ -809,7 +884,37 @@ EXCELLENCE.</p>
                  
             </div>
          </div>
-         <div className='col-md-4'>         
+         <div className='col-md-4'>
+            <div className='newsc'>
+         <div className='sec-title3 mbb-35'>
+                  <h4 className="countertoph2">WHAT MAKES US DIFFERENT?</h4>
+                  <div className="heading-border-line left-style"></div>
+            </div>
+            <div className='row'>
+               <div className='col-sm-12'>
+                 <div className="counter-right mbb-15">
+                     <div className="counter-list-right mb-20 homeboxp">                          
+                        <div className="counter-icon-right">
+                            <img src="/assets/img/icon/what-us-make1.png" alt="Counter"/>
+                         </div>
+                         <p className="title">Globally/Nationally researched and benchmarked, culturally neutral, and customizable products and services.</p>
+                     </div>                    
+                  </div>
+               </div>
+               <div className='col-sm-12'>
+                 <div className="counter-right">
+                     <div className="counter-list-right mb-20 homeboxp">                          
+                        <div className="counter-icon-right">
+                            <img src="/assets/img/icon/what-us-make1.png" alt="Counter"/>
+                         </div>
+                         <p className="title">Solutions across organizational hierarchies ‘ranging’ from the board room to front-end staff.</p>
+                     </div>                    
+                  </div>
+               </div>
+            </div>
+            </div>
+         </div>
+         <div className='col-md-4 d-none'>         
             <div className='row rs-testimonial style2 bgorwhite rs-blog style1 pbb-15'>
                 <div className='col-sm-12'>
                   <div className='sec-title3 mbb-35'>

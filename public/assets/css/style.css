@@ -207,7 +207,7 @@ ul {
   background-size: cover;
 }
 .bg2 {
-  background: url(assets/images/bg/ser-bg.png);
+  background: url(/assets/images/bg/ser-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5123,21 +5123,22 @@ body .search-modal .close:hover {
     18. Process Section CSS
 ---------------------------------------*/
 .rs-process.style1 .process-effects-layer {
-  background-image: url(assets/images/process/style1/steps.png);
+  background-image: url(/assets/images/bg/steps.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 1050px auto;
-  margin-top: -110px;
+  
   margin-bottom: 0px;
-  padding: 160px 0px 0px 0px;
+  
 }
 .rs-process.style1 .process-effects-layer .rs-addon-number .number-part .number-image {
-  background: #fff;
-  padding: 50px;
-  border-radius: 50%;
+  background: #2a6db5;
+  padding: 10px;
+  border-radius: 0%;
   display: block;
   margin: 0 auto;
-  width: 140px;
+  
+  color: white;
 }
 .rs-process.style1 .process-effects-layer .rs-addon-number .number-part .number-image img {
   width: 60px;
@@ -5148,17 +5149,17 @@ body .search-modal .close:hover {
   text-align: center;
 }
 .rs-process.style1 .process-effects-layer .rs-addon-number .number-part .number-text .number-area {
-  position: relative;
+  position: absolute;
   transition: all .3s ease 0s;
   text-align: center;
   width: 50px;
   height: 50px;
-  left: -50px;
-  top: -36px;
+  right: -8px;
+  top: -57px;
   margin: -13px 0px 0px 0px;
-  display: inline-block;
+  display: block;
   border-radius: 50px 50px 50px 50px;
-  background: #2A6DB5;
+  background: #e88027;
 }
 .rs-process.style1 .process-effects-layer .rs-addon-number .number-part .number-text .number-area .number-prefix {
   font-size: 18px;

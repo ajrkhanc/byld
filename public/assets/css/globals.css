@@ -357,7 +357,7 @@
             text-align: center;
             background-color: #FFFFFF;
             padding: 18px 5px 15px 5px;
-            box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 10%);
+            
             border-style: solid;
             border-width: 0px 0px 5px 5px;
             border-color: #2A6DB5;
@@ -892,7 +892,7 @@
             }
 
             .homeboxp{
-              padding: 20px 25px 0px 20px;
+              padding: 6px 25px 0px 20px;
             }
 
             /* Tirian Page */
@@ -1531,6 +1531,21 @@
   }
   .dnone767px{ display: none;}
   .mblock{ display:block;}
+}
+
+.newsc{
+  background-color: #fff;
+  box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 10%);
+  margin: 0px;
+  padding: 0px 15px 15px 15px;
+}
+
+.hccs:hover .number-image{
+  background: #e88027 !important;
+}
+
+.hccs:hover .number-area{
+  background: #2a6db5 !important;
 }
 
 
