@@ -41,7 +41,7 @@ export default function Assessments(){
                                 <a class="productbox" target="_blank" href="/everythingdisc">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                        <img src="/assets/img/icon/disc.png" alt=""/>
+                                        <img src="/assets/img/edl.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">DiSC®</h4>                                                               
                                 </div>
@@ -51,7 +51,7 @@ export default function Assessments(){
                             <a class="productbox" href="/assessments/lumina-psychometric-assesments">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                    <img src="/assets/img/icon/lumina-spark.png" alt=""/>
+                                    <img src="/assets/img/lsl.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">Lumina Spark</h4>                                
                                 </div>
@@ -61,7 +61,7 @@ export default function Assessments(){
                             <a class="productbox" href="/assessments/talentsmart-eq-assesments">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                    <img src="/assets/img/icon/talentsmart-eq.png" alt=""/>
+                                    <img src="/assets/img/tsl.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">TalentSmart EQ Assessments</h4>                                
                                 </div>
