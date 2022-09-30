@@ -22,14 +22,9 @@ export default function DTCICoachingAcademy(){
             <div class="shape-bg ptt-50 pbb-50 solutionsboxarea">
                 <div class="container">                    
                     <div class="row">
+ 
 
-                    <div className='col-sm-4 leftsides'>
-                          <div className='rightsidebar'>
-                            <Sidebar></Sidebar>
-                          </div>
-                       </div>
-
-                       <div class="col-sm-8 rightsides">
+                       <div class="col-sm-12 rightsides">
                        <div className="sec-title3 text-left">                            
                             <p className='mtt-'>
                             Executive coaching is far beyond the basics of overcoming poor performance. The aim is to develop a strategy for high performance that can help leaders and high potential talent. Coaching is considered an indispensable part of an increasing number of organizations. But the key to success is getting a targeted coaching service. Leading organizations recognize one-on-one coaching as the most significant form. Executive coaching has great benefits and is known to help professionals. It speaks the language that leaders understand and makes them competent in their fields.
@@ -72,6 +67,52 @@ export default function DTCICoachingAcademy(){
                        
                        
                     </div>                     
+                </div>
+            </div>
+
+
+            <div class="rs-process style1 pt-100 pb-100 md-pt-70 md-pb-70">                
+                <div class="container">
+                    <div class="row y-middle">
+                    </div>
+                </div>
+                <div class="container custom2">
+                    <div class="process-effects-layer">
+                        <div class="row">
+                          <div className='col'></div>
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                        <a className='hccs' href='#'>
+                                        <div class="number-image">
+                                            <span>ICF Certification</span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 1 </span></div>                                             
+                                        </div>
+                                        </a>                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                    <a className='hccs' href='/coaching/insideout-coaching'>
+                                        <div class="number-image">
+                                            <span>Inside Out Coaching</span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 2 </span></div>                                            
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col'></div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
             

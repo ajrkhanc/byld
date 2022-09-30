@@ -23,13 +23,7 @@ export default function BusinessTodaySimulations(){
                 <div class="container">                    
                     <div class="row">
 
-                    <div className='col-sm-4 leftsides'>
-                          <div className='rightsidebar'>
-                            <Sidebar></Sidebar>
-                          </div>
-                       </div>
-
-                       <div class="col-sm-8 rightsides">
+                       <div class="col-sm-12 rightsides">
                        <div className="sec-title3 text-left">
                             <h4 className="countertoph2 text-left font30">Do your leaders understand the impact of their decisions on the financial health of your organization?</h4>
                             <p className='mtt-5'>
@@ -53,6 +47,51 @@ export default function BusinessTodaySimulations(){
                        
                        
                     </div>                     
+                </div>
+            </div>
+
+            <div class="rs-process style1 pt-100 pb-100 md-pt-70 md-pb-70">                
+                <div class="container">
+                    <div class="row y-middle">
+                    </div>
+                </div>
+                <div class="container custom2">
+                    <div class="process-effects-layer">
+                        <div class="row">
+                          <div className='col'></div>
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                        <a className='hccs' href='/eaglesflightindia'>
+                                        <div class="number-image">
+                                            <span>Eagle’s Flight™</span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 1 </span></div>                                             
+                                        </div>
+                                        </a>                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                    <a className='hccs' href='/jenson-8'>
+                                        <div class="number-image">
+                                            <span>Jenson8</span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 2 </span></div>                                            
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col'></div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
             

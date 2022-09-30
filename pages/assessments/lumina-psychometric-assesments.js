@@ -24,13 +24,7 @@ export default function LuminaPsychomentricAssesments(){
                 <div class="container">                    
                     <div class="row">
 
-                    <div className='col-sm-4 leftsides'>
-                          <div className='rightsidebar'>
-                            <Sidebar></Sidebar>
-                          </div>
-                       </div>
-
-                       <div class="col-sm-8 rightsides">
+                       <div class="col-sm-12 rightsides">
                        <div className="sec-title3 mbb-35 text-left rs-estimate">                            
                             <p className='mtt-30'>
                             <i>It is a cutting-edge professional development tool that provides employees with an opportunity to analyze their personalities by giving clear and jargon-free insights. This psychometric tool aims at transforming organizations through transforming their people.</i>
@@ -46,6 +40,52 @@ export default function LuminaPsychomentricAssesments(){
                         </div>                        
                        </div>                       
                     </div>                     
+                </div>
+            </div>
+
+
+            <div class="rs-process style1 pt-100 pb-100 md-pt-70 md-pb-70">                
+                <div class="container">
+                    <div class="row y-middle">
+                    </div>
+                </div>
+                <div class="container custom2">
+                    <div class="process-effects-layer">
+                        <div class="row">
+                          <div className='col'></div>
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                        <a className='hccs' href='/everythingdisc'>
+                                        <div class="number-image">
+                                            <span>DiSC<sup>®</sup></span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 1 </span></div>                                             
+                                        </div>
+                                        </a>                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                    <a className='hccs' href='/assessments/talentsmart-eq-assesments'>
+                                        <div class="number-image">
+                                            <span>TalentSmart EQ Assessments</span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 2 </span></div>                                            
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col'></div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
             

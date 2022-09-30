@@ -41,7 +41,7 @@ export default function ExperientialLearning(){
                                 <a class="productbox" target="_blank" href="/eaglesflightindia">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                    <img src="/assets/img/icon/link.png" alt=""/>
+                                    <img src="/assets/img/efl.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">Eagle’s Flight™</h4>                                
                                 </div>
@@ -52,7 +52,7 @@ export default function ExperientialLearning(){
                                 <a class="productbox" href="/business-today-simulations">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                        <img src="/assets/img/icon/link.png" alt=""/>
+                                        <img src="/assets/img/btl.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">Business Today Simulations</h4>                                                               
                                 </div>
@@ -63,7 +63,7 @@ export default function ExperientialLearning(){
                             <a class="productbox" href="#">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                    <img src="/assets/img/icon/link.png" alt=""/>
+                                    <img src="/assets/img/j8l.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">Gaminar</h4>                                
                                 </div>
@@ -74,7 +74,7 @@ export default function ExperientialLearning(){
                             <a class="productbox" href="/jenson-8">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                    <img src="/assets/img/icon/link.png" alt=""/>
+                                    <img src="/assets/img/j8l.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">Jenson8</h4>                                
                                 </div>

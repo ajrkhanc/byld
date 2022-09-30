@@ -24,13 +24,8 @@ export default function TalentSmartEQAssesment(){
                 <div class="container">                    
                     <div class="row">
 
-                    <div className='col-sm-4 leftsides'>
-                          <div className='rightsidebar'>
-                            <Sidebar></Sidebar>
-                          </div>
-                       </div>
 
-                       <div class="col-sm-8 rightsides">
+                       <div class="col-sm-12 rightsides">
                        <div className="sec-title3 mbb-35 text-left rs-estimate">                            
                             <p className='mtt-30'>
                             <i>Emotional Intelligence (EQ) is a person’s skill at perceiving, understanding, and managing emotions. It is seen in what we do each day and how we interact with others.</i>
@@ -58,6 +53,52 @@ export default function TalentSmartEQAssesment(){
                         </div>                        
                        </div>                       
                     </div>                     
+                </div>
+            </div>
+
+
+            <div class="rs-process style1 pt-100 pb-100 md-pt-70 md-pb-70">                
+                <div class="container">
+                    <div class="row y-middle">
+                    </div>
+                </div>
+                <div class="container custom2">
+                    <div class="process-effects-layer">
+                        <div class="row">
+                          <div className='col'></div>
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                        <a className='hccs' href='/everythingdisc'>
+                                        <div class="number-image">
+                                            <span>DiSC<sup>®</sup></span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 1 </span></div>                                             
+                                        </div>
+                                        </a>                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                    <a className='hccs' href='/assessments/lumina-psychometric-assesments'>
+                                        <div class="number-image">
+                                            <span>Lumina Spark</span>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 2 </span></div>                                            
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col'></div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
             

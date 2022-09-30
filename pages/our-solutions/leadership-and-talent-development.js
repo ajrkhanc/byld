@@ -38,44 +38,44 @@ export default function leadersShipAndTalentDevelopment(){
                         </div>
 
                           <div className='row'>
-                            <div class="col-sm-6">
+                            <div class="col-sm-3">
                                 <a class="productbox" target="_blank" href="https://blanchardinternational.co.in/">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                        <img src="/assets/img/icon/b1.png" alt=""/>
+                                        <img src="/assets/img/kbl.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">Blanchard India</h4>                                                               
                                 </div>
                                 </a>
                             </div>
 
-                            <div class="col-sm-6">
+                            <div class="col-sm-3">
                                 <a class="productbox" href="/tirian">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                    <img src="/assets/img/icon/b5.png" alt=""/>
+                                    <img src="/assets/img/trl.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">Tirian</h4>                                
                                 </div>
                                 </a>
                             </div>
 
-                            <div class="col-sm-6">
+                            <div class="col-sm-3">
                                 <a class="productbox" target="_blank" href="/cruciallifechangingskills/">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                    <img src="/assets/img/icon/b2.png" alt=""/>
+                                    <img src="/assets/img/cll.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">Crucial Life Changing Skills</h4>                                
                                 </div>
                                 </a>
                             </div>
 
-                            <div class="col-sm-6">
+                            <div class="col-sm-3">
                             <a class="productbox" href="/leadership-and-performance/trapologist">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                    <img src="/assets/img/icon/b5.png" alt=""/>
+                                    <img src="/assets/img/twl.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">Trapologist at Work™</h4>                                
                                 </div>
