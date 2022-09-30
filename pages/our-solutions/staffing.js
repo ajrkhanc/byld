@@ -39,21 +39,21 @@ export default function Staffing(){
                           </div>
                             <div className='row'>
                             <div class="col-sm-6">
-                                <a class="productbox" target="_blank" href="https://yomamultinational.com/">
+                                <a class="productbox" target="_blank" href="https://www.yomabusinesssolutions.com/">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                    <img src="/assets/img/icon/link.png" alt=""/>
+                                    <img src="/assets/img/yml.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">YOMA Business Solutions</h4>                                
                                 </div>
                                 </a>
                             </div>
 
-                            <div class="col-sm-6 d-none">
-                                <a class="productbox" href="#">
+                            <div class="col-sm-6">
+                                <a class="productbox" target="_blank" href="https://www.yomatechnologies.in/">
                                 <div class="service-grid">
                                     <div class="service-icon">
-                                        <img src="/assets/img/icon/link.png" alt=""/>
+                                        <img src="/assets/img/yml.png" alt=""/>
                                     </div>
                                     <h4 class="title mb-18">YOMA Technologies</h4>                                                               
                                 </div>
