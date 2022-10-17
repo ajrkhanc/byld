@@ -200,7 +200,7 @@ EXCELLENCE.</p>
             <Tab><i className='fa fa-folder-o'></i> Experiential Learning</Tab>
             <Tab><i className='fa fa-users'></i> Leadership & Performance</Tab>
             <Tab><i className='fa fa-newspaper-o'></i> Assessments</Tab>
-            {/* <Tab><i className='fa fa-newspaper-o'></i> BeSpoke</Tab> */}
+            <Tab><i className='fa fa-newspaper-o'></i> BeSpoke</Tab>
             <Tab><i className='fa fa-object-group'></i> Staffing & Search</Tab>
             <Tab><i className='fa fa-cogs'></i> Coaching</Tab>
          </TabList>
@@ -272,7 +272,7 @@ EXCELLENCE.</p>
                </div>
             </TabPanel>
 
-            {/* <TabPanel className="tabdetails">
+            <TabPanel className="tabdetails">
             <div className='sec-title3'>
                   <h4 className="solutionh"><a href="#">BeSpoke</a></h4>
                   <div className="heading-border-line left-style"></div>
@@ -281,16 +281,16 @@ EXCELLENCE.</p>
                <div className=''>
                   <div>
                      <ul className='solutionslist'>
-                        <li><Link href="/leadership-and-performance/persona-global"><a><i className='fa fa-angle-double-right'></i> Persona Global</a></Link></li>
-                        <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> SLI</a></Link></li>
-                        <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> Large Projects</a></Link></li>
+                        <li><Link href="/bespoke/persona-global"><a><i className='fa fa-angle-double-right'></i> Persona Global</a></Link></li>
+                        {/* <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> SLI</a></Link></li>
+                        <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> Large Projects</a></Link></li> */}
                      </ul>
                      <div className="btn-part ptt-10 pbb-30">
-                        <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                        <Link href="/bespoke"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
                      </div>
                   </div>
                </div>
-            </TabPanel> */}
+            </TabPanel>
 
             <TabPanel className="tabdetails">
             <div className='sec-title3'>

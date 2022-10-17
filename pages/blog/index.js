@@ -94,7 +94,7 @@ export default function Blog({posts, cats}){
                                                 <ul className="btm-cate">
                                                     <li>
                                                         <div className="blog-date">
-                                                            <i className="fa fa-calendar-check-o"></i> {moment(getpost.ModifiedDate).format('MMMM DD Y')}                                                        
+                                                            <i className="fa fa-calendar-check-o"></i> {moment(getpost.ModifiedDate).format('MMMM DD Y')}
                                                         </div>
                                                     </li>
                                                     <li>

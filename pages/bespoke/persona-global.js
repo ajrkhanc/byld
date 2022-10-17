@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Sidebar from '../../components/Layout/sidebar'
+
 
 export default function PersonaGlobal(){
 
@@ -24,13 +24,9 @@ export default function PersonaGlobal(){
                 <div class="container">                    
                     <div class="row">
 
-                    <div className='col-sm-4 leftsides'>
-                          <div className='rightsidebar'>
-                            <Sidebar></Sidebar>
-                          </div>
-                       </div>
+                    
 
-                       <div class="col-sm-8 rightsides">
+                       <div class="col-sm-12 rightsides">
                        <div className="sec-title3 mbb-35 text-left rs-estimate">
                        <h4 className="countertoph2 text-left">What is The Persuasive Communicator<sup>®</sup> ?</h4>
                             <p className='mtt'>

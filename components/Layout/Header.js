@@ -103,7 +103,7 @@ export default function Header() {
                                                             </ul>
                                                         </li>
                                                         <li className="last-item menu-item-has-children">
-                                                            <a href="#">BeSpoke</a>
+                                                            <a href="/bespoke">BeSpoke</a>
                                                             <ul className="sub-menu">
                                                                 <li><a href="/bespoke/persona-global">Persona Global</a> </li>
                                                                 <li className='d-none'><a href="#">SLI</a></li>
@@ -151,9 +151,9 @@ export default function Header() {
                                                     <a href="/blog">BLOG</a>
                                                 </li>
                                                 <li className="menu-item-has-children">
-                                                    <a href="/press">MEDIA</a>
+                                                    <a href="#">MEDIA</a>
                                                     <ul className="sub-menu">
-                                                        <li><a href="/press/topics/byld-group-in-news">BYLD Group in News</a></li>
+                                                        <li><a href="/press">BYLD Group in News</a></li>
                                                         <li><a href="/events-gallery">Events</a></li>
                                                         <li><a href="/awards-accolades">Awards & Accolades</a></li>
                                                     </ul>
@@ -289,7 +289,7 @@ export default function Header() {
                                     </ul>
                                 </li>
                                 <li className="last-item menu-item-has-children">
-                                    <a href="#">BeSpoke</a>
+                                    <a href="/bespoke">BeSpoke</a>
                                     <ul className="sub-menu">
                                         <li><a href="/bespoke/persona-global">Persona Global</a> </li>
                                         <li className='d-none'><a href="#">SLI</a></li>
@@ -337,9 +337,9 @@ export default function Header() {
                             <a href="/blog">BLOG</a>
                         </li>
                         <li className="menu-item-has-children">
-                            <a href="/press">MEDIA</a>
+                            <a href="#">MEDIA</a>
                             <ul className="sub-menu">
-                                <li><a href="/press/topics/byld-group-in-news">BYLD Group in News</a></li>
+                                <li><a href="/press">BYLD Group in News</a></li>
                                 <li><a href="/events-gallery">Events</a></li>
                                 <li><a href="/awards-accolades">Awards & Accolades</a></li>
                             </ul>

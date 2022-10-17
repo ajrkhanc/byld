@@ -105,9 +105,7 @@ export default function leadersShipAndTalentDevelopment(){
                                         <div class="number-image">
                                             <span>Experiential Learning</span>
                                         </div>
-                                        <div class="number-text">
-                                            <div class="number-area"> <span class="number-prefix"> 1 </span></div>                                             
-                                        </div>
+                                         
                                         </a>                                        
                                     </div>
                                 </div>
@@ -120,9 +118,7 @@ export default function leadersShipAndTalentDevelopment(){
                                         <div class="number-image">
                                             <span>Assessments</span>
                                         </div>
-                                        <div class="number-text">
-                                            <div class="number-area"> <span class="number-prefix"> 2 </span></div>                                            
-                                        </div>
+                                        
                                         </a>
                                     </div>
                                 </div>
@@ -131,13 +127,11 @@ export default function leadersShipAndTalentDevelopment(){
                             <div class="col">
                                 <div class="rs-addon-number">
                                     <div class="number-part">
-                                    <a className='hccs' href='#'>
+                                    <a className='hccs' href='/bespoke'>
                                         <div class="number-image">
                                             <span>BeSpoke</span>
                                         </div>
-                                        <div class="number-text">
-                                            <div class="number-area"> <span class="number-prefix"> 3 </span></div>
-                                        </div>
+                                        
                                         </a>
                                     </div>
                                 </div>
@@ -150,9 +144,7 @@ export default function leadersShipAndTalentDevelopment(){
                                         <div class="number-image">
                                             <span>Staffing & Search</span>
                                         </div>
-                                        <div class="number-text">
-                                            <div class="number-area"> <span class="number-prefix"> 4 </span></div>
-                                        </div>
+                                        
                                         </a>
                                     </div>
                                 </div>
@@ -165,9 +157,7 @@ export default function leadersShipAndTalentDevelopment(){
                                         <div class="number-image">
                                             <span>Coaching</span>
                                         </div>
-                                        <div class="number-text">
-                                            <div class="number-area"> <span class="number-prefix"> 5 </span></div>
-                                        </div>
+                                        
                                         </a>
                                     </div>
                                 </div>

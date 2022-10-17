@@ -59,7 +59,7 @@ export default function Footer() {
                 <h5>CONTACT US</h5>
                 <ul>
                     <li>
-                        <i class="fa fa-map-marker"></i> <span>BYLD Group, Plot No. 48, Sector - 44, Opp. EPF Regional Office, Gurugram - 122003, Haryana, India</span>
+                        <i class="fa fa-map-marker"></i> <span>BYLD Group, 2nd and 3rd Floor, Plot No. 48, Sector - 44, Opp. EPF Regional Office Gurugram, Haryana - 122003</span>
                     </li>
                      <li>
                         <i class="fa fa-phone"></i> <a href='tel:1800 102 1345'><span>1800 102 1345</span></a>

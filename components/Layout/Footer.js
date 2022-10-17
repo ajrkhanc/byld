@@ -50,10 +50,10 @@ export default function Footer() {
                         <div className="col-md-3 col-sm-6 md-mb-10 pl-55 md-pl-15">
                             <h3 className="footer-title">OUR SOLUTIONS</h3>
                             <ul className="site-map">
-                                <li><a href="/our-solutions/experiential-learning">Experiential Learning</a></li>
+                                <li><a href="/client-corner">Client Corner</a></li>
                                 <li><a href="/our-solutions/leadership-and-talent-development">Leadership & Performance</a></li>
                                 <li><a href="/our-solutions/assessments">Assessments</a></li>
-                                <li><a href="#">BeSpoke</a></li>
+                                <li><a href="/bespoke">BeSpoke</a></li>
                                 <li><a href="/our-solutions/staffing">Staffing & Search</a></li>
                                 <li><a href="/our-solutions/coaching">Coaching</a></li>
                             </ul>

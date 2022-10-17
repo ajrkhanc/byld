@@ -6683,7 +6683,11 @@ body .search-modal .close:hover {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15px 10px 30px 15px;
-  min-height: 440px;
+  min-height: 468px;
+}
+
+.rs-blog .slick-dots{
+  bottom: 6px !important;
 }
 .rs-testimonial.style2 .testi-wrap .item-content span img {
   width: 48px;

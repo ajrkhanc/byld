@@ -47,7 +47,7 @@ export default function Footer() {
                             <ul className="address-widget">
                                 <li>
                                     <i className="flaticon-location"></i>
-                                    <div className="desc">BYLD Group: Plot 48, 2nd And 3rd Floor, Sector - 44, Opp. EPF Regional Office, Gurugram, Haryana - 122003</div>
+                                    <div className="desc">BYLD Group, 2nd and 3rd Floor, Plot No. 48, Sector - 44, Opp. EPF Regional Office Gurugram, Haryana - 122003</div>
                                 </li>
                                 <li>
                                     <i className="flaticon-call"></i>

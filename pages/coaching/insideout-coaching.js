@@ -88,9 +88,7 @@ export default function InsideOutCoaching(){
                                         <div class="number-image">
                                             <span>ICF Certification</span>
                                         </div>
-                                        <div class="number-text">
-                                            <div class="number-area"> <span class="number-prefix"> 1 </span></div>                                             
-                                        </div>
+                                         
                                         </a>                                        
                                     </div>
                                 </div>
@@ -103,9 +101,7 @@ export default function InsideOutCoaching(){
                                         <div class="number-image">
                                             <span>Executive Coaching</span>
                                         </div>
-                                        <div class="number-text">
-                                            <div class="number-area"> <span class="number-prefix"> 2 </span></div>                                            
-                                        </div>
+                                        
                                         </a>
                                     </div>
                                 </div>

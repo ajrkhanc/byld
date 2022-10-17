@@ -70,9 +70,9 @@ export default function solution(){
                                 <div class="service-icon mb-23">
                                     <img src="/assets/img/icon/assessments.png" alt=""/>
                                 </div>
-                                <h4 class="title mb-18"><a href="#">BeSpoke</a></h4>                                
+                                <h4 class="title mb-18"><a href="/bespoke">BeSpoke</a></h4>                                
                                 <div class="btn-wrap">
-                                    <a class="readmore" href="#">Read more <div class="btn-arrow"></div></a>
+                                    <a class="readmore" href="/bespoke">Read more <div class="btn-arrow"></div></a>
                                 </div>
                             </div>
                         </div>

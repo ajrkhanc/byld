@@ -60,9 +60,7 @@ export default function LuminaPsychomentricAssesments(){
                                         <div class="number-image">
                                             <span>DiSC<sup>®</sup></span>
                                         </div>
-                                        <div class="number-text">
-                                            <div class="number-area"> <span class="number-prefix"> 1 </span></div>                                             
-                                        </div>
+                                        
                                         </a>                                        
                                     </div>
                                 </div>
@@ -75,9 +73,7 @@ export default function LuminaPsychomentricAssesments(){
                                         <div class="number-image">
                                             <span>TalentSmart EQ Assessments</span>
                                         </div>
-                                        <div class="number-text">
-                                            <div class="number-area"> <span class="number-prefix"> 2 </span></div>                                            
-                                        </div>
+                                        
                                         </a>
                                     </div>
                                 </div>

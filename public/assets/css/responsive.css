@@ -1059,3 +1059,7 @@
 @media (min-width:991px){
     .clientcornnertest{ min-height: 440px;}
 }
+
+@media (max-width:768){
+    .largescale{ padding:15px;}
+}
