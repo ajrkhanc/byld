@@ -4,13 +4,12 @@ import Image from 'next/image'
 
 
 
-export async function getServerSideProps(context) {
-    const caturl = context.params.gtdResults;
-    const res = await fetch('https://assesmentresultc.herokuapp.com/api/whatwouldyoudoassessment-result')
+
+  export async function getServerSideProps(context) {
+    const caturl = context.params.Mresult;
+
+    const res = await fetch(`https://assesmentresultc.herokuapp.com/api/whatwouldyoudoassessment/${caturl}`)
     const result = await res.json()
-
-    
-
     return {
       props: {
         result  
@@ -52,6 +51,8 @@ function downloadAsPDF() {
                     <div className='col-md-12'>                       
                     {
             result.slice(0, 1).map((results) => {
+                console.log(results)
+
                 var px = '%'
                 var q1a1 = results.q1a1
                 if (q1a1 == 'undefined') {
