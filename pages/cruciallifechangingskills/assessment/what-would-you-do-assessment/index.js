@@ -1,6 +1,179 @@
 import Head from 'next/head'
+import React, { useState } from 'react';
+
 
 export default function BrowseCourses(){
+
+    const submitF = async (event) => {
+        
+       
+
+
+        event.preventDefault();
+        document.getElementById("submitbuttonform").value = "Submitting form....";
+        
+        var q1a = "a";
+        var q2a = "a";
+        var q3a = "a";
+        var q4a = "a";
+        var q5a = "a";
+        var q6a = "a";
+        var q7a = "a";
+        var q8a = "a";
+        var q9a = "a";
+        var q10a = "a";
+
+        const q1 = event.target.q1.value;
+        if(q1 == q1a){
+            var q1a1 = 1
+        }
+        else{
+            var q1b1 = 1
+        }
+
+        console.log(q1a1)
+        console.log(q1b1)
+      
+        const q2 = event.target.q2.value;
+        if(q2 == q2a){
+            var q2a1 = 1
+        }
+        else{
+            var q2b1 = 1
+        }
+
+        const q3 = event.target.q3.value;
+        if(q3 == q3a){
+            var q3a1 = 1
+        }
+        else{
+            var q3b1 = 1
+        }
+
+        const q4 = event.target.q4.value;
+        if(q4 == q4a){
+            var q4a1 = 1
+        }
+        else{
+            var q4b1 = 1
+        }
+
+        const q5 = event.target.q5.value;
+        if(q5 == q5a){
+            var q5a1 = 1
+        }
+        else{
+            var q5b1 = 1
+        }
+
+        const q6 = event.target.q6.value;
+        if(q6 == q6a){
+            var q6a1 = 1
+        }
+        else{
+            var q6b1 = 1
+        }
+
+        const q7 = event.target.q7.value;
+        if(q7 == q7a){
+            var q7a1 = 1
+        }
+        else{
+            var q7b1 = 1
+        }
+
+        const q8 = event.target.q8.value;
+        if(q8 == q8a){
+            var q8a1 = 1
+        }
+        else{
+            var q8b1 = 1
+        }
+
+        const q9 = event.target.q9.value;
+        if(q9 == q9a){
+            var q9a1 = 1
+        }
+        else{
+            var q9b1 = 1
+        }
+
+        const q10 = event.target.q10.value;
+        if(q10 == q10a){
+            var q10a1 = 1
+        }
+        else{
+            var q10b1 = 1
+        }
+
+        const name = event.target.name.value;
+        const email = event.target.email.value;
+        const phone = event.target.phone.value;
+        const organization = event.target.organization.value;
+        var nameurl = name.replace(/[^a-zA-Z0-9 ]/g, "");
+        nameurl = nameurl.toLowerCase();
+        const newnameurl = nameurl.split(' ').join('-')
+   
+      
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'https://assesmentresultc.herokuapp.com/api/whatwouldyoudoassessment');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send('q1a1=' + q1a1 +
+            '&q1b1=' + q1b1 +
+            '&q2a1=' + q2a1 +
+            '&q2b1=' + q2b1 +
+            '&q3a1=' + q3a1 +
+            '&q3b1=' + q3b1 +
+            '&q4a1=' + q4a1 +
+            '&q4b1=' + q4b1 +
+            '&q5a1=' + q5a1 +
+            '&q5b1=' + q5b1 +
+            '&q6a1=' + q6a1 +
+            '&q6b1=' + q6b1 +
+            '&q7a1=' + q7a1 +
+            '&q7b1=' + q7b1 +
+            '&q8a1=' + q8a1 +
+            '&q8b1=' + q8b1 +
+            '&q9a1=' + q9a1 +
+            '&q9b1=' + q9b1 +
+            '&q10a1=' + q10a1 +
+            '&q10b1=' + q10b1 +
+            '&name=' + name +
+            '&email=' + email +
+            '&phone=' + phone +
+            '&organization=' + organization +
+            '&newnameurl=' + newnameurl
+            );
+
+        xhr.onreadystatechange = function () {
+          
+                if(xhr.status ==200){
+                    // document.getElementById("formreset").reset()
+                    document.getElementById("response").innerHTML = "Assessment Result"                    
+                    
+                    window.setTimeout(function() {
+                        window.location.href = `/cruciallifechangingskills/assessment/what-would-you-do-assessment/${newnameurl}`
+                    }, 1000);
+                                       
+                }
+                else{
+                    document.getElementById("response").innerHTML = "You Have Submeted to go"
+                     setTimeout(function () {
+                        document.getElementById("response").innerHTML = "";
+                        document.getElementById("submitbuttonform").value = "Submit JobForm";
+                    }, 3000);
+                }
+            
+
+
+        }
+
+        xhr.onerror = function () {
+            console.log('error');
+        }
+   };
+
     return(
         <>
         <Head>
@@ -30,17 +203,16 @@ export default function BrowseCourses(){
                 <div className='row align-items-center'>
                     <div className='col-md-12'>
                         <div className='dfdfdf'>
-                      <form className='mlicss'>
-                                                   
+                      <form className='mlicss' onSubmit={submitF}>                                                   
                                 <div className='odd1 mform'>
                                 <p>1. You have been in a new role at work and want to make sure your first appraisal goes well. You have been informally asking your manager for feedback. However, all he says is “You’re doing well.” You:</p>
-                                <span><input type="radio" name="q1" value="a" id="q1a" tabindex="2" required=""/><label for="q1a">Meet with him so that you can formally explain why the feedback is so important to you.</label></span>
+                                <span><input type="radio" name="q1" value="a" id="q1a" tabindex="2" required/><label for="q1a">Meet with him so that you can formally explain why the feedback is so important to you.</label></span>
                                 <span><input type="radio" name="q1" value="b" id="q1b" tabindex="3"/><label for="q1b">Offer to send him a specific questionnaire that asks him to rate your strengths and weaknesses.</label></span>
                                 </div>
 
                                 <div className='even1 mform'>
                                 <p>2. Your direct report is a great tactical executor but not a good strategic thinker. She desperately wants a promotion for which you don’t think she is qualified. You:</p>
-                                <span><input type="radio" name="q2" value="a" id="q2a" tabindex="4" required=""/><label for="q2a">Let her know that in order to get promoted in the organization, she is going to need to be more strategic.</label></span>
+                                <span><input type="radio" name="q2" value="a" id="q2a" tabindex="4" required/><label for="q2a">Let her know that in order to get promoted in the organization, she is going to need to be more strategic.</label></span>
                                 <span><input type="radio" name="q2" value="b" id="q2b" tabindex="5"/><label for="q2b">Offer to connect her with a mentor in the organization who is a good strategic thinker.</label></span>
                                 </div>
 
@@ -91,9 +263,29 @@ export default function BrowseCourses(){
                                 <span><input type="radio" name="q10" value="a" id="q10a" tabindex="20" required=""/><label for="q10a">Give her a pep talk to help her see the positive aspects of her life.</label></span>
                                 <span><input type="radio" name="q10" value="b" id="q10b" tabindex="21"/><label for="q10b">Give her the contact information for a therapist another friend highly recommends.</label></span>
                                 </div>
+
+                                <div className='row inpuut'>
+                                        <div className="col-sm-6 mb-12">
+                                            <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
+                                        </div> 
+                                        <div className="col-sm-6 mb-12">
+                                            <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                        </div> 
+                                        
+                                        <div className="col-sm-6 mb-12">
+                                            <input className='form-control' type="text" name="organization" placeholder="Organization*" required />
+                                        </div>
+
+                                        <div className='col-sm-12 text-center'>
+                                        <input type="submit" id='submitbuttonform' value="Submit" tabindex="22" class="assesmetmain"/>
+                                        <p class="feedbackcolor" id="response"></p>
+                                        </div>
+                                </div>
                                 
-                            <input type="submit" value="Submit" tabindex="22" class="assesmetmain"/>
-                         
+                            
                         
                       </form>
                         </div>
