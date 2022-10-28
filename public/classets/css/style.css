@@ -4745,12 +4745,33 @@ line-height: 31px;
 
 .inpuut .assesmetmain{ margin-left: 0px;}
 .bootmline:after{
-	display: none;
+	background-color: #006aa1;
 }
 
 .bootmline h1{
 	padding-top: 40px;
     padding-bottom: 20px;
+}
+.bcck{
+	background-color: #f0f0f0;
+}
+
+.assessment-result-block table{
+	width: 100%;
+}
+
+.assessment-result-block table tr{
+	text-align: left;
+}
+.assessment-result-block table tr td{
+	font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+.assessment-result-block table tr td strong{
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
 }
 
 

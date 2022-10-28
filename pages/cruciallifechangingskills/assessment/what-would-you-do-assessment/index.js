@@ -4,11 +4,7 @@ import React, { useState } from 'react';
 
 export default function BrowseCourses(){
 
-    const submitF = async (event) => {
-        
-       
-
-
+    const submitF = async (event) => {        
         event.preventDefault();
         document.getElementById("submitbuttonform").value = "Submitting form....";
         

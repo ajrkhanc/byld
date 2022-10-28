@@ -32,13 +32,13 @@ function downloadAsPDF() {
             <meta name="description" content="Everything DiSC<sup>®</sup> assessment measures the personality and behavior of individuals. And, DiSC Analysis provides a detailed report for better understanding."/> 
           </Head>
 
-          <section class="about-section bootmline">
+          <section class="about-section bootmline bcck">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 contact-title">                        
                         <h1>What Would You Do Self-Assessment Results</h1>                                      
                       <h6>
-                        <a class="submit" target="_blank" onClick={downloadAsPDF}> Download Result </a>
+                        <button class="submit" onClick={downloadAsPDF}> Download Result </button>
                           </h6>
                     </div>
                 </div>
@@ -50,9 +50,8 @@ function downloadAsPDF() {
                 <div className='row align-items-center'>                   
                     <div className='col-md-12'>                       
                     {
-            result.slice(0, 1).map((results) => {
-                console.log(results)
-
+            result.map((results) => {
+         
                 var px = '%'
                 var q1a1 = results.q1a1
                 if (q1a1 == 'undefined') {
@@ -193,9 +192,16 @@ function downloadAsPDF() {
                             <p>Effective leaders and managers address both motivation and ability to help others perform to expectations. You can improve your own ability by learning about the research, principles, and skills for better performance management. Download our free guide, <em>Mind the Gap: The Essential Guide to Workplace Accountability</em>.</p>
                         </div>
                     </div>            
-            );
+            )
+
+            
+
             })
+
+           
             }
+
+           
 
                     </div>
                 </div>
