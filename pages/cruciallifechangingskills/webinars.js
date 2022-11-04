@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Webinars(){
+export default function Webinars() {
 
     const WebinarsForm = async event => {
         event.preventDefault()
@@ -17,7 +17,7 @@ export default function Webinars(){
                     document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
                     document.getElementById("contactForm").reset();
                     document.getElementById("showlabel").style.display = "block";
-                    window.setTimeout(function() {
+                    window.setTimeout(function () {
                         window.location.href = "/cruciallifechangingskills/thank-you"
                     }, 3000);
 
@@ -31,105 +31,111 @@ export default function Webinars(){
             "&leadsquared-Mobile=" + event.target.phone.value +
             "&leadsquared-Company=" + event.target.organization.value +
             "&leadsquared-JobTitle=" + event.target.designation.value +
-            "&leadsquared-mx_States=" + event.target.location.value +            
+            "&leadsquared-mx_States=" + event.target.location.value +
             "&referredby=" + event.target.referredby.value +
             "&leadsquared-mx_Showed_Interest_in=" + event.target.slot.value +
             "&Notes=" + event.target.nots.value +
-            "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value )
+            "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value)
 
     }
 
-    return(
+    return (
         <>
-        <Head>
-            <title>Webinars - Crucial Life-Changing Skills</title>
-            <meta name="description" content="VIRTUAL LEARNING IS THE NEW NORMAL! Explore our complimentary webinar series get a quick essence of our online trainings. These sessions would help pave the way to the future. As... Read more"/> 
-        </Head>
-        <section class="about-section workshop-hero">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 contact-title"> 
-                        <h1>VIRTUAL LEARNING IS THE NEW NORMAL!</h1>
-                        <p>
-                        Explore our complimentary webinar series get a quick essence of our online trainings. These sessions would help pave the way to the future. As there are no regional boundaries to these workshops, we thrive to help you manage your people’s development amid uncertain times.
-                        </p>
-                     </div>
+            <Head>
+                <title>Webinars - Crucial Life-Changing Skills</title>
+                <meta name="description" content="VIRTUAL LEARNING IS THE NEW NORMAL! Explore our complimentary webinar series get a quick essence of our online trainings. These sessions would help pave the way to the future. As... Read more" />
+            </Head>
+            <section class="about-section workshop-hero">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 contact-title">
+                            <h1>VIRTUAL LEARNING IS THE NEW NORMAL!</h1>
+                            <p>
+                                Explore our complimentary webinar series get a quick essence of our online trainings. These sessions would help pave the way to the future. As there are no regional boundaries to these workshops, we thrive to help you manage your people’s development amid uncertain times.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        
-   
-     <section class="workshops">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 contact-title"> 
-                        <h1>WEBINARS</h1>
-                          </div> 
-                    <div class="col-md-4 workshop-col d-none"> 
-                       <div class="row workshop-row"> 
-                            <div class="col-md-12 workshop-content"> 
-                            <img class="left-image img70" src="/classets/img/logo-influencer.svg" alt="" />
-                            <h4>INFLUENCER</h4>
+
+
+            <section class="workshops">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 contact-title">
+                            <h1>WEBINARS</h1>
+                        </div>
+                        <div class="col-md-4 workshop-col d-none">
+                            <div class="row workshop-row">
+                                <div class="col-md-12 workshop-content">
+                                    <img class="left-image img70" src="/classets/img/logo-influencer.svg" alt="" />
+                                    <h4>INFLUENCER</h4>
+                                </div>
+                                <h5 className='eventt'>Workshop</h5>
+                                <div class="col-md-12 workshop-date">
+                                    <h6><i class="fa fa-calendar" aria-hidden="true"></i> May 13th, 2022</h6>
+                                    <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
+                                    <button class="register">REGISTER NOW</button>
+                                </div>
                             </div>
-                             <div class="col-md-12 workshop-date"> 
-                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> May 13th, 2022</h6>
-                            <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
-                            <button class="register">REGISTER NOW</button>
+                        </div>
+                        
+                        <div class="col-md-4 workshop-col">
+                            <div class="row workshop-row">
+                                <div class="col-md-12 workshop-content green-col">
+                                    <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
+                                    <h4>INFLUENCER</h4>
+                                </div>
+                                <h5 className='eventt'>Workshop</h5>
+                                <div class="col-md-12 workshop-date green-col">
+                                    <h6><i class="fa fa-calendar" aria-hidden="true"></i> November 10th, 2022</h6>
+                                    <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 4.00 PM to 5.00 PM</h6>
+                                    <button class="register">REGISTER NOW</button>
+                                </div>
                             </div>
-                       </div>
-                    </div>
-                    <div class="col-md-4 workshop-col d-none"> 
-                       <div class="row workshop-row"> 
-                            <div class="col-md-12 workshop-content"> 
-                            <img class="left-image img70" src="/classets/img/logo-influencer.svg" alt="" />
-                            <h4>CRUCIAL <br/> CONVERSATIONS</h4>
-                            <p>for Mastering Dialogue Day - 1</p>
+                        </div>
+                        <div class="col-md-4 workshop-col">
+                            <div class="row workshop-row">
+                                <div class="col-md-12 workshop-content">
+                                    <img class="left-image img100px mbb-30" src="/classets/img/logo-conversations.svg" alt="" />
+                                    <h4>CRUCIAL CONVERSATIONS</h4>
+                                    <p>for Mastering Dialogue Day - 1</p>
+                                </div>
+                                <h5 className='eventt'>Workshop</h5>
+                                <div class="col-md-12 workshop-date">
+                                    <h6><i class="fa fa-calendar" aria-hidden="true"></i> December 14th, 2022</h6>
+                                    <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 4.00 PM to 5.00 PM</h6>
+                                    <button class="register">REGISTER NOW</button>
+                                </div>
                             </div>
-                             <div class="col-md-12 workshop-date"> 
-                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> May 13th, 2022</h6>
-                            <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
-                            <button class="register">REGISTER NOW</button>
-                            </div>
-                       </div>
-                    </div>
-                    <div class="col-md-4 workshop-col"> 
-                       <div class="row workshop-row"> 
-                            <div class="col-md-12 workshop-content green-col"> 
-                            <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
-                            <h4>INFLUENCER</h4>                            
-                            </div>
-                             <div class="col-md-12 workshop-date green-col"> 
-                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> May 13th, 2022</h6>
-                            <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
-                            <button class="register">REGISTER NOW</button>
-                            </div>
-                       </div>
-                    </div>
-                    <div class="col-md-12 form-area workshop-form">
-                                <form id="contactForm" class="row" onSubmit={WebinarsForm}>
-                                    <div class="col-lg-12 contact-title"> 
-                        <h1>REGISTER NOW</h1>
-                        <h6>OUR SUBJECT MATTER EXPERTS WILL CONNECT YOU WITHIN 24 WORKING HOURS TO SHARE PROGRAM DETAILS AND PRICING
-                        </h6>
-                     </div>
-                                    <div class="col-md-6 col-6">
-                                        <input type="text" name='name' placeholder="Your Name*"/> 
-                                    </div>
-                                    <div class="col-md-6 col-6">
-                                        <input type="email" name='email' placeholder="Your Email*"/> 
-                                    </div>
-                                    <div class="col-md-6 col-6">
+                        </div>
+
+
+                        <div class="col-md-12 form-area workshop-form">
+                            <form id="contactForm" class="row" onSubmit={WebinarsForm}>
+                                <div class="col-lg-12 contact-title">
+                                    <h1>REGISTER NOW</h1>
+                                    <h6>OUR SUBJECT MATTER EXPERTS WILL CONNECT YOU WITHIN 24 WORKING HOURS TO SHARE PROGRAM DETAILS AND PRICING
+                                    </h6>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <input type="text" name='name' placeholder="Your Name*" />
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <input type="email" name='email' placeholder="Your Email*" />
+                                </div>
+                                <div class="col-md-6 col-6">
                                     <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
-                                    </div>
-                                    <div class="col-md-6 col-6">
-                                        <input type="text" name='organization' placeholder="Organization*"/> 
-                                    </div>
-                                    <div class="col-md-6 col-6">
-                                        <input type="text" name='designation' placeholder="Designation"/> 
-                                    </div>
-                                    <div class="col-md-6 col-6">                                    
-                                        <select name='location' required>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <input type="text" name='organization' placeholder="Organization*" />
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <input type="text" name='designation' placeholder="Designation" />
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <select name='location' required>
                                         <option value="">Location</option>
                                         <option value="Andhra Pradesh">Andhra Pradesh</option>
                                         <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -173,38 +179,38 @@ export default function Webinars(){
                                         <option value="USA">USA</option>
                                         <option value="UK">UK</option>
                                         <option value="Others">Others</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-6 col-6">                                        
-                                        <select name='slot' required>
-                                            <option value="">Pick any Slot*</option>
-                                            <option value="Crucial Conversations for Mastering Dialogue – August 24th, 2022">Crucial Conversations for Mastering Dialogue – August 24th, 2022</option>
-                                            <option value="Crucial Conversations for for Accountability – September 21st, 2022">Crucial Conversations for for Accountability – September 21st, 2022</option>                                            
-                                        </select>
-                                    </div>
-                                    <div class="col-md-6 col-6">                                        
-                                        <select name='referredby' required>
-                                            <option value="">Referred by*</option>
-                                            <option value="Social Media">Social Media</option>
-                                            <option value="Google Search">Google Search</option>
-                                            <option value="Reference">Reference</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-12">                                         
-                                       <textarea name='nots' placeholder="Your Message" rows="5"></textarea> 
-                                    </div>
-                                    <div class="d-none">
-                                        <input type="text" name='Business_Entity' value="Crucial Life-Changing Skills"/> 
-                                    </div>
-                                    <div class="col-md-12">
-                                    <input id='submitbuttonform' class="formbtn" type="submit" value="Submit"/>
-                                    </div>
-                                    <p id="showlabel" style={{ display: "none" }}></p>
-                                </form>
-                            </div>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <select name='slot' required>
+                                        <option value="">Pick any Slot*</option>
+                                        <option value="Influencer – November 10th, 2022">Influencer – November 10th, 2022</option>
+                                        <option value="Crucial Conversations for Mastering Dialogue – December 14th, 2022">Crucial Conversations for Mastering Dialogue – December 14th, 2022</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <select name='referredby' required>
+                                        <option value="">Referred by*</option>
+                                        <option value="Social Media">Social Media</option>
+                                        <option value="Google Search">Google Search</option>
+                                        <option value="Reference">Reference</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea name='nots' placeholder="Your Message" rows="5"></textarea>
+                                </div>
+                                <div class="d-none">
+                                    <input type="text" name='Business_Entity' value="Crucial Life-Changing Skills" />
+                                </div>
+                                <div class="col-md-12">
+                                    <input id='submitbuttonform' class="formbtn" type="submit" value="Submit" />
+                                </div>
+                                <p id="showlabel" style={{ display: "none" }}></p>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </>
     )
 }

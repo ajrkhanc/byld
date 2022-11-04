@@ -50,7 +50,7 @@ function downloadAsPDF() {
                 <div className='row align-items-center'>                   
                     <div className='col-md-12'>                       
                     {
-            result.map((results) => {
+            result.slice(0, 1).map((results) => {
          
                 var px = '%'
                 var q1a1 = results.q1a1
@@ -106,6 +106,10 @@ function downloadAsPDF() {
                 var motivationScore = parseInt(q1a1) + parseInt(q2a1) + parseInt(q3a1) + parseInt(q4a1) +
                 parseInt(q5a1) + parseInt(q6a1) + parseInt(q7a1) + parseInt(q8a1) + parseInt(q9a1) + parseInt(q10a1)
 
+                var motivationScorenew  = 10*motivationScore+px
+
+                var motivationbar = 10*motivationScore
+
 
                 var q1b1 = results.q1b1
                 if (q1b1 == 'undefined') {
@@ -159,11 +163,12 @@ function downloadAsPDF() {
                 
                 var abilityScore = parseInt(q1b1) + parseInt(q2b1) + parseInt(q3b1) + parseInt(q4b1) +
                 parseInt(q5b1) + parseInt(q6b1) + parseInt(q7b1) + parseInt(q8b1) + parseInt(q9b1) + parseInt(q10b1)
-                
+                var abilitfornew  = 10*abilityScore+px
                 var Takeawayresult = 10*abilityScore+px
-                var Takeawaybar = 10*abilityScore
+                var abilitybar = 10*abilityScore
 
             return (
+                
                     <div className='' id='demo'>                       
                         <div class="assessment-result-block">
                         <h3 className='ptop'>Hi {results.name}</h3>
@@ -180,9 +185,35 @@ function downloadAsPDF() {
                         </div>
 
                         <div class="assessment-result-block">
-                            <div class="result-bar-wrapper">
-                                <div class="result-bar" style={{width:Takeawayresult}}></div>
+                            <div className='bresult'>
+                            <div class="result-bar-wrapper boright">
+                                {
+                                    (() => {
+                                        if (motivationbar <= 50)
+                                            return <div class="result-bar doingwellcolor" style={{width:motivationScorenew}}></div>
+                                        else
+                                            return <div class="result-bar skycolor" style={{width:motivationScorenew}}></div>
+                                    })()
+                                }
+                                
                             </div>
+                            
+                            <div class="result-bar-wrapper boleft">
+                                
+
+                                {
+                                    (() => {
+                                        if (abilitybar <= 50)
+                                            return <div class="result-bar doingwellcolor" style={{width:abilitfornew}}></div>
+                                        else
+                                            return <div class="result-bar skycolor" style={{width:abilitfornew}}></div>
+                                    })()
+                                }
+                            </div>
+                            </div>
+
+
+                            
                             <div class="result-bar-labels">
                                 <div class="label-left">You tend to focus on Motivation</div>
                                 <div class="label-middle"></div>
@@ -191,7 +222,7 @@ function downloadAsPDF() {
                             <h3>Takeaway</h3>
                             <p>Effective leaders and managers address both motivation and ability to help others perform to expectations. You can improve your own ability by learning about the research, principles, and skills for better performance management. Download our free guide, <em>Mind the Gap: The Essential Guide to Workplace Accountability</em>.</p>
                         </div>
-                    </div>            
+                    </div>  
             )
 
             

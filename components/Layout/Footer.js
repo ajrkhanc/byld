@@ -80,7 +80,7 @@ export default function Footer() {
                                 <li>
                                     <i className="flaticon-clock-1"></i>
                                     <div className="desc">
-                                        Office Hours: 09AM - 06PM  
+                                        Office Hours: 9:00 AM - 6:00 PM
                                     </div>
                                 </li>
                             </ul>

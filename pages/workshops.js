@@ -60,37 +60,37 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Virtual Public Workshop: August 18th, 2022</span>
+                                <span>November 9th, 2022</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Blanchard India Online Workshop</h3>
+                                <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>November 15th – 18th, 2022</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>DISC Train-the-Trainer (TTT)</h3>
+                                <a target="_blank" className="eventbtn" href='/everythingdisc/everything-disc-ttt-vt-lp/'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>November 24th – 25th, 2022</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Crucial Life Changing Skills Online Workshop</h3>
                                 <a target="_blank" className="eventbtn" href='/cruciallifechangingskills/workshops/'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Virtual Public Workshop: August 26th, 2022</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>Trapologist at Work™ Workshop</h3>
-                                <a target="_blank" className="eventbtn" href='/leadership-and-performance/trapologist/'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Virtual Public Workshop: August 23rd – 26th, 2022</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>DISC Train-the-Trainer (TTT)</h3>
-                                <a target="_blank" className="eventbtn" href='/everythingdisc/everything-disc-ttt-vt-lp'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,9 @@ export default function Workshops(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                                
-                                                <option value="August 26th, 2022, Trapologist at Work™">August 26th, 2022, Trapologist at Work™</option>
+                                                <option value="November 9th, 2022 - Blanchard India Online Workshop">November 9th, 2022 - Blanchard India Online Workshop</option>
+                                                <option value="November 15th – 18th, 2022 - DISC Train-the-Trainer (TTT)">November 15th – 18th, 2022 - DISC Train-the-Trainer (TTT)</option>
+                                                <option value="November 24th – 25th, 2022 - Crucial Life Changing Skills Online Workshop">November 24th – 25th, 2022 - Crucial Life Changing Skills Online Workshop</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">

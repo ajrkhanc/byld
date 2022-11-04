@@ -57,7 +57,7 @@ export default function Jenson8(){
           </button>
           
         <ModalBody>
-        <iframe width="100%" height="550" src="https://www.youtube.com/embed/W6jbFqiXels?autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+        <iframe width="100%" height="550" src="https://www.youtube.com/embed/Meu3YSyYVk0?autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
         </ModalBody>
       
       </Modal>
@@ -263,7 +263,7 @@ export default function Jenson8(){
                                 </h3>                                
                                 <h2 className="colorw"></h2>
                             </div>
-                            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/jAleJrTj4Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/ul9yrazmpV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>                    
                     </div>
                 </div>

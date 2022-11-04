@@ -21,6 +21,12 @@ export default function EventGallery(){
             <div className="pt-50 pbb-50">
                 <div className="container">
                     <div className="row">
+                        <div className='col-sm-12'>
+                            <div className="sec-title3 mbb-35">
+                            <h4 className="countertoph2 text-center font30">This is the 2021-2022 Annual Conference</h4>
+                            <div className="heading-border-line center-style"></div>
+                        </div>
+                        </div>
                         <div className='col-sm-4'>
                             <div className='awardsarea'>
                                 <img src="/assets/img/events/DSC02240.jpg" alt="Awards"/>

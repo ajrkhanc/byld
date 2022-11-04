@@ -80,7 +80,7 @@ export default function Header() {
                                                                 <li><a target="_blank" href="/eaglesflightindia/">Eagle’s Flight™</a></li>
                                                                 <li><a href="/business-today-simulations">Business Today Simulations</a> </li>
                                                                 <li className='d-none'><a href="#">Gaminar</a></li>
-                                                                <li><a href="/jenson-8">Jensen 8 (Virtual Reality Trainings)</a></li>
+                                                                <li><a href="/jenson-8">Jenson 8 (Virtual Reality Trainings)</a></li>
                                                             </ul>
                                                         </li>
 
@@ -266,7 +266,7 @@ export default function Header() {
                                         <li><a target="_blank" href="/eaglesflightindia/">Eagle’s Flight™</a></li>
                                         <li><a href="/business-today-simulations">Business Today Simulations</a> </li>
                                         <li className='d-none'><a href="#">Gaminar</a></li>
-                                        <li><a href="/jenson-8">Jensen 8 (Virtual Reality Trainings)</a></li>
+                                        <li><a href="/jenson-8">Jenson 8 (Virtual Reality Trainings)</a></li>
                                     </ul>
                                 </li>
 

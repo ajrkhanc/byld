@@ -139,10 +139,11 @@ export default function BrowseCourses(){
                         <div class="col-md-6 col-6">
                         <select name='slot' required>
                             <option value="">Pick any Slot*</option>
-                            <option value="The Power of Habit- August 25th, 2022">The Power of Habit- August 25th, 2022</option>
-                            <option value="Workshop- September 16th, 2022">Workshop- September 16th, 2022</option>
-                            <option value="September 22nd to 23rd, 2022 – Workshop">September 22nd to 23rd, 2022 – Workshop</option>
-                            <option value="September 29th to 30th, 2022 – Workshop">September 29th to 30th, 2022 – Workshop</option>
+                            <option value="Crucial Conversations for Mastering Dialogue">Crucial Conversations for Mastering Dialogue</option>
+                            <option value="Crucial Conversations for Accountability">Crucial Conversations for Accountability</option>
+                            <option value="The Power of Habit">The Power of Habit</option>
+                            <option value="Influencer">Influencer</option>
+                            <option value="Getting Things Done">Getting Things Done</option>
                         </select>
                         </div>
 

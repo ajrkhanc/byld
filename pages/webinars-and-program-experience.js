@@ -51,7 +51,7 @@ export default function WebinarsAndProgramExperience(){
                 <div className='row'>
                     <div className='col-sm-12'>
                     <div className="sec-title3 mbb-35">
-                        <h4 className="countertoph2 text-center font30">Register For Your Complimentary virtual Events</h4>
+                        <h4 className="countertoph2 text-center font30">Register For Your Complimentary Virtual Events</h4>
                         <div className="heading-border-line center-style"></div>
                     </div>
                     </div>
@@ -61,10 +61,10 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar 17th August 2022</span>
+                                <span>Webinars 4th November 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Eagle’s Flight Executive Briefing Webinar</h3>
+                                <h3>Everything DiSC Management</h3>
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -74,11 +74,11 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar 18th August 2022</span>
+                                <span>Webinars 9th November 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Everything DiSC® Productive Conflict Webina</h3>
-                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
+                                <h3>Eagle’s Flight Executive Briefing</h3>
+                                <a className="eventbtn" href='/eaglesflightindia/eagles-flight-executive-briefing/'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -87,11 +87,11 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Batches till 24th August 2022</span>
+                                <span>Webinars 10th November 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Crucial Life Changing Skills <br></br>Webinars</h3>
-                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
+                                <h3>Crucial Life Changing Skills Webinars</h3>
+                                <a className="eventbtn" href='/cruciallifechangingskills/webinars/'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -100,10 +100,10 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Batches till 26th August 2022</span>
+                                <span>Webinars 18th November 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Blanchard India Webinars</h3>
+                                <h3>Everything DiSC Sales</h3>
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -152,10 +152,10 @@ export default function WebinarsAndProgramExperience(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                                
-                                                <option value="17th August 2022, Eagle’s Flight Executive Briefing">17th August 2022, Eagle’s Flight Executive Briefing</option>
-                                                <option value="18th August 2022, Everything DiSC Productive Conflict® Webinar">18th August 2022, Everything DiSC Productive Conflict® Webinar</option>
-                                                <option value="Batches till 24th August 2022, Crucial Life Changing Skills Webinars">Batches till 24th August 2022, Crucial Life Changing Skills Webinars</option>
-                                                <option value="Batches till 26th August 2022, Blanchard India Webinars">Batches till 26th August 2022, Blanchard India Webinars</option>
+                                                <option value="4th November 2022 - Everything DiSC Management">4th November 2022 - Everything DiSC Management</option>
+                                                <option value="9th November 2022 - Eagle’s Flight Executive Briefing">9th November 2022 - Eagle’s Flight Executive Briefing</option>
+                                                <option value="10th November 2022 - Crucial Life Changing Skills Webinars">10th November 2022 - Crucial Life Changing Skills Webinars</option>
+                                                <option value="18th November 2022 - Everything DiSC Sales">18th November 2022 - Everything DiSC Sales</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">

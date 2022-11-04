@@ -127,7 +127,7 @@ export default function ClientCorner(){
                     <div className="row y-middle">
                         <div className="col-md-7 col-sm-12">
                             <div className="content-wrap">                                
-                                <h2 className="colorw">Continuously adding value to our customer’s businesses!</h2>
+                                <h2 className="colorw">Continuously adding value to our customers' business!</h2>
                                 <h3 className="colorw">Let us help you find the best resource for your company.</h3>
                                 <h3 className="colorw">Highly effective, employee screening process for hiring of blue-collared and entry-level staff.</h3>
                                 <div className="btn-part">

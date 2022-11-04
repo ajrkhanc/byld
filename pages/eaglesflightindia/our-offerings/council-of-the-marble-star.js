@@ -63,14 +63,14 @@ export default function CouncilofTheMarbleStar(){
                         <div className='onlyshd'>                        
                         <div className='rs-estimate'>
                         <h4 className="countertoph2 text-left font26">Best Team Building Business Games – THE EXPERIENCE</h4>
-                        <p className='justify'>
+                        <p className='justify mbb-10'>
                         Share in the discovery of Merlin’s journal which outlines the key to Arthur’s victorious reign.
                         </p>
-                        <p className='justify'>
+                        <p className='justify mbb-10'>
                         Participants will have the opportunity to take part in “The Challenge of Excellence” exactly as it took place back in the days of Camelot. By combining commercial capability and cultural skills, Merlin recruited “Elders” to sit on the <b>Council of the Marble Star™.</b>
                         </p>
                         <p className='justify'>
-                        They will see how villagers became elite members of King Arthur’s court by competing, trading, negotiating, and working together. Experiencing the challenges and rewards of real win-win negotiating, participants will learn how to achieve the best results through productive relationships.
+                        They will see how villagers became elite members of King Arthur’s court by competing, trading, negotiating, and working together. Experiencing the challenges and rewards of real win-win negotiation, participants will learn how to achieve the best results through productive relationships.
                         </p>
                         </div>
                         </div>

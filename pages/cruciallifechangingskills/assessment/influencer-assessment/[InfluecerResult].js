@@ -68,7 +68,7 @@ function downloadAsPDF() {
                     <div className='col-md-2'></div>
                     <div className='col-md-8'>                       
                     {
-            result.map((results) => {
+            result.slice(0, 1).map((results) => {
          
                 var FocusandMeasure = parseInt(results.q1a) + parseInt(results.q1b) + parseInt(results.q1c) + parseInt(results.q1d)
                 

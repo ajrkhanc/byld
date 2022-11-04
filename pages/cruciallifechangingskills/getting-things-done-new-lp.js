@@ -1,198 +1,214 @@
 import Head from 'next/head'
+import Slider from "react-slick";
 
-export default function Gettingthingsdone(){
-    return(
+export default function Gettingthingsdone() {
+
+    var settings = {
+        dots: false,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
+
+    return (
         <>
-        <Head>
-            <title>Getting Things Done LP - Crucial Life-Changing Skills</title>
-            <meta name="description" content="Transcend the productivity tips and learn the personal workflow management system via instruction, application, and coaching. This virtual course preview is a perfect introduction for evaluating a course for their team or organization."/> 
-        </Head>
-        <section>
-        <iframe width="100%" height="560" src="https://www.youtube.com/embed/4jUHKOEXEMo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-        <section class="about-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 contact-title">
-                        <img src="/classets/img/gtd.svg" />
-                        <h1>Productivity with Purpose</h1>
-                        <p>
-                        Learn the skills that can help relieve the cognitive load, allow for increased focus, and even result in optimal experience and peak performance with Getting Things Done.
-                        </p>
-                      <h6>
-                        <a class="submit" target="_blank" href='/classets/pdf/course-overview-getting-things-done.pdf'> Download the Course Overview </a>
-                          </h6>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <Head>
+                <title>Getting Things Done LP - Crucial Life-Changing Skills</title>
+                <meta name="description" content="Transcend the productivity tips and learn the personal workflow management system via instruction, application, and coaching. This virtual course preview is a perfect introduction for evaluating a course for their team or organization." />
+                <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+            </Head>
+            <section>
+                <iframe width="100%" height="560" src="https://www.youtube.com/embed/4jUHKOEXEMo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section class="gtdlpsecondrow">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 contact-title">
+                            <h1 className='text-left'>Overview</h1>
+                            <p className='text-left'>
+                                Transcend the productivity tips and learn the personal workflow management system via instruction, application, and coaching. This virtual course preview is a perfect introduction for evaluating a course for their team or organization.
+                            </p>
+                            <h3 className='secoundinnerboxh3'>The Getting Things Done program will help you.</h3>
+                            <ul className='browsecourseullist'>
+                                <li>
+                                    <i class="fa fa-chevron-left"></i>
+                                    Effective time management
+                                </li>
+                                <li>
+                                    <i class="fa fa-chevron-left"></i>
+                                    Shared process for managing and executing work
+                                </li>
+                                <li>
+                                    <i class="fa fa-chevron-left"></i>
+                                    Reduced stress and increased joy
+                                </li>
+                                <li>
+                                    <i class="fa fa-chevron-left"></i>
+                                    Able to meet deadlines and deliver on commitments.
+                                </li>
 
-        <section class="video-section-main">
-            <div class="container-fluid">
-                <div class="row video-section course-video">
-                    <div class="col-md-6 offset-md-3">
-                        <div class="row video-area">
-                            <iframe width="768" height="432" src="https://www.youtube.com/embed/ihxfvecEr2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="features courses-features">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 learn-title text-center"> 
-                        <h1>HERE IS WHAT YOU’LL LEARN</h1>
-                        <p>
-                        Go beyond productivity tips and learn a personal workflow management system through instruction, application, and coaching.
-                        </p>
-                     </div>
-                    <div class="col-md-4">
-                        <div class="row feature-right">
-                            <div class="col-md-2 feature-icon">
-                                <img src="/classets/img/dive-for-motivation.svg" />
-                            </div>
-                            <div class="col-md-10 feature-content">
-                                <h5>SEIZE</h5>
-                                <p>Direct everything to a few chosen capture tools that you empty regularly</p>
-                            </div>
+                        <div className='col-sm-6'>
+                            <img src='/classets/img/man-1.png' />
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="row feature-right">
-                            <div class="col-md-2 feature-icon">
-                                <img src="/classets/img/clarify.svg" />
-                            </div>
-                            <div class="col-md-10 feature-content">
-                                <h5>CLARIFY</h5>
-                                <p>
-                                Identify the very next action that would move you toward closure
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row feature-right">
-                            <div class="col-md-2 feature-icon">
-                                <img src="/classets/img/organize.svg" />
-                            </div>
-                            <div class="col-md-10 feature-content">
-                                <h5>ORGANIZE</h5>
-                                <p>
-                                Set context to your next actions rather than topic to make completing them easier
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row feature-right">
-                            <div class="col-md-2 feature-icon">
-                                <img src="/classets/img/reflect.svg" />
-                            </div>
-                            <div class="col-md-10 feature-content">
-                                <h5>REFLECT</h5>
-                                <p>Skim through your calendar and lists at the right times</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row feature-right">
-                            <div class="col-md-2 feature-icon">
-                                <img src="/classets/img/engage.svg" />
-                            </div>
-                            <div class="col-md-10 feature-content">
-                                <h5>ENGAGE</h5>
-                                <p>
-                                Use your system to take appropriate action with confidence
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row feature-right">
-                            <div class="col-md-2 feature-icon">
-                                <img src="/classets/img/eview.svg" />
-                            </div>
-                            <div class="col-md-10 feature-content">
-                                <h5>REVIEW</h5>
-                                <p>
-                                Make time each week to conduct a formal review of your tasks and goals
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+            </section>
 
-                </div>
-            </div>
-        </section>
-<section class="why-us choose-path">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-10 offset-md-1 text-center title">
-                        <h2><span>Learning Formats</span></h2>                        
+            <section class="preview-section ccdsection">
+                <div class="container">
+                    <div class="row">
+                        <div className='col-sm-12'>
+                            <h1>Virtual course previews to assessments to case studies, find the latest from our team for you and your teams.</h1>
+                        </div>
+                        <div className='clearfix'></div>
+                        <div className='col-sm-4'>
+                            <div className='innerb ccd'>
+                                <img src="/classets/img/gtdc1.jpg" />
+                                <p>
+                                    Increase patient safety, reduce errors, and improve employee engagement with Crucial Conversations Courses.
+                                </p>
+                                <h4>Click below and browse our courses</h4>
+                                <a className='innerba' href='/cruciallifechangingskills/browse-courses'>Browse Courses</a>
+                            </div>
+                        </div>
+                        <div className='col-sm-4'>
+                            <div className='innerb ccd'>
+                                <img src="/classets/img/gtdc2.jpg" />
+                                <p>
+                                    This twenty-question quick assessment will reveal your tendencies when it comes to managing your workflow and provides some tips for improvement.
+                                </p>
+                                <h4>To Take assesment click below</h4>
+                                <a className='innerba' href='https://classesmentc.herokuapp.com/ass'>Take Assessment</a>
+                            </div>
+                        </div>
+                        <div className='col-sm-4'>
+                            <div className='innerb ccd'>
+                                <img src="/classets/img/gtdc3.jpg" />
+                                <p>
+                                    Master the Art of Stress-free Productivity, Register and join our virtual course preview on.
+                                </p>
+                                <b>Newyork Best Seller:</b>
+                                <h4><i>Getting Things Done – Davind Allen</i></h4>
+                                <a className='innerba' href='#join-us'>Register Now</a>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="grey-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-10 offset-md-1">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="row feature-content text-center feature-box">
-                                    <img className='imgmauto img70 pbb-30' src="/classets/img/icon-on-demand-1.svg" />
-                                    <h4>On Demand</h4>
-                                    <p>Learn at your own pace online.</p>
-                                </div>
+            </section>
+
+            <section className='padd50s'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-6 alicc'>
+                            <img className='lim' src='/classets/img/gtd.svg' />
+                            <h3>Master the Art of Stress-free Productivity</h3>
+                            <h4>Relieve the Cognitive Load and Peak the Performance</h4>
+                            <h2>Join the Virtual Course Preview</h2>
+                            <div class="workshop-date">
+                                <h6><i class="fa fa-calendar" aria-hidden="true"></i> May 13th, 2022</h6>
+                                <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
                             </div>
-                            <div class="col-md-4">
-                                <div class="row feature-content text-center feature-box">
-                                    <img className='imgmauto img70 pbb-30' src="/classets/img/icon-virtual-1.svg" />
-                                    <h4>Virtual</h4>
-                                    <p>Join one of our instructors online.</p>
+                        </div>
+                        <div class="col-md-6 form-area">
+                            <form id="contactForm" class="row fbd">
+                                <div className='col-sm-12'>
+                                    <h4 className=''>Fill in the details and register for the virtual course preview now!</h4>
                                 </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="row feature-content text-center feature-box">
-                                    <img className='imgmauto img70 pbb-30' src="/classets/img/icon-in-person.svg" />
-                                    <h4>In Person</h4>
-                                    <p>Attend a classroom course.</p>
+                                <div class="col-md-6 col-6">
+                                    <input type="text" name='name' placeholder="Your Name*" />
                                 </div>
-                            </div>
+                                <div class="col-md-6 col-6">
+                                    <input type="email" name='email' placeholder="Your Email*" />
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <input type="text" name='organization' placeholder="Organization*" />
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" name='designation' placeholder="Designation" />
+                                </div>
+
+                                <div class="col-md-12">
+                                    <select name='slot' required>
+                                        <option value="">Interested In*</option>
+                                        <option value="November 3rd, 2022 – Webinar">November 3rd, 2022 – Webinar</option>
+                                        <option value="In-house Workshops">In-house Workshops</option>
+                                        <option value="An Executive Overview">An Executive Overview</option>
+                                    </select>
+                                </div>
+
+
+                                <div class="col-md-12">
+                                    <input id='submitbuttonform' class="formbtn" type="submit" value="Submit" />
+                                </div>
+                                <p id="showlabel" style={{ display: "none" }}></p>
+                            </form>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        
-     <section class="why-us">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 newsletter">
-                        <h2>READY TO GET STARTED?</h2> 
+            </section>
+
+            <section className='testmonials text-center pbb-50 bgcc'>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-sm-12'>                        
+                        <h2 className='testmt'>TESTIMONIALS</h2>
                     </div>
-                    <div class="col-md-6 newsletter-btn mtt-20"> 
-                       <a href='/cruciallifechangingskills/contact-us' class="start">Start a Conversation</a>
-                    </div>
-                </div>
-            </div>
-        </section>   
-<section class="about-section preview-section">
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="col-lg-6 left-about-area preview-course">
-                        <h1>PREVIEW THE COURSE</h1>
-                         <p>
-                         Play the video to learn more about the skills taught in Getting Things Done, the available learning formats, and how to bring the course to your organization.
-                         </p>
-                    <hr/>
-                    <h6><i class="ph-play-circle-bold"></i> 22 Mins Video</h6>
-                    </div>
-                    <div class="col-lg-6 preview-image">
-                        <a target="_blank" href='https://www.youtube.com/channel/UCwpwP8sH7YBIFs4xJeID9uA'><img src="/classets/img/gtd-img.jpg"/></a>
+                    <div className='col-sm-12'>
+                    <Slider {...settings}>
+                        <div className='testmdetails'>
+                            <p className='testtext'>Subject matter was very relevant to our needs and was taught along with suitable demonstrations and examples. Interactive practice sessions and group exercises.Live cases used to explain concepts. Content delivery from the trainer was clear and to the point</p>
+                            <h4 className='testname'>Alstom</h4>
+                            <img className='ratingw' src='/classets/img/five-star-rating.png'/>
+                            <h5 className='compname'>Crucial Conversations </h5>
+                        </div>
+
+                        <div className='testmdetails'>
+                            <p className='testtext'>It was an absolutely engaging and knowledgeable session. There are times when we are at a loss on how to begin a conversation and almost 99% of the time those are important and difficult conversations. This program will help you understand the best way forward towards having those conversations in the most healthy way possible! Kudos to the team of Crucial Learning and a big thumbs up to Mr Jolly for making the session so interactive!</p>
+                            <h4 className='testname'>Rohini Rastogi</h4>
+                            <img className='ratingw' src='/classets/img/five-star-rating.png'/>
+                            <h5 className='compname'>Middleby Celfrost Innovations Pvt. Ltd.</h5>
+                        </div>
+                    </Slider>
                     </div>
                 </div>
             </div>

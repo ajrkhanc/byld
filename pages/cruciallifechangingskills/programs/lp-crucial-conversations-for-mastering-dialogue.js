@@ -10,7 +10,7 @@ export default function BrowseCourses(){
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/22/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/21/feedback');
         xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
@@ -79,8 +79,8 @@ export default function BrowseCourses(){
     return(
         <>
         <Head>
-            <title>Influencer New LP - Crucial Life-Changing Skills</title>
-            <meta name="description" content="Utilize the new Science of Leadership with Influencer programA course backed by 50 years of research to help transform your ingrained human behavior.https://www.youtube.com/watch?v=vbflk9hXOUY LEARN AND MASTER THE SKILLS OF THE... Read more"/> 
+            <title>Crucial Conversations for Mastering Dialogue New LP - Crucial Life-Changing Skills</title>
+            <meta name="description" content="Whenever you get into any high-stake discussion with your boss, do you get into permanent silence of violence? REGISTER TODAY! Please express your interest and our sales consultant will get... Read more"/> 
             <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
         </Head>
@@ -88,37 +88,39 @@ export default function BrowseCourses(){
             <div className='container'>
                 <div className='row y-middle'>
                     <div className='col-md-6 text-center'>
-                        <img className='prlogo' src="/classets/img/Influencer.svg"/>
-                        <h1>Utilize the new Science of Leadership with Influencer program</h1>
+                        <img className='prlogo' src="/classets/img/CrucialConversations_FMD.svg"/>
+                        <h1>The Standard in Effective Communication</h1>
                         <p className='genericp'>
-                        A course backed by <span>50</span> years of research to help transform your ingrained human behavior.
+                        With 30 years of research in social science, Crucial Conversations skills provide the standard to make effective dialogues in a conversation which marks an indicator of high-performing individuals and organizations.
                         </p>
                         
                     </div>
                     <div className='col-md-6'>
                           <div className='icfvideoborder'>
-                             <iframe width="100%" height="310" src="https://www.youtube.com/embed/vbflk9hXOUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             <iframe width="100%" height="310" src="https://www.youtube.com/embed/KhnD9vH0j5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                           </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section className='ptt-40' id='registered'>
+        <section className='ptt-40' id="registered">
             <div className='container'>
               <div className='row workshop-form'>
                 <div className='col-sm-6'>
                     <div>
-                        <h4>LEARN AND MASTER THE SKILLS OF THE WORLD’S GREATEST LEADERS</h4>
-                        <p>Any emerging leader — be it a first-time manager without any formal authority, emerging leader, or a senior leader — can reconstruct persuasion and perks with powerful influence strategies and skills that bring real-life changes with influence skills training.</p>
+                        <p>
+                        Learn the nine powerful skills to obtain results with clear and effective dialogues for you to work through disagreements. Learn to make crucial conversations for lasting improvement.
+                        </p>
                         
                         <h3 className='videotitle'>PREVIEW THE COURSE</h3>
-                        <video controls
-                        src="/classets/video/Influencer-Training-Science-of-Leadership-Crucial-Learning.mp4"
-                        poster="/classets/img/inf-vid.jpg"
-                        width="100%">
-                    </video>
                         
+                        <video controls
+                        src="/classets/video/crucial-conversations-for-mastering-dialogue-course-crucial-learning.mp4"
+                        poster="/classets/img/cc1-vid.jpg"
+                        width="100%">
+                        </video>
+
                     </div>
 
                     
@@ -156,8 +158,8 @@ export default function BrowseCourses(){
                         <div class="col-md-6 col-6">
                         <select name='slot' required>
                             <option value="">Pick any Slot*</option>
-                            <option value="November 10th, 2022 – Webinar">November 10th, 2022 – Webinar</option>
-                            <option value="November 17th to 18th, 2022 – Workshop">November 17th to 18th, 2022 – Workshop</option>
+                            <option value="November 11th, 2022 – Workshop">November 11th, 2022 – Workshop</option>
+                            <option value="November 24th to 25th, 2022 – Workshop">November 24th to 25th, 2022 – Workshop</option>
                         </select>
                         </div>
 
@@ -214,37 +216,36 @@ export default function BrowseCourses(){
                     <div class="col-lg-12 contact-title"> 
                         <h1>Our Upcoming Programs</h1>
                           </div> 
-                  
                     <div class="col-md-4 workshop-col"> 
                        <div class="row workshop-row"> 
-                            <div class="col-md-12 workshop-content green-col"> 
+                            <div class="col-md-12 workshop-content"> 
                             <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
-                            <h4>INFLUENCER</h4>                            
-                            </div>
-                            <h5 className='eventt'>Webinar</h5>
-                             <div class="col-md-12 workshop-date green-col"> 
-                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> November 10th, 2022</h6>
-                            <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 4.00 PM to 5.00 PM</h6>
-                            <a href='#registered'><button class="register">REGISTER NOW</button></a>
-                            </div>
-                       </div>
-                    </div>
-
-                    <div class="col-md-4 workshop-col"> 
-                       <div class="row workshop-row"> 
-                            <div class="col-md-12 workshop-content green-col"> 
-                            <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
-                            <h4>INFLUENCER</h4>                            
+                            <h4>CRUCIAL <br/> CONVERSATIONS</h4>
+                            <p>for Mastering Dialogue</p>
                             </div>
                             <h5 className='eventt'>Workshop</h5>
-                             <div class="col-md-12 workshop-date green-col"> 
-                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> November 17th - 18th, 2022</h6>
+                             <div class="col-md-12 workshop-date"> 
+                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> November 11th, 2022</h6>
                             <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
                             <a href='#registered'><button class="register">REGISTER NOW</button></a>
                             </div>
                        </div>
                     </div>
-                    
+                    <div class="col-md-4 workshop-col"> 
+                       <div class="row workshop-row"> 
+                            <div class="col-md-12 workshop-content"> 
+                            <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
+                            <h4>CRUCIAL <br/> CONVERSATIONS</h4>
+                            <p>for Mastering Dialogue</p>
+                            </div>
+                            <h5 className='eventt'>Workshop</h5>
+                             <div class="col-md-12 workshop-date"> 
+                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> November 24th - 25th, 2022</h6>
+                            <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
+                            <a href='#registered'><button class="register">REGISTER NOW</button></a>
+                            </div>
+                       </div>
+                    </div>                                     
                 </div>
             </div>
         </section>

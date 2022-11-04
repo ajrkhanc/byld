@@ -31,7 +31,7 @@ export default function PromisesPromises(){
                         <h4 class="countertoph2 text-left font36">Best Team-Building Games – OVERVIEW</h4>
                         <div class="heading-border-line left-style"></div>
                         <p class="mtt-40 justify">
-                        By forcing people to deal with the pressures and obstacles of interdependent teams, Promises, Promises!™ powerfully demonstrates the strong relationship between effective communication and quality results with the team-building games. To meet their goals and become a United League of Nations, all teams must get the right resources to the right people according to their needs and deadlines. Participants walk away from Promises, Promises!™ understanding that everyone within an organization is both a supplier and a customer.
+                        By forcing people to deal with the pressures and obstacles of interdependent teams, <b>Promises, Promises!™</b> powerfully demonstrates the strong relationship between effective communication and quality results with the team-building games. To meet their goals and become a United League of Nations, all teams must get the right resources to the right people according to their needs and deadlines. Participants walk away from Promises, Promises!™ understanding that everyone within an organization is both a supplier and a customer.
                         </p>                        
                         </div>
                     </div>
@@ -104,7 +104,7 @@ export default function PromisesPromises(){
                         <ul className="estimate-info mtt-5">
                             <li>Experience the impact of a “we” versus “me” focus</li>
                             <li>Understand the importance of fostering a trusting environment through a global focus</li>
-                            <li>Learn how to maximize productivity through a win/win approach</li>
+                            <li>Learn how to maximize productivity through a win-win approach</li>
                             <li>Discover how your role impacts company-wide goals</li>
                             <li>Identify how to deliver exceptional quality and service through effective communication</li>
                         </ul>
