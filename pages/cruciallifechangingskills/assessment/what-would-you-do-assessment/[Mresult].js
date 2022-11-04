@@ -166,15 +166,10 @@ export default function result({ result }) {
                                                 <h3 className='ptop text-center'>Hi {results.name}</h3>
                                             </div>
                                             <div class="assessment-result-block">
-                                                <div class="result-bar-labels">
-                                                    <div class="label-left">You tend to focus on Motivation</div>
-                                                    <div class="label-middle"></div>
-                                                    <div class="label-right">You tend to focus on Ability</div>
-                                                </div>
+                                                 
                                                 <div className='row'>
                                                     <div className='col-sm-6 aalpading0'>
-
-
+                                                    <div class="label-left colof">Motivation</div>
                                                         <div className='bresult'>
                                                             <div class="result-bar-wrapper boright">
                                                                 {
@@ -197,6 +192,7 @@ export default function result({ result }) {
                                                         </div>
                                                     </div>
                                                     <div className='col-sm-6 aalpading0'>
+                                                    <div class="label-right colof">Ability</div>
                                                         <div className='bresult'>
                                                             <div class="result-bar-wrapper boleft">
                                                                 {

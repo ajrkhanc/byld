@@ -4861,8 +4861,9 @@ line-height: 31px;
   }
 
   .bresult{
-	display: flex;
-	position: relative;
+	overflow: hidden;
+    display: block;
+    width: 100%;
   }
 
   .bresult .result-bar-wrapper{
@@ -4943,6 +4944,11 @@ line-height: 31px;
     margin-top: 40px;
 }
 
+.colof{
+	font-size: 24px;
+    color: #eb8123;
+    padding-bottom: 9px;
+}
 
 
 
