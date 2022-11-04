@@ -4945,9 +4945,23 @@ line-height: 31px;
 }
 
 .colof{
-	font-size: 24px;
+	font-size: 20px;
     color: #eb8123;
     padding-bottom: 9px;
+}
+
+.colof span{
+	font-size: 26px;
+}
+
+.colof2{
+	font-size: 20px !important;
+    padding-bottom: 0px;
+    padding-top: 30px;
+}
+
+.colof2 span{
+	font-size: 26px;
 }
 
 

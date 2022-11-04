@@ -169,7 +169,7 @@ export default function result({ result }) {
                                                  
                                                 <div className='row'>
                                                     <div className='col-sm-6 aalpading0'>
-                                                    <div class="label-left colof">Motivation</div>
+                                                    <div class="text-center colof"><span>M</span>OTIVATION</div>
                                                         <div className='bresult'>
                                                             <div class="result-bar-wrapper boright">
                                                                 {
@@ -192,7 +192,7 @@ export default function result({ result }) {
                                                         </div>
                                                     </div>
                                                     <div className='col-sm-6 aalpading0'>
-                                                    <div class="label-right colof">Ability</div>
+                                                    <div class="text-center colof"><span>A</span>BILITY</div>
                                                         <div className='bresult'>
                                                             <div class="result-bar-wrapper boleft">
                                                                 {
@@ -214,7 +214,7 @@ export default function result({ result }) {
                                                     </div>
                                                     <div className='col-sm-12 bodttt aalpading0'>
                                                         <div class="assessment-result-block">
-                                                            <h3 className='newh3'>Takeaway</h3>
+                                                            <h3 className='newh3 colof2'><span>T</span>AKEAWAY</h3>
                                                             <p className='ptextjustify'>
                                                                 Effective leaders and managers address both motivation and ability to help others perform to expectations. You can improve your own ability by learning about the research, principles, and skills for better performance management. Download our free guide, <em>Mind the Gap: The Essential Guide to Workplace Accountability</em>.
                                                             </p>
