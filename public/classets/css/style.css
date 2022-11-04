@@ -4866,7 +4866,7 @@ line-height: 31px;
   }
 
   .bresult .result-bar-wrapper{
-	width: 50%;
+	width: 100%;
   }
 
   .boright{
@@ -4903,8 +4903,45 @@ line-height: 31px;
 	float: left;
   }
 
+  .aalpading0{
+	padding: 0px !important;
+  }
 
+  .demodonload{
+	padding: 33px 30px 20px 30px;
+  }
 
+.ppdr{
+	padding-right: 15px;
+	border-right: 2px solid #eb8123;
+	margin-top: 20px;
+}
+
+.ppdl{
+	padding-left: 15px;
+	border-left: 2px solid #eb8123;
+	margin-top: 20px;
+}
+
+.ptextjustify{
+	font-size: 17px;
+    text-align: justify;
+    line-height: 29px;
+}
+.newh3{
+	color: #eb8123;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.bodttt{
+	border-top: 4px solid #eb8123;
+}
+
+.btnnewc{
+	padding: 8px 33px;
+    margin-top: 40px;
+}
 
 
 

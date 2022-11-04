@@ -49,22 +49,14 @@ function downloadAsPDF() {
             <meta name="description" content="Everything DiSC<sup>®</sup> assessment measures the personality and behavior of individuals. And, DiSC Analysis provides a detailed report for better understanding."/> 
           </Head>
 
-          <section class="about-section bootmline bcck">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 contact-title">                        
-                        <h1>What Would You Do Self-Assessment Results</h1>                                      
-                      <h6>
-                        <button class="submit" onClick={downloadAsPDF}> Download Result </button>
-                          </h6>
-                    </div>
-                </div>
-            </div>
-        </section>
+         
 
         <section className='assesmentpart2'>
             <div className='container'>
                 <div className='row align-items-center'>
+                <div className='col-sm-12 text-center'>
+                        <button class="submit btnnewc" onClick={downloadAsPDF}> Download Result </button>
+                        </div>
                     <div className='col-md-2'></div>
                     <div className='col-md-8'>                       
                     {
