@@ -101,7 +101,7 @@ export default function result({ result }) {
                                             </div>
 
                                             <div class="assessment-result-block">
-                                                <h3>UNDERSTANDING YOUR RESULTS</h3>
+                                                <h3 className='hcll'>UNDERSTANDING YOUR RESULTS</h3>
                                                 <p>
                                                     Your results are broken into eight sections. For each section your score determines your level of influence in that area. The Influencer levels are:
                                                 </p>
@@ -115,12 +115,14 @@ export default function result({ result }) {
                                                 <p>
                                                     Notice which areas you struggle with. Perhaps you're good at providing encouragement, for example, and not so good at helping others do what they can't. Whatever you scored, awareness is the first step toward improvement.
                                                 </p>
+
+                                                <h3 className='hcll paddtop16'>YOUR RESULT</h3>
                                             </div>
 
                                             <div className='row newclp'>
                                                 <div className='col-sm-6'>
                                                     <div class="assessment-result-block">
-                                                        <h3>Focus and Measure: <span>{FocusandMeasureresult1}</span></h3>
+                                                        <h3><i>Focus and Measure:</i> <span>{FocusandMeasureresult1}</span></h3>
                                                         <div class="result-bar-wrapper">
                                                             <div class="result-bar" style={{ width: FocusandMeasureresult }}></div>
                                                         </div>
@@ -129,7 +131,7 @@ export default function result({ result }) {
 
                                                 <div className='col-sm-6'>
                                                     <div class="assessment-result-block">
-                                                        <h3>Find Vital Behaviors: <span>{FindVitalBehaviorsresult1}</span></h3>
+                                                        <h3><i>Find Vital Behaviors:</i> <span>{FindVitalBehaviorsresult1}</span></h3>
                                                         <div class="result-bar-wrapper">
                                                             <div class="result-bar" style={{ width: FindVitalBehaviorsresult }}></div>
                                                         </div>
@@ -138,7 +140,7 @@ export default function result({ result }) {
 
                                                 <div className='col-sm-6'>
                                                     <div class="assessment-result-block">
-                                                        <h3>Help Them Love What They Hate: <span>{HelpThemLoveWhatTheyHateresult1}</span></h3>
+                                                        <h3><i>Help Them Love What They Hate:</i> <span>{HelpThemLoveWhatTheyHateresult1}</span></h3>
                                                         <div class="result-bar-wrapper">
                                                             <div class="result-bar" style={{ width: HelpThemLoveWhatTheyHateresult }}></div>
                                                         </div>
@@ -147,7 +149,7 @@ export default function result({ result }) {
 
                                                 <div className='col-sm-6'>
                                                     <div class="assessment-result-block">
-                                                        <h3>Help Them Do What They Can’t: <span>{HelpThemDoWhatTheyCanresult1}</span></h3>
+                                                        <h3><i>Help Them Do What They Can’t:</i> <span>{HelpThemDoWhatTheyCanresult1}</span></h3>
                                                         <div class="result-bar-wrapper">
                                                             <div class="result-bar" style={{ width: HelpThemDoWhatTheyCanresult }}></div>
                                                         </div>
@@ -156,7 +158,7 @@ export default function result({ result }) {
 
                                                 <div className='col-sm-6'>
                                                     <div class="assessment-result-block">
-                                                        <h3>Provide Encouragement: <span>{ProvideEncouragementresult1}</span></h3>
+                                                        <h3><i>Provide Encouragement:</i> <span>{ProvideEncouragementresult1}</span></h3>
                                                         <div class="result-bar-wrapper">
                                                             <div class="result-bar" style={{ width: ProvideEncouragementresult }}></div>
                                                         </div>
@@ -165,7 +167,7 @@ export default function result({ result }) {
 
                                                 <div className='col-sm-6'>
                                                     <div class="assessment-result-block">
-                                                        <h3>Provide Assistance: <span>{ProvideAssistanceresult1}</span></h3>
+                                                        <h3><i>Provide Assistance:</i> <span>{ProvideAssistanceresult1}</span></h3>
                                                         <div class="result-bar-wrapper">
                                                             <div class="result-bar" style={{ width: ProvideAssistanceresult }}></div>
                                                         </div>
@@ -174,7 +176,7 @@ export default function result({ result }) {
 
                                                 <div className='col-sm-6'>
                                                     <div class="assessment-result-block">
-                                                        <h3>Change Their Economy: <span>{ChangeTheirEconomyresult1}</span></h3>
+                                                        <h3><i>Change Their Economy:</i> <span>{ChangeTheirEconomyresult1}</span></h3>
                                                         <div class="result-bar-wrapper">
                                                             <div class="result-bar" style={{ width: ChangeTheirEconomyresult }}></div>
                                                         </div>
@@ -183,7 +185,7 @@ export default function result({ result }) {
 
                                                 <div className='col-sm-6'>
                                                     <div class="assessment-result-block">
-                                                        <h3>Change Their Space: <span>{ChangeTheirSpaceresult1}</span></h3>
+                                                        <h3><i>Change Their Space:</i> <span>{ChangeTheirSpaceresult1}</span></h3>
                                                         <div class="result-bar-wrapper">
                                                             <div class="result-bar" style={{ width: ChangeTheirSpaceresult }}></div>
                                                         </div>
