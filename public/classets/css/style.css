@@ -4965,6 +4965,19 @@ line-height: 31px;
 	font-size: 26px;
 }
 
+.newclp .assessment-result-block{
+	margin-bottom: 28px;
+}
+.newclp .assessment-result-block h3 {
+    font-size: 22px !important;
+	color: #2092cf;
+	
+}
+
+.newclp .assessment-result-block h3 span{
+	color: #eb8123;
+}
+
 
 
 
