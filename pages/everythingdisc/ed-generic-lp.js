@@ -142,16 +142,13 @@ export default function EdGenericLp(){
 
                                         <div className="col-sm-6 mb-12">
                                             <select name="InterestedIn" required>
-                                                <option value="">Interested In*</option>
-                                                <option value="Everything DiSC Agile EQ">Everything DiSC Agile EQ</option>
-                                                <option value="Everything DiSC Sales">Everything DiSC Sales</option>
-                                                <option value="Everything DiSC 363 for Leaders">Everything DiSC 363 for Leaders</option>
-                                                <option value="Everything DiSC Productive Conflict">Everything DiSC Productive Conflict</option>
-                                                <option value="Everything DiSC Workplace">Everything DiSC Workplace</option>
-                                                <option value="Everything DiSC Work Of Leaders">Everything DiSC Work Of Leaders</option>
-                                                <option value="Everything DiSC Management">Everything DiSC Management</option>
-                                                <option value="Everything DiSC Workplace on Catalyst">Everything DiSC Workplace on Catalyst</option>
-                                                <option value="Interested in knowing more">Interested in knowing more</option>
+                                                <option value="">Pick up any Slot*</option>
+                                                <option value="3rd December 2021, Personal Listening Profile - Webinar">3rd December 2021, Personal Listening Profile - Webinar</option>
+                                                <option value="21st December 2021, Everything DiSC 363 for Leaders - Webinar">21st December 2021, Everything DiSC 363 for Leaders - Webinar</option>
+                                                <option value="7th January Everything DiSC Sales - Webinar">7th January Everything DiSC Sales - Webinar</option>
+                                                <option value="14th January 2022, The Five Behaviors Team development - Webinar">14th January 2022, The Five Behaviors Team development - Webinar</option>
+                                                <option value="24th, 25th, 27th, 28th January 2022, DISC TTT Virtual Public Workshop">24th, 25th, 27th, 28th January 2022, DISC TTT Virtual Public Workshop</option>
+                                                <option value="25th February 2022 The Five Behaviors Team Development Workshop">25th February 2022 The Five Behaviors Team Development Workshop</option>
                                             </select>
                                         </div>
 

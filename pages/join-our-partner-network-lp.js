@@ -107,7 +107,7 @@ export default function JoinOurPartnerNetworkLP(){
                                         <div className="col-lg-12 mb-12">
                                             <select name="intrestedin" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="Wednesday 24 August 2022 Time: 11:00 AM - 12:00 PM">Wednesday 24 August 2022 Time: 11:00 AM - 12:00 PM</option>
+                                                <option value="Tuesday 6 December 2022: 3:00 PM - 4:00 PM">Wednesday 24 August 2022 Time: 11:00 AM - 12:00 PM</option>
                                             </select>
                                         </div>
                                         
@@ -169,10 +169,10 @@ export default function JoinOurPartnerNetworkLP(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Wednesday, 24th August 2022</span>
+                                <span>Tuesday 6 December 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Time: 11:00 AM - 12:00 PM</h3>
+                                <h3>Time: 3:00 PM - 4:00 PM</h3>
                                 <a className="eventbtn" href='#'>REGISTER NOW</a>
                             </div>
                         </div>

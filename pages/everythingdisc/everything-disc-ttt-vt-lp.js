@@ -112,7 +112,7 @@ export default function DiskTTTLP(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="August 23rd – 26th 2022, DISC TTT">August 23rd – 26th 2022, DISC TTT</option>
+                                                <option value="November 15th – 18th 2022, DISC TTT">November 15th – 18th 2022, DISC TTT</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
@@ -134,7 +134,7 @@ export default function DiskTTTLP(){
                                         </div>
                                         <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>                                                                         
-                            </form>                                  
+                            </form>
                             </div>
                         </div>
                     </div>

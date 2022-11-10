@@ -1641,6 +1641,22 @@
   list-style: auto;
 }
 .text-left{text-align: left;}
+.themecolorc{
+  color: #3373af;  
+  margin-bottom: 10px;
+}
+
+.insideoutsideco{
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.insideoutcontn{
+  background-color: #F4812B;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
 
 
 

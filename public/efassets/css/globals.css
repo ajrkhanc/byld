@@ -1038,3 +1038,9 @@ margin-bottom: 5px;
   font-size: 28px !important;
     margin-bottom: 28px;
 }
+
+.eventbottom h5{
+  color: #203a72;
+  font-weight: 500;
+  font-size: 20px;
+}

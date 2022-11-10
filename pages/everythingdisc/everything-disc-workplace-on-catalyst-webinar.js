@@ -66,13 +66,13 @@ export default function EverythingDiSCWorkplace(){
                     <div className="col-lg-6 pr-0">
                         <div className='onlyshd pb-30'>                        
                         <p className='mall5 ptt-30'>
-                        Everything DiSC Workplace® on CatalystTM program is designed to engage everyone in building more effective relationships at work. It helps others in real-time, unlocking and inspiring more effective collaboration.
+                        Everything DiSC Workplace<sup>®</sup> on CatalystTM program is designed to engage everyone in building more effective relationships at work. It helps others in real-time, unlocking and inspiring more effective collaboration.
                         </p>                        
                         
                         <p className='mall5'><span className='themecolor'>The Key Learnings:</span></p>
                         <div className='rs-estimate'>                        
                         <ul className="estimate-info mtt-5">
-                            <li>Discover DiSC® style.</li>
+                            <li>Discover DiSC<sup>®</sup> style.</li>
                             <li>Deepen understanding of self and others.</li>
                             <li>Learn how to build better relationships with others.</li>
                             <li>Access real-time tips for more effective interactions with colleagues.</li>
@@ -111,7 +111,7 @@ export default function EverythingDiSCWorkplace(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="September 9th, 2022 Everything DiSC Workplace on Catalyst Webinar">September 9th, 2022 Everything DiSC Workplace on Catalyst Webinar</option>
+                                                <option value="December 2nd, 2022 Everything DiSC Workplace on Catalyst Webinar">December 2nd, 2022 Everything DiSC Workplace on Catalyst Webinar</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">

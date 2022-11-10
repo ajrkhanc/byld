@@ -4,6 +4,42 @@ import Image from 'next/image'
 
 
 export default function Home() {  
+
+    const Eaglesflightindia = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/eaglesflightindia/wp-json/contact-form-7/v1/contact-forms/18/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 48 working hours.";
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                       window.location.href = "/eaglesflightindia/thank-you"
+                    }, 3000);
+  
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("leadsquared-FirstName=" + event.target.name.value +
+            "&leadsquared-EmailAddress=" + event.target.email.value +
+            "&leadsquared-Mobile=" + event.target.phone.value +
+            "&leadsquared-mx_States=" + event.target.Location.value +          
+            "&leadsquared-Company=" + event.target.organization.value +
+            "&leadsquared-JobTitle=" + event.target.designation.value +
+            "&referredby=" + event.target.referredby.value +
+            "&leadsquared-Notes=" + event.target.leadsquared_Notes.value +          
+            "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value )
+  
+    }
+
   return (
     <>
          <Head>
@@ -214,7 +250,7 @@ export default function Home() {
                          <div className="clearfix"></div>                         
                          <div className="col-sm-7">
                          <div className="bannerform">
-                            <form id="contact-form" className='clientcornner ptt-40 pbb-20'>                                         
+                            <form id="contact-form" className='clientcornner ptt-40 pbb-20' onSubmit={Eaglesflightindia}>                                         
                                     <div className="row">
                                         <div className="col-sm-6 mb-12">
                                             <input type="text" name="name" placeholder="Enter Name*" required />
@@ -236,19 +272,22 @@ export default function Home() {
                                         </div>                                        
                                         <div className="col-sm-12 mb-12">
                                             <select name="referredby" required>
-                                                <option value="">Referred By</option>
-                                               
+                                                <option value="">Referred By</option>                                               
                                                 <option value="Social Media">Social Media</option>
                                                 <option value="Google Search">Google Search</option>                                                
                                                 <option value="Reference">Reference</option>                                                
                                             </select>
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                            <textarea className="from-control" name="leadsquared-Notes" placeholder="Let us know what you are looking for."></textarea>
+                                            <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
+                                        </div>
+                                        <div className="col-sm-12 d-none">
+                                            <input type="text" name="Business_Entity" value="Eagles Flight" required />
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                        <input className="clientcornnerbtn" type="submit" value="Submit"/>
+                                        <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Submit"/>
                                         </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>                                                                         
                             </form>                                  
                             </div>

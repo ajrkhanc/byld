@@ -2,6 +2,39 @@ import Head from 'next/head';
 import Slider from "react-slick";
 
 export default function CoachCertificationLP(){
+
+    const EFgenericLP = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/eaglesflightindia/wp-json/contact-form-7/v1/contact-forms/22/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 48 working hours.";
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                       window.location.href = "/eaglesflightindia/thank-you"
+                    }, 3000);
+  
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("leadsquared-FirstName=" + event.target.name.value +
+            "&leadsquared-EmailAddress=" + event.target.email.value +
+            "&leadsquared-Mobile=" + event.target.phone.value +            
+            "&leadsquared-Company=" + event.target.organization.value +
+            "&leadsquared-JobTitle=" + event.target.designation.value +
+            "&slot=" + event.target.slot.value +                    
+            "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value )
+  
+    }
     
     var settings = {
         dots: true,
@@ -68,7 +101,7 @@ export default function CoachCertificationLP(){
                 </div>
             </div>
 
-            <section className='icfemibg ptt-40 pbb-40'>
+            <section id="register" className='icfemibg ptt-40 pbb-40'>
                 <div className='container'>
                     <div className='row y-middle'>                        
                         <div className='col-md-7'>
@@ -79,30 +112,38 @@ export default function CoachCertificationLP(){
                             <div className='ptt-10'>
                             <div className="bannerform">
                             <p>Fill in the form below and our subject matter expert will connect with you within 24 working hours.</p>
-                            <form id="contact-form" className='clientcornner'>                                         
+                            <form id="contact-form" className='clientcornner' onSubmit={EFgenericLP}>                                         
                                     <div className="row">
-                                        <div className="col-lg-12 mb-12">
+                                        <div className="col-sm-6 mb-12">
                                             <input type="text" name="name" placeholder="Name*" required />
                                         </div>                                        
-                                        <div className="col-lg-12 mb-12">
+                                        <div className="col-sm-6 mb-12">
                                             <input type="email" name="email" placeholder="E-mail*" required />
                                         </div>
                                         <div className="col-lg-12 mb-12">
                                             <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                            <input type="text" name="companyname" placeholder="Company Name*" required />
+                                            <input type="text" name="organization" placeholder="Company Name*" required />
                                         </div>
                                         <div className="col-lg-12 mb-12">
                                             <input type="text" name="designation" placeholder="Designation*" required />
                                         </div>
+                                        <div className="col-sm-12 mb-12">
+                                            <select name="slot" required>
+                                                <option value="">Pick up any Slot*</option>
+                                                <option value="Eagle's Flight Executive Briefing: November 9th, 2022">Eagle's Flight Executive Briefing: November 9th, 2022</option>
+                                                <option value="Eagle's Flight Executive Briefing: December 14th, 2022">Eagle's Flight Executive Briefing: December 14th, 2022</option>
+                                            </select>
+                                        </div>
                                        
-                                        <div className="col-lg-12 mb-12 d-none">
-                                            <input type="text" name="leadsquared_mx_Business_Entity" placeholder="BYLD Group" value="BYLD Group" required />
+                                        <div className="col-sm-12 d-none">
+                                            <input type="text" name="Business_Entity" value="Eagles Flight" required />
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                        <input className="clientcornnerbtn" type="submit" value="I’m Interested"/>
+                                        <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="I’m Interested"/>
                                         </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>                                                                         
                             </form>                                  
                             </div>
@@ -218,8 +259,50 @@ export default function CoachCertificationLP(){
                     </div>
                 </div>
             </section>
-
             
+            <section className='ptt-20 pbb-20'>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-sm-12'>
+                    <div className="sec-title3 mbb-35">
+                        <h4 className="countertoph2 text-center font30">Our Upcoming Programs</h4>
+                        <div className="heading-border-line center-style"></div>
+                    </div>
+                    </div>
+                    <div className='clearfix'></div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>November 9th, 2022</span>                                
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Eagle's Flight™ Executive Briefing</h3>
+                                <h5>Complimentary Webinar</h5>
+                                <a className="eventbtn" href='#register'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>December 14th, 2022</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Eagle's Flight™ Executive Briefing</h3>
+                                <h5>Complimentary Webinar</h5>
+                                <a className="eventbtn" href='#register'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+ 
+                </div>
+            </div>
+        </section>
         </>
     )
 }
