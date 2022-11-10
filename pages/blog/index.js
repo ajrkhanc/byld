@@ -16,6 +16,7 @@ export async function getServerSideProps() {
     }
   }
 
+  
 export default function Blog({posts, cats}){
 
     const PopupRegisterd = async event => {

@@ -2,15 +2,15 @@ import Head from 'next/head'
 import  moment from 'moment'
 
 export async function getServerSideProps(context) {    
-    const post5 = await fetch('https://fivebehaviors-admins.herokuapp.com/api/posts')
+    const post5 = await fetch('https://fivebehaviorsblog-x9w5d.ondigitalocean.app/api/posts')
     const posts5 = await post5.json()
 
-    const cat = await fetch('https://fivebehaviors-admins.herokuapp.com/api/categories')
+    const cat = await fetch('https://fivebehaviorsblog-x9w5d.ondigitalocean.app/api/categories')
     const cats = await cat.json()
 
 
     const caturl = context.params.blogCat;
-    const res = await fetch(`https://fivebehaviors-admins.herokuapp.com/api/posts/category/${caturl}`)
+    const res = await fetch(`https://fivebehaviorsblog-x9w5d.ondigitalocean.app/api/posts/category/${caturl}`)
     const posts = await res.json()
 
 
