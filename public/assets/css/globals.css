@@ -1657,7 +1657,100 @@
   padding: 10px;
   border-radius: 10px;
 }
+.mainlinec{
+  position: relative;
+}
+.sboxp{
+  display: flex;
+}
+.sbox{
+  width: 14.28%;
+}
+.sbox hr{
+  width: 100%;
+  display: block;
+  margin-bottom: -15px;
+  color: #2a6db5;
+  height: 2px;
+  opacity: 1;
+}
+.hrleft{
+  width: 55% !important;
+  float: right;
+}
+.hrright{
+  width: 55% !important;
+  float: left;
+}
 
+.sbox span{
+  background: #3474af;
+  width: 28px;
+  height: 28px;
+  display: block;
+  color: #fff;
+  border-radius: 50px;
+  line-height: 28px;
+  margin: auto;
+}
+
+.cacoh{
+  color: #2a6db5;
+    font-size: 30px;
+    padding-top: 32px;
+    margin-bottom: 5px;
+}
+
+.fh3{
+  background: #1b6194;
+    padding: 0px 15px;
+}
+
+.fh3 h3{
+  font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fcolmain{
+  display: inline-flex;
+  padding-right: 15px;
+}
+
+.fcolmain label{
+  padding-left: 5px;
+}
+.fcolmain input{
+    accent-color: #3474af;
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+}
+
+.fcol1{
+  padding: 0px 15px 15px 15px;
+  border-bottom: 1px solid #2a6db5;
+}
+.fcol1 h2{
+  font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    color: #1b6194;
+}
+
+.fcol1:nth-child(odd) {
+  background: #f5f5f5;
+  border-left: 1px solid #2a6db5;
+  border-right: 1px solid #2a6db5;
+}
+
+.fcol1:nth-child(even) {
+  border-left: 1px solid #2a6db5;
+  border-right: 1px solid #2a6db5;
+}
 
 
 

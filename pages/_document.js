@@ -52,6 +52,14 @@ class MyDocument extends Document {
             <script src="/assets/js/main.js"></script>
             <script src="/classets/js/script.js"></script>
             <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              var chatbot_id=12584;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+          `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
         </body>
       </Html>
     )
