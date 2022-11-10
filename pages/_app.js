@@ -29,7 +29,20 @@ export default function MyApp({ Component, pageProps, router }) {
             <link rel="stylesheet" href="/classets/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
             <script src="https://unpkg.com/phosphor-icons"></script>
             <link rel="stylesheet" href="/classets/css/style.css" />            
-            <link rel="shortcut icon" href="/classets/favicon.png" type="image/x-icon"/>            
+            <link rel="shortcut icon" href="/classets/favicon.png" type="image/x-icon"/>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25012511-1"></script>
+            <script
+                  dangerouslySetInnerHTML={{
+                    __html: `
+                    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25012511-1');
+                `,
+                  }}
+                />
+            
         </Head>
               <Component {...pageProps} />
           </CL>
@@ -77,7 +90,18 @@ export default function MyApp({ Component, pageProps, router }) {
 
               <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
               <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-        
+              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-205275343-1"></script>
+              <script
+                  dangerouslySetInnerHTML={{
+                    __html: `
+                    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-205275343-1');
+                `,
+                  }}
+                />
           </Head>
             <Component {...pageProps} />
         </FiveB>
@@ -124,6 +148,18 @@ else if (router.pathname.startsWith('/everythingdisc')) {
 
             <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9GPQ8EC4C"></script>
+            <script
+                  dangerouslySetInnerHTML={{
+                    __html: `
+                    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P9GPQ8EC4C');
+                `,
+                  }}
+                />
       
         </Head>
           <Component {...pageProps} />
@@ -379,6 +415,18 @@ else if (router.pathname.startsWith('/eaglesflightindia')) {
 
             <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-205257587-1"></script>
+            <script
+                  dangerouslySetInnerHTML={{
+                    __html: `
+                    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-205257587-1');
+                `,
+                  }}
+                />
         </Head>
 
           <Component {...pageProps} />
