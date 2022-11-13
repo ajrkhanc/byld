@@ -5,6 +5,7 @@ import FiveB from '../components/FiveB/Layout';
 import Wiley from '../components/Wiley/Layout';
 import Eaglesflightindia from '../components/Eaglesflightindia/Layout';
 import Hhf from '../components/Hhf/Layout';
+import COS from '../components/cos/Layout'
 // import Hhf from '../components/Hhf/Layout';
 
 
@@ -431,6 +432,61 @@ else if (router.pathname.startsWith('/eaglesflightindia')) {
 
           <Component {...pageProps} />
       </Eaglesflightindia>
+  )
+
+}
+
+else if (router.pathname.startsWith('/coaching/career-coaching-snapshot')) {
+
+  return (
+      <COS>
+          <Head>
+            <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css"/>
+       
+            <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/assets/fonts/flaticon.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/assets/css/animate.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css"/>
+        
+            <link rel="stylesheet" type="text/css" href="/assets/css/off-canvas.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/assets/css/magnific-popup.css"/>
+          
+            <link rel="stylesheet" href="/assets/css/rsmenu-main.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/nivo-slider.css"/>
+            <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/preview.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/assets/css/rs-spacing.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+            
+            <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css"/>
+            <link rel="stylesheet" type="text/css" href="/assets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/assets/css/bg.css"/>
+
+            <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PXTTR960E"></script>
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PXTTR960E');
+          `,
+            }}
+          />
+      
+        </Head>
+
+          <Component {...pageProps} />
+      </COS>
   )
 
 }

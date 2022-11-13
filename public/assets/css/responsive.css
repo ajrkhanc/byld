@@ -1059,7 +1059,18 @@
 @media (min-width:991px){
     .clientcornnertest{ min-height: 440px;}
 }
-
-@media (max-width:768){
+.mw6 .rs-menu-area{
+    display: block !important;
+ }
+@media (max-width:768px){
     .largescale{ padding:15px;}
+    .mobileh{
+        height:67px;
+    }
+    .mw6 .rs-menu-area{
+       display: block !important;
+    }
+    .mw6 img{
+        max-height: 40px !important;
+    }
 }
