@@ -5,6 +5,41 @@ import Slider from "react-slick";
 
 export default function GoldofthedesertKings(){
 
+    const MuseumCaperForm = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/eaglesflightindia/wp-json/contact-form-7/v1/contact-forms/24/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 48 working hours.";
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                       window.location.href = "/eaglesflightindia/thank-you"
+                    }, 3000);
+  
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("leadsquared-FirstName=" + event.target.name.value +
+            "&leadsquared-EmailAddress=" + event.target.email.value +
+            "&leadsquared-Mobile=" + event.target.phone.value +
+            "&leadsquared-mx_States=" + event.target.Location.value +          
+            "&leadsquared-Company=" + event.target.organization.value +
+            "&leadsquared-JobTitle=" + event.target.designation.value +
+            "&referredby=" + event.target.referredby.value +
+            "&leadsquared-Notes=" + event.target.leadsquared_Notes.value +          
+            "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value )
+  
+    }
+
 
     return(
         <>
@@ -127,6 +162,66 @@ export default function GoldofthedesertKings(){
                     
                 </div>                 
             </div>
+            </div>
+
+            <div className="rs-testimonial style4 bg16 ptt-30 pbb-70">
+                <div className="container">                   
+                    <div className="row">
+                         <div className="col-sm-2"></div>
+                         <div className="col-sm-8">
+                         <div className="bannerform formshd">
+                            <div className="sec-title3 mbb-35 text-center">                                
+                                <h4 className="countertoph2 text-left font34">Register and Learn More</h4>
+                                <div className="heading-border-line center-style"></div>
+                            </div>
+                            <form id="contact-form" className='clientcornner pbb-20' onSubmit={MuseumCaperForm}>                                         
+                                    <div className="row">
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="name" placeholder="Enter Name*" required />
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="email" name="email" placeholder="Enter Email*" required />
+                                        </div> 
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                        </div> 
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="Location" placeholder="Location*" required />
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="organization" placeholder="Organization*" required />
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="designation" placeholder="Designation*" required />
+                                        </div>
+                                    
+                                        <div className="col-sm-12 mb-12">
+                                            <select name="referredby" required>
+                                                <option value="">Referred By</option>
+                                                <option value="Email">Email</option>
+                                                <option value="Social Media">Social Media</option>
+                                                <option value="Google Search">Google Search</option>                                                
+                                            </select>
+                                        </div>
+                                        <div className="col-sm-12 d-none">
+                                            <input type="text" name="Business_Entity" value="Eagles Flight" required />
+                                        </div>
+                                        <div className="col-lg-12 mb-12">
+                                            <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
+                                        </div>
+                                        <div className="col-lg-12 mb-12">
+                                        <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Submit"/>
+                                        </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
+                                    </div>                                                                         
+                            </form>
+                            </div>
+                         </div>
+                         <div className="col-sm-2">
+                         
+                         </div>
+                    </div>
+                </div>
             </div>
 
 
