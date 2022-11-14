@@ -32,7 +32,9 @@ export default function Jenson8(){
             "&email=" + event.target.email.value +
             "&phone=" + event.target.phone.value +
             "&Companyname=" + event.target.organization.value +
+            "&slot=" + event.target.slot.value +
             "&wheredidyoucome=" + event.target.referredby.value +
+            "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value +
             "&QuestionsComments=" + event.target.QuestionsComments.value )
 
     }
@@ -503,6 +505,11 @@ export default function Jenson8(){
                                         </div>
                                         <div className="col-lg-12 mb-12">
                                             <textarea className="from-control" name="QuestionsComments" placeholder="Questions/Comments:"></textarea>
+                                        </div>
+                                        <div className="col-sm-12 mb-12 d-none">
+                                            <select name="Business_Entity" required>
+                                                <option value="BYLD Group">BYLD Group</option>                                                                                               
+                                            </select>
                                         </div>
                                         <div className="col-lg-12 mb-12">
                                         <input id="submitbuttonform" className="clientcornnerbtn width150" type="submit" value="Get in Touch"/>
