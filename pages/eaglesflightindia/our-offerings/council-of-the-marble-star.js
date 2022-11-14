@@ -37,7 +37,7 @@ export default function CouncilofTheMarbleStar(){
                     </div>
 
                     <div className="col-lg-6">
-                    <iframe width="100%" height="365" src="https://www.youtube.com/embed/2GRAyfYI2Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="365" src="https://www.youtube.com/embed/e7QYq1u-SFs  " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     
                 </div>
