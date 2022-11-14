@@ -142,38 +142,11 @@ export default function result({ result }) {
                                             <div class="assessment-result-block">
                                                 <h3 className='ptop text-center'>Hi {results.name}</h3>
                                             </div>
-                                            <div className='cochingformat'>
-                                                <h3>Understanding your ratings summary</h3>
-                                                <p>Your survey responses provide a snapshot, or data from a point in time, about how you and others perceive your coaching. This is a unique opportunity to gain insights into how you see your effectiveness as a coach.</p>
-
-                                                <table>
-                                                    <tr className='tablefbh'>
-                                                        <th>Score</th>
-                                                        <th>Interpretation</th>
-                                                        <th>Action</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Less than 4.5 (Red)</td>
-                                                        <td>Area that needs attention</td>
-                                                        <td>Prioritise to manage and learn the skills to minimize the negative impact on others.</td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>4.6 to 6.0 (Yellow)</td>
-                                                        <td>Area of strength</td>
-                                                        <td>Build it further and focus on select behaviours to make them even better</td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>6.1 + (Green)</td>
-                                                        <td>Area of Commanding Excellence</td>
-                                                        <td>Keep building on the strengths.</td>
-                                                    </tr>
-                                                </table>
-
-                                               <br></br>
-                                                <p>Ratings on the current Coaching Snapshot are shown by the source of the rating:</p>
+                                            <div className='cochingformat'>                                               
+                                                <h4 className='yresultc'><span>Y</span>OUR <span>R</span>EPORT</h4>
+                                                <p>Your survey responses provide a snapshot, or data from a point in time, about how you perceive your coaching. This is a unique opportunity to gain insights into how you see your effectiveness as a coach.</p>
                                             </div>
+
                                             <div className='resultable'>
                                                 <table>
                                                     <tr className='tablefbh'>
@@ -473,6 +446,37 @@ export default function result({ result }) {
                                                         </td>
                                                     </tr>
 
+                                                </table>
+                                            </div>
+
+                                            <div className='cochingformat'>
+                                                <hr className='hrheightforresult'></hr>
+                                                
+                                                <h4 className='yresultc'><span>U</span>NDERSTANDING <span>Y</span>OUR <span>R</span>ATINGS <span>S</span>UMMARY</h4>
+                                                <br></br>
+                                                <table>
+                                                    <tr className='tablefbh'>
+                                                        <th>Score</th>
+                                                        <th>Interpretation</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Less than 4.5 (Red)</td>
+                                                        <td>Area that needs attention</td>
+                                                        <td>Prioritise to manage and learn the skills to minimize the negative impact on others.</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>4.6 to 6.0 (Yellow)</td>
+                                                        <td>Area of strength</td>
+                                                        <td>Build it further and focus on select behaviours to make them even better</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>6.1 + (Green)</td>
+                                                        <td>Area of Commanding Excellence</td>
+                                                        <td>Keep building on the strengths.</td>
+                                                    </tr>
                                                 </table>
                                             </div>
                                             

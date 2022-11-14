@@ -1836,6 +1836,7 @@ border-bottom: 1px solid #000;
 
 .cochingformat{
   text-align: center;
+  padding-top: 10px;
 }
 .cochingformat table{
   width: 100%;
@@ -1848,18 +1849,28 @@ border-bottom: 1px solid #000;
 }
 .cochingformat h3{
   color: #3373af;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 500;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   padding-top: 10px;
 }
 
 .cochingformat p{
   margin-bottom: 0px;
-  color: #e88026;
+  color: #000;
   font-size: 18px;
   line-height: 26px;
   margin-bottom: 20px;
+}
+
+.yresultc{
+  font-size: 18px;
+  color: #e88026;
+  padding-top: 20px;
+  margin: 0px;
+}
+.yresultc span{
+  font-size: 24px;
 }
 
 .btnnewc {
@@ -1900,6 +1911,14 @@ border-bottom: 1px solid #000;
 
 .dresult{
   padding: 13px 40px 40px 40px;
+}
+
+.hrheightforresult{
+  height: 15px !important;
+    background-color: #e88027;
+    opacity: 1;
+    margin-top: 72px;
+    margin-bottom: 50px;
 }
 
 
