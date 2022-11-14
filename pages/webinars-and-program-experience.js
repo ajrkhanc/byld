@@ -55,19 +55,17 @@ export default function WebinarsAndProgramExperience(){
                         <div className="heading-border-line center-style"></div>
                     </div>
                     </div>
-                    <div className='clearfix'></div>
-
-                    
+                    <div className='clearfix'></div>                    
 
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar 9th November 2022</span>
+                                <span>Webinar 18th November 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Eagle’s Flight Executive Briefing</h3>
-                                <a className="eventbtn" href='/eaglesflightindia/eagles-flight-executive-briefing/'>Reserve Your Seat</a>
+                                <h3>Everything DiSC Sales</h3>
+                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +74,7 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar 10th November 2022</span>
+                                <span>Webinar 14th December 2022</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Crucial Life Changing Skills Webinars</h3>
@@ -89,11 +87,11 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar 18th November 2022</span>
+                                <span>Webinar 9th November 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Everything DiSC Sales</h3>
-                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
+                                <h3>Eagle’s Flight Executive Briefing</h3>
+                                <a className="eventbtn" href='/eaglesflightindia/eagles-flight-executive-briefing/'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -141,10 +139,9 @@ export default function WebinarsAndProgramExperience(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                                
-                                                <option value="4th November 2022 - Everything DiSC Management">4th November 2022 - Everything DiSC Management</option>
-                                                <option value="9th November 2022 - Eagle’s Flight Executive Briefing">9th November 2022 - Eagle’s Flight Executive Briefing</option>
-                                                <option value="10th November 2022 - Crucial Life Changing Skills Webinars">10th November 2022 - Crucial Life Changing Skills Webinars</option>
                                                 <option value="18th November 2022 - Everything DiSC Sales">18th November 2022 - Everything DiSC Sales</option>
+                                                <option value="10th November 2022 - Crucial Life Changing Skills Webinars">14th December 2022 - Crucial Life Changing Skills Webinars</option>
+                                                
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
