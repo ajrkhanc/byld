@@ -57,24 +57,13 @@ export default function WebinarsAndProgramExperience(){
                     </div>
                     <div className='clearfix'></div>
 
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinars 4th November 2022</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>Everything DiSC Management</h3>
-                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinars 9th November 2022</span>
+                                <span>Webinar 9th November 2022</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Eagle’s Flight Executive Briefing</h3>
@@ -87,7 +76,7 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinars 10th November 2022</span>
+                                <span>Webinar 10th November 2022</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Crucial Life Changing Skills Webinars</h3>
@@ -100,7 +89,7 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinars 18th November 2022</span>
+                                <span>Webinar 18th November 2022</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Everything DiSC Sales</h3>

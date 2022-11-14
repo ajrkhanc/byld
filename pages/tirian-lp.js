@@ -97,7 +97,9 @@ export default function TirianIndex(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="29th November 2022,Tirian Webinar">29th November 2022,Tirian Webinar</option>
+                                                <option value="29th November 2022,Tirian Webinar">29th November 2022, Tirian Webinar</option>
+                                                <option value="15th December 2022, Tirian Webinar">15th December 2022, Tirian Webinar</option>
+                                                
                                             </select>
                                         </div>
 
@@ -151,6 +153,19 @@ export default function TirianIndex(){
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
                                 <span>Tuesday 29 November 2022</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Thursday, December 15th, 2022</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Time: 11:00 AM -12:00 PM</h3>

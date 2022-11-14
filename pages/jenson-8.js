@@ -401,6 +401,51 @@ export default function Jenson8(){
                 </div>
             </section>
 
+
+            <section className='ptt-20 pbb-20'>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-sm-12'>
+                    <div className="sec-title3 mbb-35">
+                        <h4 className="countertoph2 text-center font30">To get more insights, register for any of the upcoming sessions below:</h4>                        
+                    </div>
+                    </div>
+                    <div className='clearfix'></div>
+
+                    
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Thursday, November 17, 2022</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Tuesday, December 20, 2022</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
           
 
 
@@ -435,9 +480,18 @@ export default function Jenson8(){
                                         <div className="col-sm-6 mb-12">
                                             <input type="text" name="organization" placeholder="Organization*" required />
                                         </div>
+
+                                        <div className="col-sm-6 mb-12">
+                                            <select name="slot" required>
+                                                <option value="">Pick up any Slot*</option>
+                                                <option value="17th November 2022, Jenson8 Webinar">17th November 2022, Jenson8 Webinar</option>
+                                                <option value="20th December 2022, Jenson8 Webinar">20th December 2022, Jenson8 Webinar</option>
+                                                
+                                            </select>
+                                        </div>
                                        
                                         
-                                        <div className="col-sm-6 mb-12">
+                                        <div className="col-sm-12 mb-12">
                                             <select name="referredby">
                                                 <option value="">Referred By</option>
                                                 <option value="Email">Email</option>

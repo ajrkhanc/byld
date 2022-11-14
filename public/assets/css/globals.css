@@ -1921,6 +1921,14 @@ border-bottom: 1px solid #000;
     margin-bottom: 50px;
 }
 
+.eventtitlec{
+  margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -9px;
+    color: black;
+}
+
 
 
 
