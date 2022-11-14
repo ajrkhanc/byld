@@ -81,7 +81,7 @@ export default function Webinars() {
                             </div>
                         </div>
                         
-                        <div class="col-md-4 workshop-col">
+                        <div class="col-md-4 workshop-col d-none">
                             <div class="row workshop-row">
                                 <div class="col-md-12 workshop-content green-col">
                                     <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
@@ -106,13 +106,13 @@ export default function Webinars() {
                                 <div class="col-md-12 workshop-date">
                                     <h6><i class="fa fa-calendar" aria-hidden="true"></i> December 14th, 2022</h6>
                                     <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 4.00 PM to 5.00 PM</h6>
-                                    <button class="register">REGISTER NOW</button>
+                                    <a href='#registered'><button class="register">REGISTER NOW</button></a>
                                 </div>
                             </div>
                         </div>
 
 
-                        <div class="col-md-12 form-area workshop-form">
+                        <div id="registered" class="col-md-12 form-area workshop-form">
                             <form id="contactForm" class="row" onSubmit={WebinarsForm}>
                                 <div class="col-lg-12 contact-title">
                                     <h1>REGISTER NOW</h1>
@@ -183,8 +183,7 @@ export default function Webinars() {
                                 </div>
                                 <div class="col-md-6 col-6">
                                     <select name='slot' required>
-                                        <option value="">Pick any Slot*</option>
-                                        <option value="Influencer – November 10th, 2022">Influencer – November 10th, 2022</option>
+                                        <option value="">Pick any Slot*</option>                                        
                                         <option value="Crucial Conversations for Mastering Dialogue – December 14th, 2022">Crucial Conversations for Mastering Dialogue – December 14th, 2022</option>
                                     </select>
                                 </div>
