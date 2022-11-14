@@ -83,7 +83,7 @@ export default function WebinarsAndProgramExperience(){
                         </div>
                     </div>
 
-                    <div className='col-sm-4'>
+                    <div className='col-sm-4 d-none'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
