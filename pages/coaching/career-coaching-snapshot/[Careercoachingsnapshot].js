@@ -474,14 +474,13 @@ export default function result({ result }) {
                                                             </span>
                                                         </td>
                                                     </tr>
-
-                                                </table>
+                                                </table>                                                
                                             </div>
 
                                             <div className='cochingformat'>
-                                                <hr className='hrheightforresult'></hr>
+                                               
                                                 
-                                                <h4 className='yresultc'><span>U</span>NDERSTANDING <span>Y</span>OUR <span>R</span>ATINGS <span>S</span>UMMARY</h4>
+                                                <h4 className='yresultc ccn'><span>U</span>NDERSTANDING <span>Y</span>OUR <span>R</span>ATINGS <span>S</span>UMMARY</h4>
                                                 <br></br>
                                                 <table>
                                                     <tr className='tablefbh'>

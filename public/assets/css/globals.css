@@ -1836,7 +1836,7 @@ border-bottom: 1px solid #000;
 
 .cochingformat{
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .cochingformat table{
   width: 100%;
@@ -1947,7 +1947,7 @@ background-color: #fff;
 
 .dlw{
   display: inline-flex;
-  padding: 7px 0px;
+  padding: 0px 0px 13px 0px;
 }
 
 .dlw h4{
@@ -1967,6 +1967,9 @@ background-color: #fff;
 
 .dlw a i:hover{  
   color: #e88027;
+}
+.ccn{
+  padding-top: 50px;
 }
 
 
