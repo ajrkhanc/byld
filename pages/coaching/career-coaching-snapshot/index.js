@@ -123,7 +123,7 @@ export default function BrowseCourses() {
     return (
         <>
             <Head>
-                <title>Influencer Assessment | Crucial Learning</title>
+                <title>Coaching | Career Coaching Snapshot</title>
                 <meta name="description" content="The Influencer Assessment is used to determine your influence skills. The questions examine methods you use to lead and help others change. Complete the quiz to see your level of influence." />
             </Head>
 
@@ -436,7 +436,7 @@ export default function BrowseCourses() {
 
                             <div className='fcol1'>
                                 <h2>
-                                    8. I keep every coaching conversation focused on achieving agreedupon goals
+                                    8. I keep every coaching conversation focused on achieving agreed upon goals
                                 </h2>
                                 <div className='fcolmain'>
                                     <input type="radio" name="ec3" value="1" id="3ec1" required />
