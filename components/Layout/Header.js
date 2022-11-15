@@ -111,14 +111,6 @@ export default function Header() {
                                                                 <li className='d-none'><a href="#">Large Projects</a></li>
                                                             </ul>
                                                         </li>
-                                                        
-                                                        <li className="last-item menu-item-has-children">
-                                                            <a href="/our-solutions/staffing">Staffing & Search</a>
-                                                            <ul className="sub-menu">
-                                                                <li><a target="_blank" href="https://www.yomabusinesssolutions.com/">YOMA Business Solutions</a> </li>
-                                                                <li className=''><a target="_blank" href="https://www.yomatechnologies.in/">YOMA Technologies</a></li>
-                                                            </ul>
-                                                        </li>
 
                                                         <li className="last-item menu-item-has-children">
                                                             <a href="/our-solutions/coaching">Coaching</a>
@@ -129,6 +121,16 @@ export default function Header() {
                                                                 <li><a href='/coaching/executive-coaching'>Executive Coaching</a></li>
                                                             </ul>
                                                         </li>
+                                                        
+                                                        <li className="last-item menu-item-has-children">
+                                                            <a href="/our-solutions/staffing">Staffing & Search</a>
+                                                            <ul className="sub-menu">
+                                                                <li><a target="_blank" href="https://www.yomabusinesssolutions.com/">YOMA Business Solutions</a> </li>
+                                                                <li className=''><a target="_blank" href="https://www.yomatechnologies.in/">YOMA Technologies</a></li>
+                                                            </ul>
+                                                        </li>
+
+                                                        
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item-has-children">
@@ -298,14 +300,6 @@ export default function Header() {
                                         <li className='d-none'><a href="#">Large Projects</a></li>
                                     </ul>
                                 </li>
-                                
-                                <li className="last-item menu-item-has-children">
-                                    <a href="/our-solutions/staffing">Staffing & Search</a>
-                                    <ul className="sub-menu">
-                                        <li><a target="_blank" href="https://www.yomabusinesssolutions.com/">YOMA Business Solutions</a> </li>
-                                        <li className=''><a target="_blank" href="https://www.yomatechnologies.in/">YOMA Technologies</a></li>
-                                    </ul>
-                                </li>
 
                                 <li className="last-item menu-item-has-children">
                                     <a href="/our-solutions/coaching">Coaching</a>
@@ -316,6 +310,16 @@ export default function Header() {
                                         <li><a href='/coaching/executive-coaching'>Executive Coaching</a></li>
                                     </ul>
                                 </li>
+                                
+                                <li className="last-item menu-item-has-children">
+                                    <a href="/our-solutions/staffing">Staffing & Search</a>
+                                    <ul className="sub-menu">
+                                        <li><a target="_blank" href="https://www.yomabusinesssolutions.com/">YOMA Business Solutions</a> </li>
+                                        <li className=''><a target="_blank" href="https://www.yomatechnologies.in/">YOMA Technologies</a></li>
+                                    </ul>
+                                </li>
+
+                                
                             </ul>
                         </li>
                         <li className="menu-item-has-children">
