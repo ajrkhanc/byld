@@ -231,7 +231,7 @@ export default function Home() {
                             <div class="row solutions-box">
                                 <img src="/classets/img/gtd-icon-ai-svg.svg" />
                                 <h3>Getting Things Done</h3>
-                                <a href="/cruciallifechangingskills/influencer" >Read More»</a>
+                                <a href="/cruciallifechangingskills/getting-things-done" >Read More»</a>
                             </div>
                         </div>
                     </div>
