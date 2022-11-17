@@ -4986,6 +4986,14 @@ line-height: 31px;
 	padding-top: 16px;
 }
 
+.bloglinkh ol{	
+    padding-left: 20px;
+
+}
+
+.bloglinkh ol li{
+	font-size: 18px;
+}
 
 
 

@@ -21,7 +21,7 @@ export default function FIveBgenriclp(){
 
                     document.getElementById("showlabel").style.display = "block";
                     window.setTimeout(function() {
-                        window.location.href = "/everythingdisc/thank-you"
+                        window.location.href = "/everythingdisc/thank-youeverything-disc-generic-overview-landing-page.js"
                      }, 3000);
 
                 } else {
@@ -84,6 +84,18 @@ export default function FIveBgenriclp(){
           <Head>
             <title>Everything DiSC Generic Overview Landing Page - Everything DiSC</title>
             <meta name="description" content="Proven Learning Solutions for Individuals and Teams Unlock the potential of your people and the power of your culture with the Everything DiSC® Solutions."/> 
+            <script async src="https://www.googletagmanager.com/gtag/js?id=AW-358447811"></script>
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-358447811');
+          `,
+            }}
+          />
           </Head>
 
           <div className="fivebgericlp ptt-50 pbb-50">
