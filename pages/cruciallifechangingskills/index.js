@@ -64,7 +64,7 @@ export default function Home() {
                     <div class="row video-section">
                         <div class="col-md-6 offset-md-3">
                             <div class="row video-area">
-                                <img class="" src="/classets/img/maxresdefault.jpg" alt="" />
+                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/OalK_lZuzYQ?autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>                                
                                 <div class="video-icon">
                                     <i class="ph-play-circle-bold"></i>
                                 </div>
@@ -168,8 +168,8 @@ export default function Home() {
                                 <div class="col-md-4">
                                     <div class="row feature-content text-center feature-box">
                                         <img className='imgmauto img70 pbb-30' src="classets/img/icon-in-person.svg" />
-                                        <h4>On Demand</h4>
-                                        <p>Learn at your own pace online.</p>
+                                        <h4>In Person</h4>
+                                        <p>Attend a classroom course.</p>
                                     </div>
                                 </div>
                             </div>

@@ -10,15 +10,19 @@ export default function Coaching(){
             <title>Coaching and Mentoring | Coaching Certification | BYLD Group</title>
             <meta name="description" content="Coaching in the workplace is one of the most important aspects to ponder upon. For keeping the employees motivated and engaged, coaching and mentoring help employees to work with interest and positivity."/> 
           </Head>
-            <div className="rs-services">
-            <div className="container-full">
-                <div className="row y-middle">
-                    <div className="col-lg-12">
-                      <img className="img100" src="/assets/img/banner/coaching.jpg"/>
-                    </div>         
+
+          <section className='coachingmain'>
+            <div className='container'>
+              <div className='row'>
+                <div className='col-sm-12'>
+                  <div className='pagetitle text-left'>
+                    <h1>Bringing transformational changes through coaching</h1>
+                    <p>Be future-ready and optimize your people’s performance with coachin</p>
+                  </div>
                 </div>
+              </div>
             </div>
-            </div>
+          </section>
 
             <div class="shape-bg ptt-50 pbb-50 solutionsboxarea">
                 <div class="container">                    
@@ -31,9 +35,9 @@ export default function Coaching(){
                             <h4 className="countertoph2 text-left font30">Coaching</h4>
                             <div className="heading-border-line left-style"></div>
                             <p className='mtt-30'>
-                            Managing the complexities of VUCA business environment, disengaged employees, lowering morale and elevating ROI expectations has never been so challenging the way it has become now. To deal with these complexities and frequently changing business environment, organizations today need to invest in coaching and development of their leaders, that helps them navigate successfully through these tough times.
+                            BYLD Group offers time-tested, customized and diverse coaching solutions. Our team of professional coaches, best consultants and facilitators across geographies offer a wide range of coaching solutions to teams,  individuals and organizations.
                             </p>
-                            <p className='solutionp'>Our time-tested approach and renowned brands have been creating successful coaches and leaders around the world. Our key partnerships include:</p>
+                            <p className='solutionp'>Coaching solutions by BYLD Group primarily include:</p>
                         </div>
 
                           <div className='row'>

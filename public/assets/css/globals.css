@@ -824,8 +824,7 @@
             }
 
             /* Press Media */
-            .missionvisionbg{
-              background: url(/assets/img/banner/pressbg.jpg);
+            .missionvisionbg{              
               background-position: top center;
               background-repeat: no-repeat;
               background-size: cover;
@@ -1972,6 +1971,98 @@ background-color: #fff;
   padding-top: 50px;
 }
 
+ /* Coaching Page */
+ .coachingmain{
+  background: url(/assets/img/banner/coachingmain.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coachingmain h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.coachingmain p{
+  font-size: 20px;
+  color: #fff;
+}
+
+/* ICF Page */
+.icfmain{
+  background: url(/assets/img/banner/icfbanner.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icfmain h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.icfmain p{
+  font-size: 20px;
+  color: #fff;
+}
+
+.icfbg{
+  background: linear-gradient(45deg, #30398d 0%, #001E60 100%);
+  display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.icfbh4{
+  padding: 0px 35px;
+}
+
+.icfpc{
+  padding: 0px 35px;
+}
+.icfbh4 h4{
+  color: #fff;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.icfbh4 .jencolor:before {
+  background: #ffffff !important;
+}
+
+.icfbh4 .jencolor:after {
+  background: #ffffff !important;
+}
+
+.icfpc{
+  color: #fff;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.icfimglb{
+  border-left: 7px solid #00aec7;
+}
+
+.patb0{
+  padding: 0px 15px !important;
+}
+
+.ifch2c{
+  color: #1a2d78;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
 
 
 
