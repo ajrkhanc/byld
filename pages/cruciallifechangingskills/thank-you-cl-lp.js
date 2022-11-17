@@ -6,6 +6,18 @@ export default function ThankYou(){
         <Head>
             <title>Thank You Lp - BYLD Group</title>
             <meta name="description" content="BYLD is a pioneering name in leadership development, corporate training, assessment, and staffing. Founded in 1998, the company is the largest group in South Asia offering HR and business productivity solutions for individuals, teams, and organizations. It has also served 300 of 500 Fortune companies."/> 
+            <script async src="https://www.googletagmanager.com/gtag/js?id=AW-876781539"></script>
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-876781539');
+          `,
+            }}
+          />
           </Head>
           <div className="rs-services  ptt-40 pbb-40">
             <div className="container">

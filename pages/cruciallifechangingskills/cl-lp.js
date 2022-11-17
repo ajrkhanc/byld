@@ -19,7 +19,7 @@ export default function BrowseCourses(){
                     document.getElementById("contactForm").reset();
                     document.getElementById("showlabel").style.display = "block";
                     window.setTimeout(function() {
-                        window.location.href = "/cruciallifechangingskills/thank-you"
+                        window.location.href = "/cruciallifechangingskills/thank-you-cl-lp"
                     }, 3000);
 
                 } else {
