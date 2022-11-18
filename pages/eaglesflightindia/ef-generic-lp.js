@@ -131,8 +131,7 @@ export default function CoachCertificationLP(){
                                         </div>
                                         <div className="col-sm-12 mb-12">
                                             <select name="slot" required>
-                                                <option value="">Pick up any Slot*</option>
-                                                <option value="Eagle's Flight Executive Briefing: November 9th, 2022">Eagle's Flight Executive Briefing: November 9th, 2022</option>
+                                                <option value="">Pick up any Slot*</option>                                                
                                                 <option value="Eagle's Flight Executive Briefing: December 14th, 2022">Eagle's Flight Executive Briefing: December 14th, 2022</option>
                                             </select>
                                         </div>
@@ -271,7 +270,7 @@ export default function CoachCertificationLP(){
                     </div>
                     <div className='clearfix'></div>
 
-                    <div className='col-sm-4'>
+                    <div className='col-sm-4 d-none'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />

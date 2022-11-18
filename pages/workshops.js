@@ -56,7 +56,7 @@ export default function Workshops(){
                     </div>
                     <div className='clearfix'></div>                    
 
-                    <div className='col-sm-4'>
+                    <div className='col-sm-4 d-none'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
@@ -136,9 +136,7 @@ export default function Workshops(){
                                         </div>
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
-                                                <option value="">Pick up any Slot*</option>                                                
-                                                
-                                                <option value="November 15th – 18th, 2022 - DISC Train-the-Trainer (TTT)">November 15th – 18th, 2022 - DISC Train-the-Trainer (TTT)</option>
+                                                <option value="">Pick up any Slot*</option>                                              
                                                 <option value="November 24th – 25th, 2022 - Crucial Life Changing Skills Online Workshop">November 24th – 25th, 2022 - Crucial Life Changing Skills Online Workshop</option>
                                                 <option value="December 13th, 2022 - Team Leadership - Virtual">December 13th, 2022 - Team Leadership - Virtual</option>
                                             </select>

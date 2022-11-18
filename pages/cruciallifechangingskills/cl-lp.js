@@ -32,8 +32,7 @@ export default function BrowseCourses(){
             "&leadsquared-Mobile=" + event.target.phone.value +
             "&leadsquared-Company=" + event.target.organization.value +
             "&leadsquared-JobTitle=" + event.target.designation.value +
-            "&leadsquared-mx_Showed_Interest_in=" + event.target.slot.value +
-            "&leadsquared-Notes=" + event.target.nots.value +
+            "&leadsquared-mx_Showed_Interest_in=" + event.target.slot.value +            
             "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value )
 
     }

@@ -61,11 +61,11 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar 18th November 2022</span>
+                                <span>Webinar 2nd December 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Everything DiSC Sales</h3>
-                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
+                                <h3>Everything DiSC Workplace Catalyst</h3>
+                                <a target="_blank" className="eventbtn" href='/everythingdisc/everything-disc-workplace-on-catalyst-webinar'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -77,21 +77,21 @@ export default function WebinarsAndProgramExperience(){
                                 <span>Webinar 14th December 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Crucial Life Changing Skills Webinars</h3>
+                                <h3>Crucial Life Changing Skills Webinar</h3>
                                 <a className="eventbtn" href='/cruciallifechangingskills/webinars/'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
 
-                    <div className='col-sm-4 d-none'>
+                    <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar 9th November 2022</span>
+                                <span>Webinar December 14th, 2022</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Eagle’s Flight Executive Briefing</h3>
-                                <a className="eventbtn" href='/eaglesflightindia/eagles-flight-executive-briefing/'>Reserve Your Seat</a>
+                                <a className="eventbtn" href='/eaglesflightindia/ef-generic-lp'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -139,9 +139,9 @@ export default function WebinarsAndProgramExperience(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                                
-                                                <option value="18th November 2022 - Everything DiSC Sales">18th November 2022 - Everything DiSC Sales</option>
-                                                <option value="10th November 2022 - Crucial Life Changing Skills Webinars">14th December 2022 - Crucial Life Changing Skills Webinars</option>
-                                                
+                                                <option value="2nd December 2022 - Everything DiSC Workplace Catalyst">2nd December 2022 - Everything DiSC Workplace Catalyst</option>
+                                                <option value="14th December 2022 - Crucial Life Changing Skills Webinars">14th December 2022 - Crucial Life Changing Skills Webinars</option>
+                                                <option value="14th December 2022 - Eagle’s Flight Executive Briefing">14th December 2022 - Eagle’s Flight Executive Briefing</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">

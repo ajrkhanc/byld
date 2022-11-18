@@ -21,7 +21,7 @@ export default function FIveBgenriclp(){
 
                     document.getElementById("showlabel").style.display = "block";
                     window.setTimeout(function() {
-                        window.location.href = "/everythingdisc/thank-youeverything-disc-generic-overview-landing-page.js"
+                        window.location.href = "/everythingdisc/thank-youeverything-disc-generic-overview-landing-page"
                      }, 3000);
 
                 } else {
