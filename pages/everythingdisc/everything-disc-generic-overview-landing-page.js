@@ -84,6 +84,13 @@ export default function FIveBgenriclp(){
           <Head>
             <title>Everything DiSC Generic Overview Landing Page - Everything DiSC</title>
             <meta name="description" content="Proven Learning Solutions for Individuals and Teams Unlock the potential of your people and the power of your culture with the Everything DiSC® Solutions."/>             
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              gtag('event', 'conversion', {'send_to': 'AW-358447811/b77hCJrS_vACEMP19aoB'});
+          `,
+            }}
+          />
           </Head>
 
           <div className="fivebgericlp ptt-50 pbb-50">
