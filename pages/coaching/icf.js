@@ -100,7 +100,11 @@ export default function DTCICoachingAcademy() {
                       <li>As a learning and development organisation which has been in business for more than 2 decades, we bring immense experience of designing and running successful learning journeys.</li>
                       <li>9 years of experience running the coach certification program with 300 plus accredited coaches and 600 certified coaches.</li>
                       <li>100% Pass results for achieving ICF ACC Credentials</li>
-                      <li>The team is experienced enough to seamlessly amalgamate executive coaching with talent management, learning organization, strategic alignment, change management, and other major organizational initiatives.</li>
+                      <li>Seasoned International master coaches as facilitators</li>
+                      <li>10 hours of mentor coaching is included in the program</li>
+                      <li>Complete support at every step of the process by the dedicated relationship manager.</li>
+                      <li>Guaranteed peer coaching assistance</li>
+                      <li>Interest free EMI Option for fees</li>
                     </ul>
                   </div>
                 </div>
@@ -127,9 +131,9 @@ export default function DTCICoachingAcademy() {
               <div class="col">
                 <div class="rs-addon-number">
                   <div class="number-part">
-                    <a className='hccs' href='#'>
+                    <a className='hccs' href='/coaching/executive-coaching'>
                       <div class="number-image">
-                        <span>ICF Certification</span>
+                        <span>Executive Coaching</span>
                       </div>
 
                     </a>

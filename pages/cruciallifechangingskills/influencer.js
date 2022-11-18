@@ -4,7 +4,7 @@ export default function Influencer(){
     return(
         <>
         <Head>
-            <title>The Power of Habit - Crucial Life-Changing Skills</title>
+            <title>Influencer - Crucial Life-Changing Skills</title>
             <meta name="description" content="The Greatest Predictor of High Performance Habits can determine your success more than talent, intelligence, luck, or decision-making. Many are aware of this fact but still lack control over their... Read more"/> 
         </Head>
         <section class="about-section">
