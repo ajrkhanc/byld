@@ -81,7 +81,7 @@ export default function FIveBgenriclp(){
 
     return(
         <>
-          <Head>
+           <Head>
             <title>Everything DiSC Generic Overview Landing Page - Everything DiSC</title>
             <meta name="description" content="Proven Learning Solutions for Individuals and Teams Unlock the potential of your people and the power of your culture with the Everything DiSC® Solutions."/>             
             <script
