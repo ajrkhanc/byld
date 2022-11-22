@@ -3087,8 +3087,8 @@ table td {
 
 .padd50s h2 {
   color: #E65300;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 10px;
 }
 
 .alicc {
@@ -3150,5 +3150,77 @@ table td {
   font-size: 22px;
   color: #3474af;
   font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.bnewh{
+  min-height: 250px;
+}
+
+.workshop-date h6 {
+  font-family: "HelveticaNeueLT Pro 57 Cn" !important;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  border-bottom: 2px dashed #2B70B3;
+  padding: 0px 0 10px;
+  margin-bottom: 8px;
+}
+.workshop-date i {
+  color: #2B70B3;
+  margin-right: 10px;
+}
+.workshop-date h6:nth-child(2) {
+  border: 0;
+}
+
+.newcstimg{
+  background: whitesmoke;
+  border-radius: 10px;
+}
+.newcstimg2{
+  border: 5px solid #2a6db5;
+    padding: 0px;
+    border-radius: 0px;
+}
+.newcstimg li{  
+  font-size: 20px;
+  color: #e88027;
+  padding-left: 24px;
+}
+
+.newcstimg li:before{
+  width: 15px !important;
+  height: 15px !important;
+}
+.newcstimg h4{
+  color: #2A6DB5 !important;
+  font-size: 26px;
+  margin-bottom: 6px;
+  padding-top: 16px;
+  font-weight: 500;
+}
+
+.icfsl .slick-arrow::before {
+  font-size: 26px !important;
+  line-height: 1 !important;
+  opacity: 1 !important;
+  color: #eb8123 !important;
+}
+
+.icfsl .ratingw {
+  width: 120px;
+  margin: auto;
+}
+
+.icfsl .testname {
+  font-size: 20px;
+  color: #326fb1;
+  margin-bottom: 0px;
+}
+
+.icfsl .compname {
+  font-size: 17px;
+  color: #eb8123;
   margin-bottom: 0px;
 }

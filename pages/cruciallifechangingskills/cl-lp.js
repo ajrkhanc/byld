@@ -82,13 +82,6 @@ export default function BrowseCourses(){
             <meta name="description" content="Call Today: 1800-102-1345 Email: cruciallearning.info@byldgroup.com Based on 30+ years of social science research, our courses for managers have proven highly effective in strengthening relationships, achieving more with less stress, building... Read more"/> 
             <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-            <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              gtag('event', 'conversion', {'send_to': 'AW-876781539/dahQCK_E4ZADEOO_iqID'});
-          `,
-            }}
-          />
         </Head>
         <section className='genericlpbanner'>
             <div className='container'>

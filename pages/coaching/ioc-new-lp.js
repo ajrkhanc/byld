@@ -96,7 +96,86 @@ export default function Gettingthingsdone() {
                 </div>
             </section>
 
-            <section class="preview-section ccdsection ptt-40 pbb-40">
+            <section className='ptt-40 pbb-40'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-md-6 newcstimg'>
+                            <h4 className="countertoph2 text-left">Organizations around the world have adopted InsideOut Development coaching because of its competency to make connections and ignite actions that bring out results.</h4>
+                            <div className='rs-estimate'>
+                                <ul className='estimate-info mtt-5'>
+                                    <li>
+                                        Leaders spot situations that require undivided attention and implement appropriate coaching tools
+                                    </li>
+                                    <li>
+                                        Be part of hands-on group discussions, videos, activities, and coaching practice
+                                    </li>
+                                    <li>
+                                        You are provided access to practical tools and supports to bring out the best in your team
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='col-md-6 newcstimg2'>
+                            <div className=''>
+                                <img src='/assets/img/icfimg1.jpg' />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className=''>
+                <div className='container'>
+                    <div className='row'>
+                    <div className='col-md-6 newcstimg2'>
+                            <div className=''>
+                                <img src='/assets/img/icfimg2.jpg' />
+                            </div>
+                        </div>
+                        <div className='col-md-6 newcstimg'>
+                            <h4 className="countertoph2 text-left">What do managers usually struggle with?</h4>
+                            <div className='rs-estimate'>
+                                <ul className='estimate-info mtt-5'>
+                                    <li>38% struggle with developing strategies to meet goals</li>
+                                    <li>38% face challenges with providing feedback of any kind</li>
+                                    <li>36% ask questions to help employees create their own solutions</li>
+                                    <li>34% create accountability for team members</li>
+                                    <li>32% struggle to instill confidence in their team</li>
+                                    <li>16% do not want to hold difficult conversations</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section className='ptt-40 pbb-40'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-md-6 newcstimg'>
+                            <h4 className="countertoph2 text-left">An effective manager creates a common language within the team and the team that speaks the same language:</h4>
+                            <div className='rs-estimate'>
+                                <ul className='estimate-info mtt-5'>
+                                    <li>Has higher Impact</li>
+                                    <li>Experiences improved productivity</li>
+                                    <li>Has greater allegiance</li>
+                                    <li>Improves efficiency</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='col-md-6 newcstimg2'>
+                            <div className=''>
+                                <img src='/assets/img/icfimg3.jpg' />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="preview-section ccdsection ptt-40 pbb-40 d-none">
                 <div class="container">
                     <div class="row">
                         <div className='col-sm-12'>
@@ -128,7 +207,7 @@ export default function Gettingthingsdone() {
                             <div className='innerb ccd'>
                                 <img src="/classets/img/gtdc2.jpg" />
                                 <p className='icfboxp'>
-                                What do managers usually struggle with?
+                                    What do managers usually struggle with?
                                 </p>
                                 <div className='rs-estimate'>
                                     <ul className='estimate-info mtt-5'>
@@ -146,7 +225,7 @@ export default function Gettingthingsdone() {
                             <div className='innerb ccd'>
                                 <img src="/classets/img/gtdc3.jpg" />
                                 <p className='icfboxp'>
-                                An effective manager creates a common language within the team and the team that speaks the same language:
+                                    An effective manager creates a common language within the team and the team that speaks the same language:
                                 </p>
                                 <div className='rs-estimate'>
                                     <ul className='estimate-info mtt-5'>
@@ -167,8 +246,6 @@ export default function Gettingthingsdone() {
                     <div className='row'>
                         <div className='col-sm-6 alicc'>
                             <img className='lim' src='/assets/img/insideco.jpg' />
-                            <h3>Master the Art of Stress-free Productivity</h3>
-                            <h4>Relieve the Cognitive Load and Peak the Performance</h4>
                             <h2>Join the Virtual Course Preview</h2>
                             <div class="workshop-date">
                                 <h6><i class="fa fa-calendar" aria-hidden="true"></i> May 13th, 2022</h6>
@@ -176,7 +253,7 @@ export default function Gettingthingsdone() {
                             </div>
                         </div>
                         <div class="col-md-6 form-area">
-                           
+
                             <form id="contact-form" className='clientcornner pbb-20 row icff'>
                                 <div className='col-sm-12'>
                                     <h4 className=''>Fill in the details and register for the virtual course preview now!</h4>
@@ -217,7 +294,7 @@ export default function Gettingthingsdone() {
                 </div>
             </section>
 
-            <section className='testmonials text-center pbb-50 bgcc'>
+            <section className='testmonials text-center pbb-50 bgcc icfsl'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-12'>

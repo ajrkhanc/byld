@@ -122,31 +122,31 @@ export default function BrowseCourses() {
 
                         <div class="row">
                             <div className='col'>
-                                <div className='secoundinnerbox'>
+                                <div className='secoundinnerbox bnewh'>
                                     <h3>Turn disagreement into dialogue by speaking up candidly, respectfully, and quickly.</h3>
                                 </div>
                             </div>
 
                             <div className='col'>
-                                <div className='secoundinnerbox'>
+                                <div className='secoundinnerbox bnewh'>
                                     <h3>Resolve problems of poor performance, broken commitments, and violated expectations.</h3>
                                 </div>
                             </div>
 
                             <div className='col'>
-                                <div className='secoundinnerbox'>
+                                <div className='secoundinnerbox bnewh'>
                                     <h3>Manage attention, energy, and workflow for greater focus with less stress.</h3>
                                 </div>
                             </div>
 
                             <div className='col'>
-                                <div className='secoundinnerbox'>
+                                <div className='secoundinnerbox bnewh'>
                                     <h3>Build healthy professional and personal habits with less effort and greater success.</h3>
                                 </div>
                             </div>
 
                             <div className='col'>
-                                <div className='secoundinnerbox'>
+                                <div className='secoundinnerbox bnewh'>
                                     <h3>Design and implement large-scale initiatives for lasting behavior change.</h3>
                                 </div>
                             </div>
