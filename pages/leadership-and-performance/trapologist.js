@@ -83,7 +83,7 @@ export default function Trapologist(){
                                             <select name="anyslot" required>
                                                 <option value="">Pick up any Slot*</option>
                                                 <option value="Virtual Public Workshop: 25th November, 2022">Virtual Public Workshop: 25th November, 2022</option>
-                                                <option value="Webinar: 2st December, 2022">Webinar: 2st December, 2022</option>
+                                                <option value="Webinar: 2nd December, 2022">Webinar: 2nd December, 2022</option>
                                                 <option value="Virtual Public Workshop: 16th December, 2022">Virtual Public Workshop: 16th December, 2022</option>
                                             </select>                                            
                                         </div>
@@ -156,7 +156,7 @@ export default function Trapologist(){
                                         </div>
                                         <div className='eventstext'>
                                             <h3>Trapologist at Work™</h3>
-                                            <h4>Webinar: 2st December, 2022</h4>
+                                            <h4>Webinar: 2nd December, 2022</h4>
                                         </div>
                                     </div>
 
