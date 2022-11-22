@@ -416,14 +416,16 @@ export default function Jenson8(){
 
                     
 
+                    
+
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Thursday, November 17, 2022</span>
+                                <span>Tuesday, December 20, 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
+                            <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
                                 <h3>Time: 11:00 AM -12:00 PM</h3>
                                 <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
                             </div>
@@ -434,10 +436,10 @@ export default function Jenson8(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Tuesday, December 20, 2022</span>
+                                <span>Thursday, January 5th, 2023</span>
                             </div>
                             <div className='eventbottom'>
-                            <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
+                                <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
                                 <h3>Time: 11:00 AM -12:00 PM</h3>
                                 <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
                             </div>
@@ -486,8 +488,9 @@ export default function Jenson8(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="17th November 2022, Jenson8 Webinar">17th November 2022, Jenson8 Webinar</option>
+                                                
                                                 <option value="20th December 2022, Jenson8 Webinar">20th December 2022, Jenson8 Webinar</option>
+                                                <option value="5th January 2023, Jenson8 Webinar">5th January 2023, Jenson8 Webinar</option>
                                                 
                                             </select>
                                         </div>
