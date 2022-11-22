@@ -64,7 +64,7 @@ export default function Books({ posts }) {
                                             <div className='blocr'>
                                                 <div className='bl1'>
                                                     <h4><a href={getpost.slug}>{getpost.title.rendered}</a></h4>
-                                                    <p>Dear Yogesh,Do you feel swamped with work at the workplace? Or have your managers given you new tasks every other day? I experienced a similar instance when one of my counterparts resigned a few days back. He wasn't bothersome to work even in his notice period. This led to me ...</p>
+                                                    <div dangerouslySetInnerHTML={{__html:getpost.excerpt.rendered}}></div>
                                                     <a href={`/yogesh-sood/${getpost.slug}`} className='ybtnc'>Read More</a>
                                                 </div>
                                                 <div className='bl2'>
