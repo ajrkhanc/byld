@@ -159,7 +159,7 @@ export default function BrowseCourses(){
                         <select name='slot' required>
                             <option value="">Pick any Slot*</option>                            
                             <option value="November 24th to 25th, 2022 – Workshop">November 24th to 25th, 2022 – Workshop</option>
-                            <option value="November 11th, 2022 – Workshop">December 14th, 2022 – Workshop</option>
+                            <option value="November 11th, 2022 – Webinar">December 14th, 2022 – Webinar</option>
                         </select>
                         </div>
 
@@ -239,7 +239,7 @@ export default function BrowseCourses(){
                             <h4>CRUCIAL <br/> CONVERSATIONS</h4>
                             <p>for Mastering Dialogue</p>
                             </div>
-                            <h5 className='eventt'>Workshop</h5>
+                            <h5 className='eventt'>Webinar</h5>
                              <div class="col-md-12 workshop-date"> 
                             <h6><i class="fa fa-calendar" aria-hidden="true"></i> December 14th, 2022</h6>
                             <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
