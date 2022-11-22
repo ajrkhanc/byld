@@ -17,7 +17,7 @@ export default function Books({ posts }) {
     return (
         <>
             <Head>
-                <title>Books - Crucial Life-Changing Skills</title>
+                <title>Yogesh Sood</title>
             </Head>
             <section class="about-section workshop-hero">
                 <div class="">
