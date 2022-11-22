@@ -3184,9 +3184,10 @@ table td {
     border-radius: 0px;
 }
 .newcstimg li{  
-  font-size: 20px;
-  color: #e88027;
+  font-size: 19px;
+  color: #000;
   padding-left: 24px;
+  padding-left: 28px !important;
 }
 
 .newcstimg li:before{
