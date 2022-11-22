@@ -64,23 +64,7 @@ export default function Workshops(){
                 <div class="row">
                     <div class="col-lg-12 contact-title"> 
                         <h1>WORKSHOPS</h1>
-                    </div>
-                    
-                    <div class="col-md-4 workshop-col d-none"> 
-                       <div class="row workshop-row"> 
-                            <div class="col-md-12 workshop-content green-col"> 
-                            <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
-                            <h4>INFLUENCER</h4>
-                            <p></p>
-                            </div>
-                            <h5 className='eventt'>Workshop</h5>
-                             <div class="col-md-12 workshop-date green-col"> 
-                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> November 17th - 18th, 2022</h6>
-                            <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
-                            <a href='#registered'><button class="register">REGISTER NOW</button></a>
-                            </div>
-                       </div>
-                    </div>
+                    </div>                    
 
                     <div class="col-md-4 workshop-col"> 
                        <div class="row workshop-row"> 
@@ -123,6 +107,22 @@ export default function Workshops(){
                             <h5 className='eventt'>Workshop</h5>
                              <div class="col-md-12 workshop-date"> 
                             <h6><i class="fa fa-calendar" aria-hidden="true"></i> December 22th - 23th, 2022</h6>
+                            <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
+                            <a href='#registered'><button class="register">REGISTER NOW</button></a>
+                            </div>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4 workshop-col"> 
+                       <div class="row workshop-row"> 
+                            <div class="col-md-12 workshop-content green-col"> 
+                            <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
+                            <h4>INFLUENCER</h4>
+                            <p></p>
+                            </div>
+                            <h5 className='eventt'>Workshop</h5>
+                             <div class="col-md-12 workshop-date green-col"> 
+                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> January 26th - 27th, 2023</h6>
                             <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
                             <a href='#registered'><button class="register">REGISTER NOW</button></a>
                             </div>
@@ -205,7 +205,9 @@ export default function Workshops(){
                                             <option value="">Pick any Slot*</option>                                            
                                             <option value="Crucial Conversations for Mastering Dialogue - November 24th-25th, 2022">Crucial Conversations for Mastering Dialogue - November 24th-25th, 2022</option>
                                             <option value="The Power of Habit - December 15th, 2022">The Power of Habit - December 15th, 2022</option>
-                                            <option value="Crucial Conversations for Accountability - December 23th - 24th, 2022">Crucial Conversations for Accountability - December 23th - 24th, 2022</option>                                            
+                                            <option value="Crucial Conversations for Accountability - December 23th - 24th, 2022">Crucial Conversations for Accountability - December 23th - 24th, 2022</option>
+                                            <option value="Influencer - January 26th - 27th, 2023">Influencer - January 26th - 27th, 2023</option>
+                                            
                                         </select>
                                     </div>
                                     <div class="col-md-6 col-6">                                        
