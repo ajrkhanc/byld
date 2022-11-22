@@ -28,6 +28,19 @@ class MyDocument extends Document {
             <link rel="icon" href="/favicon.png" />
             <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon"/>
             <meta name="google-site-verification" content="OM6hSC8XO4ylFInFKwcHaWp5gFMt0Nn6aQ6A-eV7SWc" />            
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.__lo_site_id = 308922;
+
+          (function() {
+          var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+          wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+          })();
+          `,
+            }}
+          />
         </Head>
         <body>
           <Main />
@@ -38,7 +51,7 @@ class MyDocument extends Document {
             <script src="/assets/js/wow.min.js"></script>             
             <script src="/assets/js/main.js"></script>
             <script src="/classets/js/script.js"></script>
-            
+            <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
             <script
             dangerouslySetInnerHTML={{
               __html: `
