@@ -4,7 +4,7 @@ import Head from 'next/head'
 export async function getStaticProps() {
     const res = await fetch('https://byld.in/yogesh-sood/wp-json/wp/v2/posts?_embed&per_page=30')
     const posts = await res.json()
-    console.log(posts)
+    
 
     return {
         props: {
@@ -64,7 +64,7 @@ export default function Books({ posts }) {
                                             <div className='blocr'>
                                                 <div className='bl1'>
                                                     <h4><a href={getpost.slug}>{getpost.title.rendered}</a></h4>
-                                                    <div dangerouslySetInnerHTML={{__html:getpost.excerpt.rendered}}></div>
+                                                    <div dangerouslySetInnerHTML={{__html:getpost.yoast_head_json.description}}></div>
                                                     <a href={`/yogesh-sood/${getpost.slug}`} className='ybtnc'>Read More</a>
                                                 </div>
                                                 <div className='bl2'>
