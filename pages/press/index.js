@@ -20,7 +20,7 @@ export default function Press({posts}){
             <meta name="description" content=""/> 
         </Head>
 
-        <section className='missionvisionbg'>
+        <section className='missionvisionbg pressbgc'>
             <div className='container'>
               <div className='row'>
                 <div className='col-sm-12'>
