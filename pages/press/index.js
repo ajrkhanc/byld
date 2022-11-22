@@ -2,7 +2,7 @@ import Head from 'next/head'
 import  moment from 'moment'
 
 export async function getServerSideProps() {
-    const res = await fetch('http://localhost:3000/api/posts')
+    const res = await fetch('https://byldnewspr-x4ds8.ondigitalocean.app/api/posts')
     const posts = await res.json()
 
     return {
