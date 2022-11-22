@@ -72,7 +72,7 @@ export default function Webinars() {
                                     <img class="left-image img70" src="/classets/img/logo-influencer.svg" alt="" />
                                     <h4>INFLUENCER</h4>
                                 </div>
-                                <h5 className='eventt'>Workshop</h5>
+                                <h5 className='eventt'>Webinar</h5>
                                 <div class="col-md-12 workshop-date">
                                     <h6><i class="fa fa-calendar" aria-hidden="true"></i> May 13th, 2022</h6>
                                     <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
@@ -87,7 +87,7 @@ export default function Webinars() {
                                     <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
                                     <h4>INFLUENCER</h4>
                                 </div>
-                                <h5 className='eventt'>Workshop</h5>
+                                <h5 className='eventt'>Webinar</h5>
                                 <div class="col-md-12 workshop-date green-col">
                                     <h6><i class="fa fa-calendar" aria-hidden="true"></i> November 10th, 2022</h6>
                                     <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 4.00 PM to 5.00 PM</h6>
@@ -102,7 +102,7 @@ export default function Webinars() {
                                     <h4>CRUCIAL CONVERSATIONS</h4>
                                     <p>for Mastering Dialogue Day - 1</p>
                                 </div>
-                                <h5 className='eventt'>Workshop</h5>
+                                <h5 className='eventt'>Webinar</h5>
                                 <div class="col-md-12 workshop-date">
                                     <h6><i class="fa fa-calendar" aria-hidden="true"></i> December 14th, 2022</h6>
                                     <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 4.00 PM to 5.00 PM</h6>
