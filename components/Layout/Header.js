@@ -115,7 +115,7 @@ export default function Header() {
                                                         <li className="last-item menu-item-has-children">
                                                             <a href="/our-solutions/coaching">Coaching</a>
                                                             <ul className="sub-menu">
-                                                                <li><a href='#'>ICF Certification</a></li>
+                                                                <li><a href='/coaching/icf-certification'>ICF Certification</a></li>
                                                                 <li><a href="/coaching/insideout-coaching">InsideOut™ Coaching</a></li>
                                                                 <li className='d-none'><a href='#'>Breakthrough</a></li>
                                                                 <li><a href='/coaching/executive-coaching'>Executive Coaching</a></li>
@@ -304,7 +304,7 @@ export default function Header() {
                                 <li className="last-item menu-item-has-children">
                                     <a href="/our-solutions/coaching">Coaching</a>
                                     <ul className="sub-menu">
-                                        <li><a href='#'>ICF Certification</a></li>
+                                        <li><a href='/coaching/icf-certification'>ICF Certification</a></li>
                                         <li><a href="/coaching/insideout-coaching">InsideOut™ Coaching</a></li>
                                         <li className='d-none'><a href='#'>Breakthrough</a></li>
                                         <li><a href='/coaching/executive-coaching'>Executive Coaching</a></li>

@@ -126,7 +126,7 @@ export default function Home() {
                var overlay = $('<div id="overlay"></div>');
                overlay.delay();
                overlay.appendTo(document.body);
-               $('.popup').delay(5000).fadeIn();
+               $('.popup').delay(30000).fadeIn();
                $('.close').click(function() {
                  $('.popup').hide();
                  overlay.appendTo(document.body).remove();

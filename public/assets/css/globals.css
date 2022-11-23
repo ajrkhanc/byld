@@ -3227,3 +3227,33 @@ table td {
 }
 
 .pressbgc{background: url(/assets/img/banner/pressbg.jpg) !important;}
+
+.iocchecklist li{
+  padding-bottom: 10px;
+  font-size: 18px;  
+}
+.iocchecklist li i{
+  color: #e88027;
+  font-size: 20px;
+  padding-right: 6px;
+}
+
+.brboxbg{
+  background: #f2f8ff;
+}
+
+.imgcc img{
+  border-radius: 50%;
+    width: 290px;
+    height: 290px;
+    margin: auto;
+}
+
+@media(min-width:922px){
+  .iocchecklist li{
+    padding-left: 100px;
+  }
+}
+.paac li{
+  padding-left: 0px;
+}

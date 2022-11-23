@@ -44,7 +44,7 @@ export default function Gettingthingsdone() {
     return (
         <>
             <Head>
-                <title>Getting Things Done LP - Crucial Life-Changing Skills</title>
+                <title>InsideOut™ Coaching</title>
                 <meta name="description" content="Transcend the productivity tips and learn the personal workflow management system via instruction, application, and coaching. This virtual course preview is a perfect introduction for evaluating a course for their team or organization." />
                 <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
                 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
@@ -61,28 +61,28 @@ export default function Gettingthingsdone() {
                                 <div class="heading-border-line left-style"></div>
                             </div>
 
-                            <p className='text-left mbb-10 ptt-20 font17'>
+                            <p className='text-left mbb-10 ptt-20 font18'>
                                 Any attempt to improve performance begins with the understanding that everyone has the capacity to learn and perform at a higher level. The key to better performance usually lies not in knowing more about what to do, but in doing more of what we already know how to do.
                             </p>
-                            <p className='text-left mbb-0'>
+                            <p className='text-left mbb-0 font18'>
                                 Inside Out Coaching helps leaders increase their workplace coaching capabilities to unleash the hidden potential inside their team members. Its an approach designed to increase the leaders' effectiveness. It's simple enough for managers to use immediately, flexible enough to apply in any situation, and can be used from the board room to the manufacturing floor.
                             </p>
                             <h4 className="countertoph2 text-left">Our solution helps:</h4>
-                            <div className='rs-estimate'>
-                                <ul className='estimate-info mtt-5'>
-                                    <li>
+                            <div className=''>
+                                <ul className='iocchecklist paac'>
+                                    <li><i class="fa fa-check-circle"></i> 
                                         Achieve organizational goals.
                                     </li>
-                                    <li>
+                                    <li><i class="fa fa-check-circle"></i> 
                                         Improve employee engagement, satisfaction, retention, productivity, and performance.
                                     </li>
-                                    <li>
+                                    <li><i class="fa fa-check-circle"></i> 
                                         Align and empower your people to focus on the most important aspects of the business.
                                     </li>
-                                    <li>
+                                    <li><i class="fa fa-check-circle"></i> 
                                         Become nimbler at capitalizing on business opportunities.
                                     </li>
-                                    <li>
+                                    <li><i class="fa fa-check-circle"></i> 
                                         Unlock the skills people already have and unleash their ability to learn new skills.
                                     </li>
                                 </ul>
@@ -96,7 +96,7 @@ export default function Gettingthingsdone() {
                 </div>
             </section>
 
-            <section className='ptt-40 pbb-40'>
+            {/* <section className='ptt-40 pbb-40'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-6 newcstimg'>
@@ -122,30 +122,37 @@ export default function Gettingthingsdone() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <section className=''>
+            <section className='ptt-40 pbb-40 brboxbg'>
                 <div className='container'>
                     <div className='row'>
-                    <div className='col-md-6 newcstimg2'>
-                            <div className=''>
-                                <img src='/assets/img/icfimg2.jpg' />
+                        <div className='col-sm-12'>
+                        <div className='sec-title3 text-left pbb-50'>
+                                <h4 className='countertoph2 text-center font30'>What do managers usually struggle with?</h4>
+                                <div class="heading-border-line center-style"></div>
                             </div>
+                           
                         </div>
-                        <div className='col-md-6 newcstimg'>
-                            <h4 className="countertoph2 text-left">What do managers usually struggle with?</h4>
-                            <div className='rs-estimate'>
-                                <ul className='estimate-info mtt-5'>
-                                    <li>38% struggle with developing strategies to meet goals</li>
-                                    <li>38% face challenges with providing feedback of any kind</li>
-                                    <li>36% ask questions to help employees create their own solutions</li>
-                                    <li>34% create accountability for team members</li>
-                                    <li>32% struggle to instill confidence in their team</li>
-                                    <li>16% do not want to hold difficult conversations</li>
+                        <div className='col-md-6'>
+                            <div className=''>
+                                <ul className='iocchecklist'>
+                                    <li><i class="fa fa-check-circle"></i> 38% struggle with developing strategies to meet goals</li>
+                                    <li><i class="fa fa-check-circle"></i> 38% face challenges with providing feedback of any kind</li>
+                                    <li><i class="fa fa-check-circle"></i> 36% ask questions to help employees create their own solutions</li>
                                 </ul>
                             </div>
                         </div>
-                        
+                        <div className='col-md-6'>
+                            <div className=''>
+                                <ul className='iocchecklist'>
+                                    <li><i class="fa fa-check-circle"></i> 34% create accountability for team members</li>
+                                    <li><i class="fa fa-check-circle"></i> 32% struggle to instill confidence in their team</li>
+                                    <li><i class="fa fa-check-circle"></i> 16% do not want to hold difficult conversations</li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -153,19 +160,19 @@ export default function Gettingthingsdone() {
             <section className='ptt-40 pbb-40'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-6 newcstimg'>
+                        <div className='col-md-6 '>
                             <h4 className="countertoph2 text-left">An effective manager creates a common language within the team and the team that speaks the same language:</h4>
                             <div className='rs-estimate'>
-                                <ul className='estimate-info mtt-5'>
-                                    <li>Has higher Impact</li>
-                                    <li>Experiences improved productivity</li>
-                                    <li>Has greater allegiance</li>
-                                    <li>Improves efficiency</li>
+                                <ul className='iocchecklist paac'>
+                                    <li><i class="fa fa-check-circle"></i> Has higher Impact</li>
+                                    <li><i class="fa fa-check-circle"></i> Experiences improved productivity</li>
+                                    <li><i class="fa fa-check-circle"></i> Has greater allegiance</li>
+                                    <li><i class="fa fa-check-circle"></i> Improves efficiency</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-md-6 newcstimg2'>
-                            <div className=''>
+                        <div className='col-md-6'>
+                            <div className='imgcc text-center'>
                                 <img src='/assets/img/icfimg3.jpg' />
                             </div>
                         </div>
@@ -175,71 +182,7 @@ export default function Gettingthingsdone() {
 
 
 
-            <section class="preview-section ccdsection ptt-40 pbb-40 d-none">
-                <div class="container">
-                    <div class="row">
-                        <div className='col-sm-12'>
-                            <h1 className='pbb-0 icfboxh'>InsideOut Development Coaching program takes your team's potential from competence to actual performance.</h1>
-                        </div>
-                        <div className='clearfix'></div>
-                        <div className='col-sm-4'>
-                            <div className='innerb ccd'>
-                                <img src="/classets/img/gtdc1.jpg" />
-                                <p className='icfboxp'>
-                                    Organizations around the world have adopted InsideOut Development coaching because of its competency to make connections and ignite actions that bring out results.
-                                </p>
-                                <div className='rs-estimate'>
-                                    <ul className='estimate-info mtt-5'>
-                                        <li>
-                                            Leaders spot situations that require undivided attention and implement appropriate coaching tools
-                                        </li>
-                                        <li>
-                                            Be part of hands-on group discussions, videos, activities, and coaching practice
-                                        </li>
-                                        <li>
-                                            You are provided access to practical tools and supports to bring out the best in your team
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='col-sm-4'>
-                            <div className='innerb ccd'>
-                                <img src="/classets/img/gtdc2.jpg" />
-                                <p className='icfboxp'>
-                                    What do managers usually struggle with?
-                                </p>
-                                <div className='rs-estimate'>
-                                    <ul className='estimate-info mtt-5'>
-                                        <li>38% struggle with developing strategies to meet goals</li>
-                                        <li>38% face challenges with providing feedback of any kind</li>
-                                        <li>36% ask questions to help employees create their own solutions</li>
-                                        <li>34% create accountability for team members</li>
-                                        <li>32% struggle to instill confidence in their team</li>
-                                        <li>16% do not want to hold difficult conversations</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='col-sm-4'>
-                            <div className='innerb ccd'>
-                                <img src="/classets/img/gtdc3.jpg" />
-                                <p className='icfboxp'>
-                                    An effective manager creates a common language within the team and the team that speaks the same language:
-                                </p>
-                                <div className='rs-estimate'>
-                                    <ul className='estimate-info mtt-5'>
-                                        <li>Has higher Impact</li>
-                                        <li>Experiences improved productivity</li>
-                                        <li>Has greater allegiance</li>
-                                        <li>Improves efficiency</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
 
             <section className='padd50s'>
                 <div className='container'>
