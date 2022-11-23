@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const res = await fetch('https://byld.in/yogesh-sood/wp-json/wp/v2/posts?_embed&per_page=30')
     const posts = await res.json()
     
