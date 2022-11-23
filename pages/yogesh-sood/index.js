@@ -63,7 +63,7 @@ export default function Books({ posts }) {
                                         return (
                                             <div className='blocr'>
                                                 <div className='bl1'>
-                                                    <h4><a href={getpost.slug}>{getpost.title.rendered}</a></h4>
+                                                    <h4><a href={`/yogesh-sood/${getpost.slug}`}>{getpost.title.rendered}</a></h4>
                                                     <div dangerouslySetInnerHTML={{__html:getpost.yoast_head_json.description}}></div>
                                                     <a href={`/yogesh-sood/${getpost.slug}`} className='ybtnc'>Read More</a>
                                                 </div>
