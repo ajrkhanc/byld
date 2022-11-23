@@ -131,7 +131,7 @@ export default function BrowseCourses() {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-12 text-center'>
-                            <h2 className='cacoh'>Check your readiness for becoming a Professional Coach? - Part I</h2>
+                            <h2 className='cacoh pbb-20'>Check your readiness for becoming a Professional Coach? - Part I</h2>
                         </div>
                     </div>
                 </div>
