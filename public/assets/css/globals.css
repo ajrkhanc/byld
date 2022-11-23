@@ -3269,7 +3269,7 @@ table td {
   padding-top: 15px;
 }
 .newassesment .fcolmain{
-  display: block !important;
+  width: 100% !important;
 }
 .thmecc{
   color: #2a6db5 !important;
