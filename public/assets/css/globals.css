@@ -3257,3 +3257,8 @@ table td {
 .paac li{
   padding-left: 0px;
 }
+.hispan{
+  font-size: 19px;
+  color: #142973;
+  font-weight: 500;
+}

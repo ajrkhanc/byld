@@ -61,7 +61,7 @@ export default function DTCICoachingAcademy() {
               <div className='ptt-10 pbb-10'>
               <h2 className='ifch2c'>Fact check -</h2>
               <p>
-                About 85% of clients want their coaches to be credentialed by ICF, because it’s the largest and globally accepted coach certification program.
+                About <span className='hispan'>85%</span> of clients want their coaches to be credentialed by ICF, because it’s the largest and globally accepted coach certification program.
               </p>
               <p>
                 ICF is a non-profit organization that is the leading global organization dedicated to advancing the coaching profession by setting high standards, providing independent certification and building a worldwide network of trained coaching professionals.
