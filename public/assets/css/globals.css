@@ -3255,10 +3255,18 @@ table td {
   }
 }
 .paac li{
-  padding-left: 0px;
+  padding-left: 0px !important;
 }
 .hispan{
   font-size: 19px;
   color: #142973;
   font-weight: 500;
+}
+
+.newassesment h2{
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+.newassesment .fcolmain{
+  display: block !important;
 }

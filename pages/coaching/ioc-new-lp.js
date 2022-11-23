@@ -160,7 +160,7 @@ export default function Gettingthingsdone() {
             <section className='ptt-40 pbb-40'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-6 '>
+                        <div className='col-md-6 newcstimg'>
                             <h4 className="countertoph2 text-left">An effective manager creates a common language within the team and the team that speaks the same language:</h4>
                             <div className='rs-estimate'>
                                 <ul className='iocchecklist paac'>
@@ -171,8 +171,8 @@ export default function Gettingthingsdone() {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-md-6'>
-                            <div className='imgcc text-center'>
+                        <div className='col-md-6 newcstimg2'>
+                            <div className='text-center'>
                                 <img src='/assets/img/icfimg3.jpg' />
                             </div>
                         </div>
