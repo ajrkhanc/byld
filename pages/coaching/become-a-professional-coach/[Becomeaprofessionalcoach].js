@@ -8,7 +8,7 @@ import Image from 'next/image'
 export async function getServerSideProps(context) {
     const caturl = context.params.Becomeaprofessionalcoach;
 
-    const res = await fetch(`http://localhost:3000/api/become-a-professional-coach/${caturl}`)
+    const res = await fetch(`https://coral-app-5w4lr.ondigitalocean.app/api/become-a-professional-coach/${caturl}`)
     const result = await res.json()
     return {
         props: {
@@ -34,7 +34,7 @@ export default function result({ result }) {
                         Please Submit You Asessement Before.
                     </p>
                     <h6>
-                        <a class="submit" href='/cruciallifechangingskills/assessment/influencer-assessment'> Go Back </a>
+                        <a class="submit" href='/coaching/become-a-professional-coac'> Go Back </a>
                     </h6>
                 </div>
             </div>
