@@ -3265,7 +3265,8 @@ table td {
 
 .newassesment h2{
   line-height: 32px;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
+  padding-top: 15px;
 }
 .newassesment .fcolmain{
   display: block !important;

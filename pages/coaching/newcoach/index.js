@@ -195,180 +195,204 @@ export default function BrowseCourses() {
 
                             <div className='fcol1 newassesment'>
                                 <h2>
-                                    3. qqqqqqqqqqqqqqqqqqqq
+                                    3. You have been Coaching a young vibrant lady who is doing significantly well in her organization. Over few -of the coaching sessions over last few months, the coachee feels and considers that you have contributed in a big way to help her overcome challenges in her personal and professional life. She wants you to hire your services as a Coach beyond the current assignment and wants you to be her mentor. How will you take your relationship further with your this client?
                                 </h2>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q3" value="1" id="q3a" required />
-                                    <label for="q3a">11111111</label>
+                                    <label for="q3a">Value her emotions and agree to partner with her for her developmental journey from there.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q3" value="2" id="q3b" required />
-                                    <label for="q3b">22222222222222</label>
+                                    <label for="q3b">Establish with her the scope of this coaching relationship and the ethics of the relationship. Tell her that she must strive to become self reliant in process</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q3" value="3" id="q3c" required />
-                                    <label for="q3c">3333333333333</label>
+                                    <label for="q3c">Guide her to another coach to carry on with the coaching intervention</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q3" value="4" id="q3d" required />
-                                    <label for="q3d">44444444444444</label>
+                                    <label for="q3d">You inform her that coaching process will end at after the agreed timelines, but you will be available to connect on informal basis.</label>
                                 </div>                               
                             </div>
 
                             <div className='fcol1 newassesment'>
                                 <h2>
-                                    4. qqqqqqqqqqqqqqqqqqqq
+                                    4. You are starting coaching session with a group of young managers (Group Coaching), and begin the session with a ‘Check-In’ – what's going well and what are the challenges in their team. You sense a bit of discomfort in the team and some of them are not willing to really even speak up and deflecting or not participating, giving an impression to you that they are uncomfortable.
                                 </h2>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q4" value="1" id="q4a" required />
-                                    <label for="q4a">11111111</label>
+                                    <label for="q4a">You start the session stating clearly the group objective and how will you partner with them in achieving the objective.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q4" value="2" id="q4b" required />
-                                    <label for="q4b">22222222222222</label>
+                                    <label for="q4b">You allow vocal members a window to vent out their qualms and then encourage others to speak up.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q4" value="3" id="q4c" required />
-                                    <label for="q4c">3333333333333</label>
+                                    <label for="q4c">You suggest that everyone speaks for couple of minutes one by one, giving ample opportunity to allow all to participate</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q4" value="4" id="q4d" required />
-                                    <label for="q4d">44444444444444</label>
+                                    <label for="q4d">Make it amply clear that first let's commit to establish ground rules about confidentiality, mutual respect even before going to problems we want to solve.</label>
                                 </div>                               
                             </div>
 
                             <div className='fcol1 newassesment'>
                                 <h2>
-                                    5. qqqqqqqqqqqqqqqqqqqq
+                                    5. Prasad is your coachee and he is grappling with a situation where he strongly feels that his boss is negatively biased towards him and is promoting his blue eyed colleague for all events. Prasad feels that his efforts are going waste however hard he may try, his boss is never going to acknowledge his hard-work and talent he has. This situation will prompt you to
                                 </h2>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q5" value="1" id="q5a" required />
-                                    <label for="q5a">11111111</label>
+                                    <label for="q5a">Discuss, whether Prasad's goal is to please the boss or achieve something else in the process?</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q5" value="2" id="q5b" required />
-                                    <label for="q5b">22222222222222</label>
+                                    <label for="q5b">Share with Prasad feedback on his role in the problem that may be leading to this situation</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q5" value="3" id="q5c" required />
-                                    <label for="q5c">3333333333333</label>
+                                    <label for="q5c">Help Prasad to prepare for dialogue with the manager to get validation of bias and concerns</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q5" value="4" id="q5d" required />
-                                    <label for="q5d">44444444444444</label>
+                                    <label for="q5d">Lead the thinking of Prasad to focus on circle of control and remind him that nature of his manager falls in circle of no control</label>
                                 </div>                               
                             </div>
 
                             <div className='fcol1 newassesment'>
                                 <h2>
-                                    6. qqqqqqqqqqqqqqqqqqqq
+                                    6. Linnet is Secretary to the MD of a growing company. Her workload is increasing each day. She sits till late at work and even then her work doesn’t get over. Linnet was hesitant initially but on further probing , she shares that another major reason for her to sit till late is last minute unplanned work given by her boss- The Managing Director. Work coming up for completion at short notice disturbs her entire schedule and she lands up in stress.
                                 </h2>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q6" value="1" id="q6a" required />
-                                    <label for="q6a">11111111</label>
+                                    <label for="q6a">You tell Linnet that her boss (MD) has appointed you as her coach to improve her performance as he considers Linnet is very slow.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q6" value="2" id="q6b" required />
-                                    <label for="q6b">22222222222222</label>
+                                    <label for="q6b">You contract with Linnet and build her trust In your coaching relationship with her; you also promise to partner with her to increase her performance and help her reduce stress.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q6" value="3" id="q6c" required />
-                                    <label for="q6c">3333333333333</label>
+                                    <label for="q6c">You would like to guide Linnet to look at time management skill as one of the area to improve performance</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q6" value="4" id="q6d" required />
-                                    <label for="q6d">44444444444444</label>
+                                    <label for="q6d">You feel Linnet needs to raise her self awareness in her approach towards her work and stop blaming her boss for all her problems.</label>
                                 </div>                               
                             </div>
 
                             <div className='fcol1 newassesment'>
                                 <h2>
-                                    7. qqqqqqqqqqqqqqqqqqqq
+                                    7. Sameer is Coaching Rita & she is demoralized at work since she lost a promotion to her male colleague who was also filling in for her when she went on maternity break for three months. Rita is a very ambitious, hardworking & extremely result driven. The promotion not coming through for her has disappointed her faith in the organization. She is not the same hardworking person as she used be. If you are Sameer, how would you address this issue?
                                 </h2>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q7" value="1" id="q7a" required />
-                                    <label for="q7a">11111111</label>
+                                    <label for="q7a">You would patiently listen to Rita and invest in the coaching process to guide her to what you think can help her cope with this situation.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q7" value="2" id="q7b" required />
-                                    <label for="q7b">22222222222222</label>
+                                    <label for="q7b">You listen to all her issues and also help raise her self-awareness of more possibilities before you assist her to draw up her action plan in an unbiased approach.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q7" value="3" id="q7c" required />
-                                    <label for="q7c">3333333333333</label>
+                                    <label for="q7c">You demonstrate empathy towards her and help Rita see options beyond getting promoted.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q7" value="4" id="q7d" required />
-                                    <label for="q7d">44444444444444</label>
+                                    <label for="q7d">You feel your focus should be more on creating a good interpersonal relationship with Rita before she starts sharing more in details.</label>
                                 </div>                               
                             </div>
 
                             <div className='fcol1 newassesment'>
                                 <h2>
-                                    8. qqqqqqqqqqqqqqqqqqqq
+                                    8. You are the manager of the team and there are two team mates who are on leave . Reema who is a team member is currently over burdened with extra work and she is unable to strike a balance with her family commitments. You have assigned her the job of writing a paper on the recent trends of HR in the social media and how the organization has benefited by adopting some of them. This write-up is for a business magazine. She got very upset and hastily walked up to your workstation seemingly upset.
                                 </h2>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q8" value="1" id="q8a" required />
-                                    <label for="q8a">11111111</label>
+                                    <label for="q8a">You empathize with her feelings and allow her the space to speakup and  seek inputs on how she can achieve both the goals? (showcasing their teams performance).</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q8" value="2" id="q8b" required />
-                                    <label for="q8b">22222222222222</label>
+                                    <label for="q8b">You offered her help and asked another team member to buddy up in writing that article.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q8" value="3" id="q8c" required />
-                                    <label for="q8c">3333333333333</label>
+                                    <label for="q8c">For you it was important that article is written and given to you no matter who and how it is done.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q8" value="4" id="q8d" required />
-                                    <label for="q8d">44444444444444</label>
+                                    <label for="q8d">You send her back and giving her more time to manage situations at her end and then submit the paper.</label>
                                 </div>                               
                             </div>
 
                             <div className='fcol1 newassesment'>
                                 <h2>
-                                    9. qqqqqqqqqqqqqqqqqqqq
+                                    9. Many a times in an open forum when you invite suggestions, ideas or opinions you most often see yourself:
                                 </h2>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q9" value="1" id="q9a" required />
-                                    <label for="q9a">11111111</label>
+                                    <label for="q9a">Encourage dissent and discussion</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q9" value="2" id="q9b" required />
-                                    <label for="q9b">22222222222222</label>
+                                    <label for="q9b">Focusing on idea and who is sharing it</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q9" value="3" id="q9c" required />
-                                    <label for="q9c">3333333333333</label>
+                                    <label for="q9c">Test the idea to ensure that there are no gaps in thinking behind the it.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q9" value="4" id="q9d" required />
-                                    <label for="q9d">44444444444444</label>
+                                    <label for="q9d">Build and brainstorm further by asking "What more is possible?"</label>
                                 </div>                               
                             </div>
 
                             <div className='fcol1 newassesment'>
                                 <h2>
-                                    10. qqqqqqqqqqqqqqqqqqqq
+                                    10. Shree is your subordinate and you sense that she has been quite indifferent for some time now during meetings and discussion. You hear another person that she is upset because her research paper she submitted to you, didn’t get a basic appreciation and attention she deserved.  The paper in your view was average in quality, so you thought it didn't deserve any special recognition. She also spoke about how she has put in a lot of extra hours and lots of effort in completing the project. you will in this case
                                 </h2>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q10" value="1" id="q10a" required />
-                                    <label for="q10a">11111111</label>
+                                    <label for="q10a">Ask Shree what was bothering her and allow her the space to talk about it and clarify expectations around the quality of work.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q10" value="2" id="q10b" required />
-                                    <label for="q10b">22222222222222</label>
+                                    <label for="q10b">Call her to your workspace and break the ice and then give her an opportunity to share her finding and then use the opportunity to give feedback.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q10" value="3" id="q10c" required />
-                                    <label for="q10c">3333333333333</label>
+                                    <label for="q10c">You could also ask her what were her lessons learnt doing this project and what will she do fifferent next time.</label>
                                 </div>
                                 <div className='fcolmain'>
                                     <input type="radio" name="q10" value="4" id="q10d" required />
-                                    <label for="q10d">44444444444444</label>
+                                    <label for="q10d">You feel it is better not to poke the matter any further, just write mail acknowledging hard work.</label>
                                 </div>                               
                             </div>
+
+                            <div className='fcol1 lastinp ptt-20'>
+                                <div className='row inpuut'>
+                                    <div className="col-sm-6 mb-12">
+                                        <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
+                                    </div>
+                                    <div className="col-sm-6 mb-12">
+                                        <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
+                                    </div>
+                                    <div className="col-sm-6 mb-12">
+                                        <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                    </div>
+
+                                    <div className="col-sm-6 mb-12">
+                                        <input className='form-control' type="text" name="organization" placeholder="Organization*" required />
+                                    </div>
+                                    <div className='col-sm-12'>
+                                        <input type="submit" value="Submit" id='submitbuttonform' class="assesmetmain" tabindex="201" />
+                                        <p class="feedbackcolor" id="response"></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+                        
 
                        
                     </div>
