@@ -73,7 +73,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>November 24th – 25th, 2022</span>
+                                <span>December 15th, 2022</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Crucial Life Changing Skills Online Workshop</h3>
@@ -137,7 +137,7 @@ export default function Workshops(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                              
-                                                <option value="November 24th – 25th, 2022 - Crucial Life Changing Skills Online Workshop">November 24th – 25th, 2022 - Crucial Life Changing Skills Online Workshop</option>
+                                                <option value="December 15th, 2022 - Crucial Life Changing Skills Online Workshop">December 15th, 2022 - Crucial Life Changing Skills Online Workshop</option>
                                                 <option value="December 13th, 2022 - Team Leadership - Virtual">December 13th, 2022 - Team Leadership - Virtual</option>
                                             </select>
                                         </div>
