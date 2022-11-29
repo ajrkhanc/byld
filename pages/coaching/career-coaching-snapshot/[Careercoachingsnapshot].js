@@ -46,8 +46,8 @@ export default function result({ result }) {
        
 
             <Head>
-                <title>Get Access to the Best Psychometric Analysis by Everything DiSC<sup>®</sup></title>
-                <meta name="description" content="Everything DiSC<sup>®</sup> assessment measures the personality and behavior of individuals. And, DiSC Analysis provides a detailed report for better understanding." />
+                <title>Result | Career Coaching Snapshot</title>
+                <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
             </Head>
 
 

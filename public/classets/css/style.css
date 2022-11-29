@@ -4996,6 +4996,25 @@ line-height: 31px;
 	color: #000;
 }
 
+.gtda h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.gtda label{	
+		font-size: 18px;
+		margin-right: 40px;
+		padding-left: 5px;	
+}
+
+.gtda input{
+	height: auto !important;
+}
+
+.paddi20{
+	padding: 20px;
+}
 
 
 

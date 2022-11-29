@@ -8,7 +8,7 @@ import Image from 'next/image'
 export async function getServerSideProps(context) {
     const caturl = context.params.Mresult;
 
-    const res = await fetch(`https://assesmentresultc.herokuapp.com/api/whatwouldyoudoassessment/${caturl}`)
+    const res = await fetch(`https://coral-app-2-a333o.ondigitalocean.app/api/whatwouldyoudoassessment/${caturl}`)
     const result = await res.json()
     return {
         props: {
@@ -28,8 +28,8 @@ export default function result({ result }) {
         <>
 
             <Head>
-                <title>Get Access to the Best Psychometric Analysis by Everything DiSC<sup>®</sup></title>
-                <meta name="description" content="Everything DiSC<sup>®</sup> assessment measures the personality and behavior of individuals. And, DiSC Analysis provides a detailed report for better understanding." />
+                <title>What Would You Do Assessment Result | Crucial Learning</title>
+                <meta name="description" content="The What Would You Do assessment reveals your natural tendencies when confronted with a gap in expectation or performance. See where you stand by taking this assessment."/>
             </Head>
 
              

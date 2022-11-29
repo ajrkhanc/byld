@@ -8,7 +8,7 @@ import Image from 'next/image'
 export async function getServerSideProps(context) {
     const caturl = context.params.InfluecerResult;
 
-    const res = await fetch(`https://assesmentresultc.herokuapp.com/api/influencer-assessment/${caturl}`)
+    const res = await fetch(`https://coral-app-2-a333o.ondigitalocean.app/api/influencer-assessment/${caturl}`)
     const result = await res.json()
     return {
         props: {
@@ -45,8 +45,8 @@ export default function result({ result }) {
         <>
 
             <Head>
-                <title>Get Access to the Best Psychometric Analysis by Everything DiSC<sup>®</sup></title>
-                <meta name="description" content="Everything DiSC<sup>®</sup> assessment measures the personality and behavior of individuals. And, DiSC Analysis provides a detailed report for better understanding." />
+                <title>Influencer Assessment Result | Crucial Learning</title>
+                <meta name="description" content="The Influencer Assessment is used to determine your influence skills. The questions examine methods you use to lead and help others change. Complete the quiz to see your level of influence." />
             </Head>
 
 

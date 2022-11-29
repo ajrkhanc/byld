@@ -47,7 +47,7 @@ export default function result({ result }) {
 
             <Head>
                 <title>Become a Professional Coach Result</title>
-                <meta name="description" content="Everything DiSC<sup>®</sup> assessment measures the personality and behavior of individuals. And, DiSC Analysis provides a detailed report for better understanding." />
+                <meta name="description" content="Coaching | Become a Professional Coach" />
             </Head>
 
 
@@ -77,7 +77,7 @@ export default function result({ result }) {
                                             </div>
                                             <div className='cochingformat pbb-70'>                                               
                                                 <div className='dlw'>
-                                                <h4 className='yresultc'><span>Y</span>OUR <span>R</span>ESULT IS: <span className='thmecc'>{resultc}/100</span></h4>
+                                                <h4 className='yresultc'><span>Y</span>OUR <span>R</span>ESULT <span>I</span>S: <span className='thmecc'>{resultc}/100</span></h4>
                                                 </div>                                              
                                             </div>                                          
                                             

@@ -124,7 +124,7 @@ export default function BrowseCourses() {
         <>
             <Head>
                 <title>Coaching | Career Coaching Snapshot</title>
-                <meta name="description" content="The Influencer Assessment is used to determine your influence skills. The questions examine methods you use to lead and help others change. Complete the quiz to see your level of influence." />
+                <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
             </Head>
 
             <section className='assesmentbannnerbg'>
