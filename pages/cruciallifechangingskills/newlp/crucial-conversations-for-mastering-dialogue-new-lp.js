@@ -67,7 +67,7 @@ export default function Gettingthingsdone() {
                         </div>
 
                         <div className='col-sm-6'>
-                            <img src='/classets/img/man-1.png' />
+                            <img src='/classets/img/cl-man-ccmd.png' />
                         </div>
                     </div>
                 </div>
