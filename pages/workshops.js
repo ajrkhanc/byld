@@ -56,18 +56,7 @@ export default function Workshops(){
                     </div>
                     <div className='clearfix'></div>                    
 
-                    <div className='col-sm-4 d-none'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>November 15th – 18th, 2022</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>DISC Train-the-Trainer (TTT)</h3>
-                                <a target="_blank" className="eventbtn" href='/everythingdisc/everything-disc-ttt-vt-lp/'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
@@ -91,6 +80,19 @@ export default function Workshops(){
                             <div className='eventbottom'>
                                 <h3>Team Leadership - Virtual</h3>
                                 <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>December 20th – 23rd, 2022</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>DISC Train-the-Trainer (TTT)</h3>
+                                <a target="_blank" className="eventbtn" href='/everythingdisc/everything-disc-ttt-vt-lp/'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -136,9 +138,10 @@ export default function Workshops(){
                                         </div>
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
-                                                <option value="">Pick up any Slot*</option>                                              
+                                                <option value="">Pick up any Slot*</option>                                                
                                                 <option value="December 15th, 2022 - Crucial Life Changing Skills Online Workshop">December 15th, 2022 - Crucial Life Changing Skills Online Workshop</option>
                                                 <option value="December 13th, 2022 - Team Leadership - Virtual">December 13th, 2022 - Team Leadership - Virtual</option>
+                                                <option value="December 20th – 23rd, 2022 - DISC Train-the-Trainer (TTT)">December 20th – 23rd, 2022 - DISC Train-the-Trainer (TTT)</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
