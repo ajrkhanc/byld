@@ -158,7 +158,6 @@ export default function BrowseCourses(){
                         <div class="col-md-6 col-6">
                         <select name='slot' required>
                             <option value="">Pick any Slot*</option>                            
-                            <option value="November 24th to 25th, 2022 – Workshop">November 24th to 25th, 2022 – Workshop</option>
                             <option value="November 11th, 2022 – Webinar">December 14th, 2022 – Webinar</option>
                         </select>
                         </div>
@@ -217,7 +216,7 @@ export default function BrowseCourses(){
                         <h1>Our Upcoming Programs</h1>
                           </div> 
                     
-                    <div class="col-md-4 workshop-col"> 
+                    <div class="col-md-4 workshop-col d-none"> 
                        <div class="row workshop-row"> 
                             <div class="col-md-12 workshop-content"> 
                             <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
@@ -232,6 +231,7 @@ export default function BrowseCourses(){
                             </div>
                        </div>
                     </div>
+
                     <div class="col-md-4 workshop-col"> 
                        <div class="row workshop-row"> 
                             <div class="col-md-12 workshop-content"> 
