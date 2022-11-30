@@ -42,7 +42,7 @@ export default function Home() {
 
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'https://coral-app-2-a333o.ondigitalocean.app/api/assesmentf');
+        xhr.open('POST', 'https://clblogs.onrender.com/api/assesmentf');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send('q1=' + q1 +
             '&q2=' + q2 +

@@ -2,15 +2,15 @@ import Head from 'next/head'
 import  moment from 'moment'
 
 export async function getServerSideProps(context) {    
-    const post5 = await fetch('https://coral-app-5w4lr.ondigitalocean.app/api/posts')
+    const post5 = await fetch('https://byldblogs.onrender.com/api/posts')
     const posts5 = await post5.json()
 
-    const cat = await fetch('https://coral-app-5w4lr.ondigitalocean.app/api/categories')
+    const cat = await fetch('https://byldblogs.onrender.com/api/categories')
     const cats = await cat.json()
 
 
     const caturl = context.params.blogCat;
-    const res = await fetch(`https://coral-app-5w4lr.ondigitalocean.app/api/posts/category/${caturl}`)
+    const res = await fetch(`https://byldblogs.onrender.com/api/posts/category/${caturl}`)
     const posts = await res.json()
 
 
