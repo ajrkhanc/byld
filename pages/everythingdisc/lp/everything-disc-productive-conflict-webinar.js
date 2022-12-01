@@ -69,7 +69,7 @@ export default function EDSalesWorkshop() {
                             
                             <div className='onlyshd pb-30'>
                             <div className="sec-title3 mbb-5 text-left">
-                                        <h4 className="countertoph2 text-left font24">DISC Productive Conflict</h4>
+                                        <h4 className="countertoph2 text-left font24">Everything DiSC Productive Conflict</h4>
                                     </div>
                                 <p className='mall5 ptt-5 pbb-20'>
                                 DiSC<sup>®</sup> Productive Conflict helps learners improve self-awareness around conflict behavior. Rather than focus on a step-by-step process for conflict resolution, the program helps learners curb destructive behaviors so that conflict may become more productive, ultimately improving workplace results and relationships.
@@ -115,7 +115,7 @@ export default function EDSalesWorkshop() {
                                             <div className="col-sm-6 mb-12">
                                                 <select name="slot" required>
                                                     <option value="">Pick up any Slot*</option>
-                                                    <option value="December 16th 2022, DISC Productive Conflict">December 16th 2022, DISC Productive Conflict</option>
+                                                    <option value="December 16th 2022, DiSC Productive Conflict">December 16th 2022, DiSC Productive Conflict</option>
                                                 </select>
                                             </div>
                                             <div className="col-sm-6 mb-12">
