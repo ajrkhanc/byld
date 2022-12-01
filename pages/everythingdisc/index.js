@@ -99,7 +99,7 @@ export default function Home() {
                            <li><b className='themecolor'>Influence:</b> sociable, talkative, and lively</li>
                            <li><b className='themecolor'>Steadiness:</b> gentle, accommodating, and soft-hearted</li>
                            <li><b className='themecolor'>Conscientiousness:</b> private, analytical, and logical</li>
-                           <li><b className='themecolor'>Influence:</b> sociable, talkative, and lively</li>
+                           
                         </ul>
                      </div>
                   </div>

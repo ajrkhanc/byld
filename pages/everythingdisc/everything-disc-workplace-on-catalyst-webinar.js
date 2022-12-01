@@ -66,7 +66,7 @@ export default function EverythingDiSCWorkplace(){
                     <div className="col-lg-6 pr-0">
                         <div className='onlyshd pb-30'>                        
                         <p className='mall5 ptt-30'>
-                        Everything DiSC Workplace<sup>®</sup> on CatalystTM program is designed to engage everyone in building more effective relationships at work. It helps others in real-time, unlocking and inspiring more effective collaboration.
+                        Everything DiSC Workplace<sup>®</sup> on Catalyst™ program is designed to engage everyone in building more effective relationships at work. It helps others in real-time, unlocking and inspiring more effective collaboration.
                         </p>                        
                         
                         <p className='mall5'><span className='themecolor'>The Key Learnings:</span></p>
@@ -76,7 +76,7 @@ export default function EverythingDiSCWorkplace(){
                             <li>Deepen understanding of self and others.</li>
                             <li>Learn how to build better relationships with others.</li>
                             <li>Access real-time tips for more effective interactions with colleagues.</li>
-                            <li>Build the foundation for future social and emotional skills training.</li>                            
+                            <li>Build the foundation for social and emotional skills training of employees.</li>                            
                         </ul>
                         </div>
                         </div>
