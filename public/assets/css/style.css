@@ -8980,3 +8980,21 @@ body .search-modal .close:hover {
     opacity: 0;
   }
 }
+
+
+.canvas-logo a img{
+  background: white;
+    padding: 6px;
+    max-height: 63px !important;
+    border-radius: 7px;
+}
+.canvas-logo{
+  padding-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 680px){
+.full-width-header .rs-header .menu-area .logo-area img {
+    max-height: 46px !important;
+    margin-top: -7px !important;
+}
+}

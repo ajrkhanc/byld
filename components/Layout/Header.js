@@ -204,7 +204,7 @@ export default function Header() {
                         </a>
                     </div>
                     <div className="canvas-logo">
-                        <a href="index.html"><img src="/assets/img/byld-white-logo.svg" alt="logo"/></a>
+                        <a href="/"><img src="/assets/img/byld-logo.svg" alt="logo"/></a>
                     </div>                    
                     
                     <div className="canvas-contact">

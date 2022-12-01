@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="row">
                         <div className="col-lg-3 col-md-12 col-sm-12 md-mb-10">
                             <div className="footer-logo mb-40">
-                                <a href="index.html"><img src="/wileyassets/img/byld-wiley-auth-logo.png" alt=""/></a>
+                                <a href="/"><img src="/wileyassets/img/byld-wiley-auth-logo.png" alt=""/></a>
                             </div>
                               <div className="textwidget white-color pb-40"><p>We denounce with righteous indig nation in and dislike men who are so beguiled and to demo realized by the, so blinded by desire, that they cannot foresee.</p>
                               </div>
