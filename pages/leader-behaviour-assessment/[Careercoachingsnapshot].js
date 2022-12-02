@@ -204,11 +204,11 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (rm1 <= 4.5)
+                                                                            if (rm1 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: rm1reresultbar }}></div>
-                                                                            if (rm1 <= 6.0)
+                                                                            if (rm1 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: rm1reresultbar }}></div>
-                                                                            else (rm1 <= 6.1)
+                                                                            else (rm1 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: rm1reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -218,11 +218,11 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                 {
                                                                         (() => {
-                                                                            if (rm2 <= 4.5)
+                                                                            if (rm2 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: rm2reresultbar }}></div>
-                                                                            if (rm2 <= 6.0)
+                                                                            if (rm2 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: rm2reresultbar }}></div>
-                                                                            else (rm2 <= 6.1)
+                                                                            else (rm2 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: rm2reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -232,11 +232,11 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                 {
                                                                         (() => {
-                                                                            if (rm3 <= 4.5)
+                                                                            if (rm3 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: rm3reresultbar }}></div>
-                                                                            if (rm3 <= 6.0)
+                                                                            if (rm3 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: rm3reresultbar }}></div>
-                                                                            else (rm3 <= 6.1)
+                                                                            else (rm3 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: rm3reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -262,11 +262,11 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (pm1 <= 4.5)
+                                                                            if (pm1 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: pm1reresultbar }}></div>
-                                                                            if (pm1 <= 6.0)
+                                                                            if (pm1 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: pm1reresultbar }}></div>
-                                                                            else (pm1 <= 6.1)
+                                                                            else (pm1 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: pm1reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -276,13 +276,13 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (pm2 <= 4.5)
+                                                                            if (pm2 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: pm2reresultbar }}></div>
-                                                                            if (pm2 <= 6.0)
+                                                                            if (pm2 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: pm2reresultbar }}></div>
 
                                                                           
-                                                                            else (pm2 <= 6.1)
+                                                                            else (pm2 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: pm2reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -292,11 +292,11 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (pm3 <= 4.5)
+                                                                            if (pm3 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: pm3reresultbar }}></div>
-                                                                            if (pm3 <= 6.0)
+                                                                            if (pm3 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: pm3reresultbar }}></div>
-                                                                            else (pm3 <= 6.1)
+                                                                            else (pm3 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: pm3reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -322,11 +322,11 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (il1 <= 4.5)
+                                                                            if (il1 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: il1reresultbar }}></div>
-                                                                            if (il1 <= 6.0)
+                                                                            if (il1 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: il1reresultbar }}></div>                                                                            
-                                                                            else (il1 <= 6.1)
+                                                                            else (il1 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: il1reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -336,11 +336,11 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (il2 <= 4.5)
+                                                                            if (il2 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: il2reresultbar }}></div>
-                                                                            if (il2 <= 6.0)
+                                                                            if (il2 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: il2reresultbar }}></div>                                                                            
-                                                                            else (il2 <= 6.1)
+                                                                            else (il2 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: il2reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -350,11 +350,11 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (il3 <= 4.5)
+                                                                            if (il3 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: il3reresultbar }}></div>
-                                                                            if (il3 <= 6.0)
+                                                                            if (il3 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: il3reresultbar }}></div>
-                                                                            else (il3 <= 6.1)
+                                                                            else (il3 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: il3reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -381,12 +381,12 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (cr1 <= 4.5)
+                                                                            if (cr1 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: cr1reresultbar }}></div>
-                                                                            if (cr1 <= 6.0)
+                                                                            if (cr1 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: cr1reresultbar }}></div>
                                                                             
-                                                                            else (cr1 <= 6.1)
+                                                                            else (cr1 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: cr1reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -397,12 +397,12 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (cr2 <= 4.5)
+                                                                            if (cr2 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: cr2reresultbar }}></div>
-                                                                            if (cr2 <= 6.0)
+                                                                            if (cr2 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: cr2reresultbar }}></div>
                                                                            
-                                                                            else (cr2 <= 6.1)
+                                                                            else (cr2 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: cr2reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -413,12 +413,12 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (cr3 <= 4.5)
+                                                                            if (cr3 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: cr3reresultbar }}></div>
-                                                                            if (cr3 <= 6.0)
+                                                                            if (cr3 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: cr3reresultbar }}></div>
                                                                             
-                                                                            else (cr3 <= 6.1)
+                                                                            else (cr3 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: cr3reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -445,12 +445,12 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (at1 <= 4.5)
+                                                                            if (at1 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: at1reresultbar }}></div>
-                                                                            if (at1 <= 6.0)
+                                                                            if (at1 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: at1reresultbar }}></div>
                                                                             
-                                                                            else (at1 <= 6.1)
+                                                                            else (at1 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: at1reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -461,12 +461,12 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (at2 <= 4.5)
+                                                                            if (at2 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: at2reresultbar }}></div>
-                                                                            if (at2 <= 6.0)
+                                                                            if (at2 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: at2reresultbar }}></div>
                                                                            
-                                                                            else (at2 <= 6.1)
+                                                                            else (at2 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: at2reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -497,12 +497,12 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (pm21 <= 4.5)
+                                                                            if (pm21 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: pm21reresultbar }}></div>
-                                                                            if (pm21 <= 6.0)
+                                                                            if (pm21 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: pm21reresultbar }}></div>
                                                                             
-                                                                            else (pm21 <= 6.1)
+                                                                            else (pm21 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: pm21reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -513,12 +513,12 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (pm22 <= 4.5)
+                                                                            if (pm22 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: pm22reresultbar }}></div>
-                                                                            if (pm22 <= 6.0)
+                                                                            if (pm22 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: pm22reresultbar }}></div>
                                                                            
-                                                                            else (pm22 <= 6.1)
+                                                                            else (pm22 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: pm22reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -529,12 +529,12 @@ export default function result({ result }) {
                                                                 <div className='result-bar-wrapper'>
                                                                     {
                                                                         (() => {
-                                                                            if (pm23 <= 4.5)
+                                                                            if (pm23 <= 3)
                                                                                 return <div class="result-bar bgred" style={{ width: pm23reresultbar }}></div>
-                                                                            if (pm23 <= 6.0)
+                                                                            if (pm23 <= 5)
                                                                                 return <div class="result-bar yellobg" style={{ width: pm23reresultbar }}></div>
                                                                             
-                                                                            else (pm23 <= 6.1)
+                                                                            else (pm23 <= 5.1)
                                                                             return <div class="result-bar greenbg" style={{ width: pm23reresultbar }}></div>
                                                                         })()
                                                                     }
@@ -559,21 +559,21 @@ export default function result({ result }) {
                                                         <th>Action</th>
                                                     </tr>
                                                     <tr>
-                                                        <td>Less than 4.5 (Red)</td>
-                                                        <td>Area that needs attention</td>
-                                                        <td>Prioritise to manage and learn the skills to minimize the negative impact on others.</td>
+                                                        <td>Less than 3.0 (Red)</td>
+                                                        <td>Foundation Level (Area that needs attention)</td>
+                                                        <td>Prioritise to manage and learn the skills to minimize the negative impact on others</td>
                                                     </tr>
 
                                                     <tr>
-                                                        <td>4.6 to 6.0 (Yellow)</td>
-                                                        <td>Area of strength</td>
-                                                        <td>Build it further and focus on select behaviours to make them even better</td>
+                                                        <td>3.2 to 5 (Yellow)</td>
+                                                        <td>Competent Level (Area of Strength) </td>
+                                                        <td>Build it further & focus on select behaviours to make them even better</td>
                                                     </tr>
 
                                                     <tr>
-                                                        <td>6.1 + (Green)</td>
-                                                        <td>Area of Commanding Excellence</td>
-                                                        <td>Keep building on the strengths.</td>
+                                                        <td>5.1 + (Green)</td>
+                                                        <td>Advanced/Expertise Level (Area of commanding excellence)</td>
+                                                        <td>Keep building on the strengths</td>
                                                     </tr>
                                                 </table>
                                             </div>

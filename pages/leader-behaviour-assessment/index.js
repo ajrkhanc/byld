@@ -482,7 +482,7 @@ export default function BrowseCourses() {
 
                             <div className='fcol1'>
                                 <h2>
-                                    9. On a scale of 1 to 10, in a difficult scenarios how agile you are
+                                    9. Being agile always helps me to improve the quality of work I do
                                 </h2>
                                 <div className='fcolmain'>
                                     <input type="radio" name="il3" value="1" id="3pf1" required />
