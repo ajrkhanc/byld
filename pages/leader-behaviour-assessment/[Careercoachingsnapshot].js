@@ -46,7 +46,7 @@ export default function result({ result }) {
        
 
             <Head>
-                <title>Result | Career Coaching Snapshot</title>
+                <title>Result | Leader Behaviour Assessment</title>
                 <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
             </Head>
 
