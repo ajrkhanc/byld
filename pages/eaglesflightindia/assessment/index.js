@@ -53,7 +53,7 @@ export default function BrowseCourses() {
 
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'http://localhost:3000/api/leader-behaviour-assessment');
+        xhr.open('POST', 'https://eaglesflightindiablog-n8dyg.ondigitalocean.app/api/leader-behaviour-assessment');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send(
             'trust1=' + trust1 +

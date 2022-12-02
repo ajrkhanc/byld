@@ -1059,3 +1059,7 @@
 @media (min-width:991px){
     .clientcornnertest{ min-height: 440px;}
 }
+
+.mw6 .rs-menu-area {
+    display: block !important;
+}
