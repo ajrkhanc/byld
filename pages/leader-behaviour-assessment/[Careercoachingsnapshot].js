@@ -143,7 +143,7 @@ export default function result({ result }) {
                                     return (
 
                                         <div className='demodonload dresult' id='demo'>
-                                           {/* <div className="pageheader">              
+                                           <div className="pageheader">              
                                                 <div className="">
                                                     <div className="container">
                                                         <div className="row">
@@ -158,7 +158,7 @@ export default function result({ result }) {
                                                                 <div className="rs-menu-area">
                                                                 <div className="logo-area text-right">
                                                                     <a href="#" className=''>
-                                                                        <img src="/assets/img/insideco.jpg" alt="logo"/>  
+                                                                        <img className='slogo' src="/efassets/img/lmg-logo.jpg" alt="logo"/>  
                                                                     </a>
                                                                 </div> 
                                                                 </div>
@@ -167,7 +167,7 @@ export default function result({ result }) {
                                                         </div>
                                                     </div>
                                                 </div>            
-                                            </div> */}
+                                            </div>
                                             
                                             <div class="assessment-result-block">
                                                 <h3 className='ptop text-center'>Hi {results.name}</h3>
