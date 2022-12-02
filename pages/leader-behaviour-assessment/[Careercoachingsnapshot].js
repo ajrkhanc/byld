@@ -172,7 +172,7 @@ export default function result({ result }) {
                                             <div class="assessment-result-block">
                                                 <h3 className='ptop text-center'>Hi {results.name}</h3>
                                             </div>
-                                            <div className='cochingformat'>                                               
+                                            <div className='cochingformat cochingformatt10'>                                               
                                                 <div className='dlw'>
                                                 <h4 className='yresultc'><span>Y</span>OUR <span>R</span>EPORT</h4> <a onClick={downloadAsPDF}><i className="fa fa-download" aria-hidden="true"></i></a>
                                                 </div>
