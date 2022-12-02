@@ -163,9 +163,9 @@ export default function Home() {
                                     <img src="/efassets/img/promises-promises.jpg" alt="images"/>
                                 </div>
                                 <div class="project-content">                                
-                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/rattlesnake-canyon"><i class="custom-icon"></i></a>
+                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/promises-promises"><i class="custom-icon"></i></a>
                                     <div class="project-inner">                                        
-                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/rattlesnake-canyon">Promises! Promises!™</a></h3>
+                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/promises-promises">Promises! Promises!™</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -176,9 +176,9 @@ export default function Home() {
                                     <img src="/efassets/img/rattlesnake-canyon.jpg" alt="images"/>
                                 </div>
                                 <div class="project-content">                                
-                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/promises-promises"><i class="custom-icon"></i></a>
+                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/rattlesnake-canyon"><i class="custom-icon"></i></a>
                                     <div class="project-inner">                                        
-                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/promises-promises">Rattlesnake Canyon™</a></h3>
+                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/rattlesnake-canyon">Rattlesnake Canyon™</a></h3>
                                     </div>
                                 </div>
                             </div>
