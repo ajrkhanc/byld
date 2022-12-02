@@ -143,7 +143,7 @@ export default function result({ result }) {
                                     return (
 
                                         <div className='demodonload dresult' id='demo'>
-                                           <div className="pageheader">              
+                                           <div className="pageheader mb15">              
                                                 <div className="">
                                                     <div className="container">
                                                         <div className="row">
