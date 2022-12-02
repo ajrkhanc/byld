@@ -65,7 +65,7 @@ export default function BrowseCourses() {
         } else {
             document.getElementById("response").innerHTML = "View Result"
             window.setTimeout(function () {
-                window.location.href = `/eaglesflightindia/assessment/leader-behaviour-assessment/${newnameurl}`
+                window.location.href = `/leader-behaviour-assessment/${newnameurl}`
             }, 1000);
         }
 

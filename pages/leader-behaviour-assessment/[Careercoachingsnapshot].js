@@ -143,7 +143,7 @@ export default function result({ result }) {
                                     return (
 
                                         <div className='demodonload dresult' id='demo'>
-                                           <div className="pageheader">              
+                                           {/* <div className="pageheader">              
                                                 <div className="">
                                                     <div className="container">
                                                         <div className="row">
@@ -167,7 +167,7 @@ export default function result({ result }) {
                                                         </div>
                                                     </div>
                                                 </div>            
-                                            </div>
+                                            </div> */}
                                             
                                             <div class="assessment-result-block">
                                                 <h3 className='ptop text-center'>Hi {results.name}</h3>
@@ -176,7 +176,7 @@ export default function result({ result }) {
                                                 <div className='dlw'>
                                                 <h4 className='yresultc'><span>Y</span>OUR <span>R</span>EPORT</h4> <a onClick={downloadAsPDF}><i className="fa fa-download" aria-hidden="true"></i></a>
                                                 </div>
-                                                <p>Your survey responses provide a snapshot, or data from a point in time, about how you perceive your coaching. This is a unique opportunity to gain insights into how you see your effectiveness as a coach.</p>
+                                               
                                             </div>
 
                                             <div className='resultable'>
