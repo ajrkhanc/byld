@@ -8,7 +8,7 @@ import Image from 'next/image'
 export async function getServerSideProps(context) {
     const caturl = context.params.Careercoachingsnapshot;
 
-    const res = await fetch(`http://localhost:3000/api/leader-behaviour-assessment/${caturl}`)
+    const res = await fetch(`https://eaglesflightindiablog-n8dyg.ondigitalocean.app/api/leader-behaviour-assessment/${caturl}`)
     const result = await res.json()
     return {
         props: {

@@ -53,7 +53,7 @@ export default function BrowseCourses() {
 
           const JSONdata = JSON.stringify(data)
 
-          const endpoint = 'http://localhost:3000/api/leader-behaviour-assessment'
+          const endpoint = 'https://eaglesflightindiablog-n8dyg.ondigitalocean.app/api/leader-behaviour-assessment'
 
           const options = {
             // The method is POST because we are sending data.
