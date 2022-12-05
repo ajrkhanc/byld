@@ -7,42 +7,35 @@ export default function BrowseCourses() {
         event.preventDefault()
         document.getElementById("submitbuttonform").value = "Submitting form...."
 
-        const data = {
-            rm1: event.target.rm1.value,
-            rm2: event.target.rm2.value,
-            rm3: event.target.rm3.value,
-
-            pm1: event.target.pm1.value,
-            pm2: event.target.pm2.value,
-            pm3: event.target.pm3.value,
-
-            il1: event.target.il1.value,
-            il2: event.target.il2.value,
-            il3: event.target.il3.value,
-
-            cr1: event.target.cr1.value,
-            cr2: event.target.cr2.value,
-            cr3: event.target.cr3.value,
-
-            at1: event.target.at1.value,
-            at2: event.target.at2.value,
-
-            pm21: event.target.pm21.value,
-            pm22: event.target.pm22.value,
-            pm23: event.target.pm23.value,
-
-            name: event.target.name.value,
-            email: event.target.email.value,
-            phone: event.target.phone.value,
-            organization: event.target.organization.value,
-            newnameurl: newnameurl
-        }
+       
+            var rm1 = event.target.rm1.value;
+            var rm2 = event.target.rm2.value;
+            var rm3 = event.target.rm3.value;
+            var pm1 = event.target.pm1.value;
+            var pm2 = event.target.pm2.value;
+            var pm3 = event.target.pm3.value;
+            var il1 = event.target.il1.value;
+            var il2 = event.target.il2.value;
+            var il3 = event.target.il3.value;
+            var cr1 = event.target.cr1.value;
+            var cr2 = event.target.cr2.value;
+            var cr3 = event.target.cr3.value;
+            var at1 = event.target.at1.value;
+            var at2 = event.target.at2.value;
+            var pm21 = event.target.pm21.value;
+            var pm22 = event.target.pm22.value;
+            var pm23 = event.target.pm23.value;
+            var name = event.target.name.value;
+            var email = event.target.email.value;
+            var phone = event.target.phone.value;
+            var organization = event.target.organization.value
+ 
 
         const xhttp = new XMLHttpRequest();
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/11/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/32/feedback');
         xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
@@ -59,15 +52,27 @@ export default function BrowseCourses() {
                 }
             }
         };
-        xhttp.send("name=" + event.target.name.value +
-            "&email=" + event.target.email.value +
-            "&tel=" + event.target.phone.value +
-            "&location=" + event.target.Location.value +
-            "&Company=" + event.target.organization.value +
-            "&Designation=" + event.target.designation.value +
-            "&Product=" + event.target.product.value +
-            "&referredby=" + event.target.referredby.value +
-            "&textarea=" + event.target.leadsquared_Notes.value )
+        xhttp.send("rm1=" + rm1 +
+            "&rm2=" + rm2 +
+            "&rm3=" + rm3 +
+            "&pm1=" + pm1 +
+            "&pm2=" + pm2 +
+            "&pm3=" + pm3 +
+            "&il1=" + il1 +
+            "&il2=" + il2 +
+            "&il3=" + il3 +
+            "&cr1=" + cr1 +
+            "&cr2=" + cr2 +
+            "&cr3=" + cr3 +
+            "&at1=" + at1 +
+            "&at2=" + at2 +
+            "&pm21=" + pm21 +
+            "&pm22=" + pm22 +
+            "&pm23=" + pm23 +
+            "&name=" + name +
+            "&email=" + email +
+            "&phone=" + phone +
+            "&organization=" + organization)
 
     }
 
@@ -775,7 +780,7 @@ return (
                                     </div>
                                     <div className='col-sm-12'>
                                         <input type="submit" value="Submit" id='submitbuttonform' class="assesmetmain" tabindex="201" />
-                                        <p class="feedbackcolor" id="response"></p>
+                                        <p class="feedbackcolor" id="showlabel"></p>
                                     </div>
                                 </div>
                             </div>

@@ -809,7 +809,6 @@ export default function BrowseCourses() {
                                     <label for="3pm27">Strongly Agree</label>
                                 </div>
                             </div> 
-
                             <div className='fcol1 lastinp ptt-20'>
                                 <div className='row inpuut'>
                                     <div className="col-sm-6 mb-12">
