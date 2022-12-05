@@ -1380,3 +1380,6 @@ table td {
 .dresult {
   padding: 13px 40px 40px 40px;
 }
+.btop1{
+  border-top: 1px solid #2a6db5 !important;
+}

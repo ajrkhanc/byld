@@ -79,7 +79,7 @@ export default function BrowseCourses() {
 return (
     <>
         <Head>
-            <title>Leader Behaviour Assessment | Career Coaching Snapshot</title>
+            <title>Leader Behaviour Assessment</title>
             <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
         </Head>
 
