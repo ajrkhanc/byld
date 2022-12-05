@@ -186,11 +186,11 @@ export default function BrowseCourses() {
                 <div className='container'>
                 <form onSubmit={submitF}>
                     <div className='row'>
-                        <div className='col-sm-12'>
+                        {/* <div className='col-sm-12'>
                             <div className='fh3'>
                                 <h3>Relationship Management</h3>
                             </div>
-                        </div>
+                        </div> */}
                         <div className='col-sm-12'>
                             <div className='fcol1'>
                                 <h2>
@@ -295,11 +295,11 @@ export default function BrowseCourses() {
                             </div>                            
                         </div>
 
-                        <div className='col-sm-12'>
+                        {/* <div className='col-sm-12'>
                             <div className='fh3'>
                                 <h3>People Management</h3>
                             </div>
-                        </div>
+                        </div> */}
                         <div className='col-sm-12'>
                             <div className='fcol1'>
                                 <h2>
@@ -406,11 +406,11 @@ export default function BrowseCourses() {
                         </div>
 
 
-                        <div className='col-sm-12'>
+                        {/* <div className='col-sm-12'>
                             <div className='fh3'>
                                 <h3>Inspirational Leadership</h3>
                             </div>
-                        </div>
+                        </div> */}
                         <div className='col-sm-12'>
                             <div className='fcol1'>
                                 <h2>
@@ -516,11 +516,11 @@ export default function BrowseCourses() {
                         </div>
 
 
-                        <div className='col-sm-12'>
+                        {/* <div className='col-sm-12'>
                             <div className='fh3'>
                                 <h3>Customer Centricity</h3>
                             </div>
-                        </div>
+                        </div> */}
                         <div className='col-sm-12'>
                             <div className='fcol1'>
                                 <h2>
@@ -628,11 +628,11 @@ export default function BrowseCourses() {
 
 
 
-                        <div className='col-sm-12'>
+                        {/* <div className='col-sm-12'>
                             <div className='fh3'>
                                 <h3>Analytical Thinking</h3>
                             </div>
-                        </div>
+                        </div> */}
                         <div className='col-sm-12'>
                             <div className='fcol1'>
                                 <h2>
@@ -703,11 +703,11 @@ export default function BrowseCourses() {
                             </div>                            
                         </div>
 
-                        <div className='col-sm-12'>
+                        {/* <div className='col-sm-12'>
                             <div className='fh3'>
                                 <h3>Planning & Management</h3>
                             </div>
-                        </div>
+                        </div> */}
                         <div className='col-sm-12'>
                             <div className='fcol1'>
                                 <h2>
