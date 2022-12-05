@@ -2,16 +2,19 @@ import Head from 'next/head'
 
 export default function BrowseCourses() {
 
+    const submitF = async (event) => {
+        event.preventDefault();
+        document.getElementById("submitbuttonform").value = "Submitting form....";
 
-    const registerUser = async event => {
-        event.preventDefault()
-        document.getElementById("submitbuttonform").value = "Submitting form...."
+        var name = event.target.name.value;
+        var nameurl = name.replace(/[^a-zA-Z0-9 ]/g, "").toLowerCase();
+        var newnameurl = nameurl.split(' ').join('-')
 
         const data = {
             rm1: event.target.rm1.value,
             rm2: event.target.rm2.value,
             rm3: event.target.rm3.value,
-
+            
             pm1: event.target.pm1.value,
             pm2: event.target.pm2.value,
             pm3: event.target.pm3.value,
@@ -36,103 +39,152 @@ export default function BrowseCourses() {
             phone: event.target.phone.value,
             organization: event.target.organization.value,
             newnameurl: newnameurl
+          }
+
+          const JSONdata = JSON.stringify(data)
+
+          const endpoint = 'https://eaglesflightindiablog-n8dyg.ondigitalocean.app/api/leader-behaviour-assessment'
+
+          const options = {
+            // The method is POST because we are sending data.
+            method: 'POST',
+            // Tell the server we're sending JSON.
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            // Body of the request is the JSON data we created above.
+            body: JSONdata,
+          }
+
+          const response = await fetch(endpoint, options)
+
+          const result = await response.json()
+
+          if (response.status !== 200) {
+            alert("Try Again")
+        } else {
+            document.getElementById("response").innerHTML = "View Result"
+            window.setTimeout(function () {
+                window.location.href = `/leader-behaviour-assessment/${newnameurl}`
+            }, 1000);
         }
 
-        const xhttp = new XMLHttpRequest();
-        xhttp.onload = function () {
-            console.log(this.responseText);
-        }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/11/feedback');
-        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
-        xhttp.onreadystatechange = function () {
-            if (xhttp.readyState == 4) {
-                if (xhttp.status == 200) {
-                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+          
 
-                    document.getElementById("showlabel").style.display = "block";
-                    window.setTimeout(function() {
-                        window.location.href = "/thank-you"
-                     }, 3000);
+   
 
-                } else {
-                    alert('There was a problem with the request.');
-                }
-            }
-        };
-        xhttp.send("name=" + event.target.name.value +
-            "&email=" + event.target.email.value +
-            "&tel=" + event.target.phone.value +
-            "&location=" + event.target.Location.value +
-            "&Company=" + event.target.organization.value +
-            "&Designation=" + event.target.designation.value +
-            "&Product=" + event.target.product.value +
-            "&referredby=" + event.target.referredby.value +
-            "&textarea=" + event.target.leadsquared_Notes.value )
 
-    }
 
-return (
-    <>
-        <Head>
-            <title>Leader Behaviour Assessment | Career Coaching Snapshot</title>
-            <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
-        </Head>
+        
 
-        <section className='assesmentbannnerbg'>
-            <div className='container'>
-                <div className='row align-items-center'>
-                    <div className='col-md-12 text-center'>
-                        <h2 className='cacoh pbb-20'>Leader Behaviour Assessment</h2>
-                        {/* <p>Circle the number that best represents the extent to which you do the following (Use the line chart below as a guide.):</p> */}
-                        <div className='clearfix'></div>
-                        <div className='mainlinec'>
 
-                            <div className='sboxp'>
-                                <div className='sbox'>
-                                    <hr className='hrleft'></hr>
-                                    <span>1</span>
-                                    <p>Strongly Disagree</p>
-                                </div>
-                                <div className='sbox'>
-                                    <hr></hr>
-                                    <span>2</span>
-                                    <p>Disagree</p>
-                                </div>
-                                <div className='sbox'>
-                                    <hr></hr>
-                                    <span>3</span>
-                                    <p>Somewhat Disagree</p>
-                                </div>
-                                <div className='sbox'>
-                                    <hr></hr>
-                                    <span>4</span>
-                                    <p>Neither Agree nor Disagree</p>
-                                </div>
-                                <div className='sbox'>
-                                    <hr></hr>
-                                    <span>5</span>
-                                    <p>Somewhat Agree</p>
-                                </div>
-                                <div className='sbox'>
-                                    <hr></hr>
-                                    <span>6</span>
-                                    <p>Agree</p>
-                                </div>
-                                <div className='sbox'>
-                                    <hr className='hrright'></hr>
-                                    <span>7</span>
-                                    <p>Strongly Agree</p>
+
+        // var xhr = new XMLHttpRequest();
+        // xhr.open('POST', 'http://localhost:3000/api/leader-behaviour-assessment');
+        // xhr.setRequestHeader('Content-Type', 'application/json');
+        // xhr.send(   
+        //     'trust1=' + trust1 +
+        //     '&trust2=' + trust2 +
+        //     '&trust3=' + trust3 +
+        //     '&trust4=' + trust4 +
+        //     '&trust5=' + trust5 +
+        //     '&ec1=' + ec1 +
+        //     '&ec2=' + ec2 +
+        //     '&ec3=' + ec3 +
+        //     '&ec4=' + ec4 +
+        //     '&ec5=' + ec5 +
+        //     '&ec6=' + ec6 +
+        //     '&ec7=' + ec7 +
+        //     '&ec8=' + ec8 +
+        //     '&ec9=' + ec9 +
+        //     '&ec10=' + ec10 +
+        //     '&ec11=' + ec11 +
+        //     '&ec12=' + ec12 +
+        //     '&ec13=' + ec13 +
+        //     '&ec14=' + ec14 +
+        //     '&pf1=' + pf1 +
+        //     '&pf2=' + pf2 +
+        //     '&pf3=' + pf3 +
+        //     '&pf4=' + pf4 +
+        //     '&pf5=' + pf5 +
+        //     '&pf6=' + pf6 +
+        //     '&cr1=' + cr1 +
+        //     '&cr2=' + cr2 +
+        //     '&cr3=' + cr3 +
+        //     '&cr4=' + cr4 +
+        //     '&cr5=' + cr5 +    
+        //     '&name=' + name +
+        //     '&email=' + email +
+        //     '&phone=' + phone +
+        //     '&organization=' + organization +
+        //     '&newnameurl=' + newnameurl
+        // );
+
+        
+    };
+
+    return (
+        <>
+            <Head>
+                <title>Leader Behaviour Assessment | Career Coaching Snapshot</title>
+                <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
+            </Head>
+
+            <section className='assesmentbannnerbg'>
+                <div className='container'>
+                    <div className='row align-items-center'>
+                        <div className='col-md-12 text-center'>
+                            <h2 className='cacoh pbb-20'>Leader Behaviour Assessment</h2>
+                            {/* <p>Circle the number that best represents the extent to which you do the following (Use the line chart below as a guide.):</p> */}
+                            <div className='clearfix'></div>
+                            <div className='mainlinec'>
+
+                                <div className='sboxp'>
+                                    <div className='sbox'>
+                                        <hr className='hrleft'></hr>
+                                        <span>1</span>
+                                        <p>Strongly Disagree</p>
+                                    </div>
+                                    <div className='sbox'>
+                                        <hr></hr>
+                                        <span>2</span>
+                                        <p>Disagree</p>
+                                    </div>
+                                    <div className='sbox'>
+                                        <hr></hr>
+                                        <span>3</span>
+                                        <p>Somewhat Disagree</p>
+                                    </div>
+                                    <div className='sbox'>
+                                        <hr></hr>
+                                        <span>4</span>
+                                        <p>Neither Agree nor Disagree</p>
+                                    </div>
+                                    <div className='sbox'>
+                                        <hr></hr>
+                                        <span>5</span>
+                                        <p>Somewhat Agree</p>
+                                    </div>
+                                    <div className='sbox'>
+                                        <hr></hr>
+                                        <span>6</span>
+                                        <p>Agree</p>
+                                    </div>
+                                    <div className='sbox'>
+                                        <hr className='hrright'></hr>
+                                        <span>7</span>
+                                        <p>Strongly Agree</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section className='pbb-40'>
-            <div className='container'>
-                <form onSubmit={registerUser}>
+            <section className='pbb-40'>
+                <div className='container'>
+                <form onSubmit={submitF}>
                     <div className='row'>
                         {/* <div className='col-sm-12'>
                             <div className='fh3'>
@@ -240,7 +292,7 @@ return (
                                     <input type="radio" name="rm3" value="7" id="3trust7" required />
                                     <label for="3trust7">Strongly Agree</label>
                                 </div>
-                            </div>
+                            </div>                            
                         </div>
 
                         {/* <div className='col-sm-12'>
@@ -349,7 +401,7 @@ return (
                                     <input type="radio" name="pm3" value="7" id="3ec7" required />
                                     <label for="3ec7">Strongly Agree</label>
                                 </div>
-                            </div>
+                            </div>                           
 
                         </div>
 
@@ -571,7 +623,7 @@ return (
                                     <label for="3cr7">Strongly Agree</label>
                                 </div>
                             </div>
-
+                            
                         </div>
 
 
@@ -648,7 +700,7 @@ return (
                                     <input type="radio" name="at2" value="7" id="2at7" required />
                                     <label for="2at7">Strongly Agree</label>
                                 </div>
-                            </div>
+                            </div>                            
                         </div>
 
                         {/* <div className='col-sm-12'>
@@ -756,7 +808,7 @@ return (
                                     <input type="radio" name="pm23" value="7" id="3pm27" required />
                                     <label for="3pm27">Strongly Agree</label>
                                 </div>
-                            </div>
+                            </div> 
 
                             <div className='fcol1 lastinp ptt-20'>
                                 <div className='row inpuut'>
@@ -784,11 +836,11 @@ return (
 
 
                     </div>
-                </form>
-            </div>
-        </section>
+                 </form>
+                </div>
+            </section>
 
 
-    </>
-)
+        </>
+    )
 }
