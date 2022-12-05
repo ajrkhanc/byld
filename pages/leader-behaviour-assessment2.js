@@ -145,6 +145,26 @@ return (
                             </div>
                         </div> */}
                         <div className='col-sm-12'>
+
+                        <div className='fcol1 lastinp ptt-20 btop1'>
+                                <div className='row inpuut'>
+                                    <div className="col-sm-6 mb-12">
+                                        <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
+                                    </div>
+                                    <div className="col-sm-6 mb-12">
+                                        <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
+                                    </div>
+                                    <div className="col-sm-6 mb-12">
+                                        <input className='form-control' type="text" name="ratingby" placeholder="Name of the Person you are rating" required />
+                                    </div>
+
+                                    <div className="col-sm-6 mb-12">
+                                        <input className='form-control' type="text" name="organization" placeholder="Organization*" required />
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
                             <div className='fcol1'>
                                 <h2>
                                     1. I always try to meet the client's requirement or expectation on time
@@ -764,20 +784,7 @@ return (
                             </div>
 
                             <div className='fcol1 lastinp ptt-20'>
-                                <div className='row inpuut'>
-                                    <div className="col-sm-6 mb-12">
-                                        <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
-                                    </div>
-                                    <div className="col-sm-6 mb-12">
-                                        <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
-                                    </div>
-                                    <div className="col-sm-6 mb-12">
-                                        <input className='form-control' type="text" name="ratingby" placeholder="Name of the Person you are rating" required />
-                                    </div>
-
-                                    <div className="col-sm-6 mb-12">
-                                        <input className='form-control' type="text" name="organization" placeholder="Organization*" required />
-                                    </div>
+                                <div className='row inpuut'>                                    
                                     <div className='col-sm-12'>
                                         <input type="submit" value="Submit" id='submitbuttonform' class="assesmetmain" tabindex="201" />
                                         <p class="feedbackcolor" id="showlabel"></p>
