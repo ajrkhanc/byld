@@ -8,7 +8,7 @@ import Image from 'next/image'
 export async function getServerSideProps(context) {
     const caturl = context.params.Mresult;
 
-    const res = await fetch(`https://clblogs.onrender.com/api/whatwouldyoudoassessment/${caturl}`)
+    const res = await fetch(`https://coral-app-2-a333o.ondigitalocean.app/api/whatwouldyoudoassessment/${caturl}`)
     const result = await res.json()
     return {
         props: {
