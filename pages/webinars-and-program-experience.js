@@ -93,7 +93,7 @@ export default function WebinarsAndProgramExperience(){
                             </div>
                             <div className='eventbottom'>
                                 <h3>Everything DiSC Productive Conflict Webinar</h3>
-                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
+                                <a className="eventbtn" target="_blank" href='/everythingdisc/everything-disc-productive-conflict-webinar'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
