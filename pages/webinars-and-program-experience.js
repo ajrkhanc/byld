@@ -98,6 +98,32 @@ export default function WebinarsAndProgramExperience(){
                         </div>
                     </div>
 
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar December 16th, 2022</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Everything DiSC Productive Conflict Webinar</h3>
+                                <a className="eventbtn" target="_blank" href='/everythingdisc/everything-disc-productive-conflict-webinar'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar January 6th, 2022</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Everything DiSC Work of Leaders Webinar</h3>
+                                <a className="eventbtn" target="_blank" href='/everythingdisc/everything-disc-productive-conflict-webinar'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
@@ -144,6 +170,7 @@ export default function WebinarsAndProgramExperience(){
                                                 <option value="14th December 2022 - Crucial Life Changing Skills Webinars">14th December 2022 - Crucial Life Changing Skills Webinars</option>
                                                 <option value="14th December 2022 - Eagle’s Flight Executive Briefing">14th December 2022 - Eagle’s Flight Executive Briefing</option>
                                                 <option value="16th December 2022 - Everything DiSC Productive Conflict Webinar">16th December 2022 - Everything DiSC Productive Conflict Webinar</option>
+                                                <option value="6th January 2022 - Everything DiSC Work of Leaders Webinar">6th January 2022 - Everything DiSC Work of Leaders Webinar</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
