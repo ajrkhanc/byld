@@ -92,7 +92,7 @@ export default function WebinarsAndProgramExperience(){
                                 <span>Webinar December 16th, 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Everything DiSC Productive Conflict Virtual Course Preview</h3>
+                                <h3>Everything DiSC Productive Conflict Webinar</h3>
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -140,10 +140,10 @@ export default function WebinarsAndProgramExperience(){
                                         </div>
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
-                                                <option value="">Pick up any Slot*</option>                                                
+                                                <option value="">Pick up any Slot*</option>
                                                 <option value="14th December 2022 - Crucial Life Changing Skills Webinars">14th December 2022 - Crucial Life Changing Skills Webinars</option>
                                                 <option value="14th December 2022 - Eagle’s Flight Executive Briefing">14th December 2022 - Eagle’s Flight Executive Briefing</option>
-                                                <option value="16th December 2022 - Everything DiSC Productive Conflict Virtual Course Preview">16th December 2022 - Everything DiSC Productive Conflict Virtual Course Preview</option>
+                                                <option value="16th December 2022 - Everything DiSC Productive Conflict Webinar">16th December 2022 - Everything DiSC Productive Conflict Webinar</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
