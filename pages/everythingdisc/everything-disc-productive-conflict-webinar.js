@@ -78,7 +78,7 @@ export default function EDSalesWorkshop() {
                                 <p className='mall5'><span className='themecolor'>Key takeaways:</span></p>
                                 <div className='rs-estimate pbb-100'>
                                     <ul className="estimate-info mtt-5">
-                                        <li>Use the power of DiSC® to understand your behavior</li>
+                                        <li>Use the power of DiSC<sup>®</sup> to understand your behavior</li>
                                         <li>Recognize your destructive conflict responses</li>
                                         <li>Choose to change your response to conflict</li>
                                     </ul>
