@@ -98,18 +98,7 @@ export default function WebinarsAndProgramExperience(){
                         </div>
                     </div>
 
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar December 16th, 2022</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>Everything DiSC Productive Conflict Webinar</h3>
-                                <a className="eventbtn" target="_blank" href='/everythingdisc/everything-disc-productive-conflict-webinar'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
+                  
 
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
