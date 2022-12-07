@@ -44,7 +44,7 @@ export default function Trapologist(){
     return(
         <>
           <Head>
-            <title>Client Corner - BYLD Group</title>
+            <title>Trapologist at Work - BYLD Group</title>
             <meta name="description" content="Continuously adding value to our customer’s businesses! Continuously adding value to our customer’s businesses! Let us help you find the best resource for your company. Highly effective, employee screening process for hiring of blue-collared and entry-level staff. Highly effective, employee screening process for hiring of blue-collared and entry-level staff. Business Enquiry Submit Your Query Our… Continue reading Client Corner"/> 
           </Head>
             
