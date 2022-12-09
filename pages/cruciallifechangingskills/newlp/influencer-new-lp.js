@@ -44,24 +44,24 @@ export default function Gettingthingsdone() {
     return (
         <>
             <Head>
-                <title>LP Crucial Conversations For Mastering Dialogue - Crucial Life-Changing Skills</title>
-                <meta name="description" content="LP Crucial Conversations For Mastering Dialogue" />
+                <title>Influencer New LP - Crucial Life-Changing Skills</title>
+                <meta name="description" content="Influencer New LP - Crucial Life-Changing Skills" />
                 <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
             </Head>
             <section>
-                <iframe width="100%" height="660" src="https://www.youtube.com/embed/KhnD9vH0j5c?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="660" src="https://www.youtube.com/embed/fUfy3GwgzYM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             <section class="gtdlpsecondrow">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 contact-title">
-                            <h1 className='text-left'>The Standard in Effective Communication</h1>
+                            <h1 className='text-left'>Utilize the new Science of Leadership with Influencer program</h1>
                             <p className='text-left'>
-                            With 30 years of research in social science, Crucial Conversations skills provide the standard to make effective dialogues in a conversation which marks an indicator of high-performing individuals and organizations.
+                            A course backed by 50 years of research to help transform your ingrained human behavior.
                             </p>
                             <p className='text-left'>
-                            Learn the nine powerful skills to obtain results with clear and effective dialogues for you to work through disagreements. Learn to make crucial conversations for lasting improvement.
+                            Any emerging leader — be it a first-time manager without any formal authority, emerging leader, or a senior leader — can reconstruct persuasion and perks with powerful influence strategies and skills that bring real-life changes with influence skills training.
                             </p>
                             
                         </div>
@@ -79,12 +79,12 @@ export default function Gettingthingsdone() {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-6 alicc'>
-                            <img className='lim' src='/classets/img/CrucialConversations_FMD.svg' />
+                            <img className='lim' src='/classets/img/Crucial-Accountability.svg' />
                             <h3>Master the Art of Stress-free Productivity</h3>
                             <h4>Relieve the Cognitive Load and Peak the Performance</h4>
                             <h2>Join the Virtual Course Preview</h2>
                             <div class="workshop-date">
-                                <h6><i class="fa fa-calendar" aria-hidden="true"></i>  December 14th, 2022</h6>
+                                <h6><i class="fa fa-calendar" aria-hidden="true"></i>  December 22nd - 23rd, 2022</h6>
                                 <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
                             </div>
                         </div>
@@ -130,45 +130,30 @@ export default function Gettingthingsdone() {
             </section>
 
             <section class="workshops">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 contact-title"> 
-                        <h1>Our Upcoming Programs</h1>
-                          </div> 
-                    <div class="col-md-4 workshop-col"> 
-                       <div class="row workshop-row"> 
-                            <div class="col-md-12 workshop-content"> 
-                            <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
-                            <h4>CRUCIAL <br/> CONVERSATIONS</h4>
-                            <p>for Mastering Dialogue</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 contact-title">
+                            <h1>Our Upcoming Programs</h1>
+                        </div>
+                        <div class="col-md-4 workshop-col">
+                            <div class="row workshop-row">
+                                <div class="col-md-12 workshop-content">
+                                    <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
+                                    <h4>CRUCIAL <br /> CONVERSATIONS</h4>
+                                    <p>for Accountability</p>
+                                </div>
+                                <h5 className='eventt'>Workshop</h5>
+                                <div class="col-md-12 workshop-date">                                    
+                                    <h6><i class="fa fa-calendar" aria-hidden="true"></i> December 22nd - 23rd, 2022</h6>
+                                    <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
+                                    <a href='#registered'><button class="register">REGISTER NOW</button></a>
+                                </div>
                             </div>
-                            <h5 className='eventt'>Workshop</h5>
-                             <div class="col-md-12 workshop-date"> 
-                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> November 11th, 2022</h6>
-                            <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
-                            <a href='#registered'><button class="register">REGISTER NOW</button></a>
-                            </div>
-                       </div>
+                        </div>                        
+
                     </div>
-                    <div class="col-md-4 workshop-col"> 
-                       <div class="row workshop-row"> 
-                            <div class="col-md-12 workshop-content"> 
-                            <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
-                            <h4>CRUCIAL <br/> CONVERSATIONS</h4>
-                            <p>for Mastering Dialogue</p>
-                            </div>
-                            <h5 className='eventt'>Workshop</h5>
-                             <div class="col-md-12 workshop-date"> 
-                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> November 24th - 25th, 2022</h6>
-                            <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
-                            <a href='#registered'><button class="register">REGISTER NOW</button></a>
-                            </div>
-                       </div>
-                    </div>
-                                     
                 </div>
-            </div>
-        </section>
+            </section>
 
             <section className='testmonials text-center pbb-50 bgcc'>
             <div className='container'>
