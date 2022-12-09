@@ -98,7 +98,7 @@ export default function TirianIndex(){
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>                                                
                                                 <option value="15th December 2022, Tirian Webinar">15th December 2022, Tirian Webinar</option>
-                                                <option value="10th January 2023,Tirian Webinar">10th January 2023, Tirian Webinar</option>                                                
+                                                <option value="10th January 2023,Tirian Webinar">10th January 2023, Tirian Webinar</option>                                                  
                                             </select>
                                         </div>
 
