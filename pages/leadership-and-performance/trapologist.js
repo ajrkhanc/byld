@@ -81,10 +81,10 @@ export default function Trapologist(){
                                         </div>
                                         <div className="col-sm-6 pppp8">
                                             <select name="anyslot" required>
-                                                <option value="">Pick up any Slot*</option>
-                                                <option value="Virtual Public Workshop: 25th November, 2022">Virtual Public Workshop: 25th November, 2022</option>
-                                                <option value="Webinar: 2nd December, 2022">Webinar: 2nd December, 2022</option>
+                                                <option value="">Pick up any Slot*</option>                                                
                                                 <option value="Virtual Public Workshop: 16th December, 2022">Virtual Public Workshop: 16th December, 2022</option>
+                                                <option value="Webinar: 4th January, 2023">Webinar: 4th January, 2023</option>
+                                                <option value="Virtual Public Workshop:  27th January, 2023">Virtual Public Workshop:  27th January, 2023</option>
                                             </select>                                            
                                         </div>
                                         <div className="col-sm-12 pppp8">
@@ -140,13 +140,14 @@ export default function Trapologist(){
                                     <div className="testi-information">
                                     <div className="testi-name textleftc orangecolor mbb-15">Explore Our Upcoming Events</div>
                                     </div>
+
                                     <div className='eventslist'>
                                         <div className='eventicon'>
                                             <i className='fa fa-calendar'></i>
                                         </div>
                                         <div className='eventstext'>
                                             <h3>Trapologist at Work™</h3>
-                                            <h4>Virtual Public Workshop: 25th November, 2022</h4>
+                                            <h4>Public Workshop: 16th December, 2022</h4>
                                         </div>
                                     </div>
 
@@ -156,7 +157,7 @@ export default function Trapologist(){
                                         </div>
                                         <div className='eventstext'>
                                             <h3>Trapologist at Work™</h3>
-                                            <h4>Webinar: 2nd December, 2022</h4>
+                                            <h4>Webinar: 4th January, 2023</h4>
                                         </div>
                                     </div>
 
@@ -166,9 +167,11 @@ export default function Trapologist(){
                                         </div>
                                         <div className='eventstext'>
                                             <h3>Trapologist at Work™</h3>
-                                            <h4>Virtual Public Workshop: 16th December, 2022</h4>
+                                            <h4>Public Workshop: 27th January, 2023</h4>
                                         </div>
                                     </div>
+
+                                    
                                 </div>
                             </div>                            
                     </div>
