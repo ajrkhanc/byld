@@ -132,7 +132,9 @@ export default function CoachCertificationLP(){
                                         <div className="col-sm-12 mb-12">
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>                                                
-                                                <option value="Eagle's Flight Executive Briefing: December 14th, 2022">Eagle's Flight Executive Briefing: December 14th, 2022</option>
+                                                <option value="Eagle's Flight Executive Briefing: January 11th, 2023">Eagle's Flight Executive Briefing: January 11th, 2023</option>
+                                                <option value="Eagle's Flight Executive Briefing: Febuary 8th, 2023">Eagle's Flight Executive Briefing: Febuary 8th, 2023</option>
+                                                <option value="Eagle's Flight Executive Briefing: March 8th, 2023">Eagle's Flight Executive Briefing: March 8th, 2023</option>
                                             </select>
                                         </div>
                                        
@@ -270,11 +272,13 @@ export default function CoachCertificationLP(){
                     </div>
                     <div className='clearfix'></div>
 
-                    <div className='col-sm-4 d-none'>
+                    
+
+                    <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>November 9th, 2022</span>                                
+                                <span>Webinar January 11th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Eagle's Flight™ Executive Briefing</h3>
@@ -288,7 +292,21 @@ export default function CoachCertificationLP(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>December 14th, 2022</span>
+                                <span>Webinar Febuary 8th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Eagle's Flight™ Executive Briefing</h3>
+                                <h5>Complimentary Webinar</h5>
+                                <a className="eventbtn" href='#register'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar March 8th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Eagle's Flight™ Executive Briefing</h3>
