@@ -3304,4 +3304,18 @@ table td {
 .cochingformatt10{
   padding-top: 10px !important;
 }
+.eventbottom h5 {
+    color: #203a72;
+    font-weight: 500;
+    font-size: 18px;
+}
 
+.hhd{
+  color: #2a6db5;
+  font-size: 22px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-top: 16px;
+}
