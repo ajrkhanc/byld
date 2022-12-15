@@ -75,10 +75,10 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>December 13th, 2022</span>
+                                <span>December 20th, 2022</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Team Leadership - Virtual</h3>
+                                <h3>Blanchard Management Essentials - Virtual</h3>
                                 <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -141,7 +141,7 @@ export default function Workshops(){
                                                 <option value="">Pick up any Slot*</option>                                                
                                                 <option value="December 15th, 2022 - Crucial Life Changing Skills Online Workshop">December 15th, 2022 - Crucial Life Changing Skills Online Workshop</option>
                                                 <option value="December 13th, 2022 - Team Leadership - Virtual">December 13th, 2022 - Team Leadership - Virtual</option>
-                                                <option value="December 20th – 23rd, 2022 - DISC Train-the-Trainer (TTT)">December 20th – 23rd, 2022 - DISC Train-the-Trainer (TTT)</option>
+                                                <option value="Blanchard Management Essentials - Virtual - December 20th, 2022">Blanchard Management Essentials - Virtual - December 20th, 2022</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">

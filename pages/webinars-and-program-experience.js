@@ -59,18 +59,7 @@ export default function WebinarsAndProgramExperience(){
 
                     
 
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar 14th December 2022</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>Crucial Life Changing Skills Webinar</h3>
-                                <a className="eventbtn" href='/cruciallifechangingskills/webinars/'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                     
 
@@ -111,6 +100,19 @@ export default function WebinarsAndProgramExperience(){
                             <div className='eventbottom'>
                                 <h3>Eagle’s Flight Executive Briefing</h3>
                                 <a className="eventbtn" href='/eaglesflightindia/ef-generic-lp'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar January 18th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Crucial Life Changing Skills Webinar</h3>
+                                <a className="eventbtn" href='/cruciallifechangingskills/webinars/'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -158,10 +160,11 @@ export default function WebinarsAndProgramExperience(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="14th December 2022 - Crucial Life Changing Skills Webinars">14th December 2022 - Crucial Life Changing Skills Webinars</option>                                                
+                                                
                                                 <option value="16th December 2022 - Everything DiSC Productive Conflict Webinar">16th December 2022 - Everything DiSC Productive Conflict Webinar</option>
                                                 <option value="6th January 2023 - Everything DiSC Work of Leaders Webinar">6th January 2023 - Everything DiSC Work of Leaders Webinar</option>
                                                 <option value="11th January 2023 - Eagle’s Flight Executive Briefing">11th January 2023 - Eagle’s Flight Executive Briefing</option>
+                                                <option value="Crucial Conversations for Accountability – January 18th, 2023">Crucial Conversations for Accountability – January 18th, 2023</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
