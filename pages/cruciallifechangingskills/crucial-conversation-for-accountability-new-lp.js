@@ -160,7 +160,7 @@ export default function BrowseCourses() {
                                         <option value="">Pick any Slot*</option>
                                         <option value="Workshop - December 22nd - 23rd, 2022">Workshop - December 22nd - 23rd, 2022</option>
                                         <option value="Crucial Conversations for Accountability – January 18th, 2023">Crucial Conversations for Accountability – January 18th, 2023</option>
-                                        <option value="Crucial Conversations for Accountability - February 23rd - 24th, 2023">Crucial Conversations for Accountability - February 23rd - 24th, 2023</option>
+                                        <option value="Crucial Conversations for Accountability - February 23rd - 24th, 2023">Crucial Conversations for Accountability - February 23rd - 24th, 2023</option> 
                                     </select>
                                 </div>
 
