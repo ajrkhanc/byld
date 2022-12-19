@@ -63,7 +63,7 @@ export default function WebinarsAndProgramExperience(){
 
                     
 
-                    <div className='col-sm-4'>
+                    <div className='col-sm-4 d-none'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
@@ -159,9 +159,7 @@ export default function WebinarsAndProgramExperience(){
                                         </div>
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
-                                                <option value="">Pick up any Slot*</option>
-                                                
-                                                <option value="16th December 2022 - Everything DiSC Productive Conflict Webinar">16th December 2022 - Everything DiSC Productive Conflict Webinar</option>
+                                                <option value="">Pick up any Slot*</option>                                                
                                                 <option value="6th January 2023 - Everything DiSC Work of Leaders Webinar">6th January 2023 - Everything DiSC Work of Leaders Webinar</option>
                                                 <option value="11th January 2023 - Eagle’s Flight Executive Briefing">11th January 2023 - Eagle’s Flight Executive Briefing</option>
                                                 <option value="Crucial Conversations for Accountability – January 18th, 2023">Crucial Conversations for Accountability – January 18th, 2023</option>

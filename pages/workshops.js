@@ -62,7 +62,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>December 15th, 2022</span>
+                                <span>January 19th - 20th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Crucial Life Changing Skills Online Workshop</h3>
@@ -75,10 +75,10 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>December 20th, 2022</span>
+                                <span>January 16th - 19th, 2023</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Blanchard Management Essentials - Virtual</h3>
+                                <h3>The SLII Experience™ - T4T</h3>
                                 <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>December 20th – 23rd, 2022</span>
+                                <span>January 24th – 27th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>DISC Train-the-Trainer (TTT)</h3>
@@ -138,10 +138,10 @@ export default function Workshops(){
                                         </div>
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
-                                                <option value="">Pick up any Slot*</option>                                                
-                                                <option value="December 15th, 2022 - Crucial Life Changing Skills Online Workshop">December 15th, 2022 - Crucial Life Changing Skills Online Workshop</option>
-                                                <option value="December 13th, 2022 - Team Leadership - Virtual">December 13th, 2022 - Team Leadership - Virtual</option>
-                                                <option value="Blanchard Management Essentials - Virtual - December 20th, 2022">Blanchard Management Essentials - Virtual - December 20th, 2022</option>
+                                                <option value="">Pick up any Slot*</option>                       
+                                                <option value="January 16th - 19th, 2023 - The SLII Experience™ - T4T">January 16th - 19th, 2023 - The SLII Experience™ - T4T</option>                         
+                                                <option value="January 19th - 20th, 2023 - Crucial Life Changing Skills Online Workshop">January 19th - 20th, 2023 - Crucial Life Changing Skills Online Workshop</option>
+                                                <option value="January 24th – 27th, 2023 - DISC Train-the-Trainer (TTT)">January 24th – 27th, 2023 - DISC Train-the-Trainer (TTT)</option>                                                
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">

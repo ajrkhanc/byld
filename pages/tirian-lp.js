@@ -97,8 +97,8 @@ export default function TirianIndex(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>                                                
-                                                <option value="15th December 2022, Tirian Webinar">15th December 2022, Tirian Webinar</option>
-                                                <option value="10th January 2023,Tirian Webinar">10th January 2023, Tirian Webinar</option>                                                  
+                                                <option value="10th January 2023,Tirian Webinar">10th January 2023, Tirian Webinar</option>
+                                                <option value="8th February 2023, Tirian Webinar">8th February 2023, Tirian Webinar</option>
                                             </select>
                                         </div>
 
@@ -145,15 +145,11 @@ export default function TirianIndex(){
                     </div>
                     <div className='clearfix'></div>
 
-                    
-
-                    
-
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Thursday, December 15th, 2022</span>
+                                <span>Tuesday 10th January 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Time: 11:00 AM -12:00 PM</h3>
@@ -166,7 +162,7 @@ export default function TirianIndex(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Tuesday 10th January 2023</span>
+                                <span>Thursday, February 8th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Time: 11:00 AM -12:00 PM</h3>
