@@ -160,7 +160,8 @@ export default function BrowseCourses(){
                         <div class="col-md-6 col-6">
                         <select name='slot' required>
                             <option value="">Pick any Slot*</option>                            
-                            <option value="December 15th, 2022 – Workshop">December 15th, 2022 – Workshop</option>
+                            <option value="The Power of Habit – February 15th, 2023">The Power of Habit – February 15th, 2023</option>
+                            <option value="The Power of Habit - February 17th, 2023">The Power of Habit - February 17th, 20233</option>
                         </select>
                         </div>
 
@@ -224,9 +225,24 @@ export default function BrowseCourses(){
                             <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
                             <h4 className='pbb-20'>THE POWER OF HABIT</h4>                            
                             </div>
+                            <h5 className='eventt'>Webinar</h5>
+                             <div class="col-md-12 workshop-date"> 
+                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> February 15th, 2023</h6>
+                            <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
+                            <a href='#registered'><button class="register phothemecolor">REGISTER NOW</button></a>
+                            </div>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4 workshop-col"> 
+                       <div class="row workshop-row"> 
+                            <div class="col-md-12 workshop-content phothemecolor"> 
+                            <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
+                            <h4 className='pbb-20'>THE POWER OF HABIT</h4>                            
+                            </div>
                             <h5 className='eventt'>Workshop</h5>
                              <div class="col-md-12 workshop-date"> 
-                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> December 15th, 2022</h6>
+                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> February 17th, 2023</h6>
                             <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
                             <a href='#registered'><button class="register phothemecolor">REGISTER NOW</button></a>
                             </div>
