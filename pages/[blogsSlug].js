@@ -20,10 +20,6 @@ export async function getServerSideProps(context) {
     const post5 = await fetch('https://coral-app-5w4lr.ondigitalocean.app/api/posts')
     const posts5 = await post5.json()
 
-    const cat = await fetch('https://coral-app-5w4lr.ondigitalocean.app/api/categories')
-    const cats = await cat.json()
-
-
     const posturl = context.params.blogsSlug;
     const res = await fetch(`https://coral-app-5w4lr.ondigitalocean.app/api/post/${posturl}`)
     const posts = await res.json()
@@ -35,8 +31,7 @@ export async function getServerSideProps(context) {
     return {
         props: {
             posts,
-            posts5,
-            cats,
+            posts5,            
             postfeedback
         },
     }
@@ -73,7 +68,7 @@ const submitFeedback = async (event) => {
         console.log('error');
     }
 };
-export default function singleblog({ posts, posts5, cats, postfeedback }) {
+export default function singleblog({ posts, posts5, postfeedback }) {
 
     const PopupRegisterd = async event => {
         event.preventDefault()
@@ -186,13 +181,12 @@ export default function singleblog({ posts, posts5, cats, postfeedback }) {
                                     <h3 class="title">Categories</h3>
                                 </div>
                                 <ul>
-                                    {
-                                    cats.map((getcats) => {
-                                    return (
-                                    <li><a href={`/blog/${getcats.Caturl}`}>{getcats.Name}</a></li>
-                                    );
-                                    })
-                                    }
+                                    
+                                    <li><a href="https://byldgroup.com/blog/assessment">Assessment</a></li>
+                                    <li><a href="https://byldgroup.com/blog/coaching">Coaching</a></li>
+                                    <li><a href="https://byldgroup.com/blog/experiential-learning">Experiential Learning</a></li>
+                                    <li><a href="https://byldgroup.com/blog/leadership-and-performance-enhancement">Leadership and Performance Enhancement</a></li>
+                                    <li><a href="https://byldgroup.com/blog/staffing-and-search">Staffing and Search</a></li>                                   
                                 </ul>
                             </div>
                             </div>
