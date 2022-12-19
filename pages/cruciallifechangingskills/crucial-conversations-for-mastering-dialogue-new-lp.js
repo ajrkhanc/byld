@@ -159,7 +159,7 @@ export default function BrowseCourses(){
                         <select name='slot' required>
                             <option value="">Pick any Slot*</option>                            
                             <option value="Crucial Conversations for Mastering Dialogue - January 19th - 20th, 2023">Crucial Conversations for Mastering Dialogue - January 19th - 20th, 2023</option>
-                            <option value="Crucial Conversations for Mastering Dialogue - March 23rd - 24th, 2023">Crucial Conversations for Mastering Dialogue - March 23rd - 24th, 2023</option>
+                            <option value="Crucial Conversations for Mastering Dialogue - March 23rd - 24th, 2023">Crucial Conversations for Mastering Dialogue - March 23rd - 24th, 2023</option> 
                         </select>
                         </div>
 
