@@ -65,7 +65,7 @@ export default function BrowseCourses() {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-6'>
-                            {/* <h2>WHAT WOULD YOU DO?</h2> */}
+                            <h2>Start unlocking the strength within yourself today</h2>
                             <p>
                             The <b><i>Jenson8</i></b> VR is a Metaverse experiential learning platform that delivers behavioural change by enabling participants to enter a fully immersive multi-user VR environment designed to enhance problem-solving, collaboration, and a team connection. The data collected, is then filtered through validated psychometric models to deliver key insights about the aptitude and behaviors of participants.
                             </p>
