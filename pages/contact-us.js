@@ -87,8 +87,7 @@ export default function ContactUs(){
                                 </div>
                                 <h4 class="title mb-18 font20 contacticonh">Have a question? Call us now</h4>
                                 <div class="desc mb-12">
-                                    <a href="tel:1800-102-1345">1800-102-1345</a><br></br>
-                                    <a href="tel:+91-124-2666030">+91-124-2666030</a>
+                                    <a href="tel:1800-102-1345">1800-102-1345</a>
                                 </div>
                             </div>
                         </div>

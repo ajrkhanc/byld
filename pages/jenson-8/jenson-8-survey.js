@@ -65,13 +65,15 @@ export default function BrowseCourses() {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-6'>
-                            <h2>WHAT WOULD YOU DO?</h2>
-                            <p>When others perform poorly, fail to keep their word, or behave badly, what we say and do can mean the difference between solving the problem and making matters worse. Take the assessment and discover how well you respond when others fail to meet expectations or violate trust.</p>
-                            <p>Read each situation and select the answer that best reflects what you would MOST LIKELY DO. Your results will show on the next page.</p>
+                            {/* <h2>WHAT WOULD YOU DO?</h2> */}
+                            <p>
+                            The <b><i>Jenson8</i></b> VR is a Metaverse experiential learning platform that delivers behavioural change by enabling participants to enter a fully immersive multi-user VR environment designed to enhance problem-solving, collaboration, and a team connection. The data collected, is then filtered through validated psychometric models to deliver key insights about the aptitude and behaviors of participants.
+                            </p>
+                            
                         </div>
                         <div className='col-md-6'>
-                            <div className='assesmentimgbanner'>
-                                <img src="/assets/img/virtual-reality.jpg" />
+                            <div className='assesmentimgbanner text-center'>
+                                <img width="450px" src="/assets/img/virtual-reality.jpg" />
                             </div>
                         </div>
                     </div>
