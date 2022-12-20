@@ -10,6 +10,8 @@ import COSR from '../components/cosresult/Layout'
 import CoachingA from '../components/CoachingA/Layout'
 import YogeshSood from '../components/YogeshSood/Layout'
 import Leaderbehaviourassessment from '../components/leaderbehaviourassessment/Layout'
+import Jensons8urvey from '../components/jenson-8-survey/Layout'
+
 
 // import Hhf from '../components/Hhf/Layout';
 
@@ -775,6 +777,61 @@ else if (router.pathname.startsWith('/leader-behaviour-assessment')) {
 
           <Component {...pageProps} />
       </Leaderbehaviourassessment>
+  )
+
+}
+
+else if (router.pathname.startsWith('/jenson-8/jenson-8-survey')) {
+
+  return (
+      <Jensons8urvey>
+          <Head>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/bootstrap.min.css"/>
+       
+            <link rel="stylesheet" type="text/css" href="/efassets/css/font-awesome.min.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/fonts/flaticon.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/css/animate.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/css/owl.carousel.css"/>
+        
+            <link rel="stylesheet" type="text/css" href="/efassets/css/off-canvas.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/css/magnific-popup.css"/>
+          
+            <link rel="stylesheet" href="/efassets/css/rsmenu-main.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/inc/custom-slider/css/nivo-slider.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/inc/custom-slider/css/preview.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/css/rs-spacing.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/css/style.css"/>
+            
+            <link rel="stylesheet" type="text/css" href="/efassets/css/responsive.css"/>
+            <link rel="stylesheet" type="text/css" href="/assets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/bg.css"/>
+
+            <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+            {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PXTTR960E"></script>
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PXTTR960E');
+          `,
+            }}
+          /> */}
+      
+        </Head>
+
+          <Component {...pageProps} />
+      </Jensons8urvey>
   )
 
 }
