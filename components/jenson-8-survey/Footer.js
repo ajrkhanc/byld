@@ -89,20 +89,20 @@ export default function Footer() {
                             <h3 className="footer-title">SOCIAL LINKS</h3>
                             <ul className="footer-social md-mb-30">  
                                   <li> 
-                                      <a href="https://www.facebook.com/BYLDGroup" target="_blank"><span><i className="fa fa-facebook"></i></span></a> 
+                                      <a href="https://www.facebook.com/BYLDExperientialLearning" target="_blank"><span><i className="fa fa-facebook"></i></span></a> 
                                   </li>
                                   <li> 
-                                  <a href="https://www.linkedin.com/company/byld-group/" target="_blank"><span><i className="fa fa-linkedin"></i></span></a>
+                                  <a href="https://in.linkedin.com/company/byld-experiential-learning?trk=similar-pages_result-card_full-click" target="_blank"><span><i className="fa fa-linkedin"></i></span></a>
                                   </li>
 
                                   <li> 
-                                     <a href="https://twitter.com/BYLDGroup" target="_blank"><span><i className="fa fa-twitter"></i></span></a> 
+                                     <a href="https://twitter.com/ByldLearnings" target="_blank"><span><i className="fa fa-twitter"></i></span></a> 
                                   </li>
                                   <li> 
-                                     <a href="https://www.youtube.com/channel/UC7kOBtc5uLtODiuTYvqgS4g" target="_blank"><span><i className="fa fa-youtube"></i></span></a> 
+                                     <a href="https://www.youtube.com/channel/UCfRDkIqa8kzNCDWA_VotHXw" target="_blank"><span><i className="fa fa-youtube"></i></span></a> 
                                   </li>
                                   <li> 
-                                      <a href="https://www.instagram.com/byld_group/" target="_blank"><span><i className="fa fa-instagram"></i></span></a> 
+                                      <a href="https://www.instagram.com/byld_experientiallearning/" target="_blank"><span><i className="fa fa-instagram"></i></span></a> 
                                   </li>
                                                                            
                               </ul>
