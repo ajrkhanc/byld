@@ -3325,8 +3325,9 @@ table td {
 }
 
 .assesmentbannnertop h2 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 500;
+  line-height: 44px;
 }
 .assesmentbannnertop p {
   font-size: 20px;
