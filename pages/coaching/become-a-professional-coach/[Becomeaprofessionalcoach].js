@@ -92,7 +92,7 @@ export default function result({ result }) {
                             </div>
                         </div>
                         <div className='col-sm-6 boxshd letf5border text-center'>
-                            <img src='/assets/img/missionvisionimg.png' alt="development" />
+                            <img src='/assets/img/df.png' alt="development" />
                         </div>
                     </div>
                 </div>
