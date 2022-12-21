@@ -213,9 +213,6 @@ export default function BrowseCourses(){
                     <div class="col-lg-12 contact-title"> 
                         <h1>Our Upcoming Programs</h1>
                           </div> 
-                  
-                   
-
                     <div class="col-md-4 workshop-col"> 
                        <div class="row workshop-row"> 
                             <div class="col-md-12 workshop-content green-col"> 
@@ -229,8 +226,7 @@ export default function BrowseCourses(){
                             <a href='#registered'><button class="register">REGISTER NOW</button></a>
                             </div>
                        </div>
-                    </div>
-                    
+                    </div>                    
                 </div>
             </div>
         </section>
