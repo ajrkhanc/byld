@@ -56,7 +56,7 @@ export default function result({ result }) {
                     <div className='row align-items-center'>
                         <div className='col-sm-12 text-center'>
                             <button onClick={downloadAsPDF} class="submit btnnewc"> Download Result </button>
-                        </div>                      
+                        </div>
                     </div>
                 </div>
             </section>
@@ -65,15 +65,24 @@ export default function result({ result }) {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-12'>
-                            <h4 className="countertoph2 text-center resh">What is your Professional Coach Readiness Index? – Self assessment</h4>
+                            {
+                                result.slice(0, 1).map((results) => {
+                                    return (
+                                        <h4 className="countertoph2 text-center resh">{results.name} - Self Report Assessment</h4>
+                                    )
+                                })
+
+
+                            }
+
+
                         </div>
                         <div className='col-sm-6 boxshd'>
 
-                            <div className="msicon mtt-10">
-
+                            <div className="msicon mtt-0">
                                 <div className="services-text">
                                     <h3 className="title">Coach</h3>
-                                    <p>Word coaching originate from European context, where valuable people were moved from one place to another in buggy that looks very similar. In modern context, it is a skill to move people from where find themselves today to a place they aspire to be. ICF defines coaching as partnering with clients in a thoughtprovoking and creative process that inspires them to maximize their personal and professional potential. Coaches honour the client as the expert in his or her life and work and believe every client is creative, resourceful, and whole.</p>
+                                    <p className='ptt-5 mbb-10'>Word coaching originate from European context, where valuable people were moved from one place to another in buggy that looks very similar. In modern context, it is a skill to move people from where find themselves today to a place they aspire to be. ICF defines coaching as partnering with clients in a thoughtprovoking and creative process that inspires them to maximize their personal and professional potential. Coaches honour the client as the expert in his or her life and work and believe every client is creative, resourceful, and whole.</p>
                                 </div>
                             </div>
                             <div className="msicon">
@@ -96,7 +105,7 @@ export default function result({ result }) {
                         </div>
                     </div>
                 </div>
-           
+
                 <div className='container ptt-30 pbb-40'>
                     <div className='row'>
                         <div className='col-sm-12'>
@@ -112,14 +121,14 @@ export default function result({ result }) {
                                     <tr>
                                         <td>Less than 60</td>
                                         <td>Need to work on to build your skills around these areas if you aspire to be a coach.</td>
-                                        <td rowspan="3">
+                                        <td rowspan="3" align='center'>
                                             {
                                                 result.slice(0, 1).map((results) => {
 
                                                     var px = '%'
                                                     var resultc = parseInt(results.q1) + parseInt(results.q2) + parseInt(results.q3) + parseInt(results.q4) + parseInt(results.q5) + parseInt(results.q6) + parseInt(results.q7) + parseInt(results.q8) + parseInt(results.q9) + parseInt(results.q10)
                                                     return (
-                                                        <h4 className='yresultc'><span className='thmecc'>{resultc}</span></h4>
+                                                        <h4 className='yresultc text-center'><span className='thmecc'>{resultc}</span></h4>
                                                     )
                                                 })
 
