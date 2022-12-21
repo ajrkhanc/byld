@@ -43,7 +43,7 @@ export default function result({ result }) {
 
     return (
         <>
-       
+
 
             <Head>
                 <title>Become a Professional Coach Result</title>
@@ -54,33 +54,129 @@ export default function result({ result }) {
             <section className='assesmentpart2 aalpading0'>
                 <div className='container'>
                     <div className='row align-items-center'>
-                        {/* <div className='col-sm-12 text-center'>
+                        <div className='col-sm-12 text-center'>
+                            <button onClick={downloadAsPDF} class="submit btnnewc"> Download Result </button>
+                        </div>                      
+                    </div>
+                </div>
+            </section>
+
+            <section id='demo' className='pbb-10 pll-20 prr-20'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-12'>
+                            <h4 className="countertoph2 text-center resh">What is your Professional Coach Readiness Index? – Self assessment</h4>
+                        </div>
+                        <div className='col-sm-6 boxshd'>
+
+                            <div className="msicon mtt-10">
+
+                                <div className="services-text">
+                                    <h3 className="title">Coach</h3>
+                                    <p>Word coaching originate from European context, where valuable people were moved from one place to another in buggy that looks very similar. In modern context, it is a skill to move people from where find themselves today to a place they aspire to be. ICF defines coaching as partnering with clients in a thoughtprovoking and creative process that inspires them to maximize their personal and professional potential. Coaches honour the client as the expert in his or her life and work and believe every client is creative, resourceful, and whole.</p>
+                                </div>
+                            </div>
+                            <div className="msicon">
+                                <div className="services-text">
+                                    <h5 className='pinkh'>Standing on this foundation, the coach's responsibility is to:</h5>
+                                    <div className='rs-estimate'>
+                                        <ul className='estimate-info mtt-5'>
+                                            <li>Discover, clarify, and align with what the client wants to achieve</li>
+                                            <li>Encourage client self-discovery</li>
+                                            <li>Elicit client-generated solutions and strategies</li>
+                                            <li>Hold the client responsible and accountable</li>
+                                            <li>Coaching process helps clients dramatically improve their outlook on work and life, while improving their leadership skills and unlocking their potential.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-sm-6 boxshd letf5border text-center'>
+                            <img src='/assets/img/missionvisionimg.png' alt="development" />
+                        </div>
+                    </div>
+                </div>
+           
+                <div className='container ptt-30 pbb-40'>
+                    <div className='row'>
+                        <div className='col-sm-12'>
+                            <div className='newtblc'>
+                                <table>
+                                    <tr className='tablefbh'>
+                                        <th width="15%">Score</th>
+                                        <th>Level of Readiness</th>
+                                        <th width="15%">Score (Out of 100)</th>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>Less than 60</td>
+                                        <td>Need to work on to build your skills around these areas if you aspire to be a coach.</td>
+                                        <td rowspan="3">
+                                            {
+                                                result.slice(0, 1).map((results) => {
+
+                                                    var px = '%'
+                                                    var resultc = parseInt(results.q1) + parseInt(results.q2) + parseInt(results.q3) + parseInt(results.q4) + parseInt(results.q5) + parseInt(results.q6) + parseInt(results.q7) + parseInt(results.q8) + parseInt(results.q9) + parseInt(results.q10)
+                                                    return (
+                                                        <h4 className='yresultc'><span className='thmecc'>{resultc}</span></h4>
+                                                    )
+                                                })
+
+
+                                            }
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Between 60-80</td>
+                                        <td>Good awareness, consider getting Certified, if not done already, and you would be able to start your coaching journey</td>
+                                    </tr>
+                                    <tr>
+                                        <td>More than 80</td>
+                                        <td>You are doing well, if you are certified then you are already on the way to do quality job, however if ICF accreditation is pending recommend doing it to move faster ahead</td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* <section className='assesmentpart2 aalpading0'>
+                <div className='container'>
+                    <div className='row align-items-center'>
+                        <div className='col-sm-12 text-center'>
                             <button class="submit btnnewc"> Download Result </button>
-                        </div> */}
+                        </div>
                         <div className='col-md-12'>
-                            {
+                            
+
+                        {
                                 result.slice(0, 1).map((results) => {
 
                                     var px = '%'
                                     var resultc = parseInt(results.q1) + parseInt(results.q2) + parseInt(results.q3) + parseInt(results.q4) + parseInt(results.q5) + parseInt(results.q6) + parseInt(results.q7) + parseInt(results.q8) + parseInt(results.q9) + parseInt(results.q10)
-                                   
 
-                                    
+
+
 
 
                                     return (
 
-                                        <div className='demodonload dresult' id='demo'>                                           
-                                            
+                                        <div className='demodonload dresult' id='demo'>
+
                                             <div class="assessment-result-block ptt-90">
                                                 <h3 className='ptop text-center'>Hi {results.name}</h3>
                                             </div>
-                                            <div className='cochingformat pbb-70'>                                               
+                                            <div className='cochingformat pbb-70'>
                                                 <div className='dlw'>
-                                                <h4 className='yresultc'><span>Y</span>OUR <span>R</span>ESULT <span>I</span>S: <span className='thmecc'>{resultc}/100</span></h4>
-                                                </div>                                              
-                                            </div>                                          
-                                            
+                                                    <h4 className='yresultc'><span>Y</span>OUR <span>R</span>ESULT <span>I</span>S: <span className='thmecc'>{resultc}/100</span></h4>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     )
 
@@ -91,12 +187,10 @@ export default function result({ result }) {
 
                             }
 
-
-
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
         </>
