@@ -125,6 +125,7 @@ export default function WebinarsAndProgramExperience(){
                             </div>
                             <div className='eventbottom'>
                                 <h3>Lumina Spark</h3>
+                                <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
