@@ -117,6 +117,19 @@ export default function WebinarsAndProgramExperience(){
                         </div>
                     </div>
 
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar January 20th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Lumina Spark</h3>
+                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
@@ -163,6 +176,7 @@ export default function WebinarsAndProgramExperience(){
                                                 <option value="6th January 2023 - Everything DiSC Work of Leaders Webinar">6th January 2023 - Everything DiSC Work of Leaders Webinar</option>
                                                 <option value="11th January 2023 - Eagle’s Flight Executive Briefing">11th January 2023 - Eagle’s Flight Executive Briefing</option>
                                                 <option value="Crucial Conversations for Accountability – January 18th, 2023">Crucial Conversations for Accountability – January 18th, 2023</option>
+                                                <option value="Lumina Spark – January 20th, 2023">Lumina Spark – January 20th, 2023</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">

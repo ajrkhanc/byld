@@ -143,7 +143,7 @@ export default function ContactUs(){
                                 <i aria-hidden="true" class="fa fa-map"></i>
                             </div>
                             <div class="col-md-10 col-10 text">
-                                <p>Unit No. 629-634, 6th Floor, Vipul Trade Centre, Sohna Road, Sector – 48, Gurgaon – 122018, Haryana (India)</p>
+                                <p>BYLD Group, 2nd and 3rd Floor, Plot No. 48, Sector - 44, Opp. EPF Regional Office Gurugram, Haryana - 122003</p>
                             </div>
                             <div class="col-md-2 col-2 icon">
                                 <i aria-hidden="true" class="fa fa-phone"></i>
