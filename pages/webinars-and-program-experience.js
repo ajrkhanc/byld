@@ -124,8 +124,8 @@ export default function WebinarsAndProgramExperience(){
                                 <span>Webinar January 20th, 2023</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Lumina Spark</h3>
-                                <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
+                            <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
+                                <h3>Lumina Spark</h3>                                
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
