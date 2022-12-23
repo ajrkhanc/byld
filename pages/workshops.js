@@ -146,10 +146,10 @@ export default function Workshops(){
                                         </div>
                                         <div className="col-sm-6 mb-12">
                                             <select name="referredby" required>
-                                                <option value="">Referred By*</option>                                                
+                                                <option value="">Referred By*</option>
                                                 <option value="Social Media">Social Media</option>
-                                                <option value="Google Search">Google Search</option>                                                
-                                                <option value="Reference">Reference</option>                                                
+                                                <option value="Google Search">Google Search</option>
+                                                <option value="Reference">Reference</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12 d-none">
