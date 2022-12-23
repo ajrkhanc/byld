@@ -42,8 +42,13 @@ export default function Home() {
 
 
         var xhr = new XMLHttpRequest();
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("Post", 'https://ajrkhan.xyz/everythingdisc/wp-json/contact-form-7/v1/contact-forms/215/feedback');
+        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
         xhr.open('POST', 'https://coral-app-2-a333o.ondigitalocean.app/api/assesmentf');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        
         xhr.send('q1=' + q1 +
             '&q2=' + q2 +
             '&q3=' + q3 +
@@ -72,6 +77,11 @@ export default function Home() {
 
 
         );
+
+        xhttp.send("name=" + event.target.name.value +
+        '&email=' + email +
+        '&phone=' + phone +
+        '&organization=' + organization)
 
         // xhr.onreadystatechange = function () {
         //     if (xhr.readyState == 4) {  

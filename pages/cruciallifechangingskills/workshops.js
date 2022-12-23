@@ -107,7 +107,7 @@ export default function Workshops(){
                             </div>
                             <h5 className='eventt'>Workshop</h5>
                              <div class="col-md-12 workshop-date green-col"> 
-                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> January 24th - 25th, 2023</h6>
+                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> January 26th - 27th</h6>
                             <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
                             <a href='#registered'><button class="register">REGISTER NOW</button></a>
                             </div>
@@ -257,7 +257,7 @@ export default function Workshops(){
                                             <option value="">Pick any Slot*</option>                                            
                                             <option value="Crucial Conversations for Accountability - December 22nd - 23rd, 2022">Crucial Conversations for Accountability - December 22nd - 23rd, 2022</option>
                                             <option value="Crucial Conversations for Mastering Dialogue - January 19th - 20th, 2023">Crucial Conversations for Mastering Dialogue - January 19th - 20th, 2023</option>
-                                            <option value="Influencer - January 24th - 25th, 2023">Influencer - January 24th - 25th, 2023</option>
+                                            <option value="Influencer - January 24th - 25th, 2023">Influencer - January 26th - 27th, 2023</option>
                                             <option value="The Power of Habit - February 17th, 2023">The Power of Habit - February 17th, 20233</option>
                                             <option value="Crucial Conversations for Accountability - February 23rd - 24th, 2023">Crucial Conversations for Accountability - February 23rd - 24th, 2023</option>
                                             <option value="Crucial Conversations for Mastering Dialogue - March 23rd - 24th, 2023">Crucial Conversations for Mastering Dialogue - March 23rd - 24th, 2023</option>
