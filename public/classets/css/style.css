@@ -5026,6 +5026,814 @@ line-height: 31px;
 
 
 
+.mainlinec {
+	position: relative;
+  }
+  
+  .sboxp {
+	display: flex;
+  }
+  
+  .sbox {
+	width: 14.28%;
+  }
+  
+  .sbox hr {
+	width: 100%;
+	display: block;
+	margin-bottom: -15px;
+	color: #2a6db5;
+	height: 2px;
+	opacity: 1;
+  }
+  
+  .hrleft {
+	width: 55% !important;
+	float: right;
+  }
+  
+  .hrright {
+	width: 55% !important;
+	float: left;
+  }
+  
+  .sbox span {
+	background: #3474af;
+	width: 28px;
+	height: 28px;
+	display: block;
+	color: #fff;
+	border-radius: 50px;
+	line-height: 28px;
+	margin: auto;
+  }
+  
+  .cacoh {
+	color: #2a6db5;
+	font-size: 30px;
+	padding-top: 32px;
+	margin-bottom: 5px;
+  }
+  
+  .fh3 {
+	background: #1b6194;
+	padding: 0px 15px;
+  }
+  
+  .fh3 h3 {
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	margin: 0px;
+	padding: 10px 0px;
+  }
+  
+  .fcolmain {
+	display: inline-flex;
+	padding-right: 15px;
+  }
+  
+  .fcolmain label {
+	padding-left: 5px;
+  }
+  
+  .fcolmain input {
+	accent-color: #3474af;
+	width: 18px;
+	height: 18px;
+	margin-top: 4px;
+  }
+  
+  .fcol1 {
+	padding: 0px 15px 15px 15px;
+	border-bottom: 1px solid #2a6db5;
+  }
+  
+  .fcol1 h2 {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0px;
+	padding: 0px;
+	color: #1b6194;
+  }
+  
+  .fcol1:nth-child(odd) {
+	background: #f5f5f5;
+	border-left: 1px solid #2a6db5;
+	border-right: 1px solid #2a6db5;
+  }
+  
+  .fcol1:nth-child(even) {
+	border-left: 1px solid #2a6db5;
+	border-right: 1px solid #2a6db5;
+  }
+  
+  .lastinp input {
+	width: 100%;
+	border: 2px solid #3373ae;
+	padding: 6px;
+	border-radius: 3px;
+  }
+  
+  .lastinp .assesmetmain {
+	width: 120px !important;
+	background: #3373ae;
+	color: #fff !important;
+	border: 0px !important;
+	border-radius: 25px;
+	padding: 10px;
+  }
+  
+  .lastinp .assesmetmain:hover {
+	background: #EB7B11;
+  }
+  
+  .coachingresultinner {
+	width: 100%;
+	background-color: #2969B0;
+	border-bottom: 1px solid #F4812B;
+  }
+  
+  .resultable table {
+	width: 100%;
+  }
+  
+  .resultable table,
+  table th,
+  table td {
+	border: 1px solid #282A35;
+	border-collapse: collapse;
+	padding: 0px;
+  
+  }
+  
+  .resultable table th {
+	padding: 10px;
+  }
+  
+  .firsttd {
+	padding: 10px;
+  }
+  
+  .resultable table span {
+	padding: 10px;
+	min-height: 50px;
+  }
+  
+  .resultable table span:last-child {
+	border-bottom: 0px;
+  }
+  
+  
+  
+  .resultable span {
+	width: 100%;
+	display: block;
+	border-bottom: 1px solid #000;
+  }
+  
+  
+  /* Result Css */
+  .bgred {
+	background-color: #dc3545 !important;
+  }
+  
+  .yellobg {
+	background-color: #ffc107 !important;
+  }
+  
+  .orangebg {
+	background-color: #5bc0de !important;
+  }
+  
+  .greenbg {
+	background-color: #28a745 !important;
+  }
+  
+  .skycolor {
+	background-color: #2196f3 !important;
+  }
+  
+  .result-bar-wrapper {
+	height: 15px;
+	border-radius: 10px;
+	background: #efecec;
+	border: 1px solid #9b9b9b;
+	margin-top: 6px;
+  }
+  
+  .result-bar {
+	width: 20px;
+	height: 100%;
+	background: #b8b8b8;
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+	background-size: 30px 30px;
+	border-radius: 10px;
+  }
+  
+  /* Result css End */
+  
+  .cochingformat {
+	text-align: center;
+	padding-top: 20px;
+  }
+  
+  .cochingformat table {
+	width: 100%;
+  }
+  
+  .cochingformat tr th {
+	padding: 10px;
+  }
+  
+  .cochingformat tr td {
+	padding: 10px !important;
+  }
+  
+  .cochingformat h3 {
+	color: #3373af;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	padding-top: 10px;
+  }
+  
+  .cochingformat p {
+	margin-bottom: 0px;
+	color: #000;
+	font-size: 18px;
+	line-height: 26px;
+	margin-bottom: 20px;
+  }
+  
+  .yresultc {
+	font-size: 18px;
+	color: #e88026;
+	padding-top: 20px;
+	margin: 0px;
+  }
+  
+  .yresultc span {
+	font-size: 24px;
+  }
+  
+  .btnnewc {
+	background: #2b70b3;
+	color: #fff !important;
+	border-radius: 30px;
+	padding: 5px 33px;
+	font-size: 18px;
+	font-family: "HelveticaNeueLT Pro 57 Cn" !important;
+	border: 2px solid #2B70B3;
+	margin-top: 30px;
+	margin-bottom: 21px;
+  }
+  
+  
+  .submit:hover {
+	background-color: #F4812B;
+  }
+  
+  .ptop {
+	padding: 0px;
+	margin: 0px;
+	font-size: 28px !important;
+	color: #2092cf;
+	line-height: 28px;
+	padding-right: 10px;
+	font-weight: 500;
+  }
+  
+  .tablefbh {
+	background: #3373af;
+  }
+  
+  .tablefbh th {
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+  }
+  
+  .dresult {
+	padding: 13px 40px 40px 40px;
+  }
+  
+  .hrheightforresult {
+	height: 15px !important;
+	background-color: #e88027;
+	opacity: 1;
+	margin-top: 72px;
+	margin-bottom: 50px;
+  }
+  
+  .eventtitlec {
+	margin: 0px;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: -9px;
+	color: black;
+  }
+  
+  .pageheader {
+	box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 50%);
+	border: 2px solid #3373af;
+	background: #fff;
+	margin-bottom: 33px;
+  }
+  
+  .pageheader .logo-area img {
+	width: 160px;
+	background-color: #fff;
+  }
+  
+  .bgs {
+	background-color: #fff;
+	background: #fff;
+  }
+  
+  .dlw {
+	display: inline-flex;
+	padding: 0px 0px 13px 0px;
+  }
+  
+  .dlw h4 {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+  }
+  
+  .dlw a {
+	padding: 4px 0px 0px 31px;
+  }
+  
+  .dlw a i {
+	cursor: pointer;
+	color: #1b6194;
+	font-size: 30px;
+  }
+  
+  .dlw a i:hover {
+	color: #e88027;
+  }
+  
+  .ccn {
+	padding-top: 50px;
+  }
+  
+  /* Coaching Page */
+  .coachingmain {
+	background: url(/assets/img/banner/coachingmain.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+  .coachingmain h1 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+  }
+  
+  .coachingmain p {
+	font-size: 20px;
+	color: #fff;
+  }
+  
+  /* ICF Page */
+  .icfmain {
+	background: url(/assets/img/banner/icfbanner.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+  .icfmain h1 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+  }
+  
+  .icfmain p {
+	font-size: 20px;
+	color: #fff;
+  }
+  
+  .icfbg {
+	background: linear-gradient(45deg, #30398d 0%, #001E60 100%);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	/* display: flex; */
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+  }
+  
+  .icfbh4 {
+	padding: 0px 35px;
+  }
+  
+  .icfpc {
+	padding: 0px 35px;
+  }
+  
+  .icfbh4 h4 {
+	color: #fff;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 36px;
+  }
+  
+  .icfbh4 .jencolor:before {
+	background: #ffffff !important;
+  }
+  
+  .icfbh4 .jencolor:after {
+	background: #ffffff !important;
+  }
+  
+  .icfpc {
+	color: #fff;
+	font-size: 18px;
+	margin: 0px;
+  }
+  
+  .icfimglb {
+	border-left: 7px solid #00aec7;
+  }
+  
+  .patb0 {
+	padding: 0px 15px !important;
+  }
+  
+  .ifch2c {
+	color: #1a2d78;
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 10px;
+  }
+  
+  /* executive-coaching */
+  .executivecoaching {
+	background: url(/assets/img/banner/executive-coaching.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+  
+  /* ioc-new-lp */
+  .gtdlpsecondrow {
+	background-image: url(/classets/img/new-lp-bg-3.jpg);
+	background-position: center center;
+	background-size: cover;
+	padding: 60px 0px;
+  }
+  
+  .innerba {
+	font-size: 15px;
+	font-weight: 500;
+	fill: #FFFFFF;
+	color: #FFFFFF;
+	background-color: #2B70B3;
+	border-radius: 15px 15px 15px 15px;
+	padding: 10px 15px;
+	margin-bottom: 1px;
+	overflow: hidden;
+	display: inline-block;
+  }
+  
+  .innerba:hover {
+	background-color: #eb8123;
+	color: #fff;
+  }
+  
+  .ccdsection {
+	background-color: #f9f9f9;
+  }
+  
+  .ccdsection h1 {
+	color: #326fb1;
+	text-align: center;
+	padding-bottom: 36px;
+  }
+  
+  .ccd {
+	background-color: #fff;
+	padding: 10px;
+	min-height: 570px;
+	border: 1px solid #e0e4e9;
+  }
+  
+  .ccd img {
+	width: 100%;
+  }
+  
+  .ccd p {
+	margin-bottom: 7px;
+	font-size: 17px;
+	padding-top: 15px;
+  }
+  
+  .ccd h4 {
+	font-size: 20px;
+	color: #2b70b3;
+	padding: 10px 0px;
+  }
+  
+  .padd50s {
+	padding: 50px 0px;
+  }
+  
+  .padd50s .lim {
+	max-width: 300px;
+	padding-bottom: 35px;
+	padding-top: 37px;
+  }
+  
+  .padd50s h3 {
+	font-weight: 600;
+	font-size: 26px;
+	padding-bottom: 30px;
+  }
+  
+  .padd50s h2 {
+	color: #E65300;
+	padding-top: 0px;
+	padding-bottom: 10px;
+  }
+  
+  .alicc {
+	text-align: center;
+  }
+  
+  .bgcc {
+	background-color: #F2F2F4;
+	padding-top: 50px;
+  }
+  
+  .eventt {
+	color: #2B70B3;
+	padding-bottom: 7px;
+	font-size: 24px;
+  }
+  
+  .icfboxp {
+	line-height: 26px;
+	text-align: justify;
+  }
+  
+  .icfboxh {
+	font-size: 36px !important;
+	line-height: 50px;
+  }
+  
+  .icff .col-6 {
+	padding: 7px;
+  }
+  
+  .icff .col-md-12 {
+	padding: 7px;
+  }
+  
+  .icff .col-sm-12 {
+	padding: 7px;
+  }
+  
+  .icfsubmit{
+	width: 120px !important;
+	background: #3373ae;
+	color: #fff !important;
+	border: 0px !important;
+	border-radius: 25px;
+  }
+  
+  .icfsubmit:hover{
+	background: #E65300;
+  }
+  
+  .icff{
+	border: 5px solid #E65300;
+	  padding: 12px;
+	  border-radius: 10px;
+  }
+  
+  .icff h4{
+	font-size: 22px;
+	color: #3474af;
+	font-weight: 500;
+	margin-bottom: 0px;
+  }
+  
+  .bnewh{
+	min-height: 250px;
+  }
+  
+  .workshop-date h6 {
+	font-family: "HelveticaNeueLT Pro 57 Cn" !important;
+	font-size: 18px;
+	font-weight: 400;
+	color: #000;
+	border-bottom: 2px dashed #2B70B3;
+	padding: 0px 0 10px;
+	margin-bottom: 8px;
+  }
+  .workshop-date i {
+	color: #2B70B3;
+	margin-right: 10px;
+  }
+  .workshop-date h6:nth-child(2) {
+	border: 0;
+  }
+  
+  .newcstimg{
+	background: whitesmoke;
+	border-radius: 10px;
+  }
+  .newcstimg2{
+	border: 5px solid #2a6db5;
+	  padding: 0px;
+	  border-radius: 0px;
+  }
+  .newcstimg li{  
+	font-size: 19px;
+	color: #000;
+	padding-left: 24px;
+	padding-left: 28px !important;
+  }
+  
+  .newcstimg li:before{
+	width: 15px !important;
+	height: 15px !important;
+  }
+  .newcstimg h4{
+	color: #2A6DB5 !important;
+	font-size: 26px;
+	margin-bottom: 6px;
+	padding-top: 16px;
+	font-weight: 500;
+  }
+  
+  .icfsl .slick-arrow::before {
+	font-size: 26px !important;
+	line-height: 1 !important;
+	opacity: 1 !important;
+	color: #eb8123 !important;
+  }
+  
+  .icfsl .ratingw {
+	width: 120px;
+	margin: auto;
+  }
+  
+  .icfsl .testname {
+	font-size: 20px;
+	color: #326fb1;
+	margin-bottom: 0px;
+  }
+  
+  .icfsl .compname {
+	font-size: 17px;
+	color: #eb8123;
+	margin-bottom: 0px;
+  }
+  
+  .pressbgc{background: url(/assets/img/banner/pressbg.jpg) !important;}
+  
+  .iocchecklist li{
+	padding-bottom: 10px;
+	font-size: 18px;  
+  }
+  .iocchecklist li i{
+	color: #e88027;
+	font-size: 20px;
+	padding-right: 6px;
+  }
+  
+  .brboxbg{
+	background: #f2f8ff;
+  }
+  
+  .imgcc img{
+	border-radius: 50%;
+	  width: 290px;
+	  height: 290px;
+	  margin: auto;
+  }
+  
+  @media(min-width:922px){
+	.iocchecklist li{
+	  padding-left: 100px;
+	}
+  }
+  .paac li{
+	padding-left: 0px !important;
+  }
+  .hispan{
+	font-size: 19px;
+	color: #142973;
+	font-weight: 500;
+  }
+  
+  .newassesment h2{
+	line-height: 32px;
+	margin-bottom: 8px;
+	padding-top: 15px;
+  }
+  .newassesment .fcolmain{
+	width: 100% !important;
+  }
+  .thmecc{
+	color: #2a6db5 !important;
+  }
+  
+  
+  /* Breakthroughs Page */
+  .breakthroughs {
+	background: url(/assets/img/banner/breakthroughsbanner.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+  .breakthroughs h1 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+  }
+  
+  .breakthroughs p {
+	font-size: 20px;
+	color: #fff;
+  }
+  .slogo{
+	width: 108px !important;
+  }
+  
+  .mb15{
+	margin-bottom: 15px !important;
+  }
+  
+  .cochingformatt10{
+	padding-top: 10px !important;
+  }
+  .eventbottom h5 {
+	  color: #203a72;
+	  font-weight: 500;
+	  font-size: 18px;
+  }
+  
+  .hhd{
+	color: #2a6db5;
+	font-size: 22px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	font-weight: 500;
+	line-height: 30px;
+	padding-top: 16px;
+  }
+  
+  .assesmentbannnertop {
+	background: #f7fbff;
+  }
+  
+  .assesmentbannnertop h2 {
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 44px;
+  }
+  .assesmentbannnertop p {
+	font-size: 20px;
+  }
+  
+  .assesmentimgbanner img {
+	border-radius: 50%;
+	padding: 50px;
+  }
+  
+  .newtblc table td{
+	padding: 10px;
+  }
+  
+  .newtblc table tr th{
+	padding: 10px;
+  }
+  
+  .resh{
+	font-size: 28px !important;
+	padding: 20px 0px 15px 0px !important;
+	margin: 0px !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

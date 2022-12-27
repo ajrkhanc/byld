@@ -42,13 +42,8 @@ export default function Home() {
 
 
         var xhr = new XMLHttpRequest();
-        var xhttp = new XMLHttpRequest();
-        xhttp.open("Post", 'https://ajrkhan.xyz/everythingdisc/wp-json/contact-form-7/v1/contact-forms/215/feedback');
-        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-
         xhr.open('POST', 'https://coral-app-2-a333o.ondigitalocean.app/api/assesmentf');
-        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-        
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');        
         xhr.send('q1=' + q1 +
             '&q2=' + q2 +
             '&q3=' + q3 +
@@ -78,33 +73,6 @@ export default function Home() {
 
         );
 
-        xhttp.send("name=" + event.target.name.value +
-        '&email=' + email +
-        '&phone=' + phone +
-        '&organization=' + organization)
-
-        // xhr.onreadystatechange = function () {
-        //     if (xhr.readyState == 4) {  
-        //         if(xhr.status ==200){
-        //             document.getElementById("formreset").reset()
-        //             document.getElementById("response").innerHTML = "View Assessment"                    
-
-        //             // window.setTimeout(function() {
-        //             //     window.location.href = "/gtd-assessment-results"
-        //             // }, 1000);                     
-
-        //         }
-        //         else{
-        //             document.getElementById("response").innerHTML = "You Have Submeted to go"
-        //              setTimeout(function () {
-        //                 document.getElementById("response").innerHTML = "";
-        //                 document.getElementById("submitbuttonform").value = "Submit JobForm";
-        //             }, 3000);
-        //         }
-        //     }
-
-
-        // }
 
         xhr.onreadystatechange = function () {
 
@@ -128,6 +96,22 @@ export default function Home() {
 
 
         }
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/89/feedback');
+        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+   
+        var Assessment ="GTD Assessment Form"
+        xhttp.send("name=" + event.target.name.value +
+        '&email=' + email +
+        '&phone=' + phone +
+        '&organization=' + organization+
+        '&assessment=' + Assessment)
+
 
         xhr.onerror = function () {
             console.log('error');

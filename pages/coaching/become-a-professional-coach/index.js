@@ -70,6 +70,21 @@ export default function BrowseCourses() {
 
         }
 
+        var xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/53/feedback');
+        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+   
+        var Assessment ="Become a Professional Coach Assessment Form"
+        xhttp.send("name=" + event.target.name.value +
+        '&email=' + email +
+        '&phone=' + phone +
+        '&organization=' + organization+
+        '&assessment=' + Assessment)
+
         xhr.onerror = function () {
             console.log('error');
         }
