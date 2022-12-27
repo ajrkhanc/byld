@@ -95,6 +95,18 @@ export default function BrowseCourses() {
             <Head>
                 <title>Coaching | Become a Professional Coach</title>
                 <meta name="description" content="Coaching | Become a Professional Coach" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6X5MCEREV"></script>
+                <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-E6X5MCEREV');
+          `,
+            }}
+          />
             </Head>
 
             <section className='assesmentbannnerbg'>
