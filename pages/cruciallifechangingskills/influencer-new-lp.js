@@ -156,7 +156,7 @@ export default function BrowseCourses(){
                         <div class="col-md-6 col-6">
                         <select name='slot' required>
                             <option value="">Pick any Slot*</option>                            
-                            <option value="January 26th - 27th, 2023 – Workshop">January 26th - 27th, 2023 – Workshop</option>
+                            <option value="January 26th - 27th, 2023 – Workshop">January 24th - 25th, 2023 – Workshop</option>
                         </select>
                         </div>
 
@@ -221,7 +221,7 @@ export default function BrowseCourses(){
                             </div>
                             <h5 className='eventt'>Workshop</h5>
                              <div class="col-md-12 workshop-date green-col"> 
-                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> January 26th - 27th, 2023</h6>
+                            <h6><i class="fa fa-calendar" aria-hidden="true"></i> January 24th - 25th, 2023</h6>
                             <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
                             <a href='#registered'><button class="register">REGISTER NOW</button></a>
                             </div>
