@@ -5090,7 +5090,7 @@ line-height: 31px;
   
   .fcolmain {
 	display: inline-flex;
-	padding-right: 15px;
+	padding-right: 30px;
   }
   
   .fcolmain label {
@@ -5113,7 +5113,7 @@ line-height: 31px;
 	font-size: 20px;
 	font-weight: 500;
 	margin: 0px;
-	padding: 0px;
+	padding: 25px 0px 10px 0px;
 	color: #1b6194;
   }
   
@@ -5820,12 +5820,40 @@ line-height: 31px;
   
   .resh{
 	font-size: 28px !important;
-	padding: 20px 0px 15px 0px !important;
+	padding: 15px 0px 0px 0px !important;
 	margin: 0px !important;
   }
 
+  .phoh2{
+    font-size: 30px !important;
+    padding: 48px 0px 20px 0px;
+}
+
+.tblrr{
+	text-align: center !important;
+	color: #eb8123;
+    font-size: 36px;
+}
 
 
+.tdspn{
+	padding: 0px !important;
+}
+.tdspn span {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #000;
+	padding: 10px;
+    min-height: 50px;
+}
+
+.tdspn span:last-child{
+	border-bottom: 0px solid #000;
+}
+
+.mtttt{
+	margin-top: 10px;
+}
 
 
 

@@ -6,41 +6,21 @@ export default function BrowseCourses() {
         event.preventDefault();
         document.getElementById("submitbuttonform").value = "Submitting form....";
 
-        var trust1 = event.target.trust1.value;
-        var trust2 = event.target.trust2.value;
-        var trust3 = event.target.trust3.value;
-        var trust4 = event.target.trust4.value;
-        var trust5 = event.target.trust5.value;
-
-        var ec1 = event.target.ec1.value;
-        var ec2 = event.target.ec2.value;
-        var ec3 = event.target.ec3.value;
-        var ec4 = event.target.ec4.value;
-        var ec5 = event.target.ec5.value;
-        var ec6 = event.target.ec6.value;
-        var ec7 = event.target.ec7.value;
-        var ec8 = event.target.ec8.value;
-        var ec9 = event.target.ec9.value;
-        var ec10 = event.target.ec10.value;
-        var ec11 = event.target.ec11.value;
-        var ec12 = event.target.ec12.value;
-        var ec13 = event.target.ec13.value;
-        var ec14 = event.target.ec14.value;
-
-        var pf1 = event.target.pf1.value;
-        var pf2 = event.target.pf2.value;
-        var pf3 = event.target.pf3.value;
-        var pf4 = event.target.pf4.value;
-        var pf5 = event.target.pf5.value;
-        var pf6 = event.target.pf6.value;
-
-        var cr1 = event.target.cr1.value;
-        var cr2 = event.target.cr2.value;
-        var cr3 = event.target.cr3.value;
-        var cr4 = event.target.cr4.value;
-        var cr5 = event.target.cr5.value;
-
-
+        var q1 = event.target.q1.value;
+        var q2 = event.target.q2.value;
+        var q3 = event.target.q3.value;
+        var q4 = event.target.q4.value;
+        var q5 = event.target.q5.value;
+        var q6 = event.target.q6.value;
+        var q7 = event.target.q7.value;
+        var q8 = event.target.q8.value;
+        var q9 = event.target.q9.value;
+        var q10 = event.target.q10.value;
+        var q11 = event.target.q11.value;
+        var q12 = event.target.q12.value;
+        var q13 = event.target.q13.value;
+        var q14 = event.target.q14.value;
+        var q15 = event.target.q15.value;
 
         const name = event.target.name.value;
         const email = event.target.email.value;
@@ -53,38 +33,23 @@ export default function BrowseCourses() {
 
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'https://coral-app-2-a333o.ondigitalocean.app/api/career-coaching-snapshot');
+        xhr.open('POST', 'http://localhost:3000/api/the-power-of-habit-assessment');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-        xhr.send('trust1=' + trust1 +
-            '&trust2=' + trust2 +
-            '&trust3=' + trust3 +
-            '&trust4=' + trust4 +
-            '&trust5=' + trust5 +
-            '&ec1=' + ec1 +
-            '&ec2=' + ec2 +
-            '&ec3=' + ec3 +
-            '&ec4=' + ec4 +
-            '&ec5=' + ec5 +
-            '&ec6=' + ec6 +
-            '&ec7=' + ec7 +
-            '&ec8=' + ec8 +
-            '&ec9=' + ec9 +
-            '&ec10=' + ec10 +
-            '&ec11=' + ec11 +
-            '&ec12=' + ec12 +
-            '&ec13=' + ec13 +
-            '&ec14=' + ec14 +
-            '&pf1=' + pf1 +
-            '&pf2=' + pf2 +
-            '&pf3=' + pf3 +
-            '&pf4=' + pf4 +
-            '&pf5=' + pf5 +
-            '&pf6=' + pf6 +
-            '&cr1=' + cr1 +
-            '&cr2=' + cr2 +
-            '&cr3=' + cr3 +
-            '&cr4=' + cr4 +
-            '&cr5=' + cr5 +    
+        xhr.send('q1=' + q1 +
+            '&q2=' + q2 +
+            '&q3=' + q3 +
+            '&q4=' + q4 +
+            '&q5=' + q5 +
+            '&q6=' + q6 +
+            '&q7=' + q7 +
+            '&q8=' + q8 +
+            '&q9=' + q9 +
+            '&q10=' + q10 +
+            '&q11=' + q11 +
+            '&q12=' + q12 +
+            '&q13=' + q13 +
+            '&q14=' + q14 +
+            '&q15=' + q15 +
             '&name=' + name +
             '&email=' + email +
             '&phone=' + phone +
@@ -99,7 +64,7 @@ export default function BrowseCourses() {
                 document.getElementById("response").innerHTML = "Assessment Result"
 
                 window.setTimeout(function () {
-                    window.location.href = `/coaching/career-coaching-snapshot/${newnameurl}`
+                    window.location.href = `/cruciallifechangingskills/assessment/the-power-of-habit-assessment/${newnameurl}`
                 }, 1000);
 
             }
@@ -115,6 +80,21 @@ export default function BrowseCourses() {
 
         }
 
+        var xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/89/feedback');
+        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+   
+        var Assessment ="The Power of Habit Assessment Form"
+        xhttp.send("name=" + event.target.name.value +
+        '&email=' + email +
+        '&phone=' + phone +
+        '&organization=' + organization+
+        '&assessment=' + Assessment)
+
         xhr.onerror = function () {
             console.log('error');
         }
@@ -123,16 +103,16 @@ export default function BrowseCourses() {
     return (
         <>
             <Head>
-                <title>Coaching | Career Coaching Snapshot</title>
-                <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
+                <title>The Power of Habit Assessment | Crucial Learning</title>
+                <meta name="description" content="THE GREATEST PREDICTOR OF HIGH PERFORMANCE" />
             </Head>
 
             <section className='assesmentbannnerbg'>
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-12 text-center'>
-                            <h2 className='cacoh'>Career Coaching Snapshot</h2>
-                            <p>Select the number that best represents the extent to which you do the following (Use the line chart below as a guide.):</p>
+                            <h2 className='cacoh phoh2'>THE GREATEST PREDICTOR OF HIGH PERFORMANCE</h2>
+                            {/* <p>Select the number that best represents the extent to which you do the following (Use the line chart below as a guide.):</p>
                             <div className='clearfix'></div>
                             <div className='mainlinec'>
 
@@ -140,40 +120,28 @@ export default function BrowseCourses() {
                                     <div className='sbox'>
                                         <hr className='hrleft'></hr>
                                         <span>1</span>
-                                        <p>Strongly Disagree</p>
+                                        <p>1 = Never</p>
                                     </div>
                                     <div className='sbox'>
                                         <hr></hr>
-                                        <span>2</span>
-                                        <p>Disagree</p>
+                                        <span>2</span>                                        
                                     </div>
                                     <div className='sbox'>
                                         <hr></hr>
-                                        <span>3</span>
-                                        <p>Somewhat Disagree</p>
+                                        <span>3</span>                                       
                                     </div>
                                     <div className='sbox'>
                                         <hr></hr>
-                                        <span>4</span>
-                                        <p>Neither Agree nor Disagree</p>
-                                    </div>
-                                    <div className='sbox'>
-                                        <hr></hr>
-                                        <span>5</span>
-                                        <p>Somewhat Agree</p>
-                                    </div>
-                                    <div className='sbox'>
-                                        <hr></hr>
-                                        <span>6</span>
-                                        <p>Agree</p>
-                                    </div>
+                                        <span>4</span>                                        
+                                    </div>                                    
+
                                     <div className='sbox'>
                                         <hr className='hrright'></hr>
-                                        <span>7</span>
-                                        <p>Strongly Agree</p>
+                                        <span>10</span>
+                                        <p>10 = Always</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -185,873 +153,290 @@ export default function BrowseCourses() {
                     <div className='row'>
                         <div className='col-sm-12'>
                             <div className='fh3'>
-                                <h3>TRUST</h3>
+                                <h3>Identify Lag in Habits</h3>
                             </div>
                         </div>
                         <div className='col-sm-12'>
                             <div className='fcol1'>
                                 <h2>
-                                    1. I create a safe environment for talking about sensitive or personal topics
+                                    1. I am able to quikly identify when I am losing control over things and/or actions
                                 </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust1" value="1" id="trust1" required />
-                                    <label for="trust1">Strongly Disagree</label>
+                                    <input type="radio" name="q1" value="1" id="q1a" required />
+                                    <label for="q1a">1</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust1" value="2" id="trust2" required />
-                                    <label for="trust2">Disagree</label>
+                                    <input type="radio" name="q1" value="2" id="q1b" required />
+                                    <label for="q1b">2</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust1" value="3" id="trust3" required />
-                                    <label for="trust3">Somewhat Disagree</label>
+                                    <input type="radio" name="q1" value="3" id="q1c" required />
+                                    <label for="q1c">3</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust1" value="4" id="trust4" required />
-                                    <label for="trust4">Neither Agree nor Disagree</label>
+                                    <input type="radio" name="q1" value="4" id="q1d" required />
+                                    <label for="q1d">4</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust1" value="5" id="trust5" required />
-                                    <label for="trust5">Somewhat Agree</label>
+                                    <input type="radio" name="q1" value="5" id="q1e" required />
+                                    <label for="q1e">5</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust1" value="6" id="trust6" required />
-                                    <label for="trust6">Agree</label>
+                                    <input type="radio" name="q1" value="6" id="q1f" required />
+                                    <label for="q1f">6</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust1" value="7" id="trust7" required />
-                                    <label for="trust7">Strongly Agree</label>
+                                    <input type="radio" name="q1" value="7" id="q1g" required />
+                                    <label for="q1g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q1" value="8" id="q1h" required />
+                                    <label for="q1h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q1" value="9" id="q1i" required />
+                                    <label for="q1i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q1" value="10" id="q1j" required />
+                                    <label for="q1j">10</label>
                                 </div>
                             </div>
 
                             <div className='fcol1'>
                                 <h2>
-                                    2. I keep the conversation focused on the agenda of the other person
+                                    2. I am very aware of unhelpful patterns that I am building up
                                 </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust2" value="1" id="2trust1" required />
-                                    <label for="2trust1">Strongly Disagree</label>
+                                    <input type="radio" name="q2" value="1" id="q2a" required />
+                                    <label for="q2a">1</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust2" value="2" id="2trust2" required />
-                                    <label for="2trust2">Disagree</label>
+                                    <input type="radio" name="q2" value="2" id="q2b" required />
+                                    <label for="q2b">2</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust2" value="3" id="2trust3" required />
-                                    <label for="2trust3">Somewhat Disagree</label>
+                                    <input type="radio" name="q2" value="3" id="q2c" required />
+                                    <label for="q2c">3</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust2" value="4" id="2trust4" required />
-                                    <label for="2trust4">Neither Agree nor Disagree</label>
+                                    <input type="radio" name="q2" value="4" id="q2d" required />
+                                    <label for="q2d">4</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust2" value="5" id="2trust5" required />
-                                    <label for="2trust5">Somewhat Agree</label>
+                                    <input type="radio" name="q2" value="5" id="q2e" required />
+                                    <label for="q2e">5</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust2" value="6" id="2trust6" required />
-                                    <label for="2trust6">Agree</label>
+                                    <input type="radio" name="q2" value="6" id="q2f" required />
+                                    <label for="q2f">6</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust2" value="7" id="2trust7" required />
-                                    <label for="2trust7">Strongly Agree</label>
+                                    <input type="radio" name="q2" value="7" id="q2g" required />
+                                    <label for="q2g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q2" value="8" id="q2h" required />
+                                    <label for="q2h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q2" value="9" id="q2i" required />
+                                    <label for="q2i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q2" value="10" id="q2j" required />
+                                    <label for="q2j">10</label>
                                 </div>
                             </div>
 
                             <div className='fcol1'>
                                 <h2>
-                                    3. I communicate openly and honestly at all times
+                                    3. I am aware very aware of cost I will pay, when I delay changing unhelful habits
                                 </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust3" value="1" id="3trust1" required />
-                                    <label for="3trust1">Strongly Disagree</label>
+                                    <input type="radio" name="q3" value="1" id="q3a" required />
+                                    <label for="q3a">1</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust3" value="2" id="3trust2" required />
-                                    <label for="3trust2">Disagree</label>
+                                    <input type="radio" name="q3" value="2" id="q3b" required />
+                                    <label for="q3b">2</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust3" value="3" id="3trust3" required />
-                                    <label for="3trust3">Somewhat Disagree</label>
+                                    <input type="radio" name="q3" value="3" id="q3c" required />
+                                    <label for="q3c">3</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust3" value="4" id="3trust4" required />
-                                    <label for="3trust4">Neither Agree nor Disagree</label>
+                                    <input type="radio" name="q3" value="4" id="q3d" required />
+                                    <label for="q3d">4</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust3" value="5" id="3trust5" required />
-                                    <label for="3trust5">Somewhat Agree</label>
+                                    <input type="radio" name="q3" value="5" id="q3e" required />
+                                    <label for="q3e">5</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust3" value="6" id="3trust6" required />
-                                    <label for="3trust6">Agree</label>
+                                    <input type="radio" name="q3" value="6" id="q3f" required />
+                                    <label for="q3f">6</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust3" value="7" id="3trust7" required />
-                                    <label for="3trust7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    4. My commitments relating to each coaching conversation are always made clear to the other person
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="trust4" value="1" id="4trust1" required />
-                                    <label for="4trust1">Strongly Disagree</label>
+                                    <input type="radio" name="q3" value="7" id="q3g" required />
+                                    <label for="q3g">7</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust4" value="2" id="4trust2" required />
-                                    <label for="4trust2">Disagree</label>
+                                    <input type="radio" name="q3" value="8" id="q3h" required />
+                                    <label for="q3h">8</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust4" value="3" id="4trust3" required />
-                                    <label for="4trust3">Somewhat Disagree</label>
+                                    <input type="radio" name="q3" value="9" id="q3i" required />
+                                    <label for="q3i">9</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="trust4" value="4" id="4trust4" required />
-                                    <label for="4trust4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="trust4" value="5" id="4trust5" required />
-                                    <label for="4trust5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="trust4" value="6" id="4trust6" required />
-                                    <label for="4trust6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="trust4" value="7" id="4trust7" required />
-                                    <label for="4trust7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    5. I consistently follow through on my commitments
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="trust5" value="1" id="5trust1" required />
-                                    <label for="5trust1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="trust5" value="2" id="5trust2" required />
-                                    <label for="5trust2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="trust5" value="3" id="5trust3" required />
-                                    <label for="5trust3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="trust5" value="4" id="5trust4" required />
-                                    <label for="5trust4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="trust5" value="5" id="5trust5" required />
-                                    <label for="5trust5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="trust5" value="6" id="5trust6" required />
-                                    <label for="5trust6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="trust5" value="7" id="5trust7" required />
-                                    <label for="5trust7">Strongly Agree</label>
+                                    <input type="radio" name="q3" value="10" id="q3j" required />
+                                    <label for="q3j">10</label>
                                 </div>
                             </div>
                         </div>
 
                         <div className='col-sm-12'>
                             <div className='fh3'>
-                                <h3>EFFECTIVE COMMUNICATION</h3>
+                                <h3>Leave the Lag Behind</h3>
                             </div>
                         </div>
                         <div className='col-sm-12'>
                             <div className='fcol1'>
                                 <h2>
-                                    6. I make it clear when commitments can't be met
+                                    4. I am able to identify new behaviours that will replace the current ones
                                 </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec1" value="1" id="1ec1" required />
-                                    <label for="1ec1">Strongly Disagree</label>
+                                    <input type="radio" name="q4" value="1" id="q4a" required />
+                                    <label for="q4a">1</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec1" value="2" id="1ec2" required />
-                                    <label for="1ec2">Disagree</label>
+                                    <input type="radio" name="q4" value="2" id="q4b" required />
+                                    <label for="q4b">2</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec1" value="3" id="1ec3" required />
-                                    <label for="1ec3">Somewhat Disagree</label>
+                                    <input type="radio" name="q4" value="3" id="q4c" required />
+                                    <label for="q4c">3</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec1" value="4" id="1ec4" required />
-                                    <label for="1ec4">Neither Agree nor Disagree</label>
+                                    <input type="radio" name="q4" value="4" id="q4d" required />
+                                    <label for="q4d">4</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec1" value="5" id="1ec5" required />
-                                    <label for="1ec5">Somewhat Agree</label>
+                                    <input type="radio" name="q4" value="5" id="q4e" required />
+                                    <label for="q4e">5</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec1" value="6" id="1ec6" required />
-                                    <label for="1ec6">Agree</label>
+                                    <input type="radio" name="q4" value="6" id="q4f" required />
+                                    <label for="q4f">6</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec1" value="7" id="1ec7" required />
-                                    <label for="1ec7">Strongly Agree</label>
+                                    <input type="radio" name="q4" value="7" id="q4g" required />
+                                    <label for="q4g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q4" value="8" id="q4h" required />
+                                    <label for="q4h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q4" value="9" id="q4i" required />
+                                    <label for="q4i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q4" value="10" id="q4j" required />
+                                    <label for="q4j">10</label>
                                 </div>
                             </div>
 
                             <div className='fcol1'>
                                 <h2>
-                                    7. I set a clear goal for every coaching conversation
+                                    5. I try to see if, there are skills to learnt to develop new behaviour patterns
                                 </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec2" value="1" id="2ec1" required />
-                                    <label for="2ec1">Strongly Disagree</label>
+                                    <input type="radio" name="q5" value="1" id="q5a" required />
+                                    <label for="q5a">1</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec2" value="2" id="2ec2" required />
-                                    <label for="2ec2">Disagree</label>
+                                    <input type="radio" name="q5" value="2" id="q5b" required />
+                                    <label for="q5b">2</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec2" value="3" id="2ec3" required />
-                                    <label for="2ec3">Somewhat Disagree</label>
+                                    <input type="radio" name="q5" value="3" id="q5c" required />
+                                    <label for="q5c">3</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec2" value="4" id="2ec4" required />
-                                    <label for="2ec4">Neither Agree nor Disagree</label>
+                                    <input type="radio" name="q5" value="4" id="q5d" required />
+                                    <label for="q5d">4</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec2" value="5" id="2ec5" required />
-                                    <label for="2ec5">Somewhat Agree</label>
+                                    <input type="radio" name="q5" value="5" id="q5e" required />
+                                    <label for="q5e">5</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec2" value="6" id="2ec6" required />
-                                    <label for="2ec6">Agree</label>
+                                    <input type="radio" name="q5" value="6" id="q5f" required />
+                                    <label for="q5f">6</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec2" value="7" id="2ec7" required />
-                                    <label for="2ec7">Strongly Agree</label>
+                                    <input type="radio" name="q5" value="7" id="q5g" required />
+                                    <label for="q5g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q5" value="8" id="q5h" required />
+                                    <label for="q5h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q5" value="9" id="q5i" required />
+                                    <label for="q5i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q5" value="10" id="q5j" required />
+                                    <label for="q5j">10</label>
                                 </div>
                             </div>
 
                             <div className='fcol1'>
                                 <h2>
-                                    8. I keep every coaching conversation focused on achieving agreed upon goals
+                                    6. I am able to see the impact of unhelpful habits on results and relationships
                                 </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec3" value="1" id="3ec1" required />
-                                    <label for="3ec1">Strongly Disagree</label>
+                                    <input type="radio" name="q6" value="1" id="q6a" required />
+                                    <label for="q6a">1</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec3" value="2" id="3ec2" required />
-                                    <label for="3ec2">Disagree</label>
+                                    <input type="radio" name="q6" value="2" id="q6b" required />
+                                    <label for="q6b">2</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec3" value="3" id="3ec3" required />
-                                    <label for="3ec3">Somewhat Disagree</label>
+                                    <input type="radio" name="q6" value="3" id="q6c" required />
+                                    <label for="q6c">3</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec3" value="4" id="3ec4" required />
-                                    <label for="3ec4">Neither Agree nor Disagree</label>
+                                    <input type="radio" name="q6" value="4" id="q6d" required />
+                                    <label for="q6d">4</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec3" value="5" id="3ec5" required />
-                                    <label for="3ec5">Somewhat Agree</label>
+                                    <input type="radio" name="q6" value="5" id="q6e" required />
+                                    <label for="q6e">5</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec3" value="6" id="3ec6" required />
-                                    <label for="3ec6">Agree</label>
+                                    <input type="radio" name="q6" value="6" id="q6f" required />
+                                    <label for="q6f">6</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec3" value="7" id="3ec7" required />
-                                    <label for="3ec7">Strongly Agree</label>
+                                    <input type="radio" name="q6" value="7" id="q6g" required />
+                                    <label for="q6g">7</label>
                                 </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    9. I help others think of alternative ways to view a problem or solution
-                                </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec4" value="1" id="4ec1" required />
-                                    <label for="4ec1">Strongly Disagree</label>
+                                    <input type="radio" name="q6" value="8" id="q6h" required />
+                                    <label for="q6h">8</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec4" value="2" id="4ec2" required />
-                                    <label for="4ec2">Disagree</label>
+                                    <input type="radio" name="q6" value="9" id="q6i" required />
+                                    <label for="q6i">9</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="ec4" value="3" id="4ec3" required />
-                                    <label for="4ec3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec4" value="4" id="4ec4" required />
-                                    <label for="4ec4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec4" value="5" id="4ec5" required />
-                                    <label for="4ec5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec4" value="6" id="4ec6" required />
-                                    <label for="4ec6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec4" value="7" id="4ec7" required />
-                                    <label for="4ec7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    10. I help others think of as many ideas or options as they can to solve a problem
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec5" value="1" id="5ec1" required />
-                                    <label for="5ec1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec5" value="2" id="5ec2" required />
-                                    <label for="5ec2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec5" value="3" id="5ec3" required />
-                                    <label for="5ec3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec5" value="4" id="5ec4" required />
-                                    <label for="5ec4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec5" value="5" id="5ec5" required />
-                                    <label for="5ec5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec5" value="6" id="5ec6" required />
-                                    <label for="5ec6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec5" value="7" id="5ec7" required />
-                                    <label for="5ec7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    11. I listen to new ideas without jumping in to judge or evaluate them too soon
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec6" value="1" id="6ec1" required />
-                                    <label for="6ec1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec6" value="2" id="6ec2" required />
-                                    <label for="6ec2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec6" value="3" id="6ec3" required />
-                                    <label for="6ec3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec6" value="4" id="6ec4" required />
-                                    <label for="6ec4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec6" value="5" id="6ec5" required />
-                                    <label for="6ec5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec6" value="6" id="6ec6" required />
-                                    <label for="6ec6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec6" value="7" id="6ec7" required />
-                                    <label for="6ec7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    12. I stay objective during coaching conversations
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec7" value="1" id="7ec1" required />
-                                    <label for="7ec1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec7" value="2" id="7ec2" required />
-                                    <label for="7ec2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec7" value="3" id="7ec3" required />
-                                    <label for="7ec3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec7" value="4" id="7ec4" required />
-                                    <label for="7ec4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec7" value="5" id="7ec5" required />
-                                    <label for="7ec5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec7" value="6" id="7ec6" required />
-                                    <label for="7ec6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec7" value="7" id="7ec7" required />
-                                    <label for="7ec7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    13. I communicate in a way that makes others want to share their ideas or perspective
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec8" value="1" id="8ec1" required />
-                                    <label for="8ec1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec8" value="2" id="8ec2" required />
-                                    <label for="8ec2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec8" value="3" id="8ec3" required />
-                                    <label for="8ec3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec8" value="4" id="8ec4" required />
-                                    <label for="8ec4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec8" value="5" id="8ec5" required />
-                                    <label for="8ec5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec8" value="6" id="8ec6" required />
-                                    <label for="8ec6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec8" value="7" id="8ec7" required />
-                                    <label for="8ec7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    14. I help others draw their own conclusions when considering different perspectives or approaches
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec9" value="1" id="9ec1" required />
-                                    <label for="9ec1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec9" value="2" id="9ec2" required />
-                                    <label for="9ec2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec9" value="3" id="9ec3" required />
-                                    <label for="9ec3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec9" value="4" id="9ec4" required />
-                                    <label for="9ec4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec9" value="5" id="9ec5" required />
-                                    <label for="9ec5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec9" value="6" id="9ec6" required />
-                                    <label for="9ec6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec9" value="7" id="9ec7" required />
-                                    <label for="9ec7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    15. I demonstrate understanding by reflecting back or summarizing what was said
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec10" value="1" id="10ec1" required />
-                                    <label for="10ec1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec10" value="2" id="10ec2" required />
-                                    <label for="10ec2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec10" value="3" id="10ec3" required />
-                                    <label for="10ec3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec10" value="4" id="10ec4" required />
-                                    <label for="10ec4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec10" value="5" id="10ec5" required />
-                                    <label for="10ec5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec10" value="6" id="10ec6" required />
-                                    <label for="10ec6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec10" value="7" id="10ec7" required />
-                                    <label for="10ec7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    16. My body language demonstrates a high level of engagement in each conversation
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec11" value="1" id="11ec1" required />
-                                    <label for="11ec1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec11" value="2" id="11ec2" required />
-                                    <label for="11ec2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec11" value="3" id="11ec3" required />
-                                    <label for="11ec3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec11" value="4" id="11ec4" required />
-                                    <label for="11ec4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec11" value="5" id="11ec5" required />
-                                    <label for="11ec5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec11" value="6" id="11ec6" required />
-                                    <label for="11ec6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec11" value="7" id="11ec7" required />
-                                    <label for="11ec7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    17. I spend more time listening and less time talking
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec12" value="1" id="12ec1" required />
-                                    <label for="12ec1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec12" value="2" id="12ec2" required />
-                                    <label for="12ec2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec12" value="3" id="12ec3" required />
-                                    <label for="12ec3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec12" value="4" id="12ec4" required />
-                                    <label for="12ec4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec12" value="5" id="12ec5" required />
-                                    <label for="12ec5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec12" value="6" id="12ec6" required />
-                                    <label for="12ec6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec12" value="7" id="12ec7" required />
-                                    <label for="12ec7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    18. I ask helpful questions during conversations
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec13" value="1" id="13ec1" required />
-                                    <label for="13ec1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec13" value="2" id="13ec2" required />
-                                    <label for="13ec2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec13" value="3" id="13ec3" required />
-                                    <label for="13ec3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec13" value="4" id="13ec4" required />
-                                    <label for="13ec4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec13" value="5" id="13ec5" required />
-                                    <label for="13ec5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec13" value="6" id="13ec6" required />
-                                    <label for="13ec6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec13" value="7" id="13ec7" required />
-                                    <label for="13ec7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    19. I am willing to ask tough questions when needed
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec14" value="1" id="14ec1" required />
-                                    <label for="14ec1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec14" value="2" id="14ec2" required />
-                                    <label for="14ec2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec14" value="3" id="14ec3" required />
-                                    <label for="14ec3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec14" value="4" id="14ec4" required />
-                                    <label for="14ec4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec14" value="5" id="14ec5" required />
-                                    <label for="14ec5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec14" value="6" id="14ec6" required />
-                                    <label for="14ec6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="ec14" value="7" id="14ec7" required />
-                                    <label for="14ec7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                        <div className='col-sm-12'>
-                            <div className='fh3'>
-                                <h3>PERFORMANCE FOCUS</h3>
-                            </div>
-                        </div>
-                        <div className='col-sm-12'>
-                            <div className='fcol1'>
-                                <h2>
-                                    20. I always end a coaching conversation by clarifying actions or commitments
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf1" value="1" id="1pf1" required />
-                                    <label for="1pf1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf1" value="2" id="1pf2" required />
-                                    <label for="1pf2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf1" value="3" id="1pf3" required />
-                                    <label for="1pf3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf1" value="4" id="1pf4" required />
-                                    <label for="1pf4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf1" value="5" id="1pf5" required />
-                                    <label for="1pf5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf1" value="6" id="1pf6" required />
-                                    <label for="1pf6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf1" value="7" id="1pf7" required />
-                                    <label for="1pf7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    21. I support others in setting specific dates for follow-up actions and commitments
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf2" value="1" id="2pf1" required />
-                                    <label for="2pf1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf2" value="2" id="2pf2" required />
-                                    <label for="2pf2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf2" value="3" id="2pf3" required />
-                                    <label for="2pf3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf2" value="4" id="2pf4" required />
-                                    <label for="2pf4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf2" value="5" id="2pf5" required />
-                                    <label for="2pf5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf2" value="6" id="2pf6" required />
-                                    <label for="2pf6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf2" value="7" id="2pf7" required />
-                                    <label for="2pf7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    22. I help others set priorities based on our organization’s needs
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf3" value="1" id="3pf1" required />
-                                    <label for="3pf1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf3" value="2" id="3pf2" required />
-                                    <label for="3pf2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf3" value="3" id="3pf3" required />
-                                    <label for="3pf3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf3" value="4" id="3pf4" required />
-                                    <label for="3pf4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf3" value="5" id="3pf5" required />
-                                    <label for="3pf5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf3" value="6" id="3pf6" required />
-                                    <label for="3pf6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf3" value="7" id="3pf7" required />
-                                    <label for="3pf7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    23. I make a clear link between our coaching conversations and career priorities
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf4" value="1" id="4pf1" required />
-                                    <label for="4pf1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf4" value="2" id="4pf2" required />
-                                    <label for="4pf2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf4" value="3" id="4pf3" required />
-                                    <label for="4pf3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf4" value="4" id="4pf4" required />
-                                    <label for="4pf4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf4" value="5" id="4pf5" required />
-                                    <label for="4pf5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf4" value="6" id="4pf6" required />
-                                    <label for="4pf6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf4" value="7" id="4pf7" required />
-                                    <label for="4pf7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    24. I provide the coaching others need to grow in their career
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf5" value="1" id="5pf1" required />
-                                    <label for="5pf1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf5" value="2" id="5pf2" required />
-                                    <label for="5pf2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf5" value="3" id="5pf3" required />
-                                    <label for="5pf3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf5" value="4" id="5pf4" required />
-                                    <label for="5pf4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf5" value="5" id="5pf5" required />
-                                    <label for="5pf5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf5" value="6" id="5pf6" required />
-                                    <label for="5pf6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf5" value="7" id="5pf7" required />
-                                    <label for="5pf7">Strongly Agree</label>
-                                </div>
-                            </div>
-
-                            <div className='fcol1'>
-                                <h2>
-                                    25. Others achieve better results because of the coaching they get from me
-                                </h2>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf6" value="1" id="6pf1" required />
-                                    <label for="6pf1">Strongly Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf6" value="2" id="6pf2" required />
-                                    <label for="6pf2">Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf6" value="3" id="6pf3" required />
-                                    <label for="6pf3">Somewhat Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf6" value="4" id="6pf4" required />
-                                    <label for="6pf4">Neither Agree nor Disagree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf6" value="5" id="6pf5" required />
-                                    <label for="6pf5">Somewhat Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf6" value="6" id="6pf6" required />
-                                    <label for="6pf6">Agree</label>
-                                </div>
-                                <div className='fcolmain'>
-                                    <input type="radio" name="pf6" value="7" id="6pf7" required />
-                                    <label for="6pf7">Strongly Agree</label>
+                                    <input type="radio" name="q6" value="10" id="q6j" required />
+                                    <label for="q6j">10</label>
                                 </div>
                             </div>
                         </div>
@@ -1059,180 +444,441 @@ export default function BrowseCourses() {
 
                         <div className='col-sm-12'>
                             <div className='fh3'>
-                                <h3>COACHING ROUTINE</h3>
+                                <h3>Make New Routines Easy</h3>
                             </div>
                         </div>
                         <div className='col-sm-12'>
                             <div className='fcol1'>
                                 <h2>
-                                    26. I regularly make time to help others explore career growth challenges
+                                    7. I break my new routines to make them easy 
                                 </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr1" value="1" id="1cr1" required />
-                                    <label for="1cr1">Strongly Disagree</label>
+                                    <input type="radio" name="q7" value="1" id="q7a" required />
+                                    <label for="q7a">1</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr1" value="2" id="1cr2" required />
-                                    <label for="1cr2">Disagree</label>
+                                    <input type="radio" name="q7" value="2" id="q7b" required />
+                                    <label for="q7b">2</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr1" value="3" id="1cr3" required />
-                                    <label for="1cr3">Somewhat Disagree</label>
+                                    <input type="radio" name="q7" value="3" id="q7c" required />
+                                    <label for="q7c">3</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr1" value="4" id="1cr4" required />
-                                    <label for="1cr4">Neither Agree nor Disagree</label>
+                                    <input type="radio" name="q7" value="4" id="q7d" required />
+                                    <label for="q7d">4</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr1" value="5" id="1cr5" required />
-                                    <label for="1cr5">Somewhat Agree</label>
+                                    <input type="radio" name="q7" value="5" id="q7e" required />
+                                    <label for="q7e">5</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr1" value="6" id="1cr6" required />
-                                    <label for="1cr6">Agree</label>
+                                    <input type="radio" name="q7" value="6" id="q7f" required />
+                                    <label for="q7f">6</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr1" value="7" id="1cr7" required />
-                                    <label for="1cr7">Strongly Agree</label>
+                                    <input type="radio" name="q7" value="7" id="q7g" required />
+                                    <label for="q7g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q7" value="8" id="q7h" required />
+                                    <label for="q7h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q7" value="9" id="q7i" required />
+                                    <label for="q7i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q7" value="10" id="q7j" required />
+                                    <label for="q7j">10</label>
                                 </div>
                             </div>
 
                             <div className='fcol1'>
                                 <h2>
-                                    27. I take time with others to check on their progress
+                                    8. I cue my new routines to remind me in readily and at right time & places
                                 </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr2" value="1" id="2cr1" required />
-                                    <label for="2cr1">Strongly Disagree</label>
+                                    <input type="radio" name="q8" value="1" id="q8a" required />
+                                    <label for="q8a">1</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr2" value="2" id="2cr2" required />
-                                    <label for="2cr2">Disagree</label>
+                                    <input type="radio" name="q8" value="2" id="q8b" required />
+                                    <label for="q8b">2</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr2" value="3" id="2cr3" required />
-                                    <label for="2cr3">Somewhat Disagree</label>
+                                    <input type="radio" name="q8" value="3" id="q8c" required />
+                                    <label for="q8c">3</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr2" value="4" id="2cr4" required />
-                                    <label for="2cr4">Neither Agree nor Disagree</label>
+                                    <input type="radio" name="q8" value="4" id="q8d" required />
+                                    <label for="q8d">4</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr2" value="5" id="2cr5" required />
-                                    <label for="2cr5">Somewhat Agree</label>
+                                    <input type="radio" name="q8" value="5" id="q8e" required />
+                                    <label for="q8e">5</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr2" value="6" id="2cr6" required />
-                                    <label for="2cr6">Agree</label>
+                                    <input type="radio" name="q8" value="6" id="q8f" required />
+                                    <label for="q8f">6</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr2" value="7" id="2cr7" required />
-                                    <label for="2cr7">Strongly Agree</label>
+                                    <input type="radio" name="q8" value="7" id="q8g" required />
+                                    <label for="q8g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q8" value="8" id="q8h" required />
+                                    <label for="q8h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q8" value="9" id="q8i" required />
+                                    <label for="q8i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q8" value="10" id="q8j" required />
+                                    <label for="q8j">10</label>
                                 </div>
                             </div>
 
                             <div className='fcol1'>
                                 <h2>
-                                    28. I provide the support others need to stay on track
+                                    9. I use some method or process  or tool to support my new behaviour
                                 </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr3" value="1" id="3cr1" required />
-                                    <label for="3cr1">Strongly Disagree</label>
+                                    <input type="radio" name="q9" value="1" id="q9a" required />
+                                    <label for="q9a">1</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr3" value="2" id="3cr2" required />
-                                    <label for="3cr2">Disagree</label>
+                                    <input type="radio" name="q9" value="2" id="q9b" required />
+                                    <label for="q9b">2</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr3" value="3" id="3cr3" required />
-                                    <label for="3cr3">Somewhat Disagree</label>
+                                    <input type="radio" name="q9" value="3" id="q9c" required />
+                                    <label for="q9c">3</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr3" value="4" id="3cr4" required />
-                                    <label for="3cr4">Neither Agree nor Disagree</label>
+                                    <input type="radio" name="q9" value="4" id="q9d" required />
+                                    <label for="q9d">4</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr3" value="5" id="3cr5" required />
-                                    <label for="3cr5">Somewhat Agree</label>
+                                    <input type="radio" name="q9" value="5" id="q9e" required />
+                                    <label for="q9e">5</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr3" value="6" id="3cr6" required />
-                                    <label for="3cr6">Agree</label>
+                                    <input type="radio" name="q9" value="6" id="q9f" required />
+                                    <label for="q9f">6</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr3" value="7" id="3cr7" required />
-                                    <label for="3cr7">Strongly Agree</label>
+                                    <input type="radio" name="q9" value="7" id="q9g" required />
+                                    <label for="q9g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q9" value="8" id="q9h" required />
+                                    <label for="q9h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q9" value="9" id="q9i" required />
+                                    <label for="q9i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q9" value="10" id="q9j" required />
+                                    <label for="q9j">10</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className='col-sm-12'>
+                            <div className='fh3'>
+                                <h3>Make it Desirable</h3>
+                            </div>
+                        </div>
+                        <div className='col-sm-12'>
+                            <div className='fcol1'>
+                                <h2>
+                                    10. I reward my new behaviours 
+                                </h2>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q10" value="1" id="q10a" required />
+                                    <label for="q10a">1</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q10" value="2" id="q10b" required />
+                                    <label for="q10b">2</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q10" value="3" id="q10c" required />
+                                    <label for="q10c">3</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q10" value="4" id="q10d" required />
+                                    <label for="q10d">4</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q10" value="5" id="q10e" required />
+                                    <label for="q10e">5</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q10" value="6" id="q10f" required />
+                                    <label for="q10f">6</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q10" value="7" id="q10g" required />
+                                    <label for="q10g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q10" value="8" id="q10h" required />
+                                    <label for="q10h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q10" value="9" id="q10i" required />
+                                    <label for="q10i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q10" value="10" id="q10j" required />
+                                    <label for="q10j">10</label>
                                 </div>
                             </div>
 
                             <div className='fcol1'>
                                 <h2>
-                                    29. I remind others of the commitments they have made
+                                    11. I link my new behaviours in what I deeply value
                                 </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr4" value="1" id="4cr1" required />
-                                    <label for="4cr1">Strongly Disagree</label>
+                                    <input type="radio" name="q11" value="1" id="q11a" required />
+                                    <label for="q11a">1</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr4" value="2" id="4cr2" required />
-                                    <label for="4cr2">Disagree</label>
+                                    <input type="radio" name="q11" value="2" id="q11b" required />
+                                    <label for="q11b">2</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr4" value="3" id="4cr3" required />
-                                    <label for="4cr3">Somewhat Disagree</label>
+                                    <input type="radio" name="q11" value="3" id="q11c" required />
+                                    <label for="q11c">3</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr4" value="4" id="4cr4" required />
-                                    <label for="4cr4">Neither Agree nor Disagree</label>
+                                    <input type="radio" name="q11" value="4" id="q11d" required />
+                                    <label for="q11d">4</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr4" value="5" id="4cr5" required />
-                                    <label for="4cr5">Somewhat Agree</label>
+                                    <input type="radio" name="q11" value="5" id="q11e" required />
+                                    <label for="q11e">5</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr4" value="6" id="4cr6" required />
-                                    <label for="4cr6">Agree</label>
+                                    <input type="radio" name="q11" value="6" id="q11f" required />
+                                    <label for="q11f">6</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr4" value="7" id="4cr7" required />
-                                    <label for="4cr7">Strongly Agree</label>
+                                    <input type="radio" name="q11" value="7" id="q11g" required />
+                                    <label for="q11g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q11" value="8" id="q11h" required />
+                                    <label for="q11h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q11" value="9" id="q11i" required />
+                                    <label for="q11i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q11" value="10" id="q11j" required />
+                                    <label for="q11j">10</label>
                                 </div>
                             </div>
 
                             <div className='fcol1'>
                                 <h2>
-                                    30. I encourage others to take responsibility for their own development
+                                    12. I make wrong behaviours difficult for myself
                                 </h2>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr5" value="1" id="5cr1" required />
-                                    <label for="5cr1">Strongly Disagree</label>
+                                    <input type="radio" name="q12" value="1" id="q12a" required />
+                                    <label for="q12a">1</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr5" value="2" id="5cr2" required />
-                                    <label for="5cr2">Disagree</label>
+                                    <input type="radio" name="q12" value="2" id="q12b" required />
+                                    <label for="q12b">2</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr5" value="3" id="5cr3" required />
-                                    <label for="5cr3">Somewhat Disagree</label>
+                                    <input type="radio" name="q12" value="3" id="q12c" required />
+                                    <label for="q12c">3</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr5" value="4" id="5cr4" required />
-                                    <label for="5cr4">Neither Agree nor Disagree</label>
+                                    <input type="radio" name="q12" value="4" id="q12d" required />
+                                    <label for="q12d">4</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr5" value="5" id="5cr5" required />
-                                    <label for="5cr5">Somewhat Agree</label>
+                                    <input type="radio" name="q12" value="5" id="q12e" required />
+                                    <label for="q12e">5</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr5" value="6" id="5cr6" required />
-                                    <label for="5cr6">Agree</label>
+                                    <input type="radio" name="q12" value="6" id="q12f" required />
+                                    <label for="q12f">6</label>
                                 </div>
                                 <div className='fcolmain'>
-                                    <input type="radio" name="cr5" value="7" id="5cr7" required />
-                                    <label for="5cr7">Strongly Agree</label>
+                                    <input type="radio" name="q12" value="7" id="q12g" required />
+                                    <label for="q12g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q12" value="8" id="q12h" required />
+                                    <label for="q12h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q12" value="9" id="q12i" required />
+                                    <label for="q12i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q12" value="10" id="q12j" required />
+                                    <label for="q12j">10</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='col-sm-12'>
+                            <div className='fh3'>
+                                <h3>Make New Habit, Habitual</h3>
+                            </div>
+                        </div>
+                        <div className='col-sm-12'>
+                            <div className='fcol1'>
+                                <h2>
+                                    13. I track my new behaviours or routines
+                                </h2>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q13" value="1" id="q13a" required />
+                                    <label for="q13a">1</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q13" value="2" id="q13b" required />
+                                    <label for="q13b">2</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q13" value="3" id="q13c" required />
+                                    <label for="q13c">3</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q13" value="4" id="q13d" required />
+                                    <label for="q13d">4</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q13" value="5" id="q13e" required />
+                                    <label for="q13e">5</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q13" value="6" id="q13f" required />
+                                    <label for="q13f">6</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q13" value="7" id="q13g" required />
+                                    <label for="q13g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q13" value="8" id="q13h" required />
+                                    <label for="q13h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q13" value="9" id="q13i" required />
+                                    <label for="q13i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q13" value="10" id="q13j" required />
+                                    <label for="q13j">10</label>
                                 </div>
                             </div>
 
+                            <div className='fcol1'>
+                                <h2>
+                                    14. I try to adapt, when things are working the way I need them to
+                                </h2>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q14" value="1" id="q14a" required />
+                                    <label for="q14a">1</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q14" value="2" id="q14b" required />
+                                    <label for="q14b">2</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q14" value="3" id="q14c" required />
+                                    <label for="q14c">3</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q14" value="4" id="q14d" required />
+                                    <label for="q14d">4</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q14" value="5" id="q14e" required />
+                                    <label for="q14e">5</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q14" value="6" id="q14f" required />
+                                    <label for="q14f">6</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q14" value="7" id="q14g" required />
+                                    <label for="q14g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q14" value="8" id="q14h" required />
+                                    <label for="q14h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q14" value="9" id="q14i" required />
+                                    <label for="q14i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q14" value="10" id="q14j" required />
+                                    <label for="q14j">10</label>
+                                </div>
+                            </div>
+
+                            <div className='fcol1'>
+                                <h2>
+                                    15. I have a plan to create new habits
+                                </h2>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q15" value="1" id="q15a" required />
+                                    <label for="q15a">1</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q15" value="2" id="q15b" required />
+                                    <label for="q15b">2</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q15" value="3" id="q15c" required />
+                                    <label for="q15c">3</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q15" value="4" id="q15d" required />
+                                    <label for="q15d">4</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q15" value="5" id="q15e" required />
+                                    <label for="q15e">5</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q15" value="6" id="q15f" required />
+                                    <label for="q15f">6</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q15" value="7" id="q15g" required />
+                                    <label for="q15g">7</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q15" value="8" id="q15h" required />
+                                    <label for="q15h">8</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q15" value="9" id="q15i" required />
+                                    <label for="q15i">9</label>
+                                </div>
+                                <div className='fcolmain'>
+                                    <input type="radio" name="q15" value="10" id="q15j" required />
+                                    <label for="q15j">10</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='col-sm-12'>
                             <div className='fcol1 lastinp ptt-20'>
                                 <div className='row inpuut'>
                                     <div className="col-sm-6 mb-12">
