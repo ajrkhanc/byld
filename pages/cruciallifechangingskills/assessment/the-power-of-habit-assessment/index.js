@@ -112,7 +112,7 @@ export default function BrowseCourses() {
                     <div className='row align-items-center'>
                         <div className='col-md-12 text-center'>
                             <h2 className='cacoh phoh2'>THE GREATEST PREDICTOR OF HIGH PERFORMANCE</h2>
-                            {/* <p>Select the number that best represents the extent to which you do the following (Use the line chart below as a guide.):</p>
+                            
                             <div className='clearfix'></div>
                             <div className='mainlinec'>
 
@@ -133,7 +133,27 @@ export default function BrowseCourses() {
                                     <div className='sbox'>
                                         <hr></hr>
                                         <span>4</span>                                        
-                                    </div>                                    
+                                    </div> 
+                                    <div className='sbox'>
+                                        <hr></hr>
+                                        <span>5</span>                                        
+                                    </div>
+                                    <div className='sbox'>
+                                        <hr></hr>
+                                        <span>6</span>                                        
+                                    </div>
+                                    <div className='sbox'>
+                                        <hr></hr>
+                                        <span>7</span>                                        
+                                    </div>
+                                    <div className='sbox'>
+                                        <hr></hr>
+                                        <span>8</span>                                        
+                                    </div> 
+                                    <div className='sbox'>
+                                        <hr></hr>
+                                        <span>9</span>                                        
+                                    </div> 
 
                                     <div className='sbox'>
                                         <hr className='hrright'></hr>
@@ -141,7 +161,7 @@ export default function BrowseCourses() {
                                         <p>10 = Always</p>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
