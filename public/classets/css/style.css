@@ -5862,15 +5862,11 @@ line-height: 31px;
 }
 
 @media (min-width:1000px){
-	.aacc .fcol1{
-		padding-left: 100px;
-		padding-right: 100px;
+	.aacc{
+		width: 60%;
 	}
 
-	.aacc .fh3{
-		padding-left: 100px;
-		padding-right: 100px;
-	}
+
 }
 
 

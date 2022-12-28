@@ -4,7 +4,7 @@ export default function BrowseCourses() {
 
     const submitF = async (event) => {
         event.preventDefault();
-        document.getElementById("submitbuttonform").value = "Submitting form....";
+        document.getElementById("submitbuttonform").value = "Submitting ....";
 
         var q1 = event.target.q1.value;
         var q2 = event.target.q2.value;
@@ -33,7 +33,7 @@ export default function BrowseCourses() {
 
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'http://localhost:3000/api/the-power-of-habit-assessment');
+        xhr.open('POST', 'https://coral-app-2-a333o.ondigitalocean.app/api/the-power-of-habit-assessment');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send('q1=' + q1 +
             '&q2=' + q2 +
@@ -72,7 +72,7 @@ export default function BrowseCourses() {
                 document.getElementById("response").innerHTML = "You Have Submeted to go"
                 setTimeout(function () {
                     document.getElementById("response").innerHTML = "";
-                    document.getElementById("submitbuttonform").value = "Submit JobForm";
+                    document.getElementById("submitbuttonform").value = "Submited...";
                 }, 3000);
             }
 
