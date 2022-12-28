@@ -116,11 +116,11 @@ export default function BrowseCourses() {
                             <div className='clearfix'></div>
                             <div className='mainlinec'>
 
-                                <div className='sboxp'>
+                                <div className='sboxp ajpoint'>
                                     <div className='sbox'>
                                         <hr className='hrleft'></hr>
                                         <span>1</span>
-                                        <p>1 = Never</p>
+                                        <p>Never</p>
                                     </div>
                                     <div className='sbox'>
                                         <hr></hr>
@@ -158,7 +158,7 @@ export default function BrowseCourses() {
                                     <div className='sbox'>
                                         <hr className='hrright'></hr>
                                         <span>10</span>
-                                        <p>10 = Always</p>
+                                        <p>Always</p>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@ export default function BrowseCourses() {
             </section>
 
             <section className='pbb-40'>
-                <div className='container'>
+                <div className='container aacc'>
                 <form onSubmit={submitF}>
                     <div className='row'>
                         <div className='col-sm-12'>

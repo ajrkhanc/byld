@@ -5856,6 +5856,24 @@ line-height: 31px;
 }
 
 
+.ajpoint .hrleft {
+    width: 38% !important;
+    float: right;
+}
+
+@media (min-width:1000px){
+	.aacc .fcol1{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.aacc .fh3{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+
+
 
 
 
