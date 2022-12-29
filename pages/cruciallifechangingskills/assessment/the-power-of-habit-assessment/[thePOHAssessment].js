@@ -86,22 +86,28 @@ export default function result({ result }) {
                                 {
                                     result.slice(0, 1).map((results) => {
 
-
+                                        var px = '%'
                                         var result1 = parseInt(results.q1) + parseInt(results.q2) + parseInt(results.q3)
                                         var result2 = parseInt(results.q4) + parseInt(results.q4) + parseInt(results.q6)
                                         var result3 = parseInt(results.q7) + parseInt(results.q8) + parseInt(results.q9)
                                         var result4 = parseInt(results.q10) + parseInt(results.q11) + parseInt(results.q12)
                                         var result5 = parseInt(results.q13) + parseInt(results.q14) + parseInt(results.q15)
 
+                                        var overall = result1 + result2 + result3 + result4 + result5
+                                        var overresult = overall / 150 * 100
+
+                                        var overallresult = overresult.toFixed(2) + px
+                                        var overallbar = overresult
 
                                         return (
 
 
 
                                             <>
+                                            
                                                 <table>
                                                     <tr className='tablefbh'>
-                                                        <th width="12%">Competency</th>
+                                                        <th width="15%">Competency</th>
                                                         <th>Sub-Competency</th>
                                                         <th width="10%">Total Score</th>
                                                         <th width="10%">Legend</th>
@@ -142,7 +148,7 @@ export default function result({ result }) {
 
                                                 <table className='mtttt'>
                                                     <tr>
-                                                        <td rowspan="3" width="12%">Leave the Lag Behind</td>
+                                                        <td rowspan="3" width="15%">Leave the Lag Behind</td>
                                                         <td>I am able to identify new behaviours that will replace the current ones</td>
                                                         <td width="10%" rowspan="3" align='center' className='tblrr'>
                                                             {result2}
@@ -174,7 +180,7 @@ export default function result({ result }) {
 
                                                 <table className='mtttt'>
                                                     <tr>
-                                                        <td width="12%" rowspan="3">Make New Routines Easy</td>
+                                                        <td width="15%" rowspan="3">Make New Routines Easy</td>
                                                         <td>I break my new routines to make them easy</td>
                                                         <td width="10%" rowspan="3" align='center' className='tblrr'>
                                                             {result3}
@@ -206,7 +212,7 @@ export default function result({ result }) {
 
                                                 <table className='mtttt'>
                                                     <tr>
-                                                        <td width="12%" rowspan="3">Make it Desirable</td>
+                                                        <td width="15%" rowspan="3">Make it Desirable</td>
                                                         <td>I reward my new behaviours </td>
                                                         <td width="10%" rowspan="3" align='center' className='tblrr'>
                                                             {result4}
@@ -238,7 +244,7 @@ export default function result({ result }) {
 
                                                 <table className='mtttt mtt-50'>
                                                     <tr>
-                                                        <td width="12%" rowspan="3">Make New Habit, Habitual</td>
+                                                        <td width="15%" rowspan="3">Make New Habit, Habitual</td>
                                                         <td>I track my new behaviours or routines</td>
                                                         <td width="10%" rowspan="3" align='center' className='tblrr'>
                                                             {result5}
@@ -267,6 +273,37 @@ export default function result({ result }) {
                                                         </td>
                                                     </tr>
                                                 </table>
+
+<br></br>
+                                                <div class="assessment-result-block">
+                                                    <h3>Overall Score = <span className='rco'>{overallresult}</span></h3>
+                                                    <div class="result-bar-wrapper">
+
+                                                        {
+                                                            (() => {
+                                                                if (overallbar <= 30)
+                                                                    return <div class="result-bar bgred" style={{ width: overallresult }}></div>
+                                                                if (overallbar <= 55)
+                                                                    return <div class="result-bar yellobg" style={{ width: overallresult }}></div>
+
+                                                                if (overallbar <= 80)
+                                                                    return <div class="result-bar orangebg" style={{ width: overallresult }}></div>
+                                                                else (overallbar <= 100)
+                                                                return <div class="result-bar greenbg" style={{ width: overallresult }}></div>
+                                                            })()
+                                                        }
+
+
+                                                    </div>
+                                                    <div class="result-bar-labels">
+                                                        <div className='row'>
+                                                            <div className='col'>Need Help</div>
+                                                            <div className='col'>Can do better</div>
+                                                            <div className='col'>Doing well</div>
+                                                            <div className='col'>You have Low Lag</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </>
 
                                         )

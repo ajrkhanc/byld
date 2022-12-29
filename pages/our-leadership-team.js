@@ -39,7 +39,7 @@ export default function OurLeadershipTeam(){
                                         <div className="name">
                                             <a href="#">Yogesh Sood</a>
                                         </div>
-                                        <span className="post">Chairman & Managing Director</span>
+                                        <span className="post">Chairman and Managing Director</span>
                                     </div>
                                     <ul className="social-icon">
                                         <li><a target="_blank" href="https://www.linkedin.com/in/yogesh-sood/"><i className="fa fa-linkedin"></i></a></li>
@@ -58,7 +58,7 @@ export default function OurLeadershipTeam(){
                                         <div className="name">
                                             <a href="#">Sandeep Budhiraja</a>
                                         </div>
-                                        <span className="post">Co-Founder - BYLD Group</span>
+                                        <span className="post">Co-Founder and Executive Director, Chief People Officer - BYLD Group</span>
                                     </div>
                                     <ul className="social-icon">
                                         <li><a target="_blank" href="https://www.linkedin.com/in/sanbuds/"><i className="fa fa-linkedin"></i></a></li>
@@ -77,7 +77,7 @@ export default function OurLeadershipTeam(){
                                         <div className="name">
                                             <a href="#">Anand Dewan</a>
                                         </div>
-                                        <span className="post">Group CEO – BYLD Group</span>
+                                        <span className="post">Group CEO</span>
                                     </div>
                                     <ul className="social-icon">
                                         <li><a target="_blank" href="https://www.linkedin.com/in/anand-dewan-87528a129/"><i className="fa fa-linkedin"></i></a></li>
@@ -96,7 +96,7 @@ export default function OurLeadershipTeam(){
                                         <div className="name">
                                             <a href="#">Nishit Sood</a>
                                         </div>
-                                        <span className="post">Chief Flow Officer - BYLD Group</span>
+                                        <span className="post">Chief Flow Officer</span>
                                     </div>
                                     <ul className="social-icon">
                                         <li><a target="_blank" href="https://www.linkedin.com/in/nishitsood/"><i className="fa fa-linkedin"></i></a></li>
@@ -105,7 +105,7 @@ export default function OurLeadershipTeam(){
                             </div>
                        </div>
 
-                       <div className="col-md-4 col-sm-6 mb-30">
+                       {/* <div className="col-md-4 col-sm-6 mb-30">
                            <div className="team-item teamshd">
                                 <div className="team-img">
                                     <a href="#"><img src="/assets/img/team/amar.jpg" alt=""/></a>
@@ -141,9 +141,9 @@ export default function OurLeadershipTeam(){
                                     </ul>
                                 </div>
                             </div>
-                       </div>
+                       </div> */}
 
-                       <div className="col-md-4 col-sm-6 mb-30">
+                       {/* <div className="col-md-4 col-sm-6 mb-30">
                            <div className="team-item teamshd">
                                 <div className="team-img">
                                     <a href="#"><img src="/assets/img/team/rajul.jpg" alt=""/></a>
@@ -151,16 +151,16 @@ export default function OurLeadershipTeam(){
                                 <div className="team-content">
                                     <div className="team-info">
                                         <div className="name">
-                                            <a href="#">Rajul Kansal</a>
+                                            <a href="#">Dhananjay Naithani</a>
                                         </div>
-                                        <span className="post">Senior Vice President BYLD - Group</span>
+                                        <span className="post">President - Sales</span>
                                     </div>
                                     <ul className="social-icon">
                                         <li><a target="_blank" href="https://www.linkedin.com/in/rajul-kansal-he-him-his-09872410/"><i className="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
-                       </div>
+                       </div> */}
                    </div>
                 </div>
             </div>

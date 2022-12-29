@@ -5855,7 +5855,9 @@ line-height: 31px;
 	margin-top: 10px;
 }
 
-
+.rco{
+	color: #eb8023;
+}
 .ajpoint .hrleft {
     width: 38% !important;
     float: right;
