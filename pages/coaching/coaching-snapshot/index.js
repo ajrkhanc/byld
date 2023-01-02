@@ -99,7 +99,7 @@ export default function BrowseCourses() {
                 document.getElementById("response").innerHTML = "Assessment Result"
 
                 window.setTimeout(function () {
-                    window.location.href = `/coaching/career-coaching-snapshot/${newnameurl}`
+                    window.location.href = `/coaching/coaching-snapshot/${newnameurl}`
                 }, 1000);
 
             }
