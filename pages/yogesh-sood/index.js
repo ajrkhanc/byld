@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 
 export async function getServerSideProps() {
-    const res = await fetch('https://byld.in/yogesh-sood/wp-json/wp/v2/posts?_embed&per_page=30')
+    const res = await fetch('https://yogeshsood.onrender.com/api/posts')
     const posts = await res.json()
     
 
@@ -63,12 +63,12 @@ export default function Books({ posts }) {
                                         return (
                                             <div className='blocr'>
                                                 <div className='bl1'>
-                                                    <h4><a href={`/yogesh-sood/${getpost.slug}`}>{getpost.title.rendered}</a></h4>
-                                                    <div dangerouslySetInnerHTML={{__html:getpost.yoast_head_json.description}}></div>
-                                                    <a href={`/yogesh-sood/${getpost.slug}`} className='ybtnc'>Read More</a>
+                                                    <h4><a href={`/yogesh-sood/${getpost.posturl}`}>{getpost.Title}</a></h4>
+                                                    <div dangerouslySetInnerHTML={{__html:getpost.Description}}></div>
+                                                    <a href={`/yogesh-sood/${getpost.posturl}`} className='ybtnc'>Read More</a>
                                                 </div>
                                                 <div className='bl2'>
-                                                  <img class="yimg100" src={getpost._embedded['wp:featuredmedia']['0'].source_url} alt="Images"/>
+                                                <img src={getpost.ImageURL} alt={getpost.ImageAlt}/>
                                                 </div>
                                             </div>
                                         );
