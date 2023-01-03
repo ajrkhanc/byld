@@ -88,7 +88,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>January 24th – 27th, 2023</span>
+                                <span>January 23rd, 24th, 25th & 27th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>DISC Train-the-Trainer (TTT)</h3>
@@ -141,7 +141,7 @@ export default function Workshops(){
                                                 <option value="">Pick up any Slot*</option>                                                
                                                 <option value="January 19th - 20th, 2023 - Crucial Life Changing Skills Online Workshop">January 19th - 20th, 2023 - Crucial Life Changing Skills Online Workshop</option>
                                                 <option value="January 23rd - 24th, 2023 - The SLII Experience™ - Virtual">January 23rd - 24th, 2023 - The SLII Experience™ - Virtual</option>
-                                                <option value="January 24th – 27th, 2023 - DISC Train-the-Trainer (TTT)">January 24th – 27th, 2023 - DISC Train-the-Trainer (TTT)</option>                                                
+                                                <option value="January 23rd, 24th, 25th & 27th 2023 - DISC Train-the-Trainer (TTT)">January 23rd, 24th, 25th & 27th 2023 - DISC Train-the-Trainer (TTT)</option>                                                
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
