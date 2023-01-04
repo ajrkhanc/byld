@@ -6,19 +6,21 @@ export default function BrowseCourses() {
         event.preventDefault()
         document.getElementById("submitbuttonform").value = "Submitting form...."
 
-       
-            var q1 = event.target.q1.value;
-            var q2 = event.target.q2.value;
-            var q3 = event.target.q3.value;
-            var q4 = event.target.q4.value;
-            var q5 = event.target.q5.value;
-            var q6 = event.target.q6.value;
-            var q7 = event.target.q7.value;
-            var q8 = event.target.q8.value;
-            var q9 = event.target.q9.value;
-            var q10 = event.target.q10.value;
-            
- 
+
+        var q1 = event.target.q1.value;
+        var q2 = event.target.q2.value;
+        var q3 = event.target.q3.value;
+        var q4 = event.target.q4.value;
+        var q5 = event.target.q5.value;
+        var q6 = event.target.q6.value;
+        var q7 = event.target.q7.value;
+        var q8 = event.target.q8.value;
+        var q9 = event.target.q9.value;
+        var q10 = event.target.q10.value;
+        var name = event.target.name.value;
+        var phone = event.target.phone.value
+
+
 
         const xhttp = new XMLHttpRequest();
         xhttp.onload = function () {
@@ -32,16 +34,18 @@ export default function BrowseCourses() {
                     document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
 
                     document.getElementById("showlabel").style.display = "block";
-                    window.setTimeout(function() {
+                    window.setTimeout(function () {
                         window.location.href = "/thank-you"
-                     }, 3000);
+                    }, 3000);
 
                 } else {
                     alert('There was a problem with the request.');
                 }
             }
         };
-        xhttp.send("Question1=" + q1 +
+        xhttp.send("name=" + name +
+            "&phone=" + phone +
+            "&Question1=" + q1 +
             "&Question2=" + q2 +
             "&Question3=" + q3 +
             "&Question4=" + q4 +
@@ -67,9 +71,9 @@ export default function BrowseCourses() {
                         <div className='col-md-6'>
                             <h2>Start unlocking the strength within yourself today</h2>
                             <p>
-                            The <b><i>Jenson8</i></b> VR is a Metaverse experiential learning platform that delivers behavioural change by enabling participants to enter a fully immersive multi-user VR environment designed to enhance problem-solving, collaboration, and a team connection. The data collected, is then filtered through validated psychometric models to deliver key insights about the aptitude and behaviors of participants.
+                                The <b><i>Jenson8</i></b> VR is a Metaverse experiential learning platform that delivers behavioural change by enabling participants to enter a fully immersive multi-user VR environment designed to enhance problem-solving, collaboration, and a team connection. The data collected, is then filtered through validated psychometric models to deliver key insights about the aptitude and behaviors of participants.
                             </p>
-                            
+
                         </div>
                         <div className='col-md-6'>
                             <div className='assesmentimgbanner text-center'>
@@ -130,7 +134,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                    3. Have you ever implemented a Virtual Reality training solution to train or assess your mid-level or senior leadership?
+                                        3. Have you ever implemented a Virtual Reality training solution to train or assess your mid-level or senior leadership?
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="q3" value="Agree" id="q3a" required />
@@ -148,7 +152,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                    4. Are you aware of the fact that VR can enable assessments and drive behaviour change through interactive simulations and AI?
+                                        4. Are you aware of the fact that VR can enable assessments and drive behaviour change through interactive simulations and AI?
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="q4" value="Aware" id="q4a" required />
@@ -166,7 +170,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                    5. Is your organisation moving towards upskilling employees through Virtual Reality?
+                                        5. Is your organisation moving towards upskilling employees through Virtual Reality?
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="q5" value="Agree" id="q5a" required />
@@ -184,7 +188,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                    6. How frequent do you conduct team building activities among team members?
+                                        6. How frequent do you conduct team building activities among team members?
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="q6" value="Frequently" id="q6a" required />
@@ -202,7 +206,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                    7. Which type of training intervention would you prefer to upskill your employees?
+                                        7. Which type of training intervention would you prefer to upskill your employees?
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="q7" value="Data drive - AI based Interventions" id="q7a" required />
@@ -220,7 +224,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                    8. Do you believe that learning through Virtual reality helps in higher retention and might increase top line revenue of your organisation?
+                                        8. Do you believe that learning through Virtual reality helps in higher retention and might increase top line revenue of your organisation?
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="q8" value="Agree" id="q8a" required />
@@ -238,7 +242,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                    9. On a scale of 1 to 10, how impactful do you think your current training interventions are?
+                                        9. On a scale of 1 to 10, how impactful do you think your current training interventions are?
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="q9" value="1-4" id="q9a" required />
@@ -256,7 +260,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                    10. How frequently do you take initiatives to upskill your employees?
+                                        10. How frequently do you take initiatives to upskill your employees?
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="q10" value="Actively" id="q10a" required />
@@ -275,7 +279,15 @@ export default function BrowseCourses() {
 
                             <div className='col-sm-12'>
                                 <div className='fcol1 lastinp ptt-20'>
-                                    <div className='row inpuut'>                                        
+                                    <div className='row inpuut'>
+                                        <div className="col-sm-6 mb-12">
+                                            <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                        </div>
+                                        <div className='clearfix'></div>
+
                                         <div className='col-sm-12'>
                                             <input type="submit" value="Submit" id='submitbuttonform' class="assesmetmain" tabindex="201" />
                                             <p class="feedbackcolor" id="showlabel"></p>
