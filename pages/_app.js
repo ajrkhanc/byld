@@ -500,7 +500,7 @@ else if (router.pathname.startsWith('/coaching/become-a-professional-coach')) {
 
 }
 
-else if (router.pathname.startsWith('/coaching/career-coaching-snapshot/')) {
+else if (router.pathname.startsWith('/coaching/coaching-snapshot/')) {
 
   return (
       <COSR>
@@ -555,7 +555,7 @@ else if (router.pathname.startsWith('/coaching/career-coaching-snapshot/')) {
 
 }
 
-else if (router.pathname.startsWith('/coaching/career-coaching-snapshot')) {
+else if (router.pathname.startsWith('/coaching/coaching-snapshot')) {
 
   return (
       <COS>
