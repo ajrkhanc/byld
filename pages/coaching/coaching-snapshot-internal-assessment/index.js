@@ -124,7 +124,6 @@ export default function BrowseCourses() {
         xhttp.send("name=" + event.target.name.value +
         '&email=' + email +
         '&phone=' + phone +
-        '&organization=' + organization+
         '&assessment=' + Assessment)
 
         xhr.onerror = function () {
