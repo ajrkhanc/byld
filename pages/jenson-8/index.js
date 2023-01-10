@@ -46,6 +46,18 @@ export default function Jenson8(){
           <Head>
             <title>Jenson 8 - BYLD Group</title>
             <meta name="description" content="WATCH INTRO GET THE DEMO WATCH INTRO GET THE DEMO Revolutionising Experiential LearningFor the first time in India, we at BYLD Group, in partnership with Jenson8 (a UK-based award-winning Virtual Reality training company), bring highly effective Virtual Reality leadership courses. THERE IS NOTHING LIKE IT SO FAR IN THE INDIAN MARKET.Outdoor training, classroom training, and… Continue reading Jenson 8"/> 
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-S7PQH69WDV"></script>
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S7PQH69WDV');
+          `,
+            }}
+          />
           </Head>
 
       <Modal toggle={() => setModalOpen(!modalOpen)} isOpen={modalOpen} backdrop="static" keyboard={false}>

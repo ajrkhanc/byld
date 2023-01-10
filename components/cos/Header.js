@@ -29,7 +29,7 @@ export default function Header() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="col mw6">
+                            {/* <div className="col mw6">
                                 <div className="rs-menu-area">
                                 <div className="logo-area text-right">
                                     <a href="#">
@@ -37,7 +37,7 @@ export default function Header() {
                                     </a>
                                 </div> 
                                 </div>
-                            </div>
+                            </div> */}
                           
                         </div>
                     </div>

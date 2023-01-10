@@ -1383,3 +1383,56 @@ table td {
 .btop1{
   border-top: 1px solid #2a6db5 !important;
 }
+
+.efnlp{
+  padding-left: 15px;
+}
+
+@media (min-width:992px){
+  .efnlp{
+    padding-left: 100px;
+  }
+}
+
+.efnlp h1 {
+  font-size: 42px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+.efnlp h2 {
+  font-size: 68px;
+  line-height: 85px;
+  font-weight: 700;
+  color: #285592;
+}
+
+.efnlp a{
+  background: #285592;
+  color: #fff !important;
+  padding: 17px;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 23px;
+}
+
+.eflp2box{
+  background-color: #285592;
+  text-align: center;
+  padding: 90px 0px 50px 0px;
+}
+
+.eflp2box h2{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.eflp2box p{
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #fff;
+}

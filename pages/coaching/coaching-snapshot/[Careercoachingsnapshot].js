@@ -151,7 +151,7 @@ export default function result({ result }) {
                                                                     </a>
                                                                 </div>
                                                             </div>
-                                                            <div className="col mw6 header-logo ptt-5 pbb-5 bgs">
+                                                            {/* <div className="col mw6 header-logo ptt-5 pbb-5 bgs">
                                                                 <div className="rs-menu-area">
                                                                 <div className="logo-area text-right">
                                                                     <a href="#" className=''>
@@ -159,7 +159,7 @@ export default function result({ result }) {
                                                                     </a>
                                                                 </div> 
                                                                 </div>
-                                                            </div>
+                                                            </div> */}
                                                             
                                                         </div>
                                                     </div>
