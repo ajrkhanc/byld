@@ -4,6 +4,7 @@ import ED from '../components/ED/Layout';
 import FiveB from '../components/FiveB/Layout';
 import Wiley from '../components/Wiley/Layout';
 import Eaglesflightindia from '../components/Eaglesflightindia/Layout';
+import EFLPNEW from '../components/EFLPNEW/Layout';
 import Hhf from '../components/Hhf/Layout';
 import COS from '../components/cos/Layout'
 import COSR from '../components/cosresult/Layout'
@@ -382,6 +383,65 @@ else if (router.pathname.startsWith('/eaglesflightindia/mcw')) {
       <Component {...pageProps} />
     </Hhf>
   )
+}
+
+else if (router.pathname.startsWith('/eaglesflightindia/ef-new')) {
+
+  return (
+      <EFLPNEW>
+          <Head>
+            <meta charset="utf-8" />           
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <link rel="icon" href="/efassets/favicon.png" />
+            <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon"/>
+          
+            <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css"/>
+       
+            <link rel="stylesheet" type="text/css" href="/efassets/css/font-awesome.min.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/fonts/flaticon.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/css/animate.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/css/owl.carousel.css"/>
+        
+            <link rel="stylesheet" type="text/css" href="/efassets/css/off-canvas.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/css/magnific-popup.css"/>
+          
+            <link rel="stylesheet" href="/efassets/css/rsmenu-main.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/inc/custom-slider/css/nivo-slider.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/inc/custom-slider/css/preview.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/css/rs-spacing.css"/>
+          
+            <link rel="stylesheet" type="text/css" href="/efassets/css/style.css"/>
+            
+            <link rel="stylesheet" type="text/css" href="/efassets/css/responsive.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css"/>
+            <link rel="stylesheet" type="text/css" href="/efassets/css/bg.css"/>
+
+            <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-205257587-1"></script>
+            <script
+                  dangerouslySetInnerHTML={{
+                    __html: `
+                    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-205257587-1');
+                `,
+                  }}
+                />
+        </Head>
+
+          <Component {...pageProps} />
+      </EFLPNEW>
+  )
+
 }
 
 

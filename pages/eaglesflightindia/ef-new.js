@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
+import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
+import React from "react";
+
 
 
 export default function Home() {
@@ -40,12 +41,71 @@ export default function Home() {
 
     }
 
+    const [modalOpen, setModalOpen] = React.useState(false);
+
     return (
         <>
             <Head>
                 <title>Best Team Building Exercises for Organizational Development</title>
                 <meta name="description" content="Experiential Learning is a revelation for those who learn, experience, apply, and practice. But their implementation is done in the form of business team-building activities." />
             </Head>
+
+           
+            <Modal toggle={() => setModalOpen(!modalOpen)} isOpen={modalOpen} backdrop="static" keyboard={false}>
+      <button
+            aria-label="Close"
+            className="close popcl"
+            type="button"
+            onClick={() => setModalOpen(!modalOpen)}
+          >
+            <span aria-hidden={true}>×</span>
+          </button>
+          
+        <ModalBody>
+        <div className="bannerform pa00">
+                                <form id="contact-form" className='clientcornner' onSubmit={Eaglesflightindia}>
+                                    <div className="row">
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="name" placeholder="Enter Name*" required />
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="email" name="email" placeholder="Enter Email*" required />
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="Location" placeholder="Location*" required />
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="organization" placeholder="Organization*" required />
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="designation" placeholder="Designation*" required />
+                                        </div>
+                                        <div className="col-sm-12 mb-12">
+                                            <select name="slot" required>
+                                                <option value="">Pick up any Slot*</option>
+                                                <option value="Eagle's Flight Executive Briefing: January 11th, 2023">Eagle's Flight Executive Briefing: January 11th, 2023</option>
+                                            </select>
+                                        </div>
+                                        <div className="col-lg-12 mb-12">
+                                            <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
+                                        </div>
+                                        <div className="col-sm-12 d-none">
+                                            <input type="text" name="Business_Entity" value="Eagles Flight" required />
+                                        </div>
+                                        <div className="col-lg-12 mb-12">
+                                            <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Submit" />
+                                        </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
+                                    </div>
+                                </form>
+                            </div>
+        </ModalBody>
+      
+      </Modal>
+          
 
             <div className="rs-services">
                 <div className="container-full">
@@ -77,15 +137,15 @@ export default function Home() {
                 </div>
             </section>
 
-            <div id='our-solutions' class="rs-project style2 efhbg ptt-30 pbb-60">
-                <div class="container">
+            <div id='our-solutions' class="rs-project style2 efhbg ptt-30 pbb-30 pll-20 prr-20">
+                <div class="container-full">
                     <div class="row">
                         <div className='col-sm-12'>
                             <div className="text-center">
                                 <h4 className="oversl">Our Solutions</h4>                                
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="col-lg-3 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
                                     <img src="/efassets/img/eagles-flight-museum-caper.jpg" alt="images" />
@@ -98,7 +158,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="col-lg-3 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
                                     <img src="/efassets/img/king-kahufu.jpg" alt="images" />
@@ -111,7 +171,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="col-lg-3 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
                                     <img src="/efassets/img/gold-of-the-desert-kings.jpg" alt="images" />
@@ -124,7 +184,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="col-lg-3 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
                                     <img src="/efassets/img/council-of-the-marble-star.jpg" alt="images" />
@@ -137,7 +197,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="col-lg-3 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
                                     <img src="/efassets/img/promises-promises.jpg" alt="images" />
@@ -150,7 +210,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="col-lg-3 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
                                     <img src="/efassets/img/rattlesnake-canyon.jpg" alt="images" />
@@ -163,8 +223,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2"></div>
-                        <div class="col-lg-4 col-md-6 mb-30">
+                       
+                        <div class="col-lg-3 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
                                     <img src="/efassets/img/expedition-outback.jpg" alt="images" />
@@ -178,7 +238,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="col-lg-3 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
                                     <img src="/efassets/img/windjammer.jpg" alt="images" />
@@ -192,6 +252,39 @@ export default function Home() {
                             </div>
                         </div>
 
+                        <div className='clearfix'></div>
+                        <div className='col-sm-12 text-center connetc'>
+                        <a target="_blank" href='https://online.flippingbook.com/view/68141801/'>Download Brochure</a>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* <div className='container'>
+                <div className='row'>
+                    <div className='col-sm-12 text-center connetc'>
+                        <a href='#connect-now'>Download Brochure</a>
+                    </div>
+                </div>
+            </div> */}
+
+            
+
+            
+
+            <div className="efclientbg ptt-30 pbb-40 solutionsboxarea">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-12">
+                            <div className="sec-title3 mbb-35 text-center rs-estimate">
+                            <h2>Satisfied Clients</h2>
+                                <p>
+                                My real estate agent was with me and my wife every step of the way. <br></br>She kept us updated throughout the process.
+                                </p>
+                                <h4>Jonah Granger</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -208,6 +301,7 @@ export default function Home() {
                                 <div class="workshop-date">
                                     <h6><i class="fa fa-calendar" aria-hidden="true"></i> May 13th, 2022</h6>
                                     <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
+                                    <a className='enbtnc' onClick={() => setModalOpen(!modalOpen)}>Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -218,31 +312,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className='container'>
-                <div className='row'>
-                    <div className='col-sm-12 text-center connetc'>
-                        <a href='#connect-now'>Connect Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div className="efclientbg ptt-50 pbb-40 solutionsboxarea">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12">
-                            <div className="sec-title3 mbb-35 text-center rs-estimate">
-                            <h2>Satisfied Clients</h2>
-                                <p>
-                                My real estate agent was with me and my wife every step of the way. <br></br>She kept us updated throughout the process.
-                                </p>
-                                <h4>Jonah Granger</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="connect-now" className="rs-testimonial style4 homebgcontactus ptt-30 pbb-70">
+            {/* <div id="connect-now" className="rs-testimonial style4 homebgcontactus ptt-30 pbb-70">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">
@@ -301,7 +371,7 @@ export default function Home() {
 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </>
     )
