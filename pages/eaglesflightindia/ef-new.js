@@ -50,14 +50,14 @@ export default function Home() {
             <div className="rs-services">
                 <div className="container-full">
                     <div className="row y-middle">
-                        <div className="col-sm-6">
+                        <div className="col-sm-5">
                             <div className='efnlp'>
                                 <h1>Do you want your team to be prepared for the future?</h1>
                                 <h2>MINDSET IS EVERYTHING</h2>
-                                <a target="_blank" href='https://www.eaglesflight.com/asia/#program'>Explore our Experiential Learning Solutions!</a>
+                                <a href='#our-solutions'>Explore our Experiential Learning Solutions!</a>
                             </div>
                         </div>
-                        <div className="col-sm-6">
+                        <div className="col-sm-7">
                             <img className="img100" src="/efassets/img/ef-br.jpg" />
                         </div>
                     </div>
@@ -77,13 +77,12 @@ export default function Home() {
                 </div>
             </section>
 
-            <div class="rs-project style2 efhbg mtt-40 ptt-30 pbb-60">
+            <div id='our-solutions' class="rs-project style2 efhbg ptt-30 pbb-60">
                 <div class="container">
                     <div class="row">
                         <div className='col-sm-12'>
-                            <div className="sec-title3 mbb-35">
-                                <h4 className="countertoph2 text-center font30">Our Solutions</h4>
-                                <div className="heading-border-line center-style mbb-50"></div>
+                            <div className="text-center">
+                                <h4 className="oversl">Our Solutions</h4>                                
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-30">
@@ -200,11 +199,16 @@ export default function Home() {
             <div class="rs-about style4 bg21 mtt-60">
                 <div class="container-full">
                     <div class="row y-middle">
-                        <div class="col-lg-7">
-
-                            <div class="sec-title3 mbb-35 text-left onlyshd">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-6">
+                            <div class="sec-title3 mbb-35 text-left efmd">
                                 <h2 class="">Gold Of The Desert Kings</h2>
                                 <h3>Facing difficulty in optimizing productivity with limited time and resources</h3>
+
+                                <div class="workshop-date">
+                                    <h6><i class="fa fa-calendar" aria-hidden="true"></i> May 13th, 2022</h6>
+                                    <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-5">
@@ -214,51 +218,31 @@ export default function Home() {
                 </div>
             </div>
 
-
-            <div class="rs-achievement style1 relative ptt-50">
-                <div class="container">
-                    <div class="row rs-vertical-middle">
-                        <div class="col-lg-6">
-                            <div class=""><img src="/efassets/img/employees-giving-hands-helping.jpg" alt="" /></div>
-                        </div>
-                        <div class="col-lg-6 pr-0">
-                            <div class="fivemodelshd">
-                                <h4 class="countertoph2 text-left font34">Get Access to the Best Corporate Team Building Games</h4>
-
-                                <p class="justify mbb-5">
-                                    Experiential learning programs help participants gain competence in areas such as leading teams or making quick decisions so as to improve processes, serve customers better, work with teams, improve processes, and manage time through virtual team games. At work, or in the office, developing good relationships is essential for a great organizational culture. Virtual fun activities for employees are a great way to enhance an inclusive work culture for your organization. Explore our offerings or connect with us to know more.
-                                </p>
-                            </div>
-                        </div>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-sm-12 text-center connetc'>
+                        <a href='#connect-now'>Connect Now</a>
                     </div>
                 </div>
             </div>
 
-
-
-
-            <div className="shape-bg ptt-50 pbb-40 solutionsboxarea">
+            <div className="efclientbg ptt-50 pbb-40 solutionsboxarea">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">
-
-                            <div className="sec-title3 mbb-35">
-                                <h4 className="countertoph2 text-center font30">About BYLD Group</h4>
-                                <div className="heading-border-line center-style mbb-30"></div>
-                            </div>
-
                             <div className="sec-title3 mbb-35 text-center rs-estimate">
+                            <h2>Satisfied Clients</h2>
                                 <p>
-                                    BYLD Group is the largest group in the South Asian region, offering value-added services in Strategic and Operational HR, Business Operations, Manpower Staffing, Technology, Executive Coaching, Leadership, and Organizational Development. The first company of BYLD Group, Door Training, and Consulting India Pvt. Ltd. was founded in the year 1998, and since then we have served 5,00,000+ individuals, more than 50% of the Fortune 500 Companies and over 60% of the Business World Top 1000 Companies. Our key international alliances include The Ken Blanchard<sup>®</sup> Companies, Crucial Learning (formerly VitalSmarts™), Eagle’s Flight™, Everything DiSC<sup>®</sup> and The Five Behaviors<sup>®</sup> (Wiley Brands), Lumina Spark<sup>®</sup>, Business Today Simulations, InsideOut Development™, Persona Global<sup>®</sup>, Trapologist at Work™, Aster Coaching. Our India headquartered businesses comprise – Door Training and Consulting India Pvt. Ltd. (DTCI) and YOMA Business Solutions. With an annual turnover of over USD 32 Million (INR 230 crores approx.), more than 250 employees, our operational domain is spread across national and international boundaries. Backed by nearly 1000+ years of professional experience, our consultants support clients across industries to manage, develop and align the talent needs in line with their business objectives and strategies.
+                                My real estate agent was with me and my wife every step of the way. <br></br>She kept us updated throughout the process.
                                 </p>
-
+                                <h4>Jonah Granger</h4>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="rs-testimonial style4 homebgcontactus ptt-30 pbb-70">
+            <div id="connect-now" className="rs-testimonial style4 homebgcontactus ptt-30 pbb-70">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">
@@ -268,7 +252,8 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="clearfix"></div>
-                        <div className="col-sm-7">
+                        <div className='col-sm-2'></div>
+                        <div className="col-sm-8">
                             <div className="bannerform">
                                 <form id="contact-form" className='clientcornner ptt-40 pbb-20' onSubmit={Eaglesflightindia}>
                                     <div className="row">
@@ -312,9 +297,7 @@ export default function Home() {
                                 </form>
                             </div>
                         </div>
-                        <div className="col-sm-5">
-                            <img src='/wileyassets/img/cside.png' alt="" />
-                        </div>
+                        
 
                     </div>
                 </div>

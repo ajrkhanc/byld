@@ -1436,3 +1436,83 @@ table td {
   font-weight: 500;
   color: #fff;
 }
+
+.workshop-date{
+  text-align: center;
+}
+.workshop-date h6 {
+  font-family: "HelveticaNeueLT Pro 57 Cn" !important;
+  font-size: 30px;
+  font-weight: 400;
+  color: #f4812c;
+  padding: 11px 0 20px 0px;
+  margin-bottom: 8px;
+}
+
+.workshop-date h6:first-child{
+  border-bottom: 5px dashed #285592;
+}
+
+.workshop-date i {
+  color: #285592;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.efmd{
+  padding: 0px 15px 0px 20px !important;
+}
+.efmd h2{
+  font-size: 48px;
+  line-height: 66px;
+  font-weight: 600;
+  color: #285592;
+  padding-top: 20px;
+}
+
+.efmd h3{
+  font-size: 39px;
+    line-height: 62px;
+    font-weight: 500;
+}
+
+.connetc{
+  padding: 80px 0px 40px 0px;
+}
+.connetc a{
+  background-color: #285592;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 36px;
+}
+
+.efclientbg{
+  background: url(/efassets/img/banner/ef-client-bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.efclientbg h2{
+  font-size: 46px;
+  padding-top: 30px;
+}
+
+.efclientbg p{
+  font-size: 28px;  
+  line-height: 44px;
+}
+
+.efclientbg h4{
+  font-size: 25px;
+  color: #2b6eb5;
+  padding: 30px;
+  letter-spacing: 1px;
+}
+
+.oversl{
+  font-size: 48px;
+  line-height: 66px;
+  font-weight: 600;
+  color: #285592;
+  padding-top: 20px;
+}
