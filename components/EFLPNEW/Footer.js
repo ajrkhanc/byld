@@ -11,7 +11,7 @@ export default function Footer() {
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/eaglesflightindia/wp-json/contact-form-7/v1/contact-forms/18/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/eaglesflightindia/wp-json/contact-form-7/v1/contact-forms/36/feedback');
         xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
@@ -33,8 +33,7 @@ export default function Footer() {
             "&leadsquared-mx_States=" + event.target.Location.value +
             "&leadsquared-Company=" + event.target.organization.value +
             "&leadsquared-JobTitle=" + event.target.designation.value +
-            "&referredby=" + event.target.referredby.value +
-            "&leadsquared-Notes=" + event.target.leadsquared_Notes.value +
+            "&solutions=" + event.target.solutions.value +
             "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value)
 
     }

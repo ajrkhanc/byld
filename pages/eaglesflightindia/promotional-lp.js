@@ -6,14 +6,14 @@ import React from "react";
 
 export default function Home() {
 
-    const Eaglesflightindia = async event => {
+    const Eflpsubmit = async event => {
         event.preventDefault()
         document.getElementById("submitbuttonform").value = "Submitting form...."
         const xhttp = new XMLHttpRequest();
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/eaglesflightindia/wp-json/contact-form-7/v1/contact-forms/18/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/eaglesflightindia/wp-json/contact-form-7/v1/contact-forms/35/feedback');
         xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
@@ -35,8 +35,7 @@ export default function Home() {
             "&leadsquared-mx_States=" + event.target.Location.value +
             "&leadsquared-Company=" + event.target.organization.value +
             "&leadsquared-JobTitle=" + event.target.designation.value +
-            "&referredby=" + event.target.referredby.value +
-            "&leadsquared-Notes=" + event.target.leadsquared_Notes.value +
+            "&slot=" + event.target.slot.value +            
             "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value)
 
     }
@@ -46,7 +45,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Best Team Building Exercises for Organizational Development</title>
+                <title>Eagle’s Flight LP</title>
                 <meta name="description" content="Experiential Learning is a revelation for those who learn, experience, apply, and practice. But their implementation is done in the form of business team-building activities." />
             </Head>
 
@@ -63,7 +62,7 @@ export default function Home() {
           
         <ModalBody>
         <div className="bannerform pa00">
-                                <form id="contact-form" className='clientcornner' onSubmit={Eaglesflightindia}>
+                                <form id="contact-form" className='clientcornner' onSubmit={Eflpsubmit}>
                                     <div className="row">
                                         <div className="col-sm-6 mb-12">
                                             <input type="text" name="name" placeholder="Enter Name*" required />
@@ -85,17 +84,15 @@ export default function Home() {
                                         </div>
                                         <div className="col-sm-12 mb-12">
                                             <select name="slot" required>
-                                                <option value="">Pick up any Slot*</option>
+                                                <option value="">Pick up your Slot*</option>
                                                 <option value="Eagle's Flight Executive Briefing: January 11th, 2023">Eagle's Flight Executive Briefing: January 11th, 2023</option>
                                             </select>
                                         </div>
-                                        <div className="col-lg-12 mb-12">
-                                            <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
-                                        </div>
+                                      
                                         <div className="col-sm-12 d-none">
                                             <input type="text" name="Business_Entity" value="Eagles Flight" required />
                                         </div>
-                                        <div className="col-lg-12 mb-12">
+                                        <div className="col-lg-12 mb-12 text-center">
                                             <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Submit" />
                                         </div>
                                         <p id="showlabel" style={{ display: "none" }}></p>

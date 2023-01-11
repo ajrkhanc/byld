@@ -385,7 +385,7 @@ else if (router.pathname.startsWith('/eaglesflightindia/mcw')) {
   )
 }
 
-else if (router.pathname.startsWith('/eaglesflightindia/ef-new')) {
+else if (router.pathname.startsWith('/eaglesflightindia/promotional-lp')) {
 
   return (
       <EFLPNEW>
