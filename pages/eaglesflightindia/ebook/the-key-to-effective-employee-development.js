@@ -29,9 +29,7 @@ export default function Ebookpage(){
         xhttp.send("leadsquared-FirstName=" + event.target.name.value +
             "&leadsquared-EmailAddress=" + event.target.email.value +
             "&leadsquared-Mobile=" + event.target.phone.value +
-            "&leadsquared-Company=" + event.target.organization.value +
-            "&leadsquared-JobTitle=" + event.target.designation.value +
-            "&checkboxs=" + event.target.chb1.value +
+            "&leadsquared-Company=" + event.target.organization.value +      
             "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value +
             "&formname=" + event.target.formname.value )
 
@@ -94,29 +92,18 @@ export default function Ebookpage(){
                                             <input type="email" name="email" placeholder="Your Email*" required />
                                         </div> 
                                         <div className="col-sm-6 mb-12">
-                                            <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                            <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No. (Optional)"/>
                                         </div> 
                                         
                                         <div className="col-sm-6 mb-12">
-                                            <input type="text" name="organization" placeholder="Organization*" required />
-                                        </div>
-                                        <div className="col-sm-12 mb-12">
-                                            <input type="text" name="designation" placeholder="Designation"/>
-                                        </div>
-
-                                        <div className="col-sm-12 mb-12">
-                                             <div class="agree-label">
-                                                <input type="checkbox" name="chb1" id="chb1" value="Subscribe to our newsletter to receive updates on our research, product news, and future webinars and Workshops." required/>
-                                                <label for="chb1">*Subscribe to our newsletter to receive updates on our research, product news, and future webinars and Workshops.</label>
-                                            </div>
-                                        </div>
+                                            <input type="text" name="organization" placeholder="Organization (Optional)"/>
+                                        </div>                                       
                                         <div className="col-sm-12 mb-12 d-none">
                                             <input type="text" name="formname" value="The Key to Effective Employee Development"/>
                                         </div>
                                         <div className="col-sm-12 mb-12 d-none">
                                             <input type="text" name="Business_Entity" value="Eagle’s Flight"/>
-                                        </div>
-                                        
+                                        </div>                                        
                                         <div className="col-lg-12 mb-12">
                                         <input id="submitbuttonform" className="clientcornnerbtn" type="submit" value="Download"/>
                                         </div>

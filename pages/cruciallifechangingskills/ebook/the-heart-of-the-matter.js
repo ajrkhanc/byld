@@ -28,12 +28,8 @@ export default function Ebook(){
         };
         xhttp.send("yourname=" + event.target.name.value +
             "&youremail=" + event.target.email.value +
-            "&phonenumber=" + event.target.phone.value +
-            "&location=" + event.target.location.value +
-            "&companyname=" + event.target.organization.value +
-            "&designation=" + event.target.designation.value +
-            "&referredby=" + event.target.referredby.value +
-            "&acceptance=" + event.target.acceptance.value +
+            "&phonenumber=" + event.target.phone.value +            
+            "&companyname=" + event.target.organization.value +            
             "&ebookname=" + event.target.ebookname.value )
 
     }
@@ -66,7 +62,7 @@ export default function Ebook(){
               <div className='row workshop-form'>
              
                 <div class="col-md-12 form-area ptt-10">
-                    <form id="contactForm" class="row formb" onSubmit={EbookForm}>
+                <form id="contactForm" class="row formb" onSubmit={EbookForm}>
                         <div class="col-lg-12 contact-title">                       
                         <h3 className='formh3 ptt-5'>
                            Fill in the form below and our subject matter expert will connect with you within 24 working hours.
@@ -81,40 +77,13 @@ export default function Ebook(){
                         </div>
 
                         <div class="col-md-6 col-6">
-                        <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                        <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No. (Optional)" />
                         </div>
 
                         <div class="col-md-6 col-6">
-                        <input type="text" name='location' placeholder="Location*" required/> 
+                        <input type="text" name='organization' placeholder="Organization (Optional)"/> 
                         </div>
-
-                        <div class="col-md-6 col-6">
-                        <input type="text" name='organization' placeholder="Organization*" required/> 
-                        </div>
-
-                        <div class="col-md-6 col-6">
-                        <input type="text" name='designation' placeholder="Designation"/> 
-                        </div>
-
                         
-
-                        <div class="col-md-12">
-                        <select name='referredby' required>
-                            <option value="">Referred By*</option>
-                            <option value="Sales Representative">Sales Representative</option>
-                            <option value="Email">Email</option>
-                            <option value="Social Media">Social Media</option>
-                            <option value="Google Search">Google Search</option>
-                            <option value="Website">Website</option>
-                            <option value="Reference">Reference</option>
-                        </select>
-                        </div>
-                        <div className="col-sm-12 mb-12">
-                                <div class="agree-label">
-                                <input type="checkbox" name="acceptance" id="chb1" value="Subscribe to our newsletter to receive updates on our research, product news, and future webinars and workshops" required/>
-                                <label for="chb1">*Subscribe to our newsletter to receive updates on our research, product news, and future webinars and workshops</label>
-                            </div>
-                        </div>
                         <div className="col-sm-12 mb-12 d-none">
                            <input type="checkbox" name="ebookname" value="The Heart Of The Matter"/> 
                         </div>   
