@@ -277,9 +277,9 @@ export default function Home() {
                             <div className="sec-title3 mbb-35 text-center rs-estimate">
                             <h2>Satisfied Clients</h2>
                                 <p>
-                                My real estate agent was with me and my wife every step of the way. <br></br>She kept us updated throughout the process.
+                                By the experience and absolutely loved it. This is a second intervention with them and what we learned is more important collaboration. I think that is beautifully mirrored in the entire exercise. Thank you to the entire BYLD team.”
                                 </p>
-                                <h4>Jonah Granger</h4>
+                                <h4>Sudip Das</h4>
                             </div>
                         </div>
                     </div>
