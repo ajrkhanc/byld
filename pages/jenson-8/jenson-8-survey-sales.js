@@ -300,11 +300,11 @@ export default function BrowseCourses() {
 
                                         <div className='clearfix'></div>
 
-                                        <div className="col-sm-4 mb-12">
+                                        <div className="col-sm-6 mb-12">
                                         <input className='form-control' type="text" name="designation" placeholder="Designation*" required />
                                         </div>
 
-                                        <div className="col-sm-4 mb-12">
+                                        <div className="col-sm-6 mb-12">
                                         <input className='form-control' type="text" name="organization" placeholder="Organization*" required />
                                         </div>
 
