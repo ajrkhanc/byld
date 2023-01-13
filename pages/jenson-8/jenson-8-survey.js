@@ -18,7 +18,10 @@ export default function BrowseCourses() {
         var q9 = event.target.q9.value;
         var q10 = event.target.q10.value;
         var name = event.target.name.value;
-        var phone = event.target.phone.value
+        var phone = event.target.phone.value;
+        var email = event.target.email.value;
+        var designation = event.target.designation.value;
+        var organization = event.target.organization.value;
 
 
 
@@ -45,6 +48,9 @@ export default function BrowseCourses() {
         };
         xhttp.send("name=" + name +
             "&phone=" + phone +
+            "&email=" + email +
+            "&designation=" + designation +
+            "&organization=" + organization +
             "&Question1=" + q1 +
             "&Question2=" + q2 +
             "&Question3=" + q3 +
@@ -280,12 +286,29 @@ export default function BrowseCourses() {
                             <div className='col-sm-12'>
                                 <div className='fcol1 lastinp ptt-20'>
                                     <div className='row inpuut'>
-                                        <div className="col-sm-6 mb-12">
+                                        <div className="col-sm-4 mb-12">
                                             <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
                                         </div>
-                                        <div className="col-sm-6 mb-12">
+                                        <div className="col-sm-4 mb-12">
                                             <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                         </div>
+
+                                        <div className="col-sm-4 mb-12">
+                                        <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
+                                        </div>
+
+                                        <div className='clearfix'></div>
+
+                                        <div className="col-sm-6 mb-12">
+                                        <input className='form-control' type="text" name="organization" placeholder="Company Name*" required />
+                                        </div>
+
+                                        <div className="col-sm-6 mb-12">
+                                        <input className='form-control' type="text" name="designation" placeholder="Designation*" required />
+                                        </div>
+
+                                        
+
                                         <div className='clearfix'></div>
 
                                         <div className='col-sm-12'>
