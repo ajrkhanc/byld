@@ -23,7 +23,7 @@ module.exports = {
 
       {
         source: '/cruciallifechangingskills/assessment/influencer-assessment',
-        destination: '/cruciallifechangingskills/assessment/gtd-assessment-marketing',
+        destination: '/cruciallifechangingskills/assessment/influencer-assessment-marketing',
         permanent: true,
       },
 
