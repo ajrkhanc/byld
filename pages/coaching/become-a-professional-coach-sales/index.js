@@ -353,13 +353,13 @@ export default function BrowseCourses() {
 
                             <div className='fcol1 lastinp ptt-20'>
                                 <div className='row inpuut'>
-                                    <div className="col-sm-6 mb-12">
+                                    <div className="col-sm-4 mb-12">
                                         <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
                                     </div>
-                                    <div className="col-sm-6 mb-12">
+                                    <div className="col-sm-4 mb-12">
                                         <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
                                     </div>
-                                    <div className="col-sm-6 mb-12">
+                                    <div className="col-sm-4 mb-12">
                                         <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                     </div>
 
