@@ -95,7 +95,7 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar January 11th, 2023</span>
+                                <span>Webinar March 8th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Eagle’s Flight Executive Briefing</h3>
@@ -189,10 +189,10 @@ export default function WebinarsAndProgramExperience(){
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                                
                                                 {/* <option value="6th January 2023 - Everything DiSC Work of Leaders Webinar">6th January 2023 - Everything DiSC Work of Leaders Webinar</option> */}
-                                                <option value="11th January 2023 - Eagle’s Flight Executive Briefing">11th January 2023 - Eagle’s Flight Executive Briefing</option>
                                                 <option value="Crucial Conversations for Accountability – January 18th, 2023">Crucial Conversations for Accountability – January 18th, 2023</option>
                                                 <option value="Lumina Spark – January 20th, 2023">Lumina Spark – January 20th, 2023</option>
                                                 <option value="The Five Behaviors®️ Personal Development – February 3rd, 2023">The Five Behaviors®️ Personal Development – February 3rd, 2023</option>
+                                                <option value="8th March 2023 - Eagle’s Flight Executive Briefing">8th March 2023 - Eagle’s Flight Executive Briefing</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">

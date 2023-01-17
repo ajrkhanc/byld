@@ -505,7 +505,7 @@ else if (router.pathname.startsWith('/eaglesflightindia')) {
 
 }
 
-else if (router.pathname.startsWith('/coaching/become-a-professional-coach')) {
+else if (router.pathname.startsWith('/coaching/become-a-professional-coach-marketing')) {
 
   return (
       <CoachingA>

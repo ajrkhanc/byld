@@ -54,7 +54,7 @@ export default function BrowseCourses() {
                 document.getElementById("response").innerHTML = "Assessment Result"
 
                 window.setTimeout(function () {
-                    window.location.href = `/coaching/become-a-professional-coach/${newnameurl}`
+                    window.location.href = `/coaching/become-a-professional-coach-marketing/${newnameurl}`
                 }, 1000);
 
             }
