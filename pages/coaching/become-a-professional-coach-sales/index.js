@@ -363,8 +363,8 @@ export default function BrowseCourses() {
                                         <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                     </div>
 
-                                    <div className="col-sm-6 mb-12">
-                                        <input className='form-control' type="text" name="organization" placeholder="Organization*" required />
+                                    <div className="col-sm-6 mb-12 d-none">
+                                        <input className='form-control' type="text" value="Null" name="organization" placeholder="Organization*" required />
                                     </div>
                                     <div className='col-sm-12'>
                                         <input type="submit" value="Submit" id='submitbuttonform' class="assesmetmain" tabindex="201" />

@@ -10,10 +10,13 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/about',
-        destination: '/',
+        source: '/coaching/become-a-professional-coach',
+        destination: '/coaching/become-a-professional-coach-marketing',
         permanent: true,
       },
+
+      
+
     ]
   },
 }
