@@ -78,7 +78,7 @@ export default function BrowseCourses() {
         xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
    
-        var Assessment ="Become a Professional Coach Assessment Form"
+        var Assessment ="Become a Professional Coach Assessment Form Sales"
         xhttp.send("name=" + event.target.name.value +
         '&email=' + email +
         '&phone=' + phone +

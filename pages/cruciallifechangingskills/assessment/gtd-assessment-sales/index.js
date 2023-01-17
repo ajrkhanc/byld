@@ -81,7 +81,7 @@ export default function Home() {
                 document.getElementById("response").innerHTML = "View Assessment"
 
                 window.setTimeout(function () {
-                    window.location.href = `/cruciallifechangingskills/assessment/gtd-assessment/${newnameurl}`
+                    window.location.href = `/cruciallifechangingskills/assessment/gtd-assessment-sales/${newnameurl}`
                 }, 1000);
 
             }
@@ -105,7 +105,7 @@ export default function Home() {
         xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
    
-        var Assessment ="GTD Assessment Form"
+        var Assessment ="GTD Assessment Form Sales"
         xhttp.send("name=" + event.target.name.value +
         '&email=' + email +
         '&phone=' + phone +
@@ -357,18 +357,18 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa
                                     </div>
 
                                     <div className='row inpuut'>
-                                        <div className="col-sm-6 mb-12">
+                                        <div className="col-sm-4 mb-12">
                                             <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
                                         </div>
-                                        <div className="col-sm-6 mb-12">
+                                        <div className="col-sm-4 mb-12">
                                             <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
                                         </div>
-                                        <div className="col-sm-6 mb-12">
+                                        <div className="col-sm-4 mb-12">
                                             <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                         </div>
 
-                                        <div className="col-sm-6 mb-12">
-                                            <input className='form-control' type="text" name="organization" placeholder="Organization*" required />
+                                        <div className="col-sm-6 mb-12 d-none">
+                                            <input className='form-control' type="text" value="Null" name="organization" placeholder="Organization*" required />
                                         </div>
 
                                         <div className='col-sm-12 text-center'>

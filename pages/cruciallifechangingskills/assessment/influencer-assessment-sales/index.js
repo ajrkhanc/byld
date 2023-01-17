@@ -107,7 +107,7 @@ export default function BrowseCourses() {
         document.getElementById("response").innerHTML = "Assessment Result"
 
         window.setTimeout(function () {
-          window.location.href = `/cruciallifechangingskills/assessment/influencer-assessment/${newnameurl}`
+          window.location.href = `/cruciallifechangingskills/assessment/influencer-assessment-sales/${newnameurl}`
         }, 1000);
 
       }
@@ -128,7 +128,7 @@ export default function BrowseCourses() {
         xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
    
-        var Assessment ="Influecer Assessment Form"
+        var Assessment ="Influecer Assessment Form Sales"
         xhttp.send("name=" + event.target.name.value +
         '&email=' + email +
         '&phone=' + phone +
@@ -643,8 +643,8 @@ export default function BrowseCourses() {
                       <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                     </div>
 
-                    <div className="col-sm-6 mb-12">
-                      <input className='form-control' type="text" name="organization" placeholder="Organization*" required />
+                    <div className="col-sm-6 mb-12 d-none">
+                      <input className='form-control' type="text" value="Null" name="organization" placeholder="Organization*" required />
                     </div>
 
 
