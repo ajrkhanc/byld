@@ -84,7 +84,7 @@ export default function DTCICoachingAcademy() {
 
               <div className='row'>
                 <div class="col-sm-12">
-                  <h4 className="countertoph2 text-left">BWho can consider the ICF accredited certification program?</h4>
+                  <h4 className="countertoph2 text-left">Who can consider the ICF accredited certification program?</h4>
                   
                   <div className='rs-estimate'>
                     <ul className='estimate-info mtt-5'>
