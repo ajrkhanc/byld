@@ -45,6 +45,18 @@ module.exports = {
         permanent: true,
       },
 
+      {
+        source: '/leader-behaviour-assessment',
+        destination: '/leader-behaviour-assessment-marketing',
+        permanent: true,
+      },
+
+      {
+        source: '/leader-behaviour-assessment2',
+        destination: '/leader-behaviour-assessment-sales',
+        permanent: true,
+      },
+
       
 
       

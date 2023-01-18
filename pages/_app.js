@@ -848,7 +848,7 @@ gtag('config', 'G-5PXTTR960E');
 
 }
 
-else if (router.pathname.startsWith('/leader-behaviour-assessment/')) {
+else if (router.pathname.startsWith('/leader-behaviour-assessment-marketing/')) {
 
   return (
       <COSR>
@@ -903,7 +903,7 @@ else if (router.pathname.startsWith('/leader-behaviour-assessment/')) {
 
 }
 
-else if (router.pathname.startsWith('/leader-behaviour-assessment')) {
+else if (router.pathname.startsWith('/leader-behaviour-assessment-sales')) {
 
   return (
       <Leaderbehaviourassessment>
