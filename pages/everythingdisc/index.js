@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <>
          <Head>
-            <title>Get Access to the Best Psychometric Analysis by Everything DiSC<sup>®</sup></title>
+            <title>Everything DiSC | Personal Development Learning | BYLD Group</title>
             <meta name="description" content="Everything DiSC<sup>®</sup> assessment measures the personality and behavior of individuals. And, DiSC Analysis provides a detailed report for better understanding."/> 
           </Head>
 

@@ -7,7 +7,7 @@ export default function Assessments(){
     return(
         <>
           <Head>
-            <title>Psychometric Assessment | Assessment for learning| BYLD Group</title>
+            <title>Our Solutions | Assessments | BYLD Group</title>
             <meta name="description" content="Willing to know about our Psychometric assessment services? Get in touch with our subject matter experts and get to know about the wide range of fruitful services. For more info, click on the link."/> 
           </Head>
             <div className="rs-services">
