@@ -41,7 +41,7 @@ export default function Coaching(){
                         </div>
 
                           <div className='row'>
-                            <div class="col-sm-4">
+                            <div class="col-sm-3">
                                 <a class="productbox" href="/coaching/icf-certification">
                                 <div class="service-grid">
                                     <div class="service-icon">
@@ -52,7 +52,7 @@ export default function Coaching(){
                                 </a>
                             </div>
 
-                            <div class="col-sm-4">
+                            <div class="col-sm-3">
                             <a class="productbox" href="/coaching/insideout-coaching">
                                 <div class="service-grid">
                                     <div class="service-icon">
@@ -63,7 +63,7 @@ export default function Coaching(){
                                 </a>
                             </div>
 
-                            <div class="col-sm-6">
+                            <div class="col-sm-3">
                             <a class="productbox" href="/coaching/breakthroughs">
                                 <div class="service-grid">
                                     <div class="service-icon">
@@ -74,7 +74,7 @@ export default function Coaching(){
                                 </a>
                             </div>
 
-                            <div class="col-sm-4">
+                            <div class="col-sm-3">
                             <a class="productbox" href="/coaching/executive-coaching">
                                 <div class="service-grid">
                                     <div class="service-icon">
