@@ -57,6 +57,18 @@ module.exports = {
         permanent: true,
       },
 
+      {
+        source: '/coaching/coaching-snapshot',
+        destination: '/coaching/coaching-snapshot-marketing',
+        permanent: true,
+      },
+
+      {
+        source: '/coaching/coaching-snapshot-internal-assessment',
+        destination: '/coaching/coaching-snapshot-sales',
+        permanent: true,
+      },
+
       
 
       

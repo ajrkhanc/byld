@@ -615,7 +615,7 @@ export default function MyApp({ Component, pageProps, router }) {
 
   }
 
-  else if (router.pathname.startsWith('/coaching/coaching-snapshot-internal-assessment/')) {
+  else if (router.pathname.startsWith('/coaching/coaching-snapshot-sales/')) {
 
     return (
       <COSR>
@@ -669,7 +669,7 @@ export default function MyApp({ Component, pageProps, router }) {
     )
 
   }
-  else if (router.pathname.startsWith('/coaching/coaching-snapshot/')) {
+  else if (router.pathname.startsWith('/coaching/coaching-snapshot-marketing/')) {
 
     return (
       <COSR>
@@ -724,7 +724,7 @@ export default function MyApp({ Component, pageProps, router }) {
 
   }
 
-  else if (router.pathname.startsWith('/coaching/coaching-snapshot')) {
+  else if (router.pathname.startsWith('/coaching/coaching-snapshot-marketing')) {
 
     return (
       <COS>

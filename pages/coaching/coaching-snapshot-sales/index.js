@@ -41,11 +41,10 @@ export default function BrowseCourses() {
         var cr5 = event.target.cr5.value;
 
 
-
+        var organization ="Null";
         const name = event.target.name.value;
         const email = event.target.email.value;
-        const phone = event.target.phone.value;
-        const organization = event.target.organization.value;
+        const phone = event.target.phone.value;        
         var nameurl = name.replace(/[^a-zA-Z0-9 ]/g, "");
         nameurl = nameurl.toLowerCase();
         const newnameurl = nameurl.split(' ').join('-')
@@ -99,12 +98,12 @@ export default function BrowseCourses() {
                 document.getElementById("response").innerHTML = "Assessment Result"
 
                 window.setTimeout(function () {
-                    window.location.href = `/coaching/coaching-snapshot/${newnameurl}`
+                    window.location.href = `/coaching/coaching-snapshot-sales/${newnameurl}`
                 }, 1000);
 
             }
             else {
-                document.getElementById("response").innerHTML = "You Have Submeted to go"
+                document.getElementById("response").innerHTML = ""
                 setTimeout(function () {
                     document.getElementById("response").innerHTML = "";
                     document.getElementById("submitbuttonform").value = "Submit JobForm";
@@ -117,15 +116,14 @@ export default function BrowseCourses() {
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/61/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/66/feedback');
         xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
    
-        var Assessment ="Coaching - Coaching Snapshot Assessment"
+        var Assessment ="Coaching Snapshot Internal Assessment Sales"
         xhttp.send("name=" + event.target.name.value +
         '&email=' + email +
         '&phone=' + phone +
-        '&organization=' + organization+
         '&assessment=' + Assessment)
 
         xhr.onerror = function () {
@@ -136,7 +134,7 @@ export default function BrowseCourses() {
     return (
         <>
             <Head>
-                <title>Coaching | Career Coaching Snapshot</title>
+                <title>Coaching | Career Coaching Snapshot Internal Assessment</title>
                 <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
             </Head>
 
@@ -1248,19 +1246,17 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1 lastinp ptt-20'>
                                     <div className='row inpuut'>
-                                        <div className="col-sm-6 mb-12">
+                                        <div className="col-sm-4 mb-12">
                                             <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
                                         </div>
-                                        <div className="col-sm-6 mb-12">
+                                        <div className="col-sm-4 mb-12">
                                             <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
                                         </div>
-                                        <div className="col-sm-6 mb-12">
-                                            <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                        <div className="col-sm-4 mb-12">
+                                            <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No. (Optional)" />
                                         </div>
 
-                                        <div className="col-sm-6 mb-12">
-                                            <input className='form-control' type="text" name="organization" placeholder="Organization*" required />
-                                        </div>
+                                       
                                         <div className='col-sm-12'>
                                             <input type="submit" value="Submit" id='submitbuttonform' class="assesmetmain" tabindex="201" />
                                             <p class="feedbackcolor" id="response"></p>
