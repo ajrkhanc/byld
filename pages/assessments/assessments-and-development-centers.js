@@ -7,7 +7,7 @@ export default function AssesmentsAndDevelopmentCenter(){
     return(
         <>
           <Head>
-            <title>Assessments and Development Centers - BYLD Group</title>
+            <title>Assessments and Development Centers | Assessments | BYLD Group</title>
             <meta name="description" content="DOWNLOADS Brochure DOC Got any Questions? Call us today. 1800-102-1345 info@byldgroup.com Blanchard offers a variety of developmental assessments that provide a powerful baseline and means of checking behavioral progress on the leadership skills being developed. We typically pair our assessments with one-on-one coaching to debrief the assessment, define an individual development plan, and begin making… Continue reading Assessments and Development Centers"/> 
           </Head>
             <div className="rs-services">

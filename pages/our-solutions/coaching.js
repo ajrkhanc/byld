@@ -7,7 +7,7 @@ export default function Coaching(){
     return(
         <>
           <Head>
-            <title>Coaching and Mentoring | Coaching Certification | BYLD Group</title>
+            <title>Our Solutions | Coaching | BYLD Group</title>
             <meta name="description" content="Coaching in the workplace is one of the most important aspects to ponder upon. For keeping the employees motivated and engaged, coaching and mentoring help employees to work with interest and positivity."/> 
           </Head>
 

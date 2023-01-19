@@ -6,7 +6,7 @@ export default function DTCICoachingAcademy(){
     return(
         <>
           <Head>
-            <title>DTCI Coaching Academy - BYLD Group</title>
+            <title>Door Training and Consulting India | Coaching | BYLD Group</title>
             <meta name="description" content="DOWNLOADS Brochure DOC Got any Questions? Call us today. 1800-102-1345 info@byldgroup.com DTCI (Door Training and Consulting India Pvt. Ltd.) is one of the leading names in the industry. They provide a meticulous 3-tier approach in coaching executives to have a national as well as global reach. Door Training and Consulting has three main coaching practice… Continue reading DTCI Coaching Academy"/> 
           </Head>
             <div className="rs-services">
