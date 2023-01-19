@@ -8,7 +8,7 @@ export default function Coaching(){
         <>
           <Head>
             <title>Our Solutions | Coaching | BYLD Group</title>
-            <meta name="description" content="Coaching in the workplace is one of the most important aspects to ponder upon. For keeping the employees motivated and engaged, coaching and mentoring help employees to work with interest and positivity."/> 
+            <meta name="description" content="BYLD Group offers various coaching mentoring and leadership mentoring programs to bring organizational change and development. To know more, check out the page."/> 
           </Head>
 
           <section className='coachingmain'>

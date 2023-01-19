@@ -44,7 +44,7 @@ export default function Home() {
     <>
          <Head>
             <title>Everything DiSC | Personal Development Learning | BYLD Group</title>
-            <meta name="description" content="Everything DiSC<sup>®</sup> assessment measures the personality and behavior of individuals. And, DiSC Analysis provides a detailed report for better understanding."/> 
+            <meta name="description" content="Explore Everything DiSC Workplace Profile to assess your working style, behavioral pattern, strengths, and weakness for effective team collaboration. To know more about various Everything DiSC solutions, check out the site."/> 
           </Head>
 
           <div className="rs-services">

@@ -8,7 +8,7 @@ export default function Assessments(){
         <>
           <Head>
             <title>Our Solutions | Assessments | BYLD Group</title>
-            <meta name="description" content="Willing to know about our Psychometric assessment services? Get in touch with our subject matter experts and get to know about the wide range of fruitful services. For more info, click on the link."/> 
+            <meta name="description" content="Psychometric Assessment offers insight into the behavior and working style of an individual. Explore how Everything DiSC solutions play a crucial role in people’s development."/> 
           </Head>
             <div className="rs-services">
             <div className="container-full">

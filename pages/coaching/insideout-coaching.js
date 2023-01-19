@@ -6,8 +6,8 @@ export default function InsideOutCoaching(){
     return(
         <>
           <Head>
-            <title>Insideout Coaching - BYLD Group</title>
-            <meta name="description" content="DOWNLOADS Brochure DOC Got any Questions? Call us today. 1800-102-1345 info@byldgroup.com InsideOut Coaching™ is the world’s best workplace coaching module. It is simple, cohesive, and robust. This training program helps clients hold the right kind of conversations to energize people, motivate them, and lead them to success and better business performance. It is a time-tested… Continue reading Insideout Coaching"/> 
+            <title>InsideOut Coaching | Coaching | BYLD Group</title>
+            <meta name="description" content="InsideOut Coaching provides leadership mentoring to managers to help them energize people, motivate and drive them toward success and better business performance."/> 
           </Head>
             <div className="rs-services">
             <div className="container-full">

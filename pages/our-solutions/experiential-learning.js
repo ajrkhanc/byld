@@ -8,7 +8,7 @@ export default function ExperientialLearning(){
         <>
           <Head>
             <title>Experiential Learning | Our Solutions | BYLD Group</title>
-            <meta name="description" content="DOWNLOADS Brochure DOC Got any Questions? Call us today. 1800-102-1345 info@byldgroup.com Today’s stressful and distracted workplace environments are taking a toll on people’s learning and development efforts. Let’s face it; working smarter is the only choice you have and this is where our experiential learning programs help you learn quickly and learn essential skills to… Continue reading Experiential Learning"/> 
+            <meta name="description" content="Experiential Learning helps in developing leadership skills by offering leadership development programs that promote self-learning and improvement. To know more, check out the page."/> 
           </Head>
             <div className="rs-services">
             <div className="container-full">

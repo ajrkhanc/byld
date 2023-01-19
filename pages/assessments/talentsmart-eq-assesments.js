@@ -8,7 +8,7 @@ export default function TalentSmartEQAssesment(){
         <>
           <Head>
             <title>TalentSmart EQ Assessment | Assessments | BYLD Group</title>
-            <meta name="description" content="DOWNLOADS Brochure DOC Got any Questions? Call us today. 1800-102-1345 info@byldgroup.com Emotional Intelligence (EQ) is a person’s skill at perceiving, understanding, and managing emotions. It is seen in what we do each day and how we interact with others. Learn key concepts in emotional intelligence: Discover your emotional intelligence skill Levels Understand the business case… Continue reading TalentSmart EQ Assesments"/> 
+            <meta name="description" content="It is an emotional intelligence and leadership assessment tool that discover emotional intelligence skill levels for effective self-management and relationship management."/> 
           </Head>
             <div className="rs-services">
             <div className="container-full">

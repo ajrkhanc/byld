@@ -42,7 +42,7 @@ export default function LuminaPsychomentricAssesments(){
         <>
           <Head>
             <title>Lumina Psychometric Assessments | Assessments | BYLD Group</title>
-            <meta name="description" content="DOWNLOADS Brochure DOC Got any Questions? Call us today. 1800-102-1345 info@byldgroup.com It is a cutting-edge professional development tool that provides employees with an opportunity to analyze their personalities by giving clear and jargon-free insights. This psychometric tool aims at transforming organizations through transforming their people. Lumina Spark facilitates every individual with their special Lumina Mandala… Continue reading Lumina Psychometric Assesments"/> 
+            <meta name="description" content="It is a Psychometric Analysis tool with information about the Lumina Mandala, explaining the key strengths and weaknesses of an individual. To know more, check out the page."/> 
           </Head>
             <div className="rs-services">
             <div className="container-full">

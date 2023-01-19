@@ -7,7 +7,7 @@ export default function solution(){
         <>
           <Head>
             <title>Our Solutions | HR, Productivity & Assessment Solutions| BYLD Group</title>
-            <meta name="description" content="We are dedicated to make a difference to people and their organizations. Our clients across industries trust BYLD to manage develop and align their talent needs in line with the business objectives and strategies – a responsibility we meet every day with enthusiasm, expertise, accountability, and passion. Our Mission is to make individuals, teams and… Continue reading OUR SOLUTIONS"/> 
+            <meta name="description" content="BYLD Group offers leadership development programs, coaching programs, and corporate training programs to boost self-performance and teamwork. To know more, check out the page."/> 
           </Head>
             <div className="rs-services">
             <div className="container-full">
