@@ -63,7 +63,7 @@ export default function Coaching(){
                                 </a>
                             </div>
 
-                            <div class="col-sm-6 d-none">
+                            <div class="col-sm-6">
                             <a class="productbox" href="/coaching/breakthroughs">
                                 <div class="service-grid">
                                     <div class="service-icon">
@@ -152,6 +152,8 @@ export default function Coaching(){
                                     </div>
                                 </div>
                             </div>
+
+                            
 
                             <div class="col">
                                 <div class="rs-addon-number">
