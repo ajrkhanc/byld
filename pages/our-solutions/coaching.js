@@ -64,7 +64,7 @@ export default function Coaching(){
                             </div>
 
                             <div class="col-sm-6 d-none">
-                            <a class="productbox" href="#">
+                            <a class="productbox" href="/coaching/breakthroughs">
                                 <div class="service-grid">
                                     <div class="service-icon">
                                     <img src="/assets/img/icon/link.png" alt=""/>
