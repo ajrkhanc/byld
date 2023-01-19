@@ -7,8 +7,8 @@ export default function Dtci(){
     return(
         <>
           <Head>
-            <title>DTCI - BYLD Group</title>
-            <meta name="description" content="One Place that Creates and Certifies Successful Coaches 21+ YEARS OF COACHING EXPERIENCE | 1200+ CLIENTS | 100+ CONSULTANTS DOWNLOADS Brochure DOC Got any Questions? Call us today. 1800-102-1345 info@byldgroup.com Door Training and Consulting India (DTCI) Know More DTCI (Door Training and Consulting India Pt. Ltd.) is a BYLD Group Company and one of the… Continue reading DTCI"/> 
+            <title>Door Training and Consulting India | Leadership Development | BYLD Group</title>
+            <meta name="description" content="DTCI offers leadership and management courses to facilitate change management, coaching culture, and effective organizational change and development. To know more, check out the page."/> 
           </Head>
             <section className='dtcibg'>
                 <div className='container'>

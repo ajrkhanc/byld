@@ -78,8 +78,8 @@ export default function TirianIndex(){
     return(
         <>
           <Head>
-            <title>Tirian - BYLD Group</title>
-            <meta name="description" content="Enquire Now Enquire Now Are you looking for innovative and practical solutions to workplace and business challenges? BYLD Group introduces highly effective CREATIVITY and INNOVATION solutions that are exclusively designed by Tirian Innovative Solutions, Australia.We, in partnership with Dr. Andrew Grant (Executive Director at Tirian, Author, Facilitator, Speaker, and Innovation for Transformation Specialist), offer expertise… Continue reading Tirian"/> 
+            <title>Tirian | Innovation and Creativity Solutions | BYLD Group</title>
+            <meta name="description" content="Tirian offers creative thinking skills and innovative solutions to bring transformation in organizational culture and leadership. To know more, check out the page."/> 
           </Head>
           <div className="rs-services tirianpage">
             <div className="container-full">

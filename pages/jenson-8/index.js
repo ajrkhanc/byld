@@ -44,8 +44,8 @@ export default function Jenson8(){
     return(
         <>
           <Head>
-            <title>Jenson 8 - BYLD Group</title>
-            <meta name="description" content="WATCH INTRO GET THE DEMO WATCH INTRO GET THE DEMO Revolutionising Experiential LearningFor the first time in India, we at BYLD Group, in partnership with Jenson8 (a UK-based award-winning Virtual Reality training company), bring highly effective Virtual Reality leadership courses. THERE IS NOTHING LIKE IT SO FAR IN THE INDIAN MARKET.Outdoor training, classroom training, and… Continue reading Jenson 8"/> 
+            <title>Jenson8 | Experiential Learning | BYLD Group</title>
+            <meta name="description" content="BYLD Group, in partnership with Jenson8, offers the best VR games and virtual games for employees for effective leadership development and training. To know more, check out the page."/> 
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-S7PQH69WDV"></script>
             <script
             dangerouslySetInnerHTML={{

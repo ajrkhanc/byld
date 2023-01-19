@@ -7,8 +7,8 @@ export default function Assessments(){
     return(
         <>
           <Head>
-            <title>Psychometric Assessment | Assessment for learning| BYLD Group</title>
-            <meta name="description" content="Willing to know about our Psychometric assessment services? Get in touch with our subject matter experts and get to know about the wide range of fruitful services. For more info, click on the link."/> 
+            <title>Ken Blanchard Group of Companies | Blanchard India | BYLD Group</title>
+            <meta name="description" content="Ken Blanchard Group of Companies offers leadership training and coaching skills through the Blanchard Online learning platform. To know more about leadership courses in India, check out the page."/> 
           </Head>
             <div className="rs-services">
             <div className="container-full">

@@ -29,8 +29,8 @@ export default function MyApp({ Component, pageProps, router }) {
     return (
       <CL>
         <Head>
-          <title>Home - Crucial Life-Changing Skills</title>
-          <meta name="description" content="Learn Life-Transforming Skills Enroll in our award-winning trainings and learn how to handle the most crucial challenges of life and work. Browse Courses Get Started https://www.youtube.com/watch?v=OalK_lZuzYQ Based on 30+ years... Read more" />
+          <title>Crucial Life-Changing Skills | Our Solutions | BYLD Group</title>
+          <meta name="description" content="We offer the best communication courses for leaders to ensure effective business communication through Influence skills training. To know more, check out the page." />
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />

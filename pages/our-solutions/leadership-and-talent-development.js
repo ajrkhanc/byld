@@ -7,8 +7,8 @@ export default function leadersShipAndTalentDevelopment(){
     return(
         <>
           <Head>
-            <title>Leadership Development | Leadership Training | BYLD Group</title>
-            <meta name="description" content="For leadership development, organizations need to educate their people. For this, various leadership trainings can be helpful. Connecting the subject matter experts can be productive in knowing perks of opting for the training."/> 
+            <title>Leadership and Talent development | Our Solutions | BYLD Group</title>
+            <meta name="description" content="BYLD Group provides various leadership training programs to boost leadership mentoring, organizational change and development. To know more, check out the page."/> 
           </Head>
             <div className="rs-services">
             <div className="container-full">

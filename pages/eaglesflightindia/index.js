@@ -43,8 +43,8 @@ export default function Home() {
   return (
     <>
          <Head>
-            <title>Best Team Building Exercises for Organizational Development</title>
-            <meta name="description" content="Experiential Learning is a revelation for those who learn, experience, apply, and practice. But their implementation is done in the form of business team-building activities."/> 
+            <title>Eagle’s Flight | Experiential Learning | BYLD Group</title>
+            <meta name="description" content="Eagle’s Flight offers corporate team building games in a virtual immersive learning environment for effective self-learning. To know more, check out the page."/> 
           </Head>
 
           <div className="rs-services">

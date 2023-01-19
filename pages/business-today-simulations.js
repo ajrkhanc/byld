@@ -6,8 +6,8 @@ export default function BusinessTodaySimulations(){
     return(
         <>
           <Head>
-            <title>Business Today Simulations - BYLD Group</title>
-            <meta name="description" content="DOWNLOADS Brochure DOC Got any Questions? Call us today. 1800-102-1345 info@byldgroup.com Do your leaders understand the impact of their decisions on the financial health of your organization? Business Acumen Today utilises discovery learning technologies to significantly improve the performance of people and organizations. In partnership with Business Today, we present our wide range of 170+… Continue reading Business Today Simulations"/> 
+            <title>Business Today Simulations | Experiential Learning | BYLD Group</title>
+            <meta name="description" content="Business Today Simulations offer leadership development training through a “learning by doing” approach to ensure people performance and organizational development. To know more, check out the page."/> 
           </Head>
             <div className="rs-services">
             <div className="container-full">
