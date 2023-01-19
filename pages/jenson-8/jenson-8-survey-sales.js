@@ -76,7 +76,7 @@ export default function BrowseCourses() {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-6'>
-                            <h2>Start unlocking the strength within yourself today</h2>
+                            <h2>Start unlocking the Strength <br></br>within Yourself today!</h2>
                             <p>
                                 The <b><i>Jenson8</i></b> VR is a Metaverse experiential learning platform that delivers behavioural change by enabling participants to enter a fully immersive multi-user VR environment designed to enhance problem-solving, collaboration, and a team connection. The data collected, is then filtered through validated psychometric models to deliver key insights about the aptitude and behaviors of participants.
                             </p>
@@ -99,13 +99,13 @@ export default function BrowseCourses() {
                         <div className='row'>
                             <div className='col-sm-12'>
                                 <div className='fh3'>
-                                    <h3>Virtual reality Solution to drive Behaviour Change HR Tech in the Metaverse:</h3>
+                                    <h3>Virtual reality solution to drive Behaviour Change HR Tech in the Metaverse:</h3>
                                 </div>
                             </div>
                             <div className='col-sm-12'>
                                 <div className='fcol1'>
                                     <h2>
-                                        1. Do you believe implementation of tech like Ai and ML can ease up the Hiring Process?
+                                        1. Do you believe implementation of tech like AI and ML can ease up the Hiring Process?
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="q1" value="Agree" id="q1a" required />
