@@ -190,7 +190,7 @@ export default function BrowseCourses() {
             <Head>
                 <title>What Would You Do Assessment | Crucial Learning</title>
                 <meta name="description" content="The What Would You Do assessment reveals your natural tendencies when confronted with a gap in expectation or performance. See where you stand by taking this assessment." />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-DS8DCVSQ1T"></script>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-38DGXG48J1"></script>
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
@@ -198,7 +198,7 @@ export default function BrowseCourses() {
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-DS8DCVSQ1T');
+  gtag('config', 'G-38DGXG48J1');
           `,
                     }}
                 />

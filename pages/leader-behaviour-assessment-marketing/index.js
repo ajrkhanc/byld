@@ -81,6 +81,18 @@ return (
         <Head>
             <title>Leader Behaviour Assessment</title>
             <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTRY3LRCLK"></script>
+            <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QTRY3LRCLK');
+          `,
+                    }}
+                />
         </Head>
 
         <section className='assesmentbannnerbg'>

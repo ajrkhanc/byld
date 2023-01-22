@@ -105,6 +105,14 @@ export default function BrowseCourses() {
             <Head>
                 <title>The Power of Habit Assessment | Crucial Learning</title>
                 <meta name="description" content="THE GREATEST PREDICTOR OF HIGH PERFORMANCE" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-R9WBGNSBEB"></script>
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                        window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-R9WBGNSBEB');
+          `,
+                    }}
+                />
             </Head>
 
             <section className='assesmentbannnerbg'>

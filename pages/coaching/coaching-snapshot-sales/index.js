@@ -136,6 +136,14 @@ export default function BrowseCourses() {
             <Head>
                 <title>Coaching | Career Coaching Snapshot Internal Assessment</title>
                 <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4RT5QHB12"></script>
+                <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-H4RT5QHB12');
+          `,
+            }}
+          />
             </Head>
 
             <section className='assesmentbannnerbg'>

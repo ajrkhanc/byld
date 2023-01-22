@@ -149,6 +149,14 @@ export default function BrowseCourses() {
       <Head>
         <title>Influencer Assessment | Crucial Learning</title>
         <meta name="description" content="The Influencer Assessment is used to determine your influence skills. The questions examine methods you use to lead and help others change. Complete the quiz to see your level of influence." />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GF55PKMMPH"></script>
+        <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                        window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-GF55PKMMPH');
+          `,
+                    }}
+                />
       </Head>
 
       <section className='assesmentbannnerbg'>

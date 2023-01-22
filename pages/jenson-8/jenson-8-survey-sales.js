@@ -70,6 +70,18 @@ export default function BrowseCourses() {
             <Head>
                 <title>Virtual reality Solution to drive Behaviour Change HR Tech in the Metaverse</title>
                 <meta name="description" content="Virtual reality Solution to drive Behaviour Change HR Tech in the Metaverse" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-CVTH7SKHVJ"></script>
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CVTH7SKHVJ');
+          `,
+                    }}
+                />
             </Head>
 
             <section className='assesmentbannnertop'>

@@ -124,15 +124,11 @@ export default function Home() {
             <Head>
                 <title>GTD Assessment | Crucial Learning</title>
                 <meta name="description" content="The GTD Assessment is a twenty-question quiz that helps reveal some of your tendencies with managing workflow. See what you know and what you need to improve on." />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-BV3XDNNEMK"></script>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8Z3G86M64"></script>
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-  
-              gtag('config', 'G-BV3XDNNEMK');
+                        window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-W8Z3G86M64');
           `,
                     }}
                 />
