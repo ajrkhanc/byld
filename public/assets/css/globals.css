@@ -1,3 +1,33 @@
+/* new single blog css */
+
+.singlepcss .blog-details .bs-img img{
+  border-bottom: 5px solid #505dd3b8;
+}
+
+.singlepcss .blog-details .bs-img h3{
+  padding: 10px 0px 0px 0px;
+  margin-bottom: 5px;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #3373ae;
+}
+
+.singlepcss .blog-details .single-post-meta{
+  padding-bottom: 7px !important;
+}
+.singlepcss .blog-details .single-post-meta .p-date{
+  font-size: 16px !important;
+  color: #e88027 !important;
+}
+.singlepcss .blog-details .single-post-meta .p-date i{
+  font-size: 16px !important;
+  margin-right: 0px !important;
+
+}
+
+
+
 .pppp5 {
   padding: 5px !important;
 }
@@ -3386,3 +3416,4 @@ table td {
   border-color: #2a6db5;
   border-radius: 10px;
 }
+

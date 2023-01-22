@@ -113,6 +113,7 @@ export default function DiskTTTLP(){
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>
                                                 <option value="January 23rd, 24th, 25th & 27th 2023 - DISC Train-the-Trainer (TTT)">January 23rd, 24th, 25th & 27th 2023 - DISC Train-the-Trainer (TTT)</option>
+                                                <option value="February 21st, 22nd, 23rd & 24th 2023 - DISC Train-the-Trainer (TTT)">February 21st, 22nd, 23rd & 24th 2023 - DISC Train-the-Trainer (TTT)</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
