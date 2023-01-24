@@ -175,6 +175,14 @@ export default function AboutUs(){
                                     <div className='logoslider'>                                
                                         <img src="/assets/img/logos/five.jpg"/>
                                     </div>
+
+                                    <div className='logoslider'>                                
+                                        <img src="/assets/img/logos/jenson8l.jpg"/>
+                                    </div>
+
+                                    <div className='logoslider'>                                
+                                        <img src="/assets/img/logos/tirianl.jpg"/>
+                                    </div>
                                 
                                     <div className='logoslider'>                                
                                         <img src="/assets/img/logos/lumi.jpg"/>
