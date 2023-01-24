@@ -68,7 +68,7 @@ export default function result({ result }) {
                             {
                                 result.slice(0, 1).map((results) => {
                                     return (
-                                        <h4 className="countertoph2 text-center resh">{results.name} - Self Report Assessment</h4>
+                                        <h4 className="countertoph2 text-center resh">{results.name} - Self-Assessment Report</h4>
                                     )
                                 })
 
@@ -82,16 +82,18 @@ export default function result({ result }) {
                             <div className="msicon mtt-0">
                                 <div className="services-text">
                                     <h3 className="title">Coach</h3>
-                                    <p className='ptt-5 mbb-10'>Word coaching originate from European context, where valuable people were moved from one place to another in buggy that looks very similar. In modern context, it is a skill to move people from where find themselves today to a place they aspire to be. ICF defines coaching as partnering with clients in a thoughtprovoking and creative process that inspires them to maximize their personal and professional potential. Coaches honour the client as the expert in his or her life and work and believe every client is creative, resourceful, and whole.</p>
+                                    <p className='ptt-5 mbb-10'>
+                                    The word coaching originates from the European context, where valuable people were moved from one place to another in a buggy that looked very similar. In the modern context, it is a skill to move people from where they find themselves to where they aspire to be. ICF defines coaching as partnering with clients in a thought- provoking and creative process that inspires them to maximize their personal and professional potential. Coaches honor the client as the expert in their life and work and believe every client is creative, resourceful, and whole.
+                                    </p>
                                 </div>
                             </div>
                             <div className="msicon">
                                 <div className="services-text">
-                                    <h5 className='pinkh'>Standing on this foundation, the coach's responsibility is to:</h5>
+                                    <h5 className='pinkh'>Standing on this foundation, a coach's responsibility is to:</h5>
                                     <div className='rs-estimate'>
                                         <ul className='estimate-info mtt-5'>
                                             <li>Discover, clarify, and align with what the client wants to achieve</li>
-                                            <li>Encourage client self-discovery</li>
+                                            <li>Encourage clients’ self-discovery</li>
                                             <li>Elicit client-generated solutions and strategies</li>
                                             <li>Hold the client responsible and accountable</li>
                                             <li>Coaching process helps clients dramatically improve their outlook on work and life, while improving their leadership skills and unlocking their potential.</li>
