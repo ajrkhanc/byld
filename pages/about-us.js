@@ -46,7 +46,7 @@ export default function AboutUs(){
     return(
         <>
           <Head>
-            <title>Organizational Development | E-learning Portal | BYLD Group</title>
+            <title>Organizational Development | E-learning Portal | BYLD Group </title>
             <meta name="description" content="Willing to know about our E-learning portal? You can find various options for In house training as well. Connect today to know about it and also get to know about the Train The Trainer training for organizational development."/> 
           </Head>
             <div className="rs-services">
