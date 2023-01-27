@@ -81,7 +81,7 @@ export default function FIveBWorkshop(){
                                         <div className="col-md-12 mb-12">
                                             <select name="intrestin" required>
                                                 <option value="">Interested In*</option>
-                                                <option value="Personal Development Webinar 15th July, 2023">Personal Development Webinar 15th July, 2023</option>
+                                                <option value="Personal Development Webinar 3rd February, 2023">Personal Development Webinar 3rd February, 2023</option>
                                             </select>
                                         </div>
 
@@ -125,7 +125,7 @@ export default function FIveBWorkshop(){
                     </div>
                     <div className="col-lg-6 md-pt-50">
                         <div className="borderall">
-                        <img src="/5bassets/img/calander.jpg" alt=""/>
+                        <img src="/5bassets/img/pdw-calander.jpg" alt=""/>
                         </div>
                     </div>
                     
