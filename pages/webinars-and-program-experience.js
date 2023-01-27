@@ -91,31 +91,6 @@ export default function WebinarsAndProgramExperience(){
                         </div>
                     </div>
 
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar March 8th, 2023</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>Eagle’s Flight Executive Briefing</h3>
-                                <a className="eventbtn" href='/eaglesflightindia/ef-generic-lp'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar January 18th, 2023</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>Crucial Life Changing Skills Webinar</h3>
-                                <a className="eventbtn" href='/cruciallifechangingskills/webinars/'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
 
                     {/* <div className='col-sm-4'>
                         <div className='eventsbox'>
@@ -149,12 +124,38 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar February 15th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Crucial Life Changing Skills Webinar</h3>
+                                <a className="eventbtn" href='/cruciallifechangingskills/webinars/'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
                                 <span>Webinar February 17th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                             <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
                                 <h3>The Five Behaviors<sup>®️</sup> Team Development</h3>                                
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar March 8th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Eagle’s Flight Executive Briefing</h3>
+                                <a className="eventbtn" href='/eaglesflightindia/ef-generic-lp'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -203,9 +204,10 @@ export default function WebinarsAndProgramExperience(){
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                                
                                                 {/* <option value="6th January 2023 - Everything DiSC Work of Leaders Webinar">6th January 2023 - Everything DiSC Work of Leaders Webinar</option> */}
-                                                <option value="Crucial Conversations for Accountability – January 18th, 2023">Crucial Conversations for Accountability – January 18th, 2023</option>
+                                                
                                                 {/* <option value="Lumina Spark – January 20th, 2023">Lumina Spark – January 20th, 2023</option> */}
                                                 <option value="The Five Behaviors®️ Personal Development – February 3rd, 2023">The Five Behaviors®️ Personal Development – February 3rd, 2023</option>
+                                                <option value="The Power of Habit – February 15th, 2023">The Power of Habit – February 15th, 2023</option>
                                                 <option value="The Five Behaviors®️ Team Development – February 17th, 2023">The Five Behaviors®️ Team Development – February 17th, 2023</option>
                                                 <option value="8th March 2023 - Eagle’s Flight Executive Briefing">8th March 2023 - Eagle’s Flight Executive Briefing</option>
                                             </select>

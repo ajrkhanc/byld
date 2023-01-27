@@ -107,7 +107,7 @@ export default function JoinOurPartnerNetworkLP(){
                                         <div className="col-lg-12 mb-12">
                                             <select name="intrestedin" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="18th January 2023: 11:00 PM - 12:00 PM">18th January 2023: 11:00 PM - 12:00 PM</option>
+                                                
                                                 <option value="15th February 2023: 11:00 PM - 12:00 PM">15th February 2023: 11:00 PM - 12:00 PM</option>
                                             </select>
                                         </div>
@@ -166,20 +166,7 @@ export default function JoinOurPartnerNetworkLP(){
 
                     
 
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar 18th January 2023</span>
-                            </div>
-                            
-                            <div className='eventbottom'>
-                                <h3 className='hhd'>BYLD Partner Network Briefing</h3>
-                                <h5>Time: 11:00 PM - 12:00 PM</h5>
-                                <a className="eventbtn" href='#'>REGISTER NOW</a>
-                            </div>
-                        </div>
-                    </div>
+                
 
                     <div className='col-sm-4'>
                         <div className='eventsbox'>

@@ -56,13 +56,24 @@ export default function Workshops(){
                     </div>
                     <div className='clearfix'></div>                    
 
-                    
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>January 30th - 31st, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>The SLII Experience™ - Virtual</h3>
+                                <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span> January 24th - 25th, 2023</span>
+                                <span>February  17th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Crucial Life Changing Skills Online Workshop</h3>
@@ -71,18 +82,7 @@ export default function Workshops(){
                         </div>
                     </div>
 
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>January 23rd - 24th, 2023</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>The SLII Experience™ - Virtual</h3>
-                                <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
@@ -139,8 +139,8 @@ export default function Workshops(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                                
-                                                <option value="January 24th - 25th, 2023 - Crucial Life Changing Skills Online Workshop">January 19th - 20th, 2023 - Crucial Life Changing Skills Online Workshop</option>
-                                                <option value="January 23rd - 24th, 2023 - The SLII Experience™ - Virtual">January 23rd - 24th, 2023 - The SLII Experience™ - Virtual</option>
+                                                <option value="February 17th, 2023 - The Power of Habit">February 17th, 2023 - The Power of Habit</option>
+                                                <option value="January 30th - 31st, 2023 - The SLII Experience™ T4T">January 30th - 31st, 2023 - The SLII Experience™ T4T</option>
                                                 <option value="February 21st, 22nd, 23rd & 24th 2023 - DISC Train-the-Trainer (TTT)">February 21st, 22nd, 23rd & 24th 2023 - DISC Train-the-Trainer (TTT)</option>
                                             </select>
                                         </div>
