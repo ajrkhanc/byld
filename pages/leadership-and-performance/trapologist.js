@@ -82,9 +82,9 @@ export default function Trapologist(){
                                         <div className="col-sm-6 pppp8">
                                             <select name="anyslot" required>
                                                 <option value="">Pick up any Slot*</option>                                                
-                                                <option value="Webinar: 1st February, 2023">Webinar: 1st February, 2023</option>
+                                                {/* <option value="Webinar: 1st February, 2023">Webinar: 1st February, 2023</option>
                                                 <option value="Webinar: 4th January, 2023">Webinar: 4th January, 2023</option>
-                                                <option value="Virtual Public Workshop:  27th January, 2023">Virtual Public Workshop:  27th January, 2023</option>
+                                                <option value="Virtual Public Workshop:  27th January, 2023">Virtual Public Workshop:  27th January, 2023</option> */}
                                             </select>                                            
                                         </div>
                                         <div className="col-sm-12 pppp8">
@@ -116,7 +116,7 @@ export default function Trapologist(){
             <div className="rs-testimonial style4 bg16 ptt-50 pbb-50">
                 <div className="container">                    
                     <div className="row">
-                      <div className='col-sm-8'>
+                      <div className='col-sm-12'>
                            <div className="clientcornnertest">
                                 <div className="testi-information">                                    
                                     <span className="testi-title textleftc">
@@ -126,16 +126,16 @@ export default function Trapologist(){
                                 </div>
                                 <div className="rs-estimate">
                                     <ul className='estimate-info mtt-5'>
-                                        <li className='textleftc blackcolor'>Recognize – learning how the trap seduces you, limits your abilities, and keeps you stuck.</li>
-                                        <li className='textleftc blackcolor'>Quantify – determining how long the traps last, how severe they are, how often you fall into them, and in what environments you are most vulnerable.</li>
-                                        <li className='textleftc blackcolor'>Identify the conventional approach –what is the popular, generic, and accepted yet ineffective solution?</li>
-                                        <li className='textleftc blackcolor'>Discover the epiphany breakthrough –what innovative strategies will accelerate my success?</li>
-                                        <li className='textleftc blackcolor'>Take Action – establish your priorities. Create a plan and implement it.</li>                                        
+                                        <li className='textleftc whitecolor'>Recognize – learning how the trap seduces you, limits your abilities, and keeps you stuck.</li>
+                                        <li className='textleftc whitecolor'>Quantify – determining how long the traps last, how severe they are, how often you fall into them, and in what environments you are most vulnerable.</li>
+                                        <li className='textleftc whitecolor'>Identify the conventional approach –what is the popular, generic, and accepted yet ineffective solution?</li>
+                                        <li className='textleftc whitecolor'>Discover the epiphany breakthrough –what innovative strategies will accelerate my success?</li>
+                                        <li className='textleftc whitecolor'>Take Action – establish your priorities. Create a plan and implement it.</li>                                        
                                     </ul>
                                 </div>                                
                             </div>
                       </div>
-                      <div className='col-sm-4'>                        
+                      {/* <div className='col-sm-4'>                        
                                 <div className="clientcornnertest bgpurewhite">                                    
                                     <div className="testi-information">
                                     <div className="testi-name textleftc orangecolor mbb-15">Explore Our Upcoming Events</div>
@@ -175,7 +175,7 @@ export default function Trapologist(){
 
                                     
                                 </div>
-                            </div>                            
+                            </div>                             */}
                     </div>
                 </div>
             </div>

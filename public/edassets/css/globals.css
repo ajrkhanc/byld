@@ -1,3 +1,38 @@
+/* new single blog css */
+
+.singlepcss .blog-details .bs-img img{
+  border-bottom: 5px solid #505dd3b8;
+}
+
+.singlepcss .blog-details .bs-img h3{
+  padding: 10px 0px 0px 0px;
+  margin-bottom: 5px;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #3373ae;
+}
+.singlepcss .blog-details .single-post-meta{
+  padding-bottom: 7px !important;
+}
+.singlepcss .blog-details .single-post-meta .p-date{
+  font-size: 16px !important;
+  color: #e88027 !important;
+}
+.singlepcss .blog-details .single-post-meta .p-date i{
+  font-size: 16px !important;
+  margin-right: 0px !important;
+}
+.singlepcss blockquote{
+  margin: 20px 0px !important;
+  padding: 15px 20px !important;
+}
+.blog-details {
+  box-shadow: 0 0 30px 0 rgb(0 0 0 / 7%);
+  padding: 15px;
+}
+
+
 .textjustify{ text-align: justify !important;}
 .ppp{padding: 0px !important;}
 .ptt-5{padding-top: 5px;}

@@ -130,7 +130,7 @@ export default function singleblog({ posts, posts5, cats, postfeedback }) {
 
             </Head>
             
-            <div class="rs-inner-blog pt-50 pb-50 md-pt-70 md-pb-70">
+            <div class="rs-inner-blog pt-50 pb-50 md-pt-70 md-pb-70 singlepcss">
                 <div class="container custom">
                     <div class="row">
                         <div class="col-lg-4 col-md-12 order-last">
@@ -177,7 +177,7 @@ export default function singleblog({ posts, posts5, cats, postfeedback }) {
                             <div class="row">
                             <div class="col-lg-12">
                                 <div class="blog-details">
-                                    <div class="bs-img mb-35">
+                                    <div class="bs-img">
                                         <a><img src={posts.ImageURL} alt={posts.ImageAlt} /></a>
                                         <h3>{posts.Title}</h3>
                                     </div>

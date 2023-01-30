@@ -118,7 +118,7 @@ export default function singleblog({ posts, posts5, cats, postfeedback }) {
 
             </Head>
             
-            <div class="rs-inner-blog pattingtb">
+            <div class="rs-inner-blog pattingtb singlepcss">
                 <div class="container custom">
                     <div class="row">
                         <div class="col-lg-4 col-md-12 order-last">

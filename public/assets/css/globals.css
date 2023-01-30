@@ -12,7 +12,6 @@
   font-weight: 500;
   color: #3373ae;
 }
-
 .singlepcss .blog-details .single-post-meta{
   padding-bottom: 7px !important;
 }
@@ -23,7 +22,10 @@
 .singlepcss .blog-details .single-post-meta .p-date i{
   font-size: 16px !important;
   margin-right: 0px !important;
-
+}
+.singlepcss blockquote{
+  margin: 20px 0px !important;
+  padding: 15px 20px !important;
 }
 
 
@@ -1543,6 +1545,14 @@
 }
 
 .blackcolor:before {
+  background-color: #fff !important;
+}
+
+.whitecolor {
+  color: #fff;
+}
+
+.whitecolor:before {
   background-color: #fff !important;
 }
 
