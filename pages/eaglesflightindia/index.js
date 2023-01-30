@@ -108,7 +108,7 @@ export default function Home() {
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
-                                    <img src="/efassets/img/eagles-flight-museum-caper.jpg" alt="images"/>
+                                    <img src="/efassets/img/mus01.jpg" alt="images"/>
                                 </div>
                                 <div class="project-content">                                
                                     <a class="p-icon" href="/eaglesflightindia/our-offerings/museum-caper"><i class="custom-icon"></i></a>
@@ -121,7 +121,7 @@ export default function Home() {
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
-                                    <img src="/efassets/img/king-kahufu.jpg" alt="images"/>
+                                    <img src="/efassets/img/king01.jpg" alt="images"/>
                                 </div>
                                 <div class="project-content">                                
                                     <a class="p-icon" href="/eaglesflightindia/our-offerings/king-kahufu"><i class="custom-icon"></i></a>
@@ -134,7 +134,7 @@ export default function Home() {
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
-                                    <img src="/efassets/img/gold-of-the-desert-kings.jpg" alt="images"/>
+                                    <img src="/efassets/img/gold01.jpg" alt="images"/>
                                 </div>
                                 <div class="project-content">                                
                                     <a class="p-icon" href="/eaglesflightindia/our-offerings/gold-of-the-desert-kings"><i class="custom-icon"></i></a>
@@ -147,7 +147,7 @@ export default function Home() {
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
-                                    <img src="/efassets/img/council-of-the-marble-star.jpg" alt="images"/>
+                                    <img src="/efassets/img/consil01.jpg" alt="images"/>
                                 </div>
                                 <div class="project-content">                                
                                     <a class="p-icon" href="/eaglesflightindia/our-offerings/council-of-the-marble-star"><i class="custom-icon"></i></a>
@@ -160,7 +160,7 @@ export default function Home() {
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
-                                    <img src="/efassets/img/promises-promises.jpg" alt="images"/>
+                                    <img src="/efassets/img/promise01.jpg" alt="images"/>
                                 </div>
                                 <div class="project-content">                                
                                     <a class="p-icon" href="/eaglesflightindia/our-offerings/promises-promises"><i class="custom-icon"></i></a>
@@ -173,7 +173,7 @@ export default function Home() {
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
-                                    <img src="/efassets/img/rattlesnake-canyon.jpg" alt="images"/>
+                                    <img src="/efassets/img/rat01.jpg" alt="images"/>
                                 </div>
                                 <div class="project-content">                                
                                     <a class="p-icon" href="/eaglesflightindia/our-offerings/rattlesnake-canyon"><i class="custom-icon"></i></a>
@@ -187,7 +187,7 @@ export default function Home() {
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
-                                    <img src="/efassets/img/expedition-outback.jpg" alt="images"/>
+                                    <img src="/efassets/img/outback.jpg" alt="images"/>
                                 </div>
                                 <div class="project-content">                                
                                     <a class="p-icon" href="/eaglesflightindia/our-offerings/expedition-outback"><i class="custom-icon"></i></a>
@@ -201,7 +201,7 @@ export default function Home() {
                         <div class="col-lg-4 col-md-6 mb-30">
                             <div class="project-item">
                                 <div class="project-img">
-                                    <img src="/efassets/img/windjammer.jpg" alt="images"/>
+                                    <img src="/efassets/img/win01.jpg" alt="images"/>
                                 </div>
                                 <div class="project-content">                                
                                     <a class="p-icon" href="/eaglesflightindia/our-offerings/windjammer"><i class="custom-icon"></i></a>
