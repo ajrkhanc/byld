@@ -54,7 +54,7 @@ export default function FIveBWorkshop(){
                             <div className="content-wrap">                                
                                 <h2 className="colorw">Bring success to your teams by upskilling each individual of your team with The principles of The Five Behaviors<sup>®</sup></h2>
                                 <h3 className="colorw">Five Behaviors<sup>®</sup> Personal Development</h3>
-                                <h3 className="colorw">Date: 25th February, 2022 Time: Time: 3 PM – 4 PM</h3>                                
+                                <h3 className="colorw">Date: 03rd February, 2023 Time: Time: 3 PM – 4 PM</h3>                                
                             </div>
                         </div>
                         <div className="col-md-5 col-sm-12">
