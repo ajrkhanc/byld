@@ -28,6 +28,32 @@
 	padding: 15px 20px !important;
   }
 
+  .singlepcss .blog-details h2{
+	color: #000;
+  }
+  .singlepcss .blog-details h1{
+	color: #000;
+  }
+  .singlepcss .blog-details h3{
+	color: #000;
+  }
+  .singlepcss .blog-details h4{
+	color: #000;
+  }
+  .singlepcss .blog-details h5{
+	color: #000;
+  }
+  .singlepcss .blog-details p{
+	color: #000;
+  }
+  .singlepcss .blog-details ul{
+	padding-left: 20px;
+  }
+
+  .singlepcss .blog-details ul li{
+	color: #000;
+  }
+
 
 
 
