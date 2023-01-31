@@ -186,7 +186,7 @@ export default function PromisesPromises(){
                                         <div className="col-sm-12 mb-12">
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="Promises, Promises!™: February 8th, 2023">Promises, Promises!™: February 8th, 2023</option>
+                                                {/* <option value="Promises, Promises!™: February 8th, 2023">Promises, Promises!™: February 8th, 2023</option> */}
                                             </select>
                                         </div>
                                         <div className="col-lg-12 mb-12">
