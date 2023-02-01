@@ -127,6 +127,7 @@ export default function WebinarsAndProgramExperience(){
                                 <span>Webinar February 15th, 2023</span>
                             </div>
                             <div className='eventbottom'>
+                            <h4 className="eventtitlec">Time: 4.00 PM to 5.00 PM</h4>
                                 <h3>Crucial Life Changing Skills Webinar</h3>
                                 <a className="eventbtn" href='/cruciallifechangingskills/webinars/'>Reserve Your Seat</a>
                             </div>
