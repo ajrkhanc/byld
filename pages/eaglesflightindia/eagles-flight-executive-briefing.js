@@ -131,7 +131,7 @@ export default function TheFiveBehaviorsForVirtualTeam(){
                                         <div className="col-sm-12 mb-12">
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="Eagle's Flight Executive Briefing: August 17th, 2022">Eagle's Flight Executive Briefing: August 17th, 2022</option>
+                                                {/* <option value="Eagle's Flight Executive Briefing: August 17th, 2022">Eagle's Flight Executive Briefing: August 17th, 2022</option> */}
                                             </select>
                                         </div>
                                         <div className="col-lg-12 mb-12">
