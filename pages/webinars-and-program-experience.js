@@ -147,7 +147,7 @@ export default function WebinarsAndProgramExperience(){
                         </div>
                     </div>
 
-                    <div className='col-sm-4'>
+                    {/* <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
@@ -158,7 +158,7 @@ export default function WebinarsAndProgramExperience(){
                                 <a className="eventbtn" href='/eaglesflightindia/ef-generic-lp'>Reserve Your Seat</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
 
                 </div>
@@ -209,7 +209,7 @@ export default function WebinarsAndProgramExperience(){
                                                 <option value="The Five Behaviors®️ Personal Development – February 3rd, 2023">The Five Behaviors®️ Personal Development – February 3rd, 2023</option>
                                                 <option value="The Power of Habit – February 15th, 2023">The Power of Habit – February 15th, 2023</option>
                                                 <option value="The Five Behaviors®️ Team Development – February 17th, 2023">The Five Behaviors®️ Team Development – February 17th, 2023</option>
-                                                <option value="8th March 2023 - Eagle’s Flight Executive Briefing">8th March 2023 - Eagle’s Flight Executive Briefing</option>
+                                                {/* <option value="8th March 2023 - Eagle’s Flight Executive Briefing">8th March 2023 - Eagle’s Flight Executive Briefing</option> */}
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
