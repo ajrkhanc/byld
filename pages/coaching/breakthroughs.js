@@ -185,7 +185,7 @@ export default function DTCICoachingAcademy() {
                   <div class="number-part">
                     <a className='hccs' href='/coaching/insideout-coaching'>
                       <div class="number-image">
-                        <span>Inside Out Coaching</span>
+                        <span>InsideOut™ Coaching</span>
                       </div>
                     </a>
                   </div>

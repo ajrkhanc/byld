@@ -95,6 +95,19 @@ export default function InsideOutCoaching(){
                             </div>
 
                             <div class="col">
+                <div class="rs-addon-number">
+                  <div class="number-part">
+                    <a className='hccs' href='/coaching/breakthroughs'>
+                      <div class="number-image">
+                        <span>Breakthrough</span>
+                      </div>
+
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+                            <div class="col">
                                 <div class="rs-addon-number">
                                     <div class="number-part">
                                     <a className='hccs' href='/coaching/executive-coaching'>

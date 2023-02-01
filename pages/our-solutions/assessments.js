@@ -37,17 +37,29 @@ export default function Assessments(){
                         </div>
 
                           <div className='row'>
-                            <div class="col-sm-4">
+                            <div class="col-sm-3">
                                 <a class="productbox" target="_blank" href="/everythingdisc">
                                 <div class="service-grid">
                                     <div class="service-icon">
                                         <img src="/assets/img/edl.png" alt=""/>
                                     </div>
-                                    <h4 class="title mb-18">DiSC®</h4>                                                               
+                                    <h4 class="title mb-18">DiSC<sup>®</sup></h4>                                                               
                                 </div>
                                 </a>
                             </div>
-                            <div class="col-sm-4">
+
+                            <div class="col-sm-3">
+                                <a class="productbox" target="_blank" href="/fivebehaviors">
+                                <div class="service-grid">
+                                    <div class="service-icon">
+                                        <img src="/assets/img/fiveb.png" alt=""/>
+                                    </div>
+                                    <h4 class="title mb-18">Five Behaviors</h4>                                                               
+                                </div>
+                                </a>
+                            </div>
+
+                            <div class="col-sm-3">
                             <a class="productbox" href="/assessments/lumina-psychometric-assesments">
                                 <div class="service-grid">
                                     <div class="service-icon">
@@ -57,7 +69,7 @@ export default function Assessments(){
                                 </div>
                                 </a>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-3">
                             <a class="productbox" href="/assessments/talentsmart-eq-assesments">
                                 <div class="service-grid">
                                     <div class="service-icon">
