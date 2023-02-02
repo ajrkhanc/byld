@@ -98,7 +98,7 @@ export default function BrowseCourses() {
                 document.getElementById("response").innerHTML = "Assessment Result"
 
                 window.setTimeout(function () {
-                    window.location.href = `/coaching/coaching-snapshot-sales/${newnameurl}`
+                    window.location.href = `/coaching/coaching-snapshot-pre-program-assessment/${newnameurl}`
                 }, 1000);
 
             }

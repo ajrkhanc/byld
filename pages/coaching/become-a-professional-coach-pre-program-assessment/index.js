@@ -54,7 +54,7 @@ export default function BrowseCourses() {
                 document.getElementById("response").innerHTML = "Assessment Result"
 
                 window.setTimeout(function () {
-                    window.location.href = `/coaching/become-a-professional-coach-sales/${newnameurl}`
+                    window.location.href = `/coaching/become-a-professional-coach-pre-program-assessment/${newnameurl}`
                 }, 1000);
 
             }
