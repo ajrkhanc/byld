@@ -3440,22 +3440,97 @@ table td {
   left: 0;
   top: 0;
   z-index: -3;
-  width: 73%;
+  width: 65%;
   clip-path: polygon(12% 0, 100% 0, 100% 100%, 100% 100%);
   left: auto;
   right: 0;
   background: rgba(113, 128, 235, .5) !important;
 }
 
-.jopn1::after {
+/* .jopn1::after {
   content: "";
   position: absolute;
   height: 100%;
   top: 0;
   left: auto;
   right: 0;
-  width: 64.3%;
+  width: 57.2%;
   z-index: -1;
   background-color: rgba(113, 128, 235, .1) !important;
+} */
+
+.jopn1 h2{
+  color: #2a6db5;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
 }
 
+.jopn1 p{
+  font-size: 18px;
+}
+
+.jopn1 a{
+  background: #3373ae;
+    color: #fff !important;
+    border: 0px !important;
+    border-radius: 25px;
+    padding: 12px 28px;
+    transition: background-color 0.4s ease-out 100ms;
+}
+
+.jopn1 a:hover{
+  background: #EB7B11;
+}
+
+.join2{
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.join2 {
+  background: url(/assets/img/banner/join2bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.join2box{
+  border-radius: 8px;
+  box-shadow: 0 0 32px rgb(0 0 0 / 10%);
+height: 150px;
+margin-bottom: 30px;
+text-align: center;
+padding: 15px;
+background-color: #3373af;
+align-items:center;
+        justify-content:center;
+        display: flex;
+        transition: background-color 2s ease-out 100ms
+}
+
+.join2box:hover{
+  background: #EB7B11;
+ 
+}
+.join2box:hover h4{ 
+  color: #fff !important;
+}
+
+.join2box h4{
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0px;
+  transition: background-color 2s ease-out 100ms
+}
+
+.join3 {
+  background: url(/assets/img/banner/join3bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

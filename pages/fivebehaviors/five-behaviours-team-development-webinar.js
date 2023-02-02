@@ -5,7 +5,6 @@ import Slider from "react-slick";
 
 export default function FiveBWebinar(){
 
-
     return(
         <>
           <Head>
@@ -84,19 +83,14 @@ export default function FiveBWebinar(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="referredby" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="6th May 2022 The Five Behaviors<sup>®</sup> Team Development Webinar">6th May 2022 The Five Behaviors<sup>®</sup> Team Development Webinar</option>                                                
+                                                <option value="17th February 2023 The Five Behaviors<sup>®</sup> Team Development Webinar">17th February 2023 The Five Behaviors® Team Development Webinar</option>
                                             </select>
                                         </div>
 
                                         <div className="col-sm-6 mb-12">
                                             <select name="referredby" required>
                                                 <option value="">Referred By*</option>
-                                                <option value="Email">Email</option>
-                                                <option value="Social Media">Social Media</option>
-                                                <option value="Google Search">Google Search</option>
-                                                <option value="Website">Website</option>
-                                                <option value="Reference">Reference</option>
-                                                <option value="Sales Representative">Sales Representative</option>
+                                                <option value="Email">Email</option>                                                
                                             </select>
                                         </div>
                                         <div className="col-lg-12 mb-12">

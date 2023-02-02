@@ -83,7 +83,7 @@ export default function CoachCertificationLP(){
                         <div className='col-md-2'></div>
                         <div className='col-md-6'>
                             <h3 className='icfemih3'>Passionate about coaching?</h3>
-                            <h4 className='icfemih4'>Enroll for our upcoming 37th Batch!</h4>
+                            <h4 className='icfemih4'>Enroll for our upcoming 38th Batch!</h4>
                             <h6 className='icfemih6'>Starting 4th February, Time 10:00 AM to 4:00 PM</h6>
                         </div>
                         <div className='col-md-4'>

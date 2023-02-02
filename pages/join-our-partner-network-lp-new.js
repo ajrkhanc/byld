@@ -42,9 +42,9 @@ export default function JoinOurPartnerNetworkLP(){
             <meta name="description" content="Welcome to BYLD Group! Join the BYLD Group Partner network, and become our business partner to maximize your growth opportunities. We are the largest group in South Asia offering HR and business productivity solutions for individuals, teams and organizations. Served 300 of 500 Fortune companies. Founded in 1998, backed by 1000+ years of accumulated professional… Continue reading Join our Partner network LP Ab Testing"/> 
           </Head>
 
-          <section className='jopn1'>
+          <section className='jopn1 ptt-50 pbb-50'>
             <div className='container'>
-                <div className='row'>
+                <div className='row align-items-center'>
                     <div className='col-sm-6'>
                         <div>
                             <h2>Become a BYLD Partner</h2>
@@ -54,9 +54,59 @@ export default function JoinOurPartnerNetworkLP(){
                     </div>
                     <div className='col-sm-6'>
                         <div>
-                            <img src="https://shreethemes.in/zivaco/layouts/images/about.png"/>
+                            <img src="https://nifty.bold-themes.com/bubble/wp-content/uploads/sites/6/2020/09/image_home.png"/>
                         </div>
                     </div>
+                </div>
+            </div>
+          </section>
+
+          <section className='join2 ptt-50 pbb-50'>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col'>
+                        <div className='join2box'>
+                            <h4>Promote New Technology Solutions in VR, Innovation, and Creativity</h4>
+                        </div>
+                    </div>
+
+                    <div className='col'>
+                        <div className='join2box'>
+                            <h4>Attain Financial Freedom</h4>
+                        </div>
+                    </div>
+
+                    <div className='col'>
+                        <div className='join2box'>
+                            <h4>No Franchise Fee</h4>
+                        </div>
+                    </div>
+
+                    <div className='col'>
+                        <div className='join2box'>
+                            <h4>Quick Onboarding</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+
+          <section className='join3 ptt-50 pbb-50'>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col'>
+                        <div className='join2box'>
+                            <h4>Promote New Technology Solutions in VR, Innovation, and Creativity</h4>
+                        </div>
+                    </div>
+
+                    <div className='col'>
+                        <div className='join2box'>
+                            <h4>Attain Financial Freedom</h4>
+                        </div>
+                    </div>
+
                 </div>
             </div>
           </section>
