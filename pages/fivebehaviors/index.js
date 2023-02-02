@@ -65,7 +65,7 @@ export default function Home() {
                         <p className='mtt-30'>
                            <i>We are the authorized partners of The Five BehaviorsTM (A Wiley Brand) in India. Together, we bring you an array of assessments and programs that make individuals, team and organizations measurably more effective.</i>
                         </p>
-                        <p>The Five BehaviorsTM is the result of the partnership between Wiley Workplace Learning Solutions and best-selling author Patrick Lencioni. Our mission was to create a program that improves team effectiveness and productivity through the understanding and application of The Five Behaviors: Trust, Conflict, Commitment, Accountability, and Results. This unique learning experience helps individuals and teams build effective work culture through communication and collaboration.</p>
+                        <p>The Five Behaviors™ is the result of the partnership between Wiley Workplace Learning Solutions and best-selling author Patrick Lencioni. Our mission was to create a program that improves team effectiveness and productivity through the understanding and application of The Five Behaviors: Trust, Conflict, Commitment, Accountability, and Results. This unique learning experience helps individuals and teams build effective work culture through communication and collaboration.</p>
                         <div className="btn-part ptt-10 pbb-30">
                            <a className="readon2" href="/fivebehaviors/contact-us">
                               Connect With Our Subject Matter Experts To Know More
