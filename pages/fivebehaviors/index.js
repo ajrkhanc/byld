@@ -63,7 +63,7 @@ export default function Home() {
                   <div className="col-sm-12">
                      <div className="sec-title3 mbb-35 text-center rs-estimate">
                         <p className='mtt-30'>
-                           <i>We are the authorized partners of The Five BehaviorsTM (A Wiley Brand) in India. Together, we bring you an array of assessments and programs that make individuals, team and organizations measurably more effective.</i>
+                           <i>We are the authorized partners of The Five Behaviors™ (A Wiley Brand) in India. Together, we bring you an array of assessments and programs that make individuals, team and organizations measurably more effective.</i>
                         </p>
                         <p>The Five Behaviors™ is the result of the partnership between Wiley Workplace Learning Solutions and best-selling author Patrick Lencioni. Our mission was to create a program that improves team effectiveness and productivity through the understanding and application of The Five Behaviors: Trust, Conflict, Commitment, Accountability, and Results. This unique learning experience helps individuals and teams build effective work culture through communication and collaboration.</p>
                         <div className="btn-part ptt-10 pbb-30">
