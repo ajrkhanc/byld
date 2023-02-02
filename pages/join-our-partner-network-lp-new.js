@@ -41,6 +41,26 @@ export default function JoinOurPartnerNetworkLP(){
             <title>Join our Partner network LP - BYLD Group</title>
             <meta name="description" content="Welcome to BYLD Group! Join the BYLD Group Partner network, and become our business partner to maximize your growth opportunities. We are the largest group in South Asia offering HR and business productivity solutions for individuals, teams and organizations. Served 300 of 500 Fortune companies. Founded in 1998, backed by 1000+ years of accumulated professional… Continue reading Join our Partner network LP Ab Testing"/> 
           </Head>
+
+          <section className='jopn1'>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-sm-6'>
+                        <div>
+                            <h2>Become a BYLD Partner</h2>
+                            <p>Join our Partner Community for Lucrative Business Opportunities!</p>
+                            <a href='#'> Be Your Own Boss</a>
+                        </div>
+                    </div>
+                    <div className='col-sm-6'>
+                        <div>
+                            <img src="https://shreethemes.in/zivaco/layouts/images/about.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
             <div className="rs-services">
             <div className="container-full">
                 <div className="row y-middle">

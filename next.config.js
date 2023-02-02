@@ -69,6 +69,18 @@ module.exports = {
         permanent: true,
       },
 
+      {
+        source: '/coaching/become-a-professional-coach-sales',
+        destination: '/coaching/become-a-professional-coach-pre-program-assessment',
+        permanent: true,
+      },
+
+      {
+        source: '/coaching/coaching-snapshot-sales',
+        destination: '/coaching/coaching-snapshot-pre-program-assessment',
+        permanent: true,
+      },
+
       
 
       

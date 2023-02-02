@@ -560,7 +560,7 @@ export default function MyApp({ Component, pageProps, router }) {
 
   }
 
-  else if (router.pathname.startsWith('/coaching/become-a-professional-coach-sales')) {
+  else if (router.pathname.startsWith('/coaching/become-a-professional-coach-pre-program-assessment')) {
 
     return (
       <CoachingA>
@@ -615,7 +615,7 @@ export default function MyApp({ Component, pageProps, router }) {
 
   }
 
-  else if (router.pathname.startsWith('/coaching/coaching-snapshot-sales/')) {
+  else if (router.pathname.startsWith('/coaching/coaching-snapshot-pre-program-assessment/')) {
 
     return (
       <COSR>

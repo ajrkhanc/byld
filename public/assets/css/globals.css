@@ -3427,3 +3427,35 @@ table td {
   border-radius: 10px;
 }
 
+
+
+.jopn1{
+  position: relative;
+}
+.jopn1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -3;
+  width: 73%;
+  clip-path: polygon(12% 0, 100% 0, 100% 100%, 100% 100%);
+  left: auto;
+  right: 0;
+  background: rgba(113, 128, 235, .5) !important;
+}
+
+.jopn1::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: auto;
+  right: 0;
+  width: 64.3%;
+  z-index: -1;
+  background-color: rgba(113, 128, 235, .1) !important;
+}
+
