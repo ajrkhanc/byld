@@ -95,11 +95,11 @@ export default function BrowseCourses() {
 
             if (xhr.status == 200) {
                 // document.getElementById("formreset").reset()
-                document.getElementById("response").innerHTML = "Assessment Result"
+                document.getElementById("response").innerHTML = "We are fetching your result"
 
                 window.setTimeout(function () {
                     window.location.href = `/coaching/coaching-snapshot-pre-program-assessment/${newnameurl}`
-                }, 1000);
+                }, 3000);
 
             }
             else {

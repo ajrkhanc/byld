@@ -4,46 +4,39 @@ import Slider from "react-slick";
 
 
 export default function FIveBWorkshop(){
-
-    var settings = {
-        dots: true,
-        arrows: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 5,
-        initialSlide: 0,
-        autoplay: false,
-        autoplaySpeed: 3000,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: true
+    const FiveBPersonalD = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/everythingdisc/wp-json/contact-form-7/v1/contact-forms/262/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 48 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                       window.location.href = "/fivebehaviors/thank-you"
+                    }, 3000);
+  
+                } else {
+                    alert('There was a problem with the request.');
+                }
             }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          }
-        ]
-      };
-
-       
+        };
+        xhttp.send("your-name=" + event.target.name.value +
+            "&your-email=" + event.target.email.value +
+            "&phone=" + event.target.phone.value +  
+            "&Organization=" + event.target.Organization.value +
+            "&designation=" + event.target.designation.value +
+            "&intrestin=" + event.target.intrestin.value +
+            "&leadsquared-mx_Business_Entity=" + event.target.leadsquared_mx_Business_Entity.value +       
+            "&referredby=" + event.target.referredby.value)
+    }
 
     return(
         <>
@@ -87,20 +80,14 @@ export default function FIveBWorkshop(){
                                         <div className="col-md-12 mb-12">
                                             <select name="intrestin" required>
                                                 <option value="">Interested In*</option>
-                                                <option value="Personal Development">Personal Development</option>
-                                                <option value="Team Development">Team Development</option>
-                                                <option value="The Five Behaviors for Virtual Teams">The Five Behaviors for Virtual Teams</option>
-                                                <option value="Interested in knowing more">Interested in knowing more</option>
+                                                <option value="25th February, 2022 Five Behaviors® Team Development">25th February, 2022 Five Behaviors® Team Development</option>                                                
                                             </select>
                                         </div>
 
                                         <div className="col-md-12 mb-12">
                                             <select name="intrestin" required>
-                                                <option value="">Interested In*</option>
-                                                <option value="Personal Development">Personal Development</option>
-                                                <option value="Team Development">Team Development</option>
-                                                <option value="The Five Behaviors for Virtual Teams">The Five Behaviors for Virtual Teams</option>
-                                                <option value="Interested in knowing more">Interested in knowing more</option>
+                                                <option value="">Referred By*</option>
+                                                <option value="Email">Email</option>                                                
                                             </select>
                                         </div>
                                         

@@ -51,11 +51,11 @@ export default function BrowseCourses() {
 
             if (xhr.status == 200) {
                 // document.getElementById("formreset").reset()
-                document.getElementById("response").innerHTML = "Assessment Result"
+                document.getElementById("response").innerHTML = "We are fetching your result"
 
                 window.setTimeout(function () {
                     window.location.href = `/coaching/become-a-professional-coach-pre-program-assessment/${newnameurl}`
-                }, 1000);
+                }, 3000);
 
             }
             else {
@@ -74,7 +74,7 @@ export default function BrowseCourses() {
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/53/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/72/feedback');
         xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
    
