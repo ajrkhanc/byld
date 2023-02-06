@@ -55,10 +55,6 @@ export default function BrowseCourses() {
                 console.log(data)
                 document.getElementById("response").innerHTML = data.message
                 if (data.status == 0) {
-                    window.setTimeout(function () {
-                        window.location.href = `/coaching/become-a-professional-coach-marketing/${newnameurl}`
-                    }, 1000);
-
                     var xhttp = new XMLHttpRequest();
                     xhttp.onload = function () {
                         console.log(this.responseText);
@@ -73,6 +69,10 @@ export default function BrowseCourses() {
                         '&phone=' + phone +
                         '&organization=' + organization +
                         '&assessment=' + Assessment)
+
+                    window.setTimeout(function () {
+                        window.location.href = `/coaching/become-a-professional-coach-marketing/${newnameurl}`
+                    }, 2500);
 
                 }
 
