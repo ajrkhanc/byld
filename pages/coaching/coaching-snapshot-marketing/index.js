@@ -457,7 +457,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                        8. I keep every coaching conversation focused on achieving agreed upon goals
+                                        8. I keep every coaching conversation focused on achieving agreed-upon goals
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="ec3" value="1" id="3ec1" required />
@@ -661,7 +661,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                        14. I help others draw their own conclusions when considering different perspectives or approaches
+                                        14. I help others draw their conclusions when considering different perspectives or approaches
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="ec9" value="1" id="9ec1" required />
@@ -695,7 +695,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                        15. I demonstrate understanding by reflecting back or summarizing what was said
+                                        15. I demonstrate understanding by reflecting on or summarizing what was said
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="ec10" value="1" id="10ec1" required />
@@ -729,7 +729,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                        16. My body language demonstrates a high level of engagement in each conversation
+                                        16. My body language shows a high level of engagement in each conversation
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="ec11" value="1" id="11ec1" required />
@@ -1222,7 +1222,7 @@ export default function BrowseCourses() {
 
                                 <div className='fcol1'>
                                     <h2>
-                                        30. I encourage others to take responsibility for their own development
+                                        30. I encourage others to take responsibility for their development
                                     </h2>
                                     <div className='fcolmain'>
                                         <input type="radio" name="cr5" value="1" id="5cr1" required />
