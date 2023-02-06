@@ -91,6 +91,96 @@ export default function JoinOurPartnerNetworkLP() {
                 </div>
             </section>
 
+            <section id='GetinTouch' className='jopn1 ptt-50 pbb-50 jooo5'>
+                <div className='container'>
+                    <div className='row align-items-center'>
+                        <div className='col-sm-6'>
+                            <div className='boxshd mtt-30'>
+                            <div className="bannerform">
+                                    <p>Fill in the form below with your interest to work as a sales/business consultant with us and will connect/call back at the earliest.</p>
+                                    <form id="contact-form" className='clientcornner' onSubmit={registerUser}>
+                                        <div className="row">
+                                            <div className="col-lg-12 mb-12">
+                                                <input type="text" name="fname" placeholder="First Name*" required />
+                                            </div>
+                                            <div className="col-lg-12 mb-12">
+                                                <input type="email" name="email" placeholder="E-mail*" required />
+                                            </div>
+                                            <div className="col-lg-12 mb-12">
+                                                <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                            </div>
+                                            <div className="col-lg-12 mb-12">
+                                                <select name="occupation" required>
+                                                    <option value="">Occupation*</option>
+                                                    <option value="HR Professional">HR Professional</option>
+                                                    <option value="L & D Professional">L & D Professional</option>
+                                                    <option value="Independent Consultant (Technical)">Independent Consultant (Technical)</option>
+                                                    <option value="Trainer">Trainer</option>
+                                                    <option value="Medical Professional">Medical Professional</option>
+                                                    <option value="Software Engineer">Software Engineer</option>
+                                                    <option value="Business Analyst">Business Analyst</option>
+                                                    <option value="Consultant">Consultant</option>
+                                                    <option value="Sales Representative">Sales Representative</option>
+                                                    <option value="Lawyer">Lawyer</option>
+                                                    <option value="Architect">Architect</option>
+                                                    <option value="Project Manager">Project Manager</option>
+                                                    <option value="Marketing Manager">Marketing Manager</option>
+                                                    <option value="Others">Others</option>
+                                                </select>
+                                            </div>
+
+                                            
+
+                                            <div className="col-lg-12 mb-12">
+                                                <select name="howdidyouknowaboutus" required>
+                                                    <option value="">How did you know about us:</option>
+                                                    <option value="Email">Email</option>
+                                                    <option value="LinkedIn">LinkedIn</option>
+                                                    <option value="Facebook">Facebook</option>
+                                                    <option value="Instagram">Instagram</option>
+                                                    <option value="Twitter">Twitter</option>
+                                                </select>
+                                            </div>
+
+                                            <div className="col-lg-12 mb-12">
+                                                <input id="submitbuttonform" className="clientcornnerbtn" type="submit" value="Submit" />
+                                            </div>
+                                            <p id="showlabel" style={{ display: "none" }}></p>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-sm-6'>
+                            <div>
+                                <div class="wgl-image-animate">
+                                    <div class="img-layer_image-wrapper move-rotate1">
+                                    <div class="img-layer_item">
+                                        <div class="img-layer_image">
+                                            <img src="/assets/img/img-19.png" alt="image"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="img-layer_image-wrapper move-rotate2">
+                                        <div class="img-layer_item">
+                                            <div class="img-layer_image">
+                                                <img src="/assets/img/img-18.png" alt="image"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="img-layer_image-wrapper move-rotate3">
+                                        <div class="img-layer_item">
+                                            <div class="img-layer_image">
+                                                <img src="/assets/img/img-20.png" alt="img-20"/>
+                                            </div>
+                                        </div>
+                                    </div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
             <div className='container ptt-60'>
                 <div className='row'>
@@ -122,7 +212,7 @@ export default function JoinOurPartnerNetworkLP() {
                         </div>
 
                         <div className='col'>
-                            {/* <div className='space50'></div> */}
+                            <div className='space50'></div>
                             <div className='joinib3'>
                                 <div className='msvg'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177.4 197.4"><path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z"></path></svg>
@@ -223,7 +313,7 @@ export default function JoinOurPartnerNetworkLP() {
                             </div>
 
                             <div className='join4b1 ml30'>
-                                <h3>Solid Foundation of 23+ Years in L&OD and HR Services</h3>
+                                <h3>Solid Foundation of 23+ Years in L&D and HR Services</h3>
                             </div>
 
                             <div className='join4b1 ml30'>
@@ -238,95 +328,7 @@ export default function JoinOurPartnerNetworkLP() {
                 </div>
             </section>
 
-            <section id='GetinTouch' className='jopn1 ptt-50 pbb-50 jooo5'>
-                <div className='container'>
-                    <div className='row align-items-center'>
-                        <div className='col-sm-6'>
-                            <div className='boxshd mtt-30'>
-                            <div className="bannerform">
-                                    <p>Fill in the form below with your interest to work as a sales/business consultant with us and will connect/call back at the earliest.</p>
-                                    <form id="contact-form" className='clientcornner' onSubmit={registerUser}>
-                                        <div className="row">
-                                            <div className="col-lg-12 mb-12">
-                                                <input type="text" name="fname" placeholder="First Name*" required />
-                                            </div>
-                                            <div className="col-lg-12 mb-12">
-                                                <input type="email" name="email" placeholder="E-mail*" required />
-                                            </div>
-                                            <div className="col-lg-12 mb-12">
-                                                <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
-                                            </div>
-                                            <div className="col-lg-12 mb-12">
-                                                <select name="occupation" required>
-                                                    <option value="">Occupation*</option>
-                                                    <option value="HR Professional">HR Professional</option>
-                                                    <option value="L & D Professional">L & D Professional</option>
-                                                    <option value="Independent Consultant (Technical)">Independent Consultant (Technical)</option>
-                                                    <option value="Trainer">Trainer</option>
-                                                    <option value="Medical Professional">Medical Professional</option>
-                                                    <option value="Software Engineer">Software Engineer</option>
-                                                    <option value="Business Analyst">Business Analyst</option>
-                                                    <option value="Consultant">Consultant</option>
-                                                    <option value="Sales Representative">Sales Representative</option>
-                                                    <option value="Lawyer">Lawyer</option>
-                                                    <option value="Architect">Architect</option>
-                                                    <option value="Project Manager">Project Manager</option>
-                                                    <option value="Marketing Manager">Marketing Manager</option>
-                                                    <option value="Others">Others</option>
-                                                </select>
-                                            </div>
-
-                                            
-
-                                            <div className="col-lg-12 mb-12">
-                                                <select name="howdidyouknowaboutus" required>
-                                                    <option value="">How did you know about us:</option>
-                                                    <option value="Email">Email</option>
-                                                    <option value="LinkedIn">LinkedIn</option>
-                                                    <option value="Facebook">Facebook</option>
-                                                    <option value="Instagram">Instagram</option>
-                                                    <option value="Twitter">Twitter</option>
-                                                </select>
-                                            </div>
-
-                                            <div className="col-lg-12 mb-12">
-                                                <input id="submitbuttonform" className="clientcornnerbtn" type="submit" value="Submit" />
-                                            </div>
-                                            <p id="showlabel" style={{ display: "none" }}></p>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='col-sm-6'>
-                            <div>
-                                <div class="wgl-image-animate">
-                                    <div class="img-layer_image-wrapper move-rotate1">
-                                    <div class="img-layer_item">
-                                        <div class="img-layer_image">
-                                            <img src="/assets/img/img-19.png" alt="image"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="img-layer_image-wrapper move-rotate2">
-                                        <div class="img-layer_item">
-                                            <div class="img-layer_image">
-                                                <img src="/assets/img/img-18.png" alt="image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="img-layer_image-wrapper move-rotate3">
-                                        <div class="img-layer_item">
-                                            <div class="img-layer_image">
-                                                <img src="/assets/img/img-20.png" alt="img-20"/>
-                                            </div>
-                                        </div>
-                                    </div></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
 
 
             <section className='join6 ptt-100 pbb-100'>

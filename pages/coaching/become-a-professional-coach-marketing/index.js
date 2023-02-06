@@ -54,38 +54,38 @@ export default function BrowseCourses() {
                 var data = JSON.parse(xhr.responseText);
                 console.log(data)
                 document.getElementById("response").innerHTML = data.message
-                if(data.status == 0){
-  window.setTimeout(function () {
-                    window.location.href = `/coaching/become-a-professional-coach-marketing/${newnameurl}`
-                }, 1000);
+                if (data.status == 0) {
+                    window.setTimeout(function () {
+                        window.location.href = `/coaching/become-a-professional-coach-marketing/${newnameurl}`
+                    }, 1000);
 
-                var xhttp = new XMLHttpRequest();
-        xhttp.onload = function () {
-            console.log(this.responseText);
-        }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/53/feedback');
-        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                    var xhttp = new XMLHttpRequest();
+                    xhttp.onload = function () {
+                        console.log(this.responseText);
+                    }
+                    xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/53/feedback');
+                    xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
 
-        var Assessment = "Become a Professional Coach Assessment Form Marketing"
-        xhttp.send("name=" + event.target.name.value +
-            '&email=' + email +
-            '&phone=' + phone +
-            '&organization=' + organization +
-            '&assessment=' + Assessment)
+                    var Assessment = "Become a Professional Coach Assessment Form Marketing"
+                    xhttp.send("name=" + event.target.name.value +
+                        '&email=' + email +
+                        '&phone=' + phone +
+                        '&organization=' + organization +
+                        '&assessment=' + Assessment)
 
                 }
 
-              
+
 
             }
             else {
                 document.getElementById("response").innerHTML = "Email is already registered"
                 setTimeout(function () {
-                    document.getElementById("response").innerHTML = "";                  
+                    document.getElementById("response").innerHTML = "";
                 }, 3000);
             }
-            
+
 
 
 
