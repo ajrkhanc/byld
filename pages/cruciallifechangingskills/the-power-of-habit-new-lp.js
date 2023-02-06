@@ -161,7 +161,6 @@ export default function BrowseCourses(){
                         <select name='slot' required>
                             <option value="">Pick any Slot*</option>                            
                             <option value="The Power of Habit – February 15th, 2023">The Power of Habit – February 15th, 2023</option>
-                            <option value="The Power of Habit - February 17th, 2023">The Power of Habit - February 17th, 20233</option>
                         </select>
                         </div>
 
@@ -234,7 +233,7 @@ export default function BrowseCourses(){
                        </div>
                     </div>
 
-                    <div class="col-md-4 workshop-col"> 
+                    {/* <div class="col-md-4 workshop-col"> 
                        <div class="row workshop-row"> 
                             <div class="col-md-12 workshop-content phothemecolor"> 
                             <img class="left-image img100px mbb-30" src="/classets/img/logo-influencer.svg" alt="" />
@@ -247,7 +246,7 @@ export default function BrowseCourses(){
                             <a href='#registered'><button class="register phothemecolor">REGISTER NOW</button></a>
                             </div>
                        </div>
-                    </div>
+                    </div> */}
                      
                                     
                 </div>
