@@ -57,33 +57,35 @@ export default function BrowseCourses() {
                     window.location.href = `/coaching/become-a-professional-coach-marketing/${newnameurl}`
                 }, 1000);
 
+
+                var xhttp = new XMLHttpRequest();
+                xhttp.onload = function () {
+                    console.log(this.responseText);
+                }
+                xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/53/feedback');
+                xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+
+                var Assessment = "Become a Professional Coach Assessment Form Marketing"
+                xhttp.send("name=" + event.target.name.value +
+                    '&email=' + email +
+                    '&phone=' + phone +
+                    '&organization=' + organization +
+                    '&assessment=' + Assessment)
+
             }
             else {
                 document.getElementById("response").innerHTML = "You Have Submeted to go"
                 setTimeout(function () {
                     document.getElementById("response").innerHTML = "";
                     document.getElementById("submitbuttonform").value = "Submit JobForm";
-                }, 3000);
+                }, 5000);
+                document.getElementById("formreset").reset()
             }
 
 
 
         }
-
-        var xhttp = new XMLHttpRequest();
-        xhttp.onload = function () {
-            console.log(this.responseText);
-        }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/53/feedback');
-        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-
-
-        var Assessment = "Become a Professional Coach Assessment Form Marketing"
-        xhttp.send("name=" + event.target.name.value +
-            '&email=' + email +
-            '&phone=' + phone +
-            '&organization=' + organization +
-            '&assessment=' + Assessment)
 
         xhr.onerror = function () {
             console.log('error');
