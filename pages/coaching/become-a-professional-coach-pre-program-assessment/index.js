@@ -79,7 +79,7 @@ export default function BrowseCourses() {
             }
 
             else {
-                document.getElementById("response").innerHTML = "Fetching your resultn"
+                document.getElementById("response").innerHTML = "Fetching your result"
                 setTimeout(function () {
                     document.getElementById("response").innerHTML = "";
                 }, 3000);
