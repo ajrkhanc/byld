@@ -4,7 +4,7 @@ export default function BrowseCourses() {
 
     const submitF = async (event) => {
         event.preventDefault();
-        document.getElementById("submitbuttonform").value = "Submitting form....";
+        document.getElementById("submitbuttonform").value = "Submitting";
 
         var q1 = event.target.q1.value;
         var q2 = event.target.q2.value;
@@ -23,14 +23,14 @@ export default function BrowseCourses() {
         const organization = event.target.organization.value;
         var nameurl = name.replace(/[^a-zA-Z0-9 ]/g, "");
         nameurl = nameurl.toLowerCase();
-        const newnameurl = nameurl.split(' ').join('-')
+        const newnameurl = nameurl.split(' ').join('-') + phone
 
 
 
         var xhr = new XMLHttpRequest();
         xhr.open('POST', 'https://coral-app-5w4lr.ondigitalocean.app/api/become-a-professional-coach');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-        xhr.send('q1=' + q1 +            
+        xhr.send('q1=' + q1 +
             '&q2=' + q2 +
             '&q3=' + q3 +
             '&q4=' + q4 +
@@ -39,7 +39,7 @@ export default function BrowseCourses() {
             '&q7=' + q7 +
             '&q8=' + q8 +
             '&q9=' + q9 +
-            '&q10=' + q10 +           
+            '&q10=' + q10 +
             '&name=' + name +
             '&email=' + email +
             '&phone=' + phone +
@@ -50,19 +50,38 @@ export default function BrowseCourses() {
         xhr.onreadystatechange = function () {
 
             if (xhr.status == 200) {
-                // document.getElementById("formreset").reset()
-                document.getElementById("response").innerHTML = "We are fetching your result"
+                // document.getElementById("formreset").reset(3000)
+                var data = JSON.parse(xhr.responseText);
+                console.log(data)
+                document.getElementById("response").innerHTML = data.message
+                if (data.status == 0) {
+                    var xhttp = new XMLHttpRequest();
+                    xhttp.onload = function () {
+                        console.log(this.responseText);
+                    }
+                    xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/72/feedback');
+                    xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
-                window.setTimeout(function () {
-                    window.location.href = `/coaching/become-a-professional-coach-pre-program-assessment/${newnameurl}`
-                }, 3000);
+
+                    var Assessment = "Become a Professional Coach Assessment Form Sales"
+                    xhttp.send("name=" + event.target.name.value +
+                        '&email=' + email +
+                        '&phone=' + phone +
+                        '&organization=' + organization +
+                        '&assessment=' + Assessment)
+
+                    window.setTimeout(function () {
+                        window.location.href = `/coaching/become-a-professional-coach-pre-program-assessment/${newnameurl}`
+                    }, 3000);                    
+
+                }
 
             }
+
             else {
-                document.getElementById("response").innerHTML = "You Have Submeted to go"
+                document.getElementById("response").innerHTML = "Email is already registered"
                 setTimeout(function () {
                     document.getElementById("response").innerHTML = "";
-                    document.getElementById("submitbuttonform").value = "Submit JobForm";
                 }, 3000);
             }
 
@@ -70,20 +89,7 @@ export default function BrowseCourses() {
 
         }
 
-        var xhttp = new XMLHttpRequest();
-        xhttp.onload = function () {
-            console.log(this.responseText);
-        }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/72/feedback');
-        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
-   
-        var Assessment ="Become a Professional Coach Assessment Form Sales"
-        xhttp.send("name=" + event.target.name.value +
-        '&email=' + email +
-        '&phone=' + phone +
-        '&organization=' + organization+
-        '&assessment=' + Assessment)
 
         xhr.onerror = function () {
             console.log('error');
@@ -97,12 +103,12 @@ export default function BrowseCourses() {
                 <meta name="description" content="Coaching | Become a Professional Coach" />
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9KS6KX2NZZ"></script>
                 <script
-            dangerouslySetInnerHTML={{
-              __html: `
+                    dangerouslySetInnerHTML={{
+                        __html: `
               window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9KS6KX2NZZ');
           `,
-            }}
-          />
+                    }}
+                />
             </Head>
 
             <section className='assesmentbannnerbg'>
@@ -117,14 +123,14 @@ export default function BrowseCourses() {
 
             <section className='pbb-40'>
                 <div className='container'>
-                <form onSubmit={submitF}>
-                    <div className='row'>
-                        <div className='col-sm-12'>
-                            <div className='fh3'>
-                                <h3>Behavioural Judgement questions</h3>
+                    <form id='formreset' onSubmit={submitF}>
+                        <div className='row'>
+                            <div className='col-sm-12'>
+                                <div className='fh3'>
+                                    <h3>Behavioural Judgement questions</h3>
+                                </div>
                             </div>
-                        </div>
-                        <div className='col-sm-12'>
+                            <div className='col-sm-12'>
                                 <div className='fcol1 newassesment'>
                                     <h2>
                                         1. You are appointed as a performance coach to a senior leader in the organization. After a few coaching sessions, your Coachee spells out to you that he doesn’t see a future for himself in the current organization; he has offers from the competition and is actually considering those options. What probable choice will you make:
@@ -347,34 +353,34 @@ export default function BrowseCourses() {
                                     </div>
                                 </div>
 
-                            <div className='fcol1 lastinp ptt-20'>
-                                <div className='row inpuut'>
-                                    <div className="col-sm-4 mb-12">
-                                        <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
-                                    </div>
-                                    <div className="col-sm-4 mb-12">
-                                        <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
-                                    </div>
-                                    <div className="col-sm-4 mb-12">
-                                        <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
-                                    </div>
+                                <div className='fcol1 lastinp ptt-20'>
+                                    <div className='row inpuut'>
+                                        <div className="col-sm-4 mb-12">
+                                            <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
+                                        </div>
+                                        <div className="col-sm-4 mb-12">
+                                            <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
+                                        </div>
+                                        <div className="col-sm-4 mb-12">
+                                            <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                        </div>
 
-                                    <div className="col-sm-6 mb-12 d-none">
-                                        <input className='form-control' type="text" value="Null" name="organization" placeholder="Organization*" required />
-                                    </div>
-                                    <div className='col-sm-12'>
-                                        <input type="submit" value="Submit" id='submitbuttonform' class="assesmetmain" tabindex="201" />
-                                        <p class="feedbackcolor" id="response"></p>
+                                        <div className="col-sm-6 mb-12 d-none">
+                                            <input className='form-control' type="text" value="Null" name="organization" placeholder="Organization*" required />
+                                        </div>
+                                        <div className='col-sm-12'>
+                                            <input type="submit" value="Submit" id='submitbuttonform' class="assesmetmain" tabindex="201" />
+                                            <p class="feedbackcolor" id="response"></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
+
+
+
                         </div>
-
-                        
-
-                       
-                    </div>
-                 </form>
+                    </form>
                 </div>
             </section>
 
