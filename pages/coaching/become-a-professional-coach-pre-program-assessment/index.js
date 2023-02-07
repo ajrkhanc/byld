@@ -55,7 +55,7 @@ export default function BrowseCourses() {
                 console.log(data)
                 document.getElementById("response").innerHTML = data.message
                 if (data.status == 0) {
-                    var xhttp = new XMLHttpRequest();
+                    var xhttp = xhr;
                     xhttp.onload = function () {
                         console.log(this.responseText);
                     }
@@ -79,7 +79,7 @@ export default function BrowseCourses() {
             }
 
             else {
-                document.getElementById("response").innerHTML = "Email is already registered"
+                document.getElementById("response").innerHTML = "Fetching your result"
                 setTimeout(function () {
                     document.getElementById("response").innerHTML = "";
                 }, 3000);
