@@ -41,16 +41,16 @@ export default function BrowseCourses() {
         var cr5 = event.target.cr5.value;
 
 
-        var organization ="Null";
+        var organization = "Null";
         const name = event.target.name.value;
         const email = event.target.email.value;
-        const phone = event.target.phone.value;        
+        const phone = event.target.phone.value;
         var nameurl = name.replace(/[^a-zA-Z0-9 ]/g, "");
         nameurl = nameurl.toLowerCase();
-        const newnameurl = nameurl.split(' ').join('-')
+        const newnameurl = nameurl.split(' ').join('-') + phone
 
 
-
+        
         var xhr = new XMLHttpRequest();
         xhr.open('POST', 'https://coral-app-2-a333o.ondigitalocean.app/api/career-coaching-snapshot');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
@@ -94,37 +94,34 @@ export default function BrowseCourses() {
         xhr.onreadystatechange = function () {
 
             if (xhr.status == 200) {
-                // document.getElementById("formreset").reset()
-                document.getElementById("response").innerHTML = "We are fetching your result"
+                var data = JSON.parse(xhr.responseText);
+                document.getElementById("response").innerHTML = data.message;
+                if (data.status == 0) {
+                    var xhttp = xhr;
+                    xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/66/feedback');
+                    xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
-                window.setTimeout(function () {
-                    window.location.href = `/coaching/coaching-snapshot-pre-program-assessment/${newnameurl}`
-                }, 3000);
+                    xhttp.send("name=" + name +
+                        '&email=' + email +
+                        '&phone=' + phone)
 
+                    window.setTimeout(function () {
+                        window.location.href = `/coaching/coaching-snapshot-pre-program-assessment/${newnameurl}`
+                    }, 1000);
+                }
             }
+
             else {
-                document.getElementById("response").innerHTML = ""
+                document.getElementById("response").innerHTML = "Fetching your result"
                 setTimeout(function () {
                     document.getElementById("response").innerHTML = "";
-                    document.getElementById("submitbuttonform").value = "Submit JobForm";
+                    document.getElementById("submitbuttonform").value = "Submit";
                 }, 3000);
             }
 
         }
 
-        var xhttp = new XMLHttpRequest();
-        xhttp.onload = function () {
-            console.log(this.responseText);
-        }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/66/feedback');
-        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
-   
-        var Assessment ="Coaching Snapshot Internal Assessment Sales"
-        xhttp.send("name=" + event.target.name.value +
-        '&email=' + email +
-        '&phone=' + phone +
-        '&assessment=' + Assessment)
 
         xhr.onerror = function () {
             console.log('error');
@@ -138,12 +135,12 @@ export default function BrowseCourses() {
                 <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4RT5QHB12"></script>
                 <script
-            dangerouslySetInnerHTML={{
-              __html: `
+                    dangerouslySetInnerHTML={{
+                        __html: `
               window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-H4RT5QHB12');
           `,
-            }}
-          />
+                    }}
+                />
             </Head>
 
             <section className='assesmentbannnerbg'>
@@ -1264,7 +1261,7 @@ export default function BrowseCourses() {
                                             <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No. (Optional)" />
                                         </div>
 
-                                       
+
                                         <div className='col-sm-12'>
                                             <input type="submit" value="Submit" id='submitbuttonform' class="assesmetmain" tabindex="201" />
                                             <p class="feedbackcolor" id="response"></p>

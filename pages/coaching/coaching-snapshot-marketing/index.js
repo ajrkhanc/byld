@@ -4,7 +4,7 @@ export default function BrowseCourses() {
 
     const submitF = async (event) => {
         event.preventDefault();
-        document.getElementById("submitbuttonform").value = "Submitting form....";
+        document.getElementById("submitbuttonform").value = "Submitting";
 
         var trust1 = event.target.trust1.value;
         var trust2 = event.target.trust2.value;
@@ -95,38 +95,39 @@ export default function BrowseCourses() {
         xhr.onreadystatechange = function () {
 
             if (xhr.status == 200) {
-                // document.getElementById("formreset").reset()
-                document.getElementById("response").innerHTML = "Assessment Result"
+                var data = JSON.parse(xhr.responseText);
 
-                window.setTimeout(function () {
-                    window.location.href = `/coaching/coaching-snapshot-marketing/${newnameurl}`
-                }, 1000);
+                document.getElementById("response").innerHTML = data.message;
+
+                if (data.status == 0) {
+                    var xhttp = xhr;                    
+                    xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/61/feedback');
+                    xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+                    var Assessment = "Coaching - Coaching Snapshot Assessment Marketing"
+                    xhttp.send("name=" + event.target.name.value +
+                        '&email=' + email +
+                        '&phone=' + phone +
+                        '&organization=' + organization +
+                        '&assessment=' + Assessment)
+
+                        window.setTimeout(function () {
+                            window.location.href = `/coaching/coaching-snapshot-marketing/${newnameurl}`
+                        }, 1000);  
+                }
 
             }
             else {
-                document.getElementById("response").innerHTML = "You Have Submeted to go"
+                document.getElementById("response").innerHTML = "Fetching your result"
                 setTimeout(function () {
                     document.getElementById("response").innerHTML = "";
-                    document.getElementById("submitbuttonform").value = "Submit JobForm";
+                    document.getElementById("submitbuttonform").value = "Submit";
                 }, 3000);
             }
 
         }
 
-        var xhttp = new XMLHttpRequest();
-        xhttp.onload = function () {
-            console.log(this.responseText);
-        }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/61/feedback');
-        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
-   
-        var Assessment ="Coaching - Coaching Snapshot Assessment Marketing"
-        xhttp.send("name=" + event.target.name.value +
-        '&email=' + email +
-        '&phone=' + phone +
-        '&organization=' + organization+
-        '&assessment=' + Assessment)
 
         xhr.onerror = function () {
             console.log('error');
@@ -140,12 +141,12 @@ export default function BrowseCourses() {
                 <meta name="description" content="Circle the number that best represents the extent to which you do the following" />
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-334NQCHLMD"></script>
                 <script
-            dangerouslySetInnerHTML={{
-              __html: `
+                    dangerouslySetInnerHTML={{
+                        __html: `
               window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-334NQCHLMD');
           `,
-            }}
-          />
+                    }}
+                />
             </Head>
 
             <section className='assesmentbannnerbg'>
