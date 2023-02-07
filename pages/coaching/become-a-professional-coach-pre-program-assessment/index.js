@@ -66,9 +66,7 @@ export default function BrowseCourses() {
                     var Assessment = "Become a Professional Coach Assessment Form Sales"
                     xhttp.send("name=" + event.target.name.value +
                         '&email=' + email +
-                        '&phone=' + phone +
-                        '&organization=' + organization +
-                        '&assessment=' + Assessment)
+                        '&phone=' + phone)
 
                     window.setTimeout(function () {
                         window.location.href = `/coaching/become-a-professional-coach-pre-program-assessment/${newnameurl}`
