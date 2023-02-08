@@ -48,8 +48,8 @@ export default function JoinOurPartnerNetworkLP() {
                     <div className='row align-items-center'>
                         <div className='col-sm-6'>
                             <div>
-                                <h2>Become a BYLD Partner</h2>
-                                <p>Join our Partner Community for Lucrative Business Opportunities!</p>
+                                <h1>Become a BYLD Partner</h1>
+                                <p>Join our Partner Community for Lucrative <br></br>Business Opportunities!</p>
                                 <a href='#GetinTouch'>Be Your Own Boss</a>
                             </div>
                         </div>
@@ -341,7 +341,7 @@ export default function JoinOurPartnerNetworkLP() {
                                 <p>
                                     We are now embarking upon an exciting journey into the future. So, if you are AGILE and can THINK BIG, we invite you to join the BYLD Group Partner Network as a sales/business consultant. The role will initially involve launching our world-class technology-based Virtual Reality (AR/VR) and Creativity/Innovation leadership solutions in India.
                                 </p>
-                                <a href='#GetinTouch'>Get in Touch</a>
+                                <a href='#GetinTouch' className='dblocc'>Get in Touch</a>
                             </div>
                         </div>
                         <div className='col-sm-6'>
