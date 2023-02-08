@@ -51,6 +51,13 @@ export default function MyApp({ Component, pageProps, router }) {
                 `,
             }}
           />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
 
         </Head>
         <Component {...pageProps} />
@@ -111,6 +118,13 @@ export default function MyApp({ Component, pageProps, router }) {
                 `,
             }}
           />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
         </Head>
         <Component {...pageProps} />
       </FiveB>
@@ -169,6 +183,13 @@ export default function MyApp({ Component, pageProps, router }) {
                 `,
             }}
           />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
 
         </Head>
         <Component {...pageProps} />
@@ -216,6 +237,13 @@ export default function MyApp({ Component, pageProps, router }) {
 
           <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
         </Head>
 
         <Component {...pageProps} />
@@ -436,6 +464,13 @@ export default function MyApp({ Component, pageProps, router }) {
                 `,
             }}
           />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
         </Head>
 
         <Component {...pageProps} />
@@ -497,6 +532,14 @@ export default function MyApp({ Component, pageProps, router }) {
                 `,
             }}
           />
+
+<script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
         </Head>
 
         <Component {...pageProps} />
@@ -903,6 +946,14 @@ gtag('config', 'G-5PXTTR960E');
             }}
           />
 
+<script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+
         </Head>
         <Component {...pageProps} />
       </YogeshSood>
@@ -1249,6 +1300,14 @@ gtag('config', 'G-5PXTTR960E');
           `,
             }}
           />
+
+<script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
 
         </Head>
         <Component {...pageProps} />

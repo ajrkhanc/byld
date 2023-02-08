@@ -3503,7 +3503,7 @@ table td {
 .join2box{
   border-radius: 8px;
   box-shadow: 0 0 32px rgb(0 0 0 / 10%);
-height: 150px;
+height: 174px;
 margin-bottom: 30px;
 text-align: center;
 padding: 15px;
@@ -3560,7 +3560,7 @@ align-items:center;
     font-size: 100px;
     font-weight: 900;
     color: #f4f6fd;
-    top: -40px;
+    top: -70px;
     right: 0;
     line-height: 1;
     transition: all 0.5s;
@@ -3634,7 +3634,7 @@ align-items:center;
     transition: 0.4s;
     margin-bottom: 30px; 
     box-shadow: 0 0 32px rgb(0 0 0 / 10%);
-    height: 84px;   
+    min-height: 98px;  
     align-items: center;
     display: flex;
     transition: all 0.5s;
@@ -3818,7 +3818,7 @@ align-items:center;
   .joinfont h2{
     font-family: 'Playfair Display', serif !important;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 48px;
   }
   .joinfont h3{
     font-family: 'Playfair Display', serif !important;
@@ -3832,4 +3832,18 @@ align-items:center;
   }
   .joinfont a{
     font-family: 'Playfair Display', serif !important;    
+  }
+
+ .joinfont .services_number{
+    font-family: 'Playfair Display', serif !important; 
+  }
+
+  .joinfont input{
+    font-family: 'Playfair Display', serif !important;
+  }
+  .joinfont input::placeholder{
+    font-family: 'Playfair Display', serif !important;
+  }
+  .joinfont select{
+    font-family: 'Playfair Display', serif !important;
   }
