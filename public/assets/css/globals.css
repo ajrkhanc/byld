@@ -3815,3 +3815,18 @@ align-items:center;
     animation: image_move_rotate3 4s infinite linear;
     transition: all 0.5s;
   }
+  .joinfont h2{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 600;
+    font-size: 45px;
+  }
+  .joinfont h3{
+    font-family: 'Playfair Display', serif !important;
+  }
+
+  .joinfont h4{
+    font-family: 'Playfair Display', serif !important;
+  }
+  .joinfont p{
+    font-family: 'Playfair Display', serif !important;    
+  }

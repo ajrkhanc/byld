@@ -40,9 +40,10 @@ export default function JoinOurPartnerNetworkLP() {
             <Head>
                 <title>Join our Partner network LP - BYLD Group</title>
                 <meta name="description" content="Welcome to BYLD Group! Join the BYLD Group Partner network, and become our business partner to maximize your growth opportunities. We are the largest group in South Asia offering HR and business productivity solutions for individuals, teams and organizations. Served 300 of 500 Fortune companies. Founded in 1998, backed by 1000+ years of accumulated professional… Continue reading Join our Partner network LP Ab Testing" />
+                <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet"></link>
             </Head>
 
-            <section className='jopn1 ptt-50 pbb-50'>
+            <section className='jopn1 ptt-50 pbb-50 joinfont'>
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-sm-6'>
@@ -61,7 +62,7 @@ export default function JoinOurPartnerNetworkLP() {
                 </div>
             </section>
 
-            <section className='join2 ptt-50 pbb-50'>
+            <section className='join2 ptt-50 pbb-50 joinfont'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col'>
@@ -91,12 +92,12 @@ export default function JoinOurPartnerNetworkLP() {
                 </div>
             </section>
 
-            <section id='GetinTouch' className='jopn1 ptt-50 pbb-50 jooo5'>
+            <section id='GetinTouch' className='jopn1 ptt-50 pbb-50 jooo5 joinfont'>
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-sm-6'>
                             <div className='boxshd mtt-30'>
-                            <div className="bannerform">
+                                <div className="bannerform">
                                     <p>Fill in the form below with your interest to work as a sales/business consultant with us and will connect/call back at the earliest.</p>
                                     <form id="contact-form" className='clientcornner' onSubmit={registerUser}>
                                         <div className="row">
@@ -129,7 +130,7 @@ export default function JoinOurPartnerNetworkLP() {
                                                 </select>
                                             </div>
 
-                                            
+
 
                                             <div className="col-lg-12 mb-12">
                                                 <select name="howdidyouknowaboutus" required>
@@ -155,23 +156,23 @@ export default function JoinOurPartnerNetworkLP() {
                             <div>
                                 <div class="wgl-image-animate">
                                     <div class="img-layer_image-wrapper move-rotate1">
-                                    <div class="img-layer_item">
-                                        <div class="img-layer_image">
-                                            <img src="/assets/img/img-19.png" alt="image"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="img-layer_image-wrapper move-rotate2">
                                         <div class="img-layer_item">
                                             <div class="img-layer_image">
-                                                <img src="/assets/img/img-18.png" alt="image"/>
+                                                <img src="/assets/img/img-19.png" alt="image" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="img-layer_image-wrapper move-rotate2">
+                                        <div class="img-layer_item">
+                                            <div class="img-layer_image">
+                                                <img src="/assets/img/img-18.png" alt="image" />
                                             </div>
                                         </div>
                                     </div>
                                     <div class="img-layer_image-wrapper move-rotate3">
                                         <div class="img-layer_item">
                                             <div class="img-layer_image">
-                                                <img src="/assets/img/img-20.png" alt="img-20"/>
+                                                <img src="/assets/img/img-20.png" alt="img-20" />
                                             </div>
                                         </div>
                                     </div></div>
@@ -182,7 +183,7 @@ export default function JoinOurPartnerNetworkLP() {
             </section>
 
 
-            <div className='container ptt-60'>
+            <div className='container ptt-60 joinfont'>
                 <div className='row'>
                     <div className='col-sm-12'>
                         <div class="sec-title3 text-center mb-30">
@@ -192,7 +193,7 @@ export default function JoinOurPartnerNetworkLP() {
                     </div>
                 </div>
             </div>
-            <section className='join3 ptt-50 pbb-50'>
+            <section className='join3 ptt-50 pbb-50 joinfont'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col'>
@@ -280,7 +281,7 @@ export default function JoinOurPartnerNetworkLP() {
             </section>
 
 
-            <section className='join4 ptt-50 pbb-50'>
+            <section className='join4 ptt-50 pbb-50 joinfont'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-12'>
@@ -328,10 +329,10 @@ export default function JoinOurPartnerNetworkLP() {
                 </div>
             </section>
 
-            
 
 
-            <section className='join6 ptt-100 pbb-100'>
+
+            <section className='join6 ptt-100 pbb-100 joinfont'>
                 <div className='container ptt-100 pbb-100'>
                     <div className='row align-items-center'>
                         <div className='col-sm-6'>
@@ -350,10 +351,10 @@ export default function JoinOurPartnerNetworkLP() {
                 </div>
             </section>
 
-            
 
-            
-          
+
+
+
 
             {/* <section className='ptt-20 pbb-20'>
                 <div className='container'>
