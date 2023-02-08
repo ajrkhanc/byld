@@ -3838,7 +3838,8 @@ align-items:center;
     font-family: 'Playfair Display', serif !important;
   }
   .joinfont p{
-    font-family: 'Playfair Display', serif !important;    
+    font-family: 'Playfair Display', serif !important;   
+    color: #000 !important; 
   }
   .joinfont a{
     font-family: 'Playfair Display', serif !important;    
@@ -3859,3 +3860,10 @@ align-items:center;
   }
 
   .dblocc{ display: inline-block;}
+  .formpp{
+    font-size: 20px !important;
+    padding-bottom: 15px !important;
+    line-height: 30px !important;
+    color: #000;
+    margin: 0px;
+  }

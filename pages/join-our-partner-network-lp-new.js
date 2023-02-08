@@ -97,7 +97,7 @@ export default function JoinOurPartnerNetworkLP() {
                         <div className='col-sm-6'>
                             <div className='boxshd mtt-30'>
                                 <div className="bannerform">
-                                    <p>Fill in the form below with your interest to work as a sales/business consultant with us and will connect/call back at the earliest.</p>
+                                    <p className='formpp'>Fill in the form below with your interest to work as a sales/business consultant with us and will connect/call back at the earliest.</p>
                                     <form id="contact-form" className='clientcornner' onSubmit={registerUser}>
                                         <div className="row">
                                             <div className="col-lg-12 mb-12">
