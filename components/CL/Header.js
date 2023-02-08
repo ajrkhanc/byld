@@ -49,7 +49,13 @@ export default function Header() {
                                     <li><a href="/cruciallifechangingskills/webinars">Webinars</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/cruciallifechangingskills/blog">BLOG</a></li>
+                            <li>
+                                <a href="#">RESOURCES</a>
+                            <ul class="list-unstyled">
+                            <li><a href="/cruciallifechangingskills/blog">Blog</a></li>
+                            <li><a href="/cruciallifechangingskills/glossary">Glossary</a></li>
+                            </ul>
+                            </li>                            
                             <li><a href="/cruciallifechangingskills/contact-us">CONTACT US</a></li>
                         </ul>
                     </nav>
