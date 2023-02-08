@@ -9,7 +9,7 @@ export default function JoinOurPartnerNetworkLP() {
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/13/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/75/feedback');
         xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
@@ -29,8 +29,7 @@ export default function JoinOurPartnerNetworkLP() {
         xhttp.send("fname=" + event.target.fname.value +
             "&email=" + event.target.email.value +
             "&phone=" + event.target.phone.value +
-            "&Occupation=" + event.target.occupation.value +
-            "&intrestedin=" + event.target.intrestedin.value +
+            "&Occupation=" + event.target.occupation.value +           
             "&wheredidyoucome=" + event.target.howdidyouknowaboutus.value)
 
     }
@@ -111,7 +110,8 @@ export default function JoinOurPartnerNetworkLP() {
                                                 <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                             </div>
                                             <div className="col-lg-12 mb-12">
-                                                <select name="occupation" required>
+                                            <input type="text" name="occupation" placeholder="Occupation*" required />
+                                                {/* <select name="occupation" required>
                                                     <option value="">Occupation*</option>
                                                     <option value="HR Professional">HR Professional</option>
                                                     <option value="L & D Professional">L & D Professional</option>
@@ -127,7 +127,7 @@ export default function JoinOurPartnerNetworkLP() {
                                                     <option value="Project Manager">Project Manager</option>
                                                     <option value="Marketing Manager">Marketing Manager</option>
                                                     <option value="Others">Others</option>
-                                                </select>
+                                                </select> */}
                                             </div>
 
 
