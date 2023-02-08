@@ -153,7 +153,7 @@ export default function JoinOurPartnerNetworkLP() {
                             </div>
                         </div>
                         <div className='col-sm-6'>
-                            <div>
+                            <div className='pll-50'>
                                 <div class="wgl-image-animate">
                                     <div class="img-layer_image-wrapper move-rotate1">
                                         <div class="img-layer_item">
