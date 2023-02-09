@@ -268,6 +268,9 @@ export default function JoinOurPartnerNetworkLP() {
                             <div className='aass'>
                             <a target="_blank" href='https://byldgroup.com/cruciallifechangingskills/assessment/gtd-assessment-marketing'>
                             <img src="/assets/img/assessing.jpg" />
+                            <div class="middle">
+    <div class="text">John Doe</div>
+  </div>
                             </a>
                             </div>
                         </div>
