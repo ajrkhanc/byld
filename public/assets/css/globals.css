@@ -3966,6 +3966,7 @@ table td {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .teamf{
@@ -4024,6 +4025,7 @@ table td {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 .font345{
   font-size: 34px !important;
@@ -4048,13 +4050,24 @@ table td {
 .impdf{
   box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
   text-align: center;
+  border: 7px solid #e88027;
+  border-bottom-color: #3474ae;
+  border-right-color: #3474ae;
 }
+
+.impdf:hover{
+  
+  border: 7px solid #3474ae;
+  border-bottom-color: #e88027;
+  border-right-color: #e88027;
+}
+
 .impdf a{
   background: #3373ae;
     color: #fff !important;
     border: 0px !important;
     border-radius: 25px;
-    padding: 12px 28px;
+    padding: 8px 20px;
     transition: background-color 0.4s ease-out 100ms;
     display: inline-block;    
     margin: 16px;
@@ -4072,4 +4085,8 @@ table td {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+}
+.aass img{
+  border-radius: 22px;
 }

@@ -9,9 +9,9 @@ export default function JoinOurPartnerNetworkLP() {
         infinite: true,
         speed: 500,
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         initialSlide: 0,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         responsive: [
             {
@@ -20,7 +20,7 @@ export default function JoinOurPartnerNetworkLP() {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: true
+                    dots: true,
                 }
             },
             {
@@ -221,7 +221,7 @@ export default function JoinOurPartnerNetworkLP() {
             </section>
 
 
-            <section  id='GetinTouch' className='ptt-50 pbb-50 cplps4'>
+            <section  id='GetinTouch' className='ptt-50 pbb-70 cplps4'>
                 <div className="container">
                     <div className="row">
                         <div className='col-sm-12'>
@@ -237,28 +237,28 @@ export default function JoinOurPartnerNetworkLP() {
                                 <div className='logoslider'>
                                     <div className='impdf'>
                                         <img src="/assets/pdf/pdfi/challenges-and-recommendations-for-auto-industry.jpg" />
-                                        <a href='/assets/pdf/challenges-and-recommendations-for-auto-industry.pdf' download>Download</a>
+                                        <a href='/assets/pdf/challenges-and-recommendations-for-auto-industry.pdf' download>Download White Paper</a>
                                     </div>
                                 </div>
 
                                 <div className='logoslider'>
                                     <div className='impdf'>
                                         <img src="/assets/pdf/pdfi/auto-industry-white-paper.jpg" />
-                                        <a href='/assets/pdf/auto-industry-white-paper.pdf' download>Download</a>
+                                        <a href='/assets/pdf/auto-industry-white-paper.pdf' download>Download White Paper</a>
                                     </div>
                                 </div>
 
                                 <div className='logoslider'>
                                     <div className='impdf'>
                                         <img src="/assets/pdf/pdfi/roadblocks-in-the-growth-path-for-BFSI-Industry.jpg" />
-                                        <a href='/assets/pdf/roadblocks-in-the-growth-path-for-BFSI-Industry.pdf' download>Download</a>
+                                        <a href='/assets/pdf/roadblocks-in-the-growth-path-for-BFSI-Industry.pdf' download>Download White Paper</a>
                                     </div>
                                 </div>
 
                                 <div className='logoslider'>
                                     <div className='impdf'>
                                         <img src="/assets/pdf/pdfi/what-will-spur-BFSI-industry-to-its-next-peak.jpg" />
-                                        <a href='/assets/pdf/what-will-spur-BFSI-industry-to-its-next-peak.pdf' download>Download</a>
+                                        <a href='/assets/pdf/what-will-spur-BFSI-industry-to-its-next-peak.pdf' download>Download White Paper</a>
                                     </div>
                                 </div>
 
