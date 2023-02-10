@@ -97,7 +97,11 @@ export default function TirianIndex(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="8th February 2023, Tirian Webinar">8th February 2023, Tirian Webinar</option>
+                                                <option value="Webinar Friday, 14th April 2023">Webinar Friday, 14th April 2023</option>
+                                                <option value="Webinar Friday, 5th May 2023">Webinar Friday, 5th May 2023</option>
+                                                <option value="Webinar Friday, 9th June 2023">Webinar Friday, 9th June 2023</option>
+                                                <option value="Webinar Wednesday, 7th July 2023">Webinar Wednesday, 7th July 2023</option>
+                                                <option value="Webinar Friday, 11th August 2023">Webinar Friday, 11th August 2023</option>
                                             </select>
                                         </div>
 
@@ -161,7 +165,59 @@ export default function TirianIndex(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Thursday, February 8th, 2023</span>
+                                <span>Webinar Friday, 14th April 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar Friday, 5th May 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar Friday, 9th June 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar Wednesday, 7th July 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar Friday, 11th August 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Time: 11:00 AM -12:00 PM</h3>

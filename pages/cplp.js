@@ -177,14 +177,14 @@ export default function JoinOurPartnerNetworkLP() {
                                                 <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                             </div>
                                             <div className="col-lg-12 mb-12">
-                                                <input type="text" name="company" placeholder="Company Name*" required />                                            
+                                                <input type="text" name="company" placeholder="Company Name*" required />
                                             </div>
 
                                             <div className="col-lg-12 mb-12">
-                                                <input type="text" name="designation" placeholder="Designation*" required />                                            
+                                                <input type="text" name="designation" placeholder="Designation*" required />
                                             </div>
 
-                                            
+
 
                                             <div className="col-lg-12 mb-12">
                                                 <select name="howdidyouknowaboutus" required>
@@ -198,7 +198,7 @@ export default function JoinOurPartnerNetworkLP() {
                                             </div>
 
                                             <div className="col-lg-12 mb-12">
-                                            <textarea className="from-control" name="leadsquared_Notes" placeholder="Questions/Comments:"></textarea>
+                                                <textarea className="from-control" name="leadsquared_Notes" placeholder="Questions/Comments:"></textarea>
                                             </div>
 
                                             <div className="col-lg-12 mb-12">
@@ -211,9 +211,9 @@ export default function JoinOurPartnerNetworkLP() {
                             </div>
                         </div>
                         <div className='col-sm-6'>
-                            <div className='pll-50'>                               
+                            <div className='pll-50'>
                                 <img src="/assets/img/co/c1.png" alt="image" />
-                                
+
                             </div>
                         </div>
                     </div>
@@ -221,7 +221,7 @@ export default function JoinOurPartnerNetworkLP() {
             </section>
 
 
-            <section  id='GetinTouch' className='ptt-50 pbb-70 cplps4'>
+            <section id='GetinTouch' className='ptt-50 pbb-70 cplps4'>
                 <div className="container">
                     <div className="row">
                         <div className='col-sm-12'>
@@ -266,12 +266,9 @@ export default function JoinOurPartnerNetworkLP() {
                         </div>
                         <div className='col-sm-4'>
                             <div className='aass'>
-                            <a target="_blank" href='https://byldgroup.com/cruciallifechangingskills/assessment/gtd-assessment-marketing'>
-                            <img src="/assets/img/assessing.jpg" />
-                            <div class="middle">
-    <div class="text">John Doe</div>
-  </div>
-                            </a>
+                                <a target="_blank" href='https://byldgroup.com/cruciallifechangingskills/assessment/gtd-assessment-marketing'>
+                                    <img src="/assets/img/assessing.jpg" />                                   
+                                </a>
                             </div>
                         </div>
                     </div>

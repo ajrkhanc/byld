@@ -106,7 +106,7 @@ export default function WebinarsAndProgramExperience(){
                         </div>
                     </div> */}
 
-                    <div className='col-sm-4'>
+                    {/* <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
@@ -118,7 +118,7 @@ export default function WebinarsAndProgramExperience(){
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
@@ -144,6 +144,34 @@ export default function WebinarsAndProgramExperience(){
                             <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
                                 <h3>The Five Behaviors<sup>®️</sup> Team Development</h3>                                
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar - Friday, April 14th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className="eventtitlec">Time: 11:00 AM -12:00 PM</h4>
+                                <h3>Virtual Training Apollo3</h3>                                
+                                <a className="eventbtn" href='/jenson-8'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar Friday, April 14th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className="eventtitlec">Time: 11:00 AM -12:00 PM</h4>
+                                <h3>Harnessing Creative Intelligence</h3>                                
+                                <a className="eventbtn" href='/tirian-lp'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -208,9 +236,11 @@ export default function WebinarsAndProgramExperience(){
                                                 {/* <option value="6th January 2023 - Everything DiSC Work of Leaders Webinar">6th January 2023 - Everything DiSC Work of Leaders Webinar</option> */}
                                                 
                                                 {/* <option value="Lumina Spark – January 20th, 2023">Lumina Spark – January 20th, 2023</option> */}
-                                                <option value="The Five Behaviors®️ Personal Development – February 3rd, 2023">The Five Behaviors®️ Personal Development – February 3rd, 2023</option>
+                                                {/* <option value="The Five Behaviors®️ Personal Development – February 3rd, 2023">The Five Behaviors®️ Personal Development – February 3rd, 2023</option> */}
                                                 <option value="The Power of Habit – February 15th, 2023">The Power of Habit – February 15th, 2023</option>
                                                 <option value="The Five Behaviors®️ Team Development – February 17th, 2023">The Five Behaviors®️ Team Development – February 17th, 2023</option>
+                                                <option value="Virtual Training Apollo3 – Friday, April 14th, 2023">Virtual Training Apollo3 – Friday, April 14th, 2023</option>
+                                                <option value="Harnessing Creative Intelligence – Friday, April 14th, 2023">Harnessing Creative Intelligence – Friday, April 14th, 2023</option>
                                                 {/* <option value="8th March 2023 - Eagle’s Flight Executive Briefing">8th March 2023 - Eagle’s Flight Executive Briefing</option> */}
                                             </select>
                                         </div>

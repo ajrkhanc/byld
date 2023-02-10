@@ -60,10 +60,10 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>January 30th - 31st, 2023</span>
+                                <span>February 22nd, 2023</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>The SLII Experience™ - Virtual</h3>
+                                <h3>Building Trust - Virtual</h3>
                                 <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
                             </div>
                         </div>

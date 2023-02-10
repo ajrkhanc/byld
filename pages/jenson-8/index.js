@@ -444,7 +444,7 @@ export default function Jenson8(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Thursday, February 2nd, 2023</span>
+                                <span>Webinar - Friday, April 14th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                             <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
@@ -454,6 +454,78 @@ export default function Jenson8(){
                         </div>
                     </div>
 
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Friday, April 21st, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className='eventtitlec'>Jenson8 Product Showcase</h4>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar - Friday, May 5th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar - Friday, June 2nd, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar - Friday, July 14th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar - Friday, August 4th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
+                                <h3>Time: 11:00 AM -12:00 PM</h3>
+                                <a className="eventbtn" href='#Reserve'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
                 </div>
             </div>
         </section>
@@ -497,7 +569,12 @@ export default function Jenson8(){
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>
                                                 {/* <option value="5th January 2023, Jenson8 Webinar">5th January 2023, Jenson8 Webinar</option> */}
-                                                <option value="2nd February 2023, Jenson8 Webinar">2nd February 2023, Jenson8 Webinar</option>
+                                                <option value="Webinar - Friday, April 14th, 2023">Webinar - Friday, April 14th, 2023</option>
+                                                <option value="Jenson8 Product Showcase Friday, April 21st, 2023">Jenson8 Product Showcase Friday, April 21st, 2023</option>
+                                                <option value="Webinar - Friday, May 5th, 2023">Webinar - Friday, May 5th, 2023</option>
+                                                <option value="Webinar - Friday, June 2nd, 2023">Webinar - Friday, June 2nd, 2023</option>
+                                                <option value="Webinar - Friday, July 14th, 2023">Webinar - Friday, July 14th, 2023</option>
+                                                <option value="Webinar - Friday, August 4th, 2023">Webinar - Friday, August 4th, 2023</option>
                                             </select>
                                         </div>
                                        
