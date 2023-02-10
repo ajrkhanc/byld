@@ -74,7 +74,7 @@ export default function FiveBWebinar(){
                         <b>It is based on Patrick Lencioni’s best selling book – <span className='themecolor'>“The Five Dysfunctions of a Team”</span></b>
                         </p>
                         <p className='mall5'>
-                        Learn how you and your teams score on the key components of the Five BehaviorsTM model of Trust, Conflict, Commitment, Accountability and Results.
+                        Learn how you and your teams score on the key components of the Five Behaviors<sup>®</sup> model of Trust, Conflict, Commitment, Accountability and Results.
                         </p>
                         <p className='mall5'>
                         It’s time to <b>transform</b> your team members into <span className='themecolor'>great players.</span>

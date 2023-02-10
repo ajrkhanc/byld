@@ -63,9 +63,9 @@ export default function Home() {
                   <div className="col-sm-12">
                      <div className="sec-title3 mbb-35 text-center rs-estimate">
                         <p className='mtt-30'>
-                           <i>We are the authorized partners of The Five Behaviors™ (A Wiley Brand) in India. Together, we bring you an array of assessments and programs that make individuals, team and organizations measurably more effective.</i>
+                           <i>We are the authorized partners of The Five Behaviors<sup>®</sup> (A Wiley Brand) in India. Together, we bring you an array of assessments and programs that make individuals, team and organizations measurably more effective.</i>
                         </p>
-                        <p>The Five Behaviors™ is the result of the partnership between Wiley Workplace Learning Solutions and best-selling author Patrick Lencioni. Our mission was to create a program that improves team effectiveness and productivity through the understanding and application of The Five Behaviors: Trust, Conflict, Commitment, Accountability, and Results. This unique learning experience helps individuals and teams build effective work culture through communication and collaboration.</p>
+                        <p>The Five Behaviors<sup>®</sup> is the result of the partnership between Wiley Workplace Learning Solutions and best-selling author Patrick Lencioni. Our mission was to create a program that improves team effectiveness and productivity through the understanding and application of The Five Behaviors: Trust, Conflict, Commitment, Accountability, and Results. This unique learning experience helps individuals and teams build effective work culture through communication and collaboration.</p>
                         <div className="btn-part ptt-10 pbb-30">
                            <a className="readon2" href="/fivebehaviors/contact-us">
                               Connect With Our Subject Matter Experts To Know More
@@ -128,7 +128,7 @@ export default function Home() {
                            <div className="blog-contant hometeamsection">
                               <h4 className="title"><a href="/fivebehaviors/personal-development">Personal Development</a></h4>
                               <div className="desc">
-                              Helps individuals to better understand themselves and their team through the principles of The Five Behaviors™
+                              Helps individuals to better understand themselves and their team through the principles of The Five Behaviors<sup>®</sup>
                               </div>
                               <div className="blog-meta">
                                  <div className="btn-part ptt-10 pbb-10">
@@ -152,7 +152,7 @@ export default function Home() {
                <div className="row">
                   <div className="col-sm-12">
                      <div className="sec-title3 mbb-35">
-                        <h4 className="countertoph2 text-center font30">The Five Behaviors™ Solutions</h4>
+                        <h4 className="countertoph2 text-center font30">The Five Behaviors<sup>®</sup> Solutions</h4>
                         <div className="heading-border-line center-style mbb-30"></div>
                      </div>
                   </div>

@@ -99,7 +99,7 @@ export default function teamDevelopment(){
                         <div className="sec-title3">                        
                         <h2 className="title countertoph2 paddingme">Team Development</h2>                        
                         <div className="desc pb-17 mtt-15">
-                        Based on Patrick Lencioni’s best-selling story on leadership The Five Dysfunctions of a Team, this program focuses on putting The Five BehaviorsTM model into practice. Team members better understand how they and others contribute to their team’s development, and how their part of the whole can make or break the team and its dynamic.
+                        Based on Patrick Lencioni’s best-selling story on leadership The Five Dysfunctions of a Team, this program focuses on putting The Five Behaviors<sup>®</sup> model into practice. Team members better understand how they and others contribute to their team’s development, and how their part of the whole can make or break the team and its dynamic.
                         </div>                       
                         </div>
                     </div>
@@ -127,7 +127,7 @@ export default function teamDevelopment(){
                     </div>
                     <div className="col-lg-6 pr-0">
                         <div className='fivemodelshd'>
-                        <h4 className="countertoph2 text-left font34">The Five Behaviors™ Model</h4>
+                        <h4 className="countertoph2 text-left font34">The Five Behavior<sup>®</sup> Model</h4>
                         <h4 className="countertoph2 text-left font26"> Trust One Another</h4>
                         <p className='justify mbb-5'>When team members are genuinely transparent and honest with one another, it forms a safe environment that creates and builds vulnerability-based trust.</p>
                         <div className="sec-title3 mbb-5 text-left rs-estimate">

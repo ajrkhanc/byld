@@ -103,7 +103,7 @@ export default function PersonalDevelopment(){
                </h2>
                <h4 className="countertoph2 text-left">Build and Fortify Individual Skills that Transcend Teams</h4>
                <div className="desc pb-17">
-                  This new product was created to harness the power of The Five Behaviors™ across the entire organization. The Five Behaviors Personal Development solution teaches individuals to become better teammates by integrating Patrick Lencioni’s model at the organizational level. The goal is to completely redefine teamwork and collaboration.
+                  This new product was created to harness the power of The Five Behaviors<sup>®</sup> across the entire organization. The Five Behaviors Personal Development solution teaches individuals to become better teammates by integrating Patrick Lencioni’s model at the organizational level. The goal is to completely redefine teamwork and collaboration.
                </div>
                <p className="margin-0">
                   Personal Development was designed specifically to work for individuals; participants do not all need to be part of the same team. Rather, participants can carry the takeaways of this program from one team to the next, enabling a culture of teamwork. Learners at all levels of an organization can benefit from this program and adopt its powerful principles, shape behaviors, and create a common language that empowers people to rewrite what it means to work together.
