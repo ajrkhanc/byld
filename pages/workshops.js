@@ -88,7 +88,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>February 21st, 22nd, 23rd & 24th 2023</span>
+                                <span>February 20th, 21st, 22nd, & 24th 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>DISC Train-the-Trainer (TTT)</h3>
@@ -140,8 +140,8 @@ export default function Workshops(){
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                                
                                                 {/* <option value="February 17th, 2023 - The Power of Habit">February 17th, 2023 - The Power of Habit</option> */}
-                                                <option value="January 30th - 31st, 2023 - The SLII Experience™ T4T">January 30th - 31st, 2023 - The SLII Experience™ T4T</option>
-                                                <option value="February 21st, 22nd, 23rd & 24th 2023 - DISC Train-the-Trainer (TTT)">February 21st, 22nd, 23rd & 24th 2023 - DISC Train-the-Trainer (TTT)</option>
+                                                <option value="February 22nd, 2023 - Building Trust - Virtual">February 22nd, 2023 - Building Trust - Virtual</option>
+                                                <option value="February 20th, 21st, 22nd, and 24th 2023 - DISC Train-the-Trainer (TTT)">February 20th, 21st, 22nd, & 24th 2023 - DISC Train-the-Trainer (TTT)</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
