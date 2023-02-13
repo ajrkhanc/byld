@@ -961,7 +961,7 @@ gtag('config', 'G-5PXTTR960E');
 
   }
 
-  else if (router.pathname.startsWith('/leader-behaviour-assessment-marketing/')) {
+  else if (router.pathname.startsWith('/leader-behaviour-assessment-sales/')) {
 
     return (
       <COSR>
@@ -1016,7 +1016,7 @@ gtag('config', 'G-5PXTTR960E');
 
   }
 
-  else if (router.pathname.startsWith('/leader-behaviour-assessment-sales')) {
+  else if (router.pathname.startsWith('/leader-behaviour-assessment-self-sales')) {
 
     return (
       <Leaderbehaviourassessment>
@@ -1071,7 +1071,7 @@ gtag('config', 'G-5PXTTR960E');
     )
 
   }
-  else if (router.pathname.startsWith('/leader-behaviour-assessment-marketing')) {
+  else if (router.pathname.startsWith('/leader-behaviour-assessment-sales')) {
 
     return (
       <Leaderbehaviourassessment>
