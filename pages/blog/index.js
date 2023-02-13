@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import  moment from 'moment'
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const res = await fetch('https://coral-app-5w4lr.ondigitalocean.app/api/posts')
     const posts = await res.json()
 
