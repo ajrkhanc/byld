@@ -115,7 +115,7 @@ export default function Header() {
                                                         <li className="last-item menu-item-has-children">
                                                             <a href="/our-solutions/coaching">Coaching</a>
                                                             <ul className="sub-menu">
-                                                                <li><a href='/coaching/become-a-coach'>Become A Coach (ICF)</a></li>
+                                                                <li><a href='/coaching/become-a-coach'>Become A Coach Certification (ICF)</a></li>
                                                                 <li><a href="/coaching/insideout-coaching">InsideOut™ Coaching</a></li>
                                                                 <li><a href='/coaching/breakthroughs'>Breakthrough</a></li>
                                                                 <li><a href='/coaching/executive-coaching'>Executive Coaching</a></li>
