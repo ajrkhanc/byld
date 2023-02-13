@@ -42,12 +42,12 @@ export default function Coaching(){
 
                           <div className='row'>
                             <div class="col-sm-3">
-                                <a class="productbox" href="/coaching/icf-certification">
+                                <a class="productbox" href="/coaching/become-a-coach">
                                 <div class="service-grid">
                                     <div class="service-icon">
                                         <img src="/assets/img/icon/coaching-academy.png" alt=""/>
                                     </div>
-                                    <h4 class="title mb-18">ICF Certification</h4>                                                               
+                                    <h4 class="title mb-18">Become A Coach (ICF)</h4>                                                               
                                 </div>
                                 </a>
                             </div>

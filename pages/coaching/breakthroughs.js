@@ -195,9 +195,9 @@ export default function DTCICoachingAcademy() {
               <div class="col">
                 <div class="rs-addon-number">
                   <div class="number-part">
-                    <a className='hccs' href='/coaching/icf-certification'>
+                    <a className='hccs' href='/coaching/become-a-coach'>
                       <div class="number-image">
-                        <span>ICF Certification</span>
+                        <span>Become A Coach (ICF)</span>
                       </div>
                     </a>
                   </div>
