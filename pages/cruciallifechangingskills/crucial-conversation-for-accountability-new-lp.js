@@ -158,7 +158,7 @@ export default function BrowseCourses() {
                                 <div class="col-md-6 col-6">
                                     <select name='slot' required>
                                         <option value="">Pick any Slot*</option>
-                                        <option value="Crucial Conversations for Accountability – January 18th, 2023">Crucial Conversations for Accountability – January 18th, 2023</option>
+                                        <option value="Crucial Conversations for Accountability – May 18th, 2023">Crucial Conversations for Accountability – May 18th, 2023</option>
                                     </select>
                                 </div>
 
@@ -226,7 +226,7 @@ export default function BrowseCourses() {
                                 </div>
                                 <h5 className='eventt'>Webinar</h5>
                                 <div class="col-md-12 workshop-date">
-                                    <h6><i class="fa fa-calendar" aria-hidden="true"></i> January 18th, 2023</h6>
+                                    <h6><i class="fa fa-calendar" aria-hidden="true"></i> May 18th, 2023</h6>
                                     <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 4.00 PM to 5.00 PM</h6>
                                     <a href='#registered'><button class="register">REGISTER NOW</button></a>
                                 </div>
