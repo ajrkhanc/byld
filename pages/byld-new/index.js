@@ -4,9 +4,7 @@ import Image from 'next/image'
 import Slider from "react-slick";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-import React from 'react';
-import CountUp from 'react-countup';
-import VisibilitySensor from 'react-visibility-sensor';
+
 
 
 
@@ -273,20 +271,7 @@ export default function Home() {
                </div>
             </div>
          </section>
-         <CountUp start={0} end={100} delay={0}>
-  {({ countUpRef }) => (
-    <div>
-      <span ref={countUpRef} />
-    </div>
-  )}
-</CountUp>
-<VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
-        {({ isVisible }) => (
-          <div style={{ height: 100 }}>
-            {isVisible ? <CountUp end={1000} /> : null}
-          </div>
-        )}
-      </VisibilitySensor>
+ 
          <section className='ptt-0 pbb-60'>
             <div className='container'>
                <div className='row'>
