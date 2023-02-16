@@ -1,6 +1,20 @@
-.animateleft{visibility: visible; animation-name: fadeInLeft;}
-.animateright{visibility: visible; animation-name: fadeInRight;}
-.animateUP{visibility: visible; animation-name: fadeInUp;}
+.full-width-header .rs-header.style2{
+    box-shadow: none !important;
+}
+.animateleft {
+    visibility: visible;
+    animation-name: fadeInLeft;
+}
+
+.animateright {
+    visibility: visible;
+    animation-name: fadeInRight;
+}
+
+.animateUP {
+    visibility: visible;
+    animation-name: fadeInUp;
+}
 
 
 .delay-1-0s {
@@ -104,48 +118,123 @@
 }
 
 
-.cp0{padding: 0px !important;}
+.cp0 {
+    padding: 0px !important;
+}
+
 .topbar-area {
     background-color: #000000 !important;
 }
 
 .slide1c {
-    background: url(/assets/img/homeb/hb1.jpg);
+    background: url(/assets/img/homeb/byldho1.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 170px 0px 60px 0px;
 }
 
 .slide2c {
-    background: url(/assets/img/homeb/hb2.jpg);
+    background: url(/assets/img/homeb/byldho2.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 170px 0px 60px 0px;
 }
 
 .slide3c {
-    background: url(/assets/img/homeb/hb3.jpg);
+    background: url(/assets/img/homeb/byldho3.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 170px 0px 60px 0px;
 }
 
 .slide4c {
-    background: url(/assets/img/homeb/hb4.jpg);
+    background: url(/assets/img/homeb/byldho4.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 170px 0px 60px 0px;
 }
 
-.siderco{ padding: 180px 0px 100px 0px;}
-.bannersection{
+.siderco {
+    
+}
+
+.bannersection {
     margin-top: -95px;
 }
-.bannersection .slick-dots{
+
+.bannersection .slick-dots {
     right: 0px;
     width: auto;
     top: 40%;
 }
-.bannersection .slick-dots li{
+
+.bannersection .slick-dots li {
     display: block;
+}
+
+.siderco h1 {
+    font-size: 46px;
+    line-height: 64px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #3474af;
+}
+
+.siderco p {
+    font-size: 20px;
+    color: #000;
+}
+
+.h2call {
+    font-size: 48px;
+    line-height: 65px;
+    font-weight: 600;
+    color: #2a6db5;
+}
+
+.supperh {
+    font-size: 20px !important;
+    color: #eb7a10 !important;
+    font-weight: 500 !important;
+}
+
+.pall {
+    font-size: 20px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+.solutionrow {
+    background-color: #f6f3ee;
+    position: relative;
+    overflow: hidden;
+}
+.zindx{
+    z-index: 9;
+}
+.solutionbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 40px 15px;
+    overflow: hidden;
+}
+.solutionbox h4{margin: 0px; padding-right: 30px;}
+.solutionarrowbox1{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.solutionarrowbox2{
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    z-index: 0;
 }

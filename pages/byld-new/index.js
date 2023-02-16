@@ -4,6 +4,10 @@ import Image from 'next/image'
 import Slider from "react-slick";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
+import React from 'react';
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
+
 
 
 export default function Home() {
@@ -182,41 +186,208 @@ export default function Home() {
                }}
             />
          </Head>
-
+         
          <section className='bannersection'>
-         <Slider {...homeslider}>
-            <div className='slide1c'>
-               <div className='container'>
-                  <div className='row align-items-center'>
-                     <div className='col-sm-5'>
-                        <div className='siderco wow fadeInUp delay-0-2s animated animateUP'>
-                           <h1>Leading you towards success</h1>
-                           <p>Everything we do has the potential to ignite your inner spark and transform the world around you.</p>
-                           <div className="btn-part ptt-10 pbb-30">
-                              <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+            <Slider {...homeslider}>
+               <div className='slide1c'>
+                  <div className='container'>
+                     <div className='row align-items-center'>
+                        <div className='col-sm-5'>
+                           <div className='siderco wow fadeInUp delay-0-2s animated animateUP'>
+                              <h1>Leading you towards success</h1>
+                              <p>Everything we do has the potential to ignite your inner spark and transform the world around you.</p>
+                              <div className="btn-part ptt-10 pbb-30">
+                                 <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                              </div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-            </div>
 
-            <div className='slide1c'>
-               <div className='container'>
-                  <div className='row align-items-center'>
-                     <div className='col-sm-5'>
-                        <div className='siderco'>
-                           <h1>Leading you towards success</h1>
-                           <p>Everything we do has the potential to ignite your inner spark and transform the world around you.</p>
-                           <div className="btn-part ptt-10 pbb-30">
-                              <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+               <div className='slide2c'>
+                  <div className='container'>
+                     <div className='row align-items-center'>
+                        <div className='col-sm-5'>
+                           <div className='siderco wow fadeInUp delay-0-2s animated animateUP'>
+                              <h1>Equipping you with customised solutions</h1>
+                              <p>Our courses for individuals, professionals, organisations, and institutions and thoughtfully curated to drive success.</p>
+                              <div className="btn-part ptt-10 pbb-30">
+                                 <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                              </div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
+
+               <div className='slide3c'>
+                  <div className='container'>
+                     <div className='row align-items-center'>
+                        <div className='col-sm-5'>
+                           <div className='siderco wow fadeInUp delay-0-2s animated animateUP'>
+                              <h1>Empowering you with the greatest goals</h1>
+                              <p>We impact knowledge in various fields to build a sustainable future.</p>
+                              <div className="btn-part ptt-10 pbb-30">
+                                 <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div className='slide4c'>
+                  <div className='container'>
+                     <div className='row align-items-center'>
+                        <div className='col-sm-5'>
+                           <div className='siderco wow fadeInUp delay-0-2s animated animateUP'>
+                              <h1>Paving way for global recognition</h1>
+                              <p>
+                                 Our exclusive partnership with Dale Carnegie enables you to learn from the best trainers.
+                              </p>
+                              <div className="btn-part ptt-10 pbb-30">
+                                 <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </Slider>
+         </section>
+         
+         <section className='ptt-50 pbb-60'>
+            <div className='container'>
+               <div className='row'>
+                  <div className='col-sm-6'>
+                     <div class="sub-text supperh wow fadeInUp delay-0-2s animated animateUP">What We Offer</div>
+                     <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Shaping your abilities with curated solutions</h2>
+                  </div>
+                  <div className='col-sm-6'>
+                     <p class="mb-0 mtt-40 pall pbb-20 wow fadeInUp delay-0-2s animated animateUP">As a one-stop destination for building extraordinary talent, we create sustainable growth for individuals and organizations by empowering them through our expertise in learning and people solutions.</p>
+                     <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
+                        <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                     </div>
+                  </div>
+               </div>
             </div>
-         </Slider>
+         </section>
+         <CountUp start={0} end={100} delay={0}>
+  {({ countUpRef }) => (
+    <div>
+      <span ref={countUpRef} />
+    </div>
+  )}
+</CountUp>
+<VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+        {({ isVisible }) => (
+          <div style={{ height: 100 }}>
+            {isVisible ? <CountUp end={1000} /> : null}
+          </div>
+        )}
+      </VisibilitySensor>
+         <section className='ptt-0 pbb-60'>
+            <div className='container'>
+               <div className='row'>
+                  <div className='col-sm-12'>
+                     <div class="rs-videos choose-video wow fadeInUp delay-0-2s animated animateUP">
+                        <div class="images-video">
+                           <img src="/assets/img/homeb/newbyldb.jpg" alt="images" />
+                        </div>
+                        <div class="animate-border">
+                           <a class="popup-border" target="_blank" href="https://www.youtube.com/watch?v=LXd9OtxQQQA&t=16s">
+                              <i class="fa fa-play"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section className='solutionrow ptt-60 pbb-60'>
+            <div className='container'>
+               <div className='row'>
+                  <div className='col-sm-3'>
+                     <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Walchand PLUS</h2>
+                  </div>
+                  <div className='col-sm-9'>
+                     <p class="mb-0 pall pbb-20 wow fadeInUp delay-0-2s animated animateUP">
+                        Walchand Plus is an initiative of Walchand PeopleFirst Limited – a 100-year legacy in an exclusive partnership with Dale Carnegie Training, the global leader in behavioral skills. At Walchand Plus, over the years, the mission has expanded from essential and behavioral skills for the corporate sector to HR consultancy and Skilling for employability, entrepreneurship, and empowerment.
+                     </p>
+                  </div>
+               </div>
+               <div className='row zindx'>
+                  <div className='col-sm-3'></div>
+                  <div className='col-sm-9 zindx'>
+                     <div className='row'>
+                        <div className='col-sm-4'>
+                           <div className='solutionbox wow fadeInUp delay-0-2s animated animateUP'>
+                              <h4>People</h4>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="102.657" height="44.324" viewBox="0 0 102.657 44.324"><g transform="translate(-1560.343 -2464.75)"><path d="M-897.81,201.72a15.064,15.064,0,0,1-15.036-15.05,15.086,15.086,0,0,1,15.089-15.082h.211a15.092,15.092,0,0,1,14.89,15.206A15.045,15.045,0,0,1-897.81,201.72Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-873.864,215.879c-.619,0-1.088,0-1.522-.005a2.744,2.744,0,0,1-.394-.044,21.9,21.9,0,0,0-8.884-17.081,21.47,21.47,0,0,0-13.259-4.355c-.294,0-.594.005-.892.015a22.192,22.192,0,0,0-20.953,21.367h-3.306a26.775,26.775,0,0,1,2.7-10.943A25.266,25.266,0,0,1-912.847,196a25.139,25.139,0,0,1,7.237-3.792,25.1,25.1,0,0,1,7.9-1.274,24.739,24.739,0,0,1,12.856,3.59,25.419,25.419,0,0,1,9.1,9.125,27.654,27.654,0,0,1,3.367,12.232Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-917.325,190.908a11.109,11.109,0,0,1-11.144,11.075h-.079A11.105,11.105,0,0,1-939.6,190.828v-.087a11.137,11.137,0,0,1,11.183-11.09h.039a11.135,11.135,0,0,1,11.056,11.213Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-877.923,190.185a11.06,11.06,0,0,1,11.075-11.047h.055a11.068,11.068,0,0,1,11.015,11.12v.047a11.034,11.034,0,0,1-11.039,11.028h-.095a11.041,11.041,0,0,1-11.012-11.07Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-846.97,215.912a2.256,2.256,0,0,1-.247-.013c-.336-.033-.7-.049-1.13-.049-.294,0-.594.007-.883.014l-.422.009a17.1,17.1,0,0,0-4.055-13.384,16.849,16.849,0,0,0-12.71-5.819,17.742,17.742,0,0,0-6.49,1.252l-2.217-2.6a18.143,18.143,0,0,1,8.609-2.049h.4a20.139,20.139,0,0,1,14.581,6.461,20.246,20.246,0,0,1,5.3,15.132C-846.292,215.818-846.493,215.912-846.97,215.912Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-948.751,215.758a22.239,22.239,0,0,1,1.814-11.006,20.475,20.475,0,0,1,7.63-8.439,19.524,19.524,0,0,1,10.631-3.047,18.028,18.028,0,0,1,8.709,2.11l-2.188,2.583a19.231,19.231,0,0,0-6.762-1.319,16.053,16.053,0,0,0-9.969,3.548c-4.9,3.783-7.074,9.02-6.459,15.569Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path></g></svg>
+                           </div>
+                        </div>
+                        <div className='col-sm-4'>
+                           <div className='solutionbox wow fadeInUp delay-0-2s animated animateUP'>
+                              <h4>People</h4>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="102.657" height="44.324" viewBox="0 0 102.657 44.324"><g transform="translate(-1560.343 -2464.75)"><path d="M-897.81,201.72a15.064,15.064,0,0,1-15.036-15.05,15.086,15.086,0,0,1,15.089-15.082h.211a15.092,15.092,0,0,1,14.89,15.206A15.045,15.045,0,0,1-897.81,201.72Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-873.864,215.879c-.619,0-1.088,0-1.522-.005a2.744,2.744,0,0,1-.394-.044,21.9,21.9,0,0,0-8.884-17.081,21.47,21.47,0,0,0-13.259-4.355c-.294,0-.594.005-.892.015a22.192,22.192,0,0,0-20.953,21.367h-3.306a26.775,26.775,0,0,1,2.7-10.943A25.266,25.266,0,0,1-912.847,196a25.139,25.139,0,0,1,7.237-3.792,25.1,25.1,0,0,1,7.9-1.274,24.739,24.739,0,0,1,12.856,3.59,25.419,25.419,0,0,1,9.1,9.125,27.654,27.654,0,0,1,3.367,12.232Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-917.325,190.908a11.109,11.109,0,0,1-11.144,11.075h-.079A11.105,11.105,0,0,1-939.6,190.828v-.087a11.137,11.137,0,0,1,11.183-11.09h.039a11.135,11.135,0,0,1,11.056,11.213Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-877.923,190.185a11.06,11.06,0,0,1,11.075-11.047h.055a11.068,11.068,0,0,1,11.015,11.12v.047a11.034,11.034,0,0,1-11.039,11.028h-.095a11.041,11.041,0,0,1-11.012-11.07Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-846.97,215.912a2.256,2.256,0,0,1-.247-.013c-.336-.033-.7-.049-1.13-.049-.294,0-.594.007-.883.014l-.422.009a17.1,17.1,0,0,0-4.055-13.384,16.849,16.849,0,0,0-12.71-5.819,17.742,17.742,0,0,0-6.49,1.252l-2.217-2.6a18.143,18.143,0,0,1,8.609-2.049h.4a20.139,20.139,0,0,1,14.581,6.461,20.246,20.246,0,0,1,5.3,15.132C-846.292,215.818-846.493,215.912-846.97,215.912Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-948.751,215.758a22.239,22.239,0,0,1,1.814-11.006,20.475,20.475,0,0,1,7.63-8.439,19.524,19.524,0,0,1,10.631-3.047,18.028,18.028,0,0,1,8.709,2.11l-2.188,2.583a19.231,19.231,0,0,0-6.762-1.319,16.053,16.053,0,0,0-9.969,3.548c-4.9,3.783-7.074,9.02-6.459,15.569Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path></g></svg>
+                           </div>
+                        </div>
+                        <div className='col-sm-4'>
+                           <div className='solutionbox wow fadeInUp delay-0-2s animated animateUP'>
+                              <h4>People</h4>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="102.657" height="44.324" viewBox="0 0 102.657 44.324"><g transform="translate(-1560.343 -2464.75)"><path d="M-897.81,201.72a15.064,15.064,0,0,1-15.036-15.05,15.086,15.086,0,0,1,15.089-15.082h.211a15.092,15.092,0,0,1,14.89,15.206A15.045,15.045,0,0,1-897.81,201.72Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-873.864,215.879c-.619,0-1.088,0-1.522-.005a2.744,2.744,0,0,1-.394-.044,21.9,21.9,0,0,0-8.884-17.081,21.47,21.47,0,0,0-13.259-4.355c-.294,0-.594.005-.892.015a22.192,22.192,0,0,0-20.953,21.367h-3.306a26.775,26.775,0,0,1,2.7-10.943A25.266,25.266,0,0,1-912.847,196a25.139,25.139,0,0,1,7.237-3.792,25.1,25.1,0,0,1,7.9-1.274,24.739,24.739,0,0,1,12.856,3.59,25.419,25.419,0,0,1,9.1,9.125,27.654,27.654,0,0,1,3.367,12.232Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-917.325,190.908a11.109,11.109,0,0,1-11.144,11.075h-.079A11.105,11.105,0,0,1-939.6,190.828v-.087a11.137,11.137,0,0,1,11.183-11.09h.039a11.135,11.135,0,0,1,11.056,11.213Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-877.923,190.185a11.06,11.06,0,0,1,11.075-11.047h.055a11.068,11.068,0,0,1,11.015,11.12v.047a11.034,11.034,0,0,1-11.039,11.028h-.095a11.041,11.041,0,0,1-11.012-11.07Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-846.97,215.912a2.256,2.256,0,0,1-.247-.013c-.336-.033-.7-.049-1.13-.049-.294,0-.594.007-.883.014l-.422.009a17.1,17.1,0,0,0-4.055-13.384,16.849,16.849,0,0,0-12.71-5.819,17.742,17.742,0,0,0-6.49,1.252l-2.217-2.6a18.143,18.143,0,0,1,8.609-2.049h.4a20.139,20.139,0,0,1,14.581,6.461,20.246,20.246,0,0,1,5.3,15.132C-846.292,215.818-846.493,215.912-846.97,215.912Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-948.751,215.758a22.239,22.239,0,0,1,1.814-11.006,20.475,20.475,0,0,1,7.63-8.439,19.524,19.524,0,0,1,10.631-3.047,18.028,18.028,0,0,1,8.709,2.11l-2.188,2.583a19.231,19.231,0,0,0-6.762-1.319,16.053,16.053,0,0,0-9.969,3.548c-4.9,3.783-7.074,9.02-6.459,15.569Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path></g></svg>
+                           </div>
+                        </div>
+                        <div className='col-sm-4'>
+                           <div className='solutionbox wow fadeInUp delay-0-2s animated animateUP'>
+                              <h4>People</h4>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="102.657" height="44.324" viewBox="0 0 102.657 44.324"><g transform="translate(-1560.343 -2464.75)"><path d="M-897.81,201.72a15.064,15.064,0,0,1-15.036-15.05,15.086,15.086,0,0,1,15.089-15.082h.211a15.092,15.092,0,0,1,14.89,15.206A15.045,15.045,0,0,1-897.81,201.72Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-873.864,215.879c-.619,0-1.088,0-1.522-.005a2.744,2.744,0,0,1-.394-.044,21.9,21.9,0,0,0-8.884-17.081,21.47,21.47,0,0,0-13.259-4.355c-.294,0-.594.005-.892.015a22.192,22.192,0,0,0-20.953,21.367h-3.306a26.775,26.775,0,0,1,2.7-10.943A25.266,25.266,0,0,1-912.847,196a25.139,25.139,0,0,1,7.237-3.792,25.1,25.1,0,0,1,7.9-1.274,24.739,24.739,0,0,1,12.856,3.59,25.419,25.419,0,0,1,9.1,9.125,27.654,27.654,0,0,1,3.367,12.232Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-917.325,190.908a11.109,11.109,0,0,1-11.144,11.075h-.079A11.105,11.105,0,0,1-939.6,190.828v-.087a11.137,11.137,0,0,1,11.183-11.09h.039a11.135,11.135,0,0,1,11.056,11.213Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-877.923,190.185a11.06,11.06,0,0,1,11.075-11.047h.055a11.068,11.068,0,0,1,11.015,11.12v.047a11.034,11.034,0,0,1-11.039,11.028h-.095a11.041,11.041,0,0,1-11.012-11.07Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-846.97,215.912a2.256,2.256,0,0,1-.247-.013c-.336-.033-.7-.049-1.13-.049-.294,0-.594.007-.883.014l-.422.009a17.1,17.1,0,0,0-4.055-13.384,16.849,16.849,0,0,0-12.71-5.819,17.742,17.742,0,0,0-6.49,1.252l-2.217-2.6a18.143,18.143,0,0,1,8.609-2.049h.4a20.139,20.139,0,0,1,14.581,6.461,20.246,20.246,0,0,1,5.3,15.132C-846.292,215.818-846.493,215.912-846.97,215.912Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-948.751,215.758a22.239,22.239,0,0,1,1.814-11.006,20.475,20.475,0,0,1,7.63-8.439,19.524,19.524,0,0,1,10.631-3.047,18.028,18.028,0,0,1,8.709,2.11l-2.188,2.583a19.231,19.231,0,0,0-6.762-1.319,16.053,16.053,0,0,0-9.969,3.548c-4.9,3.783-7.074,9.02-6.459,15.569Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path></g></svg>
+                           </div>
+                        </div>
+                        <div className='col-sm-4'>
+                           <div className='solutionbox wow fadeInUp delay-0-2s animated animateUP'>
+                              <h4>People</h4>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="102.657" height="44.324" viewBox="0 0 102.657 44.324"><g transform="translate(-1560.343 -2464.75)"><path d="M-897.81,201.72a15.064,15.064,0,0,1-15.036-15.05,15.086,15.086,0,0,1,15.089-15.082h.211a15.092,15.092,0,0,1,14.89,15.206A15.045,15.045,0,0,1-897.81,201.72Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-873.864,215.879c-.619,0-1.088,0-1.522-.005a2.744,2.744,0,0,1-.394-.044,21.9,21.9,0,0,0-8.884-17.081,21.47,21.47,0,0,0-13.259-4.355c-.294,0-.594.005-.892.015a22.192,22.192,0,0,0-20.953,21.367h-3.306a26.775,26.775,0,0,1,2.7-10.943A25.266,25.266,0,0,1-912.847,196a25.139,25.139,0,0,1,7.237-3.792,25.1,25.1,0,0,1,7.9-1.274,24.739,24.739,0,0,1,12.856,3.59,25.419,25.419,0,0,1,9.1,9.125,27.654,27.654,0,0,1,3.367,12.232Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-917.325,190.908a11.109,11.109,0,0,1-11.144,11.075h-.079A11.105,11.105,0,0,1-939.6,190.828v-.087a11.137,11.137,0,0,1,11.183-11.09h.039a11.135,11.135,0,0,1,11.056,11.213Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-877.923,190.185a11.06,11.06,0,0,1,11.075-11.047h.055a11.068,11.068,0,0,1,11.015,11.12v.047a11.034,11.034,0,0,1-11.039,11.028h-.095a11.041,11.041,0,0,1-11.012-11.07Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-846.97,215.912a2.256,2.256,0,0,1-.247-.013c-.336-.033-.7-.049-1.13-.049-.294,0-.594.007-.883.014l-.422.009a17.1,17.1,0,0,0-4.055-13.384,16.849,16.849,0,0,0-12.71-5.819,17.742,17.742,0,0,0-6.49,1.252l-2.217-2.6a18.143,18.143,0,0,1,8.609-2.049h.4a20.139,20.139,0,0,1,14.581,6.461,20.246,20.246,0,0,1,5.3,15.132C-846.292,215.818-846.493,215.912-846.97,215.912Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-948.751,215.758a22.239,22.239,0,0,1,1.814-11.006,20.475,20.475,0,0,1,7.63-8.439,19.524,19.524,0,0,1,10.631-3.047,18.028,18.028,0,0,1,8.709,2.11l-2.188,2.583a19.231,19.231,0,0,0-6.762-1.319,16.053,16.053,0,0,0-9.969,3.548c-4.9,3.783-7.074,9.02-6.459,15.569Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path></g></svg>
+                           </div>
+                        </div>
+                        <div className='col-sm-4'>
+                           <div className='solutionbox wow fadeInUp delay-0-2s animated animateUP'>
+                              <h4>People</h4>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="102.657" height="44.324" viewBox="0 0 102.657 44.324"><g transform="translate(-1560.343 -2464.75)"><path d="M-897.81,201.72a15.064,15.064,0,0,1-15.036-15.05,15.086,15.086,0,0,1,15.089-15.082h.211a15.092,15.092,0,0,1,14.89,15.206A15.045,15.045,0,0,1-897.81,201.72Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-873.864,215.879c-.619,0-1.088,0-1.522-.005a2.744,2.744,0,0,1-.394-.044,21.9,21.9,0,0,0-8.884-17.081,21.47,21.47,0,0,0-13.259-4.355c-.294,0-.594.005-.892.015a22.192,22.192,0,0,0-20.953,21.367h-3.306a26.775,26.775,0,0,1,2.7-10.943A25.266,25.266,0,0,1-912.847,196a25.139,25.139,0,0,1,7.237-3.792,25.1,25.1,0,0,1,7.9-1.274,24.739,24.739,0,0,1,12.856,3.59,25.419,25.419,0,0,1,9.1,9.125,27.654,27.654,0,0,1,3.367,12.232Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-917.325,190.908a11.109,11.109,0,0,1-11.144,11.075h-.079A11.105,11.105,0,0,1-939.6,190.828v-.087a11.137,11.137,0,0,1,11.183-11.09h.039a11.135,11.135,0,0,1,11.056,11.213Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-877.923,190.185a11.06,11.06,0,0,1,11.075-11.047h.055a11.068,11.068,0,0,1,11.015,11.12v.047a11.034,11.034,0,0,1-11.039,11.028h-.095a11.041,11.041,0,0,1-11.012-11.07Z" transform="translate(2509.184 2293.162)" fill="#f4961e"></path><path d="M-846.97,215.912a2.256,2.256,0,0,1-.247-.013c-.336-.033-.7-.049-1.13-.049-.294,0-.594.007-.883.014l-.422.009a17.1,17.1,0,0,0-4.055-13.384,16.849,16.849,0,0,0-12.71-5.819,17.742,17.742,0,0,0-6.49,1.252l-2.217-2.6a18.143,18.143,0,0,1,8.609-2.049h.4a20.139,20.139,0,0,1,14.581,6.461,20.246,20.246,0,0,1,5.3,15.132C-846.292,215.818-846.493,215.912-846.97,215.912Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path><path d="M-948.751,215.758a22.239,22.239,0,0,1,1.814-11.006,20.475,20.475,0,0,1,7.63-8.439,19.524,19.524,0,0,1,10.631-3.047,18.028,18.028,0,0,1,8.709,2.11l-2.188,2.583a19.231,19.231,0,0,0-6.762-1.319,16.053,16.053,0,0,0-9.969,3.548c-4.9,3.783-7.074,9.02-6.459,15.569Z" transform="translate(2509.184 2293.162)" fill="#166232" class=""></path></g></svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div className='clearfix'></div>
+               <div className='solutionarrowbox1'>
+                  <img src="/assets/img/homeb/orangearrow.png" />
+               </div>
+               <div className='solutionarrowbox2'>
+                  <img src="/assets/img/homeb/bluearrow1.png" />
+               </div>
+
+            </div>
+         </section>
+
+         <section className='ptt-60 pbb-50'>
+            <div className='container'>
+               <div className='row'>
+                  <div className='col-sm-6'>
+                     <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">New-age solutions backed by a century-long legacy</h2>
+                     <p class="mb-0 mtt-40 pall pbb-20 wow fadeInUp delay-0-2s animated animateUP">As a one-stop destination for building extraordinary talent, we create sustainable growth for individuals and organizations by empowering them through our expertise in learning and people solutions.</p>
+                     <div className="btn-part ptt-10 pbb-30">
+                        <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                     </div>
+                  </div>
+                  <div className='col-sm-6'>
+
+                  </div>
+               </div>
+            </div>
          </section>
 
          <div className="rs-services style8 dnone767px">
@@ -1068,7 +1239,7 @@ export default function Home() {
             </div>
          </section>
 
-         <div id='popuphidec' class='popup wow fadeInUp delay-0-2s animated animateUP'>
+         {/* <div id='popuphidec' class='popup wow fadeInUp delay-0-2s animated animateUP'>
             <div class='cnt223'>
                <a href='' class='close popupclose'>X</a>
                <div className='popupinner'>
@@ -1099,7 +1270,7 @@ export default function Home() {
                   </div>
                </div>
             </div>
-         </div>
+         </div> */}
 
 
 

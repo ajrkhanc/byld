@@ -152,6 +152,20 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar March 17th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
+                                <h3>Agile EQ Virtual Course Preview</h3>                                
+                                <a className="eventbtn" target="_blank" href='/everythingdisc/everything-disc-agile-eq-webinar'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
                                 <span>Webinar - Friday, April 14th, 2023</span>
                             </div>
                             <div className='eventbottom'>
@@ -239,6 +253,7 @@ export default function WebinarsAndProgramExperience(){
                                                 {/* <option value="The Five Behaviors®️ Personal Development – February 3rd, 2023">The Five Behaviors®️ Personal Development – February 3rd, 2023</option> */}
                                                 <option value="The Power of Habit – February 15th, 2023">The Power of Habit – February 15th, 2023</option>
                                                 <option value="The Five Behaviors®️ Team Development – February 17th, 2023">The Five Behaviors®️ Team Development – February 17th, 2023</option>
+                                                <option value="Agile EQ  Virtual Course Preview – Friday, March 17th, 2023">Agile EQ  Virtual Course Preview – Friday, March 17th, 2023</option>
                                                 <option value="Virtual Training Apollo3 – Friday, April 14th, 2023">Virtual Training Apollo3 – Friday, April 14th, 2023</option>
                                                 <option value="Harnessing Creative Intelligence – Friday, April 14th, 2023">Harnessing Creative Intelligence – Friday, April 14th, 2023</option>
                                                 {/* <option value="8th March 2023 - Eagle’s Flight Executive Briefing">8th March 2023 - Eagle’s Flight Executive Briefing</option> */}
