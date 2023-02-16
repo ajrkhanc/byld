@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Slider from "react-slick";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-
+import CountUp from 'react-countup';
 
 
 
@@ -184,7 +184,7 @@ export default function Home() {
                }}
             />
          </Head>
-         
+         <script src='https://unpkg.com/react-visibility-sensor@5.0.1/dist/visibility-sensor.min.js'></script>
          <section className='bannersection'>
             <Slider {...homeslider}>
                <div className='slide1c'>
@@ -254,7 +254,7 @@ export default function Home() {
                </div>
             </Slider>
          </section>
-         
+
          <section className='ptt-50 pbb-60'>
             <div className='container'>
                <div className='row'>
@@ -271,7 +271,7 @@ export default function Home() {
                </div>
             </div>
          </section>
- 
+
          <section className='ptt-0 pbb-60'>
             <div className='container'>
                <div className='row'>
@@ -369,7 +369,24 @@ export default function Home() {
                      </div>
                   </div>
                   <div className='col-sm-6'>
-
+                     <div className='mycounter'>
+                        <div className='counterbox countb1'>
+                           <span className="rs-count">500,000 +</span>
+                           <h3>PEOPLE TRAINED</h3>
+                        </div>
+                        <div className='counterbox countb2'>
+                           <span className="rs-count">1,000 +</span>
+                           <h3>YEARS OF ACCUMULATED CONSULTING EXPERIENCE</h3>
+                        </div>
+                        <div className='counterbox countb3'>
+                           <span className="rs-count">10 +</span>
+                           <h3>GLOBAL PARTNERSHIPS</h3>
+                        </div>
+                        <div className='counterbox countb4'>
+                           <span className="rs-count">100,000 +</span>
+                           <h3>ACCESS TO PROFILES</h3>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
