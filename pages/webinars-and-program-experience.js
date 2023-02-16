@@ -252,7 +252,7 @@ export default function WebinarsAndProgramExperience(){
                                                 {/* <option value="Lumina Spark – January 20th, 2023">Lumina Spark – January 20th, 2023</option> */}
                                                 {/* <option value="The Five Behaviors®️ Personal Development – February 3rd, 2023">The Five Behaviors®️ Personal Development – February 3rd, 2023</option> */}
                                                 <option value="The Power of Habit – February 15th, 2023">The Power of Habit – February 15th, 2023</option>
-                                                <option value="The Five Behaviors®️ Team Development – February 17th, 2023">The Five Behaviors®️ Team Development – February 17th, 2023</option>
+                                               <option value="The Five Behaviors®️ Team Development – February 17th, 2023">The Five Behaviors®️ Team Development – February 17th, 2023</option>
                                                 <option value="Agile EQ  Virtual Course Preview – Friday, March 17th, 2023">Agile EQ  Virtual Course Preview – Friday, March 17th, 2023</option>
                                                 <option value="Virtual Training Apollo3 – Friday, April 14th, 2023">Virtual Training Apollo3 – Friday, April 14th, 2023</option>
                                                 <option value="Harnessing Creative Intelligence – Friday, April 14th, 2023">Harnessing Creative Intelligence – Friday, April 14th, 2023</option>
