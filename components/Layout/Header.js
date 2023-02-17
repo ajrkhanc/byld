@@ -129,6 +129,9 @@ export default function Header() {
                                                                 <li className=''><a target="_blank" href="https://www.yomatechnologies.in/">YOMA Technologies</a></li>
                                                             </ul>
                                                         </li>
+                                                        <li className="last-item menu-item-has-children">
+                                <a href="/cp">Consulting Practice</a>
+                                </li>
 
                                                         
                                                     </ul>
@@ -317,6 +320,9 @@ export default function Header() {
                                         <li><a target="_blank" href="https://www.yomabusinesssolutions.com/">YOMA Business Solutions</a> </li>
                                         <li className=''><a target="_blank" href="https://www.yomatechnologies.in/">YOMA Technologies</a></li>
                                     </ul>
+                                </li>
+                                <li className="last-item menu-item-has-children">
+                                <a href="/cp">Consulting Practice</a>
                                 </li>
 
                                 
