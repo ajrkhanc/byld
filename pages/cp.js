@@ -48,7 +48,7 @@ export default function JoinOurPartnerNetworkLP() {
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/75/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/79/feedback');
         xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
@@ -68,8 +68,10 @@ export default function JoinOurPartnerNetworkLP() {
         xhttp.send("fname=" + event.target.fname.value +
             "&email=" + event.target.email.value +
             "&phone=" + event.target.phone.value +
-            "&Occupation=" + event.target.occupation.value +
-            "&wheredidyoucome=" + event.target.howdidyouknowaboutus.value)
+            "&company=" + event.target.company.value +
+            "&designation=" + event.target.designation.value +
+            "&howdidyouknowaboutus=" + event.target.howdidyouknowaboutus.value +
+            "&leadsquared_Notes=" + event.target.leadsquared_Notes.value)
 
     }
 
@@ -170,9 +172,6 @@ export default function JoinOurPartnerNetworkLP() {
                                             <div className="col-lg-12 mb-12">
                                                 <input type="text" name="designation" placeholder="Designation*" required />
                                             </div>
-
-
-
                                             <div className="col-lg-12 mb-12">
                                                 <select name="howdidyouknowaboutus" required>
                                                     <option value="">Referred By</option>
