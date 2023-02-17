@@ -133,7 +133,6 @@ export default function JoinOurPartnerNetworkLP() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
