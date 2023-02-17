@@ -54,7 +54,7 @@ export default function Footer() {
                     </div> */}
                     <div className="footer-top">
                         <div className="container-fluid">
-                            <div className="row">
+                            <div className="row wow fadeInUp delay-0-2s animated animateUP">
                                 <div className="col-md-2 col-sm-6 md-mb-10 pl-55 md-pl-15">
                                     <h3 className="footer-title">Quick Links</h3>
                                     <ul className="site-map">
@@ -128,12 +128,12 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="footer-bottom">
+                    <div className="footer-bottom wow fadeInUp delay-0-2s animated animateUP">
                         <div className="container">
                             <div className="row y-middle">
                                 <div className="col-lg-12">
                                     <div className="copyright text-lg-start text-center ">
-                                        <p className='text-center'>© 2022 BYLD Group. All Rights Reserved.</p>
+                                        <p className='text-center'>© 2023 BYLD Group. All Rights Reserved.</p>
                                     </div>
                                 </div>
                             </div>
