@@ -109,7 +109,7 @@ export default function JoinOurPartnerNetworkLP() {
                                 <div class="heading-border-line center-style"></div>
                             </div>
                         </div>
-
+                        <div className='col-sm-2'></div>
                         <div className='col-sm-4'>
                             <div className='teamf'>
                                 <div className='teamimgc'>
