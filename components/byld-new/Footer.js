@@ -33,7 +33,7 @@ export default function Footer() {
     
   return (
     <>
-    <footer id="rs-footer" className="rs-footer style1">
+    <footer id="rs-footer" className="rs-footer style1 byldfooter">
             <div className="footer-top">
                 <div className="container-fluid">
                     <div className="row">
