@@ -134,18 +134,6 @@ export default function JoinOurPartnerNetworkLP() {
                             </div>
                         </div>
 
-                        <div className='col-sm-4'>
-                            <div className='teamf'>
-                                <div className='teamimgc'>
-                                    <img src="/assets/img/team/dm.jpg" alt="image" />
-                                </div>
-                                <div className='teamfro'>
-                                    <h3>Nagesh Divakaruni</h3>
-                                    <h4>Principal Advisor - Pharma, FMCG, Chemicals and Ecommerce</h4>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </section>

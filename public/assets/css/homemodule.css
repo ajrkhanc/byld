@@ -240,7 +240,11 @@
 }
 
 .counterbox{
-    padding: 30px 50px 30px 50px;    
+    padding: 30px 20px 10px 20px;
+    width: 50%;
+    float: left;
+    min-height: 210px;
+
 }
 
 .countb1{    
@@ -262,35 +266,53 @@
     border-style: solid;
     border-width: 0px 1px 1px 1px;
     border-color: #D1CABF;
+    background: url(/assets/img/homeb/lines-bg.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .countb4{    
     border-style: solid;
-    border-width: 0px 1px 1px 1px;
-    border-color: #D1CABF;
+    border-width: 1px 1px 1px 1px;
+    border-color: #D1CABF;    
+    background: #e88027;
 }
 .counterbox .rs-count{
-    font-size: 80px;
+    font-size: 44px;
     color: #e88027;
     font-weight: 600;
 }
 
 .countb1 .rs-count{
-    font-size: 80px;
+    font-size: 44px;
     color: #fff !important;
     font-weight: 600;
 }
 
+.countb4 .rs-count{
+    font-size: 44px;
+    color: #fff !important;
+    font-weight: 600;
+}
 
 .counterbox h3{
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 500;
     color: #000;
 }
 
 .countb1 h3{
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 500;
     color: #fff;
 }
+.countb4 h3{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+
+ 

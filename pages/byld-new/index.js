@@ -5,10 +5,24 @@ import Slider from "react-slick";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import CountUp from 'react-countup';
+import React from 'react';
+
 
 
 
 export default function Home() {
+
+   
+
+
+if (typeof window !== "undefined") {
+   const el = document.querySelector(".mst")
+const observer = new IntersectionObserver( 
+  ([e]) => e.target.classList.toggle("is-pinned", e.intersectionRatio < 1),
+  { threshold: [1] }
+);
+observer.observe(el);
+ }
 
    const PopupRegisterd = async event => {
       event.preventDefault()
@@ -358,17 +372,19 @@ export default function Home() {
             </div>
          </section>
 
-         <section className='ptt-60 pbb-50'>
+         <section className='ptt-60 pbb-50 ccl'>
             <div className='container'>
                <div className='row'>
-                  <div className='col-sm-6'>
-                     <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">New-age solutions backed by a century-long legacy</h2>
-                     <p class="mb-0 mtt-40 pall pbb-20 wow fadeInUp delay-0-2s animated animateUP">As a one-stop destination for building extraordinary talent, we create sustainable growth for individuals and organizations by empowering them through our expertise in learning and people solutions.</p>
-                     <div className="btn-part ptt-10 pbb-30">
-                        <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                  <div className='col-sm-4'>
+                     <div className='mst'>
+                        <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">New-age solutions backed by a century-long legacy</h2>
+                        <p class="mb-0 mtt-40 pall pbb-20 wow fadeInUp delay-0-2s animated animateUP">As a one-stop destination for building extraordinary talent, we create sustainable growth for individuals and organizations by empowering them through our expertise in learning and people solutions.</p>
+                        <div className="btn-part ptt-10 pbb-30">
+                           <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
+                        </div>
                      </div>
                   </div>
-                  <div className='col-sm-6'>
+                  <div className='col-sm-8'>
                      <div className='mycounter'>
                         <div className='counterbox countb1'>
                            <span className="rs-count">500,000 +</span>
