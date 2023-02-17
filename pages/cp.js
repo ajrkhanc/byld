@@ -117,7 +117,7 @@ export default function JoinOurPartnerNetworkLP() {
                                 </div>
                                 <div className='teamfro'>
                                     <h3>Amarvijayy Taandur</h3>
-                                    <h4>Principal Advisor - Service Industry</h4>
+                                    <h4>Principal Advisor - Civil, Infra, Heavy Engineering, Power and Automotive</h4>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ export default function JoinOurPartnerNetworkLP() {
                                 </div>
                                 <div className='teamfro'>
                                     <h3>Ronald Soans</h3>
-                                    <h4>Service Industry</h4>
+                                    <h4>Principal Advisor - IT, ITES, Consulting and BFSI</h4>
                                 </div>
                             </div>
                         </div>

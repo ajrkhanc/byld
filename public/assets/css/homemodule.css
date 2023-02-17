@@ -226,7 +226,20 @@
     overflow: hidden;
     min-height: 160px;
 }
-.solutionbox h4{margin: 0px; padding-right: 30px;}
+.solutionbox h4{
+    margin: 0px;
+    padding-right: 30px;
+    font-weight: 500;
+    color: #000;
+}
+.solutionbox h4 span{
+    color: #e88027;
+}
+
+.cicon img{ width: 60px;}
+.cicon .hover{
+    display: none;
+}
 .solutionarrowbox1{
     position: absolute;
     bottom: 0px;
@@ -365,6 +378,73 @@
 
 
 /* footer */
-.byldfooter{}
+.byldfooter{
+    background: #3474af !important;
+}
+.byldfooter .footer-title:after {
+    background: #ffffff !important;
+}
+.byldfooter .footer-title {
+    text-transform: none !important;
+    font-size: 25px !important;
+    letter-spacing: 1px !important;
+}
+
+.fsub .subscribe-form {
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.fsub .subscribe-form input{
+    width: 100%;
+    background: #f5f5f5;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 20px 25px;
+    height: 65px;
+}
+
+.fsub .subscribe-form .readon2 {
+    position: absolute;
+    content: '';
+    padding-right: 25px;
+    padding-left: 25px;
+    right: 7px;
+    top: 7px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.fsub .pattern {
+    position: absolute;
+    content: '';
+}
+.fsub .pattern.img1 {
+    bottom: 0;
+    left: 50px;
+}
+.fsub .pattern.img2 {
+    top: 0;
+    right: 50px;
+}
+
+.fsub .footer-newsletter.fly-up {
+    position: absolute;
+    content: '';
+    top: -185.5px;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+}
+.fsub .footer-newsletter {
+    background: #ffffff;
+    border-radius: 0 70px 0 0;
+    padding: 78px 0 90px;
+    box-shadow: 0 6px 30px 0 rgb(0 0 0 / 8%);
+    position: relative;
+}
 
  
