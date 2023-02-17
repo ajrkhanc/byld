@@ -459,5 +459,11 @@
     box-shadow: 0 6px 30px 0 rgb(0 0 0 / 8%);
     position: relative;
 }
+.byldfooter .site-map li a:hover{ color: #000 !important;}
+.byldfooter .address-widget li a:hover{ color: #000 !important;}
+
+.byldfooter .site-map li a{font-size: 17px !important;}
+.byldfooter .address-widget li a{font-size: 17px !important;}
+
 
  
