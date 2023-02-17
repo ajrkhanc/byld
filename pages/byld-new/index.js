@@ -280,7 +280,7 @@ export default function Home() {
                            <div className='siderco wow fadeInUp delay-0-2s animated animateUP'>
                               <h1>Paving way for global recognition</h1>
                               <p>
-                                 Our exclusive partnership with Dale Carnegie enables you to learn from the best trainers.
+                                 Our exclusive partnership with enables you to learn from the best trainers.
                               </p>
                               <div className="btn-part ptt-10 pbb-30">
                                  <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
@@ -333,11 +333,11 @@ export default function Home() {
             <div className='container'>
                <div className='row'>
                   <div className='col-sm-3'>
-                     <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">BYLD<br></br>Solutions</h2>
+                     <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">OUR<br></br>SOLUTIONS</h2>
                   </div>
                   <div className='col-sm-9'>
                      <p class="mb-0 pall pbb-20 wow fadeInUp delay-0-2s animated animateUP">
-                        BYLD Plus is an initiative of BYLD PeopleFirst Limited – a 100-year legacy in an exclusive partnership with Dale Carnegie Training, the global leader in behavioral skills. At BYLD Plus, over the years, the mission has expanded from essential and behavioral skills for the corporate sector to HR consultancy and Skilling for employability, entrepreneurship, and empowerment.
+                        BYLD Plus is an initiative of BYLD PeopleFirst Limited – a 100-year legacy in an exclusive partnership with Training, the global leader in behavioral skills. At BYLD Plus, over the years, the mission has expanded from essential and behavioral skills for the corporate sector to HR consultancy and Skilling for employability, entrepreneurship, and empowerment.
                      </p>
                   </div>
                </div>
@@ -518,14 +518,20 @@ export default function Home() {
          </section>
 
          <section>
+            <div className='container'>
+               <div className='row'>
+                  <div className='col-sm-12 text-center'>
+                  <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Partnership with a global leader</h2>
+                  </div>
+               </div>
+            </div>
             <img className='wow fadeInUp delay-0-2s animated animateUP' src='/assets/img/homeb/handb.jpg' />
             <div className='container'>
                <div className='row'>
                   <div className='col-sm-2'></div>
-                  <div className='col-sm-8 text-center'>
-                     <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Partnership with a global leader</h2>
+                  <div className='col-sm-8 text-center'>                    
                      <p class="mb-0 pall pbb-20 ptt-10 wow fadeInUp delay-0-2s animated animateUP text-center">
-                        Our vision remains true to Dale Carnegie’s original dream; to impact as many lives as possible through transformational and self-improvement experiences, that only we offer. At BYLD Plus, we would like to be a strategic partner for the government in its skilling mission. Our goal is to make Dale Carnegie a brand of choice for corporations and individuals for their training and talent development needs
+                        Our vision remains true to original dream; to impact as many lives as possible through transformational and self-improvement experiences, that only we offer. At BYLD Plus, we would like to be a strategic partner for the government in its skilling mission. Our goal is to make a brand of choice for corporations and individuals for their training and talent development needs
                      </p>
                      <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
                         <Link href="#"><a className="readon2">Learn More <div className="btn-arrow"></div></a></Link>
@@ -579,22 +585,22 @@ export default function Home() {
                            <form id="contact-form" className='clientcornner ptt-40 pbb-20' onSubmit={registerUser}>
                               <div className="row">
                                  <div className="col-sm-6 mb-12">
-                                    <input type="text" name="name" placeholder="Enter Name*" required />
+                                    <input className='borrr' type="text" name="name" placeholder="Enter Name*" required />
                                  </div>
                                  <div className="col-sm-6 mb-12">
-                                    <input type="email" name="email" placeholder="Enter Email*" required />
+                                    <input className='borrr' type="email" name="email" placeholder="Enter Email*" required />
                                  </div>
                                  <div className="col-sm-6 mb-12">
-                                    <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                    <input className='borrr' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                  </div>
                                  <div className="col-sm-6 mb-12">
-                                    <input type="text" name="Location" placeholder="Location" />
+                                    <input className='borrr' type="text" name="Location" placeholder="Location" />
                                  </div>
                                  <div className="col-sm-6 mb-12">
-                                    <input type="text" name="organization" placeholder="Organization*" required />
+                                    <input className='borrr' type="text" name="organization" placeholder="Organization*" required />
                                  </div>
                                  <div className="col-sm-6 mb-12">
-                                    <input type="text" name="designation" placeholder="Designation*" required />
+                                    <input className='borrr' type="text" name="designation" placeholder="Designation*" required />
                                  </div>
                                  <div className="col-sm-6 mb-12">
                                     <select name="product" required>
@@ -621,7 +627,7 @@ export default function Home() {
                                     <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
                                  </div>
                                  <div className="col-lg-12 mb-12">
-                                    <input id="submitbuttonform" className="clientcornnerbtn" type="submit" value="Submit" />
+                                    <input id="submitbuttonform" className="clientcornnerbtn bord0" type="submit" value="Submit" />
                                  </div>
                                  <p id="showlabel" style={{ display: "none" }}></p>
                               </div>
