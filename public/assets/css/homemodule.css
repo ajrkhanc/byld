@@ -282,7 +282,7 @@
 }
 .countb2{    
     border-style: solid;
-    border-width: 0px 1px 1px 1px;
+    border-width: 1px 1px 1px 1px;
     border-color: #D1CABF;
     background: url(/assets/img/homeb/lines-bg.svg);
     background-position: top center;
