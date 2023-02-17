@@ -374,7 +374,7 @@ export default function Home() {
                         </div>
                         <div className='col-sm-4'>
                            <div className='solutionbox wow fadeInUp delay-0-2s animated animateUP'>
-                              <h4>BeSpoke</h4>
+                              <h4><span>B</span>eSpoke</h4>
                               <div className='cicon'>
                                  <img className='active' src="/assets/img/homeb/icon/bespoke.png" alt="images" />
                                  <img className='hover' src="/assets/img/homeb/icon/bespokew.png" alt="images" />
@@ -383,7 +383,7 @@ export default function Home() {
                         </div>
                         <div className='col-sm-4'>
                            <div className='solutionbox wow fadeInUp delay-0-2s animated animateUP'>
-                              <h4>Coaching</h4>
+                              <h4><span>C</span>oaching</h4>
                               <div className='cicon'>
                                  <img className='active' src="/assets/img/homeb/icon/coaching.png" alt="images" />
                                  <img className='hover' src="/assets/img/homeb/icon/coachingw.png" alt="images" />
@@ -392,7 +392,7 @@ export default function Home() {
                         </div>
                         <div className='col-sm-4'>
                            <div className='solutionbox wow fadeInUp delay-0-2s animated animateUP'>
-                              <h4>Staffing & Search</h4>
+                              <h4><span>S</span>taffing & Search</h4>
                               <div className='cicon'>
                                  <img className='active' src="/assets/img/homeb/icon/staffing-search.png" alt="images" />
                                  <img className='hover' src="/assets/img/homeb/icon/staffing-searchw.png" alt="images" />
@@ -518,7 +518,7 @@ export default function Home() {
          </section>
 
          <section>
-            <img src='/assets/img/homeb/handb.jpg' />
+            <img className='wow fadeInUp delay-0-2s animated animateUP' src='/assets/img/homeb/handb.jpg' />
             <div className='container'>
                <div className='row'>
                   <div className='col-sm-2'></div>

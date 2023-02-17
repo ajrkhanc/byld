@@ -235,6 +235,17 @@
 .solutionbox h4 span{
     color: #e88027;
 }
+.solutionbox:hover{
+    background: #2a6db5;
+}
+.solutionbox:hover h4{ color: #fff;}
+.solutionbox:hover span{ color: #fff;}
+.solutionbox:hover .active{
+    display: none;
+}
+.solutionbox:hover .hover{
+    display: block;
+}
 
 .cicon img{ width: 60px;}
 .cicon .hover{
