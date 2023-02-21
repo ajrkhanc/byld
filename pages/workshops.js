@@ -88,7 +88,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>February 20th, 21st, 22nd, & 24th 2023</span>
+                                <span>March 21st, 22nd, 23rd and 24th 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>DISC Train-the-Trainer (TTT)</h3>
@@ -141,7 +141,7 @@ export default function Workshops(){
                                                 <option value="">Pick up any Slot*</option>                                                
                                                 {/* <option value="February 17th, 2023 - The Power of Habit">February 17th, 2023 - The Power of Habit</option> */}
                                                 <option value="February 22nd, 2023 - Building Trust - Virtual">February 22nd, 2023 - Building Trust - Virtual</option>
-                                                <option value="February 20th, 21st, 22nd, and 24th 2023 - DISC Train-the-Trainer (TTT)">February 20th, 21st, 22nd, & 24th 2023 - DISC Train-the-Trainer (TTT)</option>
+                                                <option value="March 21st, 22nd, 23rd and 24th 2023 - DISC Train-the-Trainer (TTT)">March 21st, 22nd, 23rd and 24th 2023 - DISC Train-the-Trainer (TTT)</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
