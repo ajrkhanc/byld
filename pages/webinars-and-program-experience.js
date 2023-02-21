@@ -43,7 +43,7 @@ export default function WebinarsAndProgramExperience(){
         <>
         <Head>
             <title>Webinars and Program Experience - BYLD Group</title>
-            <meta name="description" content="Batches till 20th April 2022 Crucial Life Changing Skills Batches till 20th April 2022 Reserve Your Seat Batches till 29th April 2022 Blanchard India Webinars Batches till 29th April 2022 Reserve Your Seat May 4th, 2022Trapologist at WorkTM Webinar 4th May 2022 Reserve Your Seat Webinar May 6th, 2022Five Behaviours Team Development Webinar 6th May… Continue reading Webinars and Program Experience"/> 
+            <meta name="description" content="Batches till 20th April 2022 Crucial Life Changing Skills Batches till 20th April 2022 Reserve Your Seat Batches till 29th April 2022 Blanchard India Webinars Batches till 29th April 2022 Reserve Your Seat May 4th, 2022Trapologist at WorkTM Webinar 4th May 2022 Reserve Your Seat Webinar May 6th, 2022Five Behaviours Team Development Webinar 6th May… Continue reading Webinars and Program Experience"/>
         </Head>
 
         <section className='ptt-20 pbb-20'>
@@ -55,13 +55,13 @@ export default function WebinarsAndProgramExperience(){
                         <div className="heading-border-line center-style"></div>
                     </div>
                     </div>
-                    <div className='clearfix'></div>                    
+                    <div className='clearfix'></div>
 
-                    
 
-                    
 
-                    
+
+
+
 
                     <div className='col-sm-4 d-none'>
                         <div className='eventsbox'>
@@ -76,7 +76,7 @@ export default function WebinarsAndProgramExperience(){
                         </div>
                     </div>
 
-                  
+
 
                     <div className='col-sm-4 d-none'>
                         <div className='eventsbox'>
@@ -100,7 +100,7 @@ export default function WebinarsAndProgramExperience(){
                             </div>
                             <div className='eventbottom'>
                             <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
-                                <h3>Lumina Spark</h3>                                
+                                <h3>Lumina Spark</h3>
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -114,13 +114,13 @@ export default function WebinarsAndProgramExperience(){
                             </div>
                             <div className='eventbottom'>
                             <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
-                                <h3>The Five Behaviors<sup>®️</sup> Personal Development</h3>                                
+                                <h3>The Five Behaviors<sup>®️</sup> Personal Development</h3>
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div> */}
 
-                    <div className='col-sm-4'>
+                    {/* <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
@@ -142,11 +142,11 @@ export default function WebinarsAndProgramExperience(){
                             </div>
                             <div className='eventbottom'>
                             <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
-                                <h3>The Five Behaviors<sup>®️</sup> Team Development</h3>                                
+                                <h3>The Five Behaviors<sup>®️</sup> Team Development</h3>
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
@@ -156,7 +156,7 @@ export default function WebinarsAndProgramExperience(){
                             </div>
                             <div className='eventbottom'>
                             <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
-                                <h3>Agile EQ Virtual Course Preview</h3>                                
+                                <h3>Agile EQ Virtual Course Preview</h3>
                                 <a className="eventbtn" target="_blank" href='/everythingdisc/everything-disc-agile-eq-webinar'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -170,7 +170,7 @@ export default function WebinarsAndProgramExperience(){
                             </div>
                             <div className='eventbottom'>
                             <h4 className="eventtitlec">Time: 11:00 AM -12:00 PM</h4>
-                                <h3>Virtual Training Apollo3</h3>                                
+                                <h3>Virtual Training Apollo3</h3>
                                 <a className="eventbtn" href='/jenson-8'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -184,7 +184,7 @@ export default function WebinarsAndProgramExperience(){
                             </div>
                             <div className='eventbottom'>
                             <h4 className="eventtitlec">Time: 11:00 AM -12:00 PM</h4>
-                                <h3>Harnessing Creative Intelligence</h3>                                
+                                <h3>Harnessing Creative Intelligence</h3>
                                 <a className="eventbtn" href='/tirian-lp'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -210,10 +210,10 @@ export default function WebinarsAndProgramExperience(){
         </section>
 
         <div id="Register" className="rs-testimonial style4 tirianformbg ptt-50 pbb-70">
-                <div className="container">                   
-                    <div className="row">                     
+                <div className="container">
+                    <div className="row">
                          <div className="clearfix"></div>
-                   
+
                          <div className='col-sm-2'></div>
                          <div className="col-sm-8">
                          <div className="bannerform tirianformshd">
@@ -222,9 +222,9 @@ export default function WebinarsAndProgramExperience(){
                                       <div className='col-sm-12'>
                                       <div className="sec-title3 mbb-35 text-center">
                                         <h4 className="countertoph2 text-center font30">Register Now</h4>
-                                        <div className="heading-border-line center-style"></div>                                       
+                                        <div className="heading-border-line center-style"></div>
                                     </div>
-                                      
+
                                       </div>
                                         <div className="col-sm-6 mb-12">
                                             <input type="text" name="name" placeholder="Your Name*" required />
@@ -234,7 +234,7 @@ export default function WebinarsAndProgramExperience(){
                                         </div>
                                         <div className="col-sm-6 mb-12">
                                             <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
-                                        </div> 
+                                        </div>
                                         <div className="col-sm-6 mb-12">
                                             <input type="text" name="organization" placeholder="Organization*" required />
                                         </div>
@@ -246,13 +246,13 @@ export default function WebinarsAndProgramExperience(){
                                         </div>
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
-                                                <option value="">Pick up any Slot*</option>                                                
+                                                <option value="">Pick up any Slot*</option>
                                                 {/* <option value="6th January 2023 - Everything DiSC Work of Leaders Webinar">6th January 2023 - Everything DiSC Work of Leaders Webinar</option> */}
-                                                
+
                                                 {/* <option value="Lumina Spark – January 20th, 2023">Lumina Spark – January 20th, 2023</option> */}
                                                 {/* <option value="The Five Behaviors®️ Personal Development – February 3rd, 2023">The Five Behaviors®️ Personal Development – February 3rd, 2023</option> */}
-                                                <option value="The Power of Habit – February 15th, 2023">The Power of Habit – February 15th, 2023</option>
-                                               <option value="The Five Behaviors®️ Team Development – February 17th, 2023">The Five Behaviors®️ Team Development – February 17th, 2023</option>
+                                                {/* <option value="The Power of Habit – February 15th, 2023">The Power of Habit – February 15th, 2023</option>
+                                               <option value="The Five Behaviors®️ Team Development – February 17th, 2023">The Five Behaviors®️ Team Development – February 17th, 2023</option> */}
                                                 <option value="Agile EQ  Virtual Course Preview – Friday, March 17th, 2023">Agile EQ  Virtual Course Preview – Friday, March 17th, 2023</option>
                                                 <option value="Virtual Training Apollo3 – Friday, April 14th, 2023">Virtual Training Apollo3 – Friday, April 14th, 2023</option>
                                                 <option value="Harnessing Creative Intelligence – Friday, April 14th, 2023">Harnessing Creative Intelligence – Friday, April 14th, 2023</option>
@@ -261,15 +261,15 @@ export default function WebinarsAndProgramExperience(){
                                         </div>
                                         <div className="col-sm-6 mb-12">
                                             <select name="referredby" required>
-                                                <option value="">Referred By*</option>                                                
+                                                <option value="">Referred By*</option>
                                                 <option value="Social Media">Social Media</option>
-                                                <option value="Google Search">Google Search</option>                                                
-                                                <option value="Reference">Reference</option>                                                
+                                                <option value="Google Search">Google Search</option>
+                                                <option value="Reference">Reference</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12 d-none">
-                                            <select name="leadsquared_mx_Business_Entity" required>                                                                                  
-                                                <option value="BYLD Group">BYLD Group</option>                                         
+                                            <select name="leadsquared_mx_Business_Entity" required>
+                                                <option value="BYLD Group">BYLD Group</option>
                                             </select>
                                         </div>
                                         <div className="col-lg-12 mb-12">
@@ -279,13 +279,13 @@ export default function WebinarsAndProgramExperience(){
                                         <input id="submitbuttonform" className="clientcornnerbtn width150" type="submit" value="Get in Touch"/>
                                         </div>
                                         <p id="showlabel" style={{ display: "none" }}></p>
-                                    </div>                                                                         
-                            </form>                                  
+                                    </div>
+                            </form>
                             </div>
                          </div>
 
                          <div className='col-sm-2'></div>
-                         
+
                     </div>
                 </div>
             </div>
