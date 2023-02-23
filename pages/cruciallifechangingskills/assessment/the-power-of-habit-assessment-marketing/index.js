@@ -33,7 +33,7 @@ export default function BrowseCourses() {
 
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'https://coral-app-2-a333o.ondigitalocean.app/api/the-power-of-habit-assessment');
+        xhr.open('POST', 'https://clblogs-zavr.onrender.com/api/the-power-of-habit-assessment');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send('q1=' + q1 +
             '&q2=' + q2 +

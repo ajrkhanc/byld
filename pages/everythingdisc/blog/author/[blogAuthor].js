@@ -2,15 +2,15 @@ import Head from 'next/head'
 import  moment from 'moment'
 
 export async function getServerSideProps(context) {    
-    const post5 = await fetch('https://sea-turtle-app-g9q6j.ondigitalocean.app/api/posts')
+    const post5 = await fetch('https://everythingdiscblog.onrender.com/api/posts')
     const posts5 = await post5.json()
 
-    const cat = await fetch('https://sea-turtle-app-g9q6j.ondigitalocean.app/api/categories')
+    const cat = await fetch('https://everythingdiscblog.onrender.com/api/categories')
     const cats = await cat.json()
 
 
     const author = context.params.blogAuthor;
-    const res = await fetch(`https://sea-turtle-app-g9q6j.ondigitalocean.app/api/posts/author/${author}`)
+    const res = await fetch(`https://everythingdiscblog.onrender.com/api/posts/author/${author}`)
     const posts = await res.json()
 
 

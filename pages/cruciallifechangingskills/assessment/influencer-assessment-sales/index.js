@@ -59,7 +59,7 @@ export default function BrowseCourses() {
 
 
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://coral-app-2-a333o.ondigitalocean.app/api/influencer-assessment');
+    xhr.open('POST', 'https://clblogs-zavr.onrender.com/api/influencer-assessment');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.send('q1a=' + q1a +
       '&q1b=' + q1b +

@@ -2,10 +2,10 @@ import Head from 'next/head'
 import  moment from 'moment'
 
 export async function getServerSideProps() {
-    const res = await fetch('https://sea-turtle-app-g9q6j.ondigitalocean.app/api/posts')
+    const res = await fetch('https://everythingdiscblog.onrender.com/api/posts')
     const posts = await res.json()
 
-    const cat = await fetch('https://sea-turtle-app-g9q6j.ondigitalocean.app/api/categories')
+    const cat = await fetch('https://everythingdiscblog.onrender.com/api/categories')
     const cats = await cat.json()
 
     return {

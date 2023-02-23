@@ -2,10 +2,10 @@ import Head from 'next/head'
 import  moment from 'moment'
 
 export async function getServerSideProps() {
-    const res = await fetch('https://eaglesflightindiablog-n8dyg.ondigitalocean.app/api/posts')
+    const res = await fetch('https://eaglesflightindiablog.onrender.com/api/posts')
     const posts = await res.json()
 
-    const cat = await fetch('https://eaglesflightindiablog-n8dyg.ondigitalocean.app/api/categories')
+    const cat = await fetch('https://eaglesflightindiablog.onrender.com/api/categories')
     const cats = await cat.json()
 
     return {
