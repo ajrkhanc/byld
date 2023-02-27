@@ -49,7 +49,7 @@ export default function Books({ posts }) {
                             <div className='ysirl'>
                                 <img class="yimg100" src="/assets/img/yogesh-sood/yhsir.jpg" alt="yhsir" />
                                 <p><a href='#'>Yogesh Sood</a></p>
-                                <p>(CMD, BYLD Group)</p>
+                                <p>CHAIRMAN AND MANAGING DIRECTOR</p>
                                 <p><a href='mailto:yogeshs@byldgroup.com'>yogeshs@byldgroup.com</a></p>
                             </div>
 
