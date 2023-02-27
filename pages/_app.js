@@ -13,6 +13,11 @@ import YogeshSood from '../components/YogeshSood/Layout'
 import Leaderbehaviourassessment from '../components/leaderbehaviourassessment/Layout'
 import Jensons8urvey from '../components/jenson-8-survey/Layout'
 import BYLDNEW from '../components/byld-new/Layout'
+import Experientiallearning from '../components/experiential-learning/Layout'
+import Jenson8 from '../components/jenson8/Layout'
+import Assessments from '../components/Assessments/Layout'
+import Coachinghead from '../components/Coachingheadc/Layout'
+
 
 
 // import Hhf from '../components/Hhf/Layout';
@@ -771,10 +776,6 @@ export default function MyApp({ Component, pageProps, router }) {
   
 
 
-
-
-
-
   else if (router.pathname.startsWith('/coaching/coaching-snapshot-marketing/')) {
 
     return (
@@ -884,19 +885,6 @@ export default function MyApp({ Component, pageProps, router }) {
     )
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   else if (router.pathname.startsWith('/yogesh-sood')) {
@@ -1242,6 +1230,69 @@ gtag('config', 'G-5PXTTR960E');
 
   }
 
+  else if (router.pathname.startsWith('/jenson-8')) {
+
+    return (
+      <Jenson8>
+        <Head>
+          <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/fonts/flaticon.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/animate.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/off-canvas.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/magnific-popup.css" />
+
+          <link rel="stylesheet" href="/assets/css/rsmenu-main.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/nivo-slider.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/preview.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/rs-spacing.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/globals.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/bg.css" />
+
+          <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PXTTR960E"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PXTTR960E');
+          `,
+            }}
+          />
+
+<script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+
+        </Head>
+
+        <Component {...pageProps} />
+      </Jenson8>
+    )
+
+  }
+
 
   else if (router.pathname.startsWith('/leader-behaviour-assessment-marketing')) {
 
@@ -1355,6 +1406,316 @@ gtag('config', 'G-5PXTTR960E');
 
   }
 
+
+  else if (router.pathname.startsWith('/our-solutions/experiential-learning')) {
+
+    return (
+      <Experientiallearning>
+        <Head>
+          <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/fonts/flaticon.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/animate.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/off-canvas.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/magnific-popup.css" />
+
+          <link rel="stylesheet" href="/assets/css/rsmenu-main.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/nivo-slider.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/preview.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/rs-spacing.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/globals.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/bg.css" />
+
+          <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PXTTR960E"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PXTTR960E');
+          `,
+            }}
+          />
+
+<script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+
+        </Head>
+        <Component {...pageProps} />
+      </Experientiallearning>
+    )
+
+  }
+
+  else if (router.pathname.startsWith('/our-solutions/assessments')) {
+
+    return (
+      <Assessments>
+        <Head>
+          <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/fonts/flaticon.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/animate.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/off-canvas.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/magnific-popup.css" />
+
+          <link rel="stylesheet" href="/assets/css/rsmenu-main.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/nivo-slider.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/preview.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/rs-spacing.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/globals.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/bg.css" />
+
+          <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PXTTR960E"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PXTTR960E');
+          `,
+            }}
+          />
+
+<script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+
+        </Head>
+        <Component {...pageProps} />
+      </Assessments>
+    )
+
+  }
+
+  else if (router.pathname.startsWith('/assessments')) {
+
+    return (
+      <Assessments>
+        <Head>
+          <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/fonts/flaticon.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/animate.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/off-canvas.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/magnific-popup.css" />
+
+          <link rel="stylesheet" href="/assets/css/rsmenu-main.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/nivo-slider.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/preview.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/rs-spacing.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/globals.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/bg.css" />
+
+          <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PXTTR960E"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PXTTR960E');
+          `,
+            }}
+          />
+
+<script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+
+        </Head>
+        <Component {...pageProps} />
+      </Assessments>
+    )
+
+  }
+
+  else if (router.pathname.startsWith('/our-solutions/coaching')) {
+
+    return (
+      <Coachinghead>
+        <Head>
+          <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/fonts/flaticon.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/animate.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/off-canvas.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/magnific-popup.css" />
+
+          <link rel="stylesheet" href="/assets/css/rsmenu-main.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/nivo-slider.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/preview.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/rs-spacing.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/globals.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/bg.css" />
+
+          <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PXTTR960E"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PXTTR960E');
+          `,
+            }}
+          />
+
+<script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+
+        </Head>
+        <Component {...pageProps} />
+      </Coachinghead>
+    )
+
+  }
+
+  else if (router.pathname.startsWith('/coaching')) {
+
+    return (
+      <Coachinghead>
+        <Head>
+          <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/fonts/flaticon.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/animate.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/off-canvas.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/magnific-popup.css" />
+
+          <link rel="stylesheet" href="/assets/css/rsmenu-main.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/nivo-slider.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/preview.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/rs-spacing.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/globals.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/bg.css" />
+
+          <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PXTTR960E"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PXTTR960E');
+          `,
+            }}
+          />
+
+<script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+
+        </Head>
+        <Component {...pageProps} />
+      </Coachinghead>
+    )
+
+  }
 
 
 
