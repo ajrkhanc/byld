@@ -32,12 +32,12 @@ export default function OurLeadershipTeam(){
                        <div className="col-md-4 col-sm-6 mb-30">
                            <div className="team-item teamshd">
                                 <div className="team-img">
-                                    <a href="#"><img src="/assets/img/team/yogesh-sood.jpg" alt=""/></a>
+                                    <a target="_blank" href="/yogesh-sood"><img src="/assets/img/team/yogesh-sood.jpg" alt=""/></a>
                                 </div>
                                 <div className="team-content">
                                     <div className="team-info">
                                         <div className="name">
-                                            <a href="#">Yogesh Sood</a>
+                                            <a target="_blank" href="/yogesh-sood">Yogesh Sood</a>
                                         </div>
                                         <span className="post">Chairman and Managing Director</span>
                                     </div>
