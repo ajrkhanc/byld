@@ -47,8 +47,9 @@ export default function Books({ posts }) {
                     <div className='row'>
                         <div className='col-md-3'>
                             <div className='ysirl'>
-                                <img class="yimg100" src="/assets/img/yogesh-sood/yhsir.jpg" alt="yhsir" />
-                                <p><a href='#'>Yogesh Sood</a></p>
+                                <a href='/yogesh-sood'><img class="yimg100" src="/assets/img/yogesh-sood/yhsir.jpg" alt="yhsir" />
+                                <p>Yogesh Sood</p>
+                                </a>
                                 <p>CHAIRMAN AND MANAGING DIRECTOR</p>
                                 <p><a href='mailto:yogeshs@byldgroup.com'>yogeshs@byldgroup.com</a></p>
                             </div>
