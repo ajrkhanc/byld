@@ -98,6 +98,10 @@ export default function Footer() {
                                   <li> 
                                      <a href="https://twitter.com/Byld_Coaching" target="_blank"><span><i className="fa fa-twitter"></i></span></a> 
                                   </li>
+
+                                  <li> 
+                                     <a href="https://www.youtube.com/@BYLDgroup" target="_blank"><span><i className="fa fa-youtube"></i></span></a> 
+                                  </li>
                                                                            
                               </ul>
                             <p className="widget-desc white-color mtt-25">Subscribe to our newsletter</p>

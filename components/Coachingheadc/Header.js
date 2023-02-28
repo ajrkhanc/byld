@@ -43,6 +43,7 @@ export default function Header() {
                                             <li><a target="_blank" href="https://www.facebook.com/BYLDCoaching"><i className="fa fa-facebook"></i></a></li>
                                             <li><a target="_blank" href="https://www.linkedin.com/company/byld-coaching/"><i className="fa fa-linkedin"></i></a></li>
                                             <li><a target="_blank" href="https://twitter.com/Byld_Coaching"><i className="fa fa-twitter"></i></a></li>
+                                            <li><a target="_blank" href="https://www.youtube.com/@BYLDgroup"><i className="fa fa-youtube"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
