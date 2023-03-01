@@ -60,10 +60,10 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>February 22nd, 2023</span>
+                                <span>March 13th - 16th, 2023</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Building Trust - Virtual</h3>
+                                <h3>The SLII Experience™ T4T</h3>
                                 <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -140,7 +140,7 @@ export default function Workshops(){
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                                
                                                 {/* <option value="February 17th, 2023 - The Power of Habit">February 17th, 2023 - The Power of Habit</option> */}
-                                                <option value="February 22nd, 2023 - Building Trust - Virtual">February 22nd, 2023 - Building Trust - Virtual</option>
+                                                <option value="March 13th - 16th, 2023 - The SLII Experience™ T4T">March 13th - 16th, 2023 - The SLII Experience™ T4T</option>
                                                 <option value="March 21st, 22nd, 23rd and 24th 2023 - DISC Train-the-Trainer (TTT)">March 21st, 22nd, 23rd and 24th 2023 - DISC Train-the-Trainer (TTT)</option>
                                             </select>
                                         </div>
