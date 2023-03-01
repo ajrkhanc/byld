@@ -4091,3 +4091,38 @@ table td {
   border-radius: 22px;
 }
 .awardsarea img{cursor: pointer;}
+
+.ptpagepro{
+  background: url(/assets/img/nt/bg1.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ptpagepro .number-image{
+  width: 140px !important;
+  height: 140px !important;  
+  background: #3474af !important;
+  border-radius: 50% !important;
+  padding: 45px !important;
+}
+
+.ptpagepro .number-area{
+  left: 36px !important;
+  top: -30px !important;
+}
+
+.ptpagepro h3{
+  font-size: 22px !important;
+    color: #000 !important;
+    line-height: 27px !important;
+    padding-top: 24px !important;
+}
+
+.ptpagepro .number-part:hover .number-image{
+  background: #e88027 !important;
+}
+
+.ptpagepro .number-part:hover .number-area{
+  background: #3474af !important;
+}

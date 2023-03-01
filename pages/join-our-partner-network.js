@@ -37,7 +37,7 @@ export default function JoinOurPartnerNetworkLP() {
     return (
         <>
             <Head>
-                <title>Roadmap to Become Your Own Boss! - BYLD Group</title>
+                <title>Join our Partner network - BYLD Group</title>
                 <meta name="description" content="Welcome to BYLD Group! Join the BYLD Group Partner network, and become our business partner to maximize your growth opportunities. We are the largest group in South Asia offering HR and business productivity solutions for individuals, teams and organizations. Served 300 of 500 Fortune companies. Founded in 1998, backed by 1000+ years of accumulated professional… Continue reading Join our Partner network LP Ab Testing" />
                 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet"></link>
             </Head>
@@ -279,6 +279,95 @@ export default function JoinOurPartnerNetworkLP() {
                     </div>
                 </div>
             </section>
+
+
+            <div class="rs-process style1 ptt-50 pbb-50 ptpagepro joinfont">                
+                <div class="container custom2">
+                    <div class="process-effects-layer pbb-40">
+                        <div class="row">
+                        <div className='col-sm-12'>
+                            <div class="sec-title3 text-center mb-30 pbb-30">
+                                <h2 class="title color2 ncc">Roadmap to Become Your Own Boss!</h2>
+                                <div class="heading-border-line center-style"></div>
+                            </div>
+                        </div>
+                        <div className='clearfix'></div>
+
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                        <div class="number-image">
+                                            <img src="/assets/img/icon/ic1.png" alt="Process"/>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 1 </span></div>
+                                            <div class="number-title"><h3 class="title"> Interested in <br></br>partnership</h3></div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                        <div class="number-image">
+                                            <img src="/assets/img/icon/ic2.png" alt="Process"/>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 2 </span></div>
+                                            <div class="number-title"><h3 class="title">Introductory<br></br> meeting</h3></div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                        <div class="number-image">
+                                            <img src="/assets/img/icon/ic3.png" alt="Process"/>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 3 </span></div>
+                                            <div class="number-title"><h3 class="title">MOU</h3></div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                        <div class="number-image">
+                                            <img src="/assets/img/icon/ic4.png" alt="Process"/>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 4 </span></div>
+                                            <div class="number-title"><h3 class="title">Business planning <br></br>meeting</h3></div>
+                                          
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="rs-addon-number">
+                                    <div class="number-part">
+                                        <div class="number-image">
+                                            <img src="/assets/img/icon/ic5.png" alt="Process"/>
+                                        </div>
+                                        <div class="number-text">
+                                            <div class="number-area"> <span class="number-prefix"> 5 </span></div>
+                                            <div class="number-title"><h3 class="title">Kickstart your <br></br>Journey </h3></div>
+                                          
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
             <section className='join4 ptt-50 pbb-50 joinfont'>
