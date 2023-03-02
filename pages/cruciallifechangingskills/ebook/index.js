@@ -4,7 +4,7 @@ export default function Books(){
     return(
         <>
         <Head>
-            <title>Elearning - Crucial Life-Changing Skills</title>            
+            <title>Ebooks - Crucial Life-Changing Skills</title>            
         </Head>
         <section class="about-section workshop-hero">
             <div class="container">
