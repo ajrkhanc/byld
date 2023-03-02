@@ -36,6 +36,14 @@ export default function Books(){
                        </div>
                     </div>
 
+                    <div class="col-md-4 workshop-col"> 
+                       <div class="bookshd text-center">                            
+                            <img class="center-image mbb-15" src="/classets/img/el6.jpg" alt="books" />          
+                            <h6 className='bookprice elerningf'>Four Surprising Career Habits of Highly Successful People  </h6>                           
+                            <a class="booksbtn" href='/cruciallifechangingskills/ebook/four-surprising-career-habits-of-highly-successful-people'>Read White Paper</a>
+                       </div>
+                    </div>
+
                 </div>
             </div>
         </section>
