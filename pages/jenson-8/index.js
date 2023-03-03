@@ -444,7 +444,7 @@ export default function Jenson8(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar - Friday, April 14th, 2023</span>
+                                <span>Webinar - Friday, April 06th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                             <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
@@ -458,7 +458,7 @@ export default function Jenson8(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Friday, April 21st, 2023</span>
+                                <span>Friday, April 28th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                             <h4 className='eventtitlec'>Jenson8 Product Showcase</h4>
@@ -472,7 +472,7 @@ export default function Jenson8(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar - Friday, May 5th, 2023</span>
+                                <span>Webinar - Friday, May 19th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                             <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
@@ -486,7 +486,7 @@ export default function Jenson8(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar - Friday, June 2nd, 2023</span>
+                                <span>Webinar - Friday, June 23rd, 2023</span>
                             </div>
                             <div className='eventbottom'>
                             <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
@@ -500,7 +500,7 @@ export default function Jenson8(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar - Friday, July 14th, 2023</span>
+                                <span>Webinar - Friday, July 28th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                             <h4 className='eventtitlec'>Virtual Training Apollo3</h4>
@@ -569,11 +569,11 @@ export default function Jenson8(){
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>
                                                 {/* <option value="5th January 2023, Jenson8 Webinar">5th January 2023, Jenson8 Webinar</option> */}
-                                                <option value="Webinar - Friday, April 14th, 2023">Webinar - Friday, April 14th, 2023</option>
-                                                <option value="Jenson8 Product Showcase Friday, April 21st, 2023">Jenson8 Product Showcase Friday, April 21st, 2023</option>
-                                                <option value="Webinar - Friday, May 5th, 2023">Webinar - Friday, May 5th, 2023</option>
-                                                <option value="Webinar - Friday, June 2nd, 2023">Webinar - Friday, June 2nd, 2023</option>
-                                                <option value="Webinar - Friday, July 14th, 2023">Webinar - Friday, July 14th, 2023</option>
+                                                <option value="Webinar - Friday, April 06th, 2023">Webinar - Friday, April 06th, 2023</option>
+                                                <option value="Jenson8 Product Showcase Friday, April 28th, 2023">Jenson8 Product Showcase Friday, April 28th, 2023</option>
+                                                <option value="Webinar - Friday, May 19th, 2023">Webinar - Friday, May 19th, 2023</option>
+                                                <option value="Webinar - Friday, June 23rd, 2023">Webinar - Friday, June 23rd, 2023</option>
+                                                <option value="Webinar - Friday, July 28th, 2023">Webinar - Friday, July 28th, 2023</option>
                                                 <option value="Webinar - Friday, August 4th, 2023">Webinar - Friday, August 4th, 2023</option>
                                             </select>
                                         </div>
