@@ -70,7 +70,7 @@ export default function singleblog({ posts }) {
                                             <span class="p-date"> <i class="fa fa-user-o"></i> {posts.AuthorFullname}</span>
                                         </li>
                                     </ul>
-                                    <div className="bloglinkh" dangerouslySetInnerHTML={{ __html: posts.Content }}></div>
+                                    <div className="bloglinkh foryogesh" dangerouslySetInnerHTML={{ __html: posts.Content }}></div>
 
                                 </div>
                             </div>

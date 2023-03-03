@@ -4126,3 +4126,16 @@ table td {
 .ptpagepro .number-part:hover .number-area{
   background: #3474af !important;
 }
+
+.foryogesh ul{
+  padding-left: 15px;
+}
+.foryogesh ul li{
+  list-style: disc !important;
+}
+.foryogesh ol{
+  padding-left: 15px;
+}
+.foryogesh ol li {
+  list-style: decimal;
+}
