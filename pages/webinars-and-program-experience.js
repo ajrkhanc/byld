@@ -78,18 +78,7 @@ export default function WebinarsAndProgramExperience(){
 
 
 
-                    <div className='col-sm-4 d-none'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar January 6th, 2023</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>Everything DiSC Work of Leaders Webinar</h3>
-                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
+                    
 
 
                     {/* <div className='col-sm-4'>
@@ -158,6 +147,19 @@ export default function WebinarsAndProgramExperience(){
                             <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
                                 <h3>Agile EQ Virtual Course Preview</h3>
                                 <a className="eventbtn" target="_blank" href='/everythingdisc/everything-disc-agile-eq-webinar'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar 5th April, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Everything DISC- Overview - Virtual Course Preview</h3>
+                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -254,6 +256,7 @@ export default function WebinarsAndProgramExperience(){
                                                 {/* <option value="The Power of Habit – February 15th, 2023">The Power of Habit – February 15th, 2023</option>
                                                <option value="The Five Behaviors®️ Team Development – February 17th, 2023">The Five Behaviors®️ Team Development – February 17th, 2023</option> */}
                                                 <option value="Agile EQ  Virtual Course Preview – Friday, March 17th, 2023">Agile EQ  Virtual Course Preview – Friday, March 17th, 2023</option>
+                                                <option value="Everything DISC- Overview – April 5th, 2023">Everything DISC- Overview – April 5th, 2023</option>
                                                 <option value="Virtual Training Apollo3 – Friday, April 14th, 2023">Virtual Training Apollo3 – Friday, April 14th, 2023</option>
                                                 <option value="Harnessing Creative Intelligence – Friday, April 14th, 2023">Harnessing Creative Intelligence – Friday, April 14th, 2023</option>
                                                 {/* <option value="8th March 2023 - Eagle’s Flight Executive Briefing">8th March 2023 - Eagle’s Flight Executive Briefing</option> */}
