@@ -64,7 +64,7 @@ export default function Home() {
                     <div class="row video-section">
                         <div class="col-md-6 offset-md-3">
                             <div class="row video-area">
-                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/OalK_lZuzYQ?autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>                                
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/OalK_lZuzYQ?autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
                                 <div class="video-icon">
                                     <i class="ph-play-circle-bold"></i>
                                 </div>
@@ -190,50 +190,112 @@ export default function Home() {
                 </div>
             </section>
             <section class="our-solutions">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
                         <div class="col-md-8 offset-md-2 text-center title">
                             <h2><span>OUR SOLUTIONS</span></h2>
                         </div>
                         <div className='clearfix'></div>
                     </div>
-                    <div class="row">
+                    <br></br>
+                    <div class="row shcols4">
+                        <div class="col-sm-4">
+                            <div className='ours'>
+                                <div className='innerbc'>
+                                    <img src="/classets/img/ccmd.jpg" />
+                                    <span className='forbgs'></span>
+                                </div>
+                                <div className='inerbtnccmd'>
+                                    <div className='row'>
+                                        <div className='col rights3'>
+                                            <a target="_blank" className='cc12btn' href='/cruciallifechangingskills/assessment/style-under-stress-assessment'>Assessment</a>
+                                        </div>
+                                        <div className='col lefts3'>
+                                            <a target="_blank" className='cc12btn' href='/classets/pdf/course-overview-pdf-crucial-conversations-for-mastering-dialogue.pdf'>Download Prevview</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                        <div class="col">
-                            <div class="row solutions-box">
-                                <img src="/classets/img/cc2-icon-ai.svg" />
-                                <h3>Crucial Conversations for Mastering Dialogue</h3>
-                                <a href="/cruciallifechangingskills/crucial-conversations-for-mastering-dialogue" >Read More»</a>
+                        <div class="col-sm-4">
+                            <div className='ours'>
+                                <div className='innerbc'>
+                                    <img src="/classets/img/gtd.jpg" />
+                                    <span className='forbgs'></span>
+                                </div>
+                                <div className='inerbtnccmd'>
+                                    <div className='row'>
+                                        <div className='col rights3'>
+                                            <a target="_blank" className='cc12btn cc12btntgtd' href='/cruciallifechangingskills/assessment/gtd-assessment'>Assessment</a>
+                                        </div>
+                                        <div className='col lefts3'>
+                                            <a target="_blank" className='cc12btn cc12btntgtd' href='/classets/pdf/course-overview-getting-things-done.pdf'>Download Prevview</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="row solutions-box">
-                                <img src="/classets/img/cc2-icon-ai.svg" />
-                                <h3>Crucial Conversations for Accountability</h3>
-                                <a href="/cruciallifechangingskills/crucial-conversations-for-accountability" >Read More»</a>
+
+                        <div class="col-sm-4">
+                            <div className='ours'>
+                                <div className='innerbc'>
+                                    <img src="/classets/img/cc.jpg" />
+                                    <span className='forbgs'></span>
+                                </div>
+                                <div className='inerbtnccmd'>
+                                    <div className='row'>
+                                        <div className='col rights3'>
+                                            <a target="_blank" className='cc12btn' href='/cruciallifechangingskills/assessment/what-would-you-do-assessment'>Assessment</a>
+                                        </div>
+                                        <div className='col lefts3'>
+                                            <a target="_blank" className='cc12btn' href='/classets/pdf/course-overview-pdf-crucial-conversations-for-accountability.pdf'>Download Prevview</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="row solutions-box">
-                                <img src="/classets/img/poh-icon-ai.svg" />
-                                <h3>Power of Habit</h3>
-                                <a href="/cruciallifechangingskills/the-power-of-habit" >Read More»</a>
+
+                        <div class="col-sm-4">
+                            <div className='ours'>
+                                <div className='innerbc'>
+                                    <img src="/classets/img/tpoh.jpg" />
+                                    <span className='forbgs'></span>
+                                </div>
+                                <div className='inerbtnccmd'>
+                                    <div className='row'>
+                                        <div className='col rights3'>
+                                            <a target="_blank" className='cc12btn cc12btntpoh' href='#'>Assessment</a>
+                                        </div>
+                                        <div className='col lefts3'>
+                                            <a target="_blank" className='cc12btn cc12btntpoh' href='/classets/pdf/course-overview-pdf-the-power-of-habit.pdf'>Download Prevview</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="row solutions-box">
-                                <img src="/classets/img/inf-icon-ai.svg" />
-                                <h3>Inﬂuencer</h3>
-                                <a href="/cruciallifechangingskills/influencer" >Read More»</a>
+
+                        <div class="col-sm-4">
+                            <div className='ours'>
+                                <div className='innerbc'>
+                                    <img src="/classets/img/inc.jpg" />
+                                    <span className='forbgs'></span>
+                                </div>
+                                <div className='inerbtnccmd'>
+                                    <div className='row'>
+                                        <div className='col rights3'>
+                                            <a target="_blank" className='cc12btn cc12btninc' href='/cruciallifechangingskills/assessment/influencer-assessment'>Assessment</a>
+                                        </div>
+                                        <div className='col lefts3'>
+                                            <a target="_blank" className='cc12btn cc12btninc' href='/classets/pdf/course-overview-pdf-influencer.pdf'>Download Prevview</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="row solutions-box">
-                                <img src="/classets/img/gtd-icon-ai-svg.svg" />
-                                <h3>Getting Things Done</h3>
-                                <a href="/cruciallifechangingskills/getting-things-done" >Read More»</a>
-                            </div>
-                        </div>
+                        
+
+
                     </div>
                 </div>
             </section>

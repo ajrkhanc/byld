@@ -3333,7 +3333,7 @@ p{
     padding-bottom: 80px;
 }
 .crucial-learning{
-    background: #fff;
+    background: #fafafa;
     padding: 60px 0;
 }
 .crucial-learning .title h2, .our-solutions .title h2{
@@ -3397,10 +3397,10 @@ p{
     font-weight: 600;
 }
 .contact-us{
-    background: url('https://byldgroup.com/cruciallifechangingskills/wp-content/uploads/2021/11/3124512.jpg');
+    background: url('/classets/img/contact.jpg');
      background-repeat: no-repeat;
      background-size: cover;
-     padding: 40px 0;
+     padding: 70px 0;
 }
 .contact-form{
     
@@ -3448,7 +3448,7 @@ label{
     background: #2b70b3;
     color: #fff !important;
     border-radius: 30px;
-    padding: 15px 50px;
+    padding: 8px 50px;
     font-size: 18px;
     font-family: "HelveticaNeueLT Pro 57 Cn" !important;
    border: 2px solid #2B70B3;
@@ -6066,6 +6066,62 @@ line-height: 31px;
     text-transform: uppercase;
 	padding: 20px 0px 7px 0px;
 	color: #326fb1;
+}
+
+.cc12btn{
+	background-color: #eb1a2d;
+	width: 100%;
+	display: block;
+	color: #fff;
+	padding: 10px 0px;
+}
+
+.cc12btn:hover{
+	background-color: black;	
+	color: #fff;
+}
+
+.cc12btntpoh{
+	background-color: #699caf;
+}
+
+.cc12btninc{
+	background-color: #64ac6c;
+}
+
+.cc12btntgtd{
+	background-color: #e65401;
+}
+
+
+
+.shcols4 .row{
+	margin: 0px;
+	padding: 0px;
+}
+.shcols4 .col-sm-4{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.shcols4 .col{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.inerbtnccmd{
+	margin: 6px 0px 20px 0px;
+	text-align: center;
+}
+.rights3{
+	padding-right: 3px !important;
+}
+.lefts3{
+	padding-left: 3px !important;
+}
+
+.innerbc{
+
 }
 
 
