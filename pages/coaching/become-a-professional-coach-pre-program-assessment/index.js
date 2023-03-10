@@ -28,7 +28,7 @@ export default function BrowseCourses() {
 
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'https://byldblogs-4rws.onrender.com/api/become-a-professional-coach');
+        xhr.open('POST', 'https://byldblogs.vercel.app/api/become-a-professional-coach');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send('q1=' + q1 +
             '&q2=' + q2 +

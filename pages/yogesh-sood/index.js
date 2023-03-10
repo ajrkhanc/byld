@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 
 export async function getServerSideProps() {
-    const res = await fetch('https://yogeshsood.onrender.com/api/posts')
+    const res = await fetch('https://yogeshsood-eight.vercel.app/api/posts')
     const posts = await res.json()
     
 
