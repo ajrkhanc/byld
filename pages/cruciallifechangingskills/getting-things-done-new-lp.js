@@ -28,7 +28,7 @@ export default function Gettingthingsdone() {
             }
         };
         xhttp.send("name=" + event.target.name.value +            
-            "&email-721=" + event.target.email.value +
+            "&email=" + event.target.email.value +
             "&phone=" + event.target.phone.value +
             "&organization=" + event.target.organization.value +
             "&designation=" + event.target.designation.value +
