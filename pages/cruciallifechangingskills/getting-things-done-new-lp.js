@@ -3,6 +3,39 @@ import Slider from "react-slick";
 
 export default function Gettingthingsdone() {
 
+    const registerUser = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/88/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+    
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function() {
+                        window.location.href = "/thank-you"
+                     }, 3000);
+    
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("name=" + event.target.name.value +            
+            "&email-721=" + event.target.email.value +
+            "&phone=" + event.target.phone.value +
+            "&organization=" + event.target.organization.value +
+            "&designation=" + event.target.designation.value +
+            "&slot=" + event.target.slot.value)
+    
+    }
+
     var settings = {
         dots: false,
         arrows: true,
@@ -142,8 +175,8 @@ export default function Gettingthingsdone() {
                             <h4>Relieve the Cognitive Load and Peak the Performance</h4>
                             <h2>Join the Virtual Course Preview</h2>
                             <div class="workshop-date">
-                                <h6><i class="fa fa-calendar" aria-hidden="true"></i> May 13th, 2022</h6>
-                                <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00 AM to 4.30 PM</h6>
+                                <h6><i class="fa fa-calendar" aria-hidden="true"></i> April 27th, 2023</h6>
+                                <h6><i class="fa fa-clock-o" aria-hidden="true"></i> 4:00 PM to 5:00 PM</h6>
                             </div>
                         </div>
                         <div class="col-md-6 form-area">
@@ -170,9 +203,7 @@ export default function Gettingthingsdone() {
                                 <div class="col-md-12">
                                     <select name='slot' required>
                                         <option value="">Interested In*</option>
-                                        <option value="November 3rd, 2022 – Webinar">November 3rd, 2022 – Webinar</option>
-                                        <option value="In-house Workshops">In-house Workshops</option>
-                                        <option value="An Executive Overview">An Executive Overview</option>
+                                        <option value="27th April, GTD Virtual Course Preview">27th April, GTD Virtual Course Preview</option>                                      
                                     </select>
                                 </div>
 

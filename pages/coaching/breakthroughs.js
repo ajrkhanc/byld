@@ -4,6 +4,40 @@ import Sidebar from '../../components/Layout/sidebar'
 
 export default function DTCICoachingAcademy() {
 
+  const registerUser = async event => {
+    event.preventDefault()
+    document.getElementById("submitbuttonform").value = "Submitting form...."
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function () {
+        console.log(this.responseText);
+    }
+    xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/87/feedback');
+    xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+    xhttp.onreadystatechange = function () {
+        if (xhttp.readyState == 4) {
+            if (xhttp.status == 200) {
+                document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+
+                document.getElementById("showlabel").style.display = "block";
+                window.setTimeout(function() {
+                    window.location.href = "/thank-you"
+                 }, 3000);
+
+            } else {
+                alert('There was a problem with the request.');
+            }
+        }
+    };
+    xhttp.send("fname=" + event.target.fname.value +
+        "&lname=" + event.target.lname.value +
+        "&email-721=" + event.target.email.value +
+        "&phone=" + event.target.phone.value +
+        "&Companyname=" + event.target.organization.value +
+        "&wheredidyoucome=" + event.target.referredby.value +
+        "&QuestionsComments=" + event.target.QuestionsComments.value )
+
+}
+
 
 
   return (
@@ -210,6 +244,65 @@ export default function DTCICoachingAcademy() {
           </div>
         </div>
       </div>
+
+      <div className="rs-testimonial style4 tirianformbg ptt-50 pbb-70" id="Reserve">
+                <div className="container">                   
+                    <div className="row">                     
+                         <div className="clearfix"></div>
+                   
+                         <div className='col-sm-2'></div>
+                         <div className="col-sm-8">
+                         <div className="bannerform tirianformshd">
+                            <form id="contact-form" className='clientcornner ptt-40 pbb-20' onSubmit={registerUser}>
+                            <div className="row">
+                                      <div className='col-sm-12'>
+                                        <p>Fill in the form below and our subject matter experts will connect you within 24 working hours.</p>
+                                      </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="fname" placeholder="First Name*" required />
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <input type="text" name="lname" placeholder="Last Name*" required />
+                                        </div>
+                                        <div className="col-sm-12 mb-12">
+                                            <input type="email" name="email" placeholder="Enter Email*" required />
+                                        </div> 
+                                        <div className="col-sm-12 mb-12">
+                                            <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                        </div> 
+                                        
+                                        <div className="col-sm-12 mb-12">
+                                            <input type="text" name="organization" placeholder="Organization*" required />
+                                        </div>
+                                       
+                                        
+                                        <div className="col-sm-12 mb-12">
+                                            <select name="referredby" required>
+                                                <option value="">Referred By</option>
+                                                <option value="Email">Email</option>
+                                                <option value="Social Media">Social Media</option>
+                                                <option value="Google Search">Google Search</option>                                                
+                                                <option value="Reference">Reference</option>
+                                                
+                                            </select>
+                                        </div>
+                                        <div className="col-lg-12 mb-12">
+                                            <textarea className="from-control" name="QuestionsComments" placeholder="Questions/Comments:"></textarea>
+                                        </div>
+                                        <div className="col-lg-12 mb-12">
+                                        <input id="submitbuttonform" className="clientcornnerbtn width150" type="submit" value="Submit"/>
+                                        </div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
+                                    </div>                                                                         
+                            </form>                                  
+                            </div>
+                         </div>
+
+                         <div className='col-sm-2'></div>
+                         
+                    </div>
+                </div>
+            </div>
 
 
 
