@@ -19,7 +19,7 @@ export default function Gettingthingsdone() {
     
                     document.getElementById("showlabel").style.display = "block";
                     window.setTimeout(function() {
-                        window.location.href = "/thank-you"
+                        window.location.href = "/cruciallifechangingskills/thank-you"
                      }, 3000);
     
                 } else {
