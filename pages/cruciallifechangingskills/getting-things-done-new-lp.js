@@ -180,7 +180,7 @@ export default function Gettingthingsdone() {
                             </div>
                         </div>
                         <div class="col-md-6 form-area">
-                            <form id="contactForm" class="row fbd">
+                            <form id="contactForm" class="row fbd" onSubmit={registerUser}>
                                 <div className='col-sm-12'>
                                     <h4 className=''>Fill in the details and register for the virtual course preview now!</h4>
                                 </div>
