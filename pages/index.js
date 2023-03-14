@@ -323,7 +323,7 @@ EXCELLENCE.</p>
                      <ul className='solutionslist'>
                         <li><Link href="#"><a><i className='fa fa-angle-double-right'></i> ICF Certification</a></Link></li>
                         <li><Link href="/coaching/insideout-coaching"><a><i className='fa fa-angle-double-right'></i> InsideOut CoachingTM</a></Link></li>
-                        <li className='d-none'><Link href="#"><a><i className='fa fa-angle-double-right'></i> Breakthrough</a></Link></li>
+                        <li className='d-none'><Link href="#"><a><i className='fa fa-angle-double-right'></i> Breakthroughs</a></Link></li>
                         <li><Link href="/coaching/executive-coaching"><a><i className='fa fa-angle-double-right'></i> Executive Coaching</a></Link></li>
                      </ul>
                      <div className="btn-part ptt-10 pbb-30">

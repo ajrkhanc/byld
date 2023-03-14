@@ -70,7 +70,7 @@ export default function ClientCorner() {
                                         </li>
                                         <li><a href='/coaching/icf-certification'>ICF Certification</a></li>
                                         <li><a href="/coaching/insideout-coaching">InsideOut™ Coaching</a></li>
-                                        <li><a href='/coaching/breakthroughs'>Breakthrough</a></li>
+                                        <li><a href='/coaching/breakthroughs'>Breakthroughs</a></li>
                                         <li><a href='/coaching/executive-coaching'>Executive Coaching</a></li>
                                     </ul>
                                 </div>
