@@ -4139,3 +4139,14 @@ table td {
 .foryogesh ol li {
   list-style: decimal;
 }
+
+.borderall {
+  border-top: 5px solid #2092cf;
+  border-bottom: 5px solid #2092cf;
+  border-left: 5px solid #121212;
+  border-right: 5px solid #121212;
+}
+.onlyshd {
+  box-shadow: 0 6px 30px 0 rgb(0 0 0 / 8%);
+  padding: 20px;
+}
