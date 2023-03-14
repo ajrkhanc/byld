@@ -2973,6 +2973,22 @@ table td {
   color: #fff;
 }
 
+.iocmain {
+  background: url(/assets/img/banner/iocbanner.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.iocmain h1 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.iocmain p {
+  font-size: 20px;
+  color: #fff;
+}
+
 /* ICF Page */
 .icfmain {
   background: url(/assets/img/banner/icfbanner.jpg);

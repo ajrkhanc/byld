@@ -81,13 +81,7 @@ export default function Coaching() {
                                         </div>
                                     </a>
                                 </div>
-                                <div className='col-sm-12 text-center ptt-40'>
-                                    <div>
-                                        <div class="btn-part ptt-10 pbb-30">
-                                            <a class="readon2" href="/our-solutions/experiential-learning">Download Assessment <div class="btn-arrow"></div></a>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
 

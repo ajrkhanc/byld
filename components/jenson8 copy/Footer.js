@@ -38,10 +38,11 @@ export default function Footer() {
                 <div className="container-fluid">
                     <div className="row">
                     <div className="col-md-2 col-sm-6 md-mb-10 pl-55 md-pl-15">
-                            <h3 className="footer-title">QUICK LINKS</h3>
+                    <h3 className="footer-title">QUICK LINKS</h3>
                             <ul className="site-map">
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/about-us">About Us</a></li>
+                                <li><a href="/client-corner">Client Corner</a></li>
                                 <li><a href="/blog">Blog</a></li>
                                 <li><a href="/sitemap">Sitemap</a></li>                                
                             </ul>
@@ -50,12 +51,13 @@ export default function Footer() {
                         <div className="col-md-3 col-sm-6 md-mb-10 pl-55 md-pl-15">
                             <h3 className="footer-title">OUR SOLUTIONS</h3>
                             <ul className="site-map">
-                                <li><a href="/client-corner">Client Corner</a></li>
-                                <li><a href="/our-solutions/leadership-and-talent-development">Leadership & Performance</a></li>
-                                <li><a href="/our-solutions/assessments">Assessments</a></li>
-                                <li><a href="/bespoke">BeSpoke</a></li>
-                                <li><a href="/our-solutions/staffing">Staffing & Search</a></li>
-                                <li><a href="/our-solutions/coaching">Coaching</a></li>
+                            <li><a href="/our-solutions/experiential-learning">Experiential Learning</a></li> 
+                            <li><a href="/our-solutions/leadership-and-talent-development">Leadership & Performance</a></li> 
+                            <li><a href="/our-solutions/assessments">Assessments</a></li> 
+                            <li><a href="/bespoke">Custom Solutions (BeSpoke)</a></li> 
+                            <li><a href="/our-solutions/coaching">Coaching</a></li> 
+                            <li><a href="/our-solutions/staffing">Staffing & Search</a></li> 
+                            <li><a href="/join-our-partner-network">Partner Network</a></li>                                                             
                             </ul>
                         </div>
                         <div className="col-md-4 col-sm-6 md-mb-10">
