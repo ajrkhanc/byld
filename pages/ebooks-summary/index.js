@@ -29,7 +29,7 @@ export default function Books(){
                         
                         <div className="col-sm-3">
                            <div className="innervideoshd">
-                               <a href='#'>
+                               <a href='/ebooks-summary/innovation-race-book-summary'>
                                <img src='/assets/img/books/Innovation-race-book-summary.jpg' alt="books"/>
                                <h3 className='booktitlerow1'>Ebooks Summary</h3>
                                </a>
