@@ -56,18 +56,7 @@ export default function Workshops(){
                     </div>
                     <div className='clearfix'></div>                    
 
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>March 13th - 16th, 2023</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>The SLII Experience™ T4T</h3>
-                                <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                     <div className='col-sm-4 d-none'>
                         <div className='eventsbox'>
@@ -93,6 +82,19 @@ export default function Workshops(){
                             <div className='eventbottom'>
                                 <h3>DISC Train-the-Trainer (TTT)</h3>
                                 <a target="_blank" className="eventbtn" href='/everythingdisc/everything-disc-ttt-vt-lp/'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>March 27th - 28th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>The SLII Experience™ - Face to Face</h3>
+                                <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -139,9 +141,9 @@ export default function Workshops(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                                
-                                                {/* <option value="February 17th, 2023 - The Power of Habit">February 17th, 2023 - The Power of Habit</option> */}
-                                                <option value="March 13th - 16th, 2023 - The SLII Experience™ T4T">March 13th - 16th, 2023 - The SLII Experience™ T4T</option>
+                                                {/* <option value="February 17th, 2023 - The Power of Habit">February 17th, 2023 - The Power of Habit</option> */}                                                
                                                 <option value="March 21st, 22nd, 23rd and 24th 2023 - DISC Train-the-Trainer (TTT)">March 21st, 22nd, 23rd and 24th 2023 - DISC Train-the-Trainer (TTT)</option>
+                                                <option value="March 27th - 28th, 2023 - The SLII Experience™ - Face to Face">March 27th - 28th, 2023 - The SLII Experience™ - Face to Face</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
