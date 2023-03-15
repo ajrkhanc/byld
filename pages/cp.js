@@ -111,7 +111,7 @@ export default function JoinOurPartnerNetworkLP() {
                                 <div class="heading-border-line center-style"></div>
                             </div>
                         </div>
-                        <div className='col-sm-2'></div>
+                        
                         <div className='col-sm-4'>
                             <div className='teamf'>
                                 <div className='teamimgc'>
@@ -135,13 +135,59 @@ export default function JoinOurPartnerNetworkLP() {
                                 </div>
                             </div>
                         </div>
+                        <div className='col-sm-4'>
+                            <div className='boxshd borderr mtt-30'>
+                                <div className="bannerform">
+                                    <p className='cplpf'>Fill out the form below, and we will reach out to you within 24 hours.</p>
+                                    <form id="contact-form" className='clientcornner' onSubmit={registerUser}>
+                                        <div className="row">
+                                            <div className="col-lg-6 mb-12">
+                                                <input type="text" name="fname" placeholder="First Name*" required />
+                                            </div>
+                                            <div className="col-lg-6 mb-12">
+                                                <input type="email" name="email" placeholder="E-mail*" required />
+                                            </div>
+                                            <div className="col-lg-12 mb-12">
+                                                <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                            </div>
+                                            <div className="col-lg-12 mb-12">
+                                                <input type="text" name="company" placeholder="Company Name*" required />
+                                            </div>
+
+                                            <div className="col-lg-12 mb-12">
+                                                <input type="text" name="designation" placeholder="Designation*" required />
+                                            </div>
+                                            <div className="col-lg-12 mb-12">
+                                                <select name="howdidyouknowaboutus" required>
+                                                    <option value="">Referred By</option>
+                                                    <option value="Email">Email</option>
+                                                    <option value="LinkedIn">LinkedIn</option>
+                                                    <option value="Facebook">Facebook</option>
+                                                    <option value="Instagram">Instagram</option>
+                                                    <option value="Twitter">Twitter</option>
+                                                </select>
+                                            </div>
+
+                                            <div className="col-lg-12 mb-12">
+                                                <textarea className="from-control" name="leadsquared_Notes" placeholder="Questions/Comments:"></textarea>
+                                            </div>
+
+                                            <div className="col-lg-12 mb-12">
+                                                <input id="submitbuttonform" className="clientcornnerbtn" type="submit" value="Get help now" />
+                                            </div>
+                                            <p id="showlabel" style={{ display: "none" }}></p>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
 
 
-            <section className='jopn1 ptt-50 pbb-50 cplps3'>
+            {/* <section className='jopn1 ptt-50 pbb-50 cplps3'>
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-sm-12'>
@@ -204,7 +250,7 @@ export default function JoinOurPartnerNetworkLP() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
             <section id='GetinTouch' className='ptt-50 pbb-70 cplps4'>
