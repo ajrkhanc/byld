@@ -1,9 +1,15 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-
+import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
+import React from "react";
 
 export default function Home() {
+    const [modalOpen1, setModalOpen1] = React.useState(false);
+    const [modalOpen2, setModalOpen2] = React.useState(false);
+    const [modalOpen3, setModalOpen3] = React.useState(false);
+    const [modalOpen4, setModalOpen4] = React.useState(false);
+    const [modalOpen5, setModalOpen5] = React.useState(false);
 
     const HomeForm = async event => {
         event.preventDefault()
@@ -37,8 +43,269 @@ export default function Home() {
 
     }
 
+    const ccmd2 = async event => {
+        const coursename = 'Crucial Conversations for Mastering Dialogue';
+        event.preventDefault()
+        document.getElementById("submitbuttonform1").value = "Submitting...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/115/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/classets/pdf/course-overview-pdf-crucial-conversations-for-mastering-dialogue.pdf"
+                    });
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("name=" + event.target.name.value +
+        "&youremail=" + event.target.email.value +
+        "&coursename=" + coursename)
+    }
+
+    const gtd = async event => {
+        const coursename = 'Getting Things Done';
+        event.preventDefault()
+        document.getElementById("submitbuttonform2").value = "Submitting...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/115/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/classets/pdf/course-overview-getting-things-done.pdf"
+                    });
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("name=" + event.target.name.value +
+        "&youremail=" + event.target.email.value +
+        "&coursename=" + coursename)
+    }
+
+    const cc1 = async event => {
+        const coursename = 'Crucial Conversations for Accountability';
+        event.preventDefault()
+        document.getElementById("submitbuttonform3").value = "Submitting...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/115/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/classets/pdf/course-overview-pdf-crucial-conversations-for-accountability.pdf"
+                    });
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("name=" + event.target.name.value +
+        "&youremail=" + event.target.email.value +
+        "&coursename=" + coursename)
+    }
+
+    const poh = async event => {
+        const coursename = 'The Power of Habit';
+        event.preventDefault()
+        document.getElementById("submitbuttonform4").value = "Submitting...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/115/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/classets/pdf/course-overview-pdf-the-power-of-habit.pdf"
+                    });
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("name=" + event.target.name.value +
+        "&youremail=" + event.target.email.value +
+        "&coursename=" + coursename)
+    }
+
+    const influncer = async event => {
+        const coursename = 'Influencer';
+        event.preventDefault()
+        document.getElementById("submitbuttonform5").value = "Submitting...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/115/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/classets/pdf/course-overview-pdf-influencer.pdf"
+                    });
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("name=" + event.target.name.value +
+        "&youremail=" + event.target.email.value +
+        "&coursename=" + coursename)
+    }
+
+
     return (
         <>
+
+            <Modal className='toppc' toggle={() => setModalOpen1(!modalOpen1)} isOpen={modalOpen1} backdrop="static" keyboard={false}>
+                <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen1(!modalOpen1)}>
+                    <span aria-hidden={true}>×</span>
+                </button>
+
+                <ModalBody>
+                    <form id='contactForm' class="row popupfc" onSubmit={ccmd2}>
+                        <h4>Please Register to download</h4>
+                        <div class="col-md-12">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name*" required />
+                        </div>
+                        <div class="col-md-12">
+                            <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
+                        </div>                        
+                        <div class="col-md-12">
+                        <input id='submitbuttonform1' class="formbtn" type="submit" value="Submit"/>
+                        </div>
+                        <p id="showlabel" style={{ display: "none" }}></p>
+                    </form>
+                </ModalBody>
+            </Modal>
+
+            <Modal className='toppc' toggle={() => setModalOpen2(!modalOpen2)} isOpen={modalOpen2} backdrop="static" keyboard={false}>
+                <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen2(!modalOpen2)}>
+                    <span aria-hidden={true}>×</span>
+                </button>
+
+                <ModalBody>
+                    <form id='contactForm' class="row popupfc" onSubmit={gtd}>
+                        <h4>Please Register to download</h4>
+                        <div class="col-md-12">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name*" required />
+                        </div>
+                        <div class="col-md-12">
+                            <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
+                        </div>                        
+                        <div class="col-md-12">
+                        <input id='submitbuttonform2' class="formbtn" type="submit" value="Submit"/>
+                        </div>
+                        <p id="showlabel" style={{ display: "none" }}></p>
+                    </form>
+                </ModalBody>
+            </Modal>
+
+            <Modal className='toppc' toggle={() => setModalOpen3(!modalOpen3)} isOpen={modalOpen3} backdrop="static" keyboard={false}>
+                <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen3(!modalOpen3)}>
+                    <span aria-hidden={true}>×</span>
+                </button>
+
+                <ModalBody>
+                    <form id='contactForm' class="row popupfc" onSubmit={cc1}>
+                        <h4>Please Register to download</h4>
+                        <div class="col-md-12">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name*" required />
+                        </div>
+                        <div class="col-md-12">
+                            <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
+                        </div>                        
+                        <div class="col-md-12">
+                        <input id='submitbuttonform3' class="formbtn" type="submit" value="Submit"/>
+                        </div>
+                        <p id="showlabel" style={{ display: "none" }}></p>
+                    </form>
+                </ModalBody>
+            </Modal>
+
+            <Modal className='toppc' toggle={() => setModalOpen4(!modalOpen4)} isOpen={modalOpen4} backdrop="static" keyboard={false}>
+                <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen4(!modalOpen4)}>
+                    <span aria-hidden={true}>×</span>
+                </button>
+
+                <ModalBody>
+                    <form id='contactForm' class="row popupfc" onSubmit={poh}>
+                        <h4>Please Register to download</h4>
+                        <div class="col-md-12">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name*" required />
+                        </div>
+                        <div class="col-md-12">
+                            <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
+                        </div>                        
+                        <div class="col-md-12">
+                        <input id='submitbuttonform4' class="formbtn" type="submit" value="Submit"/>
+                        </div>
+                        <p id="showlabel" style={{ display: "none" }}></p>
+                    </form>
+                </ModalBody>
+            </Modal>
+
+            <Modal className='toppc' toggle={() => setModalOpen5(!modalOpen5)} isOpen={modalOpen5} backdrop="static" keyboard={false}>
+                <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen5(!modalOpen5)}>
+                    <span aria-hidden={true}>×</span>
+                </button>
+
+                <ModalBody>
+                    <form id='contactForm' class="row popupfc" onSubmit={influncer}>
+                        <h4>Please Register to download</h4>
+                        <div class="col-md-12">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name*" required />
+                        </div>
+                        <div class="col-md-12">
+                            <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
+                        </div>                        
+                        <div class="col-md-12">
+                        <input id='submitbuttonform5' class="formbtn" type="submit" value="Submit"/>
+                        </div>
+                        <p id="showlabel" style={{ display: "none" }}></p>
+                    </form>
+                </ModalBody>
+            </Modal>
 
             <section class="hero-section">
                 <div class="container-fluid">
@@ -59,6 +326,8 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            
             <section class="video-section-main">
                 <div class="container-fluid">
                     <div class="row video-section">
@@ -208,10 +477,10 @@ export default function Home() {
                                 <div className='inerbtnccmd'>
                                     <div className='row'>
                                         <div className='col rights3'>
-                                            <a target="_blank" className='cc12btn' href='/cruciallifechangingskills/assessment/style-under-stress-assessment'>Assessment</a>
+                                            <a target="_blank" className='cc12btn' href='#'>Assessment</a>
                                         </div>
                                         <div className='col lefts3'>
-                                            <a target="_blank" className='cc12btn' href='/classets/pdf/course-overview-pdf-crucial-conversations-for-mastering-dialogue.pdf'>Download Prevview</a>
+                                            <a className='cc12btn' onClick={() => setModalOpen1(!modalOpen1)}>Download Prevview</a>
                                         </div>
                                     </div>
                                 </div>
@@ -230,7 +499,7 @@ export default function Home() {
                                             <a target="_blank" className='cc12btn cc12btntgtd' href='/cruciallifechangingskills/assessment/gtd-assessment'>Assessment</a>
                                         </div>
                                         <div className='col lefts3'>
-                                            <a target="_blank" className='cc12btn cc12btntgtd' href='/classets/pdf/course-overview-getting-things-done.pdf'>Download Prevview</a>
+                                            <a className='cc12btn cc12btntgtd' onClick={() => setModalOpen2(!modalOpen2)}>Download Prevview</a>
                                         </div>
                                     </div>
                                 </div>
@@ -249,7 +518,7 @@ export default function Home() {
                                             <a target="_blank" className='cc12btn' href='/cruciallifechangingskills/assessment/what-would-you-do-assessment'>Assessment</a>
                                         </div>
                                         <div className='col lefts3'>
-                                            <a target="_blank" className='cc12btn' href='/classets/pdf/course-overview-pdf-crucial-conversations-for-accountability.pdf'>Download Prevview</a>
+                                            <a className='cc12btn' onClick={() => setModalOpen3(!modalOpen3)}>Download Prevview</a>
                                         </div>
                                     </div>
                                 </div>
@@ -268,7 +537,7 @@ export default function Home() {
                                             <a target="_blank" className='cc12btn cc12btntpoh' href='#'>Assessment</a>
                                         </div>
                                         <div className='col lefts3'>
-                                            <a target="_blank" className='cc12btn cc12btntpoh' href='/classets/pdf/course-overview-pdf-the-power-of-habit.pdf'>Download Prevview</a>
+                                            <a className='cc12btn cc12btntpoh' onClick={() => setModalOpen4(!modalOpen4)}>Download Prevview</a>
                                         </div>
                                     </div>
                                 </div>
@@ -287,13 +556,13 @@ export default function Home() {
                                             <a target="_blank" className='cc12btn cc12btninc' href='/cruciallifechangingskills/assessment/influencer-assessment'>Assessment</a>
                                         </div>
                                         <div className='col lefts3'>
-                                            <a target="_blank" className='cc12btn cc12btninc' href='/classets/pdf/course-overview-pdf-influencer.pdf'>Download Prevview</a>
+                                            <a className='cc12btn cc12btninc' onClick={() => setModalOpen5(!modalOpen5)}>Download Prevview</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+
 
 
                     </div>

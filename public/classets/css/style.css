@@ -6072,8 +6072,9 @@ line-height: 31px;
 	background-color: #eb1a2d;
 	width: 100%;
 	display: block;
-	color: #fff;
+	color: #fff !important;
 	padding: 10px 0px;
+	cursor: pointer;
 }
 
 .cc12btn:hover{
@@ -6125,7 +6126,52 @@ line-height: 31px;
 }
 
 
+/* popup css */
+.popcl {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 99999;
+    right: -10px;
+    background-color: red !important;
+    border-radius: 100px;
+    color: white;
+    font-size: 30px;
+    line-height: 0px;
+    top: -10px;
+    opacity: 1;
+}
 
+.popcl span {
+    margin-top: -3px;
+    display: block;
+}
+
+.popupfc{
+	padding: 15px;
+}
+.popupfc input{
+	border: 1px solid #000;
+    margin-bottom: 15px;
+}
+
+.popupfc input::placeholder{
+	color: #000 !important;
+}
+
+.popupfc h4{
+padding-left: 15px;
+}
+.popupfc .formbtn{
+	padding: 10px 0px !important;
+	border: 0px !important;
+}
+.popupfc .formbtn:hover{
+	background-color: #F4812B !important;
+}
+@media (min-width:992px){
+	.toppc{top: 22%;}
+}
 
 
 
