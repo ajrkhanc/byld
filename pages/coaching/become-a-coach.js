@@ -67,7 +67,7 @@ export default function DTCICoachingAcademy() {
                 <h1>Become a Coach</h1>
                 <p>When you think of becoming a coach – Think BYLD</p>
                 <div class="btn-part ptt-10 pbb-30">
-                  <a class="readon2" href="/coaching/become-a-professional-coach-marketing">Download Assessment <div class="btn-arrow"></div></a>
+                  <a class="readon2" href="/coaching/become-a-professional-coach-marketing">Take Assessment <div class="btn-arrow"></div></a>
                 </div>
               </div>
             </div>

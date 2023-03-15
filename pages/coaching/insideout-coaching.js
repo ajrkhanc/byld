@@ -53,7 +53,7 @@ export default function InsideOutCoaching() {
                                 <h1>InsideOut Coaching</h1>
                                 <p>Coaching that leads to a Performmance Breakthrough!</p>
                                 <div class="btn-part ptt-10 pbb-30">
-                                    <a class="readon2" href="/coaching/coaching-snapshot-marketing">Download Assessment <div class="btn-arrow"></div></a>
+                                    <a class="readon2" href="/coaching/coaching-snapshot-marketing">Take Assessment <div class="btn-arrow"></div></a>
                                 </div>
                             </div>
                         </div>                       
