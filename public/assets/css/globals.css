@@ -4166,3 +4166,56 @@ table td {
   box-shadow: 0 6px 30px 0 rgb(0 0 0 / 8%);
   padding: 20px;
 }
+
+@keyframes blinking {
+  0% {
+    color: #e88027;         
+  }
+  100% {
+    color: #3474af;
+   
+  }
+}
+.blink {      
+  animation: blinking 1s infinite;
+  font-size: 40px;
+  padding: 10px 0 0 0px;
+  cursor: pointer;
+}
+
+.popupfc{
+	padding: 15px;
+}
+.popupfc input{
+	border: 1px solid #000;
+    margin-bottom: 15px;
+}
+
+.popupfc input::placeholder{
+	color: #000 !important;
+}
+.popupfc h4{
+  color: #3474af;
+    text-align: center;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.popupfc h5{
+  color: #3474af;
+    text-align: center;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.popupfc .formbtn{
+  background: #3474af;
+    border: none;
+    color: #fff;
+    padding: 7px 27px;
+    border-radius: 19px;
+}
+
+.mwc500{max-width: 500px !important;}
