@@ -237,7 +237,7 @@ export default function JoinOurPartnerNetworkLP() {
                 </ModalBody>
             </Modal>
 
-            <Modal className='toppc' toggle={() => setModalOpen2(!modalOpen2)} isOpen={modalOpen2} backdrop="static" keyboard={false}>
+            <Modal className='toppc mwc500' toggle={() => setModalOpen2(!modalOpen2)} isOpen={modalOpen2} backdrop="static" keyboard={false}>
                 <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen2(!modalOpen2)}>
                     <span aria-hidden={true}>×</span>
                 </button>
@@ -260,7 +260,7 @@ export default function JoinOurPartnerNetworkLP() {
                 </ModalBody>
             </Modal>
 
-            <Modal className='toppc' toggle={() => setModalOpen3(!modalOpen3)} isOpen={modalOpen3} backdrop="static" keyboard={false}>
+            <Modal className='toppc mwc500' toggle={() => setModalOpen3(!modalOpen3)} isOpen={modalOpen3} backdrop="static" keyboard={false}>
                 <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen3(!modalOpen3)}>
                     <span aria-hidden={true}>×</span>
                 </button>
@@ -283,7 +283,7 @@ export default function JoinOurPartnerNetworkLP() {
                 </ModalBody>
             </Modal>
 
-            <Modal className='toppc' toggle={() => setModalOpen4(!modalOpen4)} isOpen={modalOpen4} backdrop="static" keyboard={false}>
+            <Modal className='toppc mwc500' toggle={() => setModalOpen4(!modalOpen4)} isOpen={modalOpen4} backdrop="static" keyboard={false}>
                 <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen4(!modalOpen4)}>
                     <span aria-hidden={true}>×</span>
                 </button>
