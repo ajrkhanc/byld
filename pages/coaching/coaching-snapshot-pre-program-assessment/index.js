@@ -47,8 +47,8 @@ export default function BrowseCourses() {
         const phone = event.target.phone.value;
         var nameurl = name.replace(/[^a-zA-Z0-9 ]/g, "");
         nameurl = nameurl.toLowerCase();
-        const newnameurl = nameurl.split(' ').join('-') + phone
-
+        const newnameurl = nameurl.split(' ').join('-') + phone;
+        const result = `https://byldgroup.com/coaching/coaching-snapshot-pre-program-assessment/${newnameurl}`
 
         
         var xhr = new XMLHttpRequest();
@@ -89,6 +89,7 @@ export default function BrowseCourses() {
             '&phone=' + phone +
             '&organization=' + organization +
             '&newnameurl=' + newnameurl
+
         );
 
         xhr.onreadystatechange = function () {
@@ -103,7 +104,8 @@ export default function BrowseCourses() {
 
                     xhttp.send("name=" + name +
                         '&email=' + email +
-                        '&phone=' + phone)
+                        '&phone=' + phone +
+                        '&result=' + result)
 
                     window.setTimeout(function () {
                         window.location.href = `/coaching/coaching-snapshot-pre-program-assessment/${newnameurl}`
@@ -116,7 +118,7 @@ export default function BrowseCourses() {
                 setTimeout(function () {
                     document.getElementById("response").innerHTML = "";
                     document.getElementById("submitbuttonform").value = "Submit";
-                }, 5000);
+                }, 6000);
             }
 
         }
