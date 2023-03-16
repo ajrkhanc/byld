@@ -87,7 +87,7 @@ export default function JoinOurPartnerNetworkLP() {
 
 
     const whitp1 = async event => {
-        const coursename = 'Crucial Conversations for Mastering Dialogue';
+        const coursename = 'White Paper';
         event.preventDefault()
         document.getElementById("submitbuttonform1").value = "Submitting...."
         const xhttp = new XMLHttpRequest();
@@ -117,7 +117,7 @@ export default function JoinOurPartnerNetworkLP() {
     }
 
     const whitp2 = async event => {
-        const coursename = 'Getting Things Done';
+        const coursename = 'White Paper';
         event.preventDefault()
         document.getElementById("submitbuttonform2").value = "Submitting...."
         const xhttp = new XMLHttpRequest();
@@ -147,7 +147,7 @@ export default function JoinOurPartnerNetworkLP() {
     }
 
     const whitp3 = async event => {
-        const coursename = 'Crucial Conversations for Accountability';
+        const coursename = 'White Paper';
         event.preventDefault()
         document.getElementById("submitbuttonform3").value = "Submitting...."
         const xhttp = new XMLHttpRequest();
@@ -177,7 +177,7 @@ export default function JoinOurPartnerNetworkLP() {
     }
 
     const whitp4 = async event => {
-        const coursename = 'The Power of Habit';
+        const coursename = 'White Paper';
         event.preventDefault()
         document.getElementById("submitbuttonform4").value = "Submitting...."
         const xhttp = new XMLHttpRequest();

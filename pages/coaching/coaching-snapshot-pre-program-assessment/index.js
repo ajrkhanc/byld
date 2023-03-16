@@ -107,7 +107,7 @@ export default function BrowseCourses() {
 
                     window.setTimeout(function () {
                         window.location.href = `/coaching/coaching-snapshot-pre-program-assessment/${newnameurl}`
-                    }, 1000);
+                    }, 5000);
                 }
             }
 
@@ -116,7 +116,7 @@ export default function BrowseCourses() {
                 setTimeout(function () {
                     document.getElementById("response").innerHTML = "";
                     document.getElementById("submitbuttonform").value = "Submit";
-                }, 3000);
+                }, 4000);
             }
 
         }
