@@ -53,6 +53,9 @@ export default function Header() {
                                 <a href="#">RESOURCES</a>
                             <ul class="list-unstyled">
                             <li><a href="/cruciallifechangingskills/blog">Blog</a></li>
+                            <li><a href="/cruciallifechangingskills/elearning">Elearning</a></li>
+                            <li><a href="/cruciallifechangingskills/ebook">Ebooks</a></li>                            
+                            <li><a href="/cruciallifechangingskills/white-paper">White Paper</a></li>
                             <li><a href="/cruciallifechangingskills/glossary">Glossary</a></li>
                             </ul>
                             </li>                            
