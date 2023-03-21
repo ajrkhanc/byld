@@ -47,7 +47,7 @@ export default function Ebookpage(){
                 <div className="row y-middle">
                     <div className="col-lg-12">
                       <div className='sec-title3 ptt-30'>
-                      <h4 className="countertoph2 text-center font30">Keep Your People:</h4>
+                      <h4 className="countertoph2 text-center font30">How to Navigate The Great Resignation</h4>
                       <div className="heading-border-line left-center"></div>
                       </div>
                     </div>         
@@ -61,14 +61,12 @@ export default function Ebookpage(){
                 <div className="row rs-vertical-middle">                    
                     <div className="col-lg-6 pr-0">
                         <div className='onlyshd'>
-                        <h4 className="countertoph2 text-left font24">How to Navigate The Great Resignation</h4>
-                        <h5 className='font18'>Work is very different than it was at the optimistic onset of 2020.</h5>
+                        <h4 className="countertoph2 text-left font24">Work is very different than it was at the optimistic onset of 2020.</h4>
+                        
                         <p className='mall5'>
                         Our lives turned upside down and for many of us, our workday went from cubicles and commutes to pajama pants, homeschooling, and trying to meet deadlines with the constant background noise of home life. For those who were not able to stay home, work suddenly included masks, sanitizer, and social distancing – giving “work stress” a whole new meaning. From a talent perspective, some businesses weathered the pandemic storm better than others, adapting quickly to respond to the needs of their people.
                         </p>                        
-                        <p className='mall5'>
-                        Conversely, coming out of the pandemic, others have lost top talent because they didn’t emphasize a people-centered approach, which leverages the unique needs, insights, and capabilities of your people and weaves them into the fabric of your organization to build a foundation of trust, openness, and resilience.
-                        </p>
+                       
                         </div>
                     </div>
                     <div className="col-lg-6 md-pt-50">

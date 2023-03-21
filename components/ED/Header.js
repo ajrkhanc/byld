@@ -73,9 +73,14 @@ export default function Header() {
                                                         <li><a href="/everythingdisc/solutions/everything-disc-workplace-on-catalyst">Everything DiSC Workplace on Catalyst</a></li>
                                                     </ul>
                                                 </li>
-                                                <li>
-                                                    <a href="/everythingdisc/blog">Blog</a>
+                                                <li className="menu-item-has-children">
+                                                    <a href="#">Resource</a>
+                                                    <ul className="sub-menu">
+                                                    <li><a href="/everythingdisc/blog">Blog</a></li>
+                                                    <li><a href="/everythingdisc/ebook">E-books</a></li>
+                                                    </ul>
                                                 </li>
+                                                
                                                 <li>
                                                     <a href="/everythingdisc/contact-us">Contact Us</a>
                                                 </li>
@@ -182,8 +187,12 @@ export default function Header() {
                                                         <li><a href="/everythingdisc/solutions/everything-disc-workplace-on-catalyst">Everything DiSC Workplace on Catalyst</a></li>
                                                     </ul>
                                                 </li>
-                                                <li>
-                                                    <a href="/everythingdisc/blog">Blog</a>
+                                                <li className="menu-item-has-children">
+                                                    <a href="#">Resource</a>
+                                                    <ul className="sub-menu">
+                                                    <li><a href="/everythingdisc/blog">Blog</a></li>
+                                                    <li><a href="/everythingdisc/ebook">E-books</a></li>
+                                                    </ul>
                                                 </li>
                                                 <li>
                                                     <a href="/everythingdisc/contact-us">Contact Us</a>
