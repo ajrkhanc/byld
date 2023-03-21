@@ -74,7 +74,7 @@ export default function Header() {
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item-has-children">
-                                                    <a href="#">Resource</a>
+                                                    <a href="#">Resources</a>
                                                     <ul className="sub-menu">
                                                     <li><a href="/everythingdisc/blog">Blog</a></li>
                                                     <li><a href="/everythingdisc/ebook">E-books</a></li>
@@ -188,7 +188,7 @@ export default function Header() {
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item-has-children">
-                                                    <a href="#">Resource</a>
+                                                    <a href="#">Resources</a>
                                                     <ul className="sub-menu">
                                                     <li><a href="/everythingdisc/blog">Blog</a></li>
                                                     <li><a href="/everythingdisc/ebook">E-books</a></li>
