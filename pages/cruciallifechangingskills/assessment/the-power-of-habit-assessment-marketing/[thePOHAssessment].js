@@ -104,7 +104,7 @@ export default function result({ result }) {
 
 
                                             <>
-                                            
+
                                                 <table>
                                                     <tr className='tablefbh'>
                                                         <th width="15%">Competency</th>
@@ -274,7 +274,7 @@ export default function result({ result }) {
                                                     </tr>
                                                 </table>
 
-<br></br>
+                                                <br></br>
                                                 <div class="assessment-result-block">
                                                     <h3>Overall Score = <span className='rco'>{overallresult}</span></h3>
                                                     <div class="result-bar-wrapper">
