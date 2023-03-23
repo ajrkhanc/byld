@@ -525,7 +525,7 @@ export default function Home() {
                   </div>
                </div>
             </div>
-            <img className='wow fadeInUp delay-0-2s animated animateUP' src='/assets/img/homeb/handb.jpg' />
+            <img className='wow fadeInUp delay-0-2s animated animateUP img100p' src='/assets/img/homeb/handb.jpg' />
             <div className='container'>
                <div className='row'>
                   <div className='col-sm-2'></div>
@@ -549,7 +549,7 @@ export default function Home() {
                   </div>
                </div>
             </div>
-            <img src='/assets/img/homeb/byldteam.jpg' />
+            <img className='img100p' src='/assets/img/homeb/byldteam.jpg' />
             <div className='clearfix'></div>
             <div className='solutionarrowbox1'>
                <img src="/assets/img/homeb/orangearrow.png" />
