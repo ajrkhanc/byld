@@ -1,3 +1,61 @@
+@font-face {
+    font-family: myFirstFont;    
+    font-family: "BwDarius";
+    src: url("../fonts/BwDariusDEMO-Regular.otf");
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    
+  
+  
+  body {font-family: "BwDarius" !important; }
+  /* menu */
+  .nav-menu a{font-family: "BwDarius" !important; }
+  .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a{
+    font-size: 14px !important;
+  }
+  
+  html,
+  body {
+    font-size: 16px;
+    color: #454545;
+    font-family: "BwDarius";
+    vertical-align: baseline;
+    line-height: 1.7;
+    font-weight: 400;
+    overflow-x: hidden;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  p {
+    margin: 0 0 26px;
+    line-height: 1.8;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "BwDarius" !important;
+    color: #0a0a0a;
+    margin: 0 0 26px;
+    line-height: 1.2;
+  }
+ 
+
+
+  .rs-footer.style1 .footer-top .address-widget li i {
+    color: #ffffff;}
+
 .full-width-header .rs-header.style2{
     box-shadow: none !important;
 }
@@ -177,10 +235,10 @@
 }
 
 .siderco h1 {
-    font-size: 46px;
+    font-size: 50px;
     line-height: 64px;
-    font-weight: 600;
-    letter-spacing: 5px;
+    font-weight: 500;
+    letter-spacing: normal;
     color: #3474af;
 }
 
@@ -190,9 +248,9 @@
 }
 
 .h2call {
-    font-size: 48px;
+    font-size: 40px;
     line-height: 65px;
-    font-weight: 600;
+    font-weight: 400;
     color: #2a6db5;
 }
 
@@ -203,9 +261,10 @@
 }
 
 .pall {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 36px;
     text-align: justify;
+    color: #000;
 }
 
 .solutionrow {
@@ -229,9 +288,10 @@
 .solutionbox h4{
     margin: 0px;
     padding-right: 8px;
-    font-weight: 500;
     color: #000;
     max-width: 180px;
+    font-size: 22px;
+    font-weight: 500;
 
 }
 .solutionbox h4 span{
@@ -307,19 +367,19 @@
 .counterbox .rs-count{
     font-size: 44px;
     color: #e88027;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .countb1 .rs-count{
     font-size: 44px;
     color: #fff !important;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .countb4 .rs-count{
     font-size: 44px;
     color: #fff !important;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .counterbox h3{
@@ -402,8 +462,8 @@
 }
 .byldfooter .footer-title {
     text-transform: none !important;
-    font-size: 25px !important;
-    letter-spacing: 1px !important;
+    font-size: 20px !important; 
+    font-weight: 500 !important;
 }
 
 .fsub .subscribe-form {
@@ -465,8 +525,29 @@
 .byldfooter .site-map li a:hover{ color: #000 !important;}
 .byldfooter .address-widget li a:hover{ color: #000 !important;}
 
-.byldfooter .site-map li a{font-size: 17px !important;}
-.byldfooter .address-widget li a{font-size: 17px !important;}
+.byldfooter .site-map li a{
+    font-size: 14px !important;
+    font-weight: 500;
+}
+.byldfooter .address-widget li a{
+    font-size: 14px !important;
+    font-weight: 500;
+}
+.address-widget .desc{
+    font-size: 14px !important;
+    font-weight: 500;
+}
+.text-center{
+    font-size: 14px !important;
+    font-weight: 500;
+}
+.rs-footer.style1 .footer-top .site-map li {
+    margin-bottom: 10px;
+}
+
+.rs-footer.style1 .footer-top {
+    padding: 50px 0 40px;
+}
 
 
  
