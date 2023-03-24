@@ -9,7 +9,7 @@ export default function CoachCertificationLP(){
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/8/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/90/feedback');
         xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
@@ -26,13 +26,14 @@ export default function CoachCertificationLP(){
                 }
             }
         };
-        xhttp.send("leadsquared-FirstName=" + event.target.name.value +
-            "&leadsquared-Mobile=" + event.target.phone.value +
-            "&leadsquared-EmailAddress=" + event.target.email.value +
-            "&leadsquared-Company=" + event.target.companyname.value +
-            "&leadsquared-JobTitle=" + event.target.designation.value +
+        xhttp.send("name=" + event.target.name.value +
+            "&phone=" + event.target.phone.value +
+            "&email=" + event.target.email.value +
+            "&companyname=" + event.target.companyname.value +
+            "&designation=" + event.target.designation.value +
             "&wheredidyoucome=" + event.target.wheredidyoucome.value +
-            "&leadsquared-Notes=" + event.target.leadsquared_Notes.value +
+            "&slot=" + event.target.slot.value +
+            "&leadsquared_Notes=" + event.target.leadsquared_Notes.value +
             "&leadsquared-mx_Business_Entity=" + event.target.leadsquared_mx_Business_Entity.value )
 
     }
@@ -115,7 +116,7 @@ export default function CoachCertificationLP(){
                 </div>
             </div>
 
-            <section className='icflastrow ptt-40 pbb-40' id='ioc-lp'>
+            <section className='icflastrow ptt-40 pbb-40' id='REGISTER'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-6'>
@@ -142,12 +143,16 @@ export default function CoachCertificationLP(){
                                         <div className="col-lg-12 mb-12">
                                             <input type="text" name="designation" placeholder="Designation*" required />
                                         </div>
-                                        <div className="col-lg-12 mb-12">
+                                        <div className="col-sm-6 mb-12">
                                             <select name="wheredidyoucome" required>
                                                 <option value="">Referred By*</option>
-                                                <option value="Email">Email</option>
-                                                <option value="Social Media">Social Media</option>
-                                                <option value="Social Media">Google Search</option>
+                                                <option value="Email">Email</option>                                                
+                                            </select>
+                                        </div>
+                                        <div className="col-sm-6 mb-12">
+                                            <select name="slot" required>
+                                                <option value="">Interested In*</option>
+                                                <option value="Friday 12th May 2023, Time: 4:00 AM 5:00 PM">Friday 12th May 2023, Time: 4:00 AM 5:00 PM</option>
                                             </select>
                                         </div>
                                         <div className="col-lg-12 mb-12 d-none">
@@ -187,8 +192,8 @@ export default function CoachCertificationLP(){
                                 <span>Friday 12th May 2023</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Time:9:30 AM -5:30 PM</h3>
-                                <a className="eventbtn" href='#'>REGISTER NOW</a>
+                                <h3>Time: 4:00 AM 5:00 PM</h3>
+                                <a className="eventbtn" href='#REGISTER'>REGISTER NOW</a>
                             </div>
                         </div>
                     </div>
