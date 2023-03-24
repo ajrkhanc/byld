@@ -12,8 +12,16 @@ export default function Books(){
                     <div class="col-lg-12 contact-title"> 
                         <h1>Welcome to Crucial Life-Changing Skills Learning Hub!</h1>                       
                      </div>
-
+                     
                      <div class="col-md-4 workshop-col"> 
+                       <div class="bookshd text-center">                            
+                            <img class="center-image mbb-15" src="/classets/img/leaders-guide-to-team-productivity.jpg" alt="books" />          
+                            <h6 className='bookprice elerningf'>The Leader’s Guide to Team Productivity</h6>                           
+                            <a class="booksbtn" href='/cruciallifechangingskills/ebook/leaders-guide-to-team-productivity'>Read eBook</a>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4 workshop-col"> 
                        <div class="bookshd text-center">                            
                             <img class="center-image mbb-15" src="/classets/img/el2.jpg" alt="books" />          
                             <h6 className='bookprice elerningf'>Crucial conversations<sup>®</sup> for mastering dialogue improves productivity at sprint by 93%</h6>                           

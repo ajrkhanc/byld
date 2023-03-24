@@ -201,163 +201,163 @@ ul {
   color: #ffffff;
 }
 .bg1 {
-  background: url(5bassets/images/bg/about-bg.png);
+  
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg2 {
-  background: url(5bassets/images/bg/ser-bg.png);
+  
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .bg3 {
-  background: url(5bassets/images/bg/portfolio-bg.png);
+  
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
 }
 .bg4 {
-  background-image: url(5bassets/images/bg/team-bg.jpg);
+ 
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg5 {
-  background-image: url(5bassets/images/bg/choose-bg.jpg);
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .bg6 {
-  background-image: url(5bassets/images/bg/testi-bg.png);
+  
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .bg7 {
   background-color: #EBEBEB;
-  background-image: url(5bassets/images/bg/blog-bg.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg8 {
-  background-image: url(5bassets/images/bg/contact-bg.jpg);
+
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
 }
 .bg9 {
-  background-image: url(5bassets/images/bg/contact-bg-3.jpg);
+ 
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
 }
 .bg10 {
-  background-image: url(5bassets/images/bg/testi-bg2.jpg);
+  
   background-color: #000000;
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
 }
 .bg11 {
-  background-image: url(5bassets/images/bg/contact-bg-2.jpg);
+  
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
 }
 .bg12 {
-  background-image: url(5bassets/images/bg/about-bg2.jpg);
+
   background-repeat: no-repeat;
   background-position: top center;
 }
 .bg13 {
-  background-image: url(5bassets/images/bg/cta-bg.png);
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .homesliderbg {
-  background-image: url(5bassets/images/byld/home-byld-banner.jpg);
+
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
 }
 .bg15 {
-  background-image: url(5bassets/images/bg/choose-bg3.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg17 {
-  background-image: url(5bassets/images/bg/team-bg3.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg18 {
   background-color: #F9F9F9;
-  background-image: url(5bassets/images/bg/con-bg4.jpg);
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .bg19 {
-  background-image: url(5bassets/images/bg/blog-bg3.jpg);
+  
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
 }
 .bg20 {
-  background-image: url(5bassets/images/bg/service-bg4.jpg);
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .bg21 {
-  background-image: url(/5bassets/img/banner/about-bg4.png);
+
   background-position: top left;
   background-repeat: no-repeat;
   background-size: auto;
 }
 .bg22 {
-  background-image: url(5bassets/images/bg/testi-bg4.jpg);
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .bg23 {
-  background-image: url(5bassets/images/bg/project-single-bg.jpg);
+  
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px 0px 45px 30px;
 }
 .bg24 {
-  background-image: url(5bassets/images/bg/project-single-bg2.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px 35px 40px 35px;
 }
 .bg25 {
-  background-image: url(5bassets/images/bg/count-bg5.jpg);
+  
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg26 {
-  background-image: url(5bassets/images/bg/project-bg5.jpg);
+  
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .shape-bg {
-  background: url(5bassets/images/background/shape/shape-bg.png);
+  
   background-repeat: repeat;
   background-size: auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .offwrap {
-  cursor: url(5bassets/images/close.png), auto;
+  
   width: 100%;
   left: 100%;
   transition: all 0.8s ease-out 0s;
@@ -2641,7 +2641,7 @@ body .search-modal .close:hover {
   padding: 50px 0px 100px 0px;
 }
 .rs-appointment.style1 .appoint-schedule .appoint-img {
-  background: url(5bassets/images/appointment/1.jpg);
+  
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
@@ -2697,7 +2697,7 @@ body .search-modal .close:hover {
   opacity: .9;
 }
 .rs-appointment.style1.apply-career .appoint-schedule .appoint-img {
-  background: url(5bassets/images/careers/2.jpg);
+  
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
@@ -2807,41 +2807,12 @@ body .search-modal .close:hover {
 .rs-breadcrumbs .breadcrumbs-inner ul li a:hover {
   opacity: .7;
 }
-.rs-breadcrumbs.img1 {
-  background: url(5bassets/images/breadcrumbs/inr_1.jpg);
-}
-.rs-breadcrumbs.img2 {
-  background: url(5bassets/images/breadcrumbs/inr_2.jpg);
-}
-.rs-breadcrumbs.img3 {
-  background: url(5bassets/images/breadcrumbs/inr_3.jpg);
-}
-.rs-breadcrumbs.img4 {
-  background: url(5bassets/images/breadcrumbs/inr_4.jpg);
-}
-.rs-breadcrumbs.img5 {
-  background: url(5bassets/images/breadcrumbs/inr_5.jpg);
-}
-.rs-breadcrumbs.img6 {
-  background: url(5bassets/images/breadcrumbs/inr_6.jpg);
-}
-.rs-breadcrumbs.img7 {
-  background: url(5bassets/images/breadcrumbs/inr_7.jpg);
-}
-.rs-breadcrumbs.img8 {
-  background: url(5bassets/images/breadcrumbs/inr_8.jpg);
-}
-.rs-breadcrumbs.img9 {
-  background: url(5bassets/images/breadcrumbs/inr_9.jpg);
-}
-.rs-breadcrumbs.img10 {
-  background: url(5bassets/images/breadcrumbs/inr_10.jpg);
-}
+
 /* ------------------------------------
     08. Banner Section CSS
 ---------------------------------------*/
 .rs-banner.main-home {
-  background: url(5bassets/images/banner/style1/main-banner.png);
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2907,7 +2878,7 @@ body .search-modal .close:hover {
   width: 1030px;
 }
 .rs-banner.banner-home-style2 {
-  background: url(5bassets/images/banner/banner2.jpg);
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -2990,7 +2961,7 @@ body .search-modal .close:hover {
   opacity: 0.4;
 }
 .rs-banner.banner-style6 {
-  background: url(5bassets/images/banner/home_banner6.jpg);
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -3422,7 +3393,7 @@ body .search-modal .close:hover {
   position: relative;
 }
 .rs-videos.choose-video.careers-video .images-video {
-  background: url(5bassets/images/careers/1.jpg);
+  
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3482,7 +3453,7 @@ body .search-modal .close:hover {
   position: relative;
 }
 .rs-videos.faq .images-video {
-  background: url(5bassets/images/video/faq.jpg);
+  
   background-repeat: no-repeat;
   background-size: cover;
   padding: 280px 0px 280px 0px;
@@ -4341,7 +4312,7 @@ body .search-modal .close:hover {
   border-bottom: 2px solid #f5f5f5;
 }
 .rs-services-single .services-add {
-  background: url(5bassets/images/services/single/side-img.jpg);
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4481,7 +4452,7 @@ body .search-modal .close:hover {
   background: #cd201f;
 }
 .rs-services-single .call-us {
-  background: url(5bassets/images/choose/call-us.html);
+  
   background-repeat: no-repeat;
   padding: 110px 0px 110px 0px;
 }
@@ -5120,7 +5091,7 @@ body .search-modal .close:hover {
     18. Process Section CSS
 ---------------------------------------*/
 .rs-process.style1 .process-effects-layer {
-  background-image: url(5bassets/images/process/style1/steps.png);
+  
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 1050px auto;
@@ -6667,7 +6638,7 @@ body .search-modal .close:hover {
   margin-top: 45px;
 }
 .rs-testimonial.style2 .testi-wrap {
-  background: url(5bassets/images/testimonial/test-bg.jpg);
+  
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7750,7 +7721,7 @@ body .search-modal .close:hover {
   display: flex;
   padding: 30px 30px 30px 30px;
   margin: 0 -5px 0 0;
-  background-image: url(5bassets/images/contact/con-box.png);
+  
 }
 .rs-contact.main-home .contact-icons-style .contact-item .contact-icon img {
   max-width: unset;
@@ -7783,9 +7754,7 @@ body .search-modal .close:hover {
   margin: 0;
   color: #C5C2C2;
 }
-.rs-contact.main-home .contact-icons-style.box-address .contact-item {
-  background-image: url(5bassets/images/contact/box-bg2.png);
-}
+
 .rs-contact.main-home .contact-icons-style.box-address .contact-item .content-text .title a {
   color: #0a0a0a;
 }
@@ -7801,9 +7770,7 @@ body .search-modal .close:hover {
 .rs-contact.main-home .contact-icons-style.box-address .contact-item .content-text .services-txt {
   color: #444444;
 }
-.rs-contact.main-home .contact-icons-style.box-address.box-style2 .contact-item {
-  background-image: url(5bassets/images/contact/box-bg3.png);
-}
+
 .rs-contact.main-home.office-modify1 .contact-map iframe {
   height: 761px;
 }
@@ -7879,7 +7846,7 @@ body .search-modal .close:hover {
   font-weight: 500;
 }
 .rs-contact.main-home.office-modify1 .office-buliding {
-  background: url(5bassets/images/contact/office.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -8048,7 +8015,7 @@ body .search-modal .close:hover {
   opacity: .9;
 }
 .rs-contact.home3-contact-style .icon-box-wraper {
-  background-image: url(5bassets/images/contact/con-home3.jpg);
+
   background-position: top left;
   background-size: cover;
   padding: 70px 50px 99px 50px;

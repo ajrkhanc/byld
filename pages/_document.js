@@ -39,8 +39,7 @@ class MyDocument extends Document {
           />
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-          <link rel="icon" href="/favicon.png" />
-          <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon" />
+          <link rel="icon" href="/favicon.png" />          
           <meta name="google-site-verification" content="OM6hSC8XO4ylFInFKwcHaWp5gFMt0Nn6aQ6A-eV7SWc" />
         </Head>
         <body>

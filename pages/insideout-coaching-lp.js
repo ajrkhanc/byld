@@ -184,7 +184,7 @@ export default function CoachCertificationLP(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Tuesday 15 November 2022</span>
+                                <span>Friday 12th May 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Time:9:30 AM -5:30 PM</h3>

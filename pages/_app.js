@@ -80,8 +80,7 @@ export default function MyApp({ Component, pageProps, router }) {
         <Head>
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-          <link rel="icon" href="/5bassets/favicon.png" />
-          <link rel="shortcut icon" href="/5bassets/img/favicon.png" type="image/x-icon" />
+          <link rel="icon" href="/5bassets/favicon.png" />      
 
           <link rel="stylesheet" type="text/css" href="/5bassets/css/bootstrap.min.css" />
 
@@ -146,8 +145,6 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/edassets/favicon.png" />
-          <link rel="shortcut icon" href="/edassets/img/favicon.png" type="image/x-icon" />
-
           <link rel="stylesheet" type="text/css" href="/edassets/css/bootstrap.min.css" />
 
           <link rel="stylesheet" type="text/css" href="/edassets/css/font-awesome.min.css" />
@@ -212,7 +209,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/wileyassets/favicon.png" />
-          <link rel="shortcut icon" href="/wileyassets/img/favicon.png" type="image/x-icon" />
+  
 
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
 
@@ -265,7 +262,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon" />
+
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -284,7 +281,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon" />
+     
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -303,7 +300,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon" />
+    
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -322,7 +319,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon" />
+        
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -341,7 +338,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon" />
+   
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -358,7 +355,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon" />
+         
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -375,7 +372,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon" />
+       
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -392,7 +389,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon" />
+        
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -409,7 +406,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon" />
+  
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -427,7 +424,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon" />
+
 
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
 
@@ -495,8 +492,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          <link rel="shortcut icon" href="/efassets/img/favicon.png" type="image/x-icon" />
-
+          
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
 
           <link rel="stylesheet" type="text/css" href="/efassets/css/font-awesome.min.css" />

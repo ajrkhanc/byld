@@ -68,7 +68,7 @@ export default function ClientCorner() {
                                         <li className="">
                                             <a href="/our-solutions/coaching">Coaching</a>
                                         </li>
-                                        <li><a href='/coaching/icf-certification'>ICF Certification</a></li>
+                                        <li><a href='/coaching/become-a-coach'>ICF Certification</a></li>
                                         <li><a href="/coaching/insideout-coaching">InsideOut™ Coaching</a></li>
                                         <li><a href='/coaching/breakthroughs'>Breakthroughs</a></li>
                                         <li><a href='/coaching/executive-coaching'>Executive Coaching</a></li>
