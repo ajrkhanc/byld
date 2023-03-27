@@ -137,7 +137,7 @@ export default function WebinarsAndProgramExperience(){
                         </div>
                     </div> */}
 
-                    <div className='col-sm-4'>
+                    {/* <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
@@ -149,7 +149,7 @@ export default function WebinarsAndProgramExperience(){
                                 <a className="eventbtn" target="_blank" href='/everythingdisc/everything-disc-agile-eq-webinar'>Reserve Your Seat</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
@@ -188,6 +188,20 @@ export default function WebinarsAndProgramExperience(){
                             <h4 className="eventtitlec">Time: 11:00 AM -12:00 PM</h4>
                                 <h3>Harnessing Creative Intelligence</h3>
                                 <a className="eventbtn" href='/tirian-lp'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>26th April</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className="eventtitlec">Time: 11 am - 12 pm</h4>
+                                <h3>Five Behaviour - Virtual Course Preview</h3>
+                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -255,10 +269,11 @@ export default function WebinarsAndProgramExperience(){
                                                 {/* <option value="The Five Behaviors®️ Personal Development – February 3rd, 2023">The Five Behaviors®️ Personal Development – February 3rd, 2023</option> */}
                                                 {/* <option value="The Power of Habit – February 15th, 2023">The Power of Habit – February 15th, 2023</option>
                                                <option value="The Five Behaviors®️ Team Development – February 17th, 2023">The Five Behaviors®️ Team Development – February 17th, 2023</option> */}
-                                                <option value="Agile EQ  Virtual Course Preview – Friday, March 17th, 2023">Agile EQ  Virtual Course Preview – Friday, March 17th, 2023</option>
+                                                
                                                 <option value="Everything DISC - Overview – April 5th, 2023">Everything DISC - Overview – April 5th, 2023</option>
                                                 <option value="Virtual Training Apollo3 – Friday, April 14th, 2023">Virtual Training Apollo3 – Friday, April 14th, 2023</option>
                                                 <option value="Harnessing Creative Intelligence – Friday, April 14th, 2023">Harnessing Creative Intelligence – Friday, April 14th, 2023</option>
+                                                <option value="Five Behaviour - Virtual Course Preview, 26th April">Five Behaviour - Virtual Course Preview, 26th April</option>
                                                 {/* <option value="8th March 2023 - Eagle’s Flight Executive Briefing">8th March 2023 - Eagle’s Flight Executive Briefing</option> */}
                                             </select>
                                         </div>
