@@ -196,11 +196,11 @@ export default function WebinarsAndProgramExperience(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>26th April</span>
+                                <span>Webinar Wednesday, 26th April 2023</span>
                             </div>
                             <div className='eventbottom'>
                             <h4 className="eventtitlec">Time: 11 am - 12 pm</h4>
-                                <h3>Five Behaviour - Virtual Course Preview</h3>
+                                <h3>Five Behaviour - Overview, Virtual Course Preview</h3>
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -273,7 +273,7 @@ export default function WebinarsAndProgramExperience(){
                                                 <option value="Everything DISC - Overview – April 5th, 2023">Everything DISC - Overview – April 5th, 2023</option>
                                                 <option value="Virtual Training Apollo3 – Friday, April 14th, 2023">Virtual Training Apollo3 – Friday, April 14th, 2023</option>
                                                 <option value="Harnessing Creative Intelligence – Friday, April 14th, 2023">Harnessing Creative Intelligence – Friday, April 14th, 2023</option>
-                                                <option value="Five Behaviour - Virtual Course Preview, 26th April">Five Behaviour - Virtual Course Preview, 26th April</option>
+                                                <option value="Five Behaviour - Overview, Virtual Course Preview, 26th April 2023">Five Behaviour - Overview, Virtual Course Preview, 26th April 2023</option>
                                                 {/* <option value="8th March 2023 - Eagle’s Flight Executive Briefing">8th March 2023 - Eagle’s Flight Executive Briefing</option> */}
                                             </select>
                                         </div>
