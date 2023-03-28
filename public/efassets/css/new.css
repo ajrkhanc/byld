@@ -160,8 +160,11 @@ video{
 }
 
 .brod2bg{
-    background: #fff;
+    background: #e4e4e4;
 }
+.brod2bg .bannerform {
+    background: #e4e4e4 !important;}
+
 .brodbg{
     background: #1d3f5e;
 }
