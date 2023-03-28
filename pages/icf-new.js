@@ -131,7 +131,7 @@ export default function Home() {
                         <div className='col-sm-4'>
                             <div>
                                 <h1>ARE YOU ASPIRING TO BE A CERTIFIED COACH?</h1>
-                                <a className='efnebtn' href='#'>Take Assessment</a>
+                                <a className='efnebtn' href='/coaching/become-a-professional-coach-marketing'>Take Assessment</a>
                             </div>
                         </div>
                     </div>
