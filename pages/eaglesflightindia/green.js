@@ -1,9 +1,48 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import Slider from "react-slick";
 
 
 export default function Home() {
+
+    var settings = {
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
 
     return (
         <>
@@ -61,141 +100,58 @@ export default function Home() {
             </div>
 
 
-            <div class="rs-achievement style1 relative ptt-50">
-                <div class="container">
-                    <div class="row rs-vertical-middle">
-                        <div class="col-lg-6">
-                            <div class=""><img src="/efassets/img/employees-giving-hands-helping.jpg" alt="" /></div>
-                        </div>
-                        <div class="col-lg-6 pr-0">
-                            <div class="fivemodelshd">
-                                <h4 class="countertoph2 text-left font34">Get Access to the Best Corporate Team Building Games</h4>
 
-                                <p class="justify mbb-5">
-                                    Experiential learning programs help participants gain competence in areas such as leading teams or making quick decisions so as to improve processes, serve customers better, work with teams, improve processes, and manage time through virtual team games. At work, or in the office, developing good relationships is essential for a great organizational culture. Virtual fun activities for employees are a great way to enhance an inclusive work culture for your organization. Explore our offerings or connect with us to know more.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="rs-project style2 efhbg mtt-40 ptt-30 pbb-60">
                 <div class="container">
                     <div class="row">
                         <div className='col-sm-12'>
                             <div className="sec-title3 mbb-35">
-                                <h4 className="countertoph2 text-center font30">OUR OFFERINGS</h4>
+                                <h4 className="countertoph2 text-center font30">Reasons To Choose BYLD</h4>
                                 <div className="heading-border-line center-style mbb-50"></div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="project-item">
-                                <div class="project-img">
-                                    <img src="/efassets/img/mus01.jpg" alt="images" />
-                                </div>
-                                <div class="project-content">
-                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/museum-caper"><i class="custom-icon"></i></a>
-                                    <div class="project-inner">
-                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/museum-caper">Museum Caper™ (Virtual Immersive Learning)</a></h3>
-                                    </div>
-                                </div>
+                        <div class="col-sm-3">
+                            <div class="rcbyldbox rcby1">
+                                <h3><span>100%</span> Online (ViLT)</h3>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="project-item">
-                                <div class="project-img">
-                                    <img src="/efassets/img/king01.jpg" alt="images" />
-                                </div>
-                                <div class="project-content">
-                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/king-kahufu"><i class="custom-icon"></i></a>
-                                    <div class="project-inner">
-                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/king-kahufu">King Kahufu™ (Virtual Immersive Learning)</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="project-item">
-                                <div class="project-img">
-                                    <img src="/efassets/img/gold01.jpg" alt="images" />
-                                </div>
-                                <div class="project-content">
-                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/gold-of-the-desert-kings"><i class="custom-icon"></i></a>
-                                    <div class="project-inner">
-                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/gold-of-the-desert-kings">Gold Of Desert Kings™</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="project-item">
-                                <div class="project-img">
-                                    <img src="/efassets/img/consil01.jpg" alt="images" />
-                                </div>
-                                <div class="project-content">
-                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/council-of-the-marble-star"><i class="custom-icon"></i></a>
-                                    <div class="project-inner">
-                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/council-of-the-marble-star">Council Of Marble Star™</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="project-item">
-                                <div class="project-img">
-                                    <img src="/efassets/img/promise01.jpg" alt="images" />
-                                </div>
-                                <div class="project-content">
-                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/promises-promises"><i class="custom-icon"></i></a>
-                                    <div class="project-inner">
-                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/promises-promises">Promises! Promises!™</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="project-item">
-                                <div class="project-img">
-                                    <img src="/efassets/img/rat01.jpg" alt="images" />
-                                </div>
-                                <div class="project-content">
-                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/rattlesnake-canyon"><i class="custom-icon"></i></a>
-                                    <div class="project-inner">
-                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/rattlesnake-canyon">Rattlesnake Canyon™</a></h3>
-                                    </div>
-                                </div>
+                            <div class="rcbyldbox  rcby2">
+                                <h3>Guaranteed Peer coaching assistance</h3>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="project-item">
-                                <div class="project-img">
-                                    <img src="/efassets/img/outback.jpg" alt="images" />
-                                </div>
-                                <div class="project-content">
-                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/expedition-outback"><i class="custom-icon"></i></a>
-                                    <div class="project-inner">
-                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/expedition-outback">Expedition Outback™</a></h3>
-                                    </div>
-                                </div>
+                        <div class="col-sm-3">
+                            <div class="rcbyldbox  rcby3">
+                                <h3>Coaches Trained</h3>
+                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
+                            </div>
+                            <div class="rcbyldbox  rcby4">
+                                <h3><span>9+</span> Years of Experience</h3>
+                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="project-item">
-                                <div class="project-img">
-                                    <img src="/efassets/img/win01.jpg" alt="images" />
-                                </div>
-                                <div class="project-content">
-                                    <a class="p-icon" href="/eaglesflightindia/our-offerings/windjammer"><i class="custom-icon"></i></a>
-                                    <div class="project-inner">
-                                        <h3 class="title"><a href="/eaglesflightindia/our-offerings/windjammer">Windjammer™</a></h3>
-                                    </div>
-                                </div>
+                        <div class="col-sm-3">
+                            <div class="rcbyldbox  rcby5">
+                                <h3><span>10 hours</span> of mentor Coaching included</h3>
+                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
+                            </div>
+                            <div class="rcbyldbox  rcby6">
+                                <h3><span>100%</span> Pass Results for CKA</h3>
+                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
                             </div>
                         </div>
 
+                        <div class="col-sm-3">
+                            <div class="rcbyldbox  rcby7">
+                                <h3>ICF Accredited Coaches</h3>
+                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
+                            </div>
+                            <div class="rcbyldbox  rcby8">
+                                <h3>Unlimited access Online Mock assessments</h3>
+                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -205,16 +161,59 @@ export default function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">
-
                             <div className="sec-title3 mbb-35">
                                 <h4 className="countertoph2 text-center font30">About BYLD Group</h4>
                                 <div className="heading-border-line center-style mbb-30"></div>
                             </div>
 
-                            <div className="sec-title3 mbb-35 text-center rs-estimate">
-                                <p>
-                                    BYLD Group is the largest group in the South Asian region, offering value-added services in Strategic and Operational HR, Business Operations, Manpower Staffing, Technology, Executive Coaching, Leadership, and Organizational Development. The first company of BYLD Group, Door Training, and Consulting India Pvt. Ltd. was founded in the year 1998, and since then we have served 5,00,000+ individuals, more than 50% of the Fortune 500 Companies and over 60% of the Business World Top 1000 Companies. Our key international alliances include The Ken Blanchard<sup>®</sup> Companies, Crucial Learning (formerly VitalSmarts™), Eagle’s Flight™, Everything DiSC<sup>®</sup> and The Five Behaviors<sup>®</sup> (Wiley Brands), Lumina Spark<sup>®</sup>, Business Today Simulations, InsideOut Development™, Persona Global<sup>®</sup>, Trapologist at Work™, Aster Coaching. Our India headquartered businesses comprise – Door Training and Consulting India Pvt. Ltd. (DTCI) and YOMA Business Solutions. With an annual turnover of over USD 32 Million (INR 230 crores approx.), more than 250 employees, our operational domain is spread across national and international boundaries. Backed by nearly 1000+ years of professional experience, our consultants support clients across industries to manage, develop and align the talent needs in line with their business objectives and strategies.
-                                </p>
+                            <div className='testmm'>
+                                <Slider {...settings}>
+                                    <div class="innertest">
+                                        <div class="item-content">
+                                            <div className='testmicon1'>
+                                                <img src="/efassets/img/t1.png" alt="Testimonial" />
+                                            </div>
+                                            <div className='testmh'>
+                                                <h3>Why ICF certification is imperative?</h3>
+                                            </div>
+                                            <div className='testmp'>
+                                                <p>
+                                                    The online program was complete with several videos, real life examples and activities / note taking facility post each leg of the module which helped reflect on the learnings and its application. While a classroom training is best suited for this kind of a learning, the online module was well designed and engaging keeping the current constraints in perspective
+                                                </p>
+                                            </div>
+                                            <div className='testmicon2'>
+                                                <img src="/efassets/img/t2.png" alt="Testimonial" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="innertest">
+                                        <div class="item-content">
+                                            <div className='testmicon1'>
+                                                <img src="/efassets/img/t1.png" alt="Testimonial" />
+                                            </div>
+                                            <div className='testmh'>
+                                                <h3>Who can consider the ICF accredited certification program?</h3>
+                                            </div>
+                                            {/* <div className='testmp'>
+                                                <p>
+                                                    The online program was complete with several videos, real life examples and activities / note taking facility post each leg of the module which helped reflect on the learnings and its application. While a classroom training is best suited for this kind of a learning, the online module was well designed and engaging keeping the current constraints in perspective
+                                                </p>
+                                            </div> */}
+                                            <div className='rs-estimate'>
+                                                <ul className="estimate-info mtt-5 font-20 listhight">
+                                                    <li>HR heads, HR managers, Training managers, Trainers, and Consultants</li>
+                                                    <li>Business Heads, Directors, General Managers, Managers, and Entrepreneurs</li>
+                                                    <li>CEOs, Senior leaders, Line Managers, Team Leaders, Supervisors, and all other C-suit executives.</li>
+                                                </ul>
+                                            </div>
+                                            <div className='testmicon2'>
+                                                <img src="/efassets/img/t2.png" alt="Testimonial" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </Slider>
 
                             </div>
                         </div>
@@ -222,17 +221,16 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="rs-testimonial style4 homebgcontactus ptt-30 pbb-70">
-                <div className="container">
+            <div className="rs-testimonial style4 homebgcontactus">
+                <div className="container-fluid pa0">
                     <div className="row">
-                        <div className="col-sm-12">
-                            <div className="sec-title3 mbb-35 text-center">
-                                <h4 className="countertoph2 text-center font30 colorw">Reach Out to Us</h4>
-                                <div className="heading-border-line center-style"></div>
-                            </div>
-                        </div>
                         <div className="clearfix"></div>
-                        <div className="col-sm-7">
+                        <div className="col-sm-5 brodbg">
+                            <h2>Passionate About Coaching?</h2>
+                            <h3>Enroll for our upcoming 39th Batch!</h3>
+                            <h4>STARTING  22ND APRIL <br></br>10:00 AM TO 4:00 PM</h4>
+                        </div>
+                        <div className="col-sm-7 brod2bg">
                             <div className="bannerform">
                                 <form id="contact-form" className='clientcornner ptt-40 pbb-20'>
                                     <div className="row">
@@ -269,17 +267,95 @@ export default function Home() {
                                             <input type="text" name="Business_Entity" value="Eagles Flight" required />
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                            <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Submit" />
+                                            <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Registered" />
                                         </div>
                                         <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <div className="col-sm-5">
-                            <img src='/wileyassets/img/cside.png' alt="" />
-                        </div>
 
+                    </div>
+                </div>
+            </div>
+
+            <div className="ptt-60 pbb-50">
+                <div className="container">
+                    <div className="row ">
+                        <div className='col-sm-4'></div>
+                        <div className='col-sm-4 text-center'>
+                            <img src="/efassets/img/teststar.png" alt="Testimonial" />
+                        </div>
+                    </div>
+
+                    <div className="row ptt-40">
+                        <div className='col-sm-4 nntestb'>
+                            <div className='newtest'>
+                                <h3>Rajat Sharma</h3>
+                                <p>It’s been a true inspiration for me to attend the coach certification program. It has been a very exhilarating journey.</p>
+                            </div>
+                        </div>
+                        <div className='col-sm-4 nntestb'>
+                            <div className='newtest'>
+                                <h3>Suresh Sharma</h3>
+                                <p>It’s been a true inspiration for me to attend the coach certification program. It has been a very exhilarating journey.</p>
+                            </div>
+                        </div>
+                        <div className='col-sm-4 nntestb'>
+                            <div className='newtest'>
+                                <h3>Rahul Sharma</h3>
+                                <p>It’s been a true inspiration for me to attend the coach certification program. It has been a very exhilarating journey.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="rs-faq" class="rs-faq ptt-60 pbb-50">
+                <div className="container">
+                    <div className="row ">
+                        <div className='col-sm-4'></div>
+                        <div className='col-sm-4 text-center'>
+                            <img src="/efassets/img/faqs.png" alt="Testimonial" />
+                        </div>
+                    </div>
+
+                    <div className="row ptt-40">
+                        <div className='col-sm-12'>
+                            <div class="faq-content">
+                                <div id="accordion" class="accordion">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">What is included in the fees of the course?</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">In Addition to the coaching sessions, what else is included in the program?</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">Are there easy finance options available?</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="ptt-60 pbb-50 lastcc">
+                <div className="container">
+                    <div className="row ">                        
+                        <div className='col-sm-12 text-center'>
+                            <h2>Still have a doubt about coaching ?</h2>
+                            <a href='#'>TALK TO US</a>
+                        </div>
                     </div>
                 </div>
             </div>
