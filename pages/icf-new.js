@@ -138,14 +138,11 @@ export default function Home() {
                 </div>
             </section>
 
-
-
-
             <div class="rs-about style4 bg21 mtt-60">
                 <div class="container">
                     <div class="row y-middle">
                         <div class="col-lg-7">
-                            <div class="sec-title3 mbb-35 text-left onlyshd">
+                            <div class="sec-title3 mbb-35 text-left onlyshd pbb-50">
                                 <h4 class="countertoph2 text-left font36">ABOUT OUR FIRM</h4>
                                 <div class="heading-border-line left-style"></div>
                                 <p class="mtt-40 font-20">
@@ -157,7 +154,7 @@ export default function Home() {
                                         <li>Helped <b>600+</b> professionals from various industries</li>
                                     </ul>
                                 </div>
-                                <a className='dbro' href='#'>Download Brochure</a>
+                                {/* <a className='dbro' href='#'>Download Brochure</a> */}
                             </div>
                         </div>
                         <div class="col-lg-5">
@@ -167,15 +164,12 @@ export default function Home() {
                 </div>
             </div>
 
-
-
-
             <div class="rs-project style2 efhbg mtt-40 ptt-30 pbb-60">
                 <div class="container">
                     <div class="row">
                         <div className='col-sm-12'>
                             <div className="sec-title3 mbb-35">
-                                <h4 className="countertoph2 text-center font30">Reasons To Choose BYLD</h4>
+                                <h4 className="countertoph2 text-center font36">Reasons To Choose BYLD</h4>
                                 <div className="heading-border-line center-style mbb-50"></div>
                             </div>
                         </div>
@@ -224,13 +218,12 @@ export default function Home() {
                 </div>
             </div>
 
-
             <div className="shape-bg ptt-50 pbb-40 solutionsboxarea">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">
                             <div className="sec-title3 mbb-35">
-                                <h4 className="countertoph2 text-center font30">About BYLD Group</h4>
+                                <h4 className="countertoph2 text-center font36">About BYLD Group</h4>
                                 <div className="heading-border-line center-style mbb-30"></div>
                             </div>
 
@@ -391,7 +384,7 @@ export default function Home() {
 
                     <div className="row ptt-40">
                         <div className='col-sm-12 faqss'>
-                            <Accordion>
+                            <Accordion allowZeroExpanded>
                                 <AccordionItem>
                                     <AccordionItemHeading>
                                         <AccordionItemButton>
