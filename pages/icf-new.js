@@ -10,18 +10,14 @@ import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
 export default function Home() {
 
 
-
     const [modalOpen1, setModalOpen1] = React.useState(false);
 
     const submit = async event => {
         var name = event.target.name.value;
         var email = event.target.email.value;
         var phone = event.target.phone.value;
-        var location = event.target.location.value;
         var organization = event.target.organization.value;
         var designation = event.target.designation.value;
-        var referredby = event.target.referredby.value;
-        var leadsquared_Notes = event.target.leadsquared_Notes.value;
         var Business_Entity = event.target.Business_Entity.value;
 
         event.preventDefault()
@@ -50,51 +46,37 @@ export default function Home() {
         xhttp.send("leadsquared-FirstName=" + name +
             "&leadsquared-EmailAddress=" + email +
             "&leadsquared-Mobile=" + phone +
-            "&location=" + location +
             "&leadsquared-Company=" + organization +
             "&leadsquared-JobTitle=" + designation +
-            "&wheredidyoucome=" + referredby +
-            "&leadsquared-Notes=" + leadsquared_Notes +
             "&leadsquared-mx_Business_Entity=" + Business_Entity)
     }
 
-    const popupsubmit = async event => {
-        var name = event.target.name.value;
-        var email = event.target.email.value;
-        var phone = event.target.phone.value;     
-        var organization = event.target.organization.value;       
-        var leadsquared_Notes = event.target.leadsquared_Notes.value;
-        var Business_Entity = event.target.Business_Entity.value;
-
+    const FooregisterUser = async event => {
         event.preventDefault()
-        document.getElementById("submitbuttonformform").value = "Submitting...."
+        document.getElementById("submitbuttonform1").value = "Submitting form...."
         const xhttp = new XMLHttpRequest();
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/103/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/22/feedback');
         xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
                 if (xhttp.status == 200) {
-                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
-                    document.getElementById("contactForm").reset();
-                    document.getElementById("showlabel").style.display = "block";
-                    window.setTimeout(function () {
-                        window.location.href = "/thank-you"
-                    });
+                    document.getElementById("showlabel1").innerHTML = "Thank you for your details. Check your inbox for more details.";
+                    document.getElementById("resetform").reset();
+                    document.getElementById("showlabel1").style.display = "block";
+                    setTimeout(function () {
+                        document.getElementById("showlabel1").style.display = "none";
+                    }, 3000);
 
                 } else {
                     alert('There was a problem with the request.');
                 }
             }
         };
-        xhttp.send("leadsquared-FirstName=" + name +
-            "&leadsquared-EmailAddress=" + email +
-            "&leadsquared-Mobile=" + phone +
-            "&leadsquared-Company=" + organization +
-            "&leadsquared-Notes=" + leadsquared_Notes +
-            "&leadsquared-mx_Business_Entity=" + Business_Entity)
+        xhttp.send("your-email=" + event.target.email.value)
+
     }
 
 
@@ -145,15 +127,13 @@ export default function Home() {
                 <link rel="stylesheet" type="text/css" href="/efassets/css/new.css" />
             </Head>
 
-            <Modal className='toppc mwc500' toggle={() => setModalOpen1(!modalOpen1)} isOpen={modalOpen1} backdrop="static" keyboard={false}>
+            {/* <Modal className='toppc mwc500' toggle={() => setModalOpen1(!modalOpen1)} isOpen={modalOpen1} backdrop="static" keyboard={false}>
                 <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen1(!modalOpen1)}>
                     <span aria-hidden={true}>×</span>
                 </button>
 
                 <ModalBody>
-                    <form id='contactForm' class="row popupfc ccl" onSubmit={popupsubmit}>
-                        {/* <h4>Any title</h4> */}
-                        {/* <h5>Please Register to download </h5> */}
+                    <form id='contactForm' class="row popupfc ccl" onSubmit={popupsubmit}>                     
                         <div class="col-md-12">
                             <input type="text" name="name" class="form-control" placeholder="Enter Name*" required />
                         </div>
@@ -178,7 +158,7 @@ export default function Home() {
                         <p id="showlabel" style={{ display: "none" }}></p>
                     </form>
                 </ModalBody>
-            </Modal>
+            </Modal> */}
 
             <section className='videosection'>
                 <div class="videowrapper">
@@ -189,9 +169,40 @@ export default function Home() {
                     <div className='row'>
                         <div className='col-sm-8'></div>
                         <div className='col-sm-4'>
-                            <div>
-                                <h1>ARE YOU ASPIRING TO BE A CERTIFIED COACH?</h1>
-                                <a className='efnebtn' href='/coaching/become-a-professional-coach-marketing'>Take Assessment</a>
+                            <div className='formhh'>
+                                <div className="bannerform msddd">
+                                    <h3>Enroll for our upcoming 39th Batch!</h3>
+                                    <h3>STARTING  <span>22ND APRIL</span> 10:00 AM TO 4:00 PM</h3>
+                                    <form id="contactForm" className='clientcornner ptt-5 pbb-0' onSubmit={submit}>
+                                        <div className="row">
+                                            <div className="col-sm-6 mb-12">
+                                                <input type="text" name="name" placeholder="Enter Name*" required />
+                                            </div>
+                                            <div className="col-sm-6 mb-12">
+                                                <input type="email" name="email" placeholder="Enter Email*" required />
+                                            </div>
+                                            <div className="col-sm-6 mb-12">
+                                                <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                            </div>
+
+                                            <div className="col-sm-6 mb-12">
+                                                <input type="text" name="organization" placeholder="Organization*" required />
+                                            </div>
+                                            <div className="col-sm-12 mb-12">
+                                                <input type="text" name="designation" placeholder="Designation*" required />
+                                            </div>
+
+
+                                            <div className="col-sm-12 d-none">
+                                                <input type="text" name="Business_Entity" value="ICF" required />
+                                            </div>
+                                            <div className="col-lg-12 mb-12">
+                                                <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Registere" />
+                                            </div>
+                                            <p id="showlabel" style={{ display: "none" }}></p>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -236,42 +247,44 @@ export default function Home() {
                         <div class="col-sm-3">
                             <div class="rcbyldbox rcby1">
                                 <h3><span>100%</span> Online (ViLT)</h3>
+                                <a class="p-icon"><i class="fa fa-plus"></i></a>
                             </div>
                             <div class="rcbyldbox  rcby2">
                                 <h3>Guaranteed Peer coaching assistance</h3>
+                                <a class="p-icon"><i class="fa fa-plus"></i></a>
                             </div>
                         </div>
 
                         <div class="col-sm-3">
                             <div class="rcbyldbox  rcby3">
                                 <h3>Coaches Trained</h3>
-                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
+                                <a class="p-icon"><i class="fa fa-plus"></i></a>
                             </div>
                             <div class="rcbyldbox  rcby4">
                                 <h3><span>9+</span> Years of Experience</h3>
-                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
+                                <a class="p-icon"><i class="fa fa-plus"></i></a>
                             </div>
                         </div>
 
                         <div class="col-sm-3">
                             <div class="rcbyldbox  rcby5">
                                 <h3><span>10 hours</span> of mentor Coaching included</h3>
-                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
+                                <a class="p-icon"><i class="fa fa-plus"></i></a>
                             </div>
                             <div class="rcbyldbox  rcby6">
                                 <h3><span>100%</span> Pass Results for CKA</h3>
-                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
+                                <a class="p-icon"><i class="fa fa-plus"></i></a>
                             </div>
                         </div>
 
                         <div class="col-sm-3">
                             <div class="rcbyldbox  rcby7">
                                 <h3>ICF Accredited Coaches</h3>
-                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
+                                <a class="p-icon"><i class="fa fa-plus"></i></a>
                             </div>
                             <div class="rcbyldbox  rcby8">
                                 <h3>Unlimited access Online Mock assessments</h3>
-                                <a class="p-icon" href="#"><i class="fa fa-plus"></i></a>
+                                <a class="p-icon"><i class="fa fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -342,63 +355,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="rs-testimonial style4 homebgcontactus">
-                <div className="container-fluid pa0">
-                    <div className="row">
-                        <div className="clearfix"></div>
-                        <div className="col-sm-6 brodbg">
-                            <h2>Passionate About <br></br>Coaching?</h2>
-                            <h3>Enroll for our upcoming <br></br>39th Batch!</h3>
-                            <h4>STARTING  22ND APRIL <br></br>10:00 AM TO 4:00 PM</h4>
-                        </div>
-                        <div className="col-sm-6 brod2bg">
-                            <div className="bannerform">
-                                <form id="contactForm" className='clientcornner ptt-40 pbb-20' onSubmit={submit}>
-                                    <div className="row">
-                                        <div className="col-sm-6 mb-12">
-                                            <input type="text" name="name" placeholder="Enter Name*" required />
-                                        </div>
-                                        <div className="col-sm-6 mb-12">
-                                            <input type="email" name="email" placeholder="Enter Email*" required />
-                                        </div>
-                                        <div className="col-sm-6 mb-12">
-                                            <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
-                                        </div>
-                                        <div className="col-sm-6 mb-12">
-                                            <input type="text" name="location" placeholder="Location*" required />
-                                        </div>
-                                        <div className="col-sm-6 mb-12">
-                                            <input type="text" name="organization" placeholder="Organization*" required />
-                                        </div>
-                                        <div className="col-sm-6 mb-12">
-                                            <input type="text" name="designation" placeholder="Designation*" required />
-                                        </div>
-                                        <div className="col-sm-12 mb-12">
-                                            <select name="referredby" required>
-                                                <option value="">Referred By</option>
-                                                <option value="Social Media">Social Media</option>
-                                                <option value="Google Search">Google Search</option>
-                                                <option value="Reference">Reference</option>
-                                            </select>
-                                        </div>
-                                        <div className="col-lg-12 mb-12">
-                                            <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
-                                        </div>
-                                        <div className="col-sm-12 d-none">
-                                            <input type="text" name="Business_Entity" value="ICF" required />
-                                        </div>
-                                        <div className="col-lg-12 mb-12">
-                                            <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Registere" />
-                                        </div>
-                                        <p id="showlabel" style={{ display: "none" }}></p>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
 
-                    </div>
-                </div>
-            </div>
 
             <div className="ptt-60 pbb-50">
                 <div className="container">
@@ -524,7 +481,7 @@ export default function Home() {
                 </div>
             </div>
 
-
+{/* 
             <div class="ptt-60 pbb-50 lastcc">
                 <div className="container">
                     <div className="row ">
@@ -534,7 +491,98 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+            </div> */}
+            <div className='rs-footer ptt-50'>
+                <div className='bg-wrap'>
+                    <div class="container">
+                        <div class="newslatter-wrap extra-pt">
+                            <div class="footer-newsletter fly-up">
+                                <div class="sec-title4 text-center mb-40">                       
+                                    <h2 class="title">Subscribe to Our Newsletter</h2>
+                                </div>
+                                <form id="resetform" class="subscribe-form" onSubmit={FooregisterUser}>
+                                    <input type="email" name="email" placeholder="Enter Your Email" required/>
+                                    <button id='submitbuttonform1' class="readon2" type="submit">Subscribe Now <div class="btn-arrow"></div></button>
+                                    <p id="showlabel1" style={{ display: "none" }}></p>
+                                </form>
+                                <img class="img1 pattern" src="assets/images/pattern/pattern8.png" alt="" />
+                                <img class="img2 pattern" src="assets/images/pattern/pattern9.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            {/* <div class="rs-footer relative">
+                <div class="bg-wrap">
+                    
+                    <div class="footer-content pb-90">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-12 col-sm-12 md-md-30">
+                                    <div class="about-widget">
+                                        <div class="logo-area">
+                                            <a href="index.html">
+                                                <img src="assets/images/logo_light6.png" alt="Footer Logo"/>
+                                            </a>
+                                        </div>
+                                        <p class="footer-desc">Sodales hendrerit, eros m sodales hendrerit.</p>
+                                        <ul class="footer-contact">
+                                            <li>Phone: <a href="tel:+123456789">+123456789</a></li>
+                                            <li>Email: <a href="mailto:corex@gmail.com">corex@gmail.com</a></li>
+                                        </ul>
+                                        <ul class="social-links">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-12 col-sm-12 md-md-30">
+                                    <div class="quicklinks-widget widget">
+                                        <h4 class="widget-title">Quick Links</h4>
+                                        <ul>
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">Management</a></li>
+                                            <li><a href="#">Resources</a></li>
+                                            <li><a href="#">News</a></li>
+                                            <li><a href="#">Conditions</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-12 col-sm-12 md-md-30">
+                                    <div class="categories-widget widget">
+                                        <h4 class="widget-title">Categories</h4>
+                                        <ul>
+                                            <li><a href="#">Marketing</a></li>
+                                            <li><a href="#">Branding</a></li>
+                                            <li><a href="#">Development</a></li>
+                                            <li><a href="#">Digital Design</a></li>
+                                            <li><a href="#">Illustration</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-12 col-sm-12">
+                                    <div class="legal-widget widget">
+                                        <h4 class="widget-title">Legal</h4>
+                                        <ul>
+                                            <li><a href="#">Privacy & Policy</a></li>
+                                            <li><a href="#">Terms & Conditions</a></li>
+                                            <li><a href="#">Copyright</a></li>
+                                            <li><a href="#">Disclaimer</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom text-center">
+                        <div class="container">
+                            <p class="copyright">Bizup © Copyright 2021.All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="pattern-right" src="assets/images/pattern/pattern7.png" alt=""/>
+            </div> */}
 
 
         </>

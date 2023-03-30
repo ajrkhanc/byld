@@ -18,7 +18,7 @@ video {
 
 .ggt {
     position: relative;
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 
 .ggt h1 {
@@ -308,6 +308,26 @@ video {
   .accordion__button[aria-expanded='true']::before{
     content: "\f068" !important;
   }
+.formhh h3{
+    font-size: 19px;
+    color: #000;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.formhh h3 span{
+    color: #fff;
+}
+
+
+.msddd{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #ffffff54;
+}
+
+#rs-faq{
+    background: #f6f6f6;
+}
 
  @media (min-width:900px){
     .mwc500{

@@ -8308,24 +8308,15 @@ body .search-modal .close:hover {
   background-size: cover;
   border-radius: 70px 0 0 0;
 }
-.rs-footer .bg-wrap .newslatter-wrap.extra-pt {
-  padding-top: 281px;
-}
+
 .rs-footer .bg-wrap .newslatter-wrap .footer-newsletter {
   background: #ffffff;
   border-radius: 0 70px 0 0;
-  padding: 78px 0 90px;
+  padding: 50px 0 50px;
   box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.08);
   position: relative;
 }
-.rs-footer .bg-wrap .newslatter-wrap .footer-newsletter.fly-up {
-  position: absolute;
-  content: '';
-  top: -185.5px;
-  width: 100%;
-  z-index: 1;
-  left: 0;
-}
+
 .rs-footer .bg-wrap .newslatter-wrap .footer-newsletter .pattern {
   position: absolute;
   content: '';
