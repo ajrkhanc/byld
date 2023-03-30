@@ -277,7 +277,34 @@ video {
 .faqss .accordion__button {
     background-color: #3373af;
     color: #fff;
+    font-size: 24px;
 }
 .faqss .accordion__button:hover {
     background-color: #e88026;
 }
+
+.accordion__button:before {
+    display: inline-block;
+    content: "\f067" !important;
+  
+    margin-right: 0px !important;
+    border-bottom: 0px solid currentColor !important;
+    border-right: 0px solid currentColor !important;
+    transform: rotate(0deg) !important;
+    float: right;
+    font-family: FontAwesome;
+    background: white;
+    width: 28px !important;
+    height: 28px !important;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50%;
+    color: #3373af;
+    margin-top: 8px;
+  }
+  
+  .accordion__button[aria-expanded='true']::before{
+    content: "\f068" !important;
+  }
