@@ -171,15 +171,15 @@ export default function Home() {
                         <div className='col-sm-4'>
                             <div className='formhh'>
                                 <div className="bannerform msddd">
-                                    <h3>Enroll for Our Upcoming Complimentary Webinar, 15th April 11 AM - 12 PM</h3>
-                                    {/* <h3>STARTING  <span>22ND APRIL</span> 10:00 AM TO 4:00 PM</h3> */}
+                                    <h3>Enroll for Our Upcoming Complimentary Webinar</h3>
+                                    <h3>15th April 11 AM - 12 PM</h3>
                                     <form id="contactForm" className='clientcornner ptt-5 pbb-0' onSubmit={submit}>
                                         <div className="row">
                                             <div className="col-sm-12 mb-12">
                                                 <input type="text" name="name" placeholder="Enter Name*" required />
                                             </div>
                                             <div className="col-sm-12 mb-12">
-                                                <input type="email" name="email" placeholder="Professional/Personal email Address*" required />
+                                                <input type="email" name="email" placeholder="Professional/Personal Email Address*" required />
                                             </div>
                                             <div className="col-sm-6 mb-12">
                                                 <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
