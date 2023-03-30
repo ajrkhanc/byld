@@ -9,16 +9,28 @@ import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
 
 export default function Home() {
 
+
+
     const [modalOpen1, setModalOpen1] = React.useState(false);
-    const whitp1 = async event => {
-        const coursename = 'White Paper';
+
+    const submit = async event => {
+        var name = event.target.name.value;
+        var email = event.target.email.value;
+        var phone = event.target.phone.value;
+        var location = event.target.location.value;
+        var organization = event.target.organization.value;
+        var designation = event.target.designation.value;
+        var referredby = event.target.referredby.value;
+        var leadsquared_Notes = event.target.leadsquared_Notes.value;
+        var Business_Entity = event.target.Business_Entity.value;
+
         event.preventDefault()
-        document.getElementById("submitbuttonform1").value = "Submitting...."
+        document.getElementById("submitbuttonform").value = "Submitting...."
         const xhttp = new XMLHttpRequest();
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/115/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/96/feedback');
         xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
@@ -27,7 +39,7 @@ export default function Home() {
                     document.getElementById("contactForm").reset();
                     document.getElementById("showlabel").style.display = "block";
                     window.setTimeout(function () {
-                        window.location.href = "/assets/pdf/challenges-and-recommendations-for-auto-industry.pdf"
+                        window.location.href = "/thank-you"
                     });
 
                 } else {
@@ -35,9 +47,54 @@ export default function Home() {
                 }
             }
         };
-        xhttp.send("name=" + event.target.name.value +
-            "&youremail=" + event.target.email.value +
-            "&coursename=" + coursename)
+        xhttp.send("leadsquared-FirstName=" + name +
+            "&leadsquared-EmailAddress=" + email +
+            "&leadsquared-Mobile=" + phone +
+            "&location=" + location +
+            "&leadsquared-Company=" + organization +
+            "&leadsquared-JobTitle=" + designation +
+            "&wheredidyoucome=" + referredby +
+            "&leadsquared-Notes=" + leadsquared_Notes +
+            "&leadsquared-mx_Business_Entity=" + Business_Entity)
+    }
+
+    const popupsubmit = async event => {
+        var name = event.target.name.value;
+        var email = event.target.email.value;
+        var phone = event.target.phone.value;     
+        var organization = event.target.organization.value;       
+        var leadsquared_Notes = event.target.leadsquared_Notes.value;
+        var Business_Entity = event.target.Business_Entity.value;
+
+        event.preventDefault()
+        document.getElementById("submitbuttonformform").value = "Submitting...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/103/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/thank-you"
+                    });
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("leadsquared-FirstName=" + name +
+            "&leadsquared-EmailAddress=" + email +
+            "&leadsquared-Mobile=" + phone +
+            "&leadsquared-Company=" + organization +
+            "&leadsquared-Notes=" + leadsquared_Notes +
+            "&leadsquared-mx_Business_Entity=" + Business_Entity)
     }
 
 
@@ -94,8 +151,8 @@ export default function Home() {
                 </button>
 
                 <ModalBody>
-                    <form id='contactForm' class="row popupfc ccl" onSubmit={whitp1}>
-                        <h4>Any title</h4>
+                    <form id='contactForm' class="row popupfc ccl" onSubmit={popupsubmit}>
+                        {/* <h4>Any title</h4> */}
                         {/* <h5>Please Register to download </h5> */}
                         <div class="col-md-12">
                             <input type="text" name="name" class="form-control" placeholder="Enter Name*" required />
@@ -112,8 +169,11 @@ export default function Home() {
                         <div className="col-lg-12 mb-12">
                             <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
                         </div>
+                        <div className="col-sm-12 d-none">
+                            <input type="text" name="Business_Entity" value="ICF" required />
+                        </div>
                         <div class="col-md-12 text-center">
-                            <input id='submitbuttonform1' class="formbtn" type="submit" value="Submit" />
+                            <input id='submitbuttonformform' class="formbtn" type="submit" value="Submit" />
                         </div>
                         <p id="showlabel" style={{ display: "none" }}></p>
                     </form>
@@ -293,7 +353,7 @@ export default function Home() {
                         </div>
                         <div className="col-sm-6 brod2bg">
                             <div className="bannerform">
-                                <form id="contact-form" className='clientcornner ptt-40 pbb-20'>
+                                <form id="contactForm" className='clientcornner ptt-40 pbb-20' onSubmit={submit}>
                                     <div className="row">
                                         <div className="col-sm-6 mb-12">
                                             <input type="text" name="name" placeholder="Enter Name*" required />
@@ -305,7 +365,7 @@ export default function Home() {
                                             <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                         </div>
                                         <div className="col-sm-6 mb-12">
-                                            <input type="text" name="Location" placeholder="Location*" required />
+                                            <input type="text" name="location" placeholder="Location*" required />
                                         </div>
                                         <div className="col-sm-6 mb-12">
                                             <input type="text" name="organization" placeholder="Organization*" required />
@@ -325,10 +385,10 @@ export default function Home() {
                                             <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
                                         </div>
                                         <div className="col-sm-12 d-none">
-                                            <input type="text" name="Business_Entity" value="Eagles Flight" required />
+                                            <input type="text" name="Business_Entity" value="ICF" required />
                                         </div>
                                         <div className="col-lg-12 mb-12">
-                                            <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Registered" />
+                                            <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Registere" />
                                         </div>
                                         <p id="showlabel" style={{ display: "none" }}></p>
                                     </div>
@@ -351,22 +411,13 @@ export default function Home() {
 
                     <div className="row ptt-40">
                         <div className='col-sm-4 nntestb'>
-                            <div className='newtest'>
-                                <h3>Rajat Sharma</h3>
-                                <p>It’s been a true inspiration for me to attend the coach certification program. It has been a very exhilarating journey.</p>
-                            </div>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/0fzpMkqCU9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div className='col-sm-4 nntestb'>
-                            <div className='newtest'>
-                                <h3>Suresh Sharma</h3>
-                                <p>It’s been a true inspiration for me to attend the coach certification program. It has been a very exhilarating journey.</p>
-                            </div>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/LaabW0vlKE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div className='col-sm-4 nntestb'>
-                            <div className='newtest'>
-                                <h3>Rahul Sharma</h3>
-                                <p>It’s been a true inspiration for me to attend the coach certification program. It has been a very exhilarating journey.</p>
-                            </div>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/xiT1GoXSOps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

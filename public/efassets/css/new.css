@@ -308,3 +308,9 @@ video {
   .accordion__button[aria-expanded='true']::before{
     content: "\f068" !important;
   }
+
+ @media (min-width:900px){
+    .mwc500{
+        top: 14%;
+      }
+ }
