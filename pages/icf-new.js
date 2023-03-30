@@ -347,8 +347,8 @@ export default function Home() {
                     <div className="row">
                         <div className="clearfix"></div>
                         <div className="col-sm-6 brodbg">
-                            <h2>Passionate About Coaching?</h2>
-                            <h3>Enroll for our upcoming 39th Batch!</h3>
+                            <h2>Passionate About <br></br>Coaching?</h2>
+                            <h3>Enroll for our upcoming <br></br>39th Batch!</h3>
                             <h4>STARTING  22ND APRIL <br></br>10:00 AM TO 4:00 PM</h4>
                         </div>
                         <div className="col-sm-6 brod2bg">

@@ -191,23 +191,23 @@ video {
 }
 
 .brodbg h2 {
-    font-size: 52px;
+    font-size: 36px;
     padding: 41px 15px 0px 40px;
     color: #fff;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .brodbg h3 {
-    font-size: 48px;
-    padding: 20px 15px 0px 40px;
+    font-size: 32px;
+    padding: 1px 15px 0px 40px;
     color: #fff;
     font-weight: 500;
     line-height: 50px;
 }
 
 .brodbg h4 {
-    font-size: 36px;
-    padding: 18px 15px 0px 40px;
+    font-size: 32px;
+    padding: 2px 15px 0px 40px;
     color: #fff;
     line-height: 47px;
     font-weight: 500;
