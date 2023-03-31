@@ -175,17 +175,18 @@ export default function Home() {
                                     <h3>15th April 11 AM - 12 PM</h3>
                                     <form id="contactForm" className='clientcornner ptt-5 pbb-0' onSubmit={submit}>
                                         <div className="row">
-                                            <div className="col-sm-12 mb-12">
-                                                <input type="text" name="name" placeholder="Enter Name*" required />
-                                            </div>
-                                            <div className="col-sm-12 mb-12">
-                                                <input type="email" name="email" placeholder="Professional/Personal Email Address*" required />
+                                            <div className="col-sm-6 mb-12">
+                                                <input type="text" name="name" placeholder="Name*" required />
                                             </div>
                                             <div className="col-sm-6 mb-12">
                                                 <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                             </div>
+                                            <div className="col-sm-12 mb-12">
+                                                <input type="email" name="email" placeholder="Professional/Personal Email Address*" required />
+                                            </div>
 
-                                            <div className="col-sm-6 mb-12">
+
+                                            <div className="col-sm-12 mb-12">
                                                 <input type="text" name="organization" placeholder="Organization*" required />
                                             </div>
                                             <div className="col-sm-12 mb-12">
@@ -196,8 +197,8 @@ export default function Home() {
                                             <div className="col-sm-12 d-none">
                                                 <input type="text" name="Business_Entity" value="ICF" required />
                                             </div>
-                                            <div className="col-lg-12 mb-12">
-                                                <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Registere" />
+                                            <div className="col-lg-12 mb-12 text-center">
+                                                <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Register" />
                                             </div>
                                             <p id="showlabel" style={{ display: "none" }}></p>
                                         </div>
@@ -481,7 +482,7 @@ export default function Home() {
                 </div>
             </div>
 
-{/* 
+            {/* 
             <div class="ptt-60 pbb-50 lastcc">
                 <div className="container">
                     <div className="row ">
@@ -497,16 +498,25 @@ export default function Home() {
                     <div class="container">
                         <div class="newslatter-wrap extra-pt">
                             <div class="footer-newsletter fly-up">
-                                <div class="sec-title4 text-center mb-40">                       
-                                    <h2 class="title">Subscribe to Our Newsletter</h2>
+                                <div className='row'>
+                                    <div className='col-sm-6'>
+                                        <div class="sec-title4 text-center mb-40 plllc">
+                                            <h2 class="title">Subscribe to Our Newsletter</h2>
+                                            <p>Stay updated with the latest on Walchand</p>
+                                        </div>
+                                    </div>
+                                    <div className='col-sm-6'>
+                                        <form id="resetform" class="subscribe-form" onSubmit={FooregisterUser}>
+                                            <input type="email" name="email" placeholder="Enter Your Email" required />
+                                            <button id='submitbuttonform1' class="readon2" type="submit">Subscribe Now <div class="btn-arrow"></div></button>
+                                            <p id="showlabel1" style={{ display: "none" }}></p>
+                                        </form>
+                                    </div>
                                 </div>
-                                <form id="resetform" class="subscribe-form" onSubmit={FooregisterUser}>
-                                    <input type="email" name="email" placeholder="Enter Your Email" required/>
-                                    <button id='submitbuttonform1' class="readon2" type="submit">Subscribe Now <div class="btn-arrow"></div></button>
-                                    <p id="showlabel1" style={{ display: "none" }}></p>
-                                </form>
-                                <img class="img1 pattern" src="assets/images/pattern/pattern8.png" alt="" />
-                                <img class="img2 pattern" src="assets/images/pattern/pattern9.png" alt="" />
+
+
+                                {/* <img class="img1 pattern" src="assets/images/pattern/pattern8.png" alt="" />
+                                <img class="img2 pattern" src="assets/images/pattern/pattern9.png" alt="" /> */}
                             </div>
                         </div>
                     </div>

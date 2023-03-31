@@ -310,7 +310,7 @@ video {
   }
 .formhh h3{
     font-size: 18px;
-    color: #000;
+    color: #09396c;
     font-weight: 500;
     margin: 0px;
     line-height: 31px;
@@ -332,12 +332,29 @@ video {
     color: #4f4f4f;
 }
 
+.clientcornner input::placeholder{
+    color: hwb(211deg 44.63% 36.66%);
+}
+
+.clientcornner input{
+    color: hwb(211deg 44.63% 36.66%);
+}
 #rs-faq{
     background: #f6f6f6;
 }
 
+
+
  @media (min-width:900px){
     .mwc500{
         top: 14%;
+      }
+      .plllc h2{
+        text-align: left;
+        padding-left: 55px;
+      }
+      .plllc p{
+        text-align: left;
+        padding-left: 55px;
       }
  }
