@@ -231,7 +231,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div class="col-lg-5">
-                            <div class="about-img"><img src="/efassets/img/business-team-building.svg" alt="images" /></div>
+                            <div class="about-img"><img src="/assets/img/business-team-building.png" alt="images" /></div>
                         </div>
                     </div>
                 </div>
