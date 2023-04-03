@@ -502,7 +502,7 @@ export default function Home() {
                                     <div className='col-sm-6'>
                                         <div class="sec-title4 text-center mb-40 plllc">
                                             <h2 class="title">Subscribe to Our Newsletter</h2>
-                                            <p>Stay updated with the latest on Walchand</p>
+                                            <p>Stay updated with the latest on BYLD</p>
                                         </div>
                                     </div>
                                     <div className='col-sm-6'>
