@@ -208,7 +208,7 @@ export default function WebinarsAndProgramExperience(){
                             </div>
                             <div className='eventbottom'>
                             <h4 className="eventtitlec">Time: 3:00 pm - 4:00 pm</h4>
-                                <h3>Everything DiSC Workplace<sup>®</sup> on Catalyst™w</h3>
+                                <h3>Everything DiSC Workplace<sup>®</sup> on Catalyst™</h3>
                                 <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
                             </div>
                         </div>
