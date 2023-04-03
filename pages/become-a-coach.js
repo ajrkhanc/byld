@@ -122,9 +122,10 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Eagle’s Flight | Experiential Learning | BYLD Group</title>
-                <meta name="description" content="Eagle’s Flight offers corporate team building games in a virtual immersive learning environment for effective self-learning. To know more, check out the page." />
+                <title>Become a Coach | BYLD Group</title>
+                <meta name="description" content="When you think of becoming a coach – Think BYLD" />
                 <link rel="stylesheet" type="text/css" href="/efassets/css/new.css" />
+                <meta property="og:image" content="/efassets/img/business-team-building.svg"></meta>
             </Head>
 
             {/* <Modal className='toppc mwc500' toggle={() => setModalOpen1(!modalOpen1)} isOpen={modalOpen1} backdrop="static" keyboard={false}>
