@@ -57,20 +57,14 @@ export default function WebinarsAndProgramExperience(){
                     </div>
                     <div className='clearfix'></div>
 
-
-
-
-
-
-
                     <div className='col-sm-4 d-none'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>Webinar December 16th, 2022</span>
+                                <span>Webinar May 3rd, 2023</span>
                             </div>
                             <div className='eventbottom'>
-                                <h3>Everything DiSC Productive Conflict Webinar</h3>
+                                <h3>Everything DiSC Workplace<sup>®</sup> on Catalyst™</h3>
                                 <a className="eventbtn" target="_blank" href='/everythingdisc/everything-disc-productive-conflict-webinar'>Reserve Your Seat</a>
                             </div>
                         </div>
@@ -206,6 +200,22 @@ export default function WebinarsAndProgramExperience(){
                         </div>
                     </div>
 
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Webinar Wednesday, 3rd May 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className="eventtitlec">Time: 3:00 pm - 4:00 pm</h4>
+                                <h3>Everything DiSC Workplace<sup>®</sup> on Catalyst™w</h3>
+                                <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
                     {/* <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
@@ -274,7 +284,7 @@ export default function WebinarsAndProgramExperience(){
                                                 <option value="Virtual Training Apollo3 – Friday, April 14th, 2023">Virtual Training Apollo3 – Friday, April 14th, 2023</option>
                                                 <option value="Harnessing Creative Intelligence – Friday, April 14th, 2023">Harnessing Creative Intelligence – Friday, April 14th, 2023</option>
                                                 <option value="Five Behaviour - Overview, Virtual Course Preview, 26th April 2023">Five Behaviour - Overview, Virtual Course Preview, 26th April 2023</option>
-                                                {/* <option value="8th March 2023 - Eagle’s Flight Executive Briefing">8th March 2023 - Eagle’s Flight Executive Briefing</option> */}
+                                                <option value="3rd May 2023 - Everything DiSC Workplace® on Catalyst™">3rd May 2023 - Everything DiSC Workplace® on Catalyst™</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
