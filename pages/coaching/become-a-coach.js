@@ -65,7 +65,7 @@ export default function DTCICoachingAcademy() {
             <div className='col-sm-12'>
               <div className='pagetitle text-center'>
                 <h1>Become a Coach</h1>
-                <p>When you think of becoming a coach – Think BYLD</p>
+                <p>When you think of becoming a coach – Think BYLD Group</p>
                 <div class="btn-part ptt-10 pbb-30">
                   <a class="readon2" href="/coaching/become-a-professional-coach-marketing">Take Assessment <div class="btn-arrow"></div></a>
                 </div>
@@ -84,7 +84,7 @@ export default function DTCICoachingAcademy() {
                 <div className="heading-border-line left-style jencolor"></div>
               </div>
               <p className='text-justify ptt-20 icfpc'>
-                If you are a professional wishing to strengthen your current profile and boost your future prospects or you are one of those looking for a second carrier option, then you should consider the ICF coach certification program. Anyone aspiring to become a professional coach can benefit from being an ICF credentialed coach.
+                If you are a professional looking to strengthen your current profile and boost your future prospects, or you are one of those looking for a second carrier option, then you should consider the ICF coach certification program. Anyone aspiring to become a professional coach can benefit from being an ICF credentialed coach.
               </p>
             </div>
 
@@ -116,7 +116,7 @@ export default function DTCICoachingAcademy() {
                   ICF is a non-profit organization that is the leading global organization dedicated to advancing the coaching profession by setting high standards, providing independent certification and building a worldwide network of trained coaching professionals.
                 </p>
                 <p>
-                  In association with Aster Coaching US, and being accredited with International Coach Federation (ICF), we take pride in sharing with you that, we certify and develop high-caliber coaches who meet global standards and are in tune with local, regional and global business practices.
+                  In association with Aster Coaching US, and being accredited by International Coach Federation (ICF), we take pride in sharing with you that we certify and develop high-caliber coaches who meet global standards and are in tune with local, regional and global business practices.
                 </p>
               </div>
             </div>
@@ -127,41 +127,32 @@ export default function DTCICoachingAcademy() {
       <div class="shape-bg ptt-50 pbb-50 solutionsboxarea">
         <div class="container">
           <div class="row">
-
-
             <div class="col-sm-6 rightsides">
-
               <div className='row'>
                 <div class="col-sm-12">
                   <h4 className="countertoph2 text-left">Who can consider the ICF accredited certification program?</h4>
-
+                  <span className='hispan'>People who can consider ICF accredited certification program are:</span>
                   <div className='rs-estimate'>
                     <ul className='estimate-info mtt-5'>
-                      <li>HR heads, HR managers, Training managers, Trainers, and Consultants</li>
+                      <li>HR heads</li>
+                      <li>HR managers</li>
+                      <li>Training managers</li>
+                      <li>Trainers and Consultants</li>
+                      <li>Business Heads</li>
+                      <li>Directors</li>
+                      <li>General Managers</li>
+                      <li>Managers and Entrepreneurs</li>
+                      <li>CEOs</li>
+                      <li>Senior leaders</li>
+                      <li>Line Managers</li>
+                      <li>Team Leaders</li>
+                      <li>Supervisors and all other C-suit executives.</li>
+                      {/* <li>HR heads, HR managers, Training managers, Trainers, and Consultants</li>
                       <li>Business Heads, Directors, General Managers, Managers, and Entrepreneurs</li>
-                      <li>CEOs, Senior leaders, Line Managers, Team Leaders, Supervisors, and all other C-suit executives.</li>
+                      <li>CEOs, Senior leaders, Line Managers, Team Leaders, Supervisors, and all other C-suit executives.</li> */}
                     </ul>
                   </div>
                 </div>
-
-                <div class="col-sm-12">
-                  <h4 className="countertoph2 text-left">Why signup with BYLD?</h4>
-
-                  <div className='rs-estimate'>
-                    <ul className='estimate-info mtt-5'>
-                      <li>As a learning and development organisation which has been in business for more than 2 decades, we bring immense experience of designing and running successful learning journeys.</li>
-                      <li>9 years of experience running the coach certification program with 300 plus accredited coaches and 600 certified coaches.</li>
-                      <li>100% Pass results for achieving ICF ACC Credentials</li>
-                      <li>Seasoned International master coaches as facilitators</li>
-                      <li>10 hours of mentor coaching is included in the program</li>
-                      <li>Complete support at every step of the process by the dedicated relationship manager.</li>
-                      <li>Guaranteed peer coaching assistance</li>
-                      <li>Interest free EMI Option for fees</li>
-                    </ul>
-                  </div>
-                </div>
-
-
               </div>
             </div>
 
@@ -216,6 +207,28 @@ export default function DTCICoachingAcademy() {
 
 
           </div>
+        </div>
+      </div>
+
+      <div className='container ptt-40'>
+        <div className='row'>
+          <div class="col-sm-12">
+            <h4 className="countertoph2 text-left">Why signup with BYLD Group?</h4>
+            <span className='hispan'>8 reasons why you should signup with BYLD Group -</span>
+            <div className='rs-estimate'>
+              <ul className='estimate-info mtt-5'>
+                <li>As a learning and development organisation which has been in business for more than 2 decades, we bring immense experience of designing and running successful learning journeys.</li>
+                <li>9 years of experience running the coach certification program with 300 plus accredited coaches and 600 certified coaches.</li>
+                <li>100% Pass results for achieving ICF ACC Credentials</li>
+                <li>Seasoned International master coaches as facilitators</li>
+                <li>10 hours of mentor coaching is included in the program</li>
+                <li>Complete support at every step of the process by the dedicated relationship manager.</li>
+                <li>Guaranteed peer coaching assistance</li>
+                <li>Interest free EMI Option for fees</li>
+              </ul>
+            </div>
+          </div>
+          <div className=''></div>
         </div>
       </div>
 
