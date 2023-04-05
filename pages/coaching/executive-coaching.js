@@ -67,10 +67,10 @@ export default function DTCICoachingAcademy() {
             <div class="col-sm-6 rightsides">
               <div className="sec-title3 text-left">
                 <p className='mtt-'>
-                Coaching helps <b>unlock people's potential to maximize their performance.</b>
+                Coaching helps unlock people's potential to maximize their performance.
                 </p>
                 <p>
-                An experienced coach helps unlock the maximum potential of individuals and ensure they reach their defined goals in the shortest time with tailor made solutions customised to the learner’s needs.
+                An experienced coach helps unlock the maximum potential of individuals and ensure they reach their defined goals in the shortest time with tailor made solutions customized to the learner’s needs.
                 </p>
               </div>
 
@@ -80,16 +80,16 @@ export default function DTCICoachingAcademy() {
                   
                   <div className='rs-estimate'>
                     <ul className='estimate-info mtt-5'>
-                      <li>Improved business performance.</li>
-                      <li>Enhanced individual development.</li>
-                      <li>Increased retention of key people.</li>
+                      <li>Improved business performance</li>
+                      <li>Enhanced individual development</li>
+                      <li>Increased retention of key people</li>
                       <li>Greater productivity and customer service</li>
                     </ul>
                   </div>
                 </div>
 
                 <div class="col-sm-12">
-                  <h4 className="countertoph2 text-left">Benefits of Executive Coaching by BYLD -</h4>                  
+                  <h4 className="countertoph2 text-left">Benefits of Executive Coaching by BYLD Group -</h4>                  
                   <div className='rs-estimate'>
                     <ul className='estimate-info mtt-5'>
                       <li>In line with the highest standards set by ICF</li>

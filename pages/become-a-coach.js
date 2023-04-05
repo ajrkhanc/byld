@@ -298,7 +298,7 @@ export default function Home() {
                     <div className="row">
                         <div className="col-sm-12">
                             <div className="sec-title3 mbb-35">
-                                <h4 className="countertoph2 text-center font36">About BYLD Group</h4>
+                                <h4 className="countertoph2 text-center font36">A Quick Insight into ICF Certification</h4>
                                 <div className="heading-border-line center-style mbb-30"></div>
                             </div>
 
