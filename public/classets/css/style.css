@@ -7466,3 +7466,17 @@ table td {
 		top: 22%;
 	}
 }
+
+.knowmores{
+	display: block;
+}
+.knowmores a{
+	text-align: center;
+    background: #326fb1;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 21px;
+    margin: 0px;
+    margin: auto;
+    display: inline-block;
+}
