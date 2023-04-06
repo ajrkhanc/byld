@@ -496,7 +496,7 @@ export default function Home() {
                                 <div className='inerbtnccmd'>
                                     <div className='row'>
                                         <div className='col rights3'>
-                                            <a target="_blank" className='cc12btn cc12btntgtd' href='/cruciallifechangingskills/assessment/gtd-assessment'>Assessment</a>
+                                            <a target="_blank" className='cc12btn cc12btntgtd' href='/cruciallifechangingskills/assessment/gtd-assessment-marketing'>Assessment</a>
                                         </div>
                                         <div className='col lefts3'>
                                             <a className='cc12btn cc12btntgtd' onClick={() => setModalOpen2(!modalOpen2)}>Download Prevview</a>
@@ -515,7 +515,7 @@ export default function Home() {
                                 <div className='inerbtnccmd'>
                                     <div className='row'>
                                         <div className='col rights3'>
-                                            <a target="_blank" className='cc12btn' href='/cruciallifechangingskills/assessment/what-would-you-do-assessment'>Assessment</a>
+                                            <a target="_blank" className='cc12btn' href='/cruciallifechangingskills/assessment/what-would-you-do-assessment-marketing'>Assessment</a>
                                         </div>
                                         <div className='col lefts3'>
                                             <a className='cc12btn' onClick={() => setModalOpen3(!modalOpen3)}>Download Prevview</a>
@@ -534,7 +534,7 @@ export default function Home() {
                                 <div className='inerbtnccmd'>
                                     <div className='row'>
                                         <div className='col rights3'>
-                                            <a target="_blank" className='cc12btn cc12btntpoh' href='#'>Assessment</a>
+                                            <a target="_blank" className='cc12btn cc12btntpoh' href='/cruciallifechangingskills/assessment/the-power-of-habit-assessment-marketing'>Assessment</a>
                                         </div>
                                         <div className='col lefts3'>
                                             <a className='cc12btn cc12btntpoh' onClick={() => setModalOpen4(!modalOpen4)}>Download Prevview</a>
@@ -553,7 +553,7 @@ export default function Home() {
                                 <div className='inerbtnccmd'>
                                     <div className='row'>
                                         <div className='col rights3'>
-                                            <a target="_blank" className='cc12btn cc12btninc' href='/cruciallifechangingskills/assessment/influencer-assessment'>Assessment</a>
+                                            <a target="_blank" className='cc12btn cc12btninc' href='/cruciallifechangingskills/assessment/influencer-assessment-marketing'>Assessment</a>
                                         </div>
                                         <div className='col lefts3'>
                                             <a className='cc12btn cc12btninc' onClick={() => setModalOpen5(!modalOpen5)}>Download Prevview</a>
