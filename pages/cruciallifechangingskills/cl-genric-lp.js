@@ -1,7 +1,11 @@
 import Head from 'next/head'
 import Slider from "react-slick";
+import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
+import React from "react";
 
 export default function BrowseCourses() {
+
+    const [modalOpen1, setModalOpen1] = React.useState(false);
 
     const WorkshopsForm = async event => {
         event.preventDefault()
@@ -76,6 +80,38 @@ export default function BrowseCourses() {
         ]
     };
 
+
+    const whitp1 = async event => {
+        const coursename = 'Cl E-book';
+        event.preventDefault()
+        document.getElementById("submitbuttonform1").value = "Submitting...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/120/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/classets/pdf/ebook-leading-through-layoffs_cc.pdf"
+                    });
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("name=" + event.target.name.value +
+            "&youremail=" + event.target.email.value +
+            "&phone=" + event.target.phone.value +
+            "&company=" + event.target.organization.value)
+    }
+
     return (
         <>
             <Head>
@@ -84,6 +120,43 @@ export default function BrowseCourses() {
                 <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
                 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
             </Head>
+
+            <Modal className='toppc mwc500' toggle={() => setModalOpen1(!modalOpen1)} isOpen={modalOpen1} backdrop="static" keyboard={false}>
+                <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen1(!modalOpen1)}>
+                    <span aria-hidden={true}>×</span>
+                </button>
+
+                <ModalBody>
+                    <form id='contactForm' class="row popupfc" onSubmit={whitp1}>
+                        <div className='text-center width100p'>
+                            <h4>Want to get access to the E-book?</h4>
+                            <h5>Please Register to download </h5>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name*" required />
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="email" name="email" class="form-control" placeholder="Your Email*" required />
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name='organization' placeholder="Organization*" required />
+                        </div>
+
+
+                        <div class="col-md-12 text-center">
+                            <input id='submitbuttonform1' class="formbtn" type="submit" value="Submit" />
+                        </div>
+                        <p id="showlabel" style={{ display: "none" }}></p>
+                    </form>
+                </ModalBody>
+            </Modal>
+
             <section className='genericlpbanner'>
                 <div className='container'>
                     <div className='row y-middle'>
@@ -109,84 +182,28 @@ export default function BrowseCourses() {
             </section>
 
 
-            <section class="about-section preview-section">
+            <section class="about-section1 preview-section">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 preview-image">
-                            <a target="_blank" href='https://www.youtube.com/channel/UCwpwP8sH7YBIFs4xJeID9uA'><img src="/classets/img/gtd-img.jpg" /></a>
+                            <img src="/classets/img/ebooktheme1.jpg" />
                         </div>
 
                         <div class="col-lg-6 left-about-area preview-course">
                             <h1>MASSIVE LAYOFFS ARE MAKING NATIONAL HEADLINES.</h1>
                             <p>
-                            Across the tech industry, reports indicate that in the last twelve months, 1,666 companies have laid off more than 283,000 employees, with nearly half of those—126,000 layoffs—occurring in just the first few months of 2023.
+                                Across the tech industry, reports indicate that in the last twelve months, 1,666 companies have laid off more than 283,000 employees, with nearly half of those—126,000 layoffs—occurring in just the first few months of 2023.
                             </p>
                             <hr />
-                            <h6><i class="ph-play-circle-bold"></i> Since November 2022, Google has laid off 12,000 employees, Amazon 19,000, and Meta 21,000 employees.</h6>
+                            <div className='knowmores text-left'>
+                                <a href='#' onClick={() => setModalOpen1(!modalOpen1)}>Download Ebook</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className='ptt-40'>
-                <div className='container'>
-                    <div class="col-md-12 form-area workshop-form">
-                        <form id="contactForm" class="row" onSubmit={WorkshopsForm}>
-                            <div class="col-lg-12 contact-title">
-                                <h3 className='formh3'>
-                                    Fill in the form below and our subject matter expert will connect with you within 24 working hours.
-                                </h3>
-                            </div>
-                            <div class="col-md-6 col-6">
-                                <input type="text" name='name' placeholder="Your Name*" required />
-                            </div>
 
-                            <div class="col-md-6 col-6">
-                                <input type="email" name='email' placeholder="Your Email*" required />
-                            </div>
-
-                            <div class="col-md-6 col-6">
-                                <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
-                            </div>
-
-                            <div class="col-md-6 col-6">
-                                <input type="text" name='organization' placeholder="Organization*" required />
-                            </div>
-
-                            <div class="col-md-6 col-6">
-                                <input type="text" name='designation' placeholder="Designation" />
-                            </div>
-
-
-
-                            <div class="col-md-6 col-6">
-                                <select name='slot' required>
-                                    <option value="">Pick any Slot*</option>
-                                    <option value="Crucial Conversations for Mastering Dialogue">Crucial Conversations for Mastering Dialogue</option>
-                                    <option value="Crucial Conversations for Accountability">Crucial Conversations for Accountability</option>
-                                    <option value="The Power of Habit">The Power of Habit</option>
-                                    <option value="Influencer">Influencer</option>
-                                    <option value="Getting Things Done">Getting Things Done</option>
-                                </select>
-                            </div>
-
-
-                            <div class="col-md-12">
-                                <textarea name='nots' placeholder="Your Message" rows="5"></textarea>
-                            </div>
-
-                            <div class="d-none">
-                                <input type="text" name='Business_Entity' value="Crucial Life-Changing Skills" />
-                            </div>
-
-                            <div class="col-md-12">
-                                <input id='submitbuttonform' class="formbtn" type="submit" value="Submit" />
-                            </div>
-                            <p id="showlabel" style={{ display: "none" }}></p>
-                        </form>
-                    </div>
-                </div>
-            </section>
 
             <div className='desktopviewbrowse ptt-50'>
                 <section class="about-section pbb-90">
@@ -341,7 +358,7 @@ export default function BrowseCourses() {
 
                             <div class="col-md-6 col-6">
                                 <select name='slot' required>
-                                    <option value="">Pick any Slot*</option>
+                                    <option value="">Pick any Solutions*</option>
                                     <option value="Crucial Conversations for Mastering Dialogue">Crucial Conversations for Mastering Dialogue</option>
                                     <option value="Crucial Conversations for Accountability">Crucial Conversations for Accountability</option>
                                     <option value="The Power of Habit">The Power of Habit</option>
