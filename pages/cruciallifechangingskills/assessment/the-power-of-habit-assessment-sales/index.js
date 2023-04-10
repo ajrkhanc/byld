@@ -78,7 +78,7 @@ export default function BrowseCourses() {
                 document.getElementById("response").innerHTML = "Assessment Result"
 
                 window.setTimeout(function () {
-                    window.location.href = `/cruciallifechangingskills/assessment/the-power-of-habit-assessment-sales/${newnameurl}`
+                    window.location.href = '/cruciallifechangingskills/thank-you'
                 }, 1000);
 
             }
