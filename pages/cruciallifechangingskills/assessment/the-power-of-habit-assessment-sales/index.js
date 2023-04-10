@@ -31,6 +31,20 @@ export default function BrowseCourses() {
         const newnameurl = nameurl.split(' ').join('-')
 
 
+        var px = '%'
+        var result1 = parseInt(q1) + parseInt(q2) + parseInt(q3)
+        var result2 = parseInt(q4) + parseInt(q4) + parseInt(q6)
+        var result3 = parseInt(q7) + parseInt(q8) + parseInt(q9)
+        var result4 = parseInt(q10) + parseInt(q11) + parseInt(q12)
+        var result5 = parseInt(q13) + parseInt(q14) + parseInt(q15)
+
+        var overall = result1 + result2 + result3 + result4 + result5
+        var overresult = overall / 150 * 100
+
+        var overallresult = overresult.toFixed(2) + px;
+
+
+
 
         var xhr = new XMLHttpRequest();
         xhr.open('POST', 'https://clblogs.vercel.app/api/the-power-of-habit-assessment');
@@ -84,16 +98,19 @@ export default function BrowseCourses() {
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/89/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/122/feedback');
         xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
    
         var Assessment ="The Power of Habit Assessment Form Sales"
         xhttp.send("name=" + event.target.name.value +
         '&email=' + email +
-        '&phone=' + phone +
-        '&organization=' + organization+
-        '&assessment=' + Assessment)
+        '&Overall-Score=' + overallresult +
+        '&Identify-Lag-in-Habits=' + result1 +
+        '&Leave-the-Lag-Behind=' + result2 +
+        '&Make-New-Routines-Easy=' + result3 +
+        '&Make-it-Desirable=' + result4 +
+        '&Make-New-Habit-Habitual=' + result5)
 
         xhr.onerror = function () {
             console.log('error');
@@ -909,14 +926,14 @@ export default function BrowseCourses() {
                         <div className='col-sm-12'>
                             <div className='fcol1 lastinp ptt-20'>
                                 <div className='row inpuut'>
-                                    <div className="col-sm-4 mb-12">
+                                    <div className="col-sm-6 mb-12">
                                         <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
                                     </div>
-                                    <div className="col-sm-4 mb-12">
+                                    <div className="col-sm-6 mb-12">
                                         <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
                                     </div>
-                                    <div className="col-sm-4 mb-12">
-                                        <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                    <div className="col-sm-4 mb-12 d-none">
+                                        <input className='form-control' type="text" name="phone" value='0000000000' maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                     </div>
 
                                     <div className="col-sm-6 mb-12 d-none">

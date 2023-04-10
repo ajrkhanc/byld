@@ -38,12 +38,40 @@ export default function Home() {
         nameurl = nameurl.toLowerCase();
         const newnameurl = nameurl.split(' ').join('-')
 
+        var px = '%'
+        var overall = parseInt(q1) + parseInt(q2) + parseInt(q1) + parseInt(q2) + parseInt(q3) +
+            parseInt(q4) + parseInt(q5) + parseInt(q6) +
+            parseInt(q7) + parseInt(q8) + parseInt(q9) +
+            parseInt(q10) + parseInt(q11) + parseInt(q12) +
+            parseInt(q13) + parseInt(q14) + parseInt(q15) +
+            parseInt(q16) + parseInt(q17) + parseInt(q18) +
+            parseInt(q19) + parseInt(q20) + px;
+
+  
+
+
+        var Capture = parseInt(q1) + parseInt(q2) + parseInt(q3) + parseInt(q4) + px;
+
+
+        var Clarify = parseInt(q5) + parseInt(q6) + parseInt(q7) + parseInt(q8) + px;
+     
+
+        var Organize = parseInt(q9) + parseInt(q10) + parseInt(q11) + parseInt(q12) + px;
+   
+
+        var ReflectEngage = parseInt(q13) + parseInt(q14) + parseInt(q15) + parseInt(q16) + px;
+    
+
+        var RenewThroughReview = parseInt(q17) + parseInt(q18) + parseInt(q19) + parseInt(q20) + px;
+        
+
+
 
 
 
         var xhr = new XMLHttpRequest();
         xhr.open('POST', 'https://clblogs.vercel.app/api/assesmentf');
-        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');        
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send('q1=' + q1 +
             '&q2=' + q2 +
             '&q3=' + q3 +
@@ -101,23 +129,26 @@ export default function Home() {
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/89/feedback');
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/121/feedback');
         xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
-   
-        var Assessment ="GTD Assessment Form Sales"
+
+        var Assessment = "GTD Assessment Form Sales"
         xhttp.send("name=" + event.target.name.value +
-        '&email=' + email +
-        '&phone=' + phone +
-        '&organization=' + organization+
-        '&assessment=' + Assessment)
+            '&email=' + email +
+            '&Overall-Score=' + overall +
+            '&Capture=' + Capture +
+            '&Clarify=' + Clarify +
+            '&Organize=' + Organize +
+            '&Reflect-and-Engage=' + ReflectEngage +
+            '&Renew-Through-Review=' + RenewThroughReview)
 
 
         xhr.onerror = function () {
             console.log('error');
         }
     };
-    
+
 
     return (
         <>
@@ -353,14 +384,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa
                                     </div>
 
                                     <div className='row inpuut'>
-                                        <div className="col-sm-4 mb-12">
+                                        <div className="col-sm-6 mb-12">
                                             <input className='form-control' type="text" name="name" placeholder="Your Name*" required />
                                         </div>
-                                        <div className="col-sm-4 mb-12">
+                                        <div className="col-sm-6 mb-12">
                                             <input className='form-control' type="email" name="email" placeholder="Your Email*" required />
                                         </div>
-                                        <div className="col-sm-4 mb-12">
-                                            <input className='form-control' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                        <div className="col-sm-4 mb-12 d-none">
+                                            <input className='form-control' type="text" name="phone" value='0000000000' maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                         </div>
 
                                         <div className="col-sm-6 mb-12 d-none">
