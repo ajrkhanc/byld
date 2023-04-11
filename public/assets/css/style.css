@@ -1633,7 +1633,7 @@ blockquote cite:before {
 .full-width-header .rs-header .menu-area .rs-menu-area {
   display: flex;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 .full-width-header .rs-header .menu-area .main-menu {
   position: unset;
@@ -8959,5 +8959,11 @@ body .search-modal .close:hover {
     max-height: 46px !important;
     margin-top: -7px !important;
 }
+}
+
+@media (min-width:992px){
+  .dnoneinpc{
+    display: none !important;
+  }
 }
 

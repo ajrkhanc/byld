@@ -147,9 +147,15 @@ export default function Header() {
                                                             <li><a href="/workshops">Workshops</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li>
-                                                        <a href="/blog">BLOG</a>
+
+                                                    <li className="menu-item-has-children">
+                                                        <a href="#">RESOURCES</a>
+                                                        <ul className="sub-menu">
+                                                            <li><a href="/blog">Blogs</a></li>
+                                                            <li><a href="/ebook">E-books</a></li>
+                                                        </ul>
                                                     </li>
+
                                                     <li className="menu-item-has-children">
                                                         <a href="#">MEDIA</a>
                                                         <ul className="sub-menu">
@@ -166,7 +172,7 @@ export default function Header() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-cell">
+                                <div className="col-cell dnoneinpc">
                                     <div className="expand-btn-inner">
                                         <ul>
                                             <li className="humburger">
@@ -335,8 +341,13 @@ export default function Header() {
                                     <li><a href="/workshops">Workshops</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="/blog">BLOG</a>
+
+                            <li className="menu-item-has-children">
+                                <a href="#">RESOURCES</a>
+                                <ul className="sub-menu">
+                                    <li><a href="/blog">Blogs</a></li>
+                                    <li><a href="/ebook">E-books</a></li>
+                                </ul>
                             </li>
                             <li className="menu-item-has-children">
                                 <a href="#">MEDIA</a>

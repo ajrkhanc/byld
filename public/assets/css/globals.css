@@ -4219,3 +4219,11 @@ table td {
 }
 
 .mwc500{max-width: 500px !important;}
+
+.ebookst h4{
+  margin: 0px;
+  padding: 10px 10px 0px 15px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
