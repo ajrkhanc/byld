@@ -39,7 +39,7 @@ export default function Ebookpage(){
         <>
           <Head>
             <title>Creating a Coaching Culture - BYLD Group</title>
-            <meta name="description" content="The more volatile, uncertain, complex, and ambiguous our working environments become, the more critical a truly agile workforce is to success. "/> 
+            <meta name="description" content="InsideOut Development is an award-winning training and development company that helps drive results at the individual, team, and organizational levels. For over two decades, InsideOut Development has helped free up tens of thousands of people using best-in-class training programs, coaching services, and business performance solutions that help our clients turn existing potential into high performance."/> 
           </Head>
 
           <div className="rs-services">

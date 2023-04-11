@@ -11,8 +11,8 @@ export default function Books(){
     return(
         <>
           <Head>
-            <title>E-books - Everything DiSC</title>
-            <meta name="description" content="Explore Our Library Crucial Conversations First Chapter Crucial Accountability First Chapter Influencer First Chapter The Power of Habit Book Online Management and Leadership Resources Measuring the Impact and ROI of Leadership Training 7 Ways Poor Leaders Are Costing Your Company Money 3 Fatal Mistakes Managers Make When Coaching Their Teams When It Comes to Customer… Continue reading Books"/> 
+            <title>E-books - BYLD Group</title>
+            <meta name="description" content=""/> 
           </Head>
             
             <div className="rs-about style2 clientcornnerlogo ptt-20 pbb-30">
@@ -21,7 +21,7 @@ export default function Books(){
                         <div className="col-sm-12">
                            <div className="">
                                <div className="sec-title3 mbb-35">
-                                    <h4 className="countertoph2 text-center font30">Explore Our Library</h4>
+                                    <h4 className="countertoph2 text-center font30">Explore Our E-books</h4>
                                     <div className="heading-border-line center-style"></div>
                                </div>                             
                             </div>
