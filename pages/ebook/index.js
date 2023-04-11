@@ -31,7 +31,7 @@ export default function Books(){
                            <div className="innervideoshd ebookst">
                                <a href='/ebook/inout-creating-coaching-culture'>
                                <img src='/assets/img/ebook/inout-creating-coaching-culture.jpg' alt="books"/>
-                               <h4 className=''>How to Navigate The Great Resignation</h4>
+                               <h4 className=''>Creating a Coaching Culture</h4>
                                <h3 className='booktitlerow1'>Read eBook</h3>
                                </a>
                             </div>
