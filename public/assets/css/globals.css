@@ -4227,3 +4227,14 @@ table td {
   font-size: 20px;
   line-height: 30px;
 }
+
+.ebookbtn{
+  color: #ffffff !important;
+    font-size: 20px;
+    padding: 3px 26px  !important;;
+    font-weight: 500;
+    background: #3373af  !important;;
+    display: inline-block;
+    border-radius: 22px;
+    margin-top: 10px;
+}

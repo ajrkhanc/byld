@@ -28,11 +28,11 @@ export default function Books(){
                         </div>
                         
                         <div className="col-sm-4">
-                           <div className="innervideoshd ebookst">
+                           <div className="innervideoshd ebookst text-center">
                                <a href='/ebook/inout-creating-coaching-culture'>
                                <img src='/assets/img/ebook/inout-creating-coaching-culture.jpg' alt="books"/>
                                <h4 className=''>Creating a Coaching Culture</h4>
-                               <h3 className='booktitlerow1'>Read eBook</h3>
+                               <h3 className='ebookbtn'>Read eBook</h3>
                                </a>
                             </div>
                         </div>
