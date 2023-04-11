@@ -346,7 +346,7 @@ export default function Header() {
                                 <ul className="sub-menu">
                                     <li><a href="/blog">Blogs</a></li>
                                     <li><a href="/ebook">E-books</a></li>
-                                </ul>
+                                </ul> 
                             </li>
                             <li className="menu-item-has-children">
                                 <a href="#">MEDIA</a>
