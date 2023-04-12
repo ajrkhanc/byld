@@ -32,7 +32,7 @@ export default function Books(){
                                <a href='/ebook/inout-creating-coaching-culture'>
                                <img src='/assets/img/ebook/inout-creating-coaching-culture.jpg' alt="books"/>
                                <h4 className=''>Creating a Coaching Culture</h4>
-                               <h3 className='ebookbtn'>Read eBook</h3>
+                               <h3 className='ebookbtn'>Read E-book</h3>
                                </a>
                             </div>
                         </div>
