@@ -46,6 +46,20 @@ export default function MyApp({ Component, pageProps, router }) {
           <script src="https://unpkg.com/phosphor-icons"></script>
           <link rel="stylesheet" href="/classets/css/style.css" />
           <link rel="shortcut icon" href="/classets/favicon.png" type="image/x-icon" />
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYF0M71008"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CYF0M71008');
+          `,
+            }}
+          />
+
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25012511-1"></script>
           <script
             dangerouslySetInnerHTML={{
@@ -124,6 +138,26 @@ export default function MyApp({ Component, pageProps, router }) {
                 `,
             }}
           />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3EZ957QPRY"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3EZ957QPRY');
+                `,
+            }}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+
           <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
@@ -468,6 +502,20 @@ export default function MyApp({ Component, pageProps, router }) {
                 `,
             }}
           />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R93RP8FMVC"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R93RP8FMVC');
+                `,
+            }}
+          />
+
           <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
@@ -532,6 +580,19 @@ export default function MyApp({ Component, pageProps, router }) {
   gtag('js', new Date());
 
   gtag('config', 'UA-205257587-1');
+                `,
+            }}
+          />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R93RP8FMVC"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R93RP8FMVC');
                 `,
             }}
           />
