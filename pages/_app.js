@@ -217,7 +217,7 @@ export default function MyApp({ Component, pageProps, router }) {
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-P9GPQ8EC4C');
+  gtag('config', 'G-P9GPQ8EC4C'); 
                 `,
             }}
           />
