@@ -5,18 +5,18 @@ import Image from 'next/image'
 import Slider from "react-slick";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-// export async function getServerSideProps() {
-//    const res = await fetch('https://byldnewspr.vercel.app/api/posts')
-//    const posts = await res.json()
+export async function getServerSideProps() {
+   const res = await fetch('https://byldnewspr.onrender.com/api/posts')
+   const posts = await res.json()
 
-//    return {
-//       props: {
-//          posts
-//       },
-//    }
-// } { posts }
+   return {
+      props: {
+         posts
+      },
+   }
+} 
 
-export default function Home() {
+export default function Home({ posts }) {
 
    const PopupRegisterd = async event => {
       event.preventDefault()
@@ -939,7 +939,7 @@ export default function Home() {
                            <h4 className="countertoph2">WHAT MAKES US DIFFERENT?</h4>
                            <div className="heading-border-line left-style"></div>
                         </div>
-                        {/* <Slider {...postslider}>
+                        <Slider {...postslider}>
                         {
                            posts.slice(0, 5).map((allpr) => {
                               return (
@@ -975,7 +975,7 @@ export default function Home() {
                               )
                            })
                         }
-                        </Slider> */}
+                        </Slider>
                         {/* <div className='row'>
                            <div className='col-sm-12'>
                               <div className="counter-right mbb-15">

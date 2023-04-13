@@ -5,7 +5,7 @@ import moment from 'moment'
 
 export async function getServerSideProps(context) {
     const slug = context.params.blogsSlug;
-    const post5 = await fetch(`https://yogeshsood-eight.vercel.app/api/post/${slug}`)
+    const post5 = await fetch(`https://yogeshsood-nngs.onrender.com/api/post/${slug}`)
     const posts = await post5.json()
 
 

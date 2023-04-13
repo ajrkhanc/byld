@@ -43,7 +43,7 @@ export default function BrowseCourses() {
 
           const JSONdata = JSON.stringify(data)
 
-          const endpoint = 'https://eaglesflightindiablog.vercel.app/api/leader-behaviour-assessment'
+          const endpoint = 'https://eaglesflightindiablog.onrender.com/api/leader-behaviour-assessment'
 
           const options = {
             // The method is POST because we are sending data.
