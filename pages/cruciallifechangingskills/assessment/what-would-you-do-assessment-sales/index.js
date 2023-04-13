@@ -113,7 +113,7 @@ export default function BrowseCourses() {
 
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'https://clblogs.vercel.app/api/whatwouldyoudoassessment');
+        xhr.open('POST', 'https://clblogs-dipr.onrender.com/api/whatwouldyoudoassessment');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send('q1a1=' + q1a1 +
             '&q1b1=' + q1b1 +

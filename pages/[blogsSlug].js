@@ -17,14 +17,14 @@ import moment from 'moment'
 
 
 export async function getServerSideProps(context) {
-    const post5 = await fetch('https://byldblogs.vercel.app/api/posts')
+    const post5 = await fetch('https://byldblogs-4eef.onrender.com/api/posts')
     const posts5 = await post5.json()
 
     const posturl = context.params.blogsSlug;
-    const res = await fetch(`https://byldblogs.vercel.app/api/post/${posturl}`)
+    const res = await fetch(`https://byldblogs-4eef.onrender.com/api/post/${posturl}`)
     const posts = await res.json()
 
-    const getfeedback = await fetch(`https://byldblogs.vercel.app/api/posts/feed/${posturl}`)
+    const getfeedback = await fetch(`https://byldblogs-4eef.onrender.com/api/posts/feed/${posturl}`)
     console.log(getfeedback)
     const postfeedback = await getfeedback.json()
 
@@ -48,7 +48,7 @@ const submitFeedback = async (event) => {
     const feedback = event.target.comments.value;
     const posturl = findparams[3];
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://byldblogs.vercel.app/api/feedback/');
+    xhr.open('POST', 'https://byldblogs-4eef.onrender.com/api/feedback/');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.send('feedback=' + feedback + '&name=' + name + '&email=' + email + '&postslug=' + posturl);
 

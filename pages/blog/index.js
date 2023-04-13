@@ -2,10 +2,10 @@ import Head from 'next/head'
 import  moment from 'moment'
 
 export async function getServerSideProps() {
-    const res = await fetch('https://byldblogs.vercel.app/api/posts')
+    const res = await fetch('https://byldblogs-4eef.onrender.com/api/posts')
     const posts = await res.json()
 
-    const cat = await fetch('https://byldblogs.vercel.app/api/categories')
+    const cat = await fetch('https://byldblogs-4eef.onrender.com/api/categories')
     const cats = await cat.json()
 
     return {

@@ -2,10 +2,10 @@ import Head from 'next/head'
 import  moment from 'moment'
 
 export async function getServerSideProps() {
-    const res = await fetch('https://clblogs.vercel.app/api/posts')
+    const res = await fetch('https://clblogs-dipr.onrender.com/api/posts')
     const posts = await res.json()
 
-    const cat = await fetch('https://clblogs.vercel.app/api/categories')
+    const cat = await fetch('https://clblogs-dipr.onrender.com/api/categories')
     const cats = await cat.json()
 
     return {

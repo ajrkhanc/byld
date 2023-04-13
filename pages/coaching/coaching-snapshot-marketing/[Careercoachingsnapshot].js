@@ -8,7 +8,7 @@ import Image from 'next/image'
 export async function getServerSideProps(context) {
     const caturl = context.params.Careercoachingsnapshot;
 
-    const res = await fetch(`https://clblogs.vercel.app/api/career-coaching-snapshot/${caturl}`)
+    const res = await fetch(`https://clblogs-dipr.onrender.com/api/career-coaching-snapshot/${caturl}`)
     const result = await res.json()
     return {
         props: {
