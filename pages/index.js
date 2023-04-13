@@ -5,18 +5,18 @@ import Image from 'next/image'
 import Slider from "react-slick";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-export async function getServerSideProps() {
-   const res = await fetch('https://byldnewspr.vercel.app/api/posts')
-   const posts = await res.json()
+// export async function getServerSideProps() {
+//    const res = await fetch('https://byldnewspr.vercel.app/api/posts')
+//    const posts = await res.json()
 
-   return {
-      props: {
-         posts
-      },
-   }
-}
+//    return {
+//       props: {
+//          posts
+//       },
+//    }
+// } { posts }
 
-export default function Home({ posts }) {
+export default function Home() {
 
    const PopupRegisterd = async event => {
       event.preventDefault()
@@ -939,7 +939,7 @@ export default function Home({ posts }) {
                            <h4 className="countertoph2">WHAT MAKES US DIFFERENT?</h4>
                            <div className="heading-border-line left-style"></div>
                         </div>
-                        <Slider {...postslider}>
+                        {/* <Slider {...postslider}>
                         {
                            posts.slice(0, 5).map((allpr) => {
                               return (
@@ -965,14 +965,7 @@ export default function Home({ posts }) {
                                              </div>
                                              <div className="blog-button">
                                                 <a className="blog-btn" target="_blank" href={allpr.PostNewURL}>Continue Reading</a>
-                                                {/* {
-                                        (()=>{
-                                            if(sss)
-                                            return<h1>hii</h1>
-                                            else
-                                            return<h4>sdfsdfsdf</h4>
-                                        })()
-                                    } */}
+                                             
                                              </div>
                                           </div>
                                        </div>
@@ -982,7 +975,7 @@ export default function Home({ posts }) {
                               )
                            })
                         }
-                        </Slider>
+                        </Slider> */}
                         {/* <div className='row'>
                            <div className='col-sm-12'>
                               <div className="counter-right mbb-15">
