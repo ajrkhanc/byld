@@ -151,7 +151,7 @@ export default function InsideOutCoaching() {
                                     <div class="number-part">
                                         <a className='hccs' href='/coaching/breakthroughs'>
                                             <div class="number-image">
-                                                <span>Breakthrough</span>
+                                                <span>Breakthroughs</span>
                                             </div>
 
                                         </a>

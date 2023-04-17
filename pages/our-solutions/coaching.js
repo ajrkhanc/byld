@@ -66,7 +66,7 @@ export default function Coaching() {
                                             <div class="service-icon">
                                                 <img src="/assets/img/icon/link.png" alt="" />
                                             </div>
-                                            <h4 class="title mb-18">Breakthrough</h4>
+                                            <h4 class="title mb-18">Breakthroughs</h4>
                                         </div>
                                     </a>
                                 </div>
