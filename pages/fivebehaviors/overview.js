@@ -82,7 +82,7 @@ export default function FIveBgenriclp() {
     return (
         <>
             <Head>
-                <title>Five Behaviors landing page - Five Behaviors</title>
+                <title>Learn to Unlock the Full Potential and Effectiveness of Your Teams - Five Behaviors</title>
                 <meta name="description" content="Learn to Unlock the Full Potential and Effectiveness of Your Teams" />
             </Head>
 
@@ -92,7 +92,7 @@ export default function FIveBgenriclp() {
                         <div className="col-md-7 col-sm-12">
                             <div className="content-wrap">
                                 <h2 className="colorw">Learn to Unlock the Full Potential and Effectiveness of Your Teams</h2>
-                                <h3 className="colorw">Utilize the insights of The Five Behaviors<sup>®</sup> team development model.</h3>
+                                <h3 className="colorw">Utilize the insights of <span className='clpc'>The Five Behaviors<sup>®</sup></span> team development model.</h3>
                             </div>
                         </div>
                         <div className="col-md-5 col-sm-12">
@@ -149,7 +149,7 @@ export default function FIveBgenriclp() {
                             <div className="sec-title3">
 
                                 <div className="desc pb-17">
-                                    The tried and tested The Five Behaviors<sup>®</sup> team development model is based on the best-selling book of Patrick Lencioni- The Five Dysfunctions of a Team. The program comprises the key components- Trust, Conflict, Commitment, Accountability, and Results for creating a high-performing team. The Five Behaviors<sup>®</sup> focuses on optimizing contribution to team development, improving decision-making, and building an accountable team for optimum results.
+                                    The tried and tested, <b>The Five Behaviors<sup>®</sup></b> team development model is based on the best-selling book of Patrick Lencioni- <b>The Five Dysfunctions of a Team</b>. The program comprises the key components- Trust, Conflict, Commitment, Accountability, and Results for creating a high-performing team. <b>The Five Behaviors<sup>®</sup></b> focuses on optimizing contribution to team development, improving decision-making, and building an accountable team for optimum results.
                                 </div>
                             </div>
                         </div>

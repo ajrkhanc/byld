@@ -924,3 +924,11 @@ margin-bottom: 5px;
 .mbgcv{
   background: #fff8f9;
 }
+
+.clpc{
+  color: #ed223c;
+  background: white;
+  padding: 10px;
+  border-top-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+}
