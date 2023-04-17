@@ -32,6 +32,7 @@ export default function CoachCertificationLP(){
             "&leadsquared-Company=" + event.target.companyname.value +
             "&leadsquared-JobTitle=" + event.target.designation.value +
             "&wheredidyoucome=" + event.target.wheredidyoucome.value +
+            "&Interest_in=" + event.target.Interest_in.value +            
             "&leadsquared-Notes=" + event.target.leadsquared_Notes.value +
             "&leadsquared-mx_Business_Entity=" + event.target.leadsquared_mx_Business_Entity.value )
 
@@ -77,7 +78,7 @@ export default function CoachCertificationLP(){
                 </div>
             </div>
 
-            <section className='icfemibg ptt-40 pbb-30'>
+            {/* <section className='icfemibg ptt-40 pbb-30'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-2'></div>
@@ -93,12 +94,12 @@ export default function CoachCertificationLP(){
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
 
 
-            <div className="ptt-50 pbb-50">
+            <div id='register' className="ptt-50 pbb-50">
                 <div className="container custom">
                     <div className="row y-middle">
                         <div className="col-md-6">
@@ -203,6 +204,15 @@ export default function CoachCertificationLP(){
                                                 <option value="Social Media">Google Search</option>
                                             </select>
                                         </div>
+
+                                        <div className="col-lg-12 mb-12">
+                                            <select name="Interest_in" required>
+                                                <option value="">Interest In*</option>
+                                                <option value="ICF Batch 39 - Starting 22nd April, 2023">ICF Batch 39 - Starting 22nd April, 2023</option>
+                                                <option value="ICF Batch 40 - Starting 10th June, 2023">ICF Batch 40 - Starting 10th June, 2023</option>
+                                            </select>
+                                        </div>
+
                                         <div className="col-lg-12 mb-12 d-none">
                                             <input type="text" name="leadsquared_mx_Business_Entity" placeholder="BYLD Group" value="BYLD Group" required />
                                         </div>
@@ -255,6 +265,57 @@ export default function CoachCertificationLP(){
                     </div>
                 </div>
             </section>
+
+
+            <section className='ptt-20 pbb-20'>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-sm-12'>
+                    <div className="sec-title3 mbb-35">
+                        <h4 className="countertoph2 text-center font30">Passionate about coaching?</h4>                        
+                    </div>
+                    </div>
+                    <div className='clearfix'></div>
+
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Starting 22nd April, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className='eventtitlec'>ICF Batch 39</h4>
+                                <h3>Time: 10:00 AM - 4:00 PM</h3>
+                                <a className="eventbtn" href='#register'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>Starting 10th June, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                            <h4 className='eventtitlec'>ICF Batch 40</h4>
+                                <h3>Time: 10:00 AM - 4:00 PM</h3>
+                                <a className="eventbtn" href='#register'>REGISTER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+
+
+                    
+
+                    
+                    
+                </div>
+            </div>
+        </section>
 
             
         </>
