@@ -575,7 +575,7 @@
                 margin: 0px;
               }
               .clientcornnerbtn{
-                width: 120px !important;
+                width: 149px !important;
                 background: #3373ae;
                 color: #fff !important;
                 border: 0px !important;
@@ -911,4 +911,16 @@ margin-bottom: 5px;
     margin-top: -7px !important;
 }
 }
+
+
+
+.genericlpc {
+  background: url(/5bassets/img/banner/genericlpc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
    
+.mbgcv{
+  background: #fff8f9;
+}

@@ -111,7 +111,7 @@ export default function EverythingDiSCWorkplace(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="slot" required>
                                                 <option value="">Pick up any Slot*</option>
-                                                <option value="December 2nd, 2022 Everything DiSC Workplace on Catalyst Webinar">December 2nd, 2022 Everything DiSC Workplace on Catalyst Webinar</option>
+                                                <option value="May 13th, 2023 Everything DiSC Workplace on Catalyst Webinar">May 13th, 2023 Everything DiSC Workplace on Catalyst Webinar</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
