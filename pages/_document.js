@@ -52,33 +52,6 @@ class MyDocument extends Document {
           <script src="/assets/js/main.js"></script>
           <script src="/classets/js/script.js"></script>
           <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
-
-     
-          <script type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: `
-              {
-                "@context": "https://schema.org",
-                "@type": "Corporation",
-                "name": "BYLD Group",
-                "url": "https://byldgroup.com/",
-                "logo": "https://byldgroup.com/assets/img/byld-logo.svg",
-                "sameAs": [
-                  "https://www.facebook.com/BYLDGroup",
-                  "https://twitter.com/BYLDGroup",
-                  "https://www.instagram.com/byld_group/",
-                  "https://www.youtube.com/@BYLDgroup",
-                  "https://www.linkedin.com/company/byld-group/",
-                  "",
-                  "https://in.pinterest.com/byldgroupindia/",
-                  "https://soundcloud.com/byld-group",
-                  "",
-                  "https://byldgroup.com/"
-                ]
-              }
-            `,
-          }}
-        />
         </body>
       </Html>
     )

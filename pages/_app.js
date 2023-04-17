@@ -80,6 +80,31 @@ export default function MyApp({ Component, pageProps, router }) {
           />
           <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
 
+          <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+                "@context": "https://schema.org",
+                "@type": "Corporation",
+                "name": "Crucial Life-Changing Skills",
+                "url": "https://byldgroup.com/cruciallifechangingskills",
+                "logo": "https://byldgroup.com/classets/img/cruciallifechangingskills-logo.svg",
+                "sameAs": [
+                  "https://www.facebook.com/Cruciallifechangingskills",
+                  "https://twitter.com/crucial__skills",
+                  "https://www.instagram.com/cruciallifechangingskills/",
+                  "https://www.youtube.com/@CrucialLifeChangingSkills",
+                  "https://www.linkedin.com/company/crucial-life-changing-skills/",
+                  "https://soundcloud.com/user-927726372-657474651",
+                  "https://in.pinterest.com/cruciallearningmail/",
+                  "",
+                  "https://byldgroup.com/cruciallifechangingskills"
+                ]
+              }
+            `,
+          }}
+        />
+
         </Head>
         <Component {...pageProps} />
       </CL>
@@ -95,7 +120,7 @@ export default function MyApp({ Component, pageProps, router }) {
         <Head>
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-          <link rel="icon" href="/5bassets/favicon.png" />      
+          <link rel="icon" href="/5bassets/favicon.png" />
 
           <link rel="stylesheet" type="text/css" href="/5bassets/css/bootstrap.min.css" />
 
@@ -139,7 +164,7 @@ export default function MyApp({ Component, pageProps, router }) {
             }}
           />
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3EZ957QPRY"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-3EZ957QPRY"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -165,6 +190,7 @@ export default function MyApp({ Component, pageProps, router }) {
             }}
           />
           <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+
         </Head>
         <Component {...pageProps} />
       </FiveB>
@@ -244,7 +270,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/wileyassets/favicon.png" />
-  
+
 
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
 
@@ -316,7 +342,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-     
+
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -335,7 +361,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-    
+
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -354,7 +380,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-        
+
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -373,7 +399,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-   
+
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -390,7 +416,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-         
+
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -407,7 +433,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-       
+
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -424,7 +450,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-        
+
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -441,7 +467,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-  
+
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/globals.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/style.css" />
@@ -503,7 +529,7 @@ export default function MyApp({ Component, pageProps, router }) {
             }}
           />
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R93RP8FMVC"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-R93RP8FMVC"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -541,7 +567,7 @@ export default function MyApp({ Component, pageProps, router }) {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/efassets/favicon.png" />
-          
+
           <link rel="stylesheet" type="text/css" href="/wileyassets/css/bootstrap.min.css" />
 
           <link rel="stylesheet" type="text/css" href="/efassets/css/font-awesome.min.css" />
@@ -584,7 +610,7 @@ export default function MyApp({ Component, pageProps, router }) {
             }}
           />
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R93RP8FMVC"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-R93RP8FMVC"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -597,7 +623,7 @@ export default function MyApp({ Component, pageProps, router }) {
             }}
           />
 
-<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
               `,
@@ -831,7 +857,7 @@ export default function MyApp({ Component, pageProps, router }) {
     )
 
   }
-  
+
 
 
   else if (router.pathname.startsWith('/coaching/coaching-snapshot-marketing/')) {
@@ -993,7 +1019,7 @@ gtag('config', 'G-5PXTTR960E');
             }}
           />
 
-<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
               `,
@@ -1068,7 +1094,7 @@ gtag('config', 'G-5PXTTR960E');
     return (
       <Leaderbehaviourassessment>
         <Head>
-        <link rel="stylesheet" type="text/css" href="/assets/css/head.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/head.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/bootstrap.min.css" />
 
           <link rel="stylesheet" type="text/css" href="/efassets/css/font-awesome.min.css" />
@@ -1123,7 +1149,7 @@ gtag('config', 'G-5PXTTR960E');
     return (
       <Leaderbehaviourassessment>
         <Head>
-        <link rel="stylesheet" type="text/css" href="/assets/css/head.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/head.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/bootstrap.min.css" />
 
           <link rel="stylesheet" type="text/css" href="/efassets/css/font-awesome.min.css" />
@@ -1335,7 +1361,7 @@ gtag('config', 'G-5PXTTR960E');
             }}
           />
 
-<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
               `,
@@ -1357,7 +1383,7 @@ gtag('config', 'G-5PXTTR960E');
     return (
       <Leaderbehaviourassessment>
         <Head>
-        <link rel="stylesheet" type="text/css" href="/assets/css/head.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/head.css" />
           <link rel="stylesheet" type="text/css" href="/efassets/css/bootstrap.min.css" />
 
           <link rel="stylesheet" type="text/css" href="/efassets/css/font-awesome.min.css" />
@@ -1414,8 +1440,8 @@ gtag('config', 'G-5PXTTR960E');
     return (
       <BYLDNEW>
         <Head>
-          <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />          
-          
+          <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+
           <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />
 
           <link rel="stylesheet" type="text/css" href="/assets/fonts/flaticon.css" />
@@ -1512,7 +1538,7 @@ gtag('config', 'G-5PXTTR960E');
             }}
           />
 
-<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
               `,
@@ -1574,7 +1600,7 @@ gtag('config', 'G-5PXTTR960E');
             }}
           />
 
-<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
               `,
@@ -1636,7 +1662,7 @@ gtag('config', 'G-5PXTTR960E');
             }}
           />
 
-<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
               `,
@@ -1698,7 +1724,7 @@ gtag('config', 'G-5PXTTR960E');
             }}
           />
 
-<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
               `,
@@ -1760,7 +1786,7 @@ gtag('config', 'G-5PXTTR960E');
             }}
           />
 
-<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
               `,
@@ -1823,7 +1849,7 @@ gtag('config', 'G-5PXTTR960E');
             }}
           />
 
-<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
               `,
@@ -1838,7 +1864,7 @@ gtag('config', 'G-5PXTTR960E');
 
   }
 
-  
+
 
 
   else {
@@ -1888,7 +1914,7 @@ gtag('config', 'G-5PXTTR960E');
             }}
           />
 
-<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
               `,
@@ -1896,6 +1922,31 @@ gtag('config', 'G-5PXTTR960E');
           />
           <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
 
+          <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+                "@context": "https://schema.org",
+                "@type": "Corporation",
+                "name": "BYLD Group",
+                "url": "https://byldgroup.com/",
+                "logo": "https://byldgroup.com/assets/img/byld-logo.svg",
+                "sameAs": [
+                  "https://www.facebook.com/BYLDGroup",
+                  "https://twitter.com/BYLDGroup",
+                  "https://www.instagram.com/byld_group/",
+                  "https://www.youtube.com/@BYLDgroup",
+                  "https://www.linkedin.com/company/byld-group/",
+                  "",
+                  "https://in.pinterest.com/byldgroupindia/",
+                  "https://soundcloud.com/byld-group",
+                  "",
+                  "https://byldgroup.com/"
+                ]
+              }
+            `,
+            }}
+          />
         </Head>
         <Component {...pageProps} />
       </Layout>
