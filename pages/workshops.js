@@ -58,11 +58,11 @@ export default function Workshops(){
 
                     
 
-                    <div className='col-sm-4 d-none'>
+                    <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>February  17th, 2023</span>
+                                <span> April 27th - 28th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Crucial Life Changing Skills Online Workshop</h3>
