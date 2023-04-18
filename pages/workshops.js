@@ -73,6 +73,34 @@ export default function Workshops(){
 
                     
 
+                    
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>May 8th to 9th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>The SLII Experience™ - Virtual</h3>
+                                <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>May 10th to 11th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>The SLII Experience™ - T4T</h3>
+                                <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className='col-sm-4'>
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
@@ -82,19 +110,6 @@ export default function Workshops(){
                             <div className='eventbottom'>
                                 <h3>DISC Train-the-Trainer (TTT)</h3>
                                 <a target="_blank" className="eventbtn" href='/everythingdisc/everything-disc-ttt-vt-lp/'>Reserve Your Seat</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='col-sm-4'>
-                        <div className='eventsbox'>
-                            <div className='eventmiddle'>
-                                <img src="/assets/img/events.jpg" alt="" />
-                                <span>March 27th - 28th, 2023</span>
-                            </div>
-                            <div className='eventbottom'>
-                                <h3>The SLII Experience™ - Face to Face</h3>
-                                <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
                             </div>
                         </div>
                     </div>
@@ -141,9 +156,10 @@ export default function Workshops(){
                                         <div className="col-sm-6 mb-12">
                                             <select name="leadsquared_mx_Showed_Interest_in" required>
                                                 <option value="">Pick up any Slot*</option>                                                
-                                                {/* <option value="February 17th, 2023 - The Power of Habit">February 17th, 2023 - The Power of Habit</option> */}                                                
+                                                {/* <option value="February 17th, 2023 - The Power of Habit">February 17th, 2023 - The Power of Habit</option> */}
+                                                <option value="The SLII Experience™ - Virtual, May 8th to 9th, 2023">The SLII Experience™ - Virtual, May 8th to 9th, 2023</option>
+                                                <option value='The SLII Experience™ - T4T, May 10th to 11th, 2023'>The SLII Experience™ - T4T, May 10th to 11th, 2023</option>
                                                 <option value="15th - 19th May, 2023 - DISC Train-the-Trainer (TTT)">15th - 19th May, 2023 - DISC Train-the-Trainer (TTT)</option>
-                                                {/* <option value="March 27th - 28th, 2023 - The SLII Experience™ - Face to Face">March 27th - 28th, 2023 - The SLII Experience™ - Face to Face</option> */}
                                             </select>
                                         </div>
                                         <div className="col-sm-6 mb-12">
