@@ -2798,6 +2798,10 @@ table td {
   margin-top: 6px;
 }
 
+.result-bar-wrapperbig {
+  height: 30px;
+}
+
 .result-bar {
   width: 20px;
   height: 100%;
@@ -4237,4 +4241,39 @@ table td {
     display: inline-block;
     border-radius: 22px;
     margin-top: 10px;
+}
+
+
+.mradio input{
+  width: 25px;
+  height: 25px;
+}
+
+.mradio label{
+  font-size: 25px;
+  margin: 0px;
+  line-height: 34px;
+  font-weight: 300;
+  padding: 0px 20px 0px 10px;
+}
+
+.mradio .fcol1 h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  color: #1b6194;
+  padding-bottom: 9px;
+  line-height: 48px;
+}
+
+.assh3 {
+  font-size: 29px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.rco {
+  color: #2b70b3;
 }

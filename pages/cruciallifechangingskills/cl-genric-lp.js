@@ -109,6 +109,7 @@ export default function BrowseCourses() {
         xhttp.send("name=" + event.target.name.value +
             "&youremail=" + event.target.email.value +
             "&phone=" + event.target.phone.value +
+            "&designation=" + event.target.designation.value +
             "&company=" + event.target.organization.value)
     }
 
@@ -142,6 +143,10 @@ export default function BrowseCourses() {
 
                         <div class="col-md-12">
                             <input type="text" class="form-control" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name='designation' placeholder="Designation*" required />
                         </div>
 
                         <div class="col-md-12">
