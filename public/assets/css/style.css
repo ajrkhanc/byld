@@ -5015,19 +5015,19 @@ body .search-modal .close:hover {
   position: relative;
 }
 .rs-team-Single .btm-info-team .con-info .designation-info {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 26px;
-  font-weight: 600;
-  color: #2A6DB5;
-  text-transform: uppercase;
+  font-weight: 500;
+  color: #e88026;
+  /* text-transform: uppercase; */
   display: block;
 }
 .rs-team-Single .btm-info-team .con-info .title {
-  font-size: 36px;
   line-height: 46px;
-  font-weight: 700;
-  color: #0a0a0a;
+  font-weight: 500;
+  color: #3373af;
   margin-bottom: 15px;
+  font-size: 30px;
 }
 .rs-team-Single .btm-info-team .con-info .short-desc {
   font-size: 15px;

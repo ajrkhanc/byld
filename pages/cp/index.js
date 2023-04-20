@@ -358,7 +358,20 @@ export default function JoinOurPartnerNetworkLP() {
                                 </div>
                             </div>
                         </div>
+
                         <div className='col-sm-4'>
+                            <div className='teamf'>
+                                <div className='teamimgc'>
+                                    <img src="/assets/img/team/meghna.jpg" alt="image" />
+                                </div>
+                                <div className='teamfro'>
+                                    <h3>Meghna Goyal</h3>
+                                    <h4>Associate Director Sales (Ken Blanchard & Crucial Learning)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* <div className='col-sm-4'>
                             <div className='boxshd borderr mtt-30'>
                                 <div className="bannerform">
                                     <p className='cplpf'>Fill out the form below, and we will reach out to you within 24 hours.</p>
@@ -403,14 +416,14 @@ export default function JoinOurPartnerNetworkLP() {
                                     </form>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
 
 
 
-            {/* <section className='jopn1 ptt-50 pbb-50 cplps3'>
+            <section className='jopn1 ptt-50 pbb-50 cplps3'>
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-sm-12'>
@@ -473,7 +486,7 @@ export default function JoinOurPartnerNetworkLP() {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
 
             <section id='GetinTouch' className='ptt-50 pbb-70 cplps4'>
