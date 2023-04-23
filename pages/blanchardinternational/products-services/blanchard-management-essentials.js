@@ -2,8 +2,10 @@ import Link from "next/link";
 import Head from "next/head";
 
 export default function BlanchardManagementEssentials() {
+
     return (
         <>
+
         <Head>
         <title>Blanchard Management Essentials | New Managers</title>
         <meta name="description" content="The Blanchard Management Essentials® training can be delivered face-to-face, virtually, or as a combination of face-to-face, virtual, and online learning modalities."/>
@@ -45,14 +47,14 @@ export default function BlanchardManagementEssentials() {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/blanchard-management-essentials.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/blanchard-management-essentials.png"/></i>
                                                 <h3>60% OF THE NEW MANAGERS UNDERPERFORM</h3>
                                                 <p>prior to switching into the role of manager.*</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/first-time-manager-question-icon.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/first-time-manager-question-icon.png"/></i>
                                                 <h3>85% RECEIVE NO TRAINING</h3>
                                                 <p>prior to switching into the role of manager.*</p>
                                             </div>
@@ -60,7 +62,6 @@ export default function BlanchardManagementEssentials() {
                                         <h4 className="titleh3">Is Your New Crew Well-equipped?</h4>
                                         <div className="services-more-btn text-left">
                                             <a href="/get-started" className="default-btn-two">Get Started<i className="bx bx-right-arrow-alt"></i></a>
-                                                
                                         </div>
                                     </div>
                                     </div>

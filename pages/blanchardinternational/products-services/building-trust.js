@@ -45,7 +45,7 @@ export default function BuildingTrust() {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/icon-products-chain.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/icon-products-chain.png"/></i>
                                                 <p>                                                
                                                 <span className="blue">82% OF PEOPLE</span>  say they don’t trust their boss to tell the truth and <span className="blue">45% OF EMPLOYEES</span> say lack of trust in leadership is the biggest issue impacting their work performance.*</p>                                                
                                             </div>

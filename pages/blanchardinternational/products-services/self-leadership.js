@@ -45,7 +45,7 @@ function SelfLeadership() {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/sl-organizational-success-self-leadership-development.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/sl-organizational-success-self-leadership-development.png"/></i>
                                                 <p>
                                                 The proactive behavior of individual contributors can render long-term 
                                                 organizational success. <span className="blue"> 50% OF INDIVIDUAL

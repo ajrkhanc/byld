@@ -46,7 +46,7 @@ export default function CoachingEssentials() {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/coaching-skills-for-managers-step-icon.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/coaching-skills-for-managers-step-icon.png"/></i>
                                                 <p>                                                
                                                 Organizations that effectively prepare managers to coach are <span className="blue">130% MORE LIKELY TO
                                                 REALIZE STRONGER BUSINESS RESULTS</span> and <span className="blue">39% STRONGER EMPLOYEE RESULTS</span> through

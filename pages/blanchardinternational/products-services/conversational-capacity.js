@@ -46,7 +46,7 @@ export default function ConversationalCapacity() {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/sl-organizational-success-self-leadership-development.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/sl-organizational-success-self-leadership-development.png"/></i>
                                                 <p>                                                
                                                 Leaders spend about <span className="blue">80% OF THEIR WORKDAYS COMMUNICATING<sup>1</sup> .</span> <strong>But…</strong> On average, a person listens with only about <span className="blue">25% EFFICIENCY<sup>2</sup></span></p>
                                             </div>

@@ -66,7 +66,7 @@ export default function LegendaryService() {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/review.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/review.png"/></i>
                                                 <p>                                                
                                                 <span className="blue">IT COSTS 6-7 TIMES MORE TO ATTRACT A NEW CUSTOMER THAN TO RETAIN AN EXISTING CUSTOMER.</span>
                                                 
@@ -75,7 +75,7 @@ export default function LegendaryService() {
                                         </div>
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/ls-critical-customer-care-skills.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/ls-critical-customer-care-skills.png"/></i>
                                                 <p>Yet <span className="blue">89% OF CONSUMERS</span> began doing business with a competitor following a <span className="blue">POOR CUSTOMER SERVICE EXPERIENCE.**</span></p>                                                
                                             </div>
                                         </div>

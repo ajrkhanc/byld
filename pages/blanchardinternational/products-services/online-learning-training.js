@@ -112,7 +112,7 @@ export default function OnlineLearning() {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/ol-online-leadership-training-savings.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/ol-online-leadership-training-savings.png"/></i>
                                                 <p>                                                
                                                 eLearning can <span className="blue">SAVE BUSINESSES AT LEAST 50%</span> over traditional instructor-based training. <span className="blue">CUT INSTRUCTION TIME BY UP TO 60%, AND INCREASE INFORMATION RETENTION RATES UP TO 60%</span>
                                                 </p>                                                
@@ -120,7 +120,7 @@ export default function OnlineLearning() {
                                         </div>
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/ol-leadership-training-programs-productivity-boost.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/ol-leadership-training-programs-productivity-boost.png"/></i>
                                                 <p><span className="blue">EVERY $1</span> invested in online training results in <span className="blue">$30 IN PRODUCTIVITY.</span> Companies that use eLearning achieve an <span className="blue">18% BOOST IN EMPLOYEE ENGAGEMENT.*</span></p>                                                
                                             </div>
                                         </div>

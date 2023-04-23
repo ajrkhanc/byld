@@ -46,7 +46,7 @@ function LeadingPeopleThroughChange() {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/pc-icon-organization-change-failure.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/pc-icon-organization-change-failure.png"/></i>
                                                 <p>
                                                 <span className="blue">70% OF ALL CHANGE INITIATIVES FAIL.</span>  
                                                 <span className="blue"> WASTE TIME AND MONEY, LOWER PRODUCTIVITY AND MORALE, AND INCREASE EMPLOYEE TURNOVER.</span>

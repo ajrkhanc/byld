@@ -46,14 +46,14 @@ export default function TeamLeadership() {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/st-team-meetings-team-leadership-model.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/st-team-meetings-team-leadership-model.png"/></i>
                                                 <p>                                                
                                                 <span className="blue">54% OF PEOPLE</span>  spend up to <span className="blue">43% OF THEIR DAY IN TEAM MEETINGS</span> and another <span className="blue">34%</span> spend up to <span className="blue">50% OF THEIR TIME IN TEAM MEETINGS.*</span></p>                                                
                                             </div>
                                         </div>
                                         <div className="col-lg-12">
                                             <div className="case-studies-list">
-                                                <i className='hoverbgn'><img src="/kbassets/img/st-team-leadership-training-for-organizations.png'/></i>
+                                                <i className='hoverbgn'><img src="/kbassets/img/st-team-leadership-training-for-organizations.png"/></i>
                                                 <p>Yet <span className="blue">42% RARELY, IF EVER, RECEIVE TRAINING</span>  on how to lead teams.*</p>                                                
                                             </div>
                                         </div>
