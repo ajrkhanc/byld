@@ -18,7 +18,7 @@ function Footer() {
 
                   document.getElementById("showlabel").style.display = "block";
                   window.setTimeout(function() {
-                     window.location.href = "/thank-you-lp"
+                     window.location.href = "/blanchardinternational/thank-you-lp"
                   }, 3000);
 
               } else {
@@ -38,8 +38,8 @@ function Footer() {
                   <div className="col-lg-3 col-md-6">
                      <div className="footer-widget footer-widget-color1">
                         <div className="footer-logo">
-                           <Link href="/"><a>
-                           <img src="/assets/img/whitelogo.png" alt="Images"/>
+                           <Link href="/blanchardinternational/"><a>
+                           <img src="/kbassets/img/whitelogo.png" alt="Images"/>
                            </a>
                            </Link>
                         </div>

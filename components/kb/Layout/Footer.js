@@ -18,7 +18,7 @@ function Footer() {
 
                   document.getElementById("showlabel").style.display = "block";
                   window.setTimeout(function() {
-                     window.location.href = "/thank-you-lp"
+                     window.location.href = "/blanchardinternational/thank-you-lp"
                   }, 3000);
 
               } else {
@@ -38,8 +38,8 @@ function Footer() {
                   <div className="col-lg-3 col-md-6">
                      <div className="footer-widget footer-widget-color1">
                         <div className="footer-logo">
-                           <Link href="/"><a>
-                           <img src="/assets/img/whitelogo.png" alt="Images"/>
+                           <Link href="/blanchardinternational/"><a>
+                           <img src="/kbassets/img/whitelogo.png" alt="Images"/>
                            </a>
                            </Link>
                         </div>
@@ -83,32 +83,32 @@ function Footer() {
                         <h3>CONNECT</h3>
                         <ul className="footer-list">
                            <li>
-                              <Link href="/get-started" target="_blank">
+                              <Link href="/blanchardinternational/get-started" target="_blank">
                               Contact Us
                               </Link>
                            </li>
                            <li>
-                              <Link href="/get-started" target="_blank">
+                              <Link href="/blanchardinternational/get-started" target="_blank">
                               Request a Speaker
                               </Link>
                            </li>
                            <li>
-                              <Link href="/terms-and-conditions" target="_blank">
+                              <Link href="/blanchardinternational/terms-and-conditions" target="_blank">
                               Terms And Conditions
                               </Link>
                            </li>
                            <li>
-                              <Link href="/cancellation-and-refund-policy" target="_blank">
+                              <Link href="/blanchardinternational/cancellation-and-refund-policy" target="_blank">
                               Cancellation and Refund Policy
                               </Link>
                            </li>
                            <li>
-                              <Link href="/books" target="_blank">
+                              <Link href="/blanchardinternational/books" target="_blank">
                               Books
                               </Link>
                            </li>
                            <li>
-                              <Link href="/blanchard-privacy-policy" target="_blank">
+                              <Link href="/blanchardinternational/blanchard-privacy-policy" target="_blank">
                               Privacy Policy
                               </Link>
                            </li>
@@ -120,37 +120,37 @@ function Footer() {
                         <h3>PRODUCTS & SERVICES</h3>
                         <ul className="footer-list">
                            <li>
-                              <Link href="/products-services/slii-experience" target="_blank">
+                              <Link href="/blanchardinternational/products-services/slii-experience" target="_blank">
                               The SLII Experience™
                               </Link>
                            </li>
                            <li>
-                              <Link href="/products-services/blanchard-management-essentials" target="_blank">
+                              <Link href="/blanchardinternational/products-services/blanchard-management-essentials" target="_blank">
                               Blanchard Management Essentials
                               </Link>
                            </li>
                            <li>
-                              <Link href="/products-services/self-leadership" target="_blank">
+                              <Link href="/blanchardinternational/products-services/self-leadership" target="_blank">
                               Self Leadership
                               </Link>
                            </li>
                            <li>
-                              <Link href="/products-services/coaching-essentials" target="_blank">
+                              <Link href="/blanchardinternational/products-services/coaching-essentials" target="_blank">
                               Coaching Essentials
                               </Link>
                            </li>
                            <li>
-                              <Link href="/products-services/building-trust" target="_blank">
+                              <Link href="/blanchardinternational/products-services/building-trust" target="_blank">
                               Building Trust
                               </Link>
                            </li>
                            <li>
-                              <Link href="/products-services/leading-people-through-change" target="_blank">
+                              <Link href="/blanchardinternational/products-services/leading-people-through-change" target="_blank">
                               Leading People Through Change
                               </Link>
                            </li>
 						   <li>
-                              <Link href="/products-services/team-leadership" target="_blank">
+                              <Link href="/blanchardinternational/products-services/team-leadership" target="_blank">
                               Team Leadership
                               </Link>
                            </li>

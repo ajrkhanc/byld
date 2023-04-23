@@ -10,8 +10,8 @@ function Nav() {
      
         <div className="navbar-area formobile">  
         <div className="mobile-nav secoundh">
-            <a href="/" className="logo">
-            <img src="/assets/img/kb-logo.png" alt="Logo"/>
+            <a href="/blanchardinternational/" className="logo">
+            <img src="/kbassets/img/kb-logo.png" alt="Logo"/>
             </a>
            
          </div>        
@@ -19,7 +19,7 @@ function Nav() {
             <div className="container-fluid">
                <div className="container-max">
                <nav className="navbar navbar-expand-md navbar-light ptb0">
-                     <Link href="/"><a className="navbar-brand secoundheader"><img src="/assets/img/kb-logo.png" alt="Logo"/></a></Link>                     
+                     <Link href="/blanchardinternational/"><a className="navbar-brand secoundheader"><img src="/kbassets/img/kb-logo.png" alt="Logo"/></a></Link>                     
                      <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul className="navbar-nav m-auto ulfright">                          
                                         
