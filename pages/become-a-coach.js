@@ -18,7 +18,7 @@ export default function Home() {
         var phone = event.target.phone.value;
         var organization = event.target.organization.value;
         var designation = event.target.designation.value;
-        var Business_Entity = event.target.Business_Entity.value;
+        var Business_Entity = event.target.Business_Entity.value; 
 
         event.preventDefault()
         document.getElementById("submitbuttonform").value = "Submitting...."
