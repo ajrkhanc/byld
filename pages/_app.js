@@ -19,7 +19,7 @@ import Assessments from '../components/Assessments/Layout'
 import Coachinghead from '../components/Coachingheadc/Layout'
 import Coachingheadlp from '../components/Coachingheadclp/Layout'
 
-import Kblayout from '../components/kb/Layout/Layout'
+import Kblayout from '../components/kb/Layout/Layout' 
 
 
 
