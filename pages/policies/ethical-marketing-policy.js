@@ -52,7 +52,7 @@ export default function Home() {
                                         <a href='/policies/enrollment-agreement-for-actp-program-offered'>Enrollment Agreement Policy</a>
                                     </li>
                                     <li>
-                                        <a href='/about-us/newpage'>Go Back</a>
+                                        <a href='/become-a-coach'>Go Back</a>
                                     </li>
                                 </ul>
                         </div>

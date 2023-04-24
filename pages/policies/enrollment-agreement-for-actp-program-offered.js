@@ -133,7 +133,7 @@ export default function Home() {
                                         <a href='/policies/ethical-marketing-policy'>Ethical Marketing Practice</a>
                                     </li>
                                     <li>
-                                        <a href='/about-us/newpage'>Go Back</a>
+                                        <a href='/become-a-coach'>Go Back</a>
                                     </li>
                                 </ul>
                         </div>

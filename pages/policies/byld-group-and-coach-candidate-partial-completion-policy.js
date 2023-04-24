@@ -61,7 +61,7 @@ export default function Home() {
                                     </li>
 
                                     <li>
-                                        <a href='/about-us/newpage'>Go Back</a>
+                                        <a href='/become-a-coach'>Go Back</a>
                                     </li>
                                 </ul>
                         </div>
