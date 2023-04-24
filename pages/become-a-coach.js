@@ -859,7 +859,7 @@ export default function Home() {
                                     </li>
                                     <li>
                                         <a href='/policies/ethical-marketing-policy'>Ethical Marketing Practice</a>
-                                    </li>
+                                    </li> 
                                 </ul>
                             </div>
                         </div>
