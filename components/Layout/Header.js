@@ -84,7 +84,7 @@ export default function Header() {
                                                             <li className="last-item menu-item-has-children">
                                                                 <a href="/our-solutions/leadership-and-talent-development">Leadership & Performance</a>
                                                                 <ul className="sub-menu">
-                                                                    <li><a target="_blank" href="https://blanchardinternational.co.in/">Blanchard India</a></li>
+                                                                    <li><a target="_blank" href="/blanchardinternational">Blanchard India</a></li>
                                                                     <li><a target="_blank" href="/cruciallifechangingskills/">Crucial Life Changing Skills</a></li>
                                                                     <li><a href='/tirian'>Tirian</a></li>
                                                                     <li><a href="/leadership-and-performance/trapologist">Trapologist at Work™</a></li>
@@ -276,7 +276,7 @@ export default function Header() {
                                     <li className="last-item menu-item-has-children">
                                         <a href="/our-solutions/leadership-and-talent-development">Leadership & Performance</a>
                                         <ul className="sub-menu">
-                                            <li><a target="_blank" href="https://blanchardinternational.co.in/">Blanchard India</a></li>
+                                            <li><a target="_blank" href="/blanchardinternational">Blanchard India</a></li>
                                             <li><a target="_blank" href="/cruciallifechangingskills/">Crucial Life Changing Skills</a></li>
                                             <li><a href='/tirian'>Tirian</a></li>
                                             <li><a href="/leadership-and-performance/trapologist">Trapologist at Work™</a></li>
