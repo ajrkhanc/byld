@@ -16,23 +16,23 @@
 
 
 body {
-    font-family: "BwDarius" !important;
+
 }
 
 /* menu */
 .nav-menu a {
-    font-family: "BwDarius" !important;
+  
 }
 
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a {
-    font-size: 14px !important;
+    font-size: 16px !important;
 }
 
 html,
 body {
     font-size: 16px;
     color: #454545;
-    font-family: "BwDarius";
+    
     vertical-align: baseline;
     line-height: 1.7;
     font-weight: 400;
@@ -55,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "BwDarius" !important;
+    
     color: #0a0a0a;
     margin: 0 0 26px;
     line-height: 1.2;
@@ -821,7 +821,7 @@ h6 {
 
 .innerteamc .team-info .post {
     color: #e88026;
-    font-size: 14px;
+    font-size: 17px;
     padding: 0px;
     padding-top: 0px;
     overflow: hidden;
@@ -840,7 +840,7 @@ h6 {
 }
 
 .teampera p {
-    font-size: 14px;
+    font-size: 17px;
     color: #000;
 }
 
@@ -1017,7 +1017,7 @@ h6 {
 }
 
 .eventi{
-    font-size: 16px;
+    font-size: 18px;
     color: #3373af;
 }
 
@@ -1031,12 +1031,12 @@ h6 {
 
 .booknowside{
     float: right;
-    padding: 10px;
+    padding: 0px 10px 0px 10px;
     background: #e88026;
     height: 100%;
     display: inline-block;
-    width: 40px;
-    min-width: 40px;
+    width: 43px;
+    min-width: 43px;
     height: auto;
     position: relative;
     min-height: 112px;
@@ -1058,6 +1058,7 @@ h6 {
     overflow: hidden;
     margin-bottom: 22px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    cursor: pointer;
 }
 
 .datefont{
@@ -1066,7 +1067,7 @@ h6 {
 }
 
 .zindexxc{
-    z-index: 9999;
+    z-index: 99;
 }
 .modileshdc{
   
@@ -1088,6 +1089,48 @@ h6 {
 
 .oveflohh{
     overflow: hidden;
+}
+
+.dddddds{
+    display: block;
+    overflow: hidden;
+    z-index: 999999999999999;
+}
+.zinc{
+    position: relative;
+}
+.ccmdc{
+    max-width: 550px !important;
+    top: 12%;
+}
+
+.mpolicyes li{
+    float: left;
+    padding: 20px 7px;
+}
+
+.mpolicyes li a{
+    background: #3373ae;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 28px;
+}
+
+.policyh4{
+    color: #e88026;
+    font-weight: 500;
+    font-size: 30px;    
+    padding-left: 25px;
+}
+
+.ddc:before{
+    transform: rotate(90deg) !important;
+    top: -45% !important;
+}
+
+.ddc::after{
+    transform: rotate(90deg) !important;
+    top: -45% !important;
 }
 
 /* Policyes */
@@ -1122,7 +1165,7 @@ h6 {
 }
 
 .policyeslist p{
-    font-size: 15px;
+    font-size: 18px;
     line-height: 32px;}
 
 
