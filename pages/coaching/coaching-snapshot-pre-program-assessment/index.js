@@ -149,7 +149,7 @@ export default function BrowseCourses() {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-12 text-center'>
-                            <h2 className='cacoh'>Career Coaching Snapshot</h2>
+                            <h2 className='cacoh'>Coaching Snapshot</h2>
                             <p>Select the number that best represents the extent to which you do the following (Use the line chart below as a guide.):</p>
                             <div className='clearfix'></div>
                             <div className='mainlinec'>
