@@ -16,6 +16,7 @@ import BYLDNEW from '../components/byld-new/Layout'
 import Experientiallearning from '../components/experiential-learning/Layout'
 import Jenson8 from '../components/jenson8/Layout'
 import Assessments from '../components/Assessments/Layout'
+import Bespoke from '../components/Bespoke/Layout'
 import Coachinghead from '../components/Coachingheadc/Layout'
 import Coachingheadlp from '../components/Coachingheadclp/Layout'
 
@@ -1861,6 +1862,56 @@ gtag('config', 'G-5PXTTR960E');
 
   }
 
+else if (router.pathname.startsWith('/bespoke')) {
+
+    return (
+      <Bespoke>
+        <Head>
+          <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/fonts/flaticon.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/animate.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/off-canvas.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/magnific-popup.css" />
+
+          <link rel="stylesheet" href="/assets/css/rsmenu-main.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/nivo-slider.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/inc/custom-slider/css/preview.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/rs-spacing.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+
+          <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/globals.css" />
+          <link rel="stylesheet" type="text/css" href="/assets/css/bg.css" />
+
+          <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+          
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `var chatbot_id=12480;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();
+              `,
+            }}
+          />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+          
+        </Head>
+        <Component {...pageProps} />
+      </Bespoke>
+    )
+
+  }
 
   else if (router.pathname.startsWith('/icf-new')) {
 
